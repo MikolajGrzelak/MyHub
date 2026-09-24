@@ -26,6 +26,7 @@
       <a class="section-tab {% if section == 'news' %}active{% endif %}" href="/?section=news">📰 News</a>
       <a class="section-tab {% if section == 'reddit' %}active{% endif %}" href="/?section=reddit">👽 Reddit</a>
       <a class="section-tab {% if section == 'youtube' %}active{% endif %}" href="/?section=youtube">▶️ YouTube</a>
+      <a class="section-tab {% if section == 'deal' %}active{% endif %}" href="/?section=deal">🏷️ Okazje</a>
       <a class="section-tab {% if section == 'priority' %}active{% endif %}" href="/?section=priority">🔥 Dla Ciebie</a>
     </div>
 
@@ -81,6 +82,14 @@
 
           {% if item.matched_keywords %}
             <div class="match">🔥 Match: {{ item.matched_keywords|join(', ') }}</div>
+          {% endif %}
+
+          {% if item.source_type == 'deal' %}
+            <div class="deal-info">
+              {% if item.price %}<span class="deal-price">{{ item.price }}</span>{% endif %}
+              {% if item.temperature %}<span class="deal-temp">{{ item.temperature }}°</span>{% endif %}
+              <span class="deal-active">aktywna</span>
+            </div>
           {% endif %}
 
           {% if item.language == 'pl' %}
