@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import html
+import json
 import re
 import sys
 from datetime import datetime, timezone
@@ -14,9 +15,10 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from db import init_db, upsert_item
 from feeds import FEEDS
 
+DATA_DIR = ROOT / "data"
+FEED_PATH = DATA_DIR / "feed.json"
 
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
@@ -49,25 +51,33 @@ def published_iso(entry) -> str:
 
 
 def make_external_id(source: str, entry) -> str:
-    stable = entry.get("id") or entry.get("guid") or entry.get("link") or entry.get("title", "")
-    digest = hashlib.sha256(f"{source}|{stable}".encode("utf-8")).hexdigest()
-    return digest
+    stable = (
+        entry.get("id")
+        or entry.get("guid")
+        or entry.get("link")
+        or entry.get("title", "")
+    )
+    return hashlib.sha256(f"{source}|{stable}".encode("utf-8")).hexdigest()
 
 
-def collect_feed(feed) -> int:
+def collect_feed(feed) -> list[dict]:
     parsed = feedparser.parse(
         feed["url"],
-        request_headers={"User-Agent": "MyHub/0.1 (+https://myhub.pythonanywhere.com)"},
+        request_headers={
+            "User-Agent": "Mozilla/5.0 (compatible; MyHub/0.2; +https://myhub.pythonanywhere.com)"
+        },
     )
 
     if parsed.bozo and not parsed.entries:
         print(f"[ERROR] {feed['name']}: {parsed.bozo_exception}")
-        return 0
+        return []
 
-    count = 0
+    items = []
+
     for entry in parsed.entries[:50]:
         link = entry.get("link")
         title = clean_text(entry.get("title"), 220)
+
         if not link or not title:
             continue
 
@@ -77,9 +87,9 @@ def collect_feed(feed) -> int:
             or (entry.get("content") or [{}])[0].get("value", "")
         )
 
-        upsert_item(
+        items.append(
             {
-                "external_id": make_external_id(feed["name"], entry),
+                "id": make_external_id(feed["name"], entry),
                 "source": feed["name"],
                 "category": feed["category"],
                 "title": title,
@@ -88,16 +98,54 @@ def collect_feed(feed) -> int:
                 "published_at": published_iso(entry),
             }
         )
-        count += 1
 
-    print(f"[OK] {feed['name']}: {count} items")
-    return count
+    print(f"[OK] {feed['name']}: {len(items)} items")
+    return items
+
+
+def read_existing() -> list[dict]:
+    if not FEED_PATH.exists():
+        return []
+
+    try:
+        with FEED_PATH.open("r", encoding="utf-8") as f:
+            return json.load(f).get("items", [])
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def write_feed(items: list[dict]):
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    unique = {}
+    for item in items:
+        unique[item["id"]] = item
+
+    ordered = sorted(
+        unique.values(),
+        key=lambda item: item.get("published_at", ""),
+        reverse=True,
+    )[:250]
+
+    payload = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(ordered),
+        "items": ordered,
+    }
+
+    with FEED_PATH.open("w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    print(f"[SAVE] {len(ordered)} unique items -> {FEED_PATH}")
 
 
 def main():
-    init_db()
-    total = sum(collect_feed(feed) for feed in FEEDS)
-    print(f"Done. Processed {total} items.")
+    fresh = []
+    for feed in FEEDS:
+        fresh.extend(collect_feed(feed))
+
+    write_feed(read_existing() + fresh)
+    print(f"Done. Collected {len(fresh)} fresh items.")
 
 
 if __name__ == "__main__":
