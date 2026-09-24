@@ -32,8 +32,8 @@ jobs:
 
       - name: Collect and enrich feeds
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          MYHUB_SUMMARY_MODEL: gpt-5.6-luna
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MYHUB_SUMMARY_MODEL: gemini-3.8-flash
           MYHUB_MAX_AI_ITEMS: "15"
         run: python collectors/rss.py
 
