@@ -10,7 +10,7 @@ import time
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import quote_plus, urljoin, urlparse
 
 import feedparser
 import requests
@@ -26,6 +26,7 @@ from feeds import SOURCES, REDDIT_SUBREDDITS, REDDIT_KEYWORDS, YOUTUBE_CHANNELS
 
 DATA_DIR = ROOT / "data"
 FEED_PATH = DATA_DIR / "feed.json"
+DEAL_KEYWORDS_PATH = DATA_DIR / "deal_keywords.json"
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.5-flash-lite")
@@ -324,6 +325,181 @@ def collect_youtube() -> list[dict]:
     return items
 
 
+
+def read_deal_keywords() -> list[str]:
+    try:
+        payload = json.loads(DEAL_KEYWORDS_PATH.read_text(encoding="utf-8"))
+        return [
+            clean_text(str(value), 80)
+            for value in payload.get("keywords", [])
+            if clean_text(str(value), 80)
+        ]
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def looks_inactive(text: str) -> bool:
+    lowered = text.lower()
+    markers = [
+        "okazja zakończona",
+        "ta okazja wygasła",
+        "oferta wygasła",
+        "promocja zakończona",
+        "zakończono",
+        "wygasła",
+        "expired",
+    ]
+    return any(marker in lowered for marker in markers)
+
+
+def extract_price(text: str) -> str:
+    patterns = [
+        r"(\d[\d\s.,]*\s*zł)",
+        r"(\$\s*\d[\d\s.,]*)",
+        r"(\d[\d\s.,]*\s*€)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.I)
+        if match:
+            return clean_text(match.group(1), 40)
+    return ""
+
+
+def extract_temperature(text: str) -> str:
+    match = re.search(r"(-?\d{1,5})\s*°", text)
+    return match.group(1) if match else ""
+
+
+def collect_pepper_deals(keywords: list[str]) -> list[dict]:
+    found = {}
+    for index, keyword in enumerate(keywords):
+        if index:
+            time.sleep(1.5)
+        search_url = f"https://www.pepper.pl/search?q={quote_plus(keyword)}"
+        try:
+            response = requests.get(search_url, headers=HEADERS, timeout=20)
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            print(f"[DEAL ERROR] Pepper {keyword}: {exc}")
+            continue
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            href = a.get("href", "")
+            if "/promocje/" not in href:
+                continue
+            url = urljoin("https://www.pepper.pl", href)
+            title = clean_text(a.get_text(" ", strip=True), 220)
+            if len(title) < 12:
+                continue
+            found[url] = {"title": title, "keyword": keyword}
+
+    items = []
+    for index, (url, meta) in enumerate(list(found.items())[:40]):
+        if index:
+            time.sleep(1)
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=20)
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            print(f"[DEAL ERROR] Pepper detail: {exc}")
+            continue
+
+        page = BeautifulSoup(response.text, "html.parser")
+        text = clean_text(page.get_text(" ", strip=True), 5000)
+        if looks_inactive(text):
+            continue
+
+        title = clean_text(
+            (page.find("h1").get_text(" ", strip=True) if page.find("h1") else meta["title"]),
+            220,
+        )
+        items.append({
+            "id": make_id("Pepper", url),
+            "source": "Pepper",
+            "source_type": "deal",
+            "category": "Okazje",
+            "language": "pl",
+            "title": title,
+            "summary": "",
+            "url": url,
+            "published_at": datetime.now(timezone.utc).isoformat(),
+            "matched_keywords": [meta["keyword"]],
+            "price": extract_price(text),
+            "temperature": extract_temperature(text),
+            "active": True,
+        })
+
+    print(f"[OK] Pepper: {len(items)} active deals")
+    return items
+
+
+def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
+    found = {}
+    blocked_paths = ("/category/", "/tag/", "/author/", "/page/", "/kontakt", "/regulamin")
+    for index, keyword in enumerate(keywords):
+        if index:
+            time.sleep(1)
+        search_url = f"https://www.lowcychin.pl/?s={quote_plus(keyword)}"
+        try:
+            response = requests.get(search_url, headers=HEADERS, timeout=20)
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            print(f"[DEAL ERROR] LowcyChin {keyword}: {exc}")
+            continue
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        for heading in soup.find_all(["h2", "h3"]):
+            a = heading.find("a", href=True)
+            if not a:
+                continue
+            url = urljoin("https://www.lowcychin.pl", a["href"])
+            parsed = urlparse(url)
+            if parsed.netloc not in {"lowcychin.pl", "www.lowcychin.pl"}:
+                continue
+            if any(part in parsed.path for part in blocked_paths):
+                continue
+            title = clean_text(a.get_text(" ", strip=True), 220)
+            if len(title) < 12:
+                continue
+            found[url] = {"title": title, "keyword": keyword}
+
+    items = []
+    for index, (url, meta) in enumerate(list(found.items())[:40]):
+        if index:
+            time.sleep(0.8)
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=20)
+            response.raise_for_status()
+        except requests.RequestException:
+            continue
+
+        page = BeautifulSoup(response.text, "html.parser")
+        text = clean_text(page.get_text(" ", strip=True), 5000)
+        if looks_inactive(text):
+            continue
+
+        h1 = page.find("h1")
+        title = clean_text(h1.get_text(" ", strip=True) if h1 else meta["title"], 220)
+        items.append({
+            "id": make_id("LowcyChin", url),
+            "source": "ŁowcyChin",
+            "source_type": "deal",
+            "category": "Okazje",
+            "language": "pl",
+            "title": title,
+            "summary": "",
+            "url": url,
+            "published_at": datetime.now(timezone.utc).isoformat(),
+            "matched_keywords": [meta["keyword"]],
+            "price": extract_price(text),
+            "active": True,
+        })
+
+    print(f"[OK] ŁowcyChin: {len(items)} active deals")
+    return items
+
+
 def read_existing() -> list[dict]:
     if not FEED_PATH.exists():
         return []
@@ -334,17 +510,22 @@ def read_existing() -> list[dict]:
         return []
 
 def merge_items(existing: list[dict], fresh: list[dict]) -> list[dict]:
-    merged = {item["id"]: item for item in existing}
+    # Deals are ephemeral: only active deals seen in the current run survive.
+    merged = {
+        item["id"]: item
+        for item in existing
+        if item.get("source_type") != "deal"
+    }
     for item in fresh:
         previous = merged.get(item["id"], {})
         preserve = {}
         for key in ("summary_pl", "tags"):
             if previous.get(key):
                 preserve[key] = previous[key]
-        if previous.get("published_at") and item.get("language") == "pl":
+        if previous.get("published_at") and item.get("language") == "pl" and item.get("source_type") != "deal":
             item["published_at"] = previous["published_at"]
         merged[item["id"]] = {**item, **preserve}
-    return sorted(merged.values(), key=lambda item: item.get("published_at",""), reverse=True)[:350]
+    return sorted(merged.values(), key=lambda item: item.get("published_at",""), reverse=True)[:450]
 
 def enrich_with_ai(items: list[dict]) -> int:
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -425,6 +606,10 @@ def main():
             fresh.extend(collect_html(source))
     fresh.extend(collect_reddit())
     fresh.extend(collect_youtube())
+
+    deal_keywords = read_deal_keywords()
+    fresh.extend(collect_pepper_deals(deal_keywords))
+    fresh.extend(collect_lowcychin_deals(deal_keywords))
 
     items = merge_items(read_existing(), fresh)
     before_filter = len(items)
