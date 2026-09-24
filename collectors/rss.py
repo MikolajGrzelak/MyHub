@@ -894,9 +894,10 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
     """Hybrid Pepper collector.
 
     Discovery uses Pepper's HTML search so keyword matches are not limited to the
-    small GraphQL newest-feed window. Structured GraphQL is used only to enrich
-    deals whose exact threadId is present there. If we cannot verify a price via
-    GraphQL, price stays blank rather than guessing from HTML.
+    small GraphQL newest-feed window. Structured GraphQL is used when available.
+    Deals outside that window are accepted only after their exact detail page is
+    fetched and confirms that the offer is not expired. Source publication time
+    must also be recoverable; collection time is never used as publication time.
     """
     # 1) Discover matching deals by keyword using Pepper search pages.
     search_urls = {
@@ -958,22 +959,51 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
     except Exception as exc:
         print(f"[PEPPER API WARN] structured enrichment unavailable: {exc}")
 
-    # 3) Build deals from HTML discovery. Never infer price from HTML.
+    # 3) GraphQL does not cover every search result. Verify the exact Pepper
+    # detail page for every remaining candidate. If Pepper blocks/fails the
+    # request, fail closed: an unverified deal must not be shown as active.
+    detail_urls = [
+        meta["url"]
+        for thread_id, meta in found.items()
+        if thread_id not in structured
+    ]
+    detail_pages = _parallel_fetch(detail_urls, workers=8)
+
     items = []
-    now = datetime.now(timezone.utc).isoformat()
+    rejected_expired = 0
+    rejected_unverified = 0
+    rejected_undated = 0
 
     for thread_id, meta in found.items():
         thread = structured.get(thread_id)
+        detail_soup = None
 
         if thread:
             if thread.get("isExpired"):
+                rejected_expired += 1
                 continue
             status = str(thread.get("status") or "").lower()
             if status and status not in {"activated", "active"}:
+                rejected_expired += 1
+                continue
+        else:
+            body = detail_pages.get(meta["url"])
+            if not body:
+                rejected_unverified += 1
+                continue
+
+            detail_soup = BeautifulSoup(body, "html.parser")
+            visible_text = detail_soup.get_text(" ", strip=True)
+            # Check both rendered text and raw HTML because Pepper can expose
+            # expiry state in embedded page data rather than a visible banner.
+            if looks_inactive(visible_text) or looks_inactive(body):
+                rejected_expired += 1
                 continue
 
         title = clean_text(
-            (thread or {}).get("title") or meta["title"],
+            (thread or {}).get("title")
+            or (extract_article_title(detail_soup) if detail_soup else "")
+            or meta["title"],
             260,
         )
         url = (thread or {}).get("url") or meta["url"]
@@ -983,8 +1013,13 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
         published_at = (
             _pepper_timestamp((thread or {}).get("publishedAt"))
             or _pepper_timestamp((thread or {}).get("createdAt"))
-            or now
+            or (extract_published_from_soup(detail_soup) if detail_soup else None)
         )
+        if not published_at:
+            # Do not fake freshness with datetime.now(). A missing source date
+            # would make an old search result look newly published in MyHub.
+            rejected_undated += 1
+            continue
 
         price = _format_pln((thread or {}).get("price")) if thread else ""
         old_price = _format_pln((thread or {}).get("nextBestPrice")) if thread else ""
@@ -1021,11 +1056,14 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "merchant": ((thread or {}).get("merchant") or {}).get("merchantName", ""),
             "thumbnail_url": image_url,
             "price_verified": bool(thread),
+            "status_verified": True,
         })
 
     print(
-        f"[OK] Pepper hybrid: {len(items)} keyword deals; "
-        f"{sum(1 for item in items if item.get('price_verified'))} structured/verified"
+        f"[OK] Pepper hybrid: {len(items)} active keyword deals; "
+        f"{sum(1 for item in items if item.get('price_verified'))} structured/price-verified; "
+        f"rejected expired={rejected_expired}, unverified={rejected_unverified}, "
+        f"undated={rejected_undated}"
     )
     return items
 
