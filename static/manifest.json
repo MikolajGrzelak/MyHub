@@ -1,0 +1,9 @@
+{
+  "name": "MyHub",
+  "short_name": "MyHub",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#111111",
+  "description": "Personal gaming and technology hub"
+}
