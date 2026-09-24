@@ -14,6 +14,7 @@
   <title>MyHub</title>
 </head>
 <body>
+  <div class="pull-refresh" id="pullRefresh">Pociągnij, aby odświeżyć</div>
   <main class="app-shell">
     <header class="app-header">
       <div>
@@ -169,6 +170,40 @@
         window.location.href = card.dataset.url;
       });
     });
+
+    // Native-feeling pull to refresh for standalone iOS PWA.
+    let pullStartY = null;
+    let pullTriggered = false;
+    const pullRefresh = document.getElementById("pullRefresh");
+
+    document.addEventListener("touchstart", event => {
+      if (window.scrollY <= 0 && event.touches.length === 1) {
+        pullStartY = event.touches[0].clientY;
+        pullTriggered = false;
+      }
+    }, { passive: true });
+
+    document.addEventListener("touchmove", event => {
+      if (pullStartY === null || window.scrollY > 0) return;
+      const distance = event.touches[0].clientY - pullStartY;
+      if (distance > 35) {
+        pullRefresh.classList.add("visible");
+        pullRefresh.textContent = distance >= 85 ? "Puść, aby odświeżyć" : "Pociągnij, aby odświeżyć";
+        pullTriggered = distance >= 85;
+      }
+    }, { passive: true });
+
+    document.addEventListener("touchend", () => {
+      if (pullStartY === null) return;
+      if (pullTriggered) {
+        pullRefresh.textContent = "Odświeżam…";
+        window.location.reload();
+      } else {
+        pullRefresh.classList.remove("visible");
+      }
+      pullStartY = null;
+      pullTriggered = false;
+    }, { passive: true });
 
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => navigator.serviceWorker.register("/static/service-worker.js"));
