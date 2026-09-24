@@ -891,54 +891,112 @@ def _pepper_graphql_threads(limit: int = 100) -> list[dict]:
 
 
 def collect_pepper_deals(keywords: list[str]) -> list[dict]:
-    """Collect Pepper deals from its structured GraphQL feed.
+    """Hybrid Pepper collector.
 
-    One chronological GraphQL request is fetched, then keyword matching happens
-    locally. This avoids scraping prices from deal pages and avoids one search
-    request per keyword.
+    Discovery uses Pepper's HTML search so keyword matches are not limited to the
+    small GraphQL newest-feed window. Structured GraphQL is used only to enrich
+    deals whose exact threadId is present there. If we cannot verify a price via
+    GraphQL, price stays blank rather than guessing from HTML.
     """
+    # 1) Discover matching deals by keyword using Pepper search pages.
+    search_urls = {
+        f"https://www.pepper.pl/search?q={quote_plus(keyword)}": keyword
+        for keyword in keywords
+    }
+    search_pages = _parallel_fetch(list(search_urls), workers=6)
+
+    found = {}
+    thread_id_re = re.compile(r"-(\d+)(?:[/?#]|$)")
+
+    for search_url, body in search_pages.items():
+        keyword = search_urls[search_url]
+        soup = BeautifulSoup(body, "html.parser")
+
+        anchors = soup.find_all("a", href=True)
+        for a in anchors:
+            href = a.get("href", "")
+            if "/promocje/" not in href:
+                continue
+
+            url = urljoin("https://www.pepper.pl", href)
+            match = thread_id_re.search(url)
+            if not match:
+                continue
+            thread_id = match.group(1)
+
+            title = (
+                a.get("title")
+                or clean_text(a.get_text(" ", strip=True), 260)
+            )
+            title = clean_text(title, 260)
+            if len(title) < 10:
+                continue
+
+            meta = found.setdefault(
+                thread_id,
+                {
+                    "thread_id": thread_id,
+                    "title": title,
+                    "url": url,
+                    "keywords": [],
+                },
+            )
+            if keyword not in meta["keywords"]:
+                meta["keywords"].append(keyword)
+
+    # 2) Get structured Pepper data. Pepper currently caps this endpoint to a
+    # small newest-feed window; enrich only exact thread IDs from that response.
+    structured = {}
     try:
         threads = _pepper_graphql_threads(limit=100)
+        structured = {
+            str(thread.get("threadId")): thread
+            for thread in threads
+            if thread.get("threadId") is not None
+        }
+        print(f"[PEPPER API] structured rows available: {len(structured)}")
     except Exception as exc:
-        print(f"[PEPPER API ERROR] {exc}")
-        return []
+        print(f"[PEPPER API WARN] structured enrichment unavailable: {exc}")
 
-    normalized_keywords = [(keyword, keyword.lower()) for keyword in keywords]
+    # 3) Build deals from HTML discovery. Never infer price from HTML.
     items = []
+    now = datetime.now(timezone.utc).isoformat()
 
-    for thread in threads:
-        if thread.get("isExpired"):
-            continue
-        status = str(thread.get("status") or "").lower()
-        if status and status not in {"activated", "active"}:
-            continue
+    for thread_id, meta in found.items():
+        thread = structured.get(thread_id)
 
-        title = clean_text(thread.get("title"), 260)
-        description = clean_text(thread.get("description"), 900)
-        haystack = f"{title} {description}".lower()
+        if thread:
+            if thread.get("isExpired"):
+                continue
+            status = str(thread.get("status") or "").lower()
+            if status and status not in {"activated", "active"}:
+                continue
 
-        matched = [
-            original
-            for original, lowered in normalized_keywords
-            if lowered in haystack
-        ]
-        if not matched:
-            continue
-
-        url = thread.get("url") or ""
+        title = clean_text(
+            (thread or {}).get("title") or meta["title"],
+            260,
+        )
+        url = (thread or {}).get("url") or meta["url"]
         if url.startswith("/"):
             url = urljoin("https://www.pepper.pl", url)
-        if not url or not title:
-            continue
 
         published_at = (
-            _pepper_timestamp(thread.get("publishedAt"))
-            or _pepper_timestamp(thread.get("createdAt"))
-            or datetime.now(timezone.utc).isoformat()
+            _pepper_timestamp((thread or {}).get("publishedAt"))
+            or _pepper_timestamp((thread or {}).get("createdAt"))
+            or now
         )
 
-        main_image = thread.get("mainImage") or {}
+        price = _format_pln((thread or {}).get("price")) if thread else ""
+        old_price = _format_pln((thread or {}).get("nextBestPrice")) if thread else ""
+        temperature = ""
+        if thread and thread.get("temperature") is not None:
+            try:
+                temperature = str(round(float(thread["temperature"])))
+            except (TypeError, ValueError):
+                temperature = ""
+
         image_url = ""
+        main_image = (thread or {}).get("mainImage") or {}
         if main_image.get("path") and main_image.get("name"):
             image_url = (
                 f"https://static.pepper.pl/{main_image['path']}/{main_image['name']}"
@@ -946,7 +1004,7 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             )
 
         items.append({
-            "id": make_id("Pepper", str(thread.get("threadId") or url)),
+            "id": make_id("Pepper", thread_id),
             "source": "Pepper",
             "source_type": "deal",
             "category": "Okazje",
@@ -955,21 +1013,19 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "summary": "",
             "url": url,
             "published_at": published_at,
-            "matched_keywords": matched,
-            "price": _format_pln(thread.get("price")),
-            "old_price": _format_pln(thread.get("nextBestPrice")),
-            "temperature": (
-                str(round(float(thread["temperature"])))
-                if thread.get("temperature") is not None else ""
-            ),
+            "matched_keywords": meta["keywords"],
+            "price": price,
+            "old_price": old_price,
+            "temperature": temperature,
             "active": True,
-            "merchant": (thread.get("merchant") or {}).get("merchantName", ""),
+            "merchant": ((thread or {}).get("merchant") or {}).get("merchantName", ""),
             "thumbnail_url": image_url,
+            "price_verified": bool(thread),
         })
 
     print(
-        f"[OK] Pepper GraphQL: {len(items)} matching active deals "
-        f"from {len(threads)} newest threads"
+        f"[OK] Pepper hybrid: {len(items)} keyword deals; "
+        f"{sum(1 for item in items if item.get('price_verified'))} structured/verified"
     )
     return items
 
