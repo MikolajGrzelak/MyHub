@@ -154,12 +154,12 @@
     document.querySelectorAll("[data-date]").forEach(el => {
       const date = new Date(el.dataset.date);
       if (!Number.isNaN(date.valueOf())) {
-        const now = new Date();
-        const diff = Math.max(0, now - date);
-        const mins = Math.floor(diff / 60000);
-        if (mins < 60) el.textContent = mins < 2 ? "teraz" : mins + " min";
-        else if (mins < 1440) el.textContent = Math.floor(mins / 60) + " h";
-        else el.textContent = date.toLocaleDateString("pl-PL", {day:"numeric", month:"short"});
+        el.textContent = date.toLocaleString("pl-PL", {
+          day: "2-digit",
+          month: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit"
+        });
       }
     });
 
