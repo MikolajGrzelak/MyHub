@@ -1,827 +1,149 @@
 {
-  "updated_at": "2026-09-24T10:20:21.525702+00:00",
-  "count": 217,
+  "updated_at": "2026-09-24T10:35:13.958622+00:00",
+  "count": 246,
   "items": [
     {
-      "id": "7e5d2ae9474eae6c6d560acd2409b944e5ce2d73ccbb880d1224468033e1faed",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
+      "id": "2603332de7fb7a744340abf77a413fee906b860eaad6957cadc10daa23571430",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
       "language": "pl",
-      "title": "Gamepad 8BitDo Ultimate-3-Mode do Xboxa i PC za $73.9 / ~278zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/8bitdo-ultimate-3-mode/",
-      "published_at": "2026-09-24T10:20:15.223022+00:00",
-      "matched_keywords": [
-        "pad Xbox"
-      ],
-      "price": "278zł",
-      "active": true
+      "title": "Gry 272V Pilne 30 Gry 272V Pilne 30 Narzekamy na PlayStation, a to Xbox zamyka więcej studiów. Jest pełne podsumowanie XPC PC Dzisiaj, 11:16",
+      "summary": "W sieci od miesięcy nie cichną głosy krytyki wymierzone w PlayStation Studios za zamykanie kolejnych podległych ekip, lecz to, co dzieje się u bezpośredniego rywala Sony, zakrawa na bezprecedensowy demontaż struktur deweloperskich.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427769/narzekamy-na-playstation-a-to-xbox-zamyka-wiecej-studiow-jest-pelne-podsumowanie.html",
+      "published_at": "2026-09-24T10:35:13.899757+00:00"
     },
     {
-      "id": "3690f0ce7f57a5e468c3521f9a1acd22ec5f32d5ec8ff4ab44de403da1726050",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Xbox Edition 8BitDo Ultimate Mobile Gaming Controller za $35.99 / ~132zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/xbox-edition-8bitdo-ultimate-mobile-gaming-controller/",
-      "published_at": "2026-09-24T10:20:13.084831+00:00",
-      "matched_keywords": [
-        "pad Xbox"
-      ],
-      "price": "132zł",
-      "active": true
-    },
-    {
-      "id": "0e628932ee952b2bde28833f6902c594ada6df88e556335c5e2f834f8a84fc14",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Przewodowy kontroler gier 8BitDo Ultimate C do konsoli Xbox za $29.61 / ~109zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/przewodowy-kontroler-gier-8bitdo-ultimate-c-do-konsoli-xbox/",
-      "published_at": "2026-09-24T10:20:08.877626+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "109zł",
-      "active": true
-    },
-    {
-      "id": "b23f4643d1fffe1990366c5f7d7cefb28866b312b6e103de45d3a3676f9bb2d2",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Ładowarka kontrolera do Xbox Seires X z akumulatorami z EU za $25.6 / ~95zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ladowarka-kontrolera-do-xbox-seires-x-z-akumulatorami/",
-      "published_at": "2026-09-24T10:20:06.351973+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "95zł",
-      "active": true
-    },
-    {
-      "id": "cb56a61cc5bd56a4373c3629ac9e403929eb14525c8220c26f3afc5dde6ef50d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Bezprzewodowy kontroler do gier GameSir G7 Pro Wuchang dla konsoli Xbox za $88.3 / ~336zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-gier-gamesir-g7-pro-wuchang-dla-konsoli-xbox/",
-      "published_at": "2026-09-24T10:20:02.248452+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "336zł",
-      "active": true
-    },
-    {
-      "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "[Certyfikowany przez Xbox] Kontroler przewodowy FLYDIGI Vader 5S za $67.99 / ~249zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/certyfikowany-przez-xbox-kontroler-przewodowy-flydigi-vader-5s/",
-      "published_at": "2026-09-24T10:19:57.392019+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "249zł",
-      "active": true
-    },
-    {
-      "id": "2678442550ffa2660b2fac3e4abc2ab2aa8fdb6c7cc959cae6287278f7bc5868",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Kamera sportowa SJCAM Sj10 Pro za $159 / ~750zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sjcam-sj10-pro/",
-      "published_at": "2026-09-24T10:19:54.895307+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "750zł",
-      "active": true
-    },
-    {
-      "id": "84919f6174c73487c4fe3fb58e3d7958c2867532f12cfc38493b6639b9941d42",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Projektor laserowy Formovie Cinema Edge ALPD 4K z EU za $1799.00 / ~7592zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/formovie-cinema-edge-alpd/",
-      "published_at": "2026-09-24T10:19:52.440774+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "7592zł",
-      "active": true
-    },
-    {
-      "id": "6460727e49049ac2a42dac24ad59bd3b30cfd990957e13d1249ce30bbacf1d49",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Zdalnie sterowany samolot ZOHD Dart XL Extreme 1000mm za $129.99 / ~510zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/zohd-dart-xl-extreme-1000mm/",
-      "published_at": "2026-09-24T10:19:46.995284+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "510zł",
-      "active": true
-    },
-    {
-      "id": "8ade97e78b6beec871dbe15689771dcd9a47eacce0c1abd53601fd8537165e7b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Grawer laserowy NEJE KZ10W 10000mW za $103.29 / ~376zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/neje-kz10w-10000mw/",
-      "published_at": "2026-09-24T10:19:42.507781+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "376zł",
-      "active": true
-    },
-    {
-      "id": "e0ed61824e841fc3f7bbd1323fd7d50484a552142ddcaf32c7254053eab9a5be",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Karta pamięci SanDisk Extreme 64GB z Polski za $13.32 / ~51.63zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sandisk-extreme-64-gb/",
-      "published_at": "2026-09-24T10:19:40.016226+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "51.63zł",
-      "active": true
-    },
-    {
-      "id": "32fcf09588335a8fd524125815ce164520712b5307a6f4559a6f093ab671e836",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Mixer Blender Biolomix za $96.99 / ~361zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/mixer-blender-biolomix/",
-      "published_at": "2026-09-24T10:19:35.670207+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "361zł",
-      "active": true
-    },
-    {
-      "id": "adf97070d013311cab08b9ccece0c4d6b7798f3b01fa551224b253ae0114d11b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Okulary AR VITURE One XR za $1119.99 / ~4480zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/viture-one-xr/",
-      "published_at": "2026-09-24T10:19:32.716411+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "4480zł",
-      "active": true
-    },
-    {
-      "id": "de8847c85137db5061d7d80fada4b3506af6a7f276628004ae8df0bea940f7d6",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Okulary AR VITURE Pro XR za $249.00 / ~1041zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/viture-pro-xr/",
-      "published_at": "2026-09-24T10:19:29.985983+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "1041zł",
-      "active": true
-    },
-    {
-      "id": "665f1ef9bd65b8b1971f0d8759439219f5128bb9ac01d1ff615180d71aa29f3b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "VITURE One XR Smart Glasses za $679.99 / ~2598zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/viture-one-xr-smart-glasses/",
-      "published_at": "2026-09-24T10:19:26.792807+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "2598zł",
-      "active": true
-    },
-    {
-      "id": "d4e067b7ded335e5562d348a24b83c0bf7c0d97841bffcd1a80adcc4aa426a88",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "UGREEN CM800 9 in 1 USB C Docking Station za $51.99 / ~194zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ugreen-cm800-9-in-1-usb-c-docking-station/",
-      "published_at": "2026-09-24T10:19:18.683236+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "194zł",
-      "active": true
-    },
-    {
-      "id": "5917fff1d7a37f0fc8ea9e6471e74402ef69fd6711801bbcc3a53b7732c6e5c1",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Przenośna konsola do gier ASUS ROG Xbox Ally z EU za $614.06 / ~2273zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
-      "published_at": "2026-09-24T10:19:10.738625+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "2273zł",
-      "active": true
-    },
-    {
-      "id": "b5ef009ef6380a6d1b0cca9ead54f8613d95dd3bc350c891f3f4f1c9da997bf6",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola ASUS ROG Ally AMD Ryzen Z1 Extreme za $619.00 / ~2488zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/konsola-asus-rog-ally-amd-ryzen-z1-extreme/",
-      "published_at": "2026-09-24T10:18:53.426733+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "2488zł",
-      "active": true
-    },
-    {
-      "id": "a8f3fde4926738c14d47882d73e8c40f8c79ce4576f79d205a80eb228f71858e",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "ASUS ROG Ally Z1 Extreme z EU za $424.59 / ~1666zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/asus-rog-ally-z1-extreme/",
-      "published_at": "2026-09-24T10:18:45.839269+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "1666zł",
-      "active": true
-    },
-    {
-      "id": "6a56b6e674730b4a33a215b54064b50cb36a20900818de911d3220d110c1a404",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "ASUS ROG Ally X – Przenośna konsola do gier z EU za $956.03 / ~3582zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/asus-rog-ally-x-przenosna-konsola-do-gier/",
-      "published_at": "2026-09-24T10:18:42.990389+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "3582zł",
-      "active": true
-    },
-    {
-      "id": "b4c96abba496119791aaac6822c8ed73fe84b76fa382c69e002cc6ce5fd2bc1d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Inteligentne okulary Xreal One AR 3840X1080 z EU za $385.27 / ~1459zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/inteligentne-okulary-xreal-one-ar-3840x1080/",
-      "published_at": "2026-09-24T10:18:37.365082+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "1459zł",
-      "active": true
-    },
-    {
-      "id": "0b5db7e008f9e47053aef3dfdee5dd3aac32915fd3ec0c7f24ba225c8eeb9df2",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Stacja dokująca do steam decka 4K60Hz z chłodzeniem za $38.99 / ~170zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka/",
-      "published_at": "2026-09-24T10:18:34.127941+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "170zł",
-      "active": true
-    },
-    {
-      "id": "17fa8ab7cc2322a6651f1a683d7621d2d0f61a633744e5b4931fd90de9698c7c",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "DOBE stacja dokująca do steam decka za $18.99 / ~80zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka/",
-      "published_at": "2026-09-24T10:18:31.547176+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "80zł",
-      "active": true
-    },
-    {
-      "id": "a5de684a199fad1da26d140c71df1577c8349e664f9a4d4ddaef84977fe37e7d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "2x Szkło ochronne do Steam Decka za $3.62 / ~14zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/zklo-ochronne-do-steam-decka/",
-      "published_at": "2026-09-24T10:18:28.242567+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "14zł",
-      "active": true
-    },
-    {
-      "id": "51a002c525cb4e2cb7c7abbd01605364a81cb68e6e1ae3febef4716702d90d85",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Pełne etui ochronne do Steam Decka za $12.35 / ~48zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/pelne-etui-ochronne-do-steam-decka/",
-      "published_at": "2026-09-24T10:18:25.440226+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "48zł",
-      "active": true
-    },
-    {
-      "id": "f58cb681af495f105590f236225f0635d5994232a6aa25dc2f79382d8b6cbb60",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Baseus USB C Stacja dokująca do steam decka za $33.99 / ~139zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/baseus-usb-c/",
-      "published_at": "2026-09-24T10:18:22.864931+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "139zł",
-      "active": true
-    },
-    {
-      "id": "0b9ebe86f98adce2f6bffa67dd39d9072d2d5fae20ccaeeb55cd52e02985e108",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Dobe stacja dokująca do steam decka za $13.99 / ~57zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka-bg/",
-      "published_at": "2026-09-24T10:18:19.656581+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "57zł",
-      "active": true
-    },
-    {
-      "id": "ad9a33440de68b5b290ffdec260d83ec20ff732e7d00c3b0fdb3c77e82cb5050",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Etui ochronne na steam decka za $14.48 / ~55zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/etui-ochronne-na-steam-decka/",
-      "published_at": "2026-09-24T10:18:13.074738+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "55zł",
-      "active": true
-    },
-    {
-      "id": "a06a9a2c2ebaa8300bf3967fde75660eee0a37df7991f86ca0baee1bb0e5bfc7",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Stacja dokująca do Steam Decka za $9.98 / ~40zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka-alie/",
-      "published_at": "2026-09-24T10:18:05.487010+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "40zł",
-      "active": true
-    },
-    {
-      "id": "a87ad8ef0f9064672862ecd0d0365ca045666573d3ef2928548275c00efe61f9",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Dysk KingSpec M.2 NVMe 2230 SSD 1TB do Steam Decka za $46.99 / ~195zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/kingspec-m-2-nvme-2230-ssd/",
-      "published_at": "2026-09-24T10:17:58.442547+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "195zł",
-      "active": true
-    },
-    {
-      "id": "597fbced873fcc497b27dbaece50ed4529ef83bc0157784e92b828a37bc3c7d2",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Dysk Western Digital WD SN740 2TB M.2 SSD do Rog Ally / Steam Decka za $105.42 / ~434zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
-      "published_at": "2026-09-24T10:17:53.543535+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "434zł",
-      "active": true
-    },
-    {
-      "id": "5510e2e3d83e2aefb249b4fbddca42f569979c0f0c4e2cddd4db751363c665e3",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Karta pamięci Batocera 1TB do Steam Deck / Anbernicka za $102.8 / ~384zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/karta-pamieci-batocera-1tb-do-steam-deck-anbernicka-za-102-73-382zl/",
-      "published_at": "2026-09-24T10:17:46.484349+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "384zł",
-      "active": true
-    },
-    {
-      "id": "6e7a54742d56ad68abb4ddbd3e8cc48c4dc11c3b7505357b997980ee4c9f4471",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Bakeey 6 in 1 – stacja dokująca do Steam Decka (HDMI 4K 60Hz, PD, 3xUSB 3.0, Ethernet) za $13.99 / ~54zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/bakeey-6-in-1-stacja-dokujaca-do-steam-decka-hdmi-4k-60hz-pd-3xusb-3-0-ethernet/",
-      "published_at": "2026-09-24T10:17:41.124413+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "54zł",
-      "active": true
-    },
-    {
-      "id": "98fc513a758c938bcf9df437e2e7066a1bb0c6c09deed3f0fa52bcd43de211e9",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $49.99 / ~205zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
-      "published_at": "2026-09-24T10:17:38.581234+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "205zł",
-      "active": true
-    },
-    {
-      "id": "7f055e1a1c67fe74780c521a131d109c86e33c25eea0c256f2f47f9623e150af",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $45.99 / ~189zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
-      "published_at": "2026-09-24T10:17:33.654896+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "189zł",
-      "active": true
-    },
-    {
-      "id": "af29c3c7ba708406761ad4c2b6903a70ca18705f3fde082eee62bb4d5d549e76",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Laptop Lenovo Legion R720 za $1099.99 / ~4187zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-r720/",
-      "published_at": "2026-09-24T10:17:30.403041+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "4187zł",
-      "active": true
-    },
-    {
-      "id": "1826efdb27733bb2d67c4d41932c1c5a7f665974ce076c6adc6d1b159870758b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Lenovo Legion Y7000 Gaming Laptop za $869.99 / ~3304zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-y7000-gaming-laptop/",
-      "published_at": "2026-09-24T10:17:27.507537+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "3304zł",
-      "active": true
-    },
-    {
-      "id": "f4c5478749507d9d2b7131c334a9121c97a2b9358fdcb68b4b5849130aca6e10",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Lenovo Legion R27fc-30 27″FHD VA 340Hz 350nits HDMI z Polski za $166.74 / ~654zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-r27fc-30-27fhd-va-340hz-350nits-hdmi/",
-      "published_at": "2026-09-24T10:17:24.954549+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "654zł",
-      "active": true
-    },
-    {
-      "id": "1afcac646491f780422491b64de324b047163a40584562b769ae3e1e542a2a76",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Lenovo Legion Go S z EU za $530.81 / ~1989zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-go-s/",
-      "published_at": "2026-09-24T10:17:19.337242+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "1989zł",
-      "active": true
-    },
-    {
-      "id": "88503001dccc3de6a5e79dfea8cfc1a47e40cccf9555e5753f0f04a9e52bea51",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola do gier Lenovo Legion Go S 2025 z EU za $507.72 / ~1876zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-go-s-2025/",
-      "published_at": "2026-09-24T10:17:17.050517+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "1876zł",
-      "active": true
-    },
-    {
-      "id": "30bee6164df422cb756ad65ed421e36d90672ecc88af76d0b988858c19e5a828",
+      "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Resident Evil 4 (2023) Gold Edition EU Xbox Series X|S CD Key",
+      "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/resident-evil-4-2023-gold-edition-eu-xbox-series-xs-cd-key-1355406",
-      "published_at": "2026-09-24T10:16:03.189427+00:00",
+      "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
-        "Xbox"
+        "Steam Deck",
+        "ROG Ally"
+      ],
+      "price": "67,01 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6745307b1923be9893674b8ceab229d2b531b493f4a86097028c9a1b96c9b980",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Steam Deck LCD 256 GB",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "2198,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "849ca687c4e22c78e21d9eb9cc10c911ad2204372f07418695856e42b04e57a5",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck MK.2 za 445 zł",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "449 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6c0a8e86d6ac7e1129f88ce7a6cfed5c5b776d4dda9f63dda662e31376028bd3",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck +",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Steam Deck"
       ],
       "price": "",
       "temperature": "",
       "active": true
     },
     {
-      "id": "ef0c452ff649de55b6a800d4cde28e7a8effceebdf9ea838ec37e3f6cb931b68",
+      "id": "42dd9ce5a61cd65721f0b4859a4c229b0d32826ec5b4e5266ae860b32e3a457c",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Gra Worms W.M.D Xbox One/Series",
+      "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/worms-wmd-xbox-oneseries-1354556",
-      "published_at": "2026-09-24T10:16:01.414625+00:00",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
-        "Xbox"
+        "Steam Deck"
       ],
       "price": "",
       "temperature": "",
       "active": true
     },
     {
-      "id": "19f693521b725dce9b402ad7b610036dc29e470b0afe192a8dc4460e659b695e",
+      "id": "9bac4f35504a0c976379a44abac09600c79bd17509080a57c4693fa58212934e",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "DLC Xbox/PC Halo Infinite Campaign CD Key",
+      "title": "FARCRY 6 – Xbox One / Series X|S",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-xboxpc-halo-infinite-campaign-cd-key-1355178",
-      "published_at": "2026-09-24T10:15:59.608003+00:00",
+      "url": "https://www.pepper.pl/promocje/farcry-6-xbox-one-series-xs-1356436",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
         "Xbox"
       ],
-      "price": "67,16 zł",
+      "price": "43,49 zł",
       "temperature": "",
       "active": true
     },
     {
-      "id": "000a30c1ad1ff5e424b956aee990da23115a4a086c173ae03ea3ca8c3f8c998a",
+      "id": "b5ba9b370835e121441d43b3a17f2ba4a5134277c6e900f1b6da22666250134d",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Gra Overcooked! 2 – Xbox One / Series X|S – 1245 HUF",
+      "title": "Gra Assassin's Creed Valhalla – Xbox One / Series X|S",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/overcooked-2-xbox-one-series-xs-1245-huf-1355295",
-      "published_at": "2026-09-24T10:15:57.899923+00:00",
+      "url": "https://www.pepper.pl/promocje/assassins-creed-valhalla-xbox-one-series-xs-1356437",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
         "Xbox"
       ],
-      "price": "",
+      "price": "57,99 zł",
       "temperature": "",
       "active": true
     },
     {
-      "id": "660e9cb2ff7dac693d45ebebd40d6bfd9a148ecf66727af5845a30d496124858",
+      "id": "66653e47dc0da64694e022520e05e2537516493ef2f47459d3f4003666e5874a",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "DREDGE – Xbox One / Series X|S – 939 ISK",
+      "title": "Gra Assassin's Creed Mirage – edycja deluxe – Xbox One / Series X|S – 6270 HUF",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/dredge-xbox-one-series-xs-939-isk-1355293",
-      "published_at": "2026-09-24T10:15:56.179423+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "bff225660b0fb4dbff928a11926b567742f5db1caffc37b3bc2484a0ac10cee8",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Pad, Kontroler bezprzewodowy Xbox – Ice Breaker Special Edition Series X|S, One, PC i urządzenia z obsługą chmury | wymagany PRIME FR |",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/pad-kontroler-bezprzewodowy-xbox-ice-breaker-special-edition-series-xs-one-pc-i-urzadzenia-z-obsluga-chmury-wymagany-prime-fr-1356285",
-      "published_at": "2026-09-24T10:15:54.150990+00:00",
-      "matched_keywords": [
-        "pad Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "9a0cdafb217e4f27787dba5fb079c55e38530eaf90c7bb7fa20edd939f746ec9",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Xbox Tom Clancy's Ghost Recon Wildlands: Standard Edition CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-xbox-tom-clancys-ghost-recon-wildlands-standard-edition-1356047",
-      "published_at": "2026-09-24T10:15:52.470813+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "4176855a2134de049ad62404ab4f185874c98f75d210807de159f4be82888aea",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Microsoft Xbox Series X + Elite Series 2",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/microsoft-xbox-series-x-elite-series-2-1355830",
-      "published_at": "2026-09-24T10:15:50.885315+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "4499 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "6ad0aacf65f4595545b17d9031ff41877366e3aef0000e0f9666aeb8d1604662",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Xbox theHunter Call of the Wild: Standard Edition CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-xbox-thehunter-call-of-the-wild-standard-edition-cd-key-1356184",
-      "published_at": "2026-09-24T10:15:49.194804+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "add2f62a9804051cd84e0460ae8a541d858a86d41e4f6369bee17e91582b7d16",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Enotria: The Last Song – Xbox One / Series X|S – 1649 ISK",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/enotria-the-last-song-xbox-one-series-xs-1649-isk-1355688",
-      "published_at": "2026-09-24T10:15:47.463706+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "305394f96bf3663584279f8726ce8cc8a9819f1830024b31cfe9fccc41a47f7d",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Xbox Game Pass Premium za darmo na 1 miesiąc - Samsung Promotion (dla nowych kont Xbox)",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-za-darmo-na-1-miesiac-samsung-promotion-dla-nowych-kont-xbox-1356255",
-      "published_at": "2026-09-24T10:15:45.655158+00:00",
+      "url": "https://www.pepper.pl/promocje/assassins-creed-mirage-edycja-deluxe-xbox-one-series-xs-6270-huf-1356441",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -838,7 +160,7 @@
       "title": "Gra Tom Clancy's Splinter Cell: Chaos Theory – Xbox One / Series X|S – 800 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/tom-clancys-splinter-cell-chaos-theory-xbox-one-series-xs-800-huf-1356439",
-      "published_at": "2026-09-24T10:15:44.011865+00:00",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -847,15 +169,15 @@
       "active": true
     },
     {
-      "id": "66653e47dc0da64694e022520e05e2537516493ef2f47459d3f4003666e5874a",
+      "id": "305394f96bf3663584279f8726ce8cc8a9819f1830024b31cfe9fccc41a47f7d",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Gra Assassin's Creed Mirage – edycja deluxe – Xbox One / Series X|S – 6270 HUF",
+      "title": "Xbox Game Pass Premium za darmo na 1 miesiąc - Samsung Promotion (dla nowych kont Xbox)",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/assassins-creed-mirage-edycja-deluxe-xbox-one-series-xs-6270-huf-1356441",
-      "published_at": "2026-09-24T10:15:42.451404+00:00",
+      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-za-darmo-na-1-miesiac-samsung-promotion-dla-nowych-kont-xbox-1356255",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -864,123 +186,799 @@
       "active": true
     },
     {
-      "id": "b5ba9b370835e121441d43b3a17f2ba4a5134277c6e900f1b6da22666250134d",
+      "id": "add2f62a9804051cd84e0460ae8a541d858a86d41e4f6369bee17e91582b7d16",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Gra Assassin's Creed Valhalla – Xbox One / Series X|S",
+      "title": "Gra Enotria: The Last Song – Xbox One / Series X|S – 1649 ISK",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/assassins-creed-valhalla-xbox-one-series-xs-1356437",
-      "published_at": "2026-09-24T10:15:40.895807+00:00",
+      "url": "https://www.pepper.pl/promocje/enotria-the-last-song-xbox-one-series-xs-1649-isk-1355688",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
         "Xbox"
-      ],
-      "price": "57,99 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "9bac4f35504a0c976379a44abac09600c79bd17509080a57c4693fa58212934e",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "FARCRY 6 – Xbox One / Series X|S",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/farcry-6-xbox-one-series-xs-1356436",
-      "published_at": "2026-09-24T10:15:39.246887+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "43,49 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "42dd9ce5a61cd65721f0b4859a4c229b0d32826ec5b4e5266ae860b32e3a457c",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
-      "published_at": "2026-09-24T10:15:12.004590+00:00",
-      "matched_keywords": [
-        "Steam Deck"
       ],
       "price": "",
       "temperature": "",
       "active": true
     },
     {
-      "id": "6c0a8e86d6ac7e1129f88ce7a6cfed5c5b776d4dda9f63dda662e31376028bd3",
+      "id": "6ad0aacf65f4595545b17d9031ff41877366e3aef0000e0f9666aeb8d1604662",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Elgato Stream Deck +",
+      "title": "Gra Xbox theHunter Call of the Wild: Standard Edition CD Key",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
-      "published_at": "2026-09-24T10:15:10.315848+00:00",
+      "url": "https://www.pepper.pl/promocje/gra-xbox-thehunter-call-of-the-wild-standard-edition-cd-key-1356184",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
-        "Steam Deck"
+        "Xbox"
       ],
       "price": "",
       "temperature": "",
       "active": true
     },
     {
-      "id": "849ca687c4e22c78e21d9eb9cc10c911ad2204372f07418695856e42b04e57a5",
+      "id": "4176855a2134de049ad62404ab4f185874c98f75d210807de159f4be82888aea",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Elgato Stream Deck MK.2 za 445 zł",
+      "title": "Microsoft Xbox Series X + Elite Series 2",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
-      "published_at": "2026-09-24T10:15:08.600489+00:00",
+      "url": "https://www.pepper.pl/promocje/microsoft-xbox-series-x-elite-series-2-1355830",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
-        "Steam Deck"
+        "Xbox"
       ],
-      "price": "449 zł",
+      "price": "4499 zł",
       "temperature": "",
       "active": true
     },
     {
-      "id": "6745307b1923be9893674b8ceab229d2b531b493f4a86097028c9a1b96c9b980",
+      "id": "9a0cdafb217e4f27787dba5fb079c55e38530eaf90c7bb7fa20edd939f746ec9",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Steam Deck LCD 256 GB",
+      "title": "Gra Xbox Tom Clancy's Ghost Recon Wildlands: Standard Edition CD Key",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
-      "published_at": "2026-09-24T10:15:06.867179+00:00",
+      "url": "https://www.pepper.pl/promocje/gra-xbox-tom-clancys-ghost-recon-wildlands-standard-edition-1356047",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
-        "Steam Deck"
+        "Xbox"
       ],
-      "price": "2198,99 zł",
+      "price": "",
       "temperature": "",
       "active": true
     },
     {
-      "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
+      "id": "bff225660b0fb4dbff928a11926b567742f5db1caffc37b3bc2484a0ac10cee8",
       "source": "Pepper",
       "source_type": "deal",
       "category": "Okazje",
       "language": "pl",
-      "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
+      "title": "Pad, Kontroler bezprzewodowy Xbox – Ice Breaker Special Edition Series X|S, One, PC i urządzenia z obsługą chmury | wymagany PRIME FR |",
       "summary": "",
-      "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
-      "published_at": "2026-09-24T10:15:05.159970+00:00",
+      "url": "https://www.pepper.pl/promocje/pad-kontroler-bezprzewodowy-xbox-ice-breaker-special-edition-series-xs-one-pc-i-urzadzenia-z-obsluga-chmury-wymagany-prime-fr-1356285",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
       "matched_keywords": [
-        "ROG Ally"
+        "Xbox",
+        "pad Xbox"
       ],
-      "price": "67,01 zł",
+      "price": "",
       "temperature": "",
       "active": true
+    },
+    {
+      "id": "660e9cb2ff7dac693d45ebebd40d6bfd9a148ecf66727af5845a30d496124858",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DREDGE – Xbox One / Series X|S – 939 ISK",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/dredge-xbox-one-series-xs-939-isk-1355293",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "000a30c1ad1ff5e424b956aee990da23115a4a086c173ae03ea3ca8c3f8c998a",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Overcooked! 2 – Xbox One / Series X|S – 1245 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/overcooked-2-xbox-one-series-xs-1245-huf-1355295",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "19f693521b725dce9b402ad7b610036dc29e470b0afe192a8dc4460e659b695e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DLC Xbox/PC Halo Infinite Campaign CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xboxpc-halo-infinite-campaign-cd-key-1355178",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "67,16 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "ef0c452ff649de55b6a800d4cde28e7a8effceebdf9ea838ec37e3f6cb931b68",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Worms W.M.D Xbox One/Series",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/worms-wmd-xbox-oneseries-1354556",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "30bee6164df422cb756ad65ed421e36d90672ecc88af76d0b988858c19e5a828",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Resident Evil 4 (2023) Gold Edition EU Xbox Series X|S CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/resident-evil-4-2023-gold-edition-eu-xbox-series-xs-cd-key-1355406",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "a9546055fb2f7fa5f728c5e44d80bd411a02b4ad851b522d2d4e8b517ea9959a",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Spyro Reignited Trilogy AR XBOX One / Xbox Series X|S CD Key - wymagany VPN",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/spyro-reignited-trilogy-ar-xbox-one-xbox-series-xs-cd-key-wymagany-vpn-1355023",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "f65f6c118fa10b1c28a546d116fd12f4578b28f4c86aac01d57ca9e427d54fc6",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "gra Samson - A Tyndalston Story Xbox, PC - Play Anywhere z Islandzkiego Ms Store - 2349 isk",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/samson-a-tyndalston-story-xbox-pc-z-islandzkiego-ms-store-2349-isk-1354808",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4cfbc0d2f61b2465302366e6eac9809da253f1e6b8d534eb53b0dfe214e92c1c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "gra Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX One / Xbox Series X|S CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-one-xbox-series-xs-cd-key-1355016",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4429226ec40139053c101e1e8ed6553c884ced1c88befaf647f01f473d82f466",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra METAL GEAR SOLID V: THE DEFINITIVE EXPERIENCE – Xbox One / Series X|S – 5510 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/metal-gear-solid-v-the-definitive-experience-xbox-one-series-xs-5510-huf-1354677",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "a4a612a1bfcc9da6c90fb94820b061a14e5f5bf64e2700c82c1a7fb6fe86bc5b",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Worms Rumble - Digital Deluxe Edition za 12,82 zł z Islandzkiego Xbox Store @ Xbox One / XBOX Series X|S / PC",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/worms-rumble-digital-deluxe-edition-za-1282-zl-z-islandzkiego-xbox-store-at-xbox-one-xbox-series-xs-pc-1354287",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "12,82 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "b1f73f74d22d293da445bd3b11dc6e6e329ed1eb1d481598708a51a85768ab9e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Laptop 2 w 1 Lenovo IdeaPad Flex 5 (Ryzen 5-7430U / 16/512 GB / Win11 Touch, podświetlanie) + 240 zł Cashbacku + pad Xbox lub słuchawki E310",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/laptop-2-w-1-lenovo-ideapad-flex-5-ryzen-5-7430u-16512-gb-win11-touch-podswietlanie-240-zl-cashbacku-pad-xbox-lub-sluchawki-e310-1355361",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "Ryzen",
+        "pad Xbox"
+      ],
+      "price": "2399 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "d641021483dd9cd9cef3ade94018a089216e4a856a8516c3db5b48189484aee4",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Monopoly Madness, Xbox One, Xbox Series X",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/monopoly-madness-xbox-one-xbox-series-sx-1354233",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "9,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "663fd486eb026139e9085a53b0b213e2131cbc4c403e88ecd8b96f83747ff2f2",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Wiedźmin 3 Edycja Kompletna Xbox za 22,50 dla posiadaczy gamepassa",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/wiedzmin-3-edycja-kompletna-za-2250-dla-posiadaczy-gamepassa-1354031",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "450386d7e4188fc9e3db63845c7e90e5b091820d1b3f82eeba0b7555d1a210e9",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kod Xbox Game Pass Premium na miesiąc za darmo dla posiadaczy TV Samsung lub projektorów Samsung ( z aplikacji Samsung Promotion na TV)",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-na-miesiac-za-darmo-dla-ppsiadaczy-tv-samsung-1354678",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "5785c67bbcba5101267b803f2cb23a11e4d23b3e9263f127e5444a8cb5299c39",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Silikonowe nakładki, kompatybilne z kontrolerami PS4, PS5 i Xbox 20 Sztuk @ Amazon.pl",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/silikonowe-nakladki-kompatybilne-z-kontrolerami-ps4-ps5-i-xbox-20-sztuk-at-amazonpl-1354335",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "PS5"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "1baece8c493556d92890bc66cfe0474c1f4485cd1b25cfbca116ee17d00aec3e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kontroler Xbox – Edycja specjalna Ice Breaker Series X|S, One, PC | w opisie Heart Breaker, Storm Breaker, czarny i niebieski",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/kontroler-xbox-edycja-specjalna-ice-breaker-series-xs-one-pc-czarny-w-opisie-heart-breaker-storm-breaker-czarny-i-niebieski-1354469",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "aff0c028d1396d2b26f00cd946d62dfaf4eb2f6c79abf86b27d85bfa15c038e0",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "gra Wolfenstein The Old Blood (Xbox)",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/wolfenstein-the-old-blood-xbox-1353915",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "8b40f0a7e235fd3404bdbccb028954b8457d451fa9a62aeeb7cd4b57f00ce8ec",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Final Fantasy VII Trilogy Xbox + PC",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/final-fantasy-vii-trilogy-1353290",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "65928e984cfae9d24fe3343ea7f16e5218caafdb5a1ffa37a09393260cf1454c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "BioShock: The Collection (Xbox One) - Xbox Live Key - EUROPE",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/bioshock-the-collection-xbox-one-xbox-live-key-europe-1353475",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "58a6cc569eaecf22a9ea68ec29fe47d8a7543d95061931c21db2227db466c515",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Blasphemous + Blasphemous 2 - Bundle Xbox One/Series Klucz Europe",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/blasphemous-blasphemous-2-bundle-xbox-oneseries-klucz-europe-1353495",
+      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "61af62a1c1f936d2b03fe1958255d460bbcaff7e6b5e6bc761dd737259ce2495",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Having trouble selling my legion go 2",
+      "summary": "It’s the non extreme 16GB model with 1tb. Comes with an applied screen protector, a tpu case and the controller charging dock. I initially had it listed for 1200 and dropped it to 1k flat. What’s the most reasonable price I can offer. submitted by /u/Recent-Eye8531 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnkrlb/having_trouble_selling_my_legion_go_2/",
+      "published_at": "2026-09-24T10:34:23.304260+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "a1c127ef5b271104563abcfb3e4b41c9dc058cd0efe27ecc7784ea327fea4d42",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Which is more worth it? Lenovo Legion Go OG or the Lenovo Legion Go S with Z2 Go chip and 16gb ram?",
+      "summary": "New to PC handhelds, which is more worth it for similar prices? Do they perform similar or significantly different, some examples of specific games I'm looking to play are Forza Horizon 5/6, Assassin's Creed Origins, Spider Man 1 / Miles Morales. I'll be installing / using Steam OS as well. Thanks. submitted by /u/Beautiful_Gap_3516 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnkvaj/which_is_more_worth_it_lenovo_legion_go_og_or_the/",
+      "published_at": "2026-09-24T10:34:23.304216+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "summary_pl": "Nowy użytkownik konsoli przenośnych pyta, co bardziej się opłaca w podobnej cenie: oryginalny Lenovo Legion Go czy nowy model Legion Go S z czipem Z2 Go.",
+      "tags": [
+        "Lenovo Legion Go",
+        "Handheld",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "f4a20a6af4840b0c6a1ac85eddf73df2f3652f298b918b17d52eba2adbb033f9",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Mechanism Tray Table Mount",
+      "summary": "Really cool setup for flights ✈️ was much nicer than hunching over for 3 hours submitted by /u/NinjaTovar [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnmdue/mechanism_tray_table_mount/",
+      "published_at": "2026-09-24T10:34:23.304171+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "376dcd8573abbbde042eaa188429adbd77dcb4ff79bbd8212fbcaefab5db34ea",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "A little WoW Forever while the fan watches TV",
+      "summary": "I know it has controller support but I just like mouse and keyboard better. Runs great! submitted by /u/ObbieWan812 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnogyf/a_little_wow_forever_while_the_fan_watches_tv/",
+      "published_at": "2026-09-24T10:34:23.304136+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "20cb49f4cfa67404330f322198dd1f9c7dc5c4dfe86732da1f1dfa567817eec0",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go S: 1 year review",
+      "summary": "Hey guys, I wanted to share my experience after having the Legion Go S for a year now I bought it from the UK Lenovo store for £669 and seeing how the price has been changing since then is nuts. In the early days it felt like a new toy (and it still does). I’ve been going through tons of tutorials, Decky, frame gen, emulation, setting games up from other stores on the go. It is amazing. However, mine had that common…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnop9s/legion_go_s_1_year_review/",
+      "published_at": "2026-09-24T10:34:23.304103+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "e9a36ffaa7b29284acbbd6f8a98dbe69799acc50dfd036eeacc5787a98f7fe5f",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Looking for a small, wireless gaming keyboard for Legion Go 2 - recommendations?",
+      "summary": "Preferably one of those smaller gaming keyboards with the left-side of the keyboard. submitted by /u/PossibilityDirect386 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnp4xw/looking_for_a_small_wireless_gaming_keyboard_for/",
+      "published_at": "2026-09-24T10:34:23.303958+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "9283a98fd584b6170390d0b5dd276839cba598d2636c3aba7d56637633f4e168",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Go S Steam OS Animation Changer plugin not working",
+      "summary": "I installed animation changer on Deckyloader plugin and the boot animation doesn’t work at all but the Suspend does. Anyone know how to fix? submitted by /u/SeaWing2841 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnqbuw/go_s_steam_os_animation_changer_plugin_not_working/",
+      "published_at": "2026-09-24T10:34:23.303927+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "bd3f2e58b1f03940160add41227f7013863d3bfc24c0f8d6b463086c352f2198",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should I buy now or wait until the blackfriday sale??",
+      "summary": "do you think it is possible for the consoles to be on sale?? if yes, how much do you think they will go on for? submitted by /u/Creepy_Double6856 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnr9u9/should_i_buy_now_or_wait_until_the_blackfriday/",
+      "published_at": "2026-09-24T10:34:23.303888+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "e41e18aabe97d70622c6e9936bd30a2b946e463928204f333debb8a07451a283",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion space and well dweller",
+      "summary": "I have well dweller on gamepass. It launches but before it does...legion space opens and forces me to launch the game from there. Then the game is gray screen. Sounds work but I can't see anything. Also for the longest time controller won't work unless I launch legion space first. Anyone else? submitted by /u/ConfidentGuide3935 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnsaax/legion_space_and_well_dweller/",
+      "published_at": "2026-09-24T10:34:23.303855+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "5c7ee82a7dabbdb8b6b271fdc5587e8700b6ca37aa3d5eb682f929cfb0239864",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go SteamOS ISO",
+      "summary": "I’ve been trying all morning to install SteamOS on the OG legion go, and I can’t find an installer image anywhere. All the guides link to the Steam repair/installer but it doesn’t work on Legion, and I can’t find a Legion specific installer. Does anyone know where I can find a SteamOS installer image for Legion Go? Thanks! submitted by /u/Natural-Leg7488 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnu9k9/legion_go_steamos_iso/",
+      "published_at": "2026-09-24T10:34:23.303814+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "summary_pl": "Użytkownik poszukuje dedykowanego instalatora obrazu SteamOS dla konsoli Lenovo Legion Go, ponieważ standardowe obrazy nie działają.",
+      "tags": [
+        "Legion Go",
+        "SteamOS",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "746f17ddf18202969b22a1c65b97f202f260812cf569e03b835a663c04024b53",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "New to PC handhelds",
+      "summary": "Hello all, Being new to pc gaming in general ,where do I go about finding emulators for retro games ? Thanks submitted by /u/birdkeeperichy [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnzm1g/new_to_pc_handhelds/",
+      "published_at": "2026-09-24T10:34:23.303765+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "0a00b6446f1549d570c150278d22d613e33bc73c5e841bb9727bccdea3da3255",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I have no idea what’s going on with my Lenovo Legion Go :(",
+      "summary": "Not a massive computer person so please explain anything like I’m a toddler! I’m trying to use my lenovo legion go today to play dead by daylight whilst in a discord call and it keeps crashing and completely turning itself off I’ve changed nothing in settings and device is up to date etc. I had a pop up from dbd to say it is out of video memory - there is no background video recording. I made some space so have ~25g…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo24dw/i_have_no_idea_whats_going_on_with_my_lenovo/",
+      "published_at": "2026-09-24T10:34:23.303730+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "cb542075f2fe22f413d6338f8ce4b622ec0b8a2ba4d956cf749353fb03a620c6",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should I get the legion go in 2026?",
+      "summary": "In my country the legion go 1 costs 650$ and the steam deck prices in my country has seen most damage because it used to be 620$ for the 512gb and the 1tb for 730$ but now both of them cost more than a 1000$ The only other handheld that has the same price of the og legion go is the base Xbox ally submitted by /u/idk12345671405 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo2jxh/should_i_get_the_legion_go_in_2026/",
+      "published_at": "2026-09-24T10:34:23.303640+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "summary_pl": "Gracz rozważa zakup konsoli Lenovo Legion Go w 2026 roku za 650 dolarów, zauważając, że ceny Steam Decka w jego kraju drastycznie wzrosły do ponad 1000 dolarów.",
+      "tags": [
+        "Legion Go",
+        "Steam Deck",
+        "handheld",
+        "gaming"
+      ]
+    },
+    {
+      "id": "ea179be3f9c2a19648dc78e59ecd675947e2f43c91a11e5f9a59ea91456f4e31",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Invest in egpu or save for more expensive handheld?",
+      "summary": "So I recently purchased a Legion Go S SteamOS Z1e off fb marketplace for $650 and I’m loving it so far! However, it does get a little frustrating having to tinker so much with settings and playing at lower settings for more demanding games, so I have been considering either getting an egpu (preferably all-in-one setup like a onexgpu or something similar) or possibly saving up to buy a stronger handheld like a Strix…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo5d7y/invest_in_egpu_or_save_for_more_expensive_handheld/",
+      "published_at": "2026-09-24T10:34:23.303595+00:00",
+      "matched_keywords": [
+        "Z1E"
+      ],
+      "priority": true,
+      "summary_pl": "Użytkownik Legion Go zastanawia się, czy zainwestować w eGPU, czy oszczędzać na mocniejszą konsolę przenośną.",
+      "tags": [
+        "Legion Go",
+        "eGPU",
+        "handheld"
+      ]
+    },
+    {
+      "id": "8e9e294b0c1d0c3db748f5cb28b138d59c9b9fe82e14ee9b8c08bbedc2f49302",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hello everyone i need some help with steamOS on LEGION GO",
+      "summary": "hello guys i got a OG legion go with windows installed on it i want to install steamOS but i read some people complaining about the GO overheat and shutdowns when playing demanding games cause the FANS dont ramp up properly they don't work out of the box like they do in windows also some people complains about FANS runing at full speed when the console on idle cause we know the steamOS still on Beta my question is i…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo8igz/hello_everyone_i_need_some_help_with_steamos_on/",
+      "published_at": "2026-09-24T10:34:23.303483+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "summary_pl": "Użytkownik prosi o pomoc w instalacji systemu SteamOS na konsoli Legion Go. Obawia się problemów z przegrzewaniem i nieprawidłową pracą wentylatorów.",
+      "tags": [
+        "LegionGo",
+        "SteamOS",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "2b0ce306fd1e6a923fd471a4c97749e6a81b0b3a92913f4ce17ed98d5c034528",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "New PC Handheld User Help Needed",
+      "summary": "Hi All, I recently purchased a new Legion Go 2 and as a new PC Handheld user, REAL NEW and coming from the Nintendo ecosystem, I need some real help. And I'm searching for non-judgemental and super techy help. Here are some things I'm having problems with... Figuring out buttons - Some buttons dont work or aren't working when I'm playing on Steam vs outside of steam. Is this normal? Is my device not work? Are there…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woaom4/new_pc_handheld_user_help_needed/",
+      "published_at": "2026-09-24T10:34:23.303400+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "3930fb4936b6623eadd9d9b8145523df6023137e1035cb44992433d2b1a5035a",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Bazzite installation hanging",
+      "summary": "I am trying to switch from steamos to bazzite since steamos killed my gyroscope. Installing of bazzite went smooth enough but once I go to reboot for the initial setup, the system hangs and just turns the screen on and off indefinitely. This is the second time I've tried this process. submitted by /u/thegreatredragon [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wob31v/bazzite_installation_hanging/",
+      "published_at": "2026-09-24T10:34:23.303300+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2693ac045d255a488cd7f9fc41faa502c779b2a63564c8b181753768a288ad58",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go2 z2 extreme PCSx2 FPS issue",
+      "summary": "Like title says... dunno how fix it to submitted by /u/Akukuk [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wodf40/legion_go2_z2_extreme_pcsx2_fps_issue/",
+      "published_at": "2026-09-24T10:34:23.303261+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "159a88376047c660b243e987c06ecb0a6270e60a7ecc82fa0b55661cbcbbcf64",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Unplugged defaulting to Quiet now...",
+      "summary": "Why all of a sudden is my Legion Go S defaulting to Quiet mode every time I start it up now, unplugged? Anywhere to fix this? submitted by /u/rrankine [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woepus/unplugged_defaulting_to_quiet_now/",
+      "published_at": "2026-09-24T10:34:23.303232+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "1c42041e5f06e0dab1667505e28cb5d6801eca9fe46c7fcf711b0011cbac5c44",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How does z2 go legion go s perform in BG3 with steamos?",
+      "summary": "I know that bg3 has a native Linux port which provides much better performance than windows but can't find any benchmarks of the game with steamos on z2 go legion go s. Can any owners chime in? Thinking of picking up one mainly for this game. submitted by /u/Helpful_Economist_59 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woh6mz/how_does_z2_go_legion_go_s_perform_in_bg3_with/",
+      "published_at": "2026-09-24T10:34:23.303197+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2b7c1b9ffec6855cf5bdba50704146918c40b81d117846d8a4fb2ef6c38cb109",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Streaming from PC to 4K TV using Legion Go S.",
+      "summary": "I mostly stream from PC to my Legion Go S without issues using moonlight, however I've been wanting to change it up and stream to my 4K TV instead. Is it as simple as starting the stream on my Legio Go S like normal, then docking it onto a docking station (USB C connection with Legion Go) which is connected to my TV via HDMI? Is there any specific spec that I need to for the dock or the HDMI cable? My native PC is 1…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woo15m/streaming_from_pc_to_4k_tv_using_legion_go_s/",
+      "published_at": "2026-09-24T10:34:23.303154+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "b4c5100b13b90a00bb41de1ffe3188df34b791c82a9e0ad4a6285238cbbe2a88",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Just bought a legion go 2",
+      "summary": "So I just bought a legion go 2 as I found a sweet deal. I come from an Xbox but wanted to play battlefield on the go. I feel really dumb but I can’t figure out how to download battlefield 6? submitted by /u/Available_Eagle4150 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woo4r1/just_bought_a_legion_go_2/",
+      "published_at": "2026-09-24T10:34:23.303096+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "cc6c71b530fdd93d0540703d7db38537bcef8b96af05f87e26629dc03be0a46d",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Issue with playing games on legion go",
+      "summary": "Hello so I’ve had my legion go for a bit now but as of yesterday I tried playing a steam game on it and idk weather it’s a windows update issue or something else when I click to play a game it opens game starts then goes immediately to legion space. Or when I reset the Legion and open the game first thing after it comes back the reset I open the game no problem but once I’m on the start screen my controllers don’t r…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wopxzg/issue_with_playing_games_on_legion_go/",
+      "published_at": "2026-09-24T10:34:23.303049+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "5763d145708e6d932add2429e315207dfb54688dd7c0abe852c2af98e9e645a9",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How could i install in steamos",
+      "summary": "I have lenovo legion go s steamos and i can't download files how can i do that submitted by /u/Sad_Zone1434 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wor64c/how_could_i_install_in_steamos/",
+      "published_at": "2026-09-24T10:34:23.302976+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "169ed1fc67dccac4922cd675abdf0afeb51530eac12c8818a155619b8148e237",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I have Go 2 but want the Ally Xbox OLED Model",
+      "summary": "Please talk me out of selling my go 2 for it. I like my go 2 but it is on the bigger, heavier side. I loved my Xbox Ally X but the screen was not that great compared to OLED. submitted by /u/beipher [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woseox/i_have_go_2_but_want_the_ally_xbox_oled_model/",
+      "published_at": "2026-09-24T10:34:23.302922+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "955a11ae966a29e0f9fb553e4f6f6aa441470e92a6650dead055293432b0cfe4",
@@ -1308,394 +1306,28 @@
       "priority": false
     },
     {
-      "id": "61af62a1c1f936d2b03fe1958255d460bbcaff7e6b5e6bc761dd737259ce2495",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Having trouble selling my legion go 2",
-      "summary": "It’s the non extreme 16GB model with 1tb. Comes with an applied screen protector, a tpu case and the controller charging dock. I initially had it listed for 1200 and dropped it to 1k flat. What’s the most reasonable price I can offer. submitted by /u/Recent-Eye8531 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnkrlb/having_trouble_selling_my_legion_go_2/",
-      "published_at": "2026-09-24T10:13:58.893618+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "a1c127ef5b271104563abcfb3e4b41c9dc058cd0efe27ecc7784ea327fea4d42",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Which is more worth it? Lenovo Legion Go OG or the Lenovo Legion Go S with Z2 Go chip and 16gb ram?",
-      "summary": "New to PC handhelds, which is more worth it for similar prices? Do they perform similar or significantly different, some examples of specific games I'm looking to play are Forza Horizon 5/6, Assassin's Creed Origins, Spider Man 1 / Miles Morales. I'll be installing / using Steam OS as well. Thanks. submitted by /u/Beautiful_Gap_3516 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnkvaj/which_is_more_worth_it_lenovo_legion_go_og_or_the/",
-      "published_at": "2026-09-24T10:13:58.893568+00:00",
-      "matched_keywords": [
-        "OG"
-      ],
-      "priority": true,
-      "summary_pl": "Nowy użytkownik konsoli przenośnych pyta, co bardziej się opłaca w podobnej cenie: oryginalny Lenovo Legion Go czy nowy model Legion Go S z czipem Z2 Go.",
-      "tags": [
-        "Lenovo Legion Go",
-        "Handheld",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "f4a20a6af4840b0c6a1ac85eddf73df2f3652f298b918b17d52eba2adbb033f9",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Mechanism Tray Table Mount",
-      "summary": "Really cool setup for flights ✈️ was much nicer than hunching over for 3 hours submitted by /u/NinjaTovar [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnmdue/mechanism_tray_table_mount/",
-      "published_at": "2026-09-24T10:13:58.893523+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "376dcd8573abbbde042eaa188429adbd77dcb4ff79bbd8212fbcaefab5db34ea",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "A little WoW Forever while the fan watches TV",
-      "summary": "I know it has controller support but I just like mouse and keyboard better. Runs great! submitted by /u/ObbieWan812 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnogyf/a_little_wow_forever_while_the_fan_watches_tv/",
-      "published_at": "2026-09-24T10:13:58.893487+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "20cb49f4cfa67404330f322198dd1f9c7dc5c4dfe86732da1f1dfa567817eec0",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion Go S: 1 year review",
-      "summary": "Hey guys, I wanted to share my experience after having the Legion Go S for a year now I bought it from the UK Lenovo store for £669 and seeing how the price has been changing since then is nuts. In the early days it felt like a new toy (and it still does). I’ve been going through tons of tutorials, Decky, frame gen, emulation, setting games up from other stores on the go. It is amazing. However, mine had that common…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnop9s/legion_go_s_1_year_review/",
-      "published_at": "2026-09-24T10:13:58.893452+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "e9a36ffaa7b29284acbbd6f8a98dbe69799acc50dfd036eeacc5787a98f7fe5f",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Looking for a small, wireless gaming keyboard for Legion Go 2 - recommendations?",
-      "summary": "Preferably one of those smaller gaming keyboards with the left-side of the keyboard. submitted by /u/PossibilityDirect386 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnp4xw/looking_for_a_small_wireless_gaming_keyboard_for/",
-      "published_at": "2026-09-24T10:13:58.893297+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "9283a98fd584b6170390d0b5dd276839cba598d2636c3aba7d56637633f4e168",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Go S Steam OS Animation Changer plugin not working",
-      "summary": "I installed animation changer on Deckyloader plugin and the boot animation doesn’t work at all but the Suspend does. Anyone know how to fix? submitted by /u/SeaWing2841 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnqbuw/go_s_steam_os_animation_changer_plugin_not_working/",
-      "published_at": "2026-09-24T10:13:58.893266+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "bd3f2e58b1f03940160add41227f7013863d3bfc24c0f8d6b463086c352f2198",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Should I buy now or wait until the blackfriday sale??",
-      "summary": "do you think it is possible for the consoles to be on sale?? if yes, how much do you think they will go on for? submitted by /u/Creepy_Double6856 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnr9u9/should_i_buy_now_or_wait_until_the_blackfriday/",
-      "published_at": "2026-09-24T10:13:58.893227+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "e41e18aabe97d70622c6e9936bd30a2b946e463928204f333debb8a07451a283",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion space and well dweller",
-      "summary": "I have well dweller on gamepass. It launches but before it does...legion space opens and forces me to launch the game from there. Then the game is gray screen. Sounds work but I can't see anything. Also for the longest time controller won't work unless I launch legion space first. Anyone else? submitted by /u/ConfidentGuide3935 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnsaax/legion_space_and_well_dweller/",
-      "published_at": "2026-09-24T10:13:58.893192+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "5c7ee82a7dabbdb8b6b271fdc5587e8700b6ca37aa3d5eb682f929cfb0239864",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion Go SteamOS ISO",
-      "summary": "I’ve been trying all morning to install SteamOS on the OG legion go, and I can’t find an installer image anywhere. All the guides link to the Steam repair/installer but it doesn’t work on Legion, and I can’t find a Legion specific installer. Does anyone know where I can find a SteamOS installer image for Legion Go? Thanks! submitted by /u/Natural-Leg7488 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnu9k9/legion_go_steamos_iso/",
-      "published_at": "2026-09-24T10:13:58.893149+00:00",
-      "matched_keywords": [
-        "OG"
-      ],
-      "priority": true,
-      "summary_pl": "Użytkownik poszukuje dedykowanego instalatora obrazu SteamOS dla konsoli Lenovo Legion Go, ponieważ standardowe obrazy nie działają.",
-      "tags": [
-        "Legion Go",
-        "SteamOS",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "746f17ddf18202969b22a1c65b97f202f260812cf569e03b835a663c04024b53",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "New to PC handhelds",
-      "summary": "Hello all, Being new to pc gaming in general ,where do I go about finding emulators for retro games ? Thanks submitted by /u/birdkeeperichy [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnzm1g/new_to_pc_handhelds/",
-      "published_at": "2026-09-24T10:13:58.893094+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "0a00b6446f1549d570c150278d22d613e33bc73c5e841bb9727bccdea3da3255",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I have no idea what’s going on with my Lenovo Legion Go :(",
-      "summary": "Not a massive computer person so please explain anything like I’m a toddler! I’m trying to use my lenovo legion go today to play dead by daylight whilst in a discord call and it keeps crashing and completely turning itself off I’ve changed nothing in settings and device is up to date etc. I had a pop up from dbd to say it is out of video memory - there is no background video recording. I made some space so have ~25g…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo24dw/i_have_no_idea_whats_going_on_with_my_lenovo/",
-      "published_at": "2026-09-24T10:13:58.893035+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "cb542075f2fe22f413d6338f8ce4b622ec0b8a2ba4d956cf749353fb03a620c6",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Should I get the legion go in 2026?",
-      "summary": "In my country the legion go 1 costs 650$ and the steam deck prices in my country has seen most damage because it used to be 620$ for the 512gb and the 1tb for 730$ but now both of them cost more than a 1000$ The only other handheld that has the same price of the og legion go is the base Xbox ally submitted by /u/idk12345671405 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo2jxh/should_i_get_the_legion_go_in_2026/",
-      "published_at": "2026-09-24T10:13:58.892941+00:00",
-      "matched_keywords": [
-        "OG"
-      ],
-      "priority": true,
-      "summary_pl": "Gracz rozważa zakup konsoli Lenovo Legion Go w 2026 roku za 650 dolarów, zauważając, że ceny Steam Decka w jego kraju drastycznie wzrosły do ponad 1000 dolarów.",
-      "tags": [
-        "Legion Go",
-        "Steam Deck",
-        "handheld",
-        "gaming"
-      ]
-    },
-    {
-      "id": "ea179be3f9c2a19648dc78e59ecd675947e2f43c91a11e5f9a59ea91456f4e31",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Invest in egpu or save for more expensive handheld?",
-      "summary": "So I recently purchased a Legion Go S SteamOS Z1e off fb marketplace for $650 and I’m loving it so far! However, it does get a little frustrating having to tinker so much with settings and playing at lower settings for more demanding games, so I have been considering either getting an egpu (preferably all-in-one setup like a onexgpu or something similar) or possibly saving up to buy a stronger handheld like a Strix…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo5d7y/invest_in_egpu_or_save_for_more_expensive_handheld/",
-      "published_at": "2026-09-24T10:13:58.892898+00:00",
-      "matched_keywords": [
-        "Z1E"
-      ],
-      "priority": true,
-      "summary_pl": "Użytkownik Legion Go zastanawia się, czy zainwestować w eGPU, czy oszczędzać na mocniejszą konsolę przenośną.",
-      "tags": [
-        "Legion Go",
-        "eGPU",
-        "handheld"
-      ]
-    },
-    {
-      "id": "8e9e294b0c1d0c3db748f5cb28b138d59c9b9fe82e14ee9b8c08bbedc2f49302",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Hello everyone i need some help with steamOS on LEGION GO",
-      "summary": "hello guys i got a OG legion go with windows installed on it i want to install steamOS but i read some people complaining about the GO overheat and shutdowns when playing demanding games cause the FANS dont ramp up properly they don't work out of the box like they do in windows also some people complains about FANS runing at full speed when the console on idle cause we know the steamOS still on Beta my question is i…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo8igz/hello_everyone_i_need_some_help_with_steamos_on/",
-      "published_at": "2026-09-24T10:13:58.892789+00:00",
-      "matched_keywords": [
-        "OG"
-      ],
-      "priority": true,
-      "summary_pl": "Użytkownik prosi o pomoc w instalacji systemu SteamOS na konsoli Legion Go. Obawia się problemów z przegrzewaniem i nieprawidłową pracą wentylatorów.",
-      "tags": [
-        "LegionGo",
-        "SteamOS",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "2b0ce306fd1e6a923fd471a4c97749e6a81b0b3a92913f4ce17ed98d5c034528",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "New PC Handheld User Help Needed",
-      "summary": "Hi All, I recently purchased a new Legion Go 2 and as a new PC Handheld user, REAL NEW and coming from the Nintendo ecosystem, I need some real help. And I'm searching for non-judgemental and super techy help. Here are some things I'm having problems with... Figuring out buttons - Some buttons dont work or aren't working when I'm playing on Steam vs outside of steam. Is this normal? Is my device not work? Are there…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woaom4/new_pc_handheld_user_help_needed/",
-      "published_at": "2026-09-24T10:13:58.892732+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "3930fb4936b6623eadd9d9b8145523df6023137e1035cb44992433d2b1a5035a",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Bazzite installation hanging",
-      "summary": "I am trying to switch from steamos to bazzite since steamos killed my gyroscope. Installing of bazzite went smooth enough but once I go to reboot for the initial setup, the system hangs and just turns the screen on and off indefinitely. This is the second time I've tried this process. submitted by /u/thegreatredragon [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wob31v/bazzite_installation_hanging/",
-      "published_at": "2026-09-24T10:13:58.892634+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "2693ac045d255a488cd7f9fc41faa502c779b2a63564c8b181753768a288ad58",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion Go2 z2 extreme PCSx2 FPS issue",
-      "summary": "Like title says... dunno how fix it to submitted by /u/Akukuk [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wodf40/legion_go2_z2_extreme_pcsx2_fps_issue/",
-      "published_at": "2026-09-24T10:13:58.892595+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "159a88376047c660b243e987c06ecb0a6270e60a7ecc82fa0b55661cbcbbcf64",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Unplugged defaulting to Quiet now...",
-      "summary": "Why all of a sudden is my Legion Go S defaulting to Quiet mode every time I start it up now, unplugged? Anywhere to fix this? submitted by /u/rrankine [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woepus/unplugged_defaulting_to_quiet_now/",
-      "published_at": "2026-09-24T10:13:58.892566+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "1c42041e5f06e0dab1667505e28cb5d6801eca9fe46c7fcf711b0011cbac5c44",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "How does z2 go legion go s perform in BG3 with steamos?",
-      "summary": "I know that bg3 has a native Linux port which provides much better performance than windows but can't find any benchmarks of the game with steamos on z2 go legion go s. Can any owners chime in? Thinking of picking up one mainly for this game. submitted by /u/Helpful_Economist_59 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woh6mz/how_does_z2_go_legion_go_s_perform_in_bg3_with/",
-      "published_at": "2026-09-24T10:13:58.892531+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "2b7c1b9ffec6855cf5bdba50704146918c40b81d117846d8a4fb2ef6c38cb109",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Streaming from PC to 4K TV using Legion Go S.",
-      "summary": "I mostly stream from PC to my Legion Go S without issues using moonlight, however I've been wanting to change it up and stream to my 4K TV instead. Is it as simple as starting the stream on my Legio Go S like normal, then docking it onto a docking station (USB C connection with Legion Go) which is connected to my TV via HDMI? Is there any specific spec that I need to for the dock or the HDMI cable? My native PC is 1…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woo15m/streaming_from_pc_to_4k_tv_using_legion_go_s/",
-      "published_at": "2026-09-24T10:13:58.892483+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "b4c5100b13b90a00bb41de1ffe3188df34b791c82a9e0ad4a6285238cbbe2a88",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Just bought a legion go 2",
-      "summary": "So I just bought a legion go 2 as I found a sweet deal. I come from an Xbox but wanted to play battlefield on the go. I feel really dumb but I can’t figure out how to download battlefield 6? submitted by /u/Available_Eagle4150 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woo4r1/just_bought_a_legion_go_2/",
-      "published_at": "2026-09-24T10:13:58.892426+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "cc6c71b530fdd93d0540703d7db38537bcef8b96af05f87e26629dc03be0a46d",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Issue with playing games on legion go",
-      "summary": "Hello so I’ve had my legion go for a bit now but as of yesterday I tried playing a steam game on it and idk weather it’s a windows update issue or something else when I click to play a game it opens game starts then goes immediately to legion space. Or when I reset the Legion and open the game first thing after it comes back the reset I open the game no problem but once I’m on the start screen my controllers don’t r…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wopxzg/issue_with_playing_games_on_legion_go/",
-      "published_at": "2026-09-24T10:13:58.892379+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "5763d145708e6d932add2429e315207dfb54688dd7c0abe852c2af98e9e645a9",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "How could i install in steamos",
-      "summary": "I have lenovo legion go s steamos and i can't download files how can i do that submitted by /u/Sad_Zone1434 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wor64c/how_could_i_install_in_steamos/",
-      "published_at": "2026-09-24T10:13:58.892306+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "169ed1fc67dccac4922cd675abdf0afeb51530eac12c8818a155619b8148e237",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I have Go 2 but want the Ally Xbox OLED Model",
-      "summary": "Please talk me out of selling my go 2 for it. I like my go 2 but it is on the bigger, heavier side. I loved my Xbox Ally X but the screen was not that great compared to OLED. submitted by /u/beipher [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woseox/i_have_go_2_but_want_the_ally_xbox_oled_model/",
-      "published_at": "2026-09-24T10:13:58.892254+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
       "id": "d416760db8aff28a239654a1d3146305afa8c1afbea0364b2c4f6084ba20a3cc",
       "source": "PPE",
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Gry 26V 0 Gry 26V 0 Średniowieczna przygoda galopuje w kierunku konsol. Duża aktualizacja z wędkowaniem już dostępna PS5 XSX|S NS2 PC Dzisiaj, 12:07",
-      "summary": "",
+      "title": "Gry 90V 1 Gry 90V 1 Średniowieczna przygoda galopuje w kierunku konsol. Duża aktualizacja z wędkowaniem już dostępna PS5 XSX|S NS2 PC Dzisiaj, 12:07",
+      "summary": "The Legend of Khiimori zadebiutowało w marcu, a teraz otrzymuje kolejne ważne nowości.",
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427776/sredniowieczna-przygoda-galopuje-w-kierunku-konsol-duza-aktualizacja-z-wedkowaniem-juz-dostepna.html",
       "published_at": "2026-09-24T10:13:57.115633+00:00"
     },
     {
-      "id": "2cdb28708de2b935cbc3cf88be1f5b1254608cf33ff59c79ab4feaba66c2b9be",
+      "id": "0e947ba50cba54fc5cfb2229654f0ccd934ccde3ea02ee01d2090e344d0d87e0",
       "source": "CD-Action",
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Nordycki dodatek do Age of E",
-      "summary": "",
+      "title": "1 Newsy Michał „thegoose” Gąsior Quake Champions znienacka przestało być darmowe po kilku latach od premiery. To efekt resetu w Xboksie Quake Champions znienacka przestało być darmowe po kilku latach...",
+      "summary": "Okrojone id Software najwyraźniej nie jest już w stanie dalej utrzymywać Quake Champions w takim modelu, jak dotychczas.",
       "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/nordycki-dodatek-do-age-of-empires-2-juz-dostepny-tworcy-wprowadzili-nowe-cywilizacje-i-kolejna-kampanie-fabularna/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
+      "url": "https://cdaction.pl/newsy/quake-champions-znienacka-przestalo-byc-darmowe-po-kilku-latach-od-premiery-to-efekt-resetu-w-xboksie/",
+      "published_at": "2026-09-24T10:00:00+00:00"
     },
     {
       "id": "400cec532c0e8173d570089c9092040ff8462e8c246ce35d85a9ab37e4ba600e",
@@ -1703,8 +1335,8 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Gry 721V Pilne 38 Gry 721V Pilne 38 Astro's Playroom na PC już nawet w 60 FPS-ach. Emulacja PS5 rozwala głowę PS5 Dzisiaj, 10:44",
-      "summary": "",
+      "title": "Gry 815V 43 Gry 815V 43 Astro's Playroom na PC już nawet w 60 FPS-ach. Emulacja PS5 rozwala głowę PS5 Dzisiaj, 10:44",
+      "summary": "Projektanci oprogramowania emulującego konsolę PlayStation 5 na komputerach osobistych mogą pochwalić się kolejnym, spektakularnym kamieniem milowym.",
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427761/astros-playroom-na-pc-juz-nawet-w-60-fps-ach-emulacja-ps5-rozwala-glowe.html",
       "published_at": "2026-09-24T09:58:20.637835+00:00"
@@ -1859,6 +1491,18 @@
       ]
     },
     {
+      "id": "2cdb28708de2b935cbc3cf88be1f5b1254608cf33ff59c79ab4feaba66c2b9be",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Nordycki dodatek do Age of E",
+      "summary": "The Viking Sagas pozwoli nam pokierować oddziałami Duńczyków, Waregów i Sasów.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/nordycki-dodatek-do-age-of-empires-2-juz-dostepny-tworcy-wprowadzili-nowe-cywilizacje-i-kolejna-kampanie-fabularna/",
+      "published_at": "2026-09-23T10:59:35+00:00"
+    },
+    {
       "id": "8932d13cb59f42793b172dce46f17a9f7a1c154a04afd002974211f861b9e338",
       "source": "PC Gamer",
       "source_type": "news",
@@ -1875,6 +1519,18 @@
         "GPU",
         "Linux"
       ]
+    },
+    {
+      "id": "2d1e6f1cfe14c30da11605120b4fee7f9ac51dfad9acfb6ff724191d32851972",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Resident Evil Veronica może w",
+      "summary": "Według nieoficjalnych doniesień Capcom zdecydował się opóźnić premierę Resident Evil Veronica, by wyrobić się z planem produkcyjnym gry.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/resident-evil-veronica-moze-wyjsc-nieco-pozniej-niz-poczatkowo-zakladano-powodem-maja-byc-istotne-zmiany-w-grze/",
+      "published_at": "2026-09-23T10:00:00+00:00"
     },
     {
       "id": "fb64098f29297cf6bbebbffd16bbb7c7df03991b7626ab656a1100bd11135e2e",
@@ -1982,6 +1638,18 @@
       "url": "https://www.youtube.com/watch?v=7ZNFLASysm0",
       "published_at": "2026-09-21T17:00:55Z",
       "thumbnail_url": "https://i.ytimg.com/vi/7ZNFLASysm0/mqdefault.jpg"
+    },
+    {
+      "id": "2a289c5ce59bf92044cbf444e02d728e311e28d34b328d505154ae5ed8f56ca5",
+      "source": "Komputer Świat",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "pl",
+      "title": "Czysty marketing czy coś jest na rzeczy? Wyjaśniamy, o co tak naprawdę chodzi w \"zagrożeniu AI\"",
+      "summary": "Nie ma dnia, abyśmy nie słyszeli o tym, jak wysokie jest ryzyko tego, że sztuczna inteligencja doprowadzi do zagłady ludzkości. Czy ktoś poważnie myśli o tym,",
+      "summary_pl": "",
+      "url": "https://www.komputerswiat.pl/nauka-i-technika/sztuczna-inteligencja/czysty-marketing-czy-cos-jest-na-rzeczy-wyjasniamy-o-co-tak-naprawde-chodzi-w/0wnr483",
+      "published_at": "2026-09-21T06:00:00+00:00"
     },
     {
       "id": "17e373e5f06b0d8fee5773fef4ba7f21024eb243755d53368653e33a9e576aee",
@@ -2282,6 +1950,23 @@
       "url": "https://www.youtube.com/watch?v=r4ZDapvpe34",
       "published_at": "2026-09-15T12:45:02Z",
       "thumbnail_url": "https://i.ytimg.com/vi/r4ZDapvpe34/mqdefault.jpg"
+    },
+    {
+      "id": "a7d74fb3e8011e18fd32060a3413cb99560506d2fecacb54e90c827a53ad819a",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Sony Playstation 5 PS5 Slim z napędem z Polski za $700.33 / ~2688zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-playstation-5/",
+      "published_at": "2026-09-15T12:24:45+00:00",
+      "matched_keywords": [
+        "PlayStation",
+        "PS5"
+      ],
+      "price": "2688zł",
+      "active": true
     },
     {
       "id": "7d51b202ffcc27c0b1bed2c4b98dde47e34cd75824895675a0be319e50a8194a",
@@ -2716,6 +2401,22 @@
       "thumbnail_url": "https://i.ytimg.com/vi/KVh9KbM05EI/mqdefault.jpg"
     },
     {
+      "id": "b4c96abba496119791aaac6822c8ed73fe84b76fa382c69e002cc6ce5fd2bc1d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Inteligentne okulary Xreal One AR 3840X1080 z EU za $385.27 / ~1459zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/inteligentne-okulary-xreal-one-ar-3840x1080/",
+      "published_at": "2026-08-20T10:52:47+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "1459zł",
+      "active": true
+    },
+    {
       "id": "512fd092fb8e058279b4c5beea626f7f27f40d1f4dd17dbb0e855d65b1a2c292",
       "source": "arhn.eu",
       "source_type": "youtube",
@@ -2884,6 +2585,22 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
+      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
+      "published_at": "2026-07-28T20:27:02+00:00",
+      "matched_keywords": [
+        "PlayStation"
+      ],
+      "price": "1099zł",
+      "active": true
+    },
+    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -2930,6 +2647,22 @@
       "url": "https://www.youtube.com/watch?v=2sgQ2ZkA_XI",
       "published_at": "2026-07-16T14:00:09Z",
       "thumbnail_url": "https://i.ytimg.com/vi/2sgQ2ZkA_XI/mqdefault.jpg"
+    },
+    {
+      "id": "6e7a54742d56ad68abb4ddbd3e8cc48c4dc11c3b7505357b997980ee4c9f4471",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bakeey 6 in 1 – stacja dokująca do Steam Decka (HDMI 4K 60Hz, PD, 3xUSB 3.0, Ethernet) za $13.99 / ~54zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bakeey-6-in-1-stacja-dokujaca-do-steam-decka-hdmi-4k-60hz-pd-3xusb-3-0-ethernet/",
+      "published_at": "2026-07-10T10:50:09+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "54zł",
+      "active": true
     },
     {
       "id": "721b99d33ca990d3d8889a9ec8599e10370cdc62ce2fc1164f56f9e7bfc7c1f4",
@@ -3014,6 +2747,756 @@
       "url": "https://www.youtube.com/watch?v=o8cJS6Jj6LA",
       "published_at": "2026-06-09T15:27:02Z",
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
+    },
+    {
+      "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "[Certyfikowany przez Xbox] Kontroler przewodowy FLYDIGI Vader 5S za $67.99 / ~249zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/certyfikowany-przez-xbox-kontroler-przewodowy-flydigi-vader-5s/",
+      "published_at": "2026-04-08T14:11:58+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "249zł",
+      "active": true
+    },
+    {
+      "id": "cb56a61cc5bd56a4373c3629ac9e403929eb14525c8220c26f3afc5dde6ef50d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bezprzewodowy kontroler do gier GameSir G7 Pro Wuchang dla konsoli Xbox za $88.3 / ~336zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-gier-gamesir-g7-pro-wuchang-dla-konsoli-xbox/",
+      "published_at": "2026-03-19T16:37:01+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "336zł",
+      "active": true
+    },
+    {
+      "id": "b23f4643d1fffe1990366c5f7d7cefb28866b312b6e103de45d3a3676f9bb2d2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Ładowarka kontrolera do Xbox Seires X z akumulatorami z EU za $25.6 / ~95zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ladowarka-kontrolera-do-xbox-seires-x-z-akumulatorami/",
+      "published_at": "2026-01-12T11:46:01+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "95zł",
+      "active": true
+    },
+    {
+      "id": "5917fff1d7a37f0fc8ea9e6471e74402ef69fd6711801bbcc3a53b7732c6e5c1",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Przenośna konsola do gier ASUS ROG Xbox Ally z EU za $614.06 / ~2273zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
+      "published_at": "2026-01-12T09:41:23+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "ROG Ally"
+      ],
+      "price": "2273zł",
+      "active": true
+    },
+    {
+      "id": "0e628932ee952b2bde28833f6902c594ada6df88e556335c5e2f834f8a84fc14",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Przewodowy kontroler gier 8BitDo Ultimate C do konsoli Xbox za $29.61 / ~109zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/przewodowy-kontroler-gier-8bitdo-ultimate-c-do-konsoli-xbox/",
+      "published_at": "2026-01-04T12:43:14+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "109zł",
+      "active": true
+    },
+    {
+      "id": "3690f0ce7f57a5e468c3521f9a1acd22ec5f32d5ec8ff4ab44de403da1726050",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Xbox Edition 8BitDo Ultimate Mobile Gaming Controller za $35.99 / ~132zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/xbox-edition-8bitdo-ultimate-mobile-gaming-controller/",
+      "published_at": "2025-12-25T10:55:47+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "132zł",
+      "active": true
+    },
+    {
+      "id": "5510e2e3d83e2aefb249b4fbddca42f569979c0f0c4e2cddd4db751363c665e3",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Karta pamięci Batocera 1TB do Steam Deck / Anbernicka za $102.8 / ~384zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/karta-pamieci-batocera-1tb-do-steam-deck-anbernicka-za-102-73-382zl/",
+      "published_at": "2025-11-12T15:49:42+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "384zł",
+      "active": true
+    },
+    {
+      "id": "7e5d2ae9474eae6c6d560acd2409b944e5ce2d73ccbb880d1224468033e1faed",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gamepad 8BitDo Ultimate-3-Mode do Xboxa i PC za $73.9 / ~278zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-ultimate-3-mode/",
+      "published_at": "2025-11-02T13:25:36+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "278zł",
+      "active": true
+    },
+    {
+      "id": "88503001dccc3de6a5e79dfea8cfc1a47e40cccf9555e5753f0f04a9e52bea51",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola do gier Lenovo Legion Go S 2025 z EU za $507.72 / ~1876zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-go-s-2025/",
+      "published_at": "2025-09-09T09:33:47+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "1876zł",
+      "active": true
+    },
+    {
+      "id": "d3df7b86ea3f660815e48b4ea137ac3d6fdcee482f2228ebff795d2f3111bf61",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "8BitDo Xbox Ultimate X Pro za $59.99 / ~221zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-xbox-ultimate-x-pro/",
+      "published_at": "2025-07-07T13:49:26+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "221zł",
+      "active": true
+    },
+    {
+      "id": "1afcac646491f780422491b64de324b047163a40584562b769ae3e1e542a2a76",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion Go S z EU za $530.81 / ~1989zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-go-s/",
+      "published_at": "2025-06-25T12:21:49+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "1989zł",
+      "active": true
+    },
+    {
+      "id": "6a56b6e674730b4a33a215b54064b50cb36a20900818de911d3220d110c1a404",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "ASUS ROG Ally X – Przenośna konsola do gier z EU za $956.03 / ~3582zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/asus-rog-ally-x-przenosna-konsola-do-gier/",
+      "published_at": "2025-06-24T17:20:14+00:00",
+      "matched_keywords": [
+        "ROG Ally",
+        "Z1 Extreme"
+      ],
+      "price": "3582zł",
+      "active": true
+    },
+    {
+      "id": "d4e067b7ded335e5562d348a24b83c0bf7c0d97841bffcd1a80adcc4aa426a88",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGREEN CM800 9 in 1 USB C Docking Station za $51.99 / ~194zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-cm800-9-in-1-usb-c-docking-station/",
+      "published_at": "2025-06-23T17:27:09+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "194zł",
+      "active": true
+    },
+    {
+      "id": "665f1ef9bd65b8b1971f0d8759439219f5128bb9ac01d1ff615180d71aa29f3b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "VITURE One XR Smart Glasses za $679.99 / ~2598zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-one-xr-smart-glasses/",
+      "published_at": "2025-06-12T12:41:26+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "2598zł",
+      "active": true
+    },
+    {
+      "id": "f4c5478749507d9d2b7131c334a9121c97a2b9358fdcb68b4b5849130aca6e10",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion R27fc-30 27″FHD VA 340Hz 350nits HDMI z Polski za $166.74 / ~654zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-r27fc-30-27fhd-va-340hz-350nits-hdmi/",
+      "published_at": "2025-03-18T09:51:50+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "654zł",
+      "active": true
+    },
+    {
+      "id": "a8f3fde4926738c14d47882d73e8c40f8c79ce4576f79d205a80eb228f71858e",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "ASUS ROG Ally Z1 Extreme z EU za $424.59 / ~1666zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/asus-rog-ally-z1-extreme/",
+      "published_at": "2025-03-17T07:47:20+00:00",
+      "matched_keywords": [
+        "ROG Ally",
+        "Z1 Extreme"
+      ],
+      "price": "1666zł",
+      "active": true
+    },
+    {
+      "id": "84919f6174c73487c4fe3fb58e3d7958c2867532f12cfc38493b6639b9941d42",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Projektor laserowy Formovie Cinema Edge ALPD 4K z EU za $1799.00 / ~7592zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/formovie-cinema-edge-alpd/",
+      "published_at": "2025-01-07T11:54:06+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "7592zł",
+      "active": true
+    },
+    {
+      "id": "de8847c85137db5061d7d80fada4b3506af6a7f276628004ae8df0bea940f7d6",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Okulary AR VITURE Pro XR za $249.00 / ~1041zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-pro-xr/",
+      "published_at": "2024-12-27T14:30:53+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "1041zł",
+      "active": true
+    },
+    {
+      "id": "7f055e1a1c67fe74780c521a131d109c86e33c25eea0c256f2f47f9623e150af",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $45.99 / ~189zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
+      "published_at": "2024-12-11T12:18:54+00:00",
+      "matched_keywords": [
+        "Legion Go",
+        "ROG Ally",
+        "Steam Deck"
+      ],
+      "price": "189zł",
+      "active": true
+    },
+    {
+      "id": "597fbced873fcc497b27dbaece50ed4529ef83bc0157784e92b828a37bc3c7d2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dysk Western Digital WD SN740 2TB M.2 SSD do Rog Ally / Steam Decka za $105.42 / ~434zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
+      "published_at": "2024-11-12T09:06:17+00:00",
+      "matched_keywords": [
+        "ROG Ally",
+        "Steam Deck"
+      ],
+      "price": "434zł",
+      "active": true
+    },
+    {
+      "id": "a87ad8ef0f9064672862ecd0d0365ca045666573d3ef2928548275c00efe61f9",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dysk KingSpec M.2 NVMe 2230 SSD 1TB do Steam Decka za $46.99 / ~195zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/kingspec-m-2-nvme-2230-ssd/",
+      "published_at": "2024-11-08T14:16:28+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "195zł",
+      "active": true
+    },
+    {
+      "id": "98fc513a758c938bcf9df437e2e7066a1bb0c6c09deed3f0fa52bcd43de211e9",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $49.99 / ~205zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
+      "published_at": "2024-11-08T11:20:45+00:00",
+      "matched_keywords": [
+        "Legion Go",
+        "ROG Ally",
+        "Steam Deck"
+      ],
+      "price": "205zł",
+      "active": true
+    },
+    {
+      "id": "59c80892e20db515553470b09428bd2215e31efe2021c3953bc606e3a90c524b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kontroler GameSir G7 SE Xbox za $37.99 / ~156zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/gamesir-g7-se-xbox-2/",
+      "published_at": "2024-11-06T12:51:22+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "156zł",
+      "active": true
+    },
+    {
+      "id": "7b8e12cd0e5d18f460f21d151f71ae25c243805a1e7b5dab6972a1543b1742a1",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "8BitDo Media Remote for Xbox One za $18.99 / ~76zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-media-remote-for-xbox-one/",
+      "published_at": "2024-10-17T08:42:22+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "76zł",
+      "active": true
+    },
+    {
+      "id": "adf97070d013311cab08b9ccece0c4d6b7798f3b01fa551224b253ae0114d11b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Okulary AR VITURE One XR za $1119.99 / ~4480zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-one-xr/",
+      "published_at": "2024-10-11T08:23:31+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "4480zł",
+      "active": true
+    },
+    {
+      "id": "0dcc3a404d339db93622a0c7d40598593030d1b0ddd6445dced41052c1084b61",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Ładowarka do padów do Xboxa z akumulatorami za $24.99 / ~100zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ladowarka-do-padow-do-xboxa-z-akumulatorami/",
+      "published_at": "2024-10-08T08:38:36+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "100zł",
+      "active": true
+    },
+    {
+      "id": "a06a9a2c2ebaa8300bf3967fde75660eee0a37df7991f86ca0baee1bb0e5bfc7",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca do Steam Decka za $9.98 / ~40zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka-alie/",
+      "published_at": "2024-10-02T11:08:26+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "40zł",
+      "active": true
+    },
+    {
+      "id": "ad9a33440de68b5b290ffdec260d83ec20ff732e7d00c3b0fdb3c77e82cb5050",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Etui ochronne na steam decka za $14.48 / ~55zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/etui-ochronne-na-steam-decka/",
+      "published_at": "2024-09-27T10:45:25+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "55zł",
+      "active": true
+    },
+    {
+      "id": "fd99734d39d74ec155028684a8c948365bdfa2931f0bc5d58878ea47e354eead",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gamepad do telefonu GameSir X4 Xbox za $63.26 / ~250zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/gamepad-do-telefonu-gamesir-x4-xbox/",
+      "published_at": "2024-09-19T09:19:03+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "250zł",
+      "active": true
+    },
+    {
+      "id": "d53fefed23b501a8c775eba0f6f7873c0c87b08acfc806315181df0be16a89b3",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bezprzewodowy kontroler do Xbox za $21.99 / ~88zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-xbox/",
+      "published_at": "2024-08-06T15:17:15+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "88zł",
+      "active": true
+    },
+    {
+      "id": "4034e8cfa6bf20a9b31e93596f2456a12f06a92e55118e6d65e1bd8b82372b6f",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "8Bitdo for Xbox Dual Charging Dock za $47.99 / ~192zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-for-xbox-dual-charging-dock/",
+      "published_at": "2024-08-06T10:55:44+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "192zł",
+      "active": true
+    },
+    {
+      "id": "a14acfd2c08f19132406477e7236bb16b05743579bf6bb86689499a83047689a",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Wymienna obudowa Starfield do pada od Xboxa za $6.57 / ~26zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/wymienna-obudowa-starfield-do-pada-od-xboxa/",
+      "published_at": "2024-08-03T13:08:09+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "26zł",
+      "active": true
+    },
+    {
+      "id": "0b9ebe86f98adce2f6bffa67dd39d9072d2d5fae20ccaeeb55cd52e02985e108",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dobe stacja dokująca do steam decka za $13.99 / ~57zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka-bg/",
+      "published_at": "2024-07-31T08:34:38+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "57zł",
+      "active": true
+    },
+    {
+      "id": "f58cb681af495f105590f236225f0635d5994232a6aa25dc2f79382d8b6cbb60",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Baseus USB C Stacja dokująca do steam decka za $33.99 / ~139zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/baseus-usb-c/",
+      "published_at": "2024-06-15T09:08:35+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "139zł",
+      "active": true
+    },
+    {
+      "id": "51a002c525cb4e2cb7c7abbd01605364a81cb68e6e1ae3febef4716702d90d85",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Pełne etui ochronne do Steam Decka za $12.35 / ~48zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/pelne-etui-ochronne-do-steam-decka/",
+      "published_at": "2024-05-29T06:37:07+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "48zł",
+      "active": true
+    },
+    {
+      "id": "b5ef009ef6380a6d1b0cca9ead54f8613d95dd3bc350c891f3f4f1c9da997bf6",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola ASUS ROG Ally AMD Ryzen Z1 Extreme za $619.00 / ~2488zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/konsola-asus-rog-ally-amd-ryzen-z1-extreme/",
+      "published_at": "2024-05-06T11:54:03+00:00",
+      "matched_keywords": [
+        "ROG Ally",
+        "Z1 Extreme"
+      ],
+      "price": "2488zł",
+      "active": true
+    },
+    {
+      "id": "a5de684a199fad1da26d140c71df1577c8349e664f9a4d4ddaef84977fe37e7d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "2x Szkło ochronne do Steam Decka za $3.62 / ~14zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/zklo-ochronne-do-steam-decka/",
+      "published_at": "2024-03-04T15:22:17+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "14zł",
+      "active": true
+    },
+    {
+      "id": "17fa8ab7cc2322a6651f1a683d7621d2d0f61a633744e5b4931fd90de9698c7c",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DOBE stacja dokująca do steam decka za $18.99 / ~80zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka/",
+      "published_at": "2023-10-19T09:07:59+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "80zł",
+      "active": true
+    },
+    {
+      "id": "0b5db7e008f9e47053aef3dfdee5dd3aac32915fd3ec0c7f24ba225c8eeb9df2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca do steam decka 4K60Hz z chłodzeniem za $38.99 / ~170zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka/",
+      "published_at": "2023-09-29T09:50:09+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "170zł",
+      "active": true
+    },
+    {
+      "id": "2678442550ffa2660b2fac3e4abc2ab2aa8fdb6c7cc959cae6287278f7bc5868",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kamera sportowa SJCAM Sj10 Pro za $159 / ~750zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sjcam-sj10-pro/",
+      "published_at": "2022-11-07T15:33:05+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "750zł",
+      "active": true
+    },
+    {
+      "id": "e0ed61824e841fc3f7bbd1323fd7d50484a552142ddcaf32c7254053eab9a5be",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Karta pamięci SanDisk Extreme 64GB z Polski za $13.32 / ~51.63zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sandisk-extreme-64-gb/",
+      "published_at": "2021-03-09T12:01:24+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "51.63zł",
+      "active": true
+    },
+    {
+      "id": "8ade97e78b6beec871dbe15689771dcd9a47eacce0c1abd53601fd8537165e7b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Grawer laserowy NEJE KZ10W 10000mW za $103.29 / ~376zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/neje-kz10w-10000mw/",
+      "published_at": "2020-12-11T14:38:21+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "376zł",
+      "active": true
+    },
+    {
+      "id": "32fcf09588335a8fd524125815ce164520712b5307a6f4559a6f093ab671e836",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Mixer Blender Biolomix za $96.99 / ~361zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/mixer-blender-biolomix/",
+      "published_at": "2020-08-07T11:32:55+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "361zł",
+      "active": true
+    },
+    {
+      "id": "6460727e49049ac2a42dac24ad59bd3b30cfd990957e13d1249ce30bbacf1d49",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Zdalnie sterowany samolot ZOHD Dart XL Extreme 1000mm za $129.99 / ~510zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/zohd-dart-xl-extreme-1000mm/",
+      "published_at": "2019-09-10T16:54:01+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "510zł",
+      "active": true
+    },
+    {
+      "id": "1826efdb27733bb2d67c4d41932c1c5a7f665974ce076c6adc6d1b159870758b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion Y7000 Gaming Laptop za $869.99 / ~3304zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-y7000-gaming-laptop/",
+      "published_at": "2019-07-18T11:22:49+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "3304zł",
+      "active": true
+    },
+    {
+      "id": "af29c3c7ba708406761ad4c2b6903a70ca18705f3fde082eee62bb4d5d549e76",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Laptop Lenovo Legion R720 za $1099.99 / ~4187zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-r720/",
+      "published_at": "2019-02-10T17:31:02+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "4187zł",
+      "active": true
     }
   ]
 }
