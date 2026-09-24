@@ -1,7 +1,1312 @@
 {
-  "updated_at": "2026-09-24T09:58:41.144588+00:00",
-  "count": 235,
+  "updated_at": "2026-09-24T10:20:21.525702+00:00",
+  "count": 217,
   "items": [
+    {
+      "id": "7e5d2ae9474eae6c6d560acd2409b944e5ce2d73ccbb880d1224468033e1faed",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gamepad 8BitDo Ultimate-3-Mode do Xboxa i PC za $73.9 / ~278zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-ultimate-3-mode/",
+      "published_at": "2026-09-24T10:20:15.223022+00:00",
+      "matched_keywords": [
+        "pad Xbox"
+      ],
+      "price": "278zł",
+      "active": true
+    },
+    {
+      "id": "3690f0ce7f57a5e468c3521f9a1acd22ec5f32d5ec8ff4ab44de403da1726050",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Xbox Edition 8BitDo Ultimate Mobile Gaming Controller za $35.99 / ~132zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/xbox-edition-8bitdo-ultimate-mobile-gaming-controller/",
+      "published_at": "2026-09-24T10:20:13.084831+00:00",
+      "matched_keywords": [
+        "pad Xbox"
+      ],
+      "price": "132zł",
+      "active": true
+    },
+    {
+      "id": "0e628932ee952b2bde28833f6902c594ada6df88e556335c5e2f834f8a84fc14",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Przewodowy kontroler gier 8BitDo Ultimate C do konsoli Xbox za $29.61 / ~109zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/przewodowy-kontroler-gier-8bitdo-ultimate-c-do-konsoli-xbox/",
+      "published_at": "2026-09-24T10:20:08.877626+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "109zł",
+      "active": true
+    },
+    {
+      "id": "b23f4643d1fffe1990366c5f7d7cefb28866b312b6e103de45d3a3676f9bb2d2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Ładowarka kontrolera do Xbox Seires X z akumulatorami z EU za $25.6 / ~95zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ladowarka-kontrolera-do-xbox-seires-x-z-akumulatorami/",
+      "published_at": "2026-09-24T10:20:06.351973+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "95zł",
+      "active": true
+    },
+    {
+      "id": "cb56a61cc5bd56a4373c3629ac9e403929eb14525c8220c26f3afc5dde6ef50d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bezprzewodowy kontroler do gier GameSir G7 Pro Wuchang dla konsoli Xbox za $88.3 / ~336zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-gier-gamesir-g7-pro-wuchang-dla-konsoli-xbox/",
+      "published_at": "2026-09-24T10:20:02.248452+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "336zł",
+      "active": true
+    },
+    {
+      "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "[Certyfikowany przez Xbox] Kontroler przewodowy FLYDIGI Vader 5S za $67.99 / ~249zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/certyfikowany-przez-xbox-kontroler-przewodowy-flydigi-vader-5s/",
+      "published_at": "2026-09-24T10:19:57.392019+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "249zł",
+      "active": true
+    },
+    {
+      "id": "2678442550ffa2660b2fac3e4abc2ab2aa8fdb6c7cc959cae6287278f7bc5868",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kamera sportowa SJCAM Sj10 Pro za $159 / ~750zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sjcam-sj10-pro/",
+      "published_at": "2026-09-24T10:19:54.895307+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "750zł",
+      "active": true
+    },
+    {
+      "id": "84919f6174c73487c4fe3fb58e3d7958c2867532f12cfc38493b6639b9941d42",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Projektor laserowy Formovie Cinema Edge ALPD 4K z EU za $1799.00 / ~7592zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/formovie-cinema-edge-alpd/",
+      "published_at": "2026-09-24T10:19:52.440774+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "7592zł",
+      "active": true
+    },
+    {
+      "id": "6460727e49049ac2a42dac24ad59bd3b30cfd990957e13d1249ce30bbacf1d49",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Zdalnie sterowany samolot ZOHD Dart XL Extreme 1000mm za $129.99 / ~510zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/zohd-dart-xl-extreme-1000mm/",
+      "published_at": "2026-09-24T10:19:46.995284+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "510zł",
+      "active": true
+    },
+    {
+      "id": "8ade97e78b6beec871dbe15689771dcd9a47eacce0c1abd53601fd8537165e7b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Grawer laserowy NEJE KZ10W 10000mW za $103.29 / ~376zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/neje-kz10w-10000mw/",
+      "published_at": "2026-09-24T10:19:42.507781+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "376zł",
+      "active": true
+    },
+    {
+      "id": "e0ed61824e841fc3f7bbd1323fd7d50484a552142ddcaf32c7254053eab9a5be",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Karta pamięci SanDisk Extreme 64GB z Polski za $13.32 / ~51.63zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sandisk-extreme-64-gb/",
+      "published_at": "2026-09-24T10:19:40.016226+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "51.63zł",
+      "active": true
+    },
+    {
+      "id": "32fcf09588335a8fd524125815ce164520712b5307a6f4559a6f093ab671e836",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Mixer Blender Biolomix za $96.99 / ~361zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/mixer-blender-biolomix/",
+      "published_at": "2026-09-24T10:19:35.670207+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "361zł",
+      "active": true
+    },
+    {
+      "id": "adf97070d013311cab08b9ccece0c4d6b7798f3b01fa551224b253ae0114d11b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Okulary AR VITURE One XR za $1119.99 / ~4480zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-one-xr/",
+      "published_at": "2026-09-24T10:19:32.716411+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "4480zł",
+      "active": true
+    },
+    {
+      "id": "de8847c85137db5061d7d80fada4b3506af6a7f276628004ae8df0bea940f7d6",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Okulary AR VITURE Pro XR za $249.00 / ~1041zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-pro-xr/",
+      "published_at": "2026-09-24T10:19:29.985983+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "1041zł",
+      "active": true
+    },
+    {
+      "id": "665f1ef9bd65b8b1971f0d8759439219f5128bb9ac01d1ff615180d71aa29f3b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "VITURE One XR Smart Glasses za $679.99 / ~2598zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-one-xr-smart-glasses/",
+      "published_at": "2026-09-24T10:19:26.792807+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "2598zł",
+      "active": true
+    },
+    {
+      "id": "d4e067b7ded335e5562d348a24b83c0bf7c0d97841bffcd1a80adcc4aa426a88",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGREEN CM800 9 in 1 USB C Docking Station za $51.99 / ~194zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-cm800-9-in-1-usb-c-docking-station/",
+      "published_at": "2026-09-24T10:19:18.683236+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "194zł",
+      "active": true
+    },
+    {
+      "id": "5917fff1d7a37f0fc8ea9e6471e74402ef69fd6711801bbcc3a53b7732c6e5c1",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Przenośna konsola do gier ASUS ROG Xbox Ally z EU za $614.06 / ~2273zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
+      "published_at": "2026-09-24T10:19:10.738625+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "2273zł",
+      "active": true
+    },
+    {
+      "id": "b5ef009ef6380a6d1b0cca9ead54f8613d95dd3bc350c891f3f4f1c9da997bf6",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola ASUS ROG Ally AMD Ryzen Z1 Extreme za $619.00 / ~2488zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/konsola-asus-rog-ally-amd-ryzen-z1-extreme/",
+      "published_at": "2026-09-24T10:18:53.426733+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "2488zł",
+      "active": true
+    },
+    {
+      "id": "a8f3fde4926738c14d47882d73e8c40f8c79ce4576f79d205a80eb228f71858e",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "ASUS ROG Ally Z1 Extreme z EU za $424.59 / ~1666zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/asus-rog-ally-z1-extreme/",
+      "published_at": "2026-09-24T10:18:45.839269+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "1666zł",
+      "active": true
+    },
+    {
+      "id": "6a56b6e674730b4a33a215b54064b50cb36a20900818de911d3220d110c1a404",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "ASUS ROG Ally X – Przenośna konsola do gier z EU za $956.03 / ~3582zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/asus-rog-ally-x-przenosna-konsola-do-gier/",
+      "published_at": "2026-09-24T10:18:42.990389+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "3582zł",
+      "active": true
+    },
+    {
+      "id": "b4c96abba496119791aaac6822c8ed73fe84b76fa382c69e002cc6ce5fd2bc1d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Inteligentne okulary Xreal One AR 3840X1080 z EU za $385.27 / ~1459zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/inteligentne-okulary-xreal-one-ar-3840x1080/",
+      "published_at": "2026-09-24T10:18:37.365082+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "1459zł",
+      "active": true
+    },
+    {
+      "id": "0b5db7e008f9e47053aef3dfdee5dd3aac32915fd3ec0c7f24ba225c8eeb9df2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca do steam decka 4K60Hz z chłodzeniem za $38.99 / ~170zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka/",
+      "published_at": "2026-09-24T10:18:34.127941+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "170zł",
+      "active": true
+    },
+    {
+      "id": "17fa8ab7cc2322a6651f1a683d7621d2d0f61a633744e5b4931fd90de9698c7c",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DOBE stacja dokująca do steam decka za $18.99 / ~80zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka/",
+      "published_at": "2026-09-24T10:18:31.547176+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "80zł",
+      "active": true
+    },
+    {
+      "id": "a5de684a199fad1da26d140c71df1577c8349e664f9a4d4ddaef84977fe37e7d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "2x Szkło ochronne do Steam Decka za $3.62 / ~14zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/zklo-ochronne-do-steam-decka/",
+      "published_at": "2026-09-24T10:18:28.242567+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "14zł",
+      "active": true
+    },
+    {
+      "id": "51a002c525cb4e2cb7c7abbd01605364a81cb68e6e1ae3febef4716702d90d85",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Pełne etui ochronne do Steam Decka za $12.35 / ~48zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/pelne-etui-ochronne-do-steam-decka/",
+      "published_at": "2026-09-24T10:18:25.440226+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "48zł",
+      "active": true
+    },
+    {
+      "id": "f58cb681af495f105590f236225f0635d5994232a6aa25dc2f79382d8b6cbb60",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Baseus USB C Stacja dokująca do steam decka za $33.99 / ~139zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/baseus-usb-c/",
+      "published_at": "2026-09-24T10:18:22.864931+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "139zł",
+      "active": true
+    },
+    {
+      "id": "0b9ebe86f98adce2f6bffa67dd39d9072d2d5fae20ccaeeb55cd52e02985e108",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dobe stacja dokująca do steam decka za $13.99 / ~57zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka-bg/",
+      "published_at": "2026-09-24T10:18:19.656581+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "57zł",
+      "active": true
+    },
+    {
+      "id": "ad9a33440de68b5b290ffdec260d83ec20ff732e7d00c3b0fdb3c77e82cb5050",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Etui ochronne na steam decka za $14.48 / ~55zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/etui-ochronne-na-steam-decka/",
+      "published_at": "2026-09-24T10:18:13.074738+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "55zł",
+      "active": true
+    },
+    {
+      "id": "a06a9a2c2ebaa8300bf3967fde75660eee0a37df7991f86ca0baee1bb0e5bfc7",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca do Steam Decka za $9.98 / ~40zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka-alie/",
+      "published_at": "2026-09-24T10:18:05.487010+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "40zł",
+      "active": true
+    },
+    {
+      "id": "a87ad8ef0f9064672862ecd0d0365ca045666573d3ef2928548275c00efe61f9",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dysk KingSpec M.2 NVMe 2230 SSD 1TB do Steam Decka za $46.99 / ~195zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/kingspec-m-2-nvme-2230-ssd/",
+      "published_at": "2026-09-24T10:17:58.442547+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "195zł",
+      "active": true
+    },
+    {
+      "id": "597fbced873fcc497b27dbaece50ed4529ef83bc0157784e92b828a37bc3c7d2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dysk Western Digital WD SN740 2TB M.2 SSD do Rog Ally / Steam Decka za $105.42 / ~434zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
+      "published_at": "2026-09-24T10:17:53.543535+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "434zł",
+      "active": true
+    },
+    {
+      "id": "5510e2e3d83e2aefb249b4fbddca42f569979c0f0c4e2cddd4db751363c665e3",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Karta pamięci Batocera 1TB do Steam Deck / Anbernicka za $102.8 / ~384zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/karta-pamieci-batocera-1tb-do-steam-deck-anbernicka-za-102-73-382zl/",
+      "published_at": "2026-09-24T10:17:46.484349+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "384zł",
+      "active": true
+    },
+    {
+      "id": "6e7a54742d56ad68abb4ddbd3e8cc48c4dc11c3b7505357b997980ee4c9f4471",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bakeey 6 in 1 – stacja dokująca do Steam Decka (HDMI 4K 60Hz, PD, 3xUSB 3.0, Ethernet) za $13.99 / ~54zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bakeey-6-in-1-stacja-dokujaca-do-steam-decka-hdmi-4k-60hz-pd-3xusb-3-0-ethernet/",
+      "published_at": "2026-09-24T10:17:41.124413+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "54zł",
+      "active": true
+    },
+    {
+      "id": "98fc513a758c938bcf9df437e2e7066a1bb0c6c09deed3f0fa52bcd43de211e9",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $49.99 / ~205zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
+      "published_at": "2026-09-24T10:17:38.581234+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "205zł",
+      "active": true
+    },
+    {
+      "id": "7f055e1a1c67fe74780c521a131d109c86e33c25eea0c256f2f47f9623e150af",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $45.99 / ~189zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
+      "published_at": "2026-09-24T10:17:33.654896+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "189zł",
+      "active": true
+    },
+    {
+      "id": "af29c3c7ba708406761ad4c2b6903a70ca18705f3fde082eee62bb4d5d549e76",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Laptop Lenovo Legion R720 za $1099.99 / ~4187zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-r720/",
+      "published_at": "2026-09-24T10:17:30.403041+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "4187zł",
+      "active": true
+    },
+    {
+      "id": "1826efdb27733bb2d67c4d41932c1c5a7f665974ce076c6adc6d1b159870758b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion Y7000 Gaming Laptop za $869.99 / ~3304zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-y7000-gaming-laptop/",
+      "published_at": "2026-09-24T10:17:27.507537+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "3304zł",
+      "active": true
+    },
+    {
+      "id": "f4c5478749507d9d2b7131c334a9121c97a2b9358fdcb68b4b5849130aca6e10",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion R27fc-30 27″FHD VA 340Hz 350nits HDMI z Polski za $166.74 / ~654zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-r27fc-30-27fhd-va-340hz-350nits-hdmi/",
+      "published_at": "2026-09-24T10:17:24.954549+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "654zł",
+      "active": true
+    },
+    {
+      "id": "1afcac646491f780422491b64de324b047163a40584562b769ae3e1e542a2a76",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion Go S z EU za $530.81 / ~1989zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-go-s/",
+      "published_at": "2026-09-24T10:17:19.337242+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "1989zł",
+      "active": true
+    },
+    {
+      "id": "88503001dccc3de6a5e79dfea8cfc1a47e40cccf9555e5753f0f04a9e52bea51",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola do gier Lenovo Legion Go S 2025 z EU za $507.72 / ~1876zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-go-s-2025/",
+      "published_at": "2026-09-24T10:17:17.050517+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "1876zł",
+      "active": true
+    },
+    {
+      "id": "30bee6164df422cb756ad65ed421e36d90672ecc88af76d0b988858c19e5a828",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Resident Evil 4 (2023) Gold Edition EU Xbox Series X|S CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/resident-evil-4-2023-gold-edition-eu-xbox-series-xs-cd-key-1355406",
+      "published_at": "2026-09-24T10:16:03.189427+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "ef0c452ff649de55b6a800d4cde28e7a8effceebdf9ea838ec37e3f6cb931b68",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Worms W.M.D Xbox One/Series",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/worms-wmd-xbox-oneseries-1354556",
+      "published_at": "2026-09-24T10:16:01.414625+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "19f693521b725dce9b402ad7b610036dc29e470b0afe192a8dc4460e659b695e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DLC Xbox/PC Halo Infinite Campaign CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xboxpc-halo-infinite-campaign-cd-key-1355178",
+      "published_at": "2026-09-24T10:15:59.608003+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "67,16 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "000a30c1ad1ff5e424b956aee990da23115a4a086c173ae03ea3ca8c3f8c998a",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Overcooked! 2 – Xbox One / Series X|S – 1245 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/overcooked-2-xbox-one-series-xs-1245-huf-1355295",
+      "published_at": "2026-09-24T10:15:57.899923+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "660e9cb2ff7dac693d45ebebd40d6bfd9a148ecf66727af5845a30d496124858",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DREDGE – Xbox One / Series X|S – 939 ISK",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/dredge-xbox-one-series-xs-939-isk-1355293",
+      "published_at": "2026-09-24T10:15:56.179423+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "bff225660b0fb4dbff928a11926b567742f5db1caffc37b3bc2484a0ac10cee8",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Pad, Kontroler bezprzewodowy Xbox – Ice Breaker Special Edition Series X|S, One, PC i urządzenia z obsługą chmury | wymagany PRIME FR |",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/pad-kontroler-bezprzewodowy-xbox-ice-breaker-special-edition-series-xs-one-pc-i-urzadzenia-z-obsluga-chmury-wymagany-prime-fr-1356285",
+      "published_at": "2026-09-24T10:15:54.150990+00:00",
+      "matched_keywords": [
+        "pad Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "9a0cdafb217e4f27787dba5fb079c55e38530eaf90c7bb7fa20edd939f746ec9",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Xbox Tom Clancy's Ghost Recon Wildlands: Standard Edition CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xbox-tom-clancys-ghost-recon-wildlands-standard-edition-1356047",
+      "published_at": "2026-09-24T10:15:52.470813+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4176855a2134de049ad62404ab4f185874c98f75d210807de159f4be82888aea",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Microsoft Xbox Series X + Elite Series 2",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/microsoft-xbox-series-x-elite-series-2-1355830",
+      "published_at": "2026-09-24T10:15:50.885315+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "4499 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6ad0aacf65f4595545b17d9031ff41877366e3aef0000e0f9666aeb8d1604662",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Xbox theHunter Call of the Wild: Standard Edition CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xbox-thehunter-call-of-the-wild-standard-edition-cd-key-1356184",
+      "published_at": "2026-09-24T10:15:49.194804+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "add2f62a9804051cd84e0460ae8a541d858a86d41e4f6369bee17e91582b7d16",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Enotria: The Last Song – Xbox One / Series X|S – 1649 ISK",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/enotria-the-last-song-xbox-one-series-xs-1649-isk-1355688",
+      "published_at": "2026-09-24T10:15:47.463706+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "305394f96bf3663584279f8726ce8cc8a9819f1830024b31cfe9fccc41a47f7d",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Xbox Game Pass Premium za darmo na 1 miesiąc - Samsung Promotion (dla nowych kont Xbox)",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-za-darmo-na-1-miesiac-samsung-promotion-dla-nowych-kont-xbox-1356255",
+      "published_at": "2026-09-24T10:15:45.655158+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "7ab0d5c5018afa6de74f125c876785530406d73d60a0e748cd273ce12a2fc992",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Tom Clancy's Splinter Cell: Chaos Theory – Xbox One / Series X|S – 800 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/tom-clancys-splinter-cell-chaos-theory-xbox-one-series-xs-800-huf-1356439",
+      "published_at": "2026-09-24T10:15:44.011865+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "66653e47dc0da64694e022520e05e2537516493ef2f47459d3f4003666e5874a",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Assassin's Creed Mirage – edycja deluxe – Xbox One / Series X|S – 6270 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/assassins-creed-mirage-edycja-deluxe-xbox-one-series-xs-6270-huf-1356441",
+      "published_at": "2026-09-24T10:15:42.451404+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "b5ba9b370835e121441d43b3a17f2ba4a5134277c6e900f1b6da22666250134d",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Assassin's Creed Valhalla – Xbox One / Series X|S",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/assassins-creed-valhalla-xbox-one-series-xs-1356437",
+      "published_at": "2026-09-24T10:15:40.895807+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "57,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "9bac4f35504a0c976379a44abac09600c79bd17509080a57c4693fa58212934e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "FARCRY 6 – Xbox One / Series X|S",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/farcry-6-xbox-one-series-xs-1356436",
+      "published_at": "2026-09-24T10:15:39.246887+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "43,49 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "42dd9ce5a61cd65721f0b4859a4c229b0d32826ec5b4e5266ae860b32e3a457c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
+      "published_at": "2026-09-24T10:15:12.004590+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6c0a8e86d6ac7e1129f88ce7a6cfed5c5b776d4dda9f63dda662e31376028bd3",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck +",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
+      "published_at": "2026-09-24T10:15:10.315848+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "849ca687c4e22c78e21d9eb9cc10c911ad2204372f07418695856e42b04e57a5",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck MK.2 za 445 zł",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
+      "published_at": "2026-09-24T10:15:08.600489+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "449 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6745307b1923be9893674b8ceab229d2b531b493f4a86097028c9a1b96c9b980",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Steam Deck LCD 256 GB",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
+      "published_at": "2026-09-24T10:15:06.867179+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "2198,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
+      "published_at": "2026-09-24T10:15:05.159970+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "67,01 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "955a11ae966a29e0f9fb553e4f6f6aa441470e92a6650dead055293432b0cfe4",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I gave GPT-6 Luna, Sol and Astra the same image and asked them to rebuild it in img2threejs",
+      "summary": "I ran a quick test with GPT-6 Luna, Sol and Astra using img2threejs All three received the same reference image and the exact same prompt: “Use the img2-environment skill to recreate the room from this reference image: [link]” Same image - Same prompt - Same pipeline Here are the three results side by side. submitted by /u/Feisty-Scheme-8356 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wo77o7/i_gave_gpt6_luna_sol_and_astra_the_same_image_and/",
+      "published_at": "2026-09-24T10:14:02.426727+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "36fbd628669aaa7afbcebf545039cd38ac032ed8b5fcf9c374d3e04603170299",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Turned my firewood splitter into a full iOS game!",
+      "summary": "Hey all! As per many of your suggestions I went ahead and turned my firewood splitting simulator into a full iOS game. The original webgame was made with Claude and Antigravity, built from 3D scans of my actual axe and stump and wood, and used my actual axe motions and splitting sounds that I recorded myself. Original post here showing the full BTS process: https://www.reddit.com/r/vibecoding/comments/1uckug1/heres_…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wo7qau/turned_my_firewood_splitter_into_a_full_ios_game/",
+      "published_at": "2026-09-24T10:14:02.426672+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "3d5f9c9aa1c7b5077055d9359acf1572d0f9cce8bbd045b6cf0c758d6746aff8",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "This is an Anthropic researcher btw. They knew they shipped a poor model, but admitting that in public takes balls. I respect him",
+      "summary": "Do you guys think we might get a surprise model before the end of the week? I’m betting that if we don’t we might get a release next week. submitted by /u/a113rick [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wo7z8g/this_is_an_anthropic_researcher_btw_they_knew/",
+      "published_at": "2026-09-24T10:14:02.426533+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "6bc1f2c78ba1301637c30318293390ae715c409e8eb01cd0fbba5bdac1c42f68",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Opus 5.5 one-shotted this entire 3D game in 30 minutes",
+      "summary": "gave opus 5.5 one prompt and let it cook for like 30 min. came back to a full 3D physics game you tap a can, the cannon fires, you knock everything off the pier. it even made all the sound effects in code lol try it (free): https://www.crazygames.com/game/topple-pier submitted by /u/TurbulentFail5486 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wo9yvf/opus_55_oneshotted_this_entire_3d_game_in_30/",
+      "published_at": "2026-09-24T10:14:02.426488+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "bf20e1d3e43180b624c74d3e98f5f0bd79872152e7ea69bcf73607ea407d2514",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Reddit is unbelievable",
+      "summary": "Reddit is unbelievable if you want to lose all motivation for vibe coding. I started vibe coding about four months ago, completely by accident. I needed an IPTV editor. Everything I had tried up to that point was either expensive or painfully slow to edit with. So I started building my own editor, and along the way, I learned the entire workflow—how to make something high-quality, fast, and efficient. I spent about…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wocf3g/reddit_is_unbelievable/",
+      "published_at": "2026-09-24T10:14:02.426444+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "e0127966581f68a766e8789a3e7161d673f3f480352869377f371fbf108e6f48",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Open source infinite canvas for UI design?",
+      "summary": "Does anyone know of an open source infinite canvas for for live testing app Uls? Magic Path AI looked perfect but it looks like they shut down their opensource version. submitted by /u/FurnitureRefinisher [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wocoq0/open_source_infinite_canvas_for_ui_design/",
+      "published_at": "2026-09-24T10:14:02.426280+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "ecf7e9ab6de8b6a509dcf34c364ee7b749f74977a61beb86d70043f48253833c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Opus 5.5 built me a website that turns any photo into ASCII art",
+      "summary": "You drop in a photo, pick where you're going to paste it, and it turns into text you copy with one button. No image, just characters. It uses Braille characters. Instagram and X show text in normal fonts where letters have different widths, so classic ASCII art falls apart there. Braille characters all have the same width, and each one is a 2x4 grid of dots. So a comment 26 characters wide is really a 52 x 60 dot pi…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wocpbj/opus_55_built_me_a_website_that_turns_any_photo/",
+      "published_at": "2026-09-24T10:14:02.426244+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "31bfa782e5f40aef359b095789d867f39b73b77f93961d472809390e0c5bd850",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Fde Learning path",
+      "summary": "submitted by /u/Downtown_Grab_2704 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wodtup/fde_learning_path/",
+      "published_at": "2026-09-24T10:14:02.426102+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "ce3e5eea3c4a937de41f4c68e40db5f8ac74f3f9342bcff533278a48b43c21f2",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I just have to get it off my chest",
+      "summary": "We are past the stage of emulating another product, poorly, that has been around for a decade+ Why are you making a tower defense game that would have been crap 10+ years ago and not played? Why are you making an FPS shooter that plays like sht and nobody will use? Before you start vibecoding, have an actual IDEA AND DIRECTION. That does not mean turn flappy bird into flappy pig. The bottleneck we have now, with all…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wodyfd/i_just_have_to_get_it_off_my_chest/",
+      "published_at": "2026-09-24T10:14:02.426056+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "7333661328daf7d39fedad21e04f6def39b0e2d4949875bb2e91c3d9551be873",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I honestly understand why everyone is making their own notes/fitness apps",
+      "summary": "Despite the fact that I’ve been browsing Reddit (my whole feed is vibecoding related) for months now, and have seen thousands of these similar vibecoded apps come up now and then, I still sort of feel inclined to make my own. For example, for notes, there doesn’t really seem to be an app out there that would let me take notes the way I want to. Maybe the way that I take notes however wouldn’t be useful for someone e…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woe2b3/i_honestly_understand_why_everyone_is_making/",
+      "published_at": "2026-09-24T10:14:02.425999+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "83cea5e701dc1aea8b2dd2f537634c890585b3bce080044c5b91e698865a2c6c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Thought i would ask Opus 5.5 to take a pass at the docs earlier models helped with - maybe i made a mistake ;-)",
+      "summary": "https://preview.redd.it/1yb3hyulebrh1.png?width=1760&format=png&auto=webp&s=d3615cd74102ac0c9c2940a05eb60345dbb951a0 Home - scyto's homelab docs you can track how badly it goes here once i publish the refactor... this was the prompt Hi we have worked a lot on changes to my homelab and the amended documentation, it is still a little inconsistent and contains many opus 5 wording artefacts, could you review the documen…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woef9a/thought_i_would_ask_opus_55_to_take_a_pass_at_the/",
+      "published_at": "2026-09-24T10:14:02.425903+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "9b000c3487fe6b3fa07616a86961fe920ce42f133c30578f44c0fb7b8d54ec4b",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Do you all work alone? Do you want that to change?",
+      "summary": "I'm a long time reddit browser but since I started building my app I began posting on reddit and started making friends. I don't really have too many people to talk to which is probably why I got into coding in the first place. I've been making little projects for a few years but I've never really been active on Github, YouTube, or any social media. How many people out there are in that same boat as me where you are…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woewr1/do_you_all_work_alone_do_you_want_that_to_change/",
+      "published_at": "2026-09-24T10:14:02.425820+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "9d0b232591e33ec5f84f0c66cce6d9ed188fcf7430f73d033596036d4216d45d",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Opus 5.5. The app. The promo video. The github. Everything.",
+      "summary": "Can you tell I desperately missed Picasa Photo Viewer? No longer. :D https://github.com/jackharvest/Casa submitted by /u/jackharvest [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woh334/opus_55_the_app_the_promo_video_the_github/",
+      "published_at": "2026-09-24T10:14:02.425714+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "aa1378fadf7daa1bc257dca53d943801ed867fa6dee95f96d185016e0b9df697",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I accidentally taught an AI to reverse-engineer SNES assembly without training the model",
+      "summary": "I’ve been building an AI-assisted SNES reverse-engineering toolkit, and we finally got our first proof of concept working. The weird part is that I never trained or fine-tuned the model. Instead, I’ve been giving it durable, ROM-specific knowledge: exact hashes, memory maps, assembly routines, source-code witnesses, emulator traces, failed hypotheses, regression fixtures, and deterministic tools. It has to prove thi…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wohep2/i_accidentally_taught_an_ai_to_reverseengineer/",
+      "published_at": "2026-09-24T10:14:02.425679+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "151f551468f2be2723b9a77ca07968009e8ce3d7751afe32491834dd1366932c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "'Show me screenshot of changes' vs building and browsing to the app to see them",
+      "summary": "Small thing I realized today. Used to always reload and click to the page to check the change but I realized today I can ask for screen shots. I can also ask for annotated screenshots. If I want to do QA it is useful to just have AI take a screen shot and annotate the details of the issue in it. Another small thing that I found it that makes everything slightly more efficient. Anyone else have some tips of small thi…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wohnm1/show_me_screenshot_of_changes_vs_building_and/",
+      "published_at": "2026-09-24T10:14:02.425517+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "4072906792be7f5eebccde1f5229c66d49c5bce123968a308f78823ddc70a728",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Best way to study your vibe-coded app (well enough to confidently present it)?",
+      "summary": "I’m sitting down for coffee with a project lead friend who’s hiring, and I’m basically his first priority at this point. I’ve gotten some great pointers from this sub about what I might get asked, like architecture, state persistence, APIs, etc. The great thing is, I have an opportunity to slyly show him a mobile React Native app I built with a FastAPI backend and Neon Postgres to get nudged up the applicant pile (h…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woiutt/best_way_to_study_your_vibecoded_app_well_enough/",
+      "published_at": "2026-09-24T10:14:02.425459+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "285201229e9fe9889a6770e4e607dd6fe8a35baedc045267298b815f7393c324",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hosting multiuser apps?",
+      "summary": "What do y'all do? I made a trivia game for my friends similar to Learned League where it just sent emails once a day with a few trivia questions from a dataset. Used pocket base on an Oracle free tier and worked fine. More recently Ive been trying to create a chore tracking app for my wife and me, so doesnt really involve a large dataset like the trivia game but still needs to be usable by my wife and I and update s…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wol9g4/hosting_multiuser_apps/",
+      "published_at": "2026-09-24T10:14:02.425376+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "aff3a0b0946e504b9b5fd96ca3542eaad68bbb7c86a7da2f23caf662219bd71c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "2 hours of video+audio with MiniMax H3 video for $6.96. Not Kidding.",
+      "summary": "Why Care? Because the same 2 hours of raw AI video can cost hundreds of dollars through hosted APIs. Roughly: fal H3 Max Turbo: ~$288 fal MiniMax H3: ~$432 MiniMax H3 direct API: ~$576 My Blackwell Colab setup: ~$6.96 That’s roughly 41x–83x cheaper on raw generation cost. Here’s the math. I’ve been optimizing MiniMax H3 on the Blackwell GPUs available through Colab -CUDA versions, attention kernels, quants, dependen…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wolia6/2_hours_of_videoaudio_with_minimax_h3_video_for/",
+      "published_at": "2026-09-24T10:14:02.425304+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "9f118c070d610bc5be3e0f21635f4453f5896008804aed8bd7408dbd1adc7520",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Best Claude Code alternatives?",
+      "summary": "submitted by /u/Dev-in-the-Bm [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1womg7n/best_claude_code_alternatives/",
+      "published_at": "2026-09-24T10:14:02.425168+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "f2ffa707d7dc282031004bdda876e0f8ccfe3472da9428374198f6826f06a99f",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Asked Opus 5.5 to make a stickman animation to showcase some item effects of a MC minigame I've been working on",
+      "summary": "What is blowing me away the most is not just the technical feasibility of what it's doing but it's the TASTE and creativity it has on it's own like 90% of this is zero-shot after only 30 minutes. I did ask it to adjust things a little afterwards but it's crazy how it gets almost everything right and makes the same decisions as I would. Actually this post could also an opportunity to tell that if you are interested i…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wooo01/asked_opus_55_to_make_a_stickman_animation_to/",
+      "published_at": "2026-09-24T10:14:02.425138+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "fb74c3386d826e8202bdf5bf98b861ec20f20cb918016242561003e2482fe41e",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "The honeymoon period has entered production.",
+      "summary": "submitted by /u/AmbitiousEffect6034 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wopxov/the_honeymoon_period_has_entered_production/",
+      "published_at": "2026-09-24T10:14:02.425008+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "7fb93dbe8090867d001fb45bb6a4232e25dc5fe7c3791d17179fc59de65a892c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "UPDATE: HRDHAT: I rebuilt my vibe coded construction app. Looking for people feedback.",
+      "summary": "Reposted with screenshots. My first version was a link post and Reddit does not let you add images to those, so I deleted it. Hey guys! It's been a long time since I posted. I've been hard at work! Quick recap for anyone who missed it: I work in construction, and I vibe coded HrdHat, an app for safety paperwork, timesheets, shift management, a tool scanner & tracker, and all the crew stuff we deal with on site every…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wou8zv/update_hrdhat_i_rebuilt_my_vibe_coded/",
+      "published_at": "2026-09-24T10:14:02.424975+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "1ada079fd478975f7363f2968bf63e0dd9d9231c0367f184896ecda6f472c17b",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How it feels lately when trying to share our toys online... are you also experiencing this level of hate? How do you deal with it and how does it affect your motivation?",
+      "summary": "https://preview.redd.it/bpktr4xkgfrh1.png?width=962&format=png&auto=webp&s=f21c97c1e890bfd0dce5f8ba455c6e3b6529b672 submitted by /u/ndr3svt [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wowe05/how_it_feels_lately_when_trying_to_share_our_toys/",
+      "published_at": "2026-09-24T10:14:02.424791+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "fc4a046a1714048f6ef9a3a84591d819cb85b02f8b05ae4d2aeb1a8be642a63c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Build an engineering team people want to come back to",
+      "summary": "submitted by /u/Suspicious_Orchid770 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wowfe3/build_an_engineering_team_people_want_to_come/",
+      "published_at": "2026-09-24T10:14:02.424747+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "255de3e60fedd9ab8dd603659051159792bd81dbc06243526cb07b2871ef77b1",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I mean, I know it's hype to but, Opus 5.5 is hitting hard.",
+      "summary": "5.5 feels fast, but this video they put out, not sure how exaggerated it is, but I'm still doing a double-take this far into A.I. https://www.youtube.com/watch?v=hKztrJbDGpA Are you still being surprised or are we all over it? Do you feel this video shows authentic output or pure hype? submitted by /u/johnesco [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wowun2/i_mean_i_know_its_hype_to_but_opus_55_is_hitting/",
+      "published_at": "2026-09-24T10:14:02.424702+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
     {
       "id": "61af62a1c1f936d2b03fe1958255d460bbcaff7e6b5e6bc761dd737259ce2495",
       "source": "r/LegionGo",
@@ -11,7 +1316,7 @@
       "title": "Having trouble selling my legion go 2",
       "summary": "It’s the non extreme 16GB model with 1tb. Comes with an applied screen protector, a tpu case and the controller charging dock. I initially had it listed for 1200 and dropped it to 1k flat. What’s the most reasonable price I can offer. submitted by /u/Recent-Eye8531 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnkrlb/having_trouble_selling_my_legion_go_2/",
-      "published_at": "2026-09-24T09:58:22.739256+00:00",
+      "published_at": "2026-09-24T10:13:58.893618+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -24,7 +1329,7 @@
       "title": "Which is more worth it? Lenovo Legion Go OG or the Lenovo Legion Go S with Z2 Go chip and 16gb ram?",
       "summary": "New to PC handhelds, which is more worth it for similar prices? Do they perform similar or significantly different, some examples of specific games I'm looking to play are Forza Horizon 5/6, Assassin's Creed Origins, Spider Man 1 / Miles Morales. I'll be installing / using Steam OS as well. Thanks. submitted by /u/Beautiful_Gap_3516 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnkvaj/which_is_more_worth_it_lenovo_legion_go_og_or_the/",
-      "published_at": "2026-09-24T09:58:22.739212+00:00",
+      "published_at": "2026-09-24T10:13:58.893568+00:00",
       "matched_keywords": [
         "OG"
       ],
@@ -45,7 +1350,7 @@
       "title": "Mechanism Tray Table Mount",
       "summary": "Really cool setup for flights ✈️ was much nicer than hunching over for 3 hours submitted by /u/NinjaTovar [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnmdue/mechanism_tray_table_mount/",
-      "published_at": "2026-09-24T09:58:22.739168+00:00",
+      "published_at": "2026-09-24T10:13:58.893523+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -58,7 +1363,7 @@
       "title": "A little WoW Forever while the fan watches TV",
       "summary": "I know it has controller support but I just like mouse and keyboard better. Runs great! submitted by /u/ObbieWan812 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnogyf/a_little_wow_forever_while_the_fan_watches_tv/",
-      "published_at": "2026-09-24T09:58:22.739131+00:00",
+      "published_at": "2026-09-24T10:13:58.893487+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -71,7 +1376,7 @@
       "title": "Legion Go S: 1 year review",
       "summary": "Hey guys, I wanted to share my experience after having the Legion Go S for a year now I bought it from the UK Lenovo store for £669 and seeing how the price has been changing since then is nuts. In the early days it felt like a new toy (and it still does). I’ve been going through tons of tutorials, Decky, frame gen, emulation, setting games up from other stores on the go. It is amazing. However, mine had that common…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnop9s/legion_go_s_1_year_review/",
-      "published_at": "2026-09-24T09:58:22.739096+00:00",
+      "published_at": "2026-09-24T10:13:58.893452+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -84,7 +1389,7 @@
       "title": "Looking for a small, wireless gaming keyboard for Legion Go 2 - recommendations?",
       "summary": "Preferably one of those smaller gaming keyboards with the left-side of the keyboard. submitted by /u/PossibilityDirect386 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnp4xw/looking_for_a_small_wireless_gaming_keyboard_for/",
-      "published_at": "2026-09-24T09:58:22.738941+00:00",
+      "published_at": "2026-09-24T10:13:58.893297+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -97,7 +1402,7 @@
       "title": "Go S Steam OS Animation Changer plugin not working",
       "summary": "I installed animation changer on Deckyloader plugin and the boot animation doesn’t work at all but the Suspend does. Anyone know how to fix? submitted by /u/SeaWing2841 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnqbuw/go_s_steam_os_animation_changer_plugin_not_working/",
-      "published_at": "2026-09-24T09:58:22.738910+00:00",
+      "published_at": "2026-09-24T10:13:58.893266+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -110,7 +1415,7 @@
       "title": "Should I buy now or wait until the blackfriday sale??",
       "summary": "do you think it is possible for the consoles to be on sale?? if yes, how much do you think they will go on for? submitted by /u/Creepy_Double6856 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnr9u9/should_i_buy_now_or_wait_until_the_blackfriday/",
-      "published_at": "2026-09-24T09:58:22.738871+00:00",
+      "published_at": "2026-09-24T10:13:58.893227+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -123,7 +1428,7 @@
       "title": "Legion space and well dweller",
       "summary": "I have well dweller on gamepass. It launches but before it does...legion space opens and forces me to launch the game from there. Then the game is gray screen. Sounds work but I can't see anything. Also for the longest time controller won't work unless I launch legion space first. Anyone else? submitted by /u/ConfidentGuide3935 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnsaax/legion_space_and_well_dweller/",
-      "published_at": "2026-09-24T09:58:22.738837+00:00",
+      "published_at": "2026-09-24T10:13:58.893192+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -136,7 +1441,7 @@
       "title": "Legion Go SteamOS ISO",
       "summary": "I’ve been trying all morning to install SteamOS on the OG legion go, and I can’t find an installer image anywhere. All the guides link to the Steam repair/installer but it doesn’t work on Legion, and I can’t find a Legion specific installer. Does anyone know where I can find a SteamOS installer image for Legion Go? Thanks! submitted by /u/Natural-Leg7488 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnu9k9/legion_go_steamos_iso/",
-      "published_at": "2026-09-24T09:58:22.738792+00:00",
+      "published_at": "2026-09-24T10:13:58.893149+00:00",
       "matched_keywords": [
         "OG"
       ],
@@ -157,7 +1462,7 @@
       "title": "New to PC handhelds",
       "summary": "Hello all, Being new to pc gaming in general ,where do I go about finding emulators for retro games ? Thanks submitted by /u/birdkeeperichy [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnzm1g/new_to_pc_handhelds/",
-      "published_at": "2026-09-24T09:58:22.738740+00:00",
+      "published_at": "2026-09-24T10:13:58.893094+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -170,7 +1475,7 @@
       "title": "I have no idea what’s going on with my Lenovo Legion Go :(",
       "summary": "Not a massive computer person so please explain anything like I’m a toddler! I’m trying to use my lenovo legion go today to play dead by daylight whilst in a discord call and it keeps crashing and completely turning itself off I’ve changed nothing in settings and device is up to date etc. I had a pop up from dbd to say it is out of video memory - there is no background video recording. I made some space so have ~25g…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wo24dw/i_have_no_idea_whats_going_on_with_my_lenovo/",
-      "published_at": "2026-09-24T09:58:22.738704+00:00",
+      "published_at": "2026-09-24T10:13:58.893035+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -183,7 +1488,7 @@
       "title": "Should I get the legion go in 2026?",
       "summary": "In my country the legion go 1 costs 650$ and the steam deck prices in my country has seen most damage because it used to be 620$ for the 512gb and the 1tb for 730$ but now both of them cost more than a 1000$ The only other handheld that has the same price of the og legion go is the base Xbox ally submitted by /u/idk12345671405 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wo2jxh/should_i_get_the_legion_go_in_2026/",
-      "published_at": "2026-09-24T09:58:22.738609+00:00",
+      "published_at": "2026-09-24T10:13:58.892941+00:00",
       "matched_keywords": [
         "OG"
       ],
@@ -205,7 +1510,7 @@
       "title": "Invest in egpu or save for more expensive handheld?",
       "summary": "So I recently purchased a Legion Go S SteamOS Z1e off fb marketplace for $650 and I’m loving it so far! However, it does get a little frustrating having to tinker so much with settings and playing at lower settings for more demanding games, so I have been considering either getting an egpu (preferably all-in-one setup like a onexgpu or something similar) or possibly saving up to buy a stronger handheld like a Strix…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wo5d7y/invest_in_egpu_or_save_for_more_expensive_handheld/",
-      "published_at": "2026-09-24T09:58:22.738543+00:00",
+      "published_at": "2026-09-24T10:13:58.892898+00:00",
       "matched_keywords": [
         "Z1E"
       ],
@@ -226,7 +1531,7 @@
       "title": "Hello everyone i need some help with steamOS on LEGION GO",
       "summary": "hello guys i got a OG legion go with windows installed on it i want to install steamOS but i read some people complaining about the GO overheat and shutdowns when playing demanding games cause the FANS dont ramp up properly they don't work out of the box like they do in windows also some people complains about FANS runing at full speed when the console on idle cause we know the steamOS still on Beta my question is i…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wo8igz/hello_everyone_i_need_some_help_with_steamos_on/",
-      "published_at": "2026-09-24T09:58:22.738404+00:00",
+      "published_at": "2026-09-24T10:13:58.892789+00:00",
       "matched_keywords": [
         "OG"
       ],
@@ -247,7 +1552,7 @@
       "title": "New PC Handheld User Help Needed",
       "summary": "Hi All, I recently purchased a new Legion Go 2 and as a new PC Handheld user, REAL NEW and coming from the Nintendo ecosystem, I need some real help. And I'm searching for non-judgemental and super techy help. Here are some things I'm having problems with... Figuring out buttons - Some buttons dont work or aren't working when I'm playing on Steam vs outside of steam. Is this normal? Is my device not work? Are there…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woaom4/new_pc_handheld_user_help_needed/",
-      "published_at": "2026-09-24T09:58:22.738340+00:00",
+      "published_at": "2026-09-24T10:13:58.892732+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -260,7 +1565,7 @@
       "title": "Bazzite installation hanging",
       "summary": "I am trying to switch from steamos to bazzite since steamos killed my gyroscope. Installing of bazzite went smooth enough but once I go to reboot for the initial setup, the system hangs and just turns the screen on and off indefinitely. This is the second time I've tried this process. submitted by /u/thegreatredragon [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wob31v/bazzite_installation_hanging/",
-      "published_at": "2026-09-24T09:58:22.738231+00:00",
+      "published_at": "2026-09-24T10:13:58.892634+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -273,7 +1578,7 @@
       "title": "Legion Go2 z2 extreme PCSx2 FPS issue",
       "summary": "Like title says... dunno how fix it to submitted by /u/Akukuk [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wodf40/legion_go2_z2_extreme_pcsx2_fps_issue/",
-      "published_at": "2026-09-24T09:58:22.738191+00:00",
+      "published_at": "2026-09-24T10:13:58.892595+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -286,7 +1591,7 @@
       "title": "Unplugged defaulting to Quiet now...",
       "summary": "Why all of a sudden is my Legion Go S defaulting to Quiet mode every time I start it up now, unplugged? Anywhere to fix this? submitted by /u/rrankine [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woepus/unplugged_defaulting_to_quiet_now/",
-      "published_at": "2026-09-24T09:58:22.738160+00:00",
+      "published_at": "2026-09-24T10:13:58.892566+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -299,7 +1604,7 @@
       "title": "How does z2 go legion go s perform in BG3 with steamos?",
       "summary": "I know that bg3 has a native Linux port which provides much better performance than windows but can't find any benchmarks of the game with steamos on z2 go legion go s. Can any owners chime in? Thinking of picking up one mainly for this game. submitted by /u/Helpful_Economist_59 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woh6mz/how_does_z2_go_legion_go_s_perform_in_bg3_with/",
-      "published_at": "2026-09-24T09:58:22.738125+00:00",
+      "published_at": "2026-09-24T10:13:58.892531+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -312,7 +1617,7 @@
       "title": "Streaming from PC to 4K TV using Legion Go S.",
       "summary": "I mostly stream from PC to my Legion Go S without issues using moonlight, however I've been wanting to change it up and stream to my 4K TV instead. Is it as simple as starting the stream on my Legio Go S like normal, then docking it onto a docking station (USB C connection with Legion Go) which is connected to my TV via HDMI? Is there any specific spec that I need to for the dock or the HDMI cable? My native PC is 1…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woo15m/streaming_from_pc_to_4k_tv_using_legion_go_s/",
-      "published_at": "2026-09-24T09:58:22.738082+00:00",
+      "published_at": "2026-09-24T10:13:58.892483+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -325,7 +1630,7 @@
       "title": "Just bought a legion go 2",
       "summary": "So I just bought a legion go 2 as I found a sweet deal. I come from an Xbox but wanted to play battlefield on the go. I feel really dumb but I can’t figure out how to download battlefield 6? submitted by /u/Available_Eagle4150 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woo4r1/just_bought_a_legion_go_2/",
-      "published_at": "2026-09-24T09:58:22.738016+00:00",
+      "published_at": "2026-09-24T10:13:58.892426+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -338,7 +1643,7 @@
       "title": "Issue with playing games on legion go",
       "summary": "Hello so I’ve had my legion go for a bit now but as of yesterday I tried playing a steam game on it and idk weather it’s a windows update issue or something else when I click to play a game it opens game starts then goes immediately to legion space. Or when I reset the Legion and open the game first thing after it comes back the reset I open the game no problem but once I’m on the start screen my controllers don’t r…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wopxzg/issue_with_playing_games_on_legion_go/",
-      "published_at": "2026-09-24T09:58:22.737967+00:00",
+      "published_at": "2026-09-24T10:13:58.892379+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -351,7 +1656,7 @@
       "title": "How could i install in steamos",
       "summary": "I have lenovo legion go s steamos and i can't download files how can i do that submitted by /u/Sad_Zone1434 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wor64c/how_could_i_install_in_steamos/",
-      "published_at": "2026-09-24T09:58:22.737890+00:00",
+      "published_at": "2026-09-24T10:13:58.892306+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -364,357 +1669,21 @@
       "title": "I have Go 2 but want the Ally Xbox OLED Model",
       "summary": "Please talk me out of selling my go 2 for it. I like my go 2 but it is on the bigger, heavier side. I loved my Xbox Ally X but the screen was not that great compared to OLED. submitted by /u/beipher [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woseox/i_have_go_2_but_want_the_ally_xbox_oled_model/",
-      "published_at": "2026-09-24T09:58:22.737836+00:00",
+      "published_at": "2026-09-24T10:13:58.892254+00:00",
       "matched_keywords": [],
       "priority": false
     },
     {
-      "id": "65dca3159df2722c32f022d60390289c5976acc6d0ea167058aa9997fe2a0367",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Najlepsze oczyszczacze powietrza. Ranking 15 modeli kupowanych w Polsce",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/inne/najlepsze-oczyszczacze-powietrza-ranking-15-modeli-kupowanych-w-polsce/gj51g0g",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "79c8f59e786066cc9408fa72cc735a01bdddb6c8686bdfcc63befb5f80cd2990",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Quiz Wymagający quiz z wiedzy ogólnej. 7/12 punktów tylko dla elity",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/technika/bardzo-trudny-quiz-z-wiedzy-ogolnej-712-punktow-tylko-dla-elity/cyxm6fs",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "eaaa6366d7619b2abdccd2650037943631805f5293af64f2385b2002a00e9ffb",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Hakerzy włamali się do FBI. Dane agentów zostały skradzione",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/bezpieczenstwo/hakerzy-wlamali-sie-do-fbi-dane-agentow-zostaly-skradzione/b662myv",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "776b4a33be454e4adb7d9f60a05232a6f1cf7eb5a6cf8721448f2f92970375e9",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Nowe oszustwo w Google Maps. Takiej metody jeszcze nie było",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/bezpieczenstwo/hakerzy-zastawiaja-pulapki-w-google-maps-tak-dziala-nowy-przekret/n806mfb",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "8266ddd3113d6a125bebee27996dd5b11a12ef2785e50f43074ddff892e62d69",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Claude Opus 5.5 i GPT-6 Sol/Luna oficjalnie. Nowe modele pokazują hipokryzję OpenAI i Anthropic",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/sztuczna-inteligencja/claude-opus-55-i-gpt-6-solluna-oficjalnie-nowe-modele-pokazuja-hipokryzje-openai-i/b4mbdw1",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "384ac375067f9f3cb3d9d9bf5762540bb35a168cec0f50dd93a0eeb538807696",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Od ilu lat wolno jeździć na hulajnodze elektrycznej? Gangi kukriniarzy pokazują marny stan wiedzy polskich rodziców",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/transport/kukriniarze-na-ulicach-rosnie-problem-hulajnog-elektrycznych-w-polsce/kr08ktn",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "b6dea46061b7c58016a3934977bb21345481dcb0468b4df20d11c8b396bd9fc3",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Numery PIN, których powinieneś unikać. Jeżeli znajdziesz swój na liście, zmień go natychmiast",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/bezpieczenstwo/numery-pin-ktorych-powinienes-unikac-jezeli-znajdziesz-swoj-na-liscie-zmien-go/4cs0kyk",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "9b3531d3cb31f04baa5d4680e763e81fe1084ff106def361916866482989f298",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Paliwo taniej nawet o 50 gr na litrze, wystarczy jedna aplikacja. Wyjaśniamy, jak to zrobić",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/programy-i-aplikacje/aplikacje-na-telefon/paliwo-taniej-nawet-o-50-gr-na-litrze-wystarczy-jedna-aplikacja-wyjasniamy-jak-to/wtte5vh",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "aa96276d4cd4f30f04490ced8d01831664858b769bd8de788b9a8ea6b8695a13",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Nadchodzi ostateczny koniec Internet Explorera. Jeszcze trzy lata",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/programy-i-aplikacje/programy-komputerowe/nadchodzi-ostateczny-koniec-internet-explorera-jeszcze-trzy-lata/7b2wt76",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "fa621726a7aa4ccbb490336471bbc11995d7f9afed054a159a275732602eb4ba",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Nowa wersja Firefox już dostępna. Szereg poprawek i usprawnień",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/programy-i-aplikacje/programy-komputerowe/nowa-wersja-firefox-juz-dostepna-szereg-poprawek-i-usprawnien/9t7lbmn",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "0387fc770fcbe724e999d61f7976bbbdfd81d098284ac9bf2f1769e35cc31006",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Jaką pralko-suszarkę kupić? Oto 15 polecanych modeli",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/dom/rozrywka/szukasz-dobrej-pralko-suszarki-ranking-najpopularniejszych-modeli-w-polsce/krbshql",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "39fabdc93c0394b1cb31dcde942d79ee09ba15b451391cac94d1bff59cc113e8",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Wagi z analizą składu ciała. Te modele Polacy oceniają najlepiej i najczęściej je wybierają",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/dom/zdrowie/wagi-z-analiza-skladu-ciala-te-modele-polacy-oceniaja-najlepiej-ranking/6901w9f",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "6fe267ff8878de6ba2544d504ae02459ec0ed3e87bd3c9c909985edff750be1e",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Tego w zimę mieszkańcom bloków robić nie można. Chodzi o kaloryfery",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/dom/agd/polacy-probuja-oszczedzic-na-ogrzewaniu-w-zime-to-nielegalne/4dvf4pl",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "60cd169d039ba3962d65c4c44ea654ea5e3f7981d9d08cf224426408fb8e6536",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Unia chce kontrolować centra danych. Chodzi o zużycie zasobów",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/siec-i-internet/unia-chce-kontrolowac-centra-danych-chodzi-o-zuzycie-zasobow/dn4nwrv",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "f0fb36b3843e10e07f9ad46ecc305757f18abc9ce63abd807140f029fd405efe",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Ranking bieżni elektrycznych w Polsce. Najlepsze modele na jesienne dni",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/dom/zdrowie/zadbaj-o-swoja-forme-jesienia-oto-najlepsze-bieznie-elektryczne-w-polsce/y34wex2",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "7ef29e1fbc4ba1279c3c0c396079764fa27f7e03f644d29b474477c591a62d97",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Wyprzedaż klocków LEGO. Świetne zestawy w rekordowo niskiej cenie",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/dom/rozrywka/wyprzedaz-klockow-lego-swietne-zestawy-w-rekordowo-niskiej-cenie/2p65z2e",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "c462eb5cc1406021366ca6e5405f834dfdb6f4cd207cde531c29e3a5093f87e2",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Sportowa subskrypcja Apple na zakręcie. Zwolnienia to dopiero początek",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/dom/zdrowie/sportowa-subskrypcja-apple-na-zakrecie-zwolnienia-to-dopiero-poczatek/sm5znwk",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "4a3728f6184301cd7c2c485a99cb75431b4c9b53b2db37177130e19aaeaafdea",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Ceny paliw mogą przebić 10 zł. Stacje mają techniczny problem",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/technika/ceny-paliw-moga-przebic-10-zl-stacje-maja-techniczny-problem/w57c1j5",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "3c8d6fabda1d517367b78c89d89bb4a02dfedc4b1326a523810cee405c502e77",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "To nowy oczyszczacz powietrza od Xiaomi. Ma sześciostopniową filtrację",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/dom/agd/to-nowy-oczyszczacz-powietrza-od-xiaomi-ma-szesciostopniowa-filtracje/y9v1l2z",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "2a289c5ce59bf92044cbf444e02d728e311e28d34b328d505154ae5ed8f56ca5",
-      "source": "Komputer Świat",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "pl",
-      "title": "Czysty marketing czy coś jest na rzeczy? Wyjaśniamy, o co tak naprawdę chodzi w \"zagrożeniu AI\"",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.komputerswiat.pl/nauka-i-technika/sztuczna-inteligencja/czysty-marketing-czy-cos-jest-na-rzeczy-wyjasniamy-o-co-tak-naprawde-chodzi-w/0wnr483",
-      "published_at": "2026-09-24T09:58:22.193077+00:00"
-    },
-    {
-      "id": "767b5f9c4575f709217476ff3fa02da4eba949b49c1e1e1f4e64b6be4aa1b6b4",
-      "source": "CD-Action",
+      "id": "d416760db8aff28a239654a1d3146305afa8c1afbea0364b2c4f6084ba20a3cc",
+      "source": "PPE",
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Newsy Jonasz „Blady” Gulczyński Diablo 5 ma nie powtórzyć największego błędu poprzednika. Seria porzuci otwarty świat i wróci do proceduralnie generowanych lokacji Diablo 5 ma nie powtórzyć największego błędu poprzednik…",
+      "title": "Gry 26V 0 Gry 26V 0 Średniowieczna przygoda galopuje w kierunku konsol. Duża aktualizacja z wędkowaniem już dostępna PS5 XSX|S NS2 PC Dzisiaj, 12:07",
       "summary": "",
       "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/diablo-5-ma-nie-powtorzyc-najwiekszego-bledu-poprzednika-seria-porzuci-otwarty-swiat-i-wroci-do-proceduralnie-generowanych-lokacji/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "c14fc05e70ffbca1461055b69dbdf697b6d64336862a962bc2b13a17e9af285d",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "1 Newsy Adam „Adamus” Kołodziejczyk Titan Quest 2 z datą premiery pełnej wersji! Gra wkrótce dołączy do rywalizacji z Diablo 4 i Path of Exile 2 Titan Quest 2 z datą premiery pełnej wersji! Gra wkrótce dołączy...",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/titan-quest-2-z-data-premiery-pelnej-wersji-gra-wkrotce-dolaczy-do-rywalizacji-z-diablo-4-i-path-of-exile-2/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "3086bc3eed5a2cfb978542ed7ac9bacf6a4a926b87bdd6cc8e130d86185bdc1d",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 15 CD Projekt Red zalicza wpadkę z remasterem Wiedźmina 3. Gracze krytykują wygląd odświeżonej wersji gry CD Projekt Red zalicza wpadkę z remasterem Wiedźmina 3. Gracze... 5 minut temu Michał „thegoose” Gąsior",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/cd-projekt-red-zalicza-wpadke-z-remasterem-wiedzmina-3-gracze-krytykuja-wyglad-odswiezonej-wersji-gry/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "6b86d7977b317036355ad07a3ad7e8ac68db633ac80c732026a9a12475347a94",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 1 Pomimo odpowiadania przed Bethesdą, Obsidian ma zachować niezależność. „To przede wszystkim zmiana w strukturze raportowania” Pomimo odpowiadania przed Bethesdą, Obsidian ma zachować... Godzinę temu Sam Goldman",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/pomimo-odpowiadania-przed-bethesda-obsidian-ma-zachowac-niezaleznosc-to-przede-wszystkim-zmiana-w-strukturze-raportowania/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "1940a0a2f7c70336af72c61a94430eba8747677399b3b5fc14fd52a7dabc5aa8",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 4 Xbox trochę bardziej jak PlayStation. Microsoft wprowadza swoje własne wersje platynowych trofeów Xbox trochę bardziej jak PlayStation. Microsoft wprowadza swoje własne... 13 godzin temu Sam Goldman",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/xbox-troche-bardziej-jak-playstation-microsoft-wprowadza-swoje-wlasne-wersje-platynowych-trofeow/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "3dcdf64d9067ff48c25e593c2680a455c0fae0e767ba47928b7eb259b8916ce2",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 4 2 miliony chętnych na Control Resonant. Remedy chwali się zainteresowaniem graczy w przeddzień premiery 2 miliony chętnych na Control Resonant. Remedy chwali się... 14 godzin temu Sam Goldman",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/2-miliony-chetnych-na-control-resonant-remedy-chwali-sie-zainteresowaniem-graczy-w-przeddzien-premiery/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "f3b954841fdac60602513cffe5057fa8788ba7bae96cb8c93323d7a1252201c6",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 4 State of Decay 3 na razie bezpieczne. Undead Labs uciekło spod topora Microsoftu, ale nie obeszło się bez zwolnień State of Decay 3 na razie bezpieczne. Undead Labs uciekło spod topora... 16 godzin temu Sam Gold…",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/state-of-decay-3-na-razie-bezpieczne-undead-labs-ucieklo-spod-topora-microsoftu-ale-nie-obeszlo-sie-bez-zwolnien/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "76fb3c6e09d40de5d813b47fc0610bc3c6034bbbe5a310b4078d24fd0c643863",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 3 Reżyser fabuły Gears of War: E-Day świętował osiągnięcie przez grę złotego statusu. Teraz został zwolniony Reżyser fabuły Gears of War: E-Day świętował osiągnięcie przez grę... 20 godzin temu Michał „thegoose” G…",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/rezyser-fabuly-gears-of-war-e-day-swietowal-osiagniecie-przez-gre-zlotego-statusu-teraz-zostal-zwolniony/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "68bee6ede21991c5867abf8da0dca400182386f91b1b17589abf86ce03939fb7",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 10 Jednego dnia developer dostaje awans, by następnego wylecieć z roboty. Reset Xboksa zbiera kuriozalne żniwo Jednego dnia developer dostaje awans, by następnego wylecieć... 21 godzin temu Jonasz „Blady” Gulczyńs…",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/jednego-dnia-developer-dostaje-awans-by-nastepnego-wyleciec-z-roboty-reset-xboksa-zbiera-kuriozalne-zniwo/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
+      "url": "https://www.ppe.pl/news/427776/sredniowieczna-przygoda-galopuje-w-kierunku-konsol-duza-aktualizacja-z-wedkowaniem-juz-dostepna.html",
+      "published_at": "2026-09-24T10:13:57.115633+00:00"
     },
     {
       "id": "2cdb28708de2b935cbc3cf88be1f5b1254608cf33ff59c79ab4feaba66c2b9be",
@@ -722,107 +1691,11 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Newsy Nordycki dodatek do Age of Empires 2 już dostępny! Twórcy wprowadzili nowe cywilizacje i kolejną kampanię fabularną Nordycki dodatek do Age of Empires 2 już dostępny! Twórcy wprowadzili... 21 godzin temu Michał „t…",
+      "title": "Nordycki dodatek do Age of E",
       "summary": "",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/nordycki-dodatek-do-age-of-empires-2-juz-dostepny-tworcy-wprowadzili-nowe-cywilizacje-i-kolejna-kampanie-fabularna/",
       "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "2d1e6f1cfe14c30da11605120b4fee7f9ac51dfad9acfb6ff724191d32851972",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 1 Resident Evil Veronica może wyjść nieco później, niż początkowo zakładano. Powodem mają być istotne zmiany w grze Resident Evil Veronica może wyjść nieco później, niż początkowo zakładano.... 22 godzin temu Mich…",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/resident-evil-veronica-moze-wyjsc-nieco-pozniej-niz-poczatkowo-zakladano-powodem-maja-byc-istotne-zmiany-w-grze/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "a9362579b6681e4b51f6bf5b7142937dc2b28df7dd5544fca97280118b0e51b8",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy Warszawa światową stolicą młodych twórców gier. Już 8 i 9 października w PKiN odbędzie się Student Games Festival Warszawa światową stolicą młodych twórców gier. Już 8 i 9... 22 godzin temu Informacja prasowa",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/warszawa-swiatowa-stolica-mlodych-tworcow-gier-juz-8-i-9-pazdziernika-w-pkin-odbedzie-sie-student-games-festival/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "07eb80632bbe93782e206cdb9f30433043af7ccc24cd284bf881b099eca1b939",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 3 Rockstar wydał grubo ponad milion dolarów za możliwość umieszczenia tak wielkiej reklamy GTA 6 w Miami. Politycy sprzedali zgodę, choć nie wszyscy poparli tę inicjatywę Rockstar wydał grubo ponad milion dolarów…",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/rockstar-wydal-grubo-ponad-milion-dolarow-za-mozliwosc-umieszczenia-tak-wielkiej-reklamy-gta-6-w-miami-politycy-sprzedali-zgode-choc-nie-wszyscy-poparli-te-inicjatywe/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "8536c6e525b2524ef8fc1c00e6c1229324b7eedaaebe97c7f0e1d303ddf6d0cf",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 7 Cena nowej popularnej strzelanki wzrośnie wraz z jej rozwojem we wczesnym dostępie. „Jeśli nie zgadzasz się z tym, to nie kupuj gry” Cena nowej popularnej strzelanki wzrośnie wraz z jej rozwojem... 23 godzin tem…",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/cena-nowej-popularnej-strzelanki-wzrosnie-wraz-z-jej-rozwojem-we-wczesnym-dostepie-jesli-nie-zgadzasz-sie-z-tym-to-nie-kupuj-gry/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "d11c380ce9bbd3185cc5fb26b833741a02c9cdba96889d55798ac4715ae12aa3",
-      "source": "CD-Action",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Newsy 5 Jak zaplanować nagłośnienie sali konferencyjnej krok po kroku Jak zaplanować nagłośnienie sali konferencyjnej krok po kroku 23 godzin temu Art. sponsorowany",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://cdaction.pl/newsy/jak-zaplanowac-naglosnienie-sali-konferencyjnej-krok-po-kroku/",
-      "published_at": "2026-09-24T09:58:21.341979+00:00"
-    },
-    {
-      "id": "3b528856a2ccaa4d02733c6d068f183143e47a27c83ecf853eeb650cb3bec628",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 97V 0 Gry 97V 0 Lucia z GTA 6 odkryta. Aktorka robi niewinną minę przy milionach wyświetleń PS5 XSX|S Dzisiaj, 11:49",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427770/lucia-z-gta-6-odkryta-aktorka-robi-niewinna-mine-przy-milionach-wyswietlen.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "0f3a4e17f8b06866137f8728b7fccd3bb66f810fc78605272f8897ae8eeaf1f6",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 502V Pilne 14 Gry 502V Pilne 14 Nie przegapcie wyprzedaży Ubisoftu z rekordowo niskimi cenami. Hity AAA od 6 zł PC Dzisiaj, 11:32",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427775/nie-przegapcie-wyprzedazy-ubisoftu-z-rekordowo-niskimi-cenami-hity-aaa-od-6-zl.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "2603332de7fb7a744340abf77a413fee906b860eaad6957cadc10daa23571430",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 174V Pilne 20 Gry 174V Pilne 20 Narzekamy na PlayStation, a to Xbox zamyka więcej studiów. Jest pełne podsumowanie XPC PC Dzisiaj, 11:16",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427769/narzekamy-na-playstation-a-to-xbox-zamyka-wiecej-studiow-jest-pelne-podsumowanie.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
     },
     {
       "id": "400cec532c0e8173d570089c9092040ff8462e8c246ce35d85a9ab37e4ba600e",
@@ -830,82 +1703,10 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Gry 636V Pilne 35 Gry 636V Pilne 35 Astro's Playroom na PC już nawet w 60 FPS-ach. Emulacja PS5 rozwala głowę PS5 Dzisiaj, 10:44",
+      "title": "Gry 721V Pilne 38 Gry 721V Pilne 38 Astro's Playroom na PC już nawet w 60 FPS-ach. Emulacja PS5 rozwala głowę PS5 Dzisiaj, 10:44",
       "summary": "",
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427761/astros-playroom-na-pc-juz-nawet-w-60-fps-ach-emulacja-ps5-rozwala-glowe.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "54780bf535c3237226a540ecec98ff9e0e937fb5b8661a253988a217ffe47d4f",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 516V 18 Gry 516V 18 Resident Evil Requiem wywrócił branżę gier do góry nogami. Mocne statystyki o pretendencie do GOTY 2026 PS5 XSX|S NS2 PC Dzisiaj, 10:17",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427760/resident-evil-requiem-wywrocil-branze-gier-do-gory-nogami-mocne-statystyki-o-pretendencie-do-goty-2026.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "d89e5713b443d9d0a3d634861fb0a0acf3a707726e8ad71159ff06794e2e62b5",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 1280V 41 Gry 1280V 41 \"Dlatego nie lubię naprawiać PlayStation\". Serwisanci pokazują konsole opanowane przez karaluchy PS5 XSX|S Dzisiaj, 10:09",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427762/dlatego-nie-lubie-naprawiac-playstation-serwisanci-pokazuja-konsole-opanowane-przez-karaluchy.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "7b0daf1b73daccfa6d305a3af8a50e2b7e386aaf8c26c172d877fabff7f0afc4",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 1364V 14 Gry 1364V 14 Control Resonant bierze ciekawą mechanikę The Blood of Dawnwalker i robi z niej arcydzieło PS5 XSX|S PC Dzisiaj, 09:49",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427759/control-resonant-bierze-najciekawsza-mechanike-the-blood-of-dawnwalker-i-robi-z-niej-arcydzielo.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "cf6a8dcdf1c115abb75596415284bbf6a353df2e2e56c13aef189433c81880df",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry (plotka) 517V 20 Gry (plotka) 517V 20 Rzeź w Xboxie mniejsza niż zakładano. Zdradzono skalę zwolnień XPC PC Dzisiaj, 09:26",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427758/rzez-w-xboxie-mniejsza-niz-zakladano-zdradzono-skale-zwolnien.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "d3835d6420fa00a0833e672a11ed7827a507a79737d331a3742111684226ed34",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 266V 21 Gry 266V 21 Halo Studios praktycznie przestaje istnieć? Po wielkich zwolnieniach miało zostać zaledwie 20 deweloperów XSX|S PC Dzisiaj, 09:10",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427700/halo-studios-praktycznie-przestaje-istniec-po-wielkich-zwolnieniach-mialo-zostac-zaledwie-20-deweloperow.html",
-      "published_at": "2026-09-24T09:58:20.637835+00:00"
-    },
-    {
-      "id": "0096ea5846f0ec8ec6d32bafeb6466bdd7e39400e0adedcaf4442c1558f2b6d9",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Gry 838V 40 Gry 838V 40 Nowy Fallout od Obsidian będzie ogromną grą. Twórcy nie stracą czasu Dzisiaj, 08:58",
-      "summary": "",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427757/nowy-fallout-od-obsidian-bedzie-ogromna-gra-tworcy-nie-straca-czasu.html",
       "published_at": "2026-09-24T09:58:20.637835+00:00"
     },
     {
@@ -919,113 +1720,6 @@
       "url": "https://www.youtube.com/watch?v=45anPnP4H30",
       "published_at": "2026-09-24T09:32:51Z",
       "thumbnail_url": "https://i.ytimg.com/vi/45anPnP4H30/mqdefault_live.jpg"
-    },
-    {
-      "id": "ba7a2bc6c5bcf3df9c16ba7b039c032a5ce6448c8f9d6d139ef63b2dfea73a43",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "My first MMO character #3: Steve Haines",
-      "summary": "My first MMO character #3: Steve Haines",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/my-first-mmo-character-3-steve-haines/",
-      "published_at": "2026-09-24T09:00:00+00:00",
-      "summary_pl": "Autor dzieli się swoimi wspomnieniami związanymi ze stworzeniem swojej pierwszej postaci w grze MMO o imieniu Steve Haines.",
-      "tags": [
-        "MMO",
-        "PC Gamer",
-        "Gry"
-      ]
-    },
-    {
-      "id": "6d4b7411c393562fd662d8b3d8c8e5302b3034260d3cd0ee797bb8bd1cce16b5",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Micropost: I use my ring finger for right mouse button. Am I okay?",
-      "summary": "Micropost: I use my ring finger for right mouse button. Am I okay?",
-      "url": "https://www.pcgamer.com/games/micropost-i-use-my-ring-finger-for-right-mouse-button-am-i-okay/",
-      "published_at": "2026-09-24T07:00:00+00:00",
-      "summary_pl": "Autor dzieli się nietypowym nawykiem używania palca serdecznego do klikania prawego przycisku myszy.",
-      "tags": [
-        "PC Gamer",
-        "Myszka",
-        "Ciekawostki",
-        "Sprzęt"
-      ]
-    },
-    {
-      "id": "1da771c7917987a895717882dc1f09aad228484ba716054be2bd205391a4a18a",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
-      "summary": "Spl-ASH damage.",
-      "url": "https://www.pcgamer.com/games/rpg/the-industrial-revolution-is-the-reason-rpgs-have-area-of-effect-spells-a-pc-gamer-causality-chaintm/",
-      "published_at": "2026-09-24T04:00:25+00:00",
-      "summary_pl": "Rewolucja przemysłowa jest powodem, dla którego gry RPG posiadają zaklęcia obszarowe. Tak wynika z materiału PC Gamer.",
-      "tags": [
-        "RPG",
-        "PC Gamer",
-        "Historia gier",
-        "Ciekawostki"
-      ]
-    },
-    {
-      "id": "41166e877140c7bafbf04d27691e9b850f9719907ef783c8c81bfd8a3cb8c625",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
-      "summary": "If you ever played it on Steam, it's yours to keep.",
-      "url": "https://www.pcgamer.com/games/fps/quake-champions-takes-a-shower-shedding-all-its-2017-live-service-grime-and-becoming-a-usd10-game/",
-      "published_at": "2026-09-23T23:48:24+00:00",
-      "summary_pl": "Quake Champions rezygnuje z elementów gry uslugowej z 2017 roku i staje się płatną produkcją za 10 dolarów. Gracze, którzy uruchomili ją wcześniej na Steam, zachowają ją w swoich bibliotekach.",
-      "tags": [
-        "Quake Champions",
-        "Steam",
-        "PC Gamer",
-        "Gry"
-      ]
-    },
-    {
-      "id": "1b2fc9d10d48609768ddfe319af1bd6b7e03a1461d3db24ed658bfc74490f49d",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
-      "summary": "Valve, are you hearing this?",
-      "url": "https://www.pcgamer.com/gaming-industry/microsofts-approach-to-age-verification-in-australia-is-further-proof-that-valve-is-taking-the-everloving-piss/",
-      "published_at": "2026-09-23T23:31:23+00:00",
-      "summary_pl": "Podejście Microsoftu do weryfikacji wieku w Australii stanowi dowód na to, jak Valve ignoruje tę kwestię.",
-      "tags": [
-        "Microsoft",
-        "Valve",
-        "Australia",
-        "gry"
-      ]
-    },
-    {
-      "id": "cd1e515d714e8ca891ffbcbd1df5bca2e273634fa8e04600a738a8f2883b1ce7",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
-      "summary": "US health deptartment said it wants to ensure the vaccine orders are \"appropriate.\"",
-      "url": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
-      "published_at": "2026-09-23T22:17:25+00:00",
-      "summary_pl": "CDC pod kierownictwem RFK Jr. blokuje stanom możliwość zamawiania szczepionek przeciwko COVID-19 dla dzieci. Amerykański department zdrowia chce najpierw upewnić się, że zamówienia są odpowiednie.",
-      "tags": [
-        "CDC",
-        "RFK Jr.",
-        "szczepionki",
-        "USA"
-      ]
     },
     {
       "id": "1251d8cdf6ea0fc7f4dc1e8ab216e325d15724efac613257c7da14e8df3545d3",
@@ -1043,111 +1737,6 @@
         "Blizzard",
         "MMO",
         "gry"
-      ]
-    },
-    {
-      "id": "f2f4c5f9b509d2557861c1fedbd4640e98e3b2bd39cf686986259cd68da5c781",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Halo needed to change, but Activision faces a huge challenge to fix it",
-      "summary": "Gutting the team that existed to make Halo is a drastic move.",
-      "url": "https://www.pcgamer.com/games/halo/halo-needed-to-change-but-activision-faces-a-huge-challenge-to-fix-it/",
-      "published_at": "2026-09-23T21:50:00+00:00",
-      "summary_pl": "Wprowadzenie zmian w serii Halo było konieczne, jednak Activision mierzy się z ogromnym wyzwaniem. Drastycznym krokiem okazało się zwolnienie zespołu tworzącego tę grę.",
-      "tags": [
-        "Halo",
-        "Activision",
-        "Gry"
-      ]
-    },
-    {
-      "id": "27c4cc5dbcd95f76928c5b332c3c43ec15d54ca3300195899b7fddc0adb9223d",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
-      "summary": "It's unclear what will happen if FBI misses ShinyHunters' deadline.",
-      "url": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
-      "published_at": "2026-09-23T21:46:36+00:00",
-      "summary_pl": "FBI pilnie bada, czy domniemany wyciek danych tysięcy pracowników przez grupę ShinyHunters jest prawdziwy. Nieznane pozostają konsekwencje przekroczenia wyznaczonego przez hakerów terminu.",
-      "tags": [
-        "FBI",
-        "ShinyHunters",
-        "cyberbezpieczeństwo",
-        "wyciek danych"
-      ]
-    },
-    {
-      "id": "0f0452b10a1b7e0309e56a26edf4954a2d1f50ff85a6ac1a3e897533a3f4af1d",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
-      "summary": "The Disney+ ad-free plan is now more expensive than Netflix's.",
-      "url": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
-      "published_at": "2026-09-23T21:18:53+00:00",
-      "summary_pl": "Platformy Disney+ i Hulu podnoszą ceny nawet o 13 procent w wyniku podwojenia swoich zysków. Nowy plan bez reklam jest droższy od Netfliksa.",
-      "tags": [
-        "Disney+",
-        "Hulu",
-        "Streaming",
-        "Ceny"
-      ]
-    },
-    {
-      "id": "5c8dab990e351d73a713008cff2b7e7c1b42c5010b8bd43f6b84f2e5c8cb1a7a",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Here's the Torcal, the first fully electric Bentley",
-      "summary": "It sounds like a V8, rides like a Flying Spur, but handles like a Continental GT.",
-      "url": "https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/",
-      "published_at": "2026-09-23T21:06:07+00:00",
-      "summary_pl": "Przedstawiono Torcal, czyli pierwszy całkowicie elektryczny samochód marki Bentley, który łączy brzmienie V8 z właściwościami modeli Flying Spur i Continental GT.",
-      "tags": [
-        "Bentley",
-        "Motoryzacja",
-        "Samochody elektryczne"
-      ]
-    },
-    {
-      "id": "03b449f2fb54d02215802f70edfdc752ee6bbdbf77f6fe49b4e191cf9a4c5204",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "My first MMO character #2: Joshua Wolens",
-      "summary": "My first MMO character #2: Joshua Wolens",
-      "url": "https://www.pcgamer.com/games/my-first-mmo-character-2-joshua-wolens/",
-      "published_at": "2026-09-23T21:00:00+00:00",
-      "summary_pl": "Joshua Wolens dzieli się swoimi wspomnieniami związanymi ze stworzeniem swojej pierwszej postaci w grze MMO.",
-      "tags": [
-        "MMO",
-        "PC Gamer",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "f23ce1419a830beb28e6c6a70e9425211b674516883173496c08b95d9799cf89",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Steam game disables mods after facing its second Workshop malware outbreak this year",
-      "summary": "A self-replicating virus is once again wreaking havoc on People Playground.",
-      "url": "https://www.pcgamer.com/games/sim/steam-game-disables-mods-after-facing-its-second-workshop-malware-outbreak-this-year/",
-      "published_at": "2026-09-23T20:53:49+00:00",
-      "summary_pl": "Gra Steam Peoples Playground wyłączyła mody po drugim w tym roku incydencie z złośliwym oprogramowaniem w Warsztacie, wywołanym przez wirus samoreplikujący.",
-      "tags": [
-        "Steam",
-        "Peoples Playground",
-        "mody",
-        "wirus"
       ]
     },
     {
@@ -1169,94 +1758,6 @@
       ]
     },
     {
-      "id": "b425caa1a380033cdb37b398fbddec62cad9d901710fbae11b104d42a0fed373",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
-      "summary": "Authenticity is core to Blizzard's new MMO, but it's also not trying to recreate the past 1:1.",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-addresses-the-debate-over-who-its-made-for-i-did-not-spend-the-last-year-of-my-life-relearning-and-mastering-how-to-do-things-like-we-did-it-20-years-ago-for-retail-players/",
-      "published_at": "2026-09-23T20:42:58+00:00",
-      "summary_pl": "Deweloperzy World of Warcraft: Forever odnieśli się do kwestii grupy docelowej gry. Autentyczność jest kluczowa dla nowego MMO od Blizzard, jednak twórcy nie dążą do wiernego odtworzenia przeszłości 1:1.",
-      "tags": [
-        "World of Warcraft",
-        "Blizzard",
-        "MMO",
-        "PC Gamer"
-      ]
-    },
-    {
-      "id": "3b28ea9843989c629421c3ef90d251d0edbaa098ff124a3b0b058e3df2d63ec5",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "I apologize in advance for this, but: Introducing Drillposting",
-      "summary": "This is all my mind is capable of right now.",
-      "url": "https://www.pcgamer.com/games/i-apologize-in-advance-for-this-but-introducing-drillposting/",
-      "published_at": "2026-09-23T20:40:21+00:00",
-      "summary_pl": "Autor przeprasza za wprowadzenie nowego, osobliwego trendu o nazwie Drillposting, tłumacząc to aktualnym stanem swojego umysłu.",
-      "tags": [
-        "Gaming",
-        "Internet",
-        "Humor"
-      ]
-    },
-    {
-      "id": "5bf0f205ac1d3a37f1615ffa61e47f5c4aec34ae886fc42ccb837270f3a84684",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
-      "summary": "$11M competition showed wildfire detection is still easier than stopping fires.",
-      "url": "https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/",
-      "published_at": "2026-09-23T20:28:42+00:00",
-      "summary_pl": "Konkurs XPRIZE Wildfire o 11 milionów dolarów pokazał, że wykrywanie pożarów w ciągu 10 minut jest łatwiejsze niż ich powstrzymywanie.",
-      "tags": [
-        "XPRIZE",
-        "pożary",
-        "technologia",
-        "konkurs"
-      ]
-    },
-    {
-      "id": "29e0cd18d8e473a7424ce89c3e476ae6f27c27acf8249d167d50c91c1bb22a76",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Shoot the tires, please",
-      "summary": "Wardogs Humvees are a menace with a glaring weakness.",
-      "url": "https://www.pcgamer.com/games/fps/shoot-the-tires-please/",
-      "published_at": "2026-09-23T20:12:06+00:00",
-      "summary_pl": "Pojazdy Wardogs Humvees w grze stanowią poważne zagrożenie, ale posiadają wyraźną i łatwą do wykorzystania słabość.",
-      "tags": [
-        "gaming",
-        "pc gamer",
-        "porady"
-      ]
-    },
-    {
-      "id": "3834a14e9d015aae7d62f9168cce328830c17b3d0dc9a7092debd95cdecb7619",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Discord age verification rolls out today with changes spurred by user backlash",
-      "summary": "Discord will try to automatically estimate ages, require verification when it can't.",
-      "url": "https://arstechnica.com/tech-policy/2026/09/discord-age-verification-rolls-out-today-with-changes-spurred-by-user-backlash/",
-      "published_at": "2026-09-23T20:05:13+00:00",
-      "summary_pl": "Discord wprowadza automatyczne szacowanie wieku użytkowników oraz wymóg dodatkowej weryfikacji w przypadku problemów, reagując na krytykę społeczności.",
-      "tags": [
-        "Discord",
-        "weryfikacja wieku",
-        "bezpieczeństwo",
-        "technologia"
-      ]
-    },
-    {
       "id": "36cf8a8eede4c07321201b33ebcb214e4dae975033d61cec00215e9f7f87fa51",
       "source": "Kanał o technologii",
       "source_type": "youtube",
@@ -1267,76 +1768,6 @@
       "url": "https://www.youtube.com/watch?v=KtwhRwKwVkQ",
       "published_at": "2026-09-23T19:59:16Z",
       "thumbnail_url": "https://i.ytimg.com/vi/KtwhRwKwVkQ/mqdefault.jpg"
-    },
-    {
-      "id": "8c3f3e72fc01d84c3413d1204129200be6fba738201431b495abb3365e22a1ea",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "YouTube promises custom feeds and a lot more AI later this year",
-      "summary": "YouTube's next year could change the content you see with a big focus on AI and livestreams.",
-      "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
-      "published_at": "2026-09-23T19:35:53+00:00",
-      "summary_pl": "YouTube zapowiada duże zmiany w algorytmach treści z silnym naciskiem na sztuczną inteligencję i transmisje na żywo, które pojawią się jeszcze w tym roku.",
-      "tags": [
-        "YouTube",
-        "AI",
-        "technologia",
-        "streaming"
-      ]
-    },
-    {
-      "id": "c3f69459e428adff42238d56a7c5c9c19d0989df585149e4142af63f1320ad57",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
-      "summary": "And we could all stand to remember that.",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/",
-      "published_at": "2026-09-23T18:58:40+00:00",
-      "summary_pl": "Czasami uderzenie skorpiona maczugą przez 38 sekund potrafi być czystą przyjemnością, o czym warto czasem pamiętać.",
-      "tags": [
-        "gry",
-        "pc gamer",
-        "ciekawostki"
-      ]
-    },
-    {
-      "id": "658bbe21ecce96caf9b1bd83f96b6621c7d5a107761c998cde2206b0cae52719",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Contrary to some reports, you don't have two brains",
-      "summary": "A bad press release makes a good excuse to look at how developmental biology works.",
-      "url": "https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/",
-      "published_at": "2026-09-23T18:47:36+00:00",
-      "summary_pl": "Wbrew doniesieniom niektórych mediów, ludzie nie posiadają dwóch mózgów. Zła informacja prasowa stała się okazją do przyjrzenia się biologii rozwoju.",
-      "tags": [
-        "biologia",
-        "nauka",
-        "ciekawostki"
-      ]
-    },
-    {
-      "id": "8ec267fb3c664fdef4b980350019053e026ff96ebabb7aae9e4e7a00f0c6096b",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Netflix releases trailer for Brad Bird's Ray Gunn",
-      "summary": "\"It’s film noir and a hard-boiled detective story, but it’s got a lot more comedy and a lot more action.\"",
-      "url": "https://arstechnica.com/culture/2026/09/netflix-drops-trailer-for-brad-birds-ray-gunn/",
-      "published_at": "2026-09-23T18:26:50+00:00",
-      "summary_pl": "Netflix udostępnił zwiastun filmu Ray Gunn w reżyserii Brada Birda. Produkcja łączy klimaty noir i detektywistyczne z dużą ilością komedii i akcji.",
-      "tags": [
-        "Netflix",
-        "Ray Gunn",
-        "Brad Bird",
-        "film"
-      ]
     },
     {
       "id": "33cf5ce3df39909afe8c4fdea282b95ce300d97e81113a140aac9d20a62f23c0",
@@ -1357,24 +1788,6 @@
       ]
     },
     {
-      "id": "0283c0e5e17b8003310b3c86efc2cd99cdc1c329c1a15d7b1f4099222b93f709",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Former NASA chief sounds alarm on China's lunar \"exploration\" plans",
-      "summary": "\"Beijing's intended strategy is to dominate the high ground of the twenty-first century.\"",
-      "url": "https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans/",
-      "published_at": "2026-09-23T17:10:58+00:00",
-      "summary_pl": "Były szef NASA ostrzega przed chińskimi planami eksploracji Księżyca. Według niego celem Pekinu jest zdominowanie strategicznych pozycji w XXI wieku.",
-      "tags": [
-        "NASA",
-        "Chiny",
-        "Księżyc",
-        "kosmos"
-      ]
-    },
-    {
       "id": "768ba8e8e1435dc37c007d9780dda98312c69c82e08af27eba121ab16ed49c10",
       "source": "PC Gamer",
       "source_type": "news",
@@ -1383,7 +1796,14 @@
       "title": "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles'",
       "summary": "Embark is adding new skills and removing old ones in Frozen Trail.",
       "url": "https://www.pcgamer.com/games/third-person-shooter/you-cant-have-everything-in-arc-raiders-reworked-skill-tree-we-believe-that-creates-more-interesting-choices-and-supports-more-playstyles/",
-      "published_at": "2026-09-23T17:03:52+00:00"
+      "published_at": "2026-09-23T17:03:52+00:00",
+      "summary_pl": "Embark modyfikuje drzewko umiejętności w Arc Raiders w aktualizacji Frozen Trail, dodając nowe zdolności i usuwając stare, aby wymusić ciekawsze wybory graczy.",
+      "tags": [
+        "Arc Raiders",
+        "Embark",
+        "Gry",
+        "Aktualizacja"
+      ]
     },
     {
       "id": "adf46e72ef2eca81535043c2e98115ec4a087e02090a6e8388e863a13b084fb1",
@@ -1394,73 +1814,14 @@
       "title": "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate",
       "summary": "The 2.0 patch is comprehensive.",
       "url": "https://www.pcgamer.com/games/third-person-shooter/the-arc-raiders-frozen-trail-update-is-bigger-than-anyone-expected-new-arc-gun-upgrades-a-map-and-personal-outposts-you-can-decorate/",
-      "published_at": "2026-09-23T17:03:48+00:00"
-    },
-    {
-      "id": "13c89afea7e4d01c6136fc6974bb694f8569c438e3d802866e7b9bbc1c4a52ec",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
-      "summary": "Well, it'll do.",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/i-put-ufo-sightings-in-grand-theft-auto-5-though-it-didnt-quite-go-to-plan/",
-      "published_at": "2026-09-23T17:00:00+00:00"
-    },
-    {
-      "id": "56611b7aa67b74a1b860cf777c58d32f0c017e5a4d961121f3c3ae1123b802d6",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
-      "summary": "It couldn't possibly get worse.",
-      "url": "https://www.pcgamer.com/games/horror/the-producer-behind-creggers-resident-evil-film-is-working-on-an-unnamed-silent-hill-project-and-players-are-asking-for-just-one-thing/",
-      "published_at": "2026-09-23T16:51:00+00:00"
-    },
-    {
-      "id": "eb19cca25bc5ded9edfee96683afe04b33b84237d12601d5b9c93714809ac04e",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
-      "summary": "The latest Silent Hill game goes overboard with tiny details of Scottish coastal life.",
-      "url": "https://www.pcgamer.com/games/horror/the-scariest-part-of-silent-hill-townfall-its-not-the-monsters-its-british-interior-design/",
-      "published_at": "2026-09-23T16:27:24+00:00"
-    },
-    {
-      "id": "f19064205b43b7070ed283a9b1793d1c3d3e3c35f7a6375b0d7e53920e2093ed",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Razer Chroma Soma lighting",
-      "summary": "Razer Chroma Soma lighting",
-      "url": "https://www.pcgamer.com/hardware/gaming-chairs/razer-chroma-soma-lighting/",
-      "published_at": "2026-09-23T16:26:29+00:00"
-    },
-    {
-      "id": "e77222b98fc048090ebe9a82473d784f6b0c8a74d99f94369de471f09d4e1a6f",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Razer Soma Chroma gaming chair review",
-      "summary": "Lights, camera, inaction! Illuminate your sitting with Razer's RGB chair.",
-      "url": "https://www.pcgamer.com/hardware/gaming-chairs/razer-soma-chroma-review/",
-      "published_at": "2026-09-23T16:17:27+00:00"
-    },
-    {
-      "id": "4b0abe543fd65459cb7597085837a88ea405fe9c955a2d93e10ea308b6b0fa8e",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning",
-      "summary": "There's a new headset, too.",
-      "url": "https://www.pcgamer.com/hardware/i-thought-from-logitechs-new-pro-products-id-be-most-excited-about-the-superstrike-but-after-using-them-its-actually-the-keyboard-and-mouse-pad-that-have-me-grinning/",
-      "published_at": "2026-09-23T16:03:00+00:00"
+      "published_at": "2026-09-23T17:03:48+00:00",
+      "summary_pl": "Aktualizacja Frozen Trail 2.0 do gry Arc Raiders przyniosła nowe ARC, ulepszenia broni, mapę oraz personalizowane placówki.",
+      "tags": [
+        "Arc Raiders",
+        "Aktualizacja",
+        "Gry",
+        "PC Gamer"
+      ]
     },
     {
       "id": "a2fb31eaac92696015d9358392ec679a6e8e7be1e24ded4f027215909f52f4e8",
@@ -1471,106 +1832,13 @@
       "title": "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch",
       "summary": "While the new one is a great mouse, it's what the first should have been.",
       "url": "https://www.pcgamer.com/hardware/gaming-mice/sorry-early-adopters-logitech-is-releasing-an-improved-superstrike-making-the-original-all-but-obsolete-just-months-after-launch/",
-      "published_at": "2026-09-23T16:01:00+00:00"
-    },
-    {
-      "id": "6aa40efb7f75be1e8669b4261dc2594c8e89202041e45ceb162bb0d23caf5fa2",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "My first MMO character #1: Harvey Randall",
-      "summary": "My first MMO character #1: Harvey Randall",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/my-first-mmo-character-1-harvey-randall/",
-      "published_at": "2026-09-23T16:00:00+00:00"
-    },
-    {
-      "id": "682196a264c9a683b39a8da192ffe64a9bcf0b4f50f8ba4a661e41243d9eeccb",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Wistful about Myst VI",
-      "summary": "Wistful about Myst VI",
-      "url": "https://www.pcgamer.com/games/wistful-about-myst-vi/",
-      "published_at": "2026-09-23T15:42:56+00:00"
-    },
-    {
-      "id": "6d86bc84e2a4536e39d9db98c25289f35c17f5f0bf27f3ec588a1beb85193b3c",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Valve offers CS2 players eggs",
-      "summary": "Valve offers CS2 players eggs",
-      "url": "https://www.pcgamer.com/games/fps/valve-offers-cs2-players-eggs/",
-      "published_at": "2026-09-23T15:24:42+00:00"
-    },
-    {
-      "id": "dc171095d3ae28f6c2d8a1fcbd6d7e7aa7b119baaa9ff522c8b0f7a9ec114c17",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "'We hacked the FBI' says previous Rockstar-breaching hacking group: 'We hold data on all FBI employees and applicants'",
-      "summary": "The status of the Gibson is currently unknown.",
-      "url": "https://www.pcgamer.com/software/security/we-hacked-the-fbi-says-previous-rockstar-breaching-hacking-group-we-hold-data-on-all-fbi-employees-and-applicants/",
-      "published_at": "2026-09-23T15:11:18+00:00"
-    },
-    {
-      "id": "aed387c098bedff54de617eb746e59d5d84f3f7792adf1fe990601252e86a5ef",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "I don't care what you lot say, the side buttons on a mouse are for copy and paste (on desktop)",
-      "summary": "There are dozens of us! Dozens!",
-      "url": "https://www.pcgamer.com/hardware/gaming-mice/i-dont-care-what-you-lot-say-the-side-buttons-on-a-mouse-are-for-copy-and-paste-on-desktop/",
-      "published_at": "2026-09-23T14:39:28+00:00"
-    },
-    {
-      "id": "00604824d6681d4f25ea914c91369feefc98c52fff11d5ef698ef839b2ba0917",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "After multiple deaths and injuries, NHTSA is investigating comma.ai",
-      "summary": "Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.",
-      "url": "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/",
-      "published_at": "2026-09-23T14:20:23+00:00"
-    },
-    {
-      "id": "1ee0a039baf2a7712986fc52c2b17ccb8f97719c9a0fdb1bf84e6c76ae683668",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Console rumour time #235",
-      "summary": "Console rumour time #235",
-      "url": "https://www.pcgamer.com/hardware/console-rumour-time-235/",
-      "published_at": "2026-09-23T14:10:02+00:00"
-    },
-    {
-      "id": "85779600ee41b45ad22d9a2df7f3db2a99ed0e397313365091763d7c4b329d22",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Leon Kennedy is Zach Cregger's choice of bodyguard: 'I would just bear hug myself around him'",
-      "summary": "Leon Kennedy is Zach Cregger's choice of bodyguard: 'I would just bear hug myself around him'",
-      "url": "https://www.pcgamer.com/movies-tv/leon-kennedy-is-zach-creggers-choice-of-bodyguard-i-would-just-bear-hug-myself-around-him/",
-      "published_at": "2026-09-23T14:03:38+00:00"
-    },
-    {
-      "id": "0c0ecd50c324f3d4a13cd09ce870f6a6f37906165c54d789fab665f5690d4225",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Total War: Warhammer's biggest ever campaign is now $9, but what do actually you get for that?",
-      "summary": "Plus the best Lords of the End Times character to buy for Immortal Empires.",
-      "url": "https://www.pcgamer.com/games/strategy/total-war-warhammers-biggest-ever-campaign-is-now-usd9-but-what-do-actually-you-get-for-that/",
-      "published_at": "2026-09-23T14:00:00+00:00"
+      "published_at": "2026-09-23T16:01:00+00:00",
+      "summary_pl": "Logitech zapowiada ulepszoną mysz Superstrike, która czyni oryginalny model przestarzałym zaledwie kilka miesięcy po premierze.",
+      "tags": [
+        "Logitech",
+        "mysz",
+        "sprzęt"
+      ]
     },
     {
       "id": "6ae03cbfbbb167dbd19bfe049ba39315953975d851e09e0e46445f01ffe2de2f",
@@ -1581,117 +1849,14 @@
       "title": "Waiter, there's some Path of Exile in my Total War: Warhammer 3 DLC",
       "summary": "My compliments to the chef.",
       "url": "https://www.pcgamer.com/games/strategy/waiter-theres-some-path-of-exile-in-my-total-war-warhammer-3-dlc/",
-      "published_at": "2026-09-23T14:00:00+00:00"
-    },
-    {
-      "id": "2cee30687cac4ab7c41db3e018162c485dc0917231e547950e00904dbb65372e",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "A Bretonnia rework is definitely on Creative Assembly's 'to-do list' for Total War: Warhammer: 'It's not quite the finest of wines now'",
-      "summary": "\"There are a lot of things on our list.\"",
-      "url": "https://www.pcgamer.com/games/strategy/a-bretonnia-rework-is-definitely-on-creative-assemblys-to-do-list-for-total-war-warhammer-its-not-quite-the-finest-of-wines-now/",
-      "published_at": "2026-09-23T14:00:00+00:00"
-    },
-    {
-      "id": "56e66c8b7ace3d9589d7a351e80709ffb8667c02f30173948690bfda31478d50",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Lords of the End Times is 'not the end' for Total War: Warhammer: 'You can't get rid of us that easily'",
-      "summary": "\"There are still other characters that I know a bunch of people would love to see.\"",
-      "url": "https://www.pcgamer.com/games/strategy/lords-of-the-end-times-is-not-the-end-for-total-war-warhammer-you-cant-get-rid-of-us-that-easily/",
-      "published_at": "2026-09-23T14:00:00+00:00"
-    },
-    {
-      "id": "d82ebd9d739157d6836261bb498a6b65ffeabeaf2b2dfd8f0fe82358d922ec2d",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "America gave up its rare earth edge. China took full advantage.",
-      "summary": "Decades of cheaper imports left US dependent on China for crucial rare earth processing.",
-      "url": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/",
-      "published_at": "2026-09-23T13:37:05+00:00"
-    },
-    {
-      "id": "773e4af7d6f49b80a688a610637a8ddb620125677be97719a226cce4afe7a802",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "A tribute to PC Gamer's first MMO characters—may they never be forgotten",
-      "summary": "I was never a good rogue.",
-      "url": "https://www.pcgamer.com/games/mmo/a-tribute-to-pc-gamers-first-mmo-characters-may-they-never-be-forgotten/",
-      "published_at": "2026-09-23T13:28:46+00:00"
-    },
-    {
-      "id": "7dc3c6eb2c47c4691a596f0fc21bb1543fc7bde90d3b82d79ad039f32eb26717",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "It's time to decide the worst graphical effect in games: chromatic aberration vs blood/dirt",
-      "summary": "Don't let my historic dislike of chromatic aberration sway you.",
-      "url": "https://www.pcgamer.com/hardware/its-time-to-decide-the-worst-graphical-effect-in-games-chromatic-aberration-vs-blood-dirt/",
-      "published_at": "2026-09-23T13:26:38+00:00"
-    },
-    {
-      "id": "c5718798ef4809984bc288614cf9b083e397a58190d5ff97bbecade65d4c1c4e",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "I crammed 20 anime figures inside my gaming PC to see how it affects thermal performance. Yes, you can call me a scientist now",
-      "summary": "Asking the important questions.",
-      "url": "https://www.pcgamer.com/hardware/pc-cases/i-crammed-20-anime-figures-inside-my-gaming-pc-to-see-how-it-affects-thermal-performance-yes-you-can-call-me-a-scientist-now/",
-      "published_at": "2026-09-23T13:25:23+00:00"
-    },
-    {
-      "id": "981d8775cbb13b6a830059ca6126521f8553df774f63e2ed65345b2c5f3c3e9d",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "It's me, I am the whale",
-      "summary": "It's me, I am the whale",
-      "url": "https://www.pcgamer.com/games/its-me-i-am-the-whale/",
-      "published_at": "2026-09-23T11:23:39+00:00"
-    },
-    {
-      "id": "27f4ee1b17853c75eff7b9d700c8e878971eac71bc0f7c50516f3452c9e503c2",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "PC Gaming Show Toyko Direct 2026 picks",
-      "summary": "PC Gaming Show Toyko Direct 2026 picks",
-      "url": "https://www.pcgamer.com/games/pc-gaming-show-toyko-direct-2026-picks/",
-      "published_at": "2026-09-23T11:15:50+00:00"
-    },
-    {
-      "id": "dbf6f2142af02ef7054641ca69b6dbe309076f7ec9b250e378f33948faa8f5c4",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Small undersea volcanoes may unleash outsized tsunamis",
-      "summary": "Post-eruption imaging of the Hunga caldera gives new details of its collapse.",
-      "url": "https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/",
-      "published_at": "2026-09-23T11:15:30+00:00"
-    },
-    {
-      "id": "a58aecbf0960abc6bc8cc0c802a3d7ec942ad7b74e9f5fa41a0da5d92756ab31",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "A new report from Europe raises serious alarms about orbital collisions",
-      "summary": "\"I think we are going to lose the ability to use certain orbits.\"",
-      "url": "https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/",
-      "published_at": "2026-09-23T11:00:17+00:00"
+      "published_at": "2026-09-23T14:00:00+00:00",
+      "summary_pl": "Nowe DLC do Total War: Warhammer 3 czerpie inspiracje z gry Path of Exile, co spotkało się z uznaniem graczy i recenzentów.",
+      "tags": [
+        "Total War",
+        "Path of Exile",
+        "DLC",
+        "Gaming"
+      ]
     },
     {
       "id": "8932d13cb59f42793b172dce46f17a9f7a1c154a04afd002974211f861b9e338",
@@ -1702,62 +1867,14 @@
       "title": "AMD starts the ball rolling for GDDR7 in next-gen GPUs with small code adjustment in its Linux drivers",
       "summary": "My money is still on RDNA 5 launching by the end of next year.",
       "url": "https://www.pcgamer.com/hardware/graphics-cards/amd-starts-the-ball-rolling-for-gddr7-in-next-gen-gpus-with-small-code-adjustment-in-its-linux-drivers/",
-      "published_at": "2026-09-23T10:54:50+00:00"
-    },
-    {
-      "id": "eeea9b91d1e2f5de186b905be4bdb78c4af8d7f9b0a5a76b2792ddd1b9dade50",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Everything I'd do differently in Cregger's Resident Evil film",
-      "summary": "I'm simply built different.",
-      "url": "https://www.pcgamer.com/movies-tv/everything-id-do-differently-in-creggers-resident-evil-film/",
-      "published_at": "2026-09-23T10:42:13+00:00"
-    },
-    {
-      "id": "136ce6ee8f473f7216e953ed56601804aeee7a6a089ca8e5c52e893f26f2a8cf",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Halo Studios cinematic director promoted, then laid off in the same week",
-      "summary": "Just when I think I can't be surprised anymore, something like this happens.",
-      "url": "https://www.pcgamer.com/gaming-industry/halo-studios-cinematic-director-promoted-then-laid-off-in-the-same-week/",
-      "published_at": "2026-09-23T10:29:18+00:00"
-    },
-    {
-      "id": "deefa9c768ed8572a3500e1b5d18b67c2e1046147e2d806c0afb9ade07859995",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Valve shadow dropped chicken pets into CS2",
-      "summary": "The egg came first.",
-      "url": "https://www.pcgamer.com/games/fps/valve-shadow-dropped-chicken-pets-into-cs2/",
-      "published_at": "2026-09-23T10:18:10+00:00"
-    },
-    {
-      "id": "311465d12448bbe9db4fde8af49f2f312d9ad90183eda25b830b6a596c4dfd64",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "I have fallen to my own hubris",
-      "summary": "I thought it would be so simple.",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/i-have-fallen-to-my-own-hubris/",
-      "published_at": "2026-09-23T09:57:17+00:00"
-    },
-    {
-      "id": "f448f8ee412c7fe35b9f7a101add380e30d26d9d8be00be8cf9046ad4ab38846",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Micropost: 'This is crazytown' reaction to our worst graphical effect poll",
-      "summary": "Micropost: 'This is crazytown' reaction to our worst graphical effect poll",
-      "url": "https://www.pcgamer.com/games/micropost-this-is-crazytown-reaction-to-our-worst-graphical-effect-poll/",
-      "published_at": "2026-09-23T09:53:07+00:00"
+      "published_at": "2026-09-23T10:54:50+00:00",
+      "summary_pl": "AMD przygotowuje się do wprowadzenia pamięci GDDR7 w przyszłych kartach graficznych, co sugerują zmiany w kodzie sterowników dla systemu Linux.",
+      "tags": [
+        "AMD",
+        "GDDR7",
+        "GPU",
+        "Linux"
+      ]
     },
     {
       "id": "fb64098f29297cf6bbebbffd16bbb7c7df03991b7626ab656a1100bd11135e2e",
@@ -1768,29 +1885,13 @@
       "title": "Esports tournaments do it better in person",
       "summary": "Lighting can make all the difference.",
       "url": "https://www.pcgamer.com/games/esports-tournaments-do-it-better-in-person/",
-      "published_at": "2026-09-23T08:24:46+00:00"
-    },
-    {
-      "id": "2472cbe3b6a8ad90f4e406ca093141c9a048738774dd10fdb7e0af2fca1ca2f0",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
-      "summary": "Valve has dropped the ball on implementing reasonable age verification measures, so it's time to look further afield.",
-      "url": "https://www.pcgamer.com/software/platforms/how-to-buy-r18-games-without-a-credit-card/",
-      "published_at": "2026-09-23T03:38:59+00:00"
-    },
-    {
-      "id": "20838e2c060ab8440584024462398cd9bfe45dfe7999d4b541dd05d3725d8b04",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
-      "summary": "Are we actually so back, or is the elation premature?",
-      "url": "https://www.pcgamer.com/games/guardians-make-their-own-fate-destiny-2-players-and-creators-celebrate-following-bungies-shock-u-turn-as-the-studio-admits-your-voices-mattered/",
-      "published_at": "2026-09-22T22:25:32+00:00"
+      "published_at": "2026-09-23T08:24:46+00:00",
+      "summary_pl": "Turnieje esportowe wypadają lepiej na żywo. Odpowiednie oświetlenie może mieć kluczowe znaczenie.",
+      "tags": [
+        "esport",
+        "turnieje",
+        "wydarzenia"
+      ]
     },
     {
       "id": "25e73a66bd720ef06c3b0ae7743d845c97fa43419f2807410d65e73c68f43056",
@@ -1801,82 +1902,14 @@
       "title": "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS",
       "summary": "The two CS2 players I spoke to seem to agree.",
       "url": "https://www.pcgamer.com/hardware/gaming-monitors/vindicated-after-speaking-to-some-pro-counter-strike-players-im-sure-i-was-right-when-i-said-360-hz-is-the-sweet-spot-for-competitive-fps/",
-      "published_at": "2026-09-22T22:08:27+00:00"
-    },
-    {
-      "id": "846d051e3b730a9e7db325f399e031421ca2e5efba3bc7e89df982cc8232da10",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress",
-      "summary": "Blizzard wants leveling up and finding new items to have an immediate impact on combat.",
-      "url": "https://www.pcgamer.com/games/rpg/diablo-5-will-take-a-somewhat-different-approach-to-diablo-4s-monster-level-scaling-so-your-character-feels-noticeably-stronger-as-you-progress/",
-      "published_at": "2026-09-22T21:52:34+00:00"
-    },
-    {
-      "id": "7712913515d81ab18157ce5bfe7027f1bed9abec39f632c0035ad761063a637f",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
-      "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
-      "url": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
-      "published_at": "2026-09-22T21:42:14+00:00"
-    },
-    {
-      "id": "a8f2f775ba0c8f2a7c5531f9c3f44bf3e34b8fad70181217d7ea09288cab0c0a",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
-      "summary": "The frontier AI model race has entered its comparison shopping phase.",
-      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
-      "published_at": "2026-09-22T21:25:18+00:00"
-    },
-    {
-      "id": "75c5b8115766cdf9fb75c279fb2b08b367877bb757e12c590124398caae072bb",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
-      "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
-      "url": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
-      "published_at": "2026-09-22T20:38:30+00:00"
-    },
-    {
-      "id": "379cf59b30e3074b7fbd28c7a4fd743b308fae6e8361cd95ac4ff244d73c2154",
-      "source": "PC Gamer",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "en",
-      "title": "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO",
-      "summary": "Blizzard snuck in an item that finally gives mages a reason to swing a sword.",
-      "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-players-find-rule-breaking-new-items-that-defy-22-years-of-experience-with-the-classic-mmo/",
-      "published_at": "2026-09-22T19:50:47+00:00"
-    },
-    {
-      "id": "d2c47b1f9d240a41a98fefbb01e49361cfd08d6455b9de8b0cbe2c36c339cb68",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "category": "Tech",
-      "language": "en",
-      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
-      "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
-      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-      "published_at": "2026-09-22T19:45:47+00:00"
-    },
-    {
-      "id": "cd843dd12dc4e42e2ade05f070b2c2d344edf41ab841329a2e7378733257cb6f",
-      "source": "PC Gamer",
-      "category": "Gaming",
-      "title": "The mythology of Gabe Newell now includes Mongolian throat singing",
-      "summary": "Counter-Strike co-creator says Valve employees once endured daily psychic damage from the founder's fixation.",
-      "url": "https://www.pcgamer.com/gaming-industry/the-mythology-of-gabe-newell-now-includes-mongolian-throat-singing/",
-      "published_at": "2026-09-22T19:34:50+00:00"
+      "published_at": "2026-09-22T22:08:27+00:00",
+      "summary_pl": "Autor twierdzi, że 360 Hz to idealna częstotliwość odświeżania dla konkurencyjnych gier FPS, co potwierdzili dwaj gracze Counter-Strike 2.",
+      "tags": [
+        "gaming",
+        "cs2",
+        "sprzęt",
+        "fps"
+      ]
     },
     {
       "id": "98879a87076481685272ed258e0b8f0a3296041b7e92f1618112a3d7835bce12",
