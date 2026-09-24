@@ -1,4 +1,4 @@
-const CACHE = "myhub-v2";
+const CACHE = "myhub-v3";
 const APP_SHELL = ["/", "/static/css/app.css", "/static/manifest.json"];
 
 self.addEventListener("install", event => {
