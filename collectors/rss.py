@@ -11,7 +11,8 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import feedparser
-from openai import OpenAI
+from google import genai
+from google.genai import types
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -25,7 +26,7 @@ FEED_PATH = DATA_DIR / "feed.json"
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 
-MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gpt-5.6-luna")
+MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.8-flash")
 MAX_AI_ITEMS = int(os.environ.get("MYHUB_MAX_AI_ITEMS", "15"))
 
 
@@ -68,7 +69,7 @@ def collect_feed(feed) -> list[dict]:
     parsed = feedparser.parse(
         feed["url"],
         request_headers={
-            "User-Agent": "Mozilla/5.0 (compatible; MyHub/0.3; +https://myhub.pythonanywhere.com)"
+            "User-Agent": "Mozilla/5.0 (compatible; MyHub/0.4; +https://myhub.pythonanywhere.com)"
         },
     )
 
@@ -135,12 +136,26 @@ def merge_items(existing: list[dict], fresh: list[dict]) -> list[dict]:
 
 
 def enrich_with_ai(items: list[dict]) -> int:
-    if not os.environ.get("OPENAI_API_KEY"):
-        print("[AI] OPENAI_API_KEY missing; skipping Polish summaries.")
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("[AI] GEMINI_API_KEY missing; skipping Polish summaries.")
         return 0
 
-    client = OpenAI()
+    client = genai.Client(api_key=api_key)
     processed = 0
+
+    schema = {
+        "type": "object",
+        "properties": {
+            "summary_pl": {"type": "string"},
+            "tags": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 4,
+            },
+        },
+        "required": ["summary_pl", "tags"],
+    }
 
     for item in items:
         if processed >= MAX_AI_ITEMS:
@@ -159,8 +174,6 @@ Na podstawie WYŁĄCZNIE poniższego tytułu i opisu RSS:
 1. Napisz zwięzłe streszczenie po polsku w 1-2 zdaniach, maksymalnie 260 znaków.
 2. Nie dopowiadaj faktów, których nie ma w materiale.
 3. Dobierz od 1 do 4 krótkich tagów po polsku lub nazw własnych.
-4. Zwróć wyłącznie poprawny JSON:
-{{"summary_pl":"...","tags":["..."]}}
 
 Źródło: {item["source"]}
 Tytuł: {item["title"]}
@@ -168,12 +181,15 @@ Opis RSS: {source_text}
 """.strip()
 
         try:
-            response = client.responses.create(
+            response = client.models.generate_content(
                 model=MODEL,
-                input=prompt,
-                max_output_tokens=180,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    response_schema=schema,
+                ),
             )
-            result = json.loads(response.output_text.strip())
+            result = json.loads(response.text)
             summary_pl = clean_text(result.get("summary_pl"), 280)
             tags = [
                 clean_text(str(tag), 30)
