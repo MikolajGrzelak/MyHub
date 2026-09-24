@@ -1,5 +1,636 @@
 {
-  "updated_at": null,
-  "count": 0,
-  "items": []
+  "updated_at": "2026-09-24T08:09:25.203136+00:00",
+  "count": 70,
+  "items": [
+    {
+      "id": "6d4b7411c393562fd662d8b3d8c8e5302b3034260d3cd0ee797bb8bd1cce16b5",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Micropost: I use my ring finger for right mouse button. Am I okay?",
+      "summary": "Micropost: I use my ring finger for right mouse button. Am I okay?",
+      "url": "https://www.pcgamer.com/games/micropost-i-use-my-ring-finger-for-right-mouse-button-am-i-okay/",
+      "published_at": "2026-09-24T07:00:00+00:00"
+    },
+    {
+      "id": "1da771c7917987a895717882dc1f09aad228484ba716054be2bd205391a4a18a",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
+      "summary": "Spl-ASH damage.",
+      "url": "https://www.pcgamer.com/games/rpg/the-industrial-revolution-is-the-reason-rpgs-have-area-of-effect-spells-a-pc-gamer-causality-chaintm/",
+      "published_at": "2026-09-24T04:00:25+00:00"
+    },
+    {
+      "id": "41166e877140c7bafbf04d27691e9b850f9719907ef783c8c81bfd8a3cb8c625",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
+      "summary": "If you ever played it on Steam, it's yours to keep.",
+      "url": "https://www.pcgamer.com/games/fps/quake-champions-takes-a-shower-shedding-all-its-2017-live-service-grime-and-becoming-a-usd10-game/",
+      "published_at": "2026-09-23T23:48:24+00:00"
+    },
+    {
+      "id": "1b2fc9d10d48609768ddfe319af1bd6b7e03a1461d3db24ed658bfc74490f49d",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
+      "summary": "Valve, are you hearing this?",
+      "url": "https://www.pcgamer.com/gaming-industry/microsofts-approach-to-age-verification-in-australia-is-further-proof-that-valve-is-taking-the-everloving-piss/",
+      "published_at": "2026-09-23T23:31:23+00:00"
+    },
+    {
+      "id": "cd1e515d714e8ca891ffbcbd1df5bca2e273634fa8e04600a738a8f2883b1ce7",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
+      "summary": "US health deptartment said it wants to ensure the vaccine orders are \"appropriate.\"",
+      "url": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
+      "published_at": "2026-09-23T22:17:25+00:00"
+    },
+    {
+      "id": "1251d8cdf6ea0fc7f4dc1e8ab216e325d15724efac613257c7da14e8df3545d3",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
+      "summary": "Blizzard is bringing intense weather effects back to Azeroth.",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-first-patch-will-bring-back-the-number-one-thing-seasoned-players-missed-from-the-mmos-past-storms/",
+      "published_at": "2026-09-23T22:06:43+00:00"
+    },
+    {
+      "id": "f2f4c5f9b509d2557861c1fedbd4640e98e3b2bd39cf686986259cd68da5c781",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Halo needed to change, but Activision faces a huge challenge to fix it",
+      "summary": "Gutting the team that existed to make Halo is a drastic move.",
+      "url": "https://www.pcgamer.com/games/halo/halo-needed-to-change-but-activision-faces-a-huge-challenge-to-fix-it/",
+      "published_at": "2026-09-23T21:50:00+00:00"
+    },
+    {
+      "id": "27c4cc5dbcd95f76928c5b332c3c43ec15d54ca3300195899b7fddc0adb9223d",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
+      "summary": "It's unclear what will happen if FBI misses ShinyHunters' deadline.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
+      "published_at": "2026-09-23T21:46:36+00:00"
+    },
+    {
+      "id": "0f0452b10a1b7e0309e56a26edf4954a2d1f50ff85a6ac1a3e897533a3f4af1d",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
+      "summary": "The Disney+ ad-free plan is now more expensive than Netflix's.",
+      "url": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
+      "published_at": "2026-09-23T21:18:53+00:00"
+    },
+    {
+      "id": "5c8dab990e351d73a713008cff2b7e7c1b42c5010b8bd43f6b84f2e5c8cb1a7a",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Here's the Torcal, the first fully electric Bentley",
+      "summary": "It sounds like a V8, rides like a Flying Spur, but handles like a Continental GT.",
+      "url": "https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/",
+      "published_at": "2026-09-23T21:06:07+00:00"
+    },
+    {
+      "id": "03b449f2fb54d02215802f70edfdc752ee6bbdbf77f6fe49b4e191cf9a4c5204",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "My first MMO character #2: Joshua Wolens",
+      "summary": "My first MMO character #2: Joshua Wolens",
+      "url": "https://www.pcgamer.com/games/my-first-mmo-character-2-joshua-wolens/",
+      "published_at": "2026-09-23T21:00:00+00:00"
+    },
+    {
+      "id": "f23ce1419a830beb28e6c6a70e9425211b674516883173496c08b95d9799cf89",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Steam game disables mods after facing its second Workshop malware outbreak this year",
+      "summary": "A self-replicating virus is once again wreaking havoc on People Playground.",
+      "url": "https://www.pcgamer.com/games/sim/steam-game-disables-mods-after-facing-its-second-workshop-malware-outbreak-this-year/",
+      "published_at": "2026-09-23T20:53:49+00:00"
+    },
+    {
+      "id": "185b63367729b0a1400e392d4226055a5a821c43eb403371c6605d91ca45b0b7",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+      "summary": "Trump focus on winning “AI race” may deter China from sharing safety intel.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/",
+      "published_at": "2026-09-23T20:52:28+00:00"
+    },
+    {
+      "id": "b425caa1a380033cdb37b398fbddec62cad9d901710fbae11b104d42a0fed373",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
+      "summary": "Authenticity is core to Blizzard's new MMO, but it's also not trying to recreate the past 1:1.",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-addresses-the-debate-over-who-its-made-for-i-did-not-spend-the-last-year-of-my-life-relearning-and-mastering-how-to-do-things-like-we-did-it-20-years-ago-for-retail-players/",
+      "published_at": "2026-09-23T20:42:58+00:00"
+    },
+    {
+      "id": "3b28ea9843989c629421c3ef90d251d0edbaa098ff124a3b0b058e3df2d63ec5",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "I apologize in advance for this, but: Introducing Drillposting",
+      "summary": "This is all my mind is capable of right now.",
+      "url": "https://www.pcgamer.com/games/i-apologize-in-advance-for-this-but-introducing-drillposting/",
+      "published_at": "2026-09-23T20:40:21+00:00"
+    },
+    {
+      "id": "5bf0f205ac1d3a37f1615ffa61e47f5c4aec34ae886fc42ccb837270f3a84684",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
+      "summary": "$11M competition showed wildfire detection is still easier than stopping fires.",
+      "url": "https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/",
+      "published_at": "2026-09-23T20:28:42+00:00"
+    },
+    {
+      "id": "29e0cd18d8e473a7424ce89c3e476ae6f27c27acf8249d167d50c91c1bb22a76",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Shoot the tires, please",
+      "summary": "Wardogs Humvees are a menace with a glaring weakness.",
+      "url": "https://www.pcgamer.com/games/fps/shoot-the-tires-please/",
+      "published_at": "2026-09-23T20:12:06+00:00"
+    },
+    {
+      "id": "3834a14e9d015aae7d62f9168cce328830c17b3d0dc9a7092debd95cdecb7619",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Discord age verification rolls out today with changes spurred by user backlash",
+      "summary": "Discord will try to automatically estimate ages, require verification when it can't.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/discord-age-verification-rolls-out-today-with-changes-spurred-by-user-backlash/",
+      "published_at": "2026-09-23T20:05:13+00:00"
+    },
+    {
+      "id": "8c3f3e72fc01d84c3413d1204129200be6fba738201431b495abb3365e22a1ea",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "YouTube promises custom feeds and a lot more AI later this year",
+      "summary": "YouTube's next year could change the content you see with a big focus on AI and livestreams.",
+      "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+      "published_at": "2026-09-23T19:35:53+00:00"
+    },
+    {
+      "id": "c3f69459e428adff42238d56a7c5c9c19d0989df585149e4142af63f1320ad57",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
+      "summary": "And we could all stand to remember that.",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/",
+      "published_at": "2026-09-23T18:58:40+00:00"
+    },
+    {
+      "id": "658bbe21ecce96caf9b1bd83f96b6621c7d5a107761c998cde2206b0cae52719",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Contrary to some reports, you don't have two brains",
+      "summary": "A bad press release makes a good excuse to look at how developmental biology works.",
+      "url": "https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/",
+      "published_at": "2026-09-23T18:47:36+00:00"
+    },
+    {
+      "id": "8ec267fb3c664fdef4b980350019053e026ff96ebabb7aae9e4e7a00f0c6096b",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Netflix releases trailer for Brad Bird's Ray Gunn",
+      "summary": "\"It’s film noir and a hard-boiled detective story, but it’s got a lot more comedy and a lot more action.\"",
+      "url": "https://arstechnica.com/culture/2026/09/netflix-drops-trailer-for-brad-birds-ray-gunn/",
+      "published_at": "2026-09-23T18:26:50+00:00"
+    },
+    {
+      "id": "33cf5ce3df39909afe8c4fdea282b95ce300d97e81113a140aac9d20a62f23c0",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+      "summary": "\"So absurd and embarrassing ...\"",
+      "url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
+      "published_at": "2026-09-23T17:39:39+00:00"
+    },
+    {
+      "id": "0283c0e5e17b8003310b3c86efc2cd99cdc1c329c1a15d7b1f4099222b93f709",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Former NASA chief sounds alarm on China's lunar \"exploration\" plans",
+      "summary": "\"Beijing's intended strategy is to dominate the high ground of the twenty-first century.\"",
+      "url": "https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans/",
+      "published_at": "2026-09-23T17:10:58+00:00"
+    },
+    {
+      "id": "768ba8e8e1435dc37c007d9780dda98312c69c82e08af27eba121ab16ed49c10",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles'",
+      "summary": "Embark is adding new skills and removing old ones in Frozen Trail.",
+      "url": "https://www.pcgamer.com/games/third-person-shooter/you-cant-have-everything-in-arc-raiders-reworked-skill-tree-we-believe-that-creates-more-interesting-choices-and-supports-more-playstyles/",
+      "published_at": "2026-09-23T17:03:52+00:00"
+    },
+    {
+      "id": "adf46e72ef2eca81535043c2e98115ec4a087e02090a6e8388e863a13b084fb1",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate",
+      "summary": "The 2.0 patch is comprehensive.",
+      "url": "https://www.pcgamer.com/games/third-person-shooter/the-arc-raiders-frozen-trail-update-is-bigger-than-anyone-expected-new-arc-gun-upgrades-a-map-and-personal-outposts-you-can-decorate/",
+      "published_at": "2026-09-23T17:03:48+00:00"
+    },
+    {
+      "id": "13c89afea7e4d01c6136fc6974bb694f8569c438e3d802866e7b9bbc1c4a52ec",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
+      "summary": "Well, it'll do.",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/i-put-ufo-sightings-in-grand-theft-auto-5-though-it-didnt-quite-go-to-plan/",
+      "published_at": "2026-09-23T17:00:00+00:00"
+    },
+    {
+      "id": "56611b7aa67b74a1b860cf777c58d32f0c017e5a4d961121f3c3ae1123b802d6",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
+      "summary": "It couldn't possibly get worse.",
+      "url": "https://www.pcgamer.com/games/horror/the-producer-behind-creggers-resident-evil-film-is-working-on-an-unnamed-silent-hill-project-and-players-are-asking-for-just-one-thing/",
+      "published_at": "2026-09-23T16:51:00+00:00"
+    },
+    {
+      "id": "eb19cca25bc5ded9edfee96683afe04b33b84237d12601d5b9c93714809ac04e",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
+      "summary": "The latest Silent Hill game goes overboard with tiny details of Scottish coastal life.",
+      "url": "https://www.pcgamer.com/games/horror/the-scariest-part-of-silent-hill-townfall-its-not-the-monsters-its-british-interior-design/",
+      "published_at": "2026-09-23T16:27:24+00:00"
+    },
+    {
+      "id": "f19064205b43b7070ed283a9b1793d1c3d3e3c35f7a6375b0d7e53920e2093ed",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Razer Chroma Soma lighting",
+      "summary": "Razer Chroma Soma lighting",
+      "url": "https://www.pcgamer.com/hardware/gaming-chairs/razer-chroma-soma-lighting/",
+      "published_at": "2026-09-23T16:26:29+00:00"
+    },
+    {
+      "id": "e77222b98fc048090ebe9a82473d784f6b0c8a74d99f94369de471f09d4e1a6f",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Razer Soma Chroma gaming chair review",
+      "summary": "Lights, camera, inaction! Illuminate your sitting with Razer's RGB chair.",
+      "url": "https://www.pcgamer.com/hardware/gaming-chairs/razer-soma-chroma-review/",
+      "published_at": "2026-09-23T16:17:27+00:00"
+    },
+    {
+      "id": "4b0abe543fd65459cb7597085837a88ea405fe9c955a2d93e10ea308b6b0fa8e",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning",
+      "summary": "There's a new headset, too.",
+      "url": "https://www.pcgamer.com/hardware/i-thought-from-logitechs-new-pro-products-id-be-most-excited-about-the-superstrike-but-after-using-them-its-actually-the-keyboard-and-mouse-pad-that-have-me-grinning/",
+      "published_at": "2026-09-23T16:03:00+00:00"
+    },
+    {
+      "id": "a2fb31eaac92696015d9358392ec679a6e8e7be1e24ded4f027215909f52f4e8",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch",
+      "summary": "While the new one is a great mouse, it's what the first should have been.",
+      "url": "https://www.pcgamer.com/hardware/gaming-mice/sorry-early-adopters-logitech-is-releasing-an-improved-superstrike-making-the-original-all-but-obsolete-just-months-after-launch/",
+      "published_at": "2026-09-23T16:01:00+00:00"
+    },
+    {
+      "id": "6aa40efb7f75be1e8669b4261dc2594c8e89202041e45ceb162bb0d23caf5fa2",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "My first MMO character #1: Harvey Randall",
+      "summary": "My first MMO character #1: Harvey Randall",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/my-first-mmo-character-1-harvey-randall/",
+      "published_at": "2026-09-23T16:00:00+00:00"
+    },
+    {
+      "id": "682196a264c9a683b39a8da192ffe64a9bcf0b4f50f8ba4a661e41243d9eeccb",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Wistful about Myst VI",
+      "summary": "Wistful about Myst VI",
+      "url": "https://www.pcgamer.com/games/wistful-about-myst-vi/",
+      "published_at": "2026-09-23T15:42:56+00:00"
+    },
+    {
+      "id": "6d86bc84e2a4536e39d9db98c25289f35c17f5f0bf27f3ec588a1beb85193b3c",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Valve offers CS2 players eggs",
+      "summary": "Valve offers CS2 players eggs",
+      "url": "https://www.pcgamer.com/games/fps/valve-offers-cs2-players-eggs/",
+      "published_at": "2026-09-23T15:24:42+00:00"
+    },
+    {
+      "id": "dc171095d3ae28f6c2d8a1fcbd6d7e7aa7b119baaa9ff522c8b0f7a9ec114c17",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "'We hacked the FBI' says previous Rockstar-breaching hacking group: 'We hold data on all FBI employees and applicants'",
+      "summary": "The status of the Gibson is currently unknown.",
+      "url": "https://www.pcgamer.com/software/security/we-hacked-the-fbi-says-previous-rockstar-breaching-hacking-group-we-hold-data-on-all-fbi-employees-and-applicants/",
+      "published_at": "2026-09-23T15:11:18+00:00"
+    },
+    {
+      "id": "aed387c098bedff54de617eb746e59d5d84f3f7792adf1fe990601252e86a5ef",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "I don't care what you lot say, the side buttons on a mouse are for copy and paste (on desktop)",
+      "summary": "There are dozens of us! Dozens!",
+      "url": "https://www.pcgamer.com/hardware/gaming-mice/i-dont-care-what-you-lot-say-the-side-buttons-on-a-mouse-are-for-copy-and-paste-on-desktop/",
+      "published_at": "2026-09-23T14:39:28+00:00"
+    },
+    {
+      "id": "00604824d6681d4f25ea914c91369feefc98c52fff11d5ef698ef839b2ba0917",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "After multiple deaths and injuries, NHTSA is investigating comma.ai",
+      "summary": "Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.",
+      "url": "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/",
+      "published_at": "2026-09-23T14:20:23+00:00"
+    },
+    {
+      "id": "1ee0a039baf2a7712986fc52c2b17ccb8f97719c9a0fdb1bf84e6c76ae683668",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Console rumour time #235",
+      "summary": "Console rumour time #235",
+      "url": "https://www.pcgamer.com/hardware/console-rumour-time-235/",
+      "published_at": "2026-09-23T14:10:02+00:00"
+    },
+    {
+      "id": "85779600ee41b45ad22d9a2df7f3db2a99ed0e397313365091763d7c4b329d22",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Leon Kennedy is Zach Cregger's choice of bodyguard: 'I would just bear hug myself around him'",
+      "summary": "Leon Kennedy is Zach Cregger's choice of bodyguard: 'I would just bear hug myself around him'",
+      "url": "https://www.pcgamer.com/movies-tv/leon-kennedy-is-zach-creggers-choice-of-bodyguard-i-would-just-bear-hug-myself-around-him/",
+      "published_at": "2026-09-23T14:03:38+00:00"
+    },
+    {
+      "id": "0c0ecd50c324f3d4a13cd09ce870f6a6f37906165c54d789fab665f5690d4225",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Total War: Warhammer's biggest ever campaign is now $9, but what do actually you get for that?",
+      "summary": "Plus the best Lords of the End Times character to buy for Immortal Empires.",
+      "url": "https://www.pcgamer.com/games/strategy/total-war-warhammers-biggest-ever-campaign-is-now-usd9-but-what-do-actually-you-get-for-that/",
+      "published_at": "2026-09-23T14:00:00+00:00"
+    },
+    {
+      "id": "6ae03cbfbbb167dbd19bfe049ba39315953975d851e09e0e46445f01ffe2de2f",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Waiter, there's some Path of Exile in my Total War: Warhammer 3 DLC",
+      "summary": "My compliments to the chef.",
+      "url": "https://www.pcgamer.com/games/strategy/waiter-theres-some-path-of-exile-in-my-total-war-warhammer-3-dlc/",
+      "published_at": "2026-09-23T14:00:00+00:00"
+    },
+    {
+      "id": "2cee30687cac4ab7c41db3e018162c485dc0917231e547950e00904dbb65372e",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "A Bretonnia rework is definitely on Creative Assembly's 'to-do list' for Total War: Warhammer: 'It's not quite the finest of wines now'",
+      "summary": "\"There are a lot of things on our list.\"",
+      "url": "https://www.pcgamer.com/games/strategy/a-bretonnia-rework-is-definitely-on-creative-assemblys-to-do-list-for-total-war-warhammer-its-not-quite-the-finest-of-wines-now/",
+      "published_at": "2026-09-23T14:00:00+00:00"
+    },
+    {
+      "id": "56e66c8b7ace3d9589d7a351e80709ffb8667c02f30173948690bfda31478d50",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Lords of the End Times is 'not the end' for Total War: Warhammer: 'You can't get rid of us that easily'",
+      "summary": "\"There are still other characters that I know a bunch of people would love to see.\"",
+      "url": "https://www.pcgamer.com/games/strategy/lords-of-the-end-times-is-not-the-end-for-total-war-warhammer-you-cant-get-rid-of-us-that-easily/",
+      "published_at": "2026-09-23T14:00:00+00:00"
+    },
+    {
+      "id": "d82ebd9d739157d6836261bb498a6b65ffeabeaf2b2dfd8f0fe82358d922ec2d",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "America gave up its rare earth edge. China took full advantage.",
+      "summary": "Decades of cheaper imports left US dependent on China for crucial rare earth processing.",
+      "url": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/",
+      "published_at": "2026-09-23T13:37:05+00:00"
+    },
+    {
+      "id": "773e4af7d6f49b80a688a610637a8ddb620125677be97719a226cce4afe7a802",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "A tribute to PC Gamer's first MMO characters—may they never be forgotten",
+      "summary": "I was never a good rogue.",
+      "url": "https://www.pcgamer.com/games/mmo/a-tribute-to-pc-gamers-first-mmo-characters-may-they-never-be-forgotten/",
+      "published_at": "2026-09-23T13:28:46+00:00"
+    },
+    {
+      "id": "7dc3c6eb2c47c4691a596f0fc21bb1543fc7bde90d3b82d79ad039f32eb26717",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "It's time to decide the worst graphical effect in games: chromatic aberration vs blood/dirt",
+      "summary": "Don't let my historic dislike of chromatic aberration sway you.",
+      "url": "https://www.pcgamer.com/hardware/its-time-to-decide-the-worst-graphical-effect-in-games-chromatic-aberration-vs-blood-dirt/",
+      "published_at": "2026-09-23T13:26:38+00:00"
+    },
+    {
+      "id": "c5718798ef4809984bc288614cf9b083e397a58190d5ff97bbecade65d4c1c4e",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "I crammed 20 anime figures inside my gaming PC to see how it affects thermal performance. Yes, you can call me a scientist now",
+      "summary": "Asking the important questions.",
+      "url": "https://www.pcgamer.com/hardware/pc-cases/i-crammed-20-anime-figures-inside-my-gaming-pc-to-see-how-it-affects-thermal-performance-yes-you-can-call-me-a-scientist-now/",
+      "published_at": "2026-09-23T13:25:23+00:00"
+    },
+    {
+      "id": "981d8775cbb13b6a830059ca6126521f8553df774f63e2ed65345b2c5f3c3e9d",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "It's me, I am the whale",
+      "summary": "It's me, I am the whale",
+      "url": "https://www.pcgamer.com/games/its-me-i-am-the-whale/",
+      "published_at": "2026-09-23T11:23:39+00:00"
+    },
+    {
+      "id": "27f4ee1b17853c75eff7b9d700c8e878971eac71bc0f7c50516f3452c9e503c2",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "PC Gaming Show Toyko Direct 2026 picks",
+      "summary": "PC Gaming Show Toyko Direct 2026 picks",
+      "url": "https://www.pcgamer.com/games/pc-gaming-show-toyko-direct-2026-picks/",
+      "published_at": "2026-09-23T11:15:50+00:00"
+    },
+    {
+      "id": "dbf6f2142af02ef7054641ca69b6dbe309076f7ec9b250e378f33948faa8f5c4",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Small undersea volcanoes may unleash outsized tsunamis",
+      "summary": "Post-eruption imaging of the Hunga caldera gives new details of its collapse.",
+      "url": "https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/",
+      "published_at": "2026-09-23T11:15:30+00:00"
+    },
+    {
+      "id": "a58aecbf0960abc6bc8cc0c802a3d7ec942ad7b74e9f5fa41a0da5d92756ab31",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "A new report from Europe raises serious alarms about orbital collisions",
+      "summary": "\"I think we are going to lose the ability to use certain orbits.\"",
+      "url": "https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/",
+      "published_at": "2026-09-23T11:00:17+00:00"
+    },
+    {
+      "id": "8932d13cb59f42793b172dce46f17a9f7a1c154a04afd002974211f861b9e338",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "AMD starts the ball rolling for GDDR7 in next-gen GPUs with small code adjustment in its Linux drivers",
+      "summary": "My money is still on RDNA 5 launching by the end of next year.",
+      "url": "https://www.pcgamer.com/hardware/graphics-cards/amd-starts-the-ball-rolling-for-gddr7-in-next-gen-gpus-with-small-code-adjustment-in-its-linux-drivers/",
+      "published_at": "2026-09-23T10:54:50+00:00"
+    },
+    {
+      "id": "eeea9b91d1e2f5de186b905be4bdb78c4af8d7f9b0a5a76b2792ddd1b9dade50",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Everything I'd do differently in Cregger's Resident Evil film",
+      "summary": "I'm simply built different.",
+      "url": "https://www.pcgamer.com/movies-tv/everything-id-do-differently-in-creggers-resident-evil-film/",
+      "published_at": "2026-09-23T10:42:13+00:00"
+    },
+    {
+      "id": "136ce6ee8f473f7216e953ed56601804aeee7a6a089ca8e5c52e893f26f2a8cf",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Halo Studios cinematic director promoted, then laid off in the same week",
+      "summary": "Just when I think I can't be surprised anymore, something like this happens.",
+      "url": "https://www.pcgamer.com/gaming-industry/halo-studios-cinematic-director-promoted-then-laid-off-in-the-same-week/",
+      "published_at": "2026-09-23T10:29:18+00:00"
+    },
+    {
+      "id": "deefa9c768ed8572a3500e1b5d18b67c2e1046147e2d806c0afb9ade07859995",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Valve shadow dropped chicken pets into CS2",
+      "summary": "The egg came first.",
+      "url": "https://www.pcgamer.com/games/fps/valve-shadow-dropped-chicken-pets-into-cs2/",
+      "published_at": "2026-09-23T10:18:10+00:00"
+    },
+    {
+      "id": "311465d12448bbe9db4fde8af49f2f312d9ad90183eda25b830b6a596c4dfd64",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "I have fallen to my own hubris",
+      "summary": "I thought it would be so simple.",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/i-have-fallen-to-my-own-hubris/",
+      "published_at": "2026-09-23T09:57:17+00:00"
+    },
+    {
+      "id": "f448f8ee412c7fe35b9f7a101add380e30d26d9d8be00be8cf9046ad4ab38846",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Micropost: 'This is crazytown' reaction to our worst graphical effect poll",
+      "summary": "Micropost: 'This is crazytown' reaction to our worst graphical effect poll",
+      "url": "https://www.pcgamer.com/games/micropost-this-is-crazytown-reaction-to-our-worst-graphical-effect-poll/",
+      "published_at": "2026-09-23T09:53:07+00:00"
+    },
+    {
+      "id": "fb64098f29297cf6bbebbffd16bbb7c7df03991b7626ab656a1100bd11135e2e",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Esports tournaments do it better in person",
+      "summary": "Lighting can make all the difference.",
+      "url": "https://www.pcgamer.com/games/esports-tournaments-do-it-better-in-person/",
+      "published_at": "2026-09-23T08:24:46+00:00"
+    },
+    {
+      "id": "2472cbe3b6a8ad90f4e406ca093141c9a048738774dd10fdb7e0af2fca1ca2f0",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
+      "summary": "Valve has dropped the ball on implementing reasonable age verification measures, so it's time to look further afield.",
+      "url": "https://www.pcgamer.com/software/platforms/how-to-buy-r18-games-without-a-credit-card/",
+      "published_at": "2026-09-23T03:38:59+00:00"
+    },
+    {
+      "id": "20838e2c060ab8440584024462398cd9bfe45dfe7999d4b541dd05d3725d8b04",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
+      "summary": "Are we actually so back, or is the elation premature?",
+      "url": "https://www.pcgamer.com/games/guardians-make-their-own-fate-destiny-2-players-and-creators-celebrate-following-bungies-shock-u-turn-as-the-studio-admits-your-voices-mattered/",
+      "published_at": "2026-09-22T22:25:32+00:00"
+    },
+    {
+      "id": "25e73a66bd720ef06c3b0ae7743d845c97fa43419f2807410d65e73c68f43056",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS",
+      "summary": "The two CS2 players I spoke to seem to agree.",
+      "url": "https://www.pcgamer.com/hardware/gaming-monitors/vindicated-after-speaking-to-some-pro-counter-strike-players-im-sure-i-was-right-when-i-said-360-hz-is-the-sweet-spot-for-competitive-fps/",
+      "published_at": "2026-09-22T22:08:27+00:00"
+    },
+    {
+      "id": "846d051e3b730a9e7db325f399e031421ca2e5efba3bc7e89df982cc8232da10",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress",
+      "summary": "Blizzard wants leveling up and finding new items to have an immediate impact on combat.",
+      "url": "https://www.pcgamer.com/games/rpg/diablo-5-will-take-a-somewhat-different-approach-to-diablo-4s-monster-level-scaling-so-your-character-feels-noticeably-stronger-as-you-progress/",
+      "published_at": "2026-09-22T21:52:34+00:00"
+    },
+    {
+      "id": "7712913515d81ab18157ce5bfe7027f1bed9abec39f632c0035ad761063a637f",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
+      "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+      "url": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
+      "published_at": "2026-09-22T21:42:14+00:00"
+    },
+    {
+      "id": "a8f2f775ba0c8f2a7c5531f9c3f44bf3e34b8fad70181217d7ea09288cab0c0a",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "summary": "The frontier AI model race has entered its comparison shopping phase.",
+      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+      "published_at": "2026-09-22T21:25:18+00:00"
+    },
+    {
+      "id": "75c5b8115766cdf9fb75c279fb2b08b367877bb757e12c590124398caae072bb",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
+      "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
+      "published_at": "2026-09-22T20:38:30+00:00"
+    },
+    {
+      "id": "379cf59b30e3074b7fbd28c7a4fd743b308fae6e8361cd95ac4ff244d73c2154",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO",
+      "summary": "Blizzard snuck in an item that finally gives mages a reason to swing a sword.",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-players-find-rule-breaking-new-items-that-defy-22-years-of-experience-with-the-classic-mmo/",
+      "published_at": "2026-09-22T19:50:47+00:00"
+    },
+    {
+      "id": "d2c47b1f9d240a41a98fefbb01e49361cfd08d6455b9de8b0cbe2c36c339cb68",
+      "source": "Ars Technica",
+      "category": "Tech",
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "published_at": "2026-09-22T19:45:47+00:00"
+    },
+    {
+      "id": "cd843dd12dc4e42e2ade05f070b2c2d344edf41ab841329a2e7378733257cb6f",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "The mythology of Gabe Newell now includes Mongolian throat singing",
+      "summary": "Counter-Strike co-creator says Valve employees once endured daily psychic damage from the founder's fixation.",
+      "url": "https://www.pcgamer.com/gaming-industry/the-mythology-of-gabe-newell-now-includes-mongolian-throat-singing/",
+      "published_at": "2026-09-22T19:34:50+00:00"
+    }
+  ]
 }
