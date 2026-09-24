@@ -43,8 +43,23 @@
               <time class="date" data-date="{{ item.published_at }}"></time>
             {% endif %}
           </div>
+
           <h2>{{ item.title }}</h2>
-          {% if item.summary %}<p>{{ item.summary }}</p>{% endif %}
+
+          {% if item.summary_pl %}
+            <p class="summary-pl">{{ item.summary_pl }}</p>
+          {% elif item.summary %}
+            <p>{{ item.summary }}</p>
+          {% endif %}
+
+          {% if item.tags %}
+            <div class="tags">
+              {% for tag in item.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
           <a class="open" href="{{ item.url }}" target="_blank" rel="noopener">Czytaj →</a>
         </article>
         {% endfor %}
