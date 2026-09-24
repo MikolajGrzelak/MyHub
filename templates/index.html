@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="MyHub">
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  <title>MyHub</title>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">YOUR DAILY SIGNAL</p>
+        <h1>MyHub</h1>
+      </div>
+      <span class="badge">MVP</span>
+    </header>
+
+    <nav class="chips" aria-label="Kategorie">
+      <button class="chip active">Wszystko</button>
+      <button class="chip">Gaming</button>
+      <button class="chip">Tech</button>
+      <button class="chip">Reddit</button>
+      <button class="chip">Watchlist</button>
+    </nav>
+
+    <section class="feed">
+      {% for item in items %}
+      <article class="card">
+        <div class="meta">{{ item.category }} · {{ item.source }}</div>
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.summary }}</p>
+        <a href="{{ item.url }}">Otwórz</a>
+      </article>
+      {% endfor %}
+    </section>
+  </main>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/static/service-worker.js");
+      });
+    }
+  </script>
+</body>
+</html>
