@@ -26,7 +26,7 @@ FEED_PATH = DATA_DIR / "feed.json"
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 
-MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.8-flash")
+MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.5-flash-lite")
 MAX_AI_ITEMS = int(os.environ.get("MYHUB_MAX_AI_ITEMS", "15"))
 
 
