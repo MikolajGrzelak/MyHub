@@ -104,6 +104,42 @@ def clean_cdaction_title(text: str) -> str:
     return text.strip()
 
 
+def clean_ppe_title(text: str) -> str:
+    text = clean_text(text, 360)
+
+    # PPE listing anchors often contain section/comment counters before the real title.
+    # Examples: "Gry 29V 0 Gry 29V 0 <headline> Dzisiaj, 14:41"
+    text = re.sub(
+        r"^(?:(?:Gry|Filmy i seriale|Technologie|Publicystyka|Promocje)\s+\d+V?\s+\d+\s+){1,3}",
+        "",
+        text,
+        flags=re.I,
+    )
+
+    # Sometimes the metadata prefix is duplicated but not identical enough for one regex.
+    text = re.sub(
+        r"^(?:Gry|Filmy i seriale|Technologie|Publicystyka|Promocje)\s+\d+V?\s+\d+\s+",
+        "",
+        text,
+        flags=re.I,
+    )
+
+    # Date/time belongs in published_at, never in the headline.
+    text = re.sub(
+        r"\s+(?:Dzisiaj|Wczoraj)\s*,?\s*\d{1,2}:\d{2}\s*$",
+        "",
+        text,
+        flags=re.I,
+    )
+    text = re.sub(
+        r"\s+\d{1,2}[./-]\d{1,2}(?:[./-]\d{2,4})?\s*,?\s*\d{1,2}:\d{2}\s*$",
+        "",
+        text,
+        flags=re.I,
+    )
+    return text.strip()
+
+
 def clean_text(value: str | None, max_length: int = 320) -> str:
     if not value:
         return ""
@@ -290,26 +326,44 @@ def collect_html(source) -> list[dict]:
         path = parsed.path if parsed.scheme else href.split("?",1)[0]
         if not pattern.match(path):
             continue
-        title = clean_text(a.get_text(" ", strip=True), 320)
+        raw_title = clean_text(a.get_text(" ", strip=True), 360)
+        title = raw_title
+        listing_published_at = _relative_time_to_iso(raw_title)
+        if source["name"] == "PPE":
+            today_match = re.search(r"Dzisiaj\s*,?\s*(\d{1,2}):(\d{2})", raw_title, flags=re.I)
+            yesterday_match = re.search(r"Wczoraj\s*,?\s*(\d{1,2}):(\d{2})", raw_title, flags=re.I)
+            if today_match or yesterday_match:
+                m = today_match or yesterday_match
+                local_now = datetime.now().astimezone()
+                local_date = local_now.date()
+                if yesterday_match:
+                    local_date = datetime.fromtimestamp(local_now.timestamp() - 86400).date()
+                local_dt = datetime.combine(local_date, datetime.min.time(), tzinfo=local_now.tzinfo).replace(
+                    hour=int(m.group(1)), minute=int(m.group(2))
+                )
+                listing_published_at = local_dt.astimezone(timezone.utc).isoformat()
         if source["name"] == "CD-Action":
             title = clean_cdaction_title(title)
+        elif source["name"] == "PPE":
+            title = clean_ppe_title(title)
         if len(title) < 18:
             continue
         url = urljoin(source["base_url"], href)
-        found[url] = title
+        found[url] = {"title": title, "published_at": listing_published_at}
 
     urls = list(found)[:30]
     detail_pages = _parallel_fetch(urls, workers=8)
 
     items = []
     for url in urls:
-        title = found[url]
+        meta = found[url]
+        title = meta["title"]
         body = detail_pages.get(url)
         published_at = None
         summary = ""
         if body:
             detail_soup = BeautifulSoup(body, "html.parser")
-            published_at = extract_published_from_soup(detail_soup)
+            published_at = extract_published_from_soup(detail_soup) or meta.get("published_at")
 
             description = detail_soup.find("meta", attrs={"name": "description"})
             if description and description.get("content"):
@@ -325,7 +379,7 @@ def collect_html(source) -> list[dict]:
             "summary": summary,
             "summary_pl": "",
             "url": url,
-            "published_at": published_at,
+            "published_at": published_at or meta.get("published_at"),
         })
 
     print(f"[OK] {source['name']}: {len(items)} HTML items")
