@@ -297,9 +297,8 @@ def enrich_with_ai(items: list[dict]) -> int:
             break
         if item.get("language") == "pl":
             continue
-        if item.get("source_type") == "youtube":
-            continue
-        if item.get("source_type") == "reddit" and not item.get("priority"):
+        # AI translation/summaries are only for news. Reddit and YouTube stay verbatim.
+        if item.get("source_type", "news") != "news":
             continue
         if item.get("summary_pl"):
             continue
