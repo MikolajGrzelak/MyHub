@@ -560,9 +560,54 @@ def looks_inactive(text: str) -> bool:
     return any(marker in lowered for marker in markers)
 
 
+def extract_price_from_soup(soup: BeautifulSoup) -> str:
+    # Prefer structured current/sale price. This avoids accidentally reading
+    # Pepper's crossed-out "old price".
+    selectors = [
+        '[itemprop="price"]',
+        'meta[property="product:price:amount"]',
+        'meta[property="og:price:amount"]',
+        '[data-t="deal-price"]',
+        '[class*="thread-price"]',
+        '[class*="deal-price"]',
+        '[class*="price"]',
+    ]
+
+    for selector in selectors:
+        for tag in soup.select(selector):
+            raw = tag.get("content") or tag.get("value") or tag.get_text(" ", strip=True)
+            if not raw:
+                continue
+
+            # Ignore old/RRP/list/struck-through price elements.
+            classes = " ".join(tag.get("class", []))
+            attrs_text = f"{classes} {tag.get('data-t','')} {tag.get('aria-label','')}".lower()
+            if any(word in attrs_text for word in ("old", "rrp", "list", "strike", "original", "before")):
+                continue
+            if tag.name in {"s", "del"} or tag.find_parent(["s", "del"]):
+                continue
+
+            price = extract_price(clean_text(str(raw), 120))
+            if price:
+                return price
+
+            # Structured price may be numeric without a currency suffix.
+            numeric = re.fullmatch(r"\s*(\d+(?:[.,]\d{1,2})?)\s*", str(raw))
+            if numeric:
+                value = numeric.group(1).replace(".", ",")
+                return f"{value} zł"
+
+    # Fallback: remove crossed-out prices before scanning visible page text.
+    for tag in soup.find_all(["s", "del"]):
+        tag.decompose()
+
+    return extract_price(clean_text(soup.get_text(" ", strip=True), 5000))
+
+
 def extract_price(text: str) -> str:
     patterns = [
-        r"(\d[\d\s.,]*\s*zł)",
+        r"(\d{1,3}(?:[ .]\d{3})*(?:[,.]\d{1,2})?\s*zł)",
+        r"(\d+(?:[,.]\d{1,2})?\s*zł)",
         r"(\$\s*\d[\d\s.,]*)",
         r"(\d[\d\s.,]*\s*€)",
     ]
@@ -571,7 +616,6 @@ def extract_price(text: str) -> str:
         if match:
             return clean_text(match.group(1), 40)
     return ""
-
 
 def extract_temperature(text: str) -> str:
     match = re.search(r"(-?\d{1,5})\s*°", text)
@@ -655,7 +699,7 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "url": url,
             "published_at": published_at,
             "matched_keywords": meta["keywords"],
-            "price": extract_price(text),
+            "price": extract_price_from_soup(page),
             "temperature": extract_temperature(text),
             "active": True,
         })
@@ -723,7 +767,7 @@ def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
             "url": url,
             "published_at": published_at,
             "matched_keywords": meta["keywords"],
-            "price": extract_price(text),
+            "price": extract_price_from_soup(page),
             "active": True,
         })
 
