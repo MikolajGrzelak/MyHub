@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-09-24T08:55:23.668333+00:00",
-  "count": 70,
+  "updated_at": "2026-09-24T09:18:33.248994+00:00",
+  "count": 71,
   "items": [
+    {
+      "id": "ba7a2bc6c5bcf3df9c16ba7b039c032a5ce6448c8f9d6d139ef63b2dfea73a43",
+      "source": "PC Gamer",
+      "category": "Gaming",
+      "title": "My first MMO character #3: Steve Haines",
+      "summary": "My first MMO character #3: Steve Haines",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/my-first-mmo-character-3-steve-haines/",
+      "published_at": "2026-09-24T09:00:00+00:00"
+    },
     {
       "id": "6d4b7411c393562fd662d8b3d8c8e5302b3034260d3cd0ee797bb8bd1cce16b5",
       "source": "PC Gamer",
