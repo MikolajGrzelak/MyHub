@@ -1,18 +1,313 @@
 {
-  "updated_at": "2026-09-24T20:49:30.687157+00:00",
-  "count": 229,
+  "updated_at": "2026-09-24T23:55:12.588344+00:00",
+  "count": 251,
   "items": [
     {
-      "id": "2e5c056233b53f48e769c2b7ee034c67b9d4daf28e00cb8bf58aefd8ac2bcffd",
-      "source": "PPE",
+      "id": "a5cec9f07c5bc347b658b4717e2c4476ef5fc2b7237ae51403e8dd9334c2f8c2",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I built a tool to showcase how vibecoded changes affect my code on a diagram level",
+      "summary": "My friend and I built a system level review tool, so that we can make sense of large vibecoded chagnes. It is open-source: https://github.com/CodeBoarding/CodeBoarding I've been coding for about 14 years now, and I think vibecoding has been the most exciting thing we've gotten in a long time. It comes with a new set of problem i.e. techincal folks getting pissed at non-technical ones ;d. So we've been building a too…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wphdz2/i_built_a_tool_to_showcase_how_vibecoded_changes/",
+      "published_at": "2026-09-24T23:49:48+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "3bc15916cbd35fac51aa248876e64906c575142d21f0ea8877aaf692b5f00d44",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Wanted to vc a new texture for a top garmet and it failed in an amazing way.",
+      "summary": "Like honestly, if thats not a happy little accident I don't know what is! I'm not even sure how I'd replicate it.. my theory would be the texture got applied as a reflection rather than a static print but I think its so cool so Im keeping it in. anyways its a family friendly iOS game nothing extra submitted by /u/eldudebrothr [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpgzke/wanted_to_vc_a_new_texture_for_a_top_garmet_and/",
+      "published_at": "2026-09-24T23:30:25+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "6aaee6ffd6590361770cb9c73afdbf6980740fcc4e1cc34b7d10b72f9a140069",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "is everyone secretly using ai and just not telling?",
+      "summary": "i have been implementing ai more and more into my workflow today a co-worker emailed me what is very clearly an ai copy and pasted message this guy does 3d work for one of my clients anyways, i think the message is from some 3d ai software. i think he just got ai to do everything for him and is now even copy and pasting ai messages directly in emails i know i feel the need to lie when things that take me 5 minutes t…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpgssi/is_everyone_secretly_using_ai_and_just_not_telling/",
+      "published_at": "2026-09-24T23:21:39+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "347af7b78ec2d25316dd3600aa92d834e8268dc4c9fdc3a913022870b136db57",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Going to Japan soon so I vibe designed an app to learn japanese",
+      "summary": "Took me a couple prompts and 5 mins with Sleek What you think? submitted by /u/rash3rr [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpgjod/going_to_japan_soon_so_i_vibe_designed_an_app_to/",
+      "published_at": "2026-09-24T23:10:11+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "f8fb8514c450d018a4d2cb744171f71314f516163dbeb0e3f0cdd6ed46c1a31e",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Asterra Full Development Demo Building and Sculpting a 3D Planet!",
+      "summary": "A longer look at the current development build of Asterra , my 3D planet creation and worldbuilding sandbox. The core idea is simple: instead of treating terrain like numbers on a heightmap, I want shaping a planet to feel more like working with clay. This build currently includes terrain sculpting tools such as Grab, Raise, Lower, Flatten, Soften, Terrace, Pinch, Spread, Carve and Crease, along with close-up editin…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpg2rp/asterra_full_development_demo_building_and/",
+      "published_at": "2026-09-24T22:48:44+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "b4a5b38550d2d2f8278df2c1c2c2d0bc1b99c1414e641f6fbe0be1482d33c545",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Tom Clancy’s The Division – Xbox One / Series X|S",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/tom-clancys-the-division-xbox-one-series-xs-1356867",
+      "published_at": "2026-09-24T22:41:21+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "19,49 zł",
+      "old_price": "59,99 zł",
+      "temperature": "58",
+      "active": true,
+      "merchant": "Xbox",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/jazip/1356867_1/re/600x600/qt/70/1356867_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "a37ec2e849a0b7f7a4b651ada6e5bbe80bd816b29c48a1d212d6b446c8627ec7",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Assassin's Creed Odyssey – Xbox One / Series X|S – 4395 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/assassins-creed-odyssey-xbox-one-series-xs-4395-huf-1356866",
+      "published_at": "2026-09-24T22:39:51+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "52,60 zł",
+      "old_price": "89,99 zł",
+      "temperature": "49",
+      "active": true,
+      "merchant": "Xbox",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/aqrOL/1356866_1/re/600x600/qt/70/1356866_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "70b0f0a196659e1886c076f8e5d08b4a653b885daac0fdf77aa445b020c4cca4",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition – Xbox One / Series X|S – 6235 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/the-elder-scrolls-v-skyrim-anniversary-edition-xbox-one-series-xs-6235-huf-1356865",
+      "published_at": "2026-09-24T22:38:39+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "74,62 zł",
+      "old_price": "129,99 zł",
+      "temperature": "54",
+      "active": true,
+      "merchant": "Xbox",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/VnQB1/1356865_1/re/600x600/qt/70/1356865_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "3a4f46c546a7d838e70a9a7c7c3afd3309823a4d7ec7c7f7f288f920fcb2b146",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "The Witcher 2 – Xbox One / Series X|S – 895 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/the-witcher-2-xbox-one-series-xs-895-huf-1356863",
+      "published_at": "2026-09-24T22:37:48+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "10,71 zł",
+      "old_price": "39,99 zł",
+      "temperature": "60",
+      "active": true,
+      "merchant": "Xbox",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/XlPmG/1356863_1/re/600x600/qt/70/1356863_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "f04be9539f126e9d5d01198c216eba4c501309c0604c8098ac6f2d434a39f7f6",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Teenage Mutant Ninja Turtles: Mutants Unleashed- Nintendo Switch (Kartridż)",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-teenage-mutant-ninja-turtles-mutants-unleashed-nintendo-switch-kartridz-1356851",
+      "published_at": "2026-09-24T22:13:13+00:00",
+      "matched_keywords": [
+        "Nintendo Switch"
+      ],
+      "price": "49 zł",
+      "old_price": "",
+      "temperature": "26",
+      "active": true,
+      "merchant": "Amazon.pl",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/67hfG/1356851_1/re/600x600/qt/70/1356851_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "0cbe2f143cbc5ca99d53912269611e6a5c179463280f3713df07fc2b8ff43fb8",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "This PC has changed my life.",
+      "summary": "I work in very rural areas for work, and as long as I have a mobile Hotspot or a working starlink connection.. I am never without games. I routinely have to wait upwards of two hours for another work call, and the last month, I have just been booting up Arc, or Easy Red 2 and just gaming in a hayfield haha. submitted by /u/FOREVERDIVI [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpf2sp/this_pc_has_changed_my_life/",
+      "published_at": "2026-09-24T22:05:13+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "226f875484bfedc2f61ce6b5c984423dc5e4e14feecede795f805e4bc47edcd9",
+      "source": "PC Gamer",
       "source_type": "news",
       "category": "Gaming",
-      "language": "pl",
-      "title": "SAW: Genesis opóźnione. Twórcy biorą do serca uwagi graczy i przekładają premierę PC",
-      "summary": "SAW: Genesis jednak nie ukaże się w tym roku. Po ostatnich testach twórcy zdecydowali się przesunąć debiut produkcji we wczesnym dostępie.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427823/saw-genesis-opoznione-tworcy-biora-do-serca-uwagi-graczy-i-przekladaja-premiere.html",
-      "published_at": "2026-09-24T22:00:00+00:00"
+      "language": "en",
+      "title": "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen",
+      "summary": "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen",
+      "url": "https://www.pcgamer.com/games/sim/cool-demo-alert-be-a-cyberpunk-shopkeeper-in-probably-stolen/",
+      "published_at": "2026-09-24T21:46:39+00:00",
+      "summary_pl": "Wydano demo gry Probably Stolen, w której gracze wcielają się w cybernetycznego sprzedawcę.",
+      "tags": [
+        "gaming",
+        "cyberpunk",
+        "demo",
+        "pc gamer"
+      ]
+    },
+    {
+      "id": "0b9a2550178658d8744eeb65ee2f0ee8effcd329cb317c3694a1f092dae16f20",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Gemini 3.6 repeatedly failing..",
+      "summary": "submitted by /u/Organic-Afternoon-50 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpe8sm/gemini_36_repeatedly_failing/",
+      "published_at": "2026-09-24T21:30:48+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "b4c9c9fdfc97f19a60b12350f60d1a343fae33544305d281d71ba06935d9a71d",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hi sorry please help",
+      "summary": "So I bought a Lenovo Legion Go today used and when I got it it was still in factory reset. After the 2 + hour wait of getting it up and running, non of the specific pill shaped puttons on the front work, to get legionSpace going etc. The keyboard only pops up like 10% of the time I'm trying to type someting in any bar. Game purchases failed like 5 times then I managed to install Steam and separatlely from my phone b…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpdte4/hi_sorry_please_help/",
+      "published_at": "2026-09-24T21:13:40+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "f4ad19c496778cedb1d786e03bb5acb6f73f3634b52a354c97388e04a35e87ee",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Made only with Opus 5.5",
+      "summary": "Just letting opus 5.5 cook. Simple prompt copied from another similar post. Took 4 versions to get the feel right. The 1st version felt like it was promoting the phone, not the software on display. After a few iterations, focus on pop out cards, and a glow behind to avoid the bezels from blending in, I'm happy with the result. Claude took screenshots itself and decided what features to show off. I'd say it's 99% acc…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpdtbt/made_only_with_opus_55/",
+      "published_at": "2026-09-24T21:13:35+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "6781d6ac488127760a079296f1f18c0c0c75680f8de904f77120a12892c5b037",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "yes",
+      "summary": "submitted by /u/No-Objective1404 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpdryi/yes/",
+      "published_at": "2026-09-24T21:12:01+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "e2c69b1c6c0288623d50bbb0028bc2152bef7e7216cb235e8a7afb9ac0dc16b5",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing",
+      "summary": "And best of all, these mods are 1.0-ready.",
+      "url": "https://www.pcgamer.com/games/survival-crafting/best-valheim-mods/",
+      "published_at": "2026-09-24T21:08:12+00:00",
+      "summary_pl": "Przegląd najlepszych modyfikacji do gry Valheim, które są w pełni gotowe na wersję 1.0. Usprawniają one rzemiosło, budowanie oraz eksplorację.",
+      "tags": [
+        "Valheim",
+        "mody",
+        "gry",
+        "PC Gamer"
+      ]
+    },
+    {
+      "id": "6621c8666e5f9cc38a4c6a1390bfe360726b15281540c662c0930e17e56819b8",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "Thief 2 Remastered should be Thief 2 Gold",
+      "summary": "Thief 2 Remastered should be Thief 2 Gold",
+      "url": "https://www.pcgamer.com/games/thief-2-remastered-should-be-thief-2-gold/",
+      "published_at": "2026-09-24T21:01:55+00:00",
+      "summary_pl": "Według redakcji PC Gamer, nadchodzący projekt Thief 2 Remastered powinien nosić nazwę Thief 2 Gold.",
+      "tags": [
+        "Thief",
+        "Remaster",
+        "PC Gamer",
+        "Gry"
+      ]
+    },
+    {
+      "id": "cc74fe39d4bae47f20061bfa7e46ec240c097dc6bbc83887b7caf2b7bddcc091",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should OSes Sandbox all Installed Apps?",
+      "summary": "I'm planning to vibe code a few of my own apps too, but I worry about distribution attacks on the long horizon. A few have already occurred where a module was attacked and auto distributed to a wide set of users. When it comes to installed apps, more and more I worry about a horizontal attack where multiple apps auto update and create an attack that is more than the sum of it's parts. Individually you may not see an…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpczdd/should_oses_sandbox_all_installed_apps/",
+      "published_at": "2026-09-24T20:40:22+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "cb89cd36c1b19cce332931280e997d7afc299173527e108e6ef76c0ad5d88c07",
@@ -37,6 +332,32 @@
       "summary": "Not really much to say here. My own fault. I didn't have extended warranty either. I sent it off to Lenovo and they charged me £247 for the repair, and £30 for the initial appraisal. They say that they take the £30 off the final invoice so I guess it's £277 total. Just posting in case anyone finds themselves in the same situation and wondering what the cost is. Obviously I'm pretty gutted, but I guess it could be wo…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wpc4jj/i_accidentally_smashed_my_legion_go_2_screen/",
       "published_at": "2026-09-24T20:06:32+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "06f7ae446b10eefdbf826246da18567037c8075c9bed9bffcc1f1e4eb1d8902a",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Been a while since I posted here, so I made a video to show what my vibe-coded app has become",
+      "summary": "It's been a while since I posted an https://ultramock.io update here. I've basically spent the last few months heads-down building, breaking things, rebuilding them, adding features I definitely didn't plan on adding, and slowly turning Ultramock into something much bigger than what I originally started with. It began as a fairly simple 3D mockup tool. Now I'm trying to turn it into a full creative tool for making p…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpc4iu/been_a_while_since_i_posted_here_so_i_made_a/",
+      "published_at": "2026-09-24T20:06:31+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "4af6300d86401dc1e1e12b37528715160af3941f662b1775f0b7bb6460582a0e",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I vibe coded a super interactive footer with Opus 5.5.",
+      "summary": "It really blew my mind on how to create this interactive section from an image using Opus 5.5 in a single prompt. submitted by /u/Marcelovc [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpby0f/i_vibe_coded_a_super_interactive_footer_with_opus/",
+      "published_at": "2026-09-24T19:59:50+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -145,16 +466,17 @@
       "thumbnail_url": "https://i.ytimg.com/vi/N3V_aV3HtYM/mqdefault.jpg"
     },
     {
-      "id": "fe55d0435627f331423cc570b9a971fe8936fbe0070bffd6d3f020ad6cf9ae70",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Call of Duty: Modern Warfare 4 wprowadzi wyczekiwaną opcję. Na tę funkcję fani czekali od lat PS5 XSX|S NS2 PC",
-      "summary": "Fani Call of Duty otrzymali kolejny powód, aby czekać na Modern Warfare 4. Deweloperzy zapowiedzieli, że gracze nie będą już musieli ciągle patrzeć na burzące immersję skórki.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427815/call-of-duty-modern-warfare-4-wprowadzi-wyczekiwana-opcje-na-te-funkcje-fani-czekali-od-lat.html",
-      "published_at": "2026-09-24T19:05:00+00:00"
+      "id": "188c272891bf789c1fec153ac49471f537bb93dd00e61d91b9a1ea59abc12446",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "My vibe-coded photoshop just crossed 20k users",
+      "summary": "My original post blew up after I mentioned that I spent $2,000 to implement a photoshop replacement and cancel my own Adobe subscription. Some people were amazed, some were skeptical, and some called me an idiot, saying I could pay for a decade of Adobe subscriptions with that money. Since then, users have been sending me feedback around the clock, through every possible channel. My Codex has been working overtime,…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpaies/my_vibecoded_photoshop_just_crossed_20k_users/",
+      "published_at": "2026-09-24T19:04:11+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "fb9d74d4e765602d806626271af9579cea891b2fca508360c7ff50cf0a548292",
@@ -190,18 +512,6 @@
       ]
     },
     {
-      "id": "f964461ab0b3e60ad9bbf0318a70b059ed4d6da44f43b602505629dbeb012a26",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Ace Combat 8: Wings of Theve pokazuje początek kampanii. Nowy zwiastun już dostępny PS5 XSX|S PC",
-      "summary": "Bandai Namco zaprezentowało nowy materiał z „Ace Combat 8: Wings of Theve”, pokazując tym razem początek kampanii. Zwiastun łączy sceny fabularne z fragmentami rozgrywki i pozwala bliżej poznać bohaterów ósmej odsłony serii.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427801/ace-combat-8-wings-of-theve-pokazuje-poczatek-kampanii-nowy-zwiastun-juz-dostepny.html",
-      "published_at": "2026-09-24T18:42:00+00:00"
-    },
-    {
       "id": "94527f3f42e3002f036f4de8d16ff933fbe1d055f6692f54f87154df1ea4cc09",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -226,18 +536,6 @@
       "published_at": "2026-09-24T18:11:51+00:00",
       "matched_keywords": [],
       "priority": false
-    },
-    {
-      "id": "0034ee1ba75cebdb88747c522cfc346bca73d36ba8dfde4795afa4f01d6441dd",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "No Man’s Sky dostało OGROMNĄ aktualizację! Lista zmian robi wrażenie NS PS4 XONE",
-      "summary": "No Man’s Sky otrzymało kolejną aktualizację po niedawnym Cosmos. Hello Games wypuściło patch 7.04, którego głównym zadaniem jest uporanie się z długą listą błędów.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427795/no-mans-sky-dostalo-ogromna-aktualizacje-lista-zmian-robi-wrazenie.html",
-      "published_at": "2026-09-24T17:58:00+00:00"
     },
     {
       "id": "88366ad7694ca77a12c2e1b97c91abefc61a05f3c82811c0d5090435991cdacb",
@@ -1133,6 +1431,18 @@
       ]
     },
     {
+      "id": "2e5c056233b53f48e769c2b7ee034c67b9d4daf28e00cb8bf58aefd8ac2bcffd",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "SAW: Genesis opóźnione. Twórcy biorą do serca uwagi graczy i przekładają premierę PC",
+      "summary": "SAW: Genesis jednak nie ukaże się w tym roku. Po ostatnich testach twórcy zdecydowali się przesunąć debiut produkcji we wczesnym dostępie.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427823/saw-genesis-opoznione-tworcy-biora-do-serca-uwagi-graczy-i-przekladaja-premiere.html",
+      "published_at": "2026-09-23T22:00:00+00:00"
+    },
+    {
       "id": "4072906792be7f5eebccde1f5229c66d49c5bce123968a308f78823ddc70a728",
       "source": "r/Vibecoding",
       "source_type": "reddit",
@@ -1189,6 +1499,18 @@
       "thumbnail_url": "https://i.ytimg.com/vi/KtwhRwKwVkQ/mqdefault.jpg"
     },
     {
+      "id": "fe55d0435627f331423cc570b9a971fe8936fbe0070bffd6d3f020ad6cf9ae70",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Call of Duty: Modern Warfare 4 wprowadzi wyczekiwaną opcję. Na tę funkcję fani czekali od lat PS5 XSX|S NS2 PC",
+      "summary": "Fani Call of Duty otrzymali kolejny powód, aby czekać na Modern Warfare 4. Deweloperzy zapowiedzieli, że gracze nie będą już musieli ciągle patrzeć na burzące immersję skórki.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427815/call-of-duty-modern-warfare-4-wprowadzi-wyczekiwana-opcje-na-te-funkcje-fani-czekali-od-lat.html",
+      "published_at": "2026-09-23T19:05:00+00:00"
+    },
+    {
       "id": "159a88376047c660b243e987c06ecb0a6270e60a7ecc82fa0b55661cbcbbcf64",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1202,6 +1524,18 @@
       "priority": false
     },
     {
+      "id": "f964461ab0b3e60ad9bbf0318a70b059ed4d6da44f43b602505629dbeb012a26",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Ace Combat 8: Wings of Theve pokazuje początek kampanii. Nowy zwiastun już dostępny PS5 XSX|S PC",
+      "summary": "Bandai Namco zaprezentowało nowy materiał z „Ace Combat 8: Wings of Theve”, pokazując tym razem początek kampanii. Zwiastun łączy sceny fabularne z fragmentami rozgrywki i pozwala bliżej poznać bohaterów ósmej odsłony serii.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427801/ace-combat-8-wings-of-theve-pokazuje-poczatek-kampanii-nowy-zwiastun-juz-dostepny.html",
+      "published_at": "2026-09-23T18:42:00+00:00"
+    },
+    {
       "id": "2693ac045d255a488cd7f9fc41faa502c779b2a63564c8b181753768a288ad58",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1213,6 +1547,18 @@
       "published_at": "2026-09-23T18:04:17+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "0034ee1ba75cebdb88747c522cfc346bca73d36ba8dfde4795afa4f01d6441dd",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "No Man’s Sky dostało OGROMNĄ aktualizację! Lista zmian robi wrażenie NS PS4 XONE",
+      "summary": "No Man’s Sky otrzymało kolejną aktualizację po niedawnym Cosmos. Hello Games wypuściło patch 7.04, którego głównym zadaniem jest uporanie się z długą listą błędów.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427795/no-mans-sky-dostalo-ogromna-aktualizacje-lista-zmian-robi-wrazenie.html",
+      "published_at": "2026-09-23T17:58:00+00:00"
     },
     {
       "id": "768ba8e8e1435dc37c007d9780dda98312c69c82e08af27eba121ab16ed49c10",
@@ -1596,8 +1942,8 @@
       "url": "https://www.lowcychin.pl/sony-playstation-5/",
       "published_at": "2026-09-15T12:24:45+00:00",
       "matched_keywords": [
-        "PS5",
-        "PlayStation"
+        "PlayStation",
+        "PS5"
       ],
       "price": "2688zł",
       "active": true
@@ -2195,6 +2541,22 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
+      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
+      "published_at": "2026-07-28T20:27:02+00:00",
+      "matched_keywords": [
+        "PlayStation"
+      ],
+      "price": "1099zł",
+      "active": true
+    },
+    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -2343,23 +2705,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
     },
     {
-      "id": "64af816214e5783d311abd3ddb3205333859075f46fd27c533bd9554e8b8b53c",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola Playstation 5 Sony PS5 Slim z Polski za $574.95 / ~2089zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-ps5-slim-ali/",
-      "published_at": "2026-05-31T13:46:30+00:00",
-      "matched_keywords": [
-        "PS5",
-        "PlayStation"
-      ],
-      "price": "2089zł",
-      "active": true
-    },
-    {
       "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -2418,8 +2763,8 @@
       "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
       "published_at": "2026-01-12T09:41:23+00:00",
       "matched_keywords": [
-        "Xbox",
-        "ROG Ally"
+        "ROG Ally",
+        "Xbox"
       ],
       "price": "2273zł",
       "active": true
@@ -2663,9 +3008,9 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
+        "ROG Ally",
         "Legion Go",
-        "Steam Deck",
-        "ROG Ally"
+        "Steam Deck"
       ],
       "price": "189zł",
       "active": true
@@ -2681,8 +3026,8 @@
       "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
       "published_at": "2024-11-12T09:06:17+00:00",
       "matched_keywords": [
-        "Steam Deck",
-        "ROG Ally"
+        "ROG Ally",
+        "Steam Deck"
       ],
       "price": "434zł",
       "active": true
@@ -2714,9 +3059,9 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
+        "ROG Ally",
         "Legion Go",
-        "Steam Deck",
-        "ROG Ally"
+        "Steam Deck"
       ],
       "price": "205zł",
       "active": true
