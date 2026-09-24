@@ -34,10 +34,30 @@ def index():
             items = [i for i in items if i.get("priority")]
         else:
             items = [i for i in items if i.get("source_type","news") == section]
-    sources = sorted({i.get("source","") for i in all_items if i.get("source")})
+    source_groups = {
+        "news": set(),
+        "reddit": set(),
+        "youtube": set(),
+        "deal": set(),
+    }
+    for item in all_items:
+        source_name = item.get("source", "")
+        if not source_name:
+            continue
+        source_type = item.get("source_type", "news")
+        if source_type not in source_groups:
+            source_type = "news"
+        source_groups[source_type].add(source_name)
+
+    available_source_groups = {
+        key: sorted(values, key=lambda value: value.lower())
+        for key, values in source_groups.items()
+        if values
+    }
+
     return render_template("index.html", items=items[:120], total_count=len(all_items),
                            category=category, language=language, source=source, section=section,
-                           available_sources=sources)
+                           available_source_groups=available_source_groups)
 
 @app.route("/health")
 def health():
