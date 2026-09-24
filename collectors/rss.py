@@ -6,6 +6,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -127,9 +128,16 @@ def collect_html(source) -> list[dict]:
 
 def collect_reddit() -> list[dict]:
     items = []
-    for subreddit in REDDIT_SUBREDDITS:
+    for index, subreddit in enumerate(REDDIT_SUBREDDITS):
+        if index:
+            # Reddit potrafi zwracać 429/403 przy kilku feedach odpytywanych seryjnie.
+            time.sleep(3)
         url = f"https://www.reddit.com/r/{subreddit}/new/.rss"
         parsed = feedparser.parse(url, request_headers=HEADERS)
+        if parsed.bozo and not parsed.entries:
+            print(f"[WARN] Reddit r/{subreddit}: first attempt failed: {parsed.bozo_exception}; retrying")
+            time.sleep(8)
+            parsed = feedparser.parse(url, request_headers=HEADERS)
         if parsed.bozo and not parsed.entries:
             print(f"[ERROR] Reddit r/{subreddit}: {parsed.bozo_exception}")
             continue
