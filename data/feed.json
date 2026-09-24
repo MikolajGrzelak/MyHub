@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-24T20:34:40.112603+00:00",
-  "count": 228,
+  "updated_at": "2026-09-24T20:49:30.687157+00:00",
+  "count": 229,
   "items": [
     {
       "id": "2e5c056233b53f48e769c2b7ee034c67b9d4daf28e00cb8bf58aefd8ac2bcffd",
@@ -65,6 +65,24 @@
       "published_at": "2026-09-24T19:31:22+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "672ebd43584bd0e12d10d6071202e8a53199b421506c720ae2994c7dc2edc3ff",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "en",
+      "title": "F-Droid gets its biggest update in a decade with new UI and smoother app installs",
+      "summary": "F-Droid's Android app store has been rebuilt from the ground up.",
+      "url": "https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/",
+      "published_at": "2026-09-24T19:30:42+00:00",
+      "summary_pl": "Sklep z aplikacjami F-Droid na system Android otrzymał największą aktualizację od dekady. Platforma została całkowicie przebudowana.",
+      "tags": [
+        "F-Droid",
+        "Android",
+        "aktualizacja",
+        "aplikacje"
+      ]
     },
     {
       "id": "9691bc368c3cec20cc858d48b4e81c66f761119f8f4a5af844c637d60e83bfc7",
@@ -1578,8 +1596,8 @@
       "url": "https://www.lowcychin.pl/sony-playstation-5/",
       "published_at": "2026-09-15T12:24:45+00:00",
       "matched_keywords": [
-        "PlayStation",
-        "PS5"
+        "PS5",
+        "PlayStation"
       ],
       "price": "2688zł",
       "active": true
@@ -2177,22 +2195,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
-      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
-      "published_at": "2026-07-28T20:27:02+00:00",
-      "matched_keywords": [
-        "PlayStation"
-      ],
-      "price": "1099zł",
-      "active": true
-    },
-    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -2341,6 +2343,23 @@
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
     },
     {
+      "id": "64af816214e5783d311abd3ddb3205333859075f46fd27c533bd9554e8b8b53c",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Playstation 5 Sony PS5 Slim z Polski za $574.95 / ~2089zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-ps5-slim-ali/",
+      "published_at": "2026-05-31T13:46:30+00:00",
+      "matched_keywords": [
+        "PS5",
+        "PlayStation"
+      ],
+      "price": "2089zł",
+      "active": true
+    },
+    {
       "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -2399,8 +2418,8 @@
       "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
       "published_at": "2026-01-12T09:41:23+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Xbox"
+        "Xbox",
+        "ROG Ally"
       ],
       "price": "2273zł",
       "active": true
@@ -2645,8 +2664,8 @@
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
         "Legion Go",
-        "ROG Ally",
-        "Steam Deck"
+        "Steam Deck",
+        "ROG Ally"
       ],
       "price": "189zł",
       "active": true
@@ -2662,8 +2681,8 @@
       "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
       "published_at": "2024-11-12T09:06:17+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Steam Deck"
+        "Steam Deck",
+        "ROG Ally"
       ],
       "price": "434zł",
       "active": true
@@ -2696,8 +2715,8 @@
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
         "Legion Go",
-        "ROG Ally",
-        "Steam Deck"
+        "Steam Deck",
+        "ROG Ally"
       ],
       "price": "205zł",
       "active": true
