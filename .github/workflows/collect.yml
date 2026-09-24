@@ -88,4 +88,4 @@ jobs:
         run: |
           curl --fail --silent --show-error "https://myhub.pythonanywhere.com/health"
 
-# deploy-touch: pepper-price-v3
+# deploy-touch: pepper-search-price-fallback
