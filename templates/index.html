@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#111111">
+  <meta name="theme-color" content="#090909">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="MyHub">
@@ -18,34 +18,61 @@
         <p class="eyebrow">YOUR DAILY SIGNAL</p>
         <h1>MyHub</h1>
       </div>
-      <span class="badge">MVP</span>
+      <span class="badge">{{ items|length }} NEWS</span>
     </header>
 
     <nav class="chips" aria-label="Kategorie">
-      <button class="chip active">Wszystko</button>
-      <button class="chip">Gaming</button>
-      <button class="chip">Tech</button>
-      <button class="chip">Reddit</button>
-      <button class="chip">Watchlist</button>
+      {% for category in ["Wszystko", "Gaming", "Tech"] %}
+        <a
+          class="chip {% if active_category == category %}active{% endif %}"
+          href="{% if category == 'Wszystko' %}/{% else %}/?category={{ category }}{% endif %}">
+          {{ category }}
+        </a>
+      {% endfor %}
+      <span class="chip disabled">Reddit · soon</span>
+      <span class="chip disabled">Watchlist · soon</span>
     </nav>
 
     <section class="feed">
-      {% for item in items %}
-      <article class="card">
-        <div class="meta">{{ item.category }} · {{ item.source }}</div>
-        <h2>{{ item.title }}</h2>
-        <p>{{ item.summary }}</p>
-        <a href="{{ item.url }}">Otwórz</a>
-      </article>
-      {% endfor %}
+      {% if items %}
+        {% for item in items %}
+        <article class="card">
+          <div class="meta">
+            <span>{{ item.category }} · {{ item.source }}</span>
+            {% if item.published_at %}
+              <time class="date" data-date="{{ item.published_at }}"></time>
+            {% endif %}
+          </div>
+          <h2>{{ item.title }}</h2>
+          {% if item.summary %}<p>{{ item.summary }}</p>{% endif %}
+          <a class="open" href="{{ item.url }}" target="_blank" rel="noopener">Czytaj →</a>
+        </article>
+        {% endfor %}
+      {% else %}
+        <article class="card empty">
+          <div class="meta">MYHUB</div>
+          <h2>Feed czeka na pierwsze dane</h2>
+          <p>Uruchom collector RSS, a prawdziwe newsy pojawią się tutaj.</p>
+        </article>
+      {% endif %}
     </section>
   </main>
 
   <script>
+    document.querySelectorAll("[data-date]").forEach(el => {
+      const date = new Date(el.dataset.date);
+      if (!Number.isNaN(date.valueOf())) {
+        el.textContent = date.toLocaleString("pl-PL", {
+          day: "numeric",
+          month: "short",
+          hour: "2-digit",
+          minute: "2-digit"
+        });
+      }
+    });
+
     if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("/static/service-worker.js");
-      });
+      window.addEventListener("load", () => navigator.serviceWorker.register("/static/service-worker.js"));
     }
   </script>
 </body>
