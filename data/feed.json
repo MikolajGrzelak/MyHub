@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-24T12:54:56.134678+00:00",
-  "count": 259,
+  "updated_at": "2026-09-24T13:06:02.174934+00:00",
+  "count": 266,
   "items": [
     {
       "id": "6b025ea23877130bcbedeca28dccdffba9f06c7bda25b73577df3172a62dde01",
@@ -32,7 +32,7 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Gry 532V Pilne 3 Gry 532V Pilne 3 PlayStation Portal zyska dłuższe życie. Sony przygotowało ważną aktualizację",
+      "title": "PlayStation Portal zyska dłuższe życie. Sony przygotowało ważną aktualizację",
       "summary": "Sony Interactive Entertainment właśnie zaskoczyło posiadaczy PlayStation Portal. Urządzenie do gry zdalnej otrzymało aktualizację, która wydłuży życie sprzętu.",
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427787/playstation-portal-zyska-dluzsze-zycie-sony-przygotowalo-wazna-aktualizacje.html",
@@ -51,92 +51,6 @@
       "published_at": "2026-09-24T13:39:00+00:00"
     },
     {
-      "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
-      "matched_keywords": [
-        "ROG Ally",
-        "Steam Deck"
-      ],
-      "price": "67,01 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "6745307b1923be9893674b8ceab229d2b531b493f4a86097028c9a1b96c9b980",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Steam Deck LCD 256 GB",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "2198,99 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "849ca687c4e22c78e21d9eb9cc10c911ad2204372f07418695856e42b04e57a5",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Elgato Stream Deck MK.2 za 445 zł",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "449 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "6c0a8e86d6ac7e1129f88ce7a6cfed5c5b776d4dda9f63dda662e31376028bd3",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Elgato Stream Deck +",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "42dd9ce5a61cd65721f0b4859a4c229b0d32826ec5b4e5266ae860b32e3a457c",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
       "id": "4bb7b9802eb2ae1bb5c96ebd7453b496f2d588c15b498bf468f03c8097e0e435",
       "source": "Pepper",
       "source_type": "deal",
@@ -145,7 +59,7 @@
       "title": "Gra XBOX Wiedźmin 3: Dziki Gon – Edycja Kompletna",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/gra-xbox-wiedzmin-3-dziki-gon-edycja-kompletna-1356577",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -162,7 +76,7 @@
       "title": "FARCRY 6 – Xbox One / Series X|S",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/farcry-6-xbox-one-series-xs-1356436",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -179,7 +93,7 @@
       "title": "Gra Assassin's Creed Valhalla – Xbox One / Series X|S",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/assassins-creed-valhalla-xbox-one-series-xs-1356437",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -196,7 +110,7 @@
       "title": "Far Cry Primal Apex Edition (Xbox One / Xbox Series X|S) Xbox Live Key - EU",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/far-cry-primal-apex-edition-xbox-one-xbox-series-xs-xbox-live-key-eu-1356579",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -213,7 +127,7 @@
       "title": "Gra Assassin's Creed Mirage – edycja deluxe – Xbox One / Series X|S – 6270 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/assassins-creed-mirage-edycja-deluxe-xbox-one-series-xs-6270-huf-1356441",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -230,7 +144,7 @@
       "title": "Gra Tom Clancy's Splinter Cell: Chaos Theory – Xbox One / Series X|S – 800 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/tom-clancys-splinter-cell-chaos-theory-xbox-one-series-xs-800-huf-1356439",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -247,7 +161,7 @@
       "title": "Xbox Game Pass Premium za darmo na 1 miesiąc - Samsung Promotion (dla nowych kont Xbox)",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-za-darmo-na-1-miesiac-samsung-promotion-dla-nowych-kont-xbox-1356255",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -264,7 +178,7 @@
       "title": "Gra Enotria: The Last Song – Xbox One / Series X|S – 1649 ISK",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/enotria-the-last-song-xbox-one-series-xs-1649-isk-1355688",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -281,7 +195,7 @@
       "title": "Gra Xbox theHunter Call of the Wild: Standard Edition CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/gra-xbox-thehunter-call-of-the-wild-standard-edition-cd-key-1356184",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -298,7 +212,7 @@
       "title": "Microsoft Xbox Series X + Elite Series 2",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/microsoft-xbox-series-x-elite-series-2-1355830",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -315,7 +229,7 @@
       "title": "Gra Xbox Tom Clancy's Ghost Recon Wildlands: Standard Edition CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/gra-xbox-tom-clancys-ghost-recon-wildlands-standard-edition-1356047",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -332,7 +246,7 @@
       "title": "Pad, Kontroler bezprzewodowy Xbox – Ice Breaker Special Edition Series X|S, One, PC i urządzenia z obsługą chmury | wymagany PRIME FR |",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/pad-kontroler-bezprzewodowy-xbox-ice-breaker-special-edition-series-xs-one-pc-i-urzadzenia-z-obsluga-chmury-wymagany-prime-fr-1356285",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox",
         "pad Xbox"
@@ -350,7 +264,7 @@
       "title": "DREDGE – Xbox One / Series X|S – 939 ISK",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/dredge-xbox-one-series-xs-939-isk-1355293",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -367,7 +281,7 @@
       "title": "Gra Overcooked! 2 – Xbox One / Series X|S – 1245 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/overcooked-2-xbox-one-series-xs-1245-huf-1355295",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -384,7 +298,7 @@
       "title": "DLC Xbox/PC Halo Infinite Campaign CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/gra-xboxpc-halo-infinite-campaign-cd-key-1355178",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -401,7 +315,7 @@
       "title": "Gra Worms W.M.D Xbox One/Series",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/worms-wmd-xbox-oneseries-1354556",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -418,7 +332,7 @@
       "title": "Resident Evil 4 (2023) Gold Edition EU Xbox Series X|S CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/resident-evil-4-2023-gold-edition-eu-xbox-series-xs-cd-key-1355406",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -435,7 +349,7 @@
       "title": "Spyro Reignited Trilogy AR XBOX One / Xbox Series X|S CD Key - wymagany VPN",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/spyro-reignited-trilogy-ar-xbox-one-xbox-series-xs-cd-key-wymagany-vpn-1355023",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -452,24 +366,7 @@
       "title": "gra Samson - A Tyndalston Story Xbox, PC - Play Anywhere z Islandzkiego Ms Store - 2349 isk",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/samson-a-tyndalston-story-xbox-pc-z-islandzkiego-ms-store-2349-isk-1354808",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "4cfbc0d2f61b2465302366e6eac9809da253f1e6b8d534eb53b0dfe214e92c1c",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "gra Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX One / Xbox Series X|S CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-one-xbox-series-xs-cd-key-1355016",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -486,7 +383,24 @@
       "title": "Gra METAL GEAR SOLID V: THE DEFINITIVE EXPERIENCE – Xbox One / Series X|S – 5510 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/metal-gear-solid-v-the-definitive-experience-xbox-one-series-xs-5510-huf-1354677",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4cfbc0d2f61b2465302366e6eac9809da253f1e6b8d534eb53b0dfe214e92c1c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "gra Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX One / Xbox Series X|S CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-one-xbox-series-xs-cd-key-1355016",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -503,7 +417,7 @@
       "title": "Worms Rumble - Digital Deluxe Edition za 12,82 zł z Islandzkiego Xbox Store @ Xbox One / XBOX Series X|S / PC",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/worms-rumble-digital-deluxe-edition-za-1282-zl-z-islandzkiego-xbox-store-at-xbox-one-xbox-series-xs-pc-1354287",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -520,7 +434,7 @@
       "title": "Laptop 2 w 1 Lenovo IdeaPad Flex 5 (Ryzen 5-7430U / 16/512 GB / Win11 Touch, podświetlanie) + 240 zł Cashbacku + pad Xbox lub słuchawki E310",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/laptop-2-w-1-lenovo-ideapad-flex-5-ryzen-5-7430u-16512-gb-win11-touch-podswietlanie-240-zl-cashbacku-pad-xbox-lub-sluchawki-e310-1355361",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox",
         "Ryzen",
@@ -539,7 +453,7 @@
       "title": "Gra Monopoly Madness, Xbox One, Xbox Series X",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/monopoly-madness-xbox-one-xbox-series-sx-1354233",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -556,7 +470,7 @@
       "title": "Gra Wiedźmin 3 Edycja Kompletna Xbox za 22,50 dla posiadaczy gamepassa",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/wiedzmin-3-edycja-kompletna-za-2250-dla-posiadaczy-gamepassa-1354031",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -573,7 +487,7 @@
       "title": "Kod Xbox Game Pass Premium na miesiąc za darmo dla posiadaczy TV Samsung lub projektorów Samsung ( z aplikacji Samsung Promotion na TV)",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-na-miesiac-za-darmo-dla-ppsiadaczy-tv-samsung-1354678",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -590,7 +504,7 @@
       "title": "Silikonowe nakładki, kompatybilne z kontrolerami PS4, PS5 i Xbox 20 Sztuk @ Amazon.pl",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/silikonowe-nakladki-kompatybilne-z-kontrolerami-ps4-ps5-i-xbox-20-sztuk-at-amazonpl-1354335",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox",
         "PS5"
@@ -608,7 +522,7 @@
       "title": "Kontroler Xbox – Edycja specjalna Ice Breaker Series X|S, One, PC | w opisie Heart Breaker, Storm Breaker, czarny i niebieski",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/kontroler-xbox-edycja-specjalna-ice-breaker-series-xs-one-pc-czarny-w-opisie-heart-breaker-storm-breaker-czarny-i-niebieski-1354469",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -625,13 +539,146 @@
       "title": "gra Wolfenstein The Old Blood (Xbox)",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/wolfenstein-the-old-blood-xbox-1353915",
-      "published_at": "2026-09-24T12:54:38.001399+00:00",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
       "matched_keywords": [
         "Xbox"
       ],
       "price": "",
       "temperature": "",
       "active": true
+    },
+    {
+      "id": "8b40f0a7e235fd3404bdbccb028954b8457d451fa9a62aeeb7cd4b57f00ce8ec",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Final Fantasy VII Trilogy Xbox + PC",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/final-fantasy-vii-trilogy-1353290",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
+      "matched_keywords": [
+        "Steam Deck",
+        "ROG Ally"
+      ],
+      "price": "67,01 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6745307b1923be9893674b8ceab229d2b531b493f4a86097028c9a1b96c9b980",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Steam Deck LCD 256 GB",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "2198,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "849ca687c4e22c78e21d9eb9cc10c911ad2204372f07418695856e42b04e57a5",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck MK.2 za 445 zł",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "449 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6c0a8e86d6ac7e1129f88ce7a6cfed5c5b776d4dda9f63dda662e31376028bd3",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck +",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "42dd9ce5a61cd65721f0b4859a4c229b0d32826ec5b4e5266ae860b32e3a457c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
+      "published_at": "2026-09-24T13:04:21.181362+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "0b02a75425182594036234f8a8de7130429fc66f8bcbde10e7ccfb357d5cdebb",
+      "source": "NieAntyFan",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "AirPods 5: po prostu B-R-A-W-O! | RECENZJA",
+      "summary": "➡️ Etui Native Union dostępne tutaj: https://pancernik.eu/native-union ➡️ AirPods 5: https://ktr.fan/airpods5_nieantyfan ➡️ AirPods Pro 3: https://ktr.fan/airpodspro3_nieantyfan ➡️ 20% zniżki na produkty u Cyrulików: https://cyrulicy.pl/ ➡️ 20% zniżki na produkty Soppo: https://soppocosmetics.com/ ✅ KOD ZNIŻKOWY: niea…",
+      "url": "https://www.youtube.com/watch?v=g1ZAvR2woFQ",
+      "published_at": "2026-09-24T13:00:02Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/g1ZAvR2woFQ/mqdefault.jpg"
+    },
+    {
+      "id": "4c80e1ed8b6a453921b28b026aa2532965e6638f0302643481e0f342b62af74e",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "Rogue Trader is coming to an end with miracles, madness and 'tears of blood'",
+      "summary": "Processional of the Damned ends the CRPG's three-year run of expansions this December.",
+      "url": "https://www.pcgamer.com/games/rpg/rogue-trader-is-coming-to-an-end-with-miracles-madness-and-tears-of-blood/",
+      "published_at": "2026-09-24T13:00:00+00:00",
+      "summary_pl": "Dodatek Processional of the Damned ukaże się w grudniu, kończąc trzyletni cykl rozszerzeń do gry CRPG Rogue Trader.",
+      "tags": [
+        "Rogue Trader",
+        "RPG",
+        "gry",
+        "dodatek"
+      ]
     },
     {
       "id": "46410d74c10025530d16f8af69d115a71bc93051b07ed5bde5d529937d134462",
@@ -678,7 +725,7 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Jonasz „Blady” Gulczyński Twórcy Enshrouded zmieniają system walki na chwilę przed wielką premierą. Szalenie popularny survival doczekał się wielu magicznych nowości Twórcy Enshrouded zmieniają system walki na chwilę przed wielką...",
+      "title": "Twórcy Enshrouded zmieniają system walki na chwilę przed wielką premierą. Szalenie popularny survival doczekał się wielu magicznych nowości",
       "summary": "Premiera Enshrouded już 15 października!",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/tworcy-enshrouded-zmieniaja-system-walki-na-chwile-przed-wielka-premiera-szalenie-popularny-survival-doczekal-sie-wielu-magicznych-nowosci/",
@@ -721,6 +768,19 @@
       "summary": "Hello Every One after i installed steamOS yesterday on my legion go 1 i started getting this warning do not power off while completing system update when i turn on my legion go but this thing it didn't happen when i had windows also it doesn't happen every time i trun it on since i installed the steamOS yesterday this system update warning it happened like around 2 or 3 times when i turn on the legion go so is this…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wp02kp/hello_every_one_after_i_installed_steamos_on_my/",
       "published_at": "2026-09-24T12:17:10+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "239eedd5dfa06aee0bc190d6ae83958ee3f85eed6d0312856db801a914fc3bed",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Rebuilt my portfolio",
+      "summary": "It was built around storytelling and the idea that first impressions should stick. So… did this one make an impression? submitted by /u/Express-Avocado1902 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wp027b/rebuilt_my_portfolio/",
+      "published_at": "2026-09-24T12:16:41+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -861,6 +921,18 @@
       "priority": false
     },
     {
+      "id": "2444bbf8460181d7a5c7c5604d1d4c31e0763db959c187bba415c549984a510c",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Rayman Legends Retold na 5-minutowym zwiastunie. Twórcy przedstawiają najważniejsze elementy gry",
+      "summary": "Materiał może szczególnie zainteresować tych, którzy nie grali w oryginał.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/rayman-legends-retold-na-5-minutowym-zwiastunie-tworcy-przedstawiaja-najwazniejsze-elementy-gry/",
+      "published_at": "2026-09-24T10:30:00+00:00"
+    },
+    {
       "id": "955a11ae966a29e0f9fb553e4f6f6aa441470e92a6650dead055293432b0cfe4",
       "source": "r/Vibecoding",
       "source_type": "reddit",
@@ -874,324 +946,12 @@
       "priority": false
     },
     {
-      "id": "36fbd628669aaa7afbcebf545039cd38ac032ed8b5fcf9c374d3e04603170299",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Turned my firewood splitter into a full iOS game!",
-      "summary": "Hey all! As per many of your suggestions I went ahead and turned my firewood splitting simulator into a full iOS game. The original webgame was made with Claude and Antigravity, built from 3D scans of my actual axe and stump and wood, and used my actual axe motions and splitting sounds that I recorded myself. Original post here showing the full BTS process: https://www.reddit.com/r/vibecoding/comments/1uckug1/heres_…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wo7qau/turned_my_firewood_splitter_into_a_full_ios_game/",
-      "published_at": "2026-09-24T10:14:02.426672+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "3d5f9c9aa1c7b5077055d9359acf1572d0f9cce8bbd045b6cf0c758d6746aff8",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "This is an Anthropic researcher btw. They knew they shipped a poor model, but admitting that in public takes balls. I respect him",
-      "summary": "Do you guys think we might get a surprise model before the end of the week? I’m betting that if we don’t we might get a release next week. submitted by /u/a113rick [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wo7z8g/this_is_an_anthropic_researcher_btw_they_knew/",
-      "published_at": "2026-09-24T10:14:02.426533+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "6bc1f2c78ba1301637c30318293390ae715c409e8eb01cd0fbba5bdac1c42f68",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Opus 5.5 one-shotted this entire 3D game in 30 minutes",
-      "summary": "gave opus 5.5 one prompt and let it cook for like 30 min. came back to a full 3D physics game you tap a can, the cannon fires, you knock everything off the pier. it even made all the sound effects in code lol try it (free): https://www.crazygames.com/game/topple-pier submitted by /u/TurbulentFail5486 [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wo9yvf/opus_55_oneshotted_this_entire_3d_game_in_30/",
-      "published_at": "2026-09-24T10:14:02.426488+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "bf20e1d3e43180b624c74d3e98f5f0bd79872152e7ea69bcf73607ea407d2514",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Reddit is unbelievable",
-      "summary": "Reddit is unbelievable if you want to lose all motivation for vibe coding. I started vibe coding about four months ago, completely by accident. I needed an IPTV editor. Everything I had tried up to that point was either expensive or painfully slow to edit with. So I started building my own editor, and along the way, I learned the entire workflow—how to make something high-quality, fast, and efficient. I spent about…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wocf3g/reddit_is_unbelievable/",
-      "published_at": "2026-09-24T10:14:02.426444+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "e0127966581f68a766e8789a3e7161d673f3f480352869377f371fbf108e6f48",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Open source infinite canvas for UI design?",
-      "summary": "Does anyone know of an open source infinite canvas for for live testing app Uls? Magic Path AI looked perfect but it looks like they shut down their opensource version. submitted by /u/FurnitureRefinisher [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wocoq0/open_source_infinite_canvas_for_ui_design/",
-      "published_at": "2026-09-24T10:14:02.426280+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "ecf7e9ab6de8b6a509dcf34c364ee7b749f74977a61beb86d70043f48253833c",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Opus 5.5 built me a website that turns any photo into ASCII art",
-      "summary": "You drop in a photo, pick where you're going to paste it, and it turns into text you copy with one button. No image, just characters. It uses Braille characters. Instagram and X show text in normal fonts where letters have different widths, so classic ASCII art falls apart there. Braille characters all have the same width, and each one is a 2x4 grid of dots. So a comment 26 characters wide is really a 52 x 60 dot pi…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wocpbj/opus_55_built_me_a_website_that_turns_any_photo/",
-      "published_at": "2026-09-24T10:14:02.426244+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "31bfa782e5f40aef359b095789d867f39b73b77f93961d472809390e0c5bd850",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Fde Learning path",
-      "summary": "submitted by /u/Downtown_Grab_2704 [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wodtup/fde_learning_path/",
-      "published_at": "2026-09-24T10:14:02.426102+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "ce3e5eea3c4a937de41f4c68e40db5f8ac74f3f9342bcff533278a48b43c21f2",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I just have to get it off my chest",
-      "summary": "We are past the stage of emulating another product, poorly, that has been around for a decade+ Why are you making a tower defense game that would have been crap 10+ years ago and not played? Why are you making an FPS shooter that plays like sht and nobody will use? Before you start vibecoding, have an actual IDEA AND DIRECTION. That does not mean turn flappy bird into flappy pig. The bottleneck we have now, with all…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wodyfd/i_just_have_to_get_it_off_my_chest/",
-      "published_at": "2026-09-24T10:14:02.426056+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "7333661328daf7d39fedad21e04f6def39b0e2d4949875bb2e91c3d9551be873",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I honestly understand why everyone is making their own notes/fitness apps",
-      "summary": "Despite the fact that I’ve been browsing Reddit (my whole feed is vibecoding related) for months now, and have seen thousands of these similar vibecoded apps come up now and then, I still sort of feel inclined to make my own. For example, for notes, there doesn’t really seem to be an app out there that would let me take notes the way I want to. Maybe the way that I take notes however wouldn’t be useful for someone e…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1woe2b3/i_honestly_understand_why_everyone_is_making/",
-      "published_at": "2026-09-24T10:14:02.425999+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "83cea5e701dc1aea8b2dd2f537634c890585b3bce080044c5b91e698865a2c6c",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Thought i would ask Opus 5.5 to take a pass at the docs earlier models helped with - maybe i made a mistake ;-)",
-      "summary": "https://preview.redd.it/1yb3hyulebrh1.png?width=1760&format=png&auto=webp&s=d3615cd74102ac0c9c2940a05eb60345dbb951a0 Home - scyto's homelab docs you can track how badly it goes here once i publish the refactor... this was the prompt Hi we have worked a lot on changes to my homelab and the amended documentation, it is still a little inconsistent and contains many opus 5 wording artefacts, could you review the documen…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1woef9a/thought_i_would_ask_opus_55_to_take_a_pass_at_the/",
-      "published_at": "2026-09-24T10:14:02.425903+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "9b000c3487fe6b3fa07616a86961fe920ce42f133c30578f44c0fb7b8d54ec4b",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Do you all work alone? Do you want that to change?",
-      "summary": "I'm a long time reddit browser but since I started building my app I began posting on reddit and started making friends. I don't really have too many people to talk to which is probably why I got into coding in the first place. I've been making little projects for a few years but I've never really been active on Github, YouTube, or any social media. How many people out there are in that same boat as me where you are…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1woewr1/do_you_all_work_alone_do_you_want_that_to_change/",
-      "published_at": "2026-09-24T10:14:02.425820+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "9d0b232591e33ec5f84f0c66cce6d9ed188fcf7430f73d033596036d4216d45d",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Opus 5.5. The app. The promo video. The github. Everything.",
-      "summary": "Can you tell I desperately missed Picasa Photo Viewer? No longer. :D https://github.com/jackharvest/Casa submitted by /u/jackharvest [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1woh334/opus_55_the_app_the_promo_video_the_github/",
-      "published_at": "2026-09-24T10:14:02.425714+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "aa1378fadf7daa1bc257dca53d943801ed867fa6dee95f96d185016e0b9df697",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I accidentally taught an AI to reverse-engineer SNES assembly without training the model",
-      "summary": "I’ve been building an AI-assisted SNES reverse-engineering toolkit, and we finally got our first proof of concept working. The weird part is that I never trained or fine-tuned the model. Instead, I’ve been giving it durable, ROM-specific knowledge: exact hashes, memory maps, assembly routines, source-code witnesses, emulator traces, failed hypotheses, regression fixtures, and deterministic tools. It has to prove thi…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wohep2/i_accidentally_taught_an_ai_to_reverseengineer/",
-      "published_at": "2026-09-24T10:14:02.425679+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "151f551468f2be2723b9a77ca07968009e8ce3d7751afe32491834dd1366932c",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "'Show me screenshot of changes' vs building and browsing to the app to see them",
-      "summary": "Small thing I realized today. Used to always reload and click to the page to check the change but I realized today I can ask for screen shots. I can also ask for annotated screenshots. If I want to do QA it is useful to just have AI take a screen shot and annotate the details of the issue in it. Another small thing that I found it that makes everything slightly more efficient. Anyone else have some tips of small thi…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wohnm1/show_me_screenshot_of_changes_vs_building_and/",
-      "published_at": "2026-09-24T10:14:02.425517+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "4072906792be7f5eebccde1f5229c66d49c5bce123968a308f78823ddc70a728",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Best way to study your vibe-coded app (well enough to confidently present it)?",
-      "summary": "I’m sitting down for coffee with a project lead friend who’s hiring, and I’m basically his first priority at this point. I’ve gotten some great pointers from this sub about what I might get asked, like architecture, state persistence, APIs, etc. The great thing is, I have an opportunity to slyly show him a mobile React Native app I built with a FastAPI backend and Neon Postgres to get nudged up the applicant pile (h…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1woiutt/best_way_to_study_your_vibecoded_app_well_enough/",
-      "published_at": "2026-09-24T10:14:02.425459+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "285201229e9fe9889a6770e4e607dd6fe8a35baedc045267298b815f7393c324",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Hosting multiuser apps?",
-      "summary": "What do y'all do? I made a trivia game for my friends similar to Learned League where it just sent emails once a day with a few trivia questions from a dataset. Used pocket base on an Oracle free tier and worked fine. More recently Ive been trying to create a chore tracking app for my wife and me, so doesnt really involve a large dataset like the trivia game but still needs to be usable by my wife and I and update s…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wol9g4/hosting_multiuser_apps/",
-      "published_at": "2026-09-24T10:14:02.425376+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "aff3a0b0946e504b9b5fd96ca3542eaad68bbb7c86a7da2f23caf662219bd71c",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "2 hours of video+audio with MiniMax H3 video for $6.96. Not Kidding.",
-      "summary": "Why Care? Because the same 2 hours of raw AI video can cost hundreds of dollars through hosted APIs. Roughly: fal H3 Max Turbo: ~$288 fal MiniMax H3: ~$432 MiniMax H3 direct API: ~$576 My Blackwell Colab setup: ~$6.96 That’s roughly 41x–83x cheaper on raw generation cost. Here’s the math. I’ve been optimizing MiniMax H3 on the Blackwell GPUs available through Colab -CUDA versions, attention kernels, quants, dependen…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wolia6/2_hours_of_videoaudio_with_minimax_h3_video_for/",
-      "published_at": "2026-09-24T10:14:02.425304+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "9f118c070d610bc5be3e0f21635f4453f5896008804aed8bd7408dbd1adc7520",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Best Claude Code alternatives?",
-      "summary": "submitted by /u/Dev-in-the-Bm [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1womg7n/best_claude_code_alternatives/",
-      "published_at": "2026-09-24T10:14:02.425168+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "f2ffa707d7dc282031004bdda876e0f8ccfe3472da9428374198f6826f06a99f",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Asked Opus 5.5 to make a stickman animation to showcase some item effects of a MC minigame I've been working on",
-      "summary": "What is blowing me away the most is not just the technical feasibility of what it's doing but it's the TASTE and creativity it has on it's own like 90% of this is zero-shot after only 30 minutes. I did ask it to adjust things a little afterwards but it's crazy how it gets almost everything right and makes the same decisions as I would. Actually this post could also an opportunity to tell that if you are interested i…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wooo01/asked_opus_55_to_make_a_stickman_animation_to/",
-      "published_at": "2026-09-24T10:14:02.425138+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "fb74c3386d826e8202bdf5bf98b861ec20f20cb918016242561003e2482fe41e",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "The honeymoon period has entered production.",
-      "summary": "submitted by /u/AmbitiousEffect6034 [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wopxov/the_honeymoon_period_has_entered_production/",
-      "published_at": "2026-09-24T10:14:02.425008+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "7fb93dbe8090867d001fb45bb6a4232e25dc5fe7c3791d17179fc59de65a892c",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "UPDATE: HRDHAT: I rebuilt my vibe coded construction app. Looking for people feedback.",
-      "summary": "Reposted with screenshots. My first version was a link post and Reddit does not let you add images to those, so I deleted it. Hey guys! It's been a long time since I posted. I've been hard at work! Quick recap for anyone who missed it: I work in construction, and I vibe coded HrdHat, an app for safety paperwork, timesheets, shift management, a tool scanner & tracker, and all the crew stuff we deal with on site every…",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wou8zv/update_hrdhat_i_rebuilt_my_vibe_coded/",
-      "published_at": "2026-09-24T10:14:02.424975+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "1ada079fd478975f7363f2968bf63e0dd9d9231c0367f184896ecda6f472c17b",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "How it feels lately when trying to share our toys online... are you also experiencing this level of hate? How do you deal with it and how does it affect your motivation?",
-      "summary": "https://preview.redd.it/bpktr4xkgfrh1.png?width=962&format=png&auto=webp&s=f21c97c1e890bfd0dce5f8ba455c6e3b6529b672 submitted by /u/ndr3svt [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wowe05/how_it_feels_lately_when_trying_to_share_our_toys/",
-      "published_at": "2026-09-24T10:14:02.424791+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "fc4a046a1714048f6ef9a3a84591d819cb85b02f8b05ae4d2aeb1a8be642a63c",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Build an engineering team people want to come back to",
-      "summary": "submitted by /u/Suspicious_Orchid770 [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wowfe3/build_an_engineering_team_people_want_to_come/",
-      "published_at": "2026-09-24T10:14:02.424747+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "255de3e60fedd9ab8dd603659051159792bd81dbc06243526cb07b2871ef77b1",
-      "source": "r/Vibecoding",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I mean, I know it's hype to but, Opus 5.5 is hitting hard.",
-      "summary": "5.5 feels fast, but this video they put out, not sure how exaggerated it is, but I'm still doing a double-take this far into A.I. https://www.youtube.com/watch?v=hKztrJbDGpA Are you still being surprised or are we all over it? Do you feel this video shows authentic output or pure hype? submitted by /u/johnesco [link] [comments]",
-      "url": "https://www.reddit.com/r/vibecoding/comments/1wowun2/i_mean_i_know_its_hype_to_but_opus_55_is_hitting/",
-      "published_at": "2026-09-24T10:14:02.424702+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
       "id": "0e947ba50cba54fc5cfb2229654f0ccd934ccde3ea02ee01d2090e344d0d87e0",
       "source": "CD-Action",
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Quake Champions znienacka pr",
+      "title": "Quake Champions znienacka przestało być darmowe po kilku latach od premiery. To efekt resetu w Xboksie",
       "summary": "Okrojone id Software najwyraźniej nie jest już w stanie dalej utrzymywać Quake Champions w takim modelu, jak dotychczas.",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/quake-champions-znienacka-przestalo-byc-darmowe-po-kilku-latach-od-premiery-to-efekt-resetu-w-xboksie/",
@@ -1208,6 +968,82 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427761/astros-playroom-na-pc-juz-nawet-w-60-fps-ach-emulacja-ps5-rozwala-glowe.html",
       "published_at": "2026-09-24T09:58:20.637835+00:00"
+    },
+    {
+      "id": "255de3e60fedd9ab8dd603659051159792bd81dbc06243526cb07b2871ef77b1",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I mean, I know it's hype to but, Opus 5.5 is hitting hard.",
+      "summary": "5.5 feels fast, but this video they put out, not sure how exaggerated it is, but I'm still doing a double-take this far into A.I. https://www.youtube.com/watch?v=hKztrJbDGpA Are you still being surprised or are we all over it? Do you feel this video shows authentic output or pure hype? submitted by /u/johnesco [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wowun2/i_mean_i_know_its_hype_to_but_opus_55_is_hitting/",
+      "published_at": "2026-09-24T09:17:58+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "fc4a046a1714048f6ef9a3a84591d819cb85b02f8b05ae4d2aeb1a8be642a63c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Build an engineering team people want to come back to",
+      "summary": "submitted by /u/Suspicious_Orchid770 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wowfe3/build_an_engineering_team_people_want_to_come/",
+      "published_at": "2026-09-24T08:50:42+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "1ada079fd478975f7363f2968bf63e0dd9d9231c0367f184896ecda6f472c17b",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How it feels lately when trying to share our toys online... are you also experiencing this level of hate? How do you deal with it and how does it affect your motivation?",
+      "summary": "https://preview.redd.it/bpktr4xkgfrh1.png?width=962&format=png&auto=webp&s=f21c97c1e890bfd0dce5f8ba455c6e3b6529b672 submitted by /u/ndr3svt [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wowe05/how_it_feels_lately_when_trying_to_share_our_toys/",
+      "published_at": "2026-09-24T08:48:07+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "3086bc3eed5a2cfb978542ed7ac9bacf6a4a926b87bdd6cc8e130d86185bdc1d",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "CD Projekt Red zalicza wpadkę z remasterem Wiedźmina 3. Gracze krytykują wygląd odświeżonej wersji gry",
+      "summary": "Studio chciało się pochwalić graficznymi wodotryskami, lecz gracze zdecydowanie bardziej polubili oryginalną wersję gry w jednym z klipów promocyjnych...",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/cd-projekt-red-zalicza-wpadke-z-remasterem-wiedzmina-3-gracze-krytykuja-wyglad-odswiezonej-wersji-gry/",
+      "published_at": "2026-09-24T07:43:52+00:00"
+    },
+    {
+      "id": "7fb93dbe8090867d001fb45bb6a4232e25dc5fe7c3791d17179fc59de65a892c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "UPDATE: HRDHAT: I rebuilt my vibe coded construction app. Looking for people feedback.",
+      "summary": "Reposted with screenshots. My first version was a link post and Reddit does not let you add images to those, so I deleted it. Hey guys! It's been a long time since I posted. I've been hard at work! Quick recap for anyone who missed it: I work in construction, and I vibe coded HrdHat, an app for safety paperwork, timesheets, shift management, a tool scanner & tracker, and all the crew stuff we deal with on site every…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wou8zv/update_hrdhat_i_rebuilt_my_vibe_coded/",
+      "published_at": "2026-09-24T06:35:10+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "6b86d7977b317036355ad07a3ad7e8ac68db633ac80c732026a9a12475347a94",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Pomimo odpowiadania przed Bethesdą, Obsidian ma zachować niezależność. „To przede wszystkim zmiana w strukturze raportowania”",
+      "summary": "Diabeł tkwi w szczegółach.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/pomimo-odpowiadania-przed-bethesda-obsidian-ma-zachowac-niezaleznosc-to-przede-wszystkim-zmiana-w-strukturze-raportowania/",
+      "published_at": "2026-09-24T06:30:00+00:00"
     },
     {
       "id": "169ed1fc67dccac4922cd675abdf0afeb51530eac12c8818a155619b8148e237",
@@ -1249,6 +1085,32 @@
       "priority": false
     },
     {
+      "id": "fb74c3386d826e8202bdf5bf98b861ec20f20cb918016242561003e2482fe41e",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "The honeymoon period has entered production.",
+      "summary": "submitted by /u/AmbitiousEffect6034 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wopxov/the_honeymoon_period_has_entered_production/",
+      "published_at": "2026-09-24T02:43:25+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "f2ffa707d7dc282031004bdda876e0f8ccfe3472da9428374198f6826f06a99f",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Asked Opus 5.5 to make a stickman animation to showcase some item effects of a MC minigame I've been working on",
+      "summary": "What is blowing me away the most is not just the technical feasibility of what it's doing but it's the TASTE and creativity it has on it's own like 90% of this is zero-shot after only 30 minutes. I did ask it to adjust things a little afterwards but it's crazy how it gets almost everything right and makes the same decisions as I would. Actually this post could also an opportunity to tell that if you are interested i…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wooo01/asked_opus_55_to_make_a_stickman_animation_to/",
+      "published_at": "2026-09-24T01:43:49+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "b4c5100b13b90a00bb41de1ffe3188df34b791c82a9e0ad4a6285238cbbe2a88",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1275,6 +1137,45 @@
       "priority": false
     },
     {
+      "id": "9f118c070d610bc5be3e0f21635f4453f5896008804aed8bd7408dbd1adc7520",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Best Claude Code alternatives?",
+      "summary": "submitted by /u/Dev-in-the-Bm [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1womg7n/best_claude_code_alternatives/",
+      "published_at": "2026-09-24T00:01:34+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "aff3a0b0946e504b9b5fd96ca3542eaad68bbb7c86a7da2f23caf662219bd71c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "2 hours of video+audio with MiniMax H3 video for $6.96. Not Kidding.",
+      "summary": "Why Care? Because the same 2 hours of raw AI video can cost hundreds of dollars through hosted APIs. Roughly: fal H3 Max Turbo: ~$288 fal MiniMax H3: ~$432 MiniMax H3 direct API: ~$576 My Blackwell Colab setup: ~$6.96 That’s roughly 41x–83x cheaper on raw generation cost. Here’s the math. I’ve been optimizing MiniMax H3 on the Blackwell GPUs available through Colab -CUDA versions, attention kernels, quants, dependen…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wolia6/2_hours_of_videoaudio_with_minimax_h3_video_for/",
+      "published_at": "2026-09-23T23:20:55+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "285201229e9fe9889a6770e4e607dd6fe8a35baedc045267298b815f7393c324",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hosting multiuser apps?",
+      "summary": "What do y'all do? I made a trivia game for my friends similar to Learned League where it just sent emails once a day with a few trivia questions from a dataset. Used pocket base on an Oracle free tier and worked fine. More recently Ive been trying to create a chore tracking app for my wife and me, so doesnt really involve a large dataset like the trivia game but still needs to be usable by my wife and I and update s…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wol9g4/hosting_multiuser_apps/",
+      "published_at": "2026-09-23T23:10:32+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "1251d8cdf6ea0fc7f4dc1e8ab216e325d15724efac613257c7da14e8df3545d3",
       "source": "PC Gamer",
       "source_type": "news",
@@ -1291,6 +1192,19 @@
         "MMO",
         "gry"
       ]
+    },
+    {
+      "id": "4072906792be7f5eebccde1f5229c66d49c5bce123968a308f78823ddc70a728",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Best way to study your vibe-coded app (well enough to confidently present it)?",
+      "summary": "I’m sitting down for coffee with a project lead friend who’s hiring, and I’m basically his first priority at this point. I’ve gotten some great pointers from this sub about what I might get asked, like architecture, state persistence, APIs, etc. The great thing is, I have an opportunity to slyly show him a mobile React Native app I built with a FastAPI backend and Neon Postgres to get nudged up the applicant pile (h…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woiutt/best_way_to_study_your_vibecoded_app_well_enough/",
+      "published_at": "2026-09-23T21:29:43+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "185b63367729b0a1400e392d4226055a5a821c43eb403371c6605d91ca45b0b7",
@@ -1311,6 +1225,32 @@
       ]
     },
     {
+      "id": "151f551468f2be2723b9a77ca07968009e8ce3d7751afe32491834dd1366932c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "'Show me screenshot of changes' vs building and browsing to the app to see them",
+      "summary": "Small thing I realized today. Used to always reload and click to the page to check the change but I realized today I can ask for screen shots. I can also ask for annotated screenshots. If I want to do QA it is useful to just have AI take a screen shot and annotate the details of the issue in it. Another small thing that I found it that makes everything slightly more efficient. Anyone else have some tips of small thi…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wohnm1/show_me_screenshot_of_changes_vs_building_and/",
+      "published_at": "2026-09-23T20:42:38+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "aa1378fadf7daa1bc257dca53d943801ed867fa6dee95f96d185016e0b9df697",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I accidentally taught an AI to reverse-engineer SNES assembly without training the model",
+      "summary": "I’ve been building an AI-assisted SNES reverse-engineering toolkit, and we finally got our first proof of concept working. The weird part is that I never trained or fine-tuned the model. Instead, I’ve been giving it durable, ROM-specific knowledge: exact hashes, memory maps, assembly routines, source-code witnesses, emulator traces, failed hypotheses, regression fixtures, and deterministic tools. It has to prove thi…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wohep2/i_accidentally_taught_an_ai_to_reverseengineer/",
+      "published_at": "2026-09-23T20:33:04+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "1c42041e5f06e0dab1667505e28cb5d6801eca9fe46c7fcf711b0011cbac5c44",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1320,6 +1260,19 @@
       "summary": "I know that bg3 has a native Linux port which provides much better performance than windows but can't find any benchmarks of the game with steamos on z2 go legion go s. Can any owners chime in? Thinking of picking up one mainly for this game. submitted by /u/Helpful_Economist_59 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woh6mz/how_does_z2_go_legion_go_s_perform_in_bg3_with/",
       "published_at": "2026-09-23T20:24:28+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "9d0b232591e33ec5f84f0c66cce6d9ed188fcf7430f73d033596036d4216d45d",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Opus 5.5. The app. The promo video. The github. Everything.",
+      "summary": "Can you tell I desperately missed Picasa Photo Viewer? No longer. :D https://github.com/jackharvest/Casa submitted by /u/jackharvest [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woh334/opus_55_the_app_the_promo_video_the_github/",
+      "published_at": "2026-09-23T20:20:44+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -1336,6 +1289,19 @@
       "thumbnail_url": "https://i.ytimg.com/vi/KtwhRwKwVkQ/mqdefault.jpg"
     },
     {
+      "id": "9b000c3487fe6b3fa07616a86961fe920ce42f133c30578f44c0fb7b8d54ec4b",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Do you all work alone? Do you want that to change?",
+      "summary": "I'm a long time reddit browser but since I started building my app I began posting on reddit and started making friends. I don't really have too many people to talk to which is probably why I got into coding in the first place. I've been making little projects for a few years but I've never really been active on Github, YouTube, or any social media. How many people out there are in that same boat as me where you are…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woewr1/do_you_all_work_alone_do_you_want_that_to_change/",
+      "published_at": "2026-09-23T18:59:31+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "159a88376047c660b243e987c06ecb0a6270e60a7ecc82fa0b55661cbcbbcf64",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1345,6 +1311,58 @@
       "summary": "Why all of a sudden is my Legion Go S defaulting to Quiet mode every time I start it up now, unplugged? Anywhere to fix this? submitted by /u/rrankine [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woepus/unplugged_defaulting_to_quiet_now/",
       "published_at": "2026-09-23T18:52:34+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "83cea5e701dc1aea8b2dd2f537634c890585b3bce080044c5b91e698865a2c6c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Thought i would ask Opus 5.5 to take a pass at the docs earlier models helped with - maybe i made a mistake ;-)",
+      "summary": "https://preview.redd.it/1yb3hyulebrh1.png?width=1760&format=png&auto=webp&s=d3615cd74102ac0c9c2940a05eb60345dbb951a0 Home - scyto's homelab docs you can track how badly it goes here once i publish the refactor... this was the prompt Hi we have worked a lot on changes to my homelab and the amended documentation, it is still a little inconsistent and contains many opus 5 wording artefacts, could you review the documen…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woef9a/thought_i_would_ask_opus_55_to_take_a_pass_at_the/",
+      "published_at": "2026-09-23T18:41:53+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "7333661328daf7d39fedad21e04f6def39b0e2d4949875bb2e91c3d9551be873",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I honestly understand why everyone is making their own notes/fitness apps",
+      "summary": "Despite the fact that I’ve been browsing Reddit (my whole feed is vibecoding related) for months now, and have seen thousands of these similar vibecoded apps come up now and then, I still sort of feel inclined to make my own. For example, for notes, there doesn’t really seem to be an app out there that would let me take notes the way I want to. Maybe the way that I take notes however wouldn’t be useful for someone e…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1woe2b3/i_honestly_understand_why_everyone_is_making/",
+      "published_at": "2026-09-23T18:28:38+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "ce3e5eea3c4a937de41f4c68e40db5f8ac74f3f9342bcff533278a48b43c21f2",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I just have to get it off my chest",
+      "summary": "We are past the stage of emulating another product, poorly, that has been around for a decade+ Why are you making a tower defense game that would have been crap 10+ years ago and not played? Why are you making an FPS shooter that plays like sht and nobody will use? Before you start vibecoding, have an actual IDEA AND DIRECTION. That does not mean turn flappy bird into flappy pig. The bottleneck we have now, with all…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wodyfd/i_just_have_to_get_it_off_my_chest/",
+      "published_at": "2026-09-23T18:24:36+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "31bfa782e5f40aef359b095789d867f39b73b77f93961d472809390e0c5bd850",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Fde Learning path",
+      "summary": "submitted by /u/Downtown_Grab_2704 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wodtup/fde_learning_path/",
+      "published_at": "2026-09-23T18:19:53+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -1378,6 +1396,45 @@
         "Technologia",
         "Awaria"
       ]
+    },
+    {
+      "id": "ecf7e9ab6de8b6a509dcf34c364ee7b749f74977a61beb86d70043f48253833c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Opus 5.5 built me a website that turns any photo into ASCII art",
+      "summary": "You drop in a photo, pick where you're going to paste it, and it turns into text you copy with one button. No image, just characters. It uses Braille characters. Instagram and X show text in normal fonts where letters have different widths, so classic ASCII art falls apart there. Braille characters all have the same width, and each one is a 2x4 grid of dots. So a comment 26 characters wide is really a 52 x 60 dot pi…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wocpbj/opus_55_built_me_a_website_that_turns_any_photo/",
+      "published_at": "2026-09-23T17:38:01+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "e0127966581f68a766e8789a3e7161d673f3f480352869377f371fbf108e6f48",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Open source infinite canvas for UI design?",
+      "summary": "Does anyone know of an open source infinite canvas for for live testing app Uls? Magic Path AI looked perfect but it looks like they shut down their opensource version. submitted by /u/FurnitureRefinisher [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wocoq0/open_source_infinite_canvas_for_ui_design/",
+      "published_at": "2026-09-23T17:37:23+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "bf20e1d3e43180b624c74d3e98f5f0bd79872152e7ea69bcf73607ea407d2514",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Reddit is unbelievable",
+      "summary": "Reddit is unbelievable if you want to lose all motivation for vibe coding. I started vibe coding about four months ago, completely by accident. I needed an IPTV editor. Everything I had tried up to that point was either expensive or painfully slow to edit with. So I started building my own editor, and along the way, I learned the entire workflow—how to make something high-quality, fast, and efficient. I spent about…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wocf3g/reddit_is_unbelievable/",
+      "published_at": "2026-09-23T17:27:15+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "768ba8e8e1435dc37c007d9780dda98312c69c82e08af27eba121ab16ed49c10",
@@ -1459,6 +1516,19 @@
       ]
     },
     {
+      "id": "6bc1f2c78ba1301637c30318293390ae715c409e8eb01cd0fbba5bdac1c42f68",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Opus 5.5 one-shotted this entire 3D game in 30 minutes",
+      "summary": "gave opus 5.5 one prompt and let it cook for like 30 min. came back to a full 3D physics game you tap a can, the cannon fires, you knock everything off the pier. it even made all the sound effects in code lol try it (free): https://www.crazygames.com/game/topple-pier submitted by /u/TurbulentFail5486 [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wo9yvf/opus_55_oneshotted_this_entire_3d_game_in_30/",
+      "published_at": "2026-09-23T15:58:57+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "8e9e294b0c1d0c3db748f5cb28b138d59c9b9fe82e14ee9b8c08bbedc2f49302",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1478,6 +1548,32 @@
         "SteamOS",
         "Gaming"
       ]
+    },
+    {
+      "id": "3d5f9c9aa1c7b5077055d9359acf1572d0f9cce8bbd045b6cf0c758d6746aff8",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "This is an Anthropic researcher btw. They knew they shipped a poor model, but admitting that in public takes balls. I respect him",
+      "summary": "Do you guys think we might get a surprise model before the end of the week? I’m betting that if we don’t we might get a release next week. submitted by /u/a113rick [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wo7z8g/this_is_an_anthropic_researcher_btw_they_knew/",
+      "published_at": "2026-09-23T14:44:39+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "36fbd628669aaa7afbcebf545039cd38ac032ed8b5fcf9c374d3e04603170299",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Turned my firewood splitter into a full iOS game!",
+      "summary": "Hey all! As per many of your suggestions I went ahead and turned my firewood splitting simulator into a full iOS game. The original webgame was made with Claude and Antigravity, built from 3D scans of my actual axe and stump and wood, and used my actual axe motions and splitting sounds that I recorded myself. Original post here showing the full BTS process: https://www.reddit.com/r/vibecoding/comments/1uckug1/heres_…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wo7qau/turned_my_firewood_splitter_into_a_full_ios_game/",
+      "published_at": "2026-09-23T14:35:06+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "6ae03cbfbbb167dbd19bfe049ba39315953975d851e09e0e46445f01ffe2de2f",
@@ -1524,7 +1620,7 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Nordycki dodatek do Age of E",
+      "title": "Nordycki dodatek do Age of Empires 2 już dostępny! Twórcy wprowadzili nowe cywilizacje i kolejną kampanię fabularną",
       "summary": "The Viking Sagas pozwoli nam pokierować oddziałami Duńczyków, Waregów i Sasów.",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/nordycki-dodatek-do-age-of-empires-2-juz-dostepny-tworcy-wprowadzili-nowe-cywilizacje-i-kolejna-kampanie-fabularna/",
@@ -2124,8 +2220,8 @@
       "url": "https://www.lowcychin.pl/sony-playstation-5/",
       "published_at": "2026-09-15T12:24:45+00:00",
       "matched_keywords": [
-        "PlayStation",
-        "PS5"
+        "PS5",
+        "PlayStation"
       ],
       "price": "2688zł",
       "active": true
@@ -2747,22 +2843,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
-      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
-      "published_at": "2026-07-28T20:27:02+00:00",
-      "matched_keywords": [
-        "PlayStation"
-      ],
-      "price": "1099zł",
-      "active": true
-    },
-    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -2911,6 +2991,23 @@
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
     },
     {
+      "id": "64af816214e5783d311abd3ddb3205333859075f46fd27c533bd9554e8b8b53c",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Playstation 5 Sony PS5 Slim z Polski za $574.95 / ~2089zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-ps5-slim-ali/",
+      "published_at": "2026-05-31T13:46:30+00:00",
+      "matched_keywords": [
+        "PS5",
+        "PlayStation"
+      ],
+      "price": "2089zł",
+      "active": true
+    },
+    {
       "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -2969,8 +3066,8 @@
       "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
       "published_at": "2026-01-12T09:41:23+00:00",
       "matched_keywords": [
-        "Xbox",
-        "ROG Ally"
+        "ROG Ally",
+        "Xbox"
       ],
       "price": "2273zł",
       "active": true
@@ -3214,8 +3311,8 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
-        "Legion Go",
         "ROG Ally",
+        "Legion Go",
         "Steam Deck"
       ],
       "price": "189zł",
@@ -3265,8 +3362,8 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
-        "Legion Go",
         "ROG Ally",
+        "Legion Go",
         "Steam Deck"
       ],
       "price": "205zł",
