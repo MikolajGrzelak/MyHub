@@ -43,3 +43,8 @@ h1 { margin: 0; font-size: 40px; letter-spacing: -.04em; }
 .section-tab.active { background:#f5f5f5; color:#111; }
 .match { margin:0 0 12px; color:#ffd76a; font-size:12px; font-weight:700; }
 .thumb { width:100%; border-radius:14px; margin:0 0 14px; display:block; }
+
+.deal-info { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:0 0 12px; }
+.deal-price { font-weight:800; font-size:18px; color:#f5f5f5; }
+.deal-temp { padding:4px 7px; border-radius:999px; background:#2a1d14; border:1px solid #5a3a22; font-size:12px; font-weight:700; }
+.deal-active { padding:4px 7px; border-radius:999px; background:#14261a; border:1px solid #285738; font-size:11px; color:#a8e0b8; text-transform:uppercase; letter-spacing:.05em; }
