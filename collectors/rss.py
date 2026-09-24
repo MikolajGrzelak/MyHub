@@ -156,6 +156,69 @@ def collect_rss(source) -> list[dict]:
     print(f"[OK] {source['name']}: {len(items)} RSS items")
     return items
 
+
+def extract_published_from_soup(soup: BeautifulSoup) -> str | None:
+    # Common OpenGraph/article metadata.
+    for attrs in (
+        {"property": "article:published_time"},
+        {"name": "article:published_time"},
+        {"property": "og:published_time"},
+        {"name": "date"},
+        {"itemprop": "datePublished"},
+    ):
+        tag = soup.find("meta", attrs=attrs)
+        if tag and tag.get("content"):
+            raw = tag.get("content", "").strip()
+            try:
+                dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return dt.astimezone(timezone.utc).isoformat()
+            except ValueError:
+                pass
+
+    # <time datetime="...">
+    for tag in soup.find_all("time"):
+        raw = (tag.get("datetime") or "").strip()
+        if not raw:
+            continue
+        try:
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc).isoformat()
+        except ValueError:
+            continue
+
+    # JSON-LD is commonly used by news/deal pages.
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        raw = script.string or script.get_text()
+        if not raw:
+            continue
+        try:
+            payload = json.loads(raw)
+        except (json.JSONDecodeError, TypeError):
+            continue
+
+        nodes = payload if isinstance(payload, list) else [payload]
+        for node in nodes:
+            if isinstance(node, dict) and isinstance(node.get("@graph"), list):
+                nodes.extend(node["@graph"])
+            if not isinstance(node, dict):
+                continue
+            raw_date = node.get("datePublished") or node.get("dateCreated")
+            if not raw_date:
+                continue
+            try:
+                dt = datetime.fromisoformat(str(raw_date).replace("Z", "+00:00"))
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return dt.astimezone(timezone.utc).isoformat()
+            except ValueError:
+                pass
+    return None
+
+
 def collect_html(source) -> list[dict]:
     try:
         response = requests.get(source["url"], headers=HEADERS, timeout=20)
@@ -181,19 +244,35 @@ def collect_html(source) -> list[dict]:
         url = urljoin(source["base_url"], href)
         found[url] = title
 
-    now = datetime.now(timezone.utc).isoformat()
-    items = [{
-        "id": make_id(source["name"], url),
-        "source": source["name"],
-        "source_type": "news",
-        "category": source["category"],
-        "language": source["language"],
-        "title": title,
-        "summary": "",
-        "summary_pl": "",
-        "url": url,
-        "published_at": now,
-    } for url, title in list(found.items())[:30]]
+    urls = list(found)[:30]
+    detail_pages = _parallel_fetch(urls, workers=8)
+
+    items = []
+    for url in urls:
+        title = found[url]
+        body = detail_pages.get(url)
+        published_at = None
+        summary = ""
+        if body:
+            detail_soup = BeautifulSoup(body, "html.parser")
+            published_at = extract_published_from_soup(detail_soup)
+
+            description = detail_soup.find("meta", attrs={"name": "description"})
+            if description and description.get("content"):
+                summary = clean_text(description.get("content"), 320)
+
+        items.append({
+            "id": make_id(source["name"], url),
+            "source": source["name"],
+            "source_type": "news",
+            "category": source["category"],
+            "language": source["language"],
+            "title": title,
+            "summary": summary,
+            "summary_pl": "",
+            "url": url,
+            "published_at": published_at,
+        })
 
     print(f"[OK] {source['name']}: {len(items)} HTML items")
     return items
@@ -436,6 +515,7 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
         meta = found[url]
         h1 = page.find("h1")
         title = clean_text(h1.get_text(" ", strip=True) if h1 else meta["title"], 220)
+        published_at = extract_published_from_soup(page) or now
         items.append({
             "id": make_id("Pepper", url),
             "source": "Pepper",
@@ -445,7 +525,7 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "title": title,
             "summary": "",
             "url": url,
-            "published_at": now,
+            "published_at": published_at,
             "matched_keywords": meta["keywords"],
             "price": extract_price(text),
             "temperature": extract_temperature(text),
@@ -503,6 +583,7 @@ def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
         meta = found[url]
         h1 = page.find("h1")
         title = clean_text(h1.get_text(" ", strip=True) if h1 else meta["title"], 220)
+        published_at = extract_published_from_soup(page) or now
         items.append({
             "id": make_id("LowcyChin", url),
             "source": "ŁowcyChin",
@@ -512,7 +593,7 @@ def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
             "title": title,
             "summary": "",
             "url": url,
-            "published_at": now,
+            "published_at": published_at,
             "matched_keywords": meta["keywords"],
             "price": extract_price(text),
             "active": True,
@@ -537,16 +618,27 @@ def merge_items(existing: list[dict], fresh: list[dict]) -> list[dict]:
         for item in existing
         if item.get("source_type") != "deal"
     }
+    now = datetime.now(timezone.utc).isoformat()
     for item in fresh:
         previous = merged.get(item["id"], {})
         preserve = {}
         for key in ("summary_pl", "tags"):
             if previous.get(key):
                 preserve[key] = previous[key]
-        if previous.get("published_at") and item.get("language") == "pl" and item.get("source_type") != "deal":
-            item["published_at"] = previous["published_at"]
+
+        # Always prefer the publication date from the source.
+        # If a scraper could not read it this run, keep the previous source date;
+        # only brand-new undated items fall back to first-seen time.
+        if not item.get("published_at"):
+            item["published_at"] = previous.get("published_at") or now
+
         merged[item["id"]] = {**item, **preserve}
-    return sorted(merged.values(), key=lambda item: item.get("published_at",""), reverse=True)[:450]
+
+    return sorted(
+        merged.values(),
+        key=lambda item: item.get("published_at") or "",
+        reverse=True,
+    )[:450]
 
 def enrich_with_ai(items: list[dict]) -> int:
     api_key = os.environ.get("GEMINI_API_KEY")
