@@ -560,6 +560,79 @@ def looks_inactive(text: str) -> bool:
     return any(marker in lowered for marker in markers)
 
 
+def extract_pepper_current_price(soup: BeautifulSoup, title: str = "") -> str:
+    # Pepper pages contain many unrelated prices (recommendations, ads, widgets).
+    # Only inspect the main deal/article area and prefer visible live-price text.
+    root = (
+        soup.find("article")
+        or soup.select_one('[data-t="deal"]')
+        or soup.select_one("main")
+        or soup
+    )
+
+    # First inspect elements whose semantics/classes explicitly indicate a deal price.
+    selectors = [
+        '[data-t="deal-price"]',
+        '[data-t*="price"]',
+        '[itemprop="price"]',
+        '[class*="thread-price"]',
+        '[class*="deal-price"]',
+        '[class*="price"]',
+    ]
+    old_words = ("old", "rrp", "list", "strike", "original", "before", "previous", "regular", "line-through")
+
+    for selector in selectors:
+        for tag in root.select(selector):
+            attrs = " ".join(tag.get("class", [])) + " " + str(tag.get("data-t", "")) + " " + str(tag.get("style", ""))
+            if any(word in attrs.lower() for word in old_words):
+                continue
+            if tag.name in {"s", "del"} or tag.find_parent(["s", "del"]):
+                continue
+            raw = tag.get("content") or tag.get("value") or tag.get_text(" ", strip=True)
+            if not raw:
+                continue
+            matches = re.findall(r"(?<!\d)(\d{1,5}(?:[ .]\d{3})*(?:[,.]\d{1,2})?)\s*zł", str(raw), flags=re.I)
+            if matches:
+                return f"{matches[0]} zł"
+            if re.fullmatch(r"\s*\d+(?:[.,]\d{1,2})?\s*", str(raw)):
+                return f"{str(raw).strip().replace('.', ',')} zł"
+
+    # Pepper reliably exposes the deal's live price in the page title/OG metadata
+    # on many layouts. These are safer than scanning arbitrary JSON.
+    for tag in [
+        soup.find("meta", attrs={"property": "og:title"}),
+        soup.find("meta", attrs={"name": "twitter:title"}),
+        soup.find("title"),
+    ]:
+        if not tag:
+            continue
+        raw = tag.get("content") if tag.name == "meta" else tag.get_text(" ", strip=True)
+        if not raw:
+            continue
+        matches = re.findall(r"(?<!\d)(\d{1,5}(?:[ .]\d{3})*(?:[,.]\d{1,2})?)\s*zł", raw, flags=re.I)
+        if matches:
+            return f"{matches[0]} zł"
+
+    # Last resort: look near the H1 only, not across the whole page.
+    h1 = soup.find("h1")
+    if h1:
+        container = h1
+        for _ in range(4):
+            if container.parent:
+                container = container.parent
+        local = BeautifulSoup(str(container), "html.parser")
+        for tag in local.find_all(["s", "del"]):
+            tag.decompose()
+        for tag in local.find_all(style=re.compile(r"line-through", re.I)):
+            tag.decompose()
+        text = clean_text(local.get_text(" ", strip=True), 12000)
+        matches = re.findall(r"(?<!\d)(\d{1,5}(?:[ .]\d{3})*(?:[,.]\d{1,2})?)\s*zł", text, flags=re.I)
+        if matches:
+            return f"{matches[0]} zł"
+
+    return ""
+
+
 def extract_price_from_soup(soup: BeautifulSoup) -> str:
     # 1) Prefer schema.org Offer data. Pepper often exposes the live price here
     # even when the UI also shows an old crossed-out price.
@@ -747,7 +820,7 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "url": url,
             "published_at": published_at,
             "matched_keywords": meta["keywords"],
-            "price": extract_price_from_soup(page),
+            "price": extract_pepper_current_price(page, title),
             "temperature": extract_temperature(text),
             "active": True,
         })
