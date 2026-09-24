@@ -17,13 +17,15 @@ a { color: inherit; }
 
 .app-header {
   position: sticky;
-  top: 0;
+  top: env(safe-area-inset-top);
   z-index: 20;
   display: flex;
   justify-content: space-between;
   align-items: end;
   padding: 10px 2px 12px;
-  background: rgba(9,9,9,.9);
+  margin-top: calc(-1 * env(safe-area-inset-top));
+  padding-top: calc(10px + env(safe-area-inset-top));
+  background: rgba(9,9,9,.94);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
