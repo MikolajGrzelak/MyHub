@@ -768,61 +768,185 @@ def _parallel_fetch(urls: list[str], workers: int = 6) -> dict[str, str]:
     return results
 
 
-def collect_pepper_deals(keywords: list[str]) -> list[dict]:
-    search_urls = {
-        f"https://www.pepper.pl/search?q={quote_plus(keyword)}": keyword
-        for keyword in keywords
+def _pepper_timestamp(value) -> str | None:
+    if value in (None, "", 0):
+        return None
+    try:
+        ts = float(value)
+        # Be defensive if Pepper ever returns milliseconds.
+        if ts > 10_000_000_000:
+            ts /= 1000.0
+        return datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
+    except (TypeError, ValueError, OSError):
+        return None
+
+
+def _format_pln(value) -> str:
+    if value is None:
+        return ""
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return ""
+    if number.is_integer():
+        return f"{int(number)} zł"
+    return f"{number:.2f}".replace(".", ",") + " zł"
+
+
+def _pepper_graphql_threads(limit: int = 100) -> list[dict]:
+    base_url = "https://www.pepper.pl"
+    session = requests.Session()
+
+    browser_headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7",
     }
-    search_pages = _parallel_fetch(list(search_urls), workers=6)
 
-    found = {}
-    for search_url, body in search_pages.items():
-        keyword = search_urls[search_url]
-        soup = BeautifulSoup(body, "html.parser")
-        for a in soup.find_all("a", href=True):
-            href = a.get("href", "")
-            if "/promocje/" not in href:
-                continue
-            url = urljoin("https://www.pepper.pl", href)
-            title = clean_text(a.get_text(" ", strip=True), 220)
-            if len(title) < 12:
-                continue
-            # Capture price from the search-result card as a reliable fallback.
-            card = a
-            for _ in range(6):
-                if card.parent:
-                    card = card.parent
-                card_text = clean_text(card.get_text(" ", strip=True), 1200)
-                if len(card_text) > 80 and re.search(r"\d+(?:[,.]\d{1,2})?\s*zł", card_text, flags=re.I):
-                    break
-            search_price = extract_price(card_text) if card else ""
+    def establish_session():
+        response = session.get(base_url + "/", headers={
+            **browser_headers,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+        }, timeout=15)
+        response.raise_for_status()
+        token = session.cookies.get("xsrf_t")
+        if not token:
+            raise RuntimeError("Pepper GraphQL: xsrf_t cookie not found")
+        from urllib.parse import unquote
+        return unquote(token).replace('"', "")
 
-            meta = found.setdefault(url, {"title": title, "keywords": [], "search_price": search_price})
-            if search_price and not meta.get("search_price"):
-                meta["search_price"] = search_price
-            if keyword not in meta["keywords"]:
-                meta["keywords"].append(keyword)
+    query = """
+    query getThreads($filter: ThreadFilter!, $limit: Int) {
+      threads(filter: $filter, limit: $limit) {
+        threadId
+        title
+        url
+        price
+        nextBestPrice
+        temperature
+        publishedAt
+        createdAt
+        description
+        type
+        status
+        isExpired
+        expirable
+        mainImage {
+          path
+          name
+        }
+        merchant {
+          merchantName
+        }
+        groups {
+          groupsPath {
+            pageUrl
+          }
+        }
+      }
+    }
+    """
 
-    detail_urls = list(found)[:50]
-    detail_pages = _parallel_fetch(detail_urls, workers=8)
+    xsrf = establish_session()
+    payload = {"query": query, "variables": {"filter": {}, "limit": limit}}
 
+    for attempt in range(2):
+        headers = {
+            **browser_headers,
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "X-Xsrf-Token": xsrf,
+            "X-Requested-With": "XMLHttpRequest",
+            "Origin": base_url,
+            "Referer": base_url + "/",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-origin",
+        }
+        response = session.post(
+            base_url + "/graphql",
+            headers=headers,
+            json=payload,
+            timeout=15,
+        )
+        if response.status_code == 418 and attempt == 0:
+            print("[PEPPER API] 418; refreshing session and retrying once")
+            time.sleep(2)
+            xsrf = establish_session()
+            continue
+
+        response.raise_for_status()
+        data = response.json()
+        if data.get("errors"):
+            raise RuntimeError(f"Pepper GraphQL errors: {data['errors'][:1]}")
+        return data.get("data", {}).get("threads", []) or []
+
+    return []
+
+
+def collect_pepper_deals(keywords: list[str]) -> list[dict]:
+    """Collect Pepper deals from its structured GraphQL feed.
+
+    One chronological GraphQL request is fetched, then keyword matching happens
+    locally. This avoids scraping prices from deal pages and avoids one search
+    request per keyword.
+    """
+    try:
+        threads = _pepper_graphql_threads(limit=100)
+    except Exception as exc:
+        print(f"[PEPPER API ERROR] {exc}")
+        return []
+
+    normalized_keywords = [(keyword, keyword.lower()) for keyword in keywords]
     items = []
-    now = datetime.now(timezone.utc).isoformat()
-    for url in detail_urls:
-        body = detail_pages.get(url)
-        if not body:
+
+    for thread in threads:
+        if thread.get("isExpired"):
             continue
-        page = BeautifulSoup(body, "html.parser")
-        text = clean_text(page.get_text(" ", strip=True), 5000)
-        if looks_inactive(text):
+        status = str(thread.get("status") or "").lower()
+        if status and status not in {"activated", "active"}:
             continue
 
-        meta = found[url]
-        h1 = page.find("h1")
-        title = clean_text(h1.get_text(" ", strip=True) if h1 else meta["title"], 220)
-        published_at = extract_published_from_soup(page) or now
+        title = clean_text(thread.get("title"), 260)
+        description = clean_text(thread.get("description"), 900)
+        haystack = f"{title} {description}".lower()
+
+        matched = [
+            original
+            for original, lowered in normalized_keywords
+            if lowered in haystack
+        ]
+        if not matched:
+            continue
+
+        url = thread.get("url") or ""
+        if url.startswith("/"):
+            url = urljoin("https://www.pepper.pl", url)
+        if not url or not title:
+            continue
+
+        published_at = (
+            _pepper_timestamp(thread.get("publishedAt"))
+            or _pepper_timestamp(thread.get("createdAt"))
+            or datetime.now(timezone.utc).isoformat()
+        )
+
+        main_image = thread.get("mainImage") or {}
+        image_url = ""
+        if main_image.get("path") and main_image.get("name"):
+            image_url = (
+                f"https://static.pepper.pl/{main_image['path']}/{main_image['name']}"
+                f"/re/600x600/qt/70/{main_image['name']}.jpg"
+            )
+
         items.append({
-            "id": make_id("Pepper", url),
+            "id": make_id("Pepper", str(thread.get("threadId") or url)),
             "source": "Pepper",
             "source_type": "deal",
             "category": "Okazje",
@@ -831,15 +955,23 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "summary": "",
             "url": url,
             "published_at": published_at,
-            "matched_keywords": meta["keywords"],
-            "price": "",
-            "temperature": extract_temperature(text),
+            "matched_keywords": matched,
+            "price": _format_pln(thread.get("price")),
+            "old_price": _format_pln(thread.get("nextBestPrice")),
+            "temperature": (
+                str(round(float(thread["temperature"])))
+                if thread.get("temperature") is not None else ""
+            ),
             "active": True,
+            "merchant": (thread.get("merchant") or {}).get("merchantName", ""),
+            "thumbnail_url": image_url,
         })
 
-    print(f"[OK] Pepper: {len(items)} active deals from {len(found)} candidates")
+    print(
+        f"[OK] Pepper GraphQL: {len(items)} matching active deals "
+        f"from {len(threads)} newest threads"
+    )
     return items
-
 
 def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
     search_urls = {
