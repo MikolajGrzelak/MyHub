@@ -5,5 +5,13 @@
   "display": "standalone",
   "background_color": "#090909",
   "theme_color": "#111111",
-  "description": "Personal gaming and technology hub"
+  "description": "Personal gaming and technology hub",
+  "icons": [
+    {
+      "src": "/static/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
