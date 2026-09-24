@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from feeds import SOURCES
+from feeds import SOURCES, REDDIT_SUBREDDITS, REDDIT_KEYWORDS, YOUTUBE_CHANNELS
 
 DATA_DIR = ROOT / "data"
 FEED_PATH = DATA_DIR / "feed.json"
@@ -29,6 +29,7 @@ TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.5-flash-lite")
 MAX_AI_ITEMS = int(os.environ.get("MYHUB_MAX_AI_ITEMS", "15"))
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
 HEADERS = {"User-Agent":"Mozilla/5.0 (compatible; MyHub/0.5; +https://myhub.pythonanywhere.com)"}
 
 def clean_text(value: str | None, max_length: int = 320) -> str:
@@ -72,6 +73,7 @@ def collect_rss(source) -> list[dict]:
         items.append({
             "id": make_id(source["name"], entry.get("id") or entry.get("guid") or link),
             "source": source["name"],
+            "source_type": "news",
             "category": source["category"],
             "language": source["language"],
             "title": title,
@@ -109,6 +111,7 @@ def collect_html(source) -> list[dict]:
     items = [{
         "id": make_id(source["name"], url),
         "source": source["name"],
+        "source_type": "news",
         "category": source["category"],
         "language": source["language"],
         "title": title,
@@ -120,6 +123,127 @@ def collect_html(source) -> list[dict]:
 
     print(f"[OK] {source['name']}: {len(items)} HTML items")
     return items
+
+
+def collect_reddit() -> list[dict]:
+    items = []
+    for subreddit in REDDIT_SUBREDDITS:
+        url = f"https://www.reddit.com/r/{subreddit}/new/.rss"
+        parsed = feedparser.parse(url, request_headers=HEADERS)
+        if parsed.bozo and not parsed.entries:
+            print(f"[ERROR] Reddit r/{subreddit}: {parsed.bozo_exception}")
+            continue
+
+        for entry in parsed.entries[:25]:
+            link = entry.get("link")
+            title = clean_text(entry.get("title"), 220)
+            if not link or not title:
+                continue
+
+            body = clean_text(entry.get("summary") or entry.get("description"), 420)
+            haystack = f"{title} {body}".lower()
+            matched = []
+            for rule in REDDIT_KEYWORDS:
+                if subreddit not in rule["subreddits"]:
+                    continue
+                phrase = rule["phrase"]
+                if phrase.lower() in haystack:
+                    matched.append(phrase)
+
+            items.append({
+                "id": make_id(f"Reddit:{subreddit}", entry.get("id") or link),
+                "source": f"r/{subreddit}",
+                "source_type": "reddit",
+                "category": "Reddit",
+                "language": "en",
+                "title": title,
+                "summary": body,
+                "url": link,
+                "published_at": published_iso(entry),
+                "matched_keywords": matched,
+                "priority": bool(matched),
+            })
+
+        print(f"[OK] Reddit r/{subreddit}: {sum(1 for i in items if i['source'] == 'r/' + subreddit)} items")
+    return items
+
+
+def youtube_get(path: str, params: dict) -> dict:
+    params = {**params, "key": YOUTUBE_API_KEY}
+    response = requests.get(
+        f"https://www.googleapis.com/youtube/v3/{path}",
+        params=params,
+        headers=HEADERS,
+        timeout=20,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def collect_youtube() -> list[dict]:
+    if not YOUTUBE_API_KEY:
+        print("[YT] YOUTUBE_API_KEY missing; skipping YouTube.")
+        return []
+
+    items = []
+    for channel in YOUTUBE_CHANNELS:
+        try:
+            channel_data = youtube_get(
+                "channels",
+                {"part": "contentDetails", "forHandle": channel["handle"]},
+            )
+            channel_items = channel_data.get("items", [])
+            if not channel_items:
+                print(f"[YT ERROR] {channel['name']}: channel not found")
+                continue
+
+            uploads = (
+                channel_items[0]
+                .get("contentDetails", {})
+                .get("relatedPlaylists", {})
+                .get("uploads")
+            )
+            if not uploads:
+                continue
+
+            playlist = youtube_get(
+                "playlistItems",
+                {
+                    "part": "snippet,contentDetails",
+                    "playlistId": uploads,
+                    "maxResults": 10,
+                },
+            )
+
+            count = 0
+            for entry in playlist.get("items", []):
+                snippet = entry.get("snippet", {})
+                video_id = entry.get("contentDetails", {}).get("videoId")
+                title = clean_text(snippet.get("title"), 220)
+                if not video_id or not title:
+                    continue
+                published = snippet.get("publishedAt") or datetime.now(timezone.utc).isoformat()
+                items.append({
+                    "id": make_id(f"YouTube:{channel['handle']}", video_id),
+                    "source": channel["name"],
+                    "source_type": "youtube",
+                    "category": "YouTube",
+                    "language": "pl",
+                    "title": title,
+                    "summary": clean_text(snippet.get("description"), 320),
+                    "url": f"https://www.youtube.com/watch?v={video_id}",
+                    "published_at": published,
+                    "thumbnail_url": (
+                        snippet.get("thumbnails", {}).get("medium", {}).get("url")
+                        or snippet.get("thumbnails", {}).get("default", {}).get("url", "")
+                    ),
+                })
+                count += 1
+            print(f"[OK] YouTube {channel['name']}: {count} items")
+        except requests.RequestException as exc:
+            print(f"[YT ERROR] {channel['name']}: {exc}")
+    return items
+
 
 def read_existing() -> list[dict]:
     if not FEED_PATH.exists():
@@ -164,6 +288,10 @@ def enrich_with_ai(items: list[dict]) -> int:
         if processed >= MAX_AI_ITEMS:
             break
         if item.get("language") == "pl":
+            continue
+        if item.get("source_type") == "youtube":
+            continue
+        if item.get("source_type") == "reddit" and not item.get("priority"):
             continue
         if item.get("summary_pl"):
             continue
@@ -217,6 +345,9 @@ def main():
             fresh.extend(collect_rss(source))
         else:
             fresh.extend(collect_html(source))
+    fresh.extend(collect_reddit())
+    fresh.extend(collect_youtube())
+
     items = merge_items(read_existing(), fresh)
     enrich_with_ai(items)
     write_feed(items)
