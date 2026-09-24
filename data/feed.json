@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T09:18:33.248994+00:00",
+  "updated_at": "2026-09-24T09:22:50.783816+00:00",
   "count": 71,
   "items": [
     {
@@ -9,7 +9,13 @@
       "title": "My first MMO character #3: Steve Haines",
       "summary": "My first MMO character #3: Steve Haines",
       "url": "https://www.pcgamer.com/games/world-of-warcraft/my-first-mmo-character-3-steve-haines/",
-      "published_at": "2026-09-24T09:00:00+00:00"
+      "published_at": "2026-09-24T09:00:00+00:00",
+      "summary_pl": "Autor dzieli się swoimi wspomnieniami związanymi ze stworzeniem swojej pierwszej postaci w grze MMO o imieniu Steve Haines.",
+      "tags": [
+        "MMO",
+        "PC Gamer",
+        "Gry"
+      ]
     },
     {
       "id": "6d4b7411c393562fd662d8b3d8c8e5302b3034260d3cd0ee797bb8bd1cce16b5",
@@ -18,7 +24,14 @@
       "title": "Micropost: I use my ring finger for right mouse button. Am I okay?",
       "summary": "Micropost: I use my ring finger for right mouse button. Am I okay?",
       "url": "https://www.pcgamer.com/games/micropost-i-use-my-ring-finger-for-right-mouse-button-am-i-okay/",
-      "published_at": "2026-09-24T07:00:00+00:00"
+      "published_at": "2026-09-24T07:00:00+00:00",
+      "summary_pl": "Autor dzieli się nietypowym nawykiem używania palca serdecznego do klikania prawego przycisku myszy.",
+      "tags": [
+        "PC Gamer",
+        "Myszka",
+        "Ciekawostki",
+        "Sprzęt"
+      ]
     },
     {
       "id": "1da771c7917987a895717882dc1f09aad228484ba716054be2bd205391a4a18a",
@@ -27,7 +40,14 @@
       "title": "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
       "summary": "Spl-ASH damage.",
       "url": "https://www.pcgamer.com/games/rpg/the-industrial-revolution-is-the-reason-rpgs-have-area-of-effect-spells-a-pc-gamer-causality-chaintm/",
-      "published_at": "2026-09-24T04:00:25+00:00"
+      "published_at": "2026-09-24T04:00:25+00:00",
+      "summary_pl": "Rewolucja przemysłowa jest powodem, dla którego gry RPG posiadają zaklęcia obszarowe. Tak wynika z materiału PC Gamer.",
+      "tags": [
+        "RPG",
+        "PC Gamer",
+        "Historia gier",
+        "Ciekawostki"
+      ]
     },
     {
       "id": "41166e877140c7bafbf04d27691e9b850f9719907ef783c8c81bfd8a3cb8c625",
@@ -36,7 +56,14 @@
       "title": "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
       "summary": "If you ever played it on Steam, it's yours to keep.",
       "url": "https://www.pcgamer.com/games/fps/quake-champions-takes-a-shower-shedding-all-its-2017-live-service-grime-and-becoming-a-usd10-game/",
-      "published_at": "2026-09-23T23:48:24+00:00"
+      "published_at": "2026-09-23T23:48:24+00:00",
+      "summary_pl": "Quake Champions rezygnuje z elementów gry uslugowej z 2017 roku i staje się płatną produkcją za 10 dolarów. Gracze, którzy uruchomili ją wcześniej na Steam, zachowają ją w swoich bibliotekach.",
+      "tags": [
+        "Quake Champions",
+        "Steam",
+        "PC Gamer",
+        "Gry"
+      ]
     },
     {
       "id": "1b2fc9d10d48609768ddfe319af1bd6b7e03a1461d3db24ed658bfc74490f49d",
@@ -45,7 +72,14 @@
       "title": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
       "summary": "Valve, are you hearing this?",
       "url": "https://www.pcgamer.com/gaming-industry/microsofts-approach-to-age-verification-in-australia-is-further-proof-that-valve-is-taking-the-everloving-piss/",
-      "published_at": "2026-09-23T23:31:23+00:00"
+      "published_at": "2026-09-23T23:31:23+00:00",
+      "summary_pl": "Podejście Microsoftu do weryfikacji wieku w Australii stanowi dowód na to, jak Valve ignoruje tę kwestię.",
+      "tags": [
+        "Microsoft",
+        "Valve",
+        "Australia",
+        "gry"
+      ]
     },
     {
       "id": "cd1e515d714e8ca891ffbcbd1df5bca2e273634fa8e04600a738a8f2883b1ce7",
@@ -54,7 +88,14 @@
       "title": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
       "summary": "US health deptartment said it wants to ensure the vaccine orders are \"appropriate.\"",
       "url": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
-      "published_at": "2026-09-23T22:17:25+00:00"
+      "published_at": "2026-09-23T22:17:25+00:00",
+      "summary_pl": "CDC pod kierownictwem RFK Jr. blokuje stanom możliwość zamawiania szczepionek przeciwko COVID-19 dla dzieci. Amerykański department zdrowia chce najpierw upewnić się, że zamówienia są odpowiednie.",
+      "tags": [
+        "CDC",
+        "RFK Jr.",
+        "szczepionki",
+        "USA"
+      ]
     },
     {
       "id": "1251d8cdf6ea0fc7f4dc1e8ab216e325d15724efac613257c7da14e8df3545d3",
@@ -63,7 +104,14 @@
       "title": "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
       "summary": "Blizzard is bringing intense weather effects back to Azeroth.",
       "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-first-patch-will-bring-back-the-number-one-thing-seasoned-players-missed-from-the-mmos-past-storms/",
-      "published_at": "2026-09-23T22:06:43+00:00"
+      "published_at": "2026-09-23T22:06:43+00:00",
+      "summary_pl": "Blizzard wprowadza intensywne efekty pogodowe z powrotem do Azeroth w pierwszej aktualizacji dla World of Warcraft: Forever.",
+      "tags": [
+        "World of Warcraft",
+        "Blizzard",
+        "MMO",
+        "gry"
+      ]
     },
     {
       "id": "f2f4c5f9b509d2557861c1fedbd4640e98e3b2bd39cf686986259cd68da5c781",
@@ -72,7 +120,13 @@
       "title": "Halo needed to change, but Activision faces a huge challenge to fix it",
       "summary": "Gutting the team that existed to make Halo is a drastic move.",
       "url": "https://www.pcgamer.com/games/halo/halo-needed-to-change-but-activision-faces-a-huge-challenge-to-fix-it/",
-      "published_at": "2026-09-23T21:50:00+00:00"
+      "published_at": "2026-09-23T21:50:00+00:00",
+      "summary_pl": "Wprowadzenie zmian w serii Halo było konieczne, jednak Activision mierzy się z ogromnym wyzwaniem. Drastycznym krokiem okazało się zwolnienie zespołu tworzącego tę grę.",
+      "tags": [
+        "Halo",
+        "Activision",
+        "Gry"
+      ]
     },
     {
       "id": "27c4cc5dbcd95f76928c5b332c3c43ec15d54ca3300195899b7fddc0adb9223d",
@@ -81,7 +135,14 @@
       "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
       "summary": "It's unclear what will happen if FBI misses ShinyHunters' deadline.",
       "url": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
-      "published_at": "2026-09-23T21:46:36+00:00"
+      "published_at": "2026-09-23T21:46:36+00:00",
+      "summary_pl": "FBI pilnie bada, czy domniemany wyciek danych tysięcy pracowników przez grupę ShinyHunters jest prawdziwy. Nieznane pozostają konsekwencje przekroczenia wyznaczonego przez hakerów terminu.",
+      "tags": [
+        "FBI",
+        "ShinyHunters",
+        "cyberbezpieczeństwo",
+        "wyciek danych"
+      ]
     },
     {
       "id": "0f0452b10a1b7e0309e56a26edf4954a2d1f50ff85a6ac1a3e897533a3f4af1d",
@@ -90,7 +151,14 @@
       "title": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
       "summary": "The Disney+ ad-free plan is now more expensive than Netflix's.",
       "url": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
-      "published_at": "2026-09-23T21:18:53+00:00"
+      "published_at": "2026-09-23T21:18:53+00:00",
+      "summary_pl": "Platformy Disney+ i Hulu podnoszą ceny nawet o 13 procent w wyniku podwojenia swoich zysków. Nowy plan bez reklam jest droższy od Netfliksa.",
+      "tags": [
+        "Disney+",
+        "Hulu",
+        "Streaming",
+        "Ceny"
+      ]
     },
     {
       "id": "5c8dab990e351d73a713008cff2b7e7c1b42c5010b8bd43f6b84f2e5c8cb1a7a",
@@ -99,7 +167,13 @@
       "title": "Here's the Torcal, the first fully electric Bentley",
       "summary": "It sounds like a V8, rides like a Flying Spur, but handles like a Continental GT.",
       "url": "https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/",
-      "published_at": "2026-09-23T21:06:07+00:00"
+      "published_at": "2026-09-23T21:06:07+00:00",
+      "summary_pl": "Przedstawiono Torcal, czyli pierwszy całkowicie elektryczny samochód marki Bentley, który łączy brzmienie V8 z właściwościami modeli Flying Spur i Continental GT.",
+      "tags": [
+        "Bentley",
+        "Motoryzacja",
+        "Samochody elektryczne"
+      ]
     },
     {
       "id": "03b449f2fb54d02215802f70edfdc752ee6bbdbf77f6fe49b4e191cf9a4c5204",
@@ -108,7 +182,13 @@
       "title": "My first MMO character #2: Joshua Wolens",
       "summary": "My first MMO character #2: Joshua Wolens",
       "url": "https://www.pcgamer.com/games/my-first-mmo-character-2-joshua-wolens/",
-      "published_at": "2026-09-23T21:00:00+00:00"
+      "published_at": "2026-09-23T21:00:00+00:00",
+      "summary_pl": "Joshua Wolens dzieli się swoimi wspomnieniami związanymi ze stworzeniem swojej pierwszej postaci w grze MMO.",
+      "tags": [
+        "MMO",
+        "PC Gamer",
+        "Gaming"
+      ]
     },
     {
       "id": "f23ce1419a830beb28e6c6a70e9425211b674516883173496c08b95d9799cf89",
@@ -117,7 +197,14 @@
       "title": "Steam game disables mods after facing its second Workshop malware outbreak this year",
       "summary": "A self-replicating virus is once again wreaking havoc on People Playground.",
       "url": "https://www.pcgamer.com/games/sim/steam-game-disables-mods-after-facing-its-second-workshop-malware-outbreak-this-year/",
-      "published_at": "2026-09-23T20:53:49+00:00"
+      "published_at": "2026-09-23T20:53:49+00:00",
+      "summary_pl": "Gra Steam Peoples Playground wyłączyła mody po drugim w tym roku incydencie z złośliwym oprogramowaniem w Warsztacie, wywołanym przez wirus samoreplikujący.",
+      "tags": [
+        "Steam",
+        "Peoples Playground",
+        "mody",
+        "wirus"
+      ]
     },
     {
       "id": "185b63367729b0a1400e392d4226055a5a821c43eb403371c6605d91ca45b0b7",
@@ -126,7 +213,14 @@
       "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
       "summary": "Trump focus on winning “AI race” may deter China from sharing safety intel.",
       "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/",
-      "published_at": "2026-09-23T20:52:28+00:00"
+      "published_at": "2026-09-23T20:52:28+00:00",
+      "summary_pl": "Eksperti ostrzegają, że skupienie się Trumpa na wyścigu z Chinami w dziedzinie sztucznej inteligencji może zniechęcić Pekin do dzielenia się informacjami o bezpieczeństwie.",
+      "tags": [
+        "Trump",
+        "Chiny",
+        "AI",
+        "USA"
+      ]
     },
     {
       "id": "b425caa1a380033cdb37b398fbddec62cad9d901710fbae11b104d42a0fed373",
@@ -135,7 +229,14 @@
       "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
       "summary": "Authenticity is core to Blizzard's new MMO, but it's also not trying to recreate the past 1:1.",
       "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-addresses-the-debate-over-who-its-made-for-i-did-not-spend-the-last-year-of-my-life-relearning-and-mastering-how-to-do-things-like-we-did-it-20-years-ago-for-retail-players/",
-      "published_at": "2026-09-23T20:42:58+00:00"
+      "published_at": "2026-09-23T20:42:58+00:00",
+      "summary_pl": "Deweloperzy World of Warcraft: Forever odnieśli się do kwestii grupy docelowej gry. Autentyczność jest kluczowa dla nowego MMO od Blizzard, jednak twórcy nie dążą do wiernego odtworzenia przeszłości 1:1.",
+      "tags": [
+        "World of Warcraft",
+        "Blizzard",
+        "MMO",
+        "PC Gamer"
+      ]
     },
     {
       "id": "3b28ea9843989c629421c3ef90d251d0edbaa098ff124a3b0b058e3df2d63ec5",
