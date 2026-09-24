@@ -13,11 +13,14 @@ h1 { margin: 0; font-size: 40px; letter-spacing: -.04em; }
 .badge { border: 1px solid #303036; border-radius: 999px; padding: 7px 10px; color: #b7b7bd; font-size: 12px; }
 .chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 16px; scrollbar-width: none; }
 .chips::-webkit-scrollbar { display: none; }
-.chip { flex: 0 0 auto; border: 1px solid #2a2a2e; background: #151517; color: #d8d8dc; border-radius: 999px; padding: 9px 13px; font: inherit; }
+.chip { flex: 0 0 auto; border: 1px solid #2a2a2e; background: #151517; color: #d8d8dc; border-radius: 999px; padding: 9px 13px; text-decoration: none; }
 .chip.active { background: #f5f5f5; color: #111; }
+.chip.disabled { opacity: .45; }
 .feed { display: grid; gap: 12px; }
 .card { background: #151517; border: 1px solid #242428; border-radius: 20px; padding: 18px; }
-.meta { color: #8e8e93; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
-.card h2 { margin: 9px 0 8px; font-size: 22px; letter-spacing: -.02em; }
-.card p { margin: 0 0 16px; color: #b9b9bf; line-height: 1.45; }
-.card a { color: #fff; text-decoration: none; font-weight: 700; }
+.meta { display: flex; justify-content: space-between; gap: 12px; color: #8e8e93; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; }
+.date { white-space: nowrap; font-weight: 500; text-transform: none; letter-spacing: 0; }
+.card h2 { margin: 9px 0 8px; font-size: 21px; line-height: 1.18; letter-spacing: -.02em; }
+.card p { margin: 0 0 16px; color: #b9b9bf; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.open { color: #fff; text-decoration: none; font-weight: 700; }
+.empty { margin-top: 20px; }
