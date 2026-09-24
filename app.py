@@ -21,6 +21,7 @@ def index():
     category = request.args.get("category", "").strip()
     language = request.args.get("lang", "").strip().lower()
     source = request.args.get("source", "").strip()
+    section = request.args.get("section", "").strip().lower()
     items = all_items
     if category:
         items = [i for i in items if i.get("category","").lower() == category.lower()]
@@ -28,9 +29,14 @@ def index():
         items = [i for i in items if i.get("language","en").lower() == language]
     if source:
         items = [i for i in items if i.get("source","") == source]
+    if section in {"news","reddit","youtube","priority"}:
+        if section == "priority":
+            items = [i for i in items if i.get("priority")]
+        else:
+            items = [i for i in items if i.get("source_type","news") == section]
     sources = sorted({i.get("source","") for i in all_items if i.get("source")})
     return render_template("index.html", items=items[:120], total_count=len(all_items),
-                           category=category, language=language, source=source,
+                           category=category, language=language, source=source, section=section,
                            available_sources=sources)
 
 @app.route("/health")
