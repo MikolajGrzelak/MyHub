@@ -787,7 +787,19 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             title = clean_text(a.get_text(" ", strip=True), 220)
             if len(title) < 12:
                 continue
-            meta = found.setdefault(url, {"title": title, "keywords": []})
+            # Capture price from the search-result card as a reliable fallback.
+            card = a
+            for _ in range(6):
+                if card.parent:
+                    card = card.parent
+                card_text = clean_text(card.get_text(" ", strip=True), 1200)
+                if len(card_text) > 80 and re.search(r"\d+(?:[,.]\d{1,2})?\s*zł", card_text, flags=re.I):
+                    break
+            search_price = extract_price(card_text) if card else ""
+
+            meta = found.setdefault(url, {"title": title, "keywords": [], "search_price": search_price})
+            if search_price and not meta.get("search_price"):
+                meta["search_price"] = search_price
             if keyword not in meta["keywords"]:
                 meta["keywords"].append(keyword)
 
@@ -820,7 +832,7 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "url": url,
             "published_at": published_at,
             "matched_keywords": meta["keywords"],
-            "price": extract_pepper_current_price(page, title),
+            "price": extract_pepper_current_price(page, title) or meta.get("search_price", ""),
             "temperature": extract_temperature(text),
             "active": True,
         })
