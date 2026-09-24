@@ -33,6 +33,75 @@ MAX_AI_ITEMS = int(os.environ.get("MYHUB_MAX_AI_ITEMS", "15"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
 HEADERS = {"User-Agent":"Mozilla/5.0 (compatible; MyHub/0.5; +https://myhub.pythonanywhere.com)"}
 
+HARDWARE_TERMS = [
+    "gpu", "cpu", "apu", "ryzen", "radeon", "geforce", "nvidia", "amd", "intel",
+    "snapdragon", "mediatek", "ram", "vram", "ssd", "nvme", "pcie", "motherboard",
+    "płyta główna", "procesor", "karta graficzna", "sterownik", "driver", "bios",
+    "firmware", "laptop", "monitor", "oled", "mini-led", "handheld", "legion go",
+    "steam deck", "rog ally", "xbox handheld", "playstation handheld", "console",
+    "konsola", "windows", "linux", "steamos", "android", "iphone", "ipad", "macbook",
+    "wi-fi", "wifi", "router", "thunderbolt", "usb4", "egpu"
+]
+
+GAME_NEWS_TERMS = [
+    "premiera", "release", "data premiery", "trailer", "zwiastun", "gameplay",
+    "rozgrywka", "patch", "łatka", "aktualizacja", "update", "dlc", "dodatek",
+    "remaster", "remake", "demo", "beta", "sequel", "kontynuacja", "zapowiedz",
+    "zapowiedź", "announced", "launch", "opóźn", "delay", "wymagania", "requirements",
+    "fps", "performance", "wydajność", "wersja", "port", "crossplay", "cross-save",
+    "tryb", "mode", "expansion", "season", "sezon", "patch notes"
+]
+
+OFFTOPIC_TERMS = [
+    "youtuber", "streamer", "influencer", "promocję kanału", "kanału o",
+    "zarobki", "przychody", "akcje spółki", "giełda", "ceo", "pozew", "sąd",
+    "afera", "kontrowers", "cosplay", "film", "serial", "anime", "merch",
+    "gadżet kolekcjonerski", "twitter", "x.com", "tiktok", "instagram",
+    "wiek graczy", "age verification", "branża", "gaming industry"
+]
+
+
+def is_relevant_news(item: dict) -> bool:
+    if item.get("source_type", "news") != "news":
+        return True
+
+    text = f"{item.get('title','')} {item.get('summary','')}".lower()
+
+    if any(term in text for term in OFFTOPIC_TERMS):
+        return False
+
+    if item.get("category") == "Tech":
+        return any(term in text for term in HARDWARE_TERMS)
+
+    if item.get("category") == "Gaming":
+        return any(term in text for term in GAME_NEWS_TERMS)
+
+    return False
+
+
+def clean_cdaction_title(text: str) -> str:
+    text = clean_text(text, 320)
+    text = re.sub(r"^Newsy(?:\s+\d+)?\s+", "", text, flags=re.I)
+
+    # CD-Action list cards often contain the headline twice, then time/author metadata.
+    # If the beginning repeats later, keep only the first occurrence.
+    for split_at in range(28, min(len(text), 180)):
+        prefix = text[:split_at].strip()
+        if len(prefix) < 28:
+            continue
+        second = text.find(prefix, split_at)
+        if second != -1:
+            return prefix
+
+    text = re.sub(
+        r"\s+(?:Przed chwilą|\d+\s+minut(?:a|y)?\s+temu|\d+\s+godzin(?:a|y)?\s+temu|\d{2}\.\d{2}\.\d{4}).*$",
+        "",
+        text,
+        flags=re.I,
+    )
+    return text.strip()
+
+
 def clean_text(value: str | None, max_length: int = 320) -> str:
     if not value:
         return ""
@@ -102,7 +171,9 @@ def collect_html(source) -> list[dict]:
         path = parsed.path if parsed.scheme else href.split("?",1)[0]
         if not pattern.match(path):
             continue
-        title = clean_text(a.get_text(" ", strip=True), 220)
+        title = clean_text(a.get_text(" ", strip=True), 320)
+        if source["name"] == "CD-Action":
+            title = clean_cdaction_title(title)
         if len(title) < 18:
             continue
         url = urljoin(source["base_url"], href)
@@ -356,6 +427,9 @@ def main():
     fresh.extend(collect_youtube())
 
     items = merge_items(read_existing(), fresh)
+    before_filter = len(items)
+    items = [item for item in items if is_relevant_news(item)]
+    print(f"[FILTER] kept {len(items)}/{before_filter} items after relevance filtering")
     enrich_with_ai(items)
     write_feed(items)
     print(f"Done. Collected {len(fresh)} fresh items.")
