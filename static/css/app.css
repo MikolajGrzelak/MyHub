@@ -21,6 +21,9 @@ h1 { margin: 0; font-size: 40px; letter-spacing: -.04em; }
 .meta { display: flex; justify-content: space-between; gap: 12px; color: #8e8e93; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; }
 .date { white-space: nowrap; font-weight: 500; text-transform: none; letter-spacing: 0; }
 .card h2 { margin: 9px 0 8px; font-size: 21px; line-height: 1.18; letter-spacing: -.02em; }
-.card p { margin: 0 0 16px; color: #b9b9bf; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card p { margin: 0 0 14px; color: #b9b9bf; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card .summary-pl { color: #dedee3; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 15px; }
+.tag { padding: 5px 8px; border-radius: 999px; background: #202024; border: 1px solid #303036; color: #bdbdc4; font-size: 11px; }
 .open { color: #fff; text-decoration: none; font-weight: 700; }
 .empty { margin-top: 20px; }
