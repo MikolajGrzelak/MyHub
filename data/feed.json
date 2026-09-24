@@ -1,7 +1,779 @@
 {
-  "updated_at": "2026-09-24T13:32:41.337649+00:00",
-  "count": 271,
+  "updated_at": "2026-09-24T17:39:13.571363+00:00",
+  "count": 285,
   "items": [
+    {
+      "id": "fe55d0435627f331423cc570b9a971fe8936fbe0070bffd6d3f020ad6cf9ae70",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Call of Duty: Modern Warfare 4 wprowadzi wyczekiwaną opcję. Na tę funkcję fani czekali od lat PS5 XSX|S NS2 PC",
+      "summary": "Fani Call of Duty otrzymali kolejny powód, aby czekać na Modern Warfare 4. Deweloperzy zapowiedzieli, że gracze nie będą już musieli ciągle patrzeć na burzące immersję skórki.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427815/call-of-duty-modern-warfare-4-wprowadzi-wyczekiwana-opcje-na-te-funkcje-fani-czekali-od-lat.html",
+      "published_at": "2026-09-24T19:05:00+00:00"
+    },
+    {
+      "id": "f964461ab0b3e60ad9bbf0318a70b059ed4d6da44f43b602505629dbeb012a26",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Ace Combat 8: Wings of Theve pokazuje początek kampanii. Nowy zwiastun już dostępny PS5 XSX|S PC",
+      "summary": "Bandai Namco zaprezentowało nowy materiał z „Ace Combat 8: Wings of Theve”, pokazując tym razem początek kampanii. Zwiastun łączy sceny fabularne z fragmentami rozgrywki i pozwala bliżej poznać bohaterów ósmej odsłony serii.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427801/ace-combat-8-wings-of-theve-pokazuje-poczatek-kampanii-nowy-zwiastun-juz-dostepny.html",
+      "published_at": "2026-09-24T18:42:00+00:00"
+    },
+    {
+      "id": "0034ee1ba75cebdb88747c522cfc346bca73d36ba8dfde4795afa4f01d6441dd",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "No Man’s Sky dostało OGROMNĄ aktualizację! Lista zmian robi wrażenie NS PS4 XONE",
+      "summary": "No Man’s Sky otrzymało kolejną aktualizację po niedawnym Cosmos. Hello Games wypuściło patch 7.04, którego głównym zadaniem jest uporanie się z długą listą błędów.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427795/no-mans-sky-dostalo-ogromna-aktualizacje-lista-zmian-robi-wrazenie.html",
+      "published_at": "2026-09-24T17:58:00+00:00"
+    },
+    {
+      "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "ROG Ally",
+        "Steam Deck"
+      ],
+      "price": "67,01 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4bb7b9802eb2ae1bb5c96ebd7453b496f2d588c15b498bf468f03c8097e0e435",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra XBOX Wiedźmin 3: Dziki Gon – Edycja Kompletna",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xbox-wiedzmin-3-dziki-gon-edycja-kompletna-1356577",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "9bac4f35504a0c976379a44abac09600c79bd17509080a57c4693fa58212934e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "FARCRY 6 – Xbox One / Series X|S",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/farcry-6-xbox-one-series-xs-1356436",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "43,49 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "9aa102baaa96ca8c720967bcf39947d64aee2cc13c86bc290f489a2a5e312bcc",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Watch Dogs 2 (54,90kr+) lub Watch Dogs 2 Złota Edycja (87,90kr+) - XBOX",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/watch-dogs-2-2132zl-lub-watch-dogs-2-zlota-edycja-3414zl-czesc-xbox-1356606",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "21,32 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "b5ba9b370835e121441d43b3a17f2ba4a5134277c6e900f1b6da22666250134d",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Assassin's Creed Valhalla – Xbox One / Series X|S",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/assassins-creed-valhalla-xbox-one-series-xs-1356437",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "57,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "7d9b040b380b397ea7d390021327f6b1c581666eab9f348c5ab097fece469a61",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Far Cry Primal Apex Edition (Xbox One / Xbox Series X|S) Xbox Live Key - EU",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/far-cry-primal-apex-edition-xbox-one-xbox-series-xs-xbox-live-key-eu-1356579",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "66653e47dc0da64694e022520e05e2537516493ef2f47459d3f4003666e5874a",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Assassin's Creed Mirage – edycja deluxe – Xbox One / Series X|S – 6270 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/assassins-creed-mirage-edycja-deluxe-xbox-one-series-xs-6270-huf-1356441",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "7ab0d5c5018afa6de74f125c876785530406d73d60a0e748cd273ce12a2fc992",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Tom Clancy's Splinter Cell: Chaos Theory – Xbox One / Series X|S – 800 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/tom-clancys-splinter-cell-chaos-theory-xbox-one-series-xs-800-huf-1356439",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "305394f96bf3663584279f8726ce8cc8a9819f1830024b31cfe9fccc41a47f7d",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Xbox Game Pass Premium za darmo na 1 miesiąc - Samsung Promotion (dla nowych kont Xbox)",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-za-darmo-na-1-miesiac-samsung-promotion-dla-nowych-kont-xbox-1356255",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "add2f62a9804051cd84e0460ae8a541d858a86d41e4f6369bee17e91582b7d16",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Enotria: The Last Song – Xbox One / Series X|S – 1649 ISK",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/enotria-the-last-song-xbox-one-series-xs-1649-isk-1355688",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6ad0aacf65f4595545b17d9031ff41877366e3aef0000e0f9666aeb8d1604662",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Xbox theHunter Call of the Wild: Standard Edition CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xbox-thehunter-call-of-the-wild-standard-edition-cd-key-1356184",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "27a8dd68625440ed993de341fea4133f4d75158e386d757b3dffb413dababd24",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Forza Horizon 6 różne edycje",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/forza-horizon-6-rozne-edycje-1356722",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4176855a2134de049ad62404ab4f185874c98f75d210807de159f4be82888aea",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Microsoft Xbox Series X + Elite Series 2",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/microsoft-xbox-series-x-elite-series-2-1355830",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "499 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "9a0cdafb217e4f27787dba5fb079c55e38530eaf90c7bb7fa20edd939f746ec9",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Xbox Tom Clancy's Ghost Recon Wildlands: Standard Edition CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xbox-tom-clancys-ghost-recon-wildlands-standard-edition-1356047",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "bff225660b0fb4dbff928a11926b567742f5db1caffc37b3bc2484a0ac10cee8",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Pad, Kontroler bezprzewodowy Xbox – Ice Breaker Special Edition Series X|S, One, PC i urządzenia z obsługą chmury | wymagany PRIME FR |",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/pad-kontroler-bezprzewodowy-xbox-ice-breaker-special-edition-series-xs-one-pc-i-urzadzenia-z-obsluga-chmury-wymagany-prime-fr-1356285",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "660e9cb2ff7dac693d45ebebd40d6bfd9a148ecf66727af5845a30d496124858",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DREDGE – Xbox One / Series X|S – 939 ISK",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/dredge-xbox-one-series-xs-939-isk-1355293",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "000a30c1ad1ff5e424b956aee990da23115a4a086c173ae03ea3ca8c3f8c998a",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Overcooked! 2 – Xbox One / Series X|S – 1245 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/overcooked-2-xbox-one-series-xs-1245-huf-1355295",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "19f693521b725dce9b402ad7b610036dc29e470b0afe192a8dc4460e659b695e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DLC Xbox/PC Halo Infinite Campaign CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/gra-xboxpc-halo-infinite-campaign-cd-key-1355178",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "67,16 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "ef0c452ff649de55b6a800d4cde28e7a8effceebdf9ea838ec37e3f6cb931b68",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Worms W.M.D Xbox One/Series",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/worms-wmd-xbox-oneseries-1354556",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "30bee6164df422cb756ad65ed421e36d90672ecc88af76d0b988858c19e5a828",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Resident Evil 4 (2023) Gold Edition EU Xbox Series X|S CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/resident-evil-4-2023-gold-edition-eu-xbox-series-xs-cd-key-1355406",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "a9546055fb2f7fa5f728c5e44d80bd411a02b4ad851b522d2d4e8b517ea9959a",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Spyro Reignited Trilogy AR XBOX One / Xbox Series X|S CD Key - wymagany VPN",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/spyro-reignited-trilogy-ar-xbox-one-xbox-series-xs-cd-key-wymagany-vpn-1355023",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "f65f6c118fa10b1c28a546d116fd12f4578b28f4c86aac01d57ca9e427d54fc6",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "gra Samson - A Tyndalston Story Xbox, PC - Play Anywhere z Islandzkiego Ms Store - 2349 isk",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/samson-a-tyndalston-story-xbox-pc-z-islandzkiego-ms-store-2349-isk-1354808",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4cfbc0d2f61b2465302366e6eac9809da253f1e6b8d534eb53b0dfe214e92c1c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "gra Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX One / Xbox Series X|S CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-one-xbox-series-xs-cd-key-1355016",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4429226ec40139053c101e1e8ed6553c884ced1c88befaf647f01f473d82f466",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra METAL GEAR SOLID V: THE DEFINITIVE EXPERIENCE – Xbox One / Series X|S – 5510 HUF",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/metal-gear-solid-v-the-definitive-experience-xbox-one-series-xs-5510-huf-1354677",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "a4a612a1bfcc9da6c90fb94820b061a14e5f5bf64e2700c82c1a7fb6fe86bc5b",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Worms Rumble - Digital Deluxe Edition za 12,82 zł z Islandzkiego Xbox Store @ Xbox One / XBOX Series X|S / PC",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/worms-rumble-digital-deluxe-edition-za-1282-zl-z-islandzkiego-xbox-store-at-xbox-one-xbox-series-xs-pc-1354287",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "12,82 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "b1f73f74d22d293da445bd3b11dc6e6e329ed1eb1d481598708a51a85768ab9e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Laptop 2 w 1 Lenovo IdeaPad Flex 5 (Ryzen 5-7430U / 16/512 GB / Win11 Touch, podświetlanie) + 240 zł Cashbacku + pad Xbox lub słuchawki E310",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/laptop-2-w-1-lenovo-ideapad-flex-5-ryzen-5-7430u-16512-gb-win11-touch-podswietlanie-240-zl-cashbacku-pad-xbox-lub-sluchawki-e310-1355361",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "Ryzen",
+        "pad Xbox"
+      ],
+      "price": "399 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "d641021483dd9cd9cef3ade94018a089216e4a856a8516c3db5b48189484aee4",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Monopoly Madness, Xbox One, Xbox Series X",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/monopoly-madness-xbox-one-xbox-series-sx-1354233",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "9,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "663fd486eb026139e9085a53b0b213e2131cbc4c403e88ecd8b96f83747ff2f2",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Wiedźmin 3 Edycja Kompletna Xbox za 22,50 dla posiadaczy gamepassa",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/wiedzmin-3-edycja-kompletna-za-2250-dla-posiadaczy-gamepassa-1354031",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "450386d7e4188fc9e3db63845c7e90e5b091820d1b3f82eeba0b7555d1a210e9",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kod Xbox Game Pass Premium na miesiąc za darmo dla posiadaczy TV Samsung lub projektorów Samsung ( z aplikacji Samsung Promotion na TV)",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-na-miesiac-za-darmo-dla-ppsiadaczy-tv-samsung-1354678",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "5785c67bbcba5101267b803f2cb23a11e4d23b3e9263f127e5444a8cb5299c39",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Silikonowe nakładki, kompatybilne z kontrolerami PS4, PS5 i Xbox 20 Sztuk @ Amazon.pl",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/silikonowe-nakladki-kompatybilne-z-kontrolerami-ps4-ps5-i-xbox-20-sztuk-at-amazonpl-1354335",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "PS5"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "1baece8c493556d92890bc66cfe0474c1f4485cd1b25cfbca116ee17d00aec3e",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kontroler Xbox – Edycja specjalna Ice Breaker Series X|S, One, PC | w opisie Heart Breaker, Storm Breaker, czarny i niebieski",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/kontroler-xbox-edycja-specjalna-ice-breaker-series-xs-one-pc-czarny-w-opisie-heart-breaker-storm-breaker-czarny-i-niebieski-1354469",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6745307b1923be9893674b8ceab229d2b531b493f4a86097028c9a1b96c9b980",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Steam Deck LCD 256 GB",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "198,99 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "849ca687c4e22c78e21d9eb9cc10c911ad2204372f07418695856e42b04e57a5",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck MK.2 za 445 zł",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "449 zł",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "6c0a8e86d6ac7e1129f88ce7a6cfed5c5b776d4dda9f63dda662e31376028bd3",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck +",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "42dd9ce5a61cd65721f0b4859a4c229b0d32826ec5b4e5266ae860b32e3a457c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
+      "published_at": "2026-09-24T17:38:23.557277+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "a13e769fd164b828a6c8c2f4562bbb92d896f47526e3b7f943088a5caf014885",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "My greatest GTA 5 challenge yet: Random teleports every 50 seconds",
+      "summary": "Excuse m- *poof*.",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/my-greatest-gta-5-challenge-yet-random-teleports-every-50-seconds/",
+      "published_at": "2026-09-24T17:09:26+00:00"
+    },
+    {
+      "id": "2dc0ce59222c6594f5732b088bad5865de059c0f55bb91b74a2b65c479c84898",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Kupujmy gry na płytach, bo niebawem odejdą. Kultowy hit otrzyma wydanie fizyczne",
+      "summary": "Legacy of Kain: Defiance Remastered doczeka się fizycznego wydania na współczesnych konsolach.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427794/kupujmy-gry-na-plytach-bo-niebawem-odejda-kultowy-hit-otrzyma-wydanie-fizyczne.html",
+      "published_at": "2026-09-24T17:05:00+00:00"
+    },
+    {
+      "id": "30e045a19427205782bcb58ddb91bec5a45e371319c4ad51064e6357b0273f47",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Looking for a dock or USB-C to HDMI 2.1 adapter that supports 4K 120Hz HDR VRR on the OG Legion Go",
+      "summary": "I'm running a Sunshine/Moonlight setup on my TCL Mini-LED TV, and I'm trying to get 4K 120Hz + HDR + VRR working on the TV using my OG Legion Go. I've already tried two docking stations, but haven't had any luck getting all three features working together: UGREEN 6-in-1 (75126) 4K ✅ HDR ✅ VRR ✅ 120Hz ❌ It was supposed to support everything, but I couldn't get 120Hz working, I experienced strange colors and a buzzing…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wp79jc/looking_for_a_dock_or_usbc_to_hdmi_21_adapter/",
+      "published_at": "2026-09-24T17:03:17+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true
+    },
+    {
+      "id": "9ab6eb526425a447f3e58669c09f8c8b7261750289a9cf1f4204c2ae7e586e5d",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Slow shutdowns and restarts on LeGO 2",
+      "summary": "Guys, do u have problems with slow shutdowns and restarts since august? I tried disabling fast boot, changing the parameter WaitToKillTimeout and i can't solve the problem. Someone has the same problem and solved it? Regards submitted by /u/KerNeLGaming [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wp71y7/slow_shutdowns_and_restarts_on_lego_2/",
+      "published_at": "2026-09-24T16:55:41+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "f2fc45d2a7b4943bef2d9b797955bbd85f3da43109c07acfce9762534eb3b315",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "To celebrate Silent Hill: Townfall's release I ranked all my coworkers based on whether I think they could actually survive the horrors of St Amelia",
+      "summary": "I'll admit, this is a tough ask.",
+      "url": "https://www.pcgamer.com/games/horror/to-celebrate-silent-hill-townfalls-release-i-ranked-all-my-coworkers-based-on-whether-i-think-they-could-actually-survive-the-horrors-of-st-amelia/",
+      "published_at": "2026-09-24T15:47:56+00:00"
+    },
+    {
+      "id": "576fffb3e8bb7b86377cfdb913db2417cbcef234946b04faf00f40b89e7dbd23",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Masa świetnej zabawy za mniej niż paczka gum do żucia! Ten kultowy hit Gearboxa warto mieć w kolekcji",
+      "summary": "Duke Nukem Forever nie jest dziś produkcją, która kojarzy się z najlepszymi premierami w historii gamingu, ale dla fanów starszych strzelanek wciąż może być ciekawym powrotem do czasów, gdy Duke Nukem był jedną z najbardziej rozpoznawalnyc...",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427792/masa-swietnej-zabawy-za-mniej-niz-paczka-gum-do-zucia-ten-kultowy-hit-gearboxa-warto-miec-w-kolekcji.html",
+      "published_at": "2026-09-24T15:45:00+00:00"
+    },
+    {
+      "id": "fd867d2a8a327a5514b221bae93d0e822a6c41ec574b621f23bdfdeaf8eb0e70",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Is this model worth the price?",
+      "summary": "I found a Legion Go S 8APU 1 on Facebook marketplace for $675 and was curious if this is a good price or not. It’s the 8APU 1 model with a Z1 extreme chip, 1TB storage, and 32gb of ram. It’s practically brand new I just can’t find a solid number on that model and specs to justify dropping that much money on it. Thanks in advance! Edit: it has steam OS submitted by /u/xKavvi [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wp53zr/is_this_model_worth_the_price/",
+      "published_at": "2026-09-24T15:42:42+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "priority": true
+    },
+    {
+      "id": "b9dff8369572a2db98a998df428d76b86875fca46d39e09c0ee9367537b1a622",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Wiedźmin 3: Dziki Gon – Remastered z konkretną godziną premiery. CD Projekt RED podał szczegóły! PS5 XSX|S NS2 PC",
+      "summary": "CD Projekt RED przygotował się do premiery „Wiedźmin 3: Dziki Gon – Remastered”. Odświeżona wersja gry trafi na PS5, Xboksa Series X|S, Nintendo Switch 2 oraz PC, a po raz pierwszy będzie również dostępna za pośrednictwem Battle.net.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427793/wiedzmin-3-dziki-gon-remastered-z-konkretna-godzina-premiery-cd-projekt-red-podal-szczegoly.html",
+      "published_at": "2026-09-24T15:31:00+00:00"
+    },
+    {
+      "id": "eb0fa6fcd966d1309088dab554de7e468896a8f35be17d5ffa3502d8d35cb837",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "Apple, Nvidia, Google, Microsoft...pretty much all the big US players in the chip business are reportedly evaluating Intel's new 14A node",
+      "summary": "We've heard something similar before.",
+      "url": "https://www.pcgamer.com/hardware/processors/apple-nvidia-google-microsoft-pretty-much-all-the-big-us-players-in-the-chip-business-are-reportedly-evaluating-intels-new-14a-node/",
+      "published_at": "2026-09-24T15:24:48+00:00",
+      "summary_pl": "Wielkie amerykańskie firmy technologiczne, w tym Apple, Nvidia, Google i Microsoft, podobno oceniają nowy proces technologiczny 14A Intela.",
+      "tags": [
+        "Intel",
+        "Apple",
+        "Nvidia",
+        "Technologia"
+      ]
+    },
+    {
+      "id": "cd53391a51f724c2193c57ce98ee8595706163ccd6a2e8eeb19c3f8ab6e7dca0",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "There are 39* Stardew Valley-shaped farm sims that are still planning to launch in 2026 and I have 234 hours** of gaming time remaining.",
+      "summary": "There are 39* Stardew Valley-shaped farm sims that are still planning to launch in 2026 and I have 234 hours** of gaming time remaining.",
+      "url": "https://www.pcgamer.com/games/there-are-39-stardew-valley-shaped-farm-sims-that-are-still-planning-to-launch-in-2026-and-i-have-234-hours-of-gaming-time-remaining/",
+      "published_at": "2026-09-24T15:15:00+00:00",
+      "summary_pl": "W 2026 roku planowana jest premiera aż 39 gier typu farm sim wzorowanych na Stardew Valley.",
+      "tags": [
+        "Stardew Valley",
+        "farm sim",
+        "gry 2026"
+      ]
+    },
     {
       "id": "6b025ea23877130bcbedeca28dccdffba9f06c7bda25b73577df3172a62dde01",
       "source": "PPE",
@@ -27,6 +799,19 @@
       "published_at": "2026-09-24T14:21:00+00:00"
     },
     {
+      "id": "9f8c2dfdb928e713720b94f39e0237d03ebf47ac9eea53d01793d1330c62d52c",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Is there a way to remap start and select for LeGo 1 on steamos?",
+      "summary": "title. couldnt find any guide submitted by /u/PassGreat616 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wp2qwe/is_there_a_way_to_remap_start_and_select_for_lego/",
+      "published_at": "2026-09-24T14:12:24+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "ad604729bac7ac410c8a02d9e9e664b0060a7ac2bbcdc051f2fbf5e9acca17c2",
       "source": "PPE",
       "source_type": "news",
@@ -49,606 +834,6 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427782/remake-na-taka-skale-nie-powtorzy-sie-w-przyszlosci-to-byloby-czyste-szalenstwo.html",
       "published_at": "2026-09-24T13:39:00+00:00"
-    },
-    {
-      "id": "4bb7b9802eb2ae1bb5c96ebd7453b496f2d588c15b498bf468f03c8097e0e435",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra XBOX Wiedźmin 3: Dziki Gon – Edycja Kompletna",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-xbox-wiedzmin-3-dziki-gon-edycja-kompletna-1356577",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "9bac4f35504a0c976379a44abac09600c79bd17509080a57c4693fa58212934e",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "FARCRY 6 – Xbox One / Series X|S",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/farcry-6-xbox-one-series-xs-1356436",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "43,49 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "b5ba9b370835e121441d43b3a17f2ba4a5134277c6e900f1b6da22666250134d",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Assassin's Creed Valhalla – Xbox One / Series X|S",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/assassins-creed-valhalla-xbox-one-series-xs-1356437",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "57,99 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "7d9b040b380b397ea7d390021327f6b1c581666eab9f348c5ab097fece469a61",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Far Cry Primal Apex Edition (Xbox One / Xbox Series X|S) Xbox Live Key - EU",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/far-cry-primal-apex-edition-xbox-one-xbox-series-xs-xbox-live-key-eu-1356579",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "66653e47dc0da64694e022520e05e2537516493ef2f47459d3f4003666e5874a",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Assassin's Creed Mirage – edycja deluxe – Xbox One / Series X|S – 6270 HUF",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/assassins-creed-mirage-edycja-deluxe-xbox-one-series-xs-6270-huf-1356441",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "7ab0d5c5018afa6de74f125c876785530406d73d60a0e748cd273ce12a2fc992",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Tom Clancy's Splinter Cell: Chaos Theory – Xbox One / Series X|S – 800 HUF",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/tom-clancys-splinter-cell-chaos-theory-xbox-one-series-xs-800-huf-1356439",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "305394f96bf3663584279f8726ce8cc8a9819f1830024b31cfe9fccc41a47f7d",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Xbox Game Pass Premium za darmo na 1 miesiąc - Samsung Promotion (dla nowych kont Xbox)",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-za-darmo-na-1-miesiac-samsung-promotion-dla-nowych-kont-xbox-1356255",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "add2f62a9804051cd84e0460ae8a541d858a86d41e4f6369bee17e91582b7d16",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Enotria: The Last Song – Xbox One / Series X|S – 1649 ISK",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/enotria-the-last-song-xbox-one-series-xs-1649-isk-1355688",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "6ad0aacf65f4595545b17d9031ff41877366e3aef0000e0f9666aeb8d1604662",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Xbox theHunter Call of the Wild: Standard Edition CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-xbox-thehunter-call-of-the-wild-standard-edition-cd-key-1356184",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "4176855a2134de049ad62404ab4f185874c98f75d210807de159f4be82888aea",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Microsoft Xbox Series X + Elite Series 2",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/microsoft-xbox-series-x-elite-series-2-1355830",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "499 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "9a0cdafb217e4f27787dba5fb079c55e38530eaf90c7bb7fa20edd939f746ec9",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Xbox Tom Clancy's Ghost Recon Wildlands: Standard Edition CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-xbox-tom-clancys-ghost-recon-wildlands-standard-edition-1356047",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "bff225660b0fb4dbff928a11926b567742f5db1caffc37b3bc2484a0ac10cee8",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Pad, Kontroler bezprzewodowy Xbox – Ice Breaker Special Edition Series X|S, One, PC i urządzenia z obsługą chmury | wymagany PRIME FR |",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/pad-kontroler-bezprzewodowy-xbox-ice-breaker-special-edition-series-xs-one-pc-i-urzadzenia-z-obsluga-chmury-wymagany-prime-fr-1356285",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "pad Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "660e9cb2ff7dac693d45ebebd40d6bfd9a148ecf66727af5845a30d496124858",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "DREDGE – Xbox One / Series X|S – 939 ISK",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/dredge-xbox-one-series-xs-939-isk-1355293",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "000a30c1ad1ff5e424b956aee990da23115a4a086c173ae03ea3ca8c3f8c998a",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Overcooked! 2 – Xbox One / Series X|S – 1245 HUF",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/overcooked-2-xbox-one-series-xs-1245-huf-1355295",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "19f693521b725dce9b402ad7b610036dc29e470b0afe192a8dc4460e659b695e",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "DLC Xbox/PC Halo Infinite Campaign CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-xboxpc-halo-infinite-campaign-cd-key-1355178",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "67,16 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "ef0c452ff649de55b6a800d4cde28e7a8effceebdf9ea838ec37e3f6cb931b68",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Worms W.M.D Xbox One/Series",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/worms-wmd-xbox-oneseries-1354556",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "30bee6164df422cb756ad65ed421e36d90672ecc88af76d0b988858c19e5a828",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Resident Evil 4 (2023) Gold Edition EU Xbox Series X|S CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/resident-evil-4-2023-gold-edition-eu-xbox-series-xs-cd-key-1355406",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "a9546055fb2f7fa5f728c5e44d80bd411a02b4ad851b522d2d4e8b517ea9959a",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Spyro Reignited Trilogy AR XBOX One / Xbox Series X|S CD Key - wymagany VPN",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/spyro-reignited-trilogy-ar-xbox-one-xbox-series-xs-cd-key-wymagany-vpn-1355023",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "f65f6c118fa10b1c28a546d116fd12f4578b28f4c86aac01d57ca9e427d54fc6",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "gra Samson - A Tyndalston Story Xbox, PC - Play Anywhere z Islandzkiego Ms Store - 2349 isk",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/samson-a-tyndalston-story-xbox-pc-z-islandzkiego-ms-store-2349-isk-1354808",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "4429226ec40139053c101e1e8ed6553c884ced1c88befaf647f01f473d82f466",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra METAL GEAR SOLID V: THE DEFINITIVE EXPERIENCE – Xbox One / Series X|S – 5510 HUF",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/metal-gear-solid-v-the-definitive-experience-xbox-one-series-xs-5510-huf-1354677",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "4cfbc0d2f61b2465302366e6eac9809da253f1e6b8d534eb53b0dfe214e92c1c",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "gra Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX One / Xbox Series X|S CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-one-xbox-series-xs-cd-key-1355016",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "a4a612a1bfcc9da6c90fb94820b061a14e5f5bf64e2700c82c1a7fb6fe86bc5b",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Worms Rumble - Digital Deluxe Edition za 12,82 zł z Islandzkiego Xbox Store @ Xbox One / XBOX Series X|S / PC",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/worms-rumble-digital-deluxe-edition-za-1282-zl-z-islandzkiego-xbox-store-at-xbox-one-xbox-series-xs-pc-1354287",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "12,82 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "b1f73f74d22d293da445bd3b11dc6e6e329ed1eb1d481598708a51a85768ab9e",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Laptop 2 w 1 Lenovo IdeaPad Flex 5 (Ryzen 5-7430U / 16/512 GB / Win11 Touch, podświetlanie) + 240 zł Cashbacku + pad Xbox lub słuchawki E310",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/laptop-2-w-1-lenovo-ideapad-flex-5-ryzen-5-7430u-16512-gb-win11-touch-podswietlanie-240-zl-cashbacku-pad-xbox-lub-sluchawki-e310-1355361",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "Ryzen",
-        "pad Xbox"
-      ],
-      "price": "399 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "d641021483dd9cd9cef3ade94018a089216e4a856a8516c3db5b48189484aee4",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Monopoly Madness, Xbox One, Xbox Series X",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/monopoly-madness-xbox-one-xbox-series-sx-1354233",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "9,99 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "663fd486eb026139e9085a53b0b213e2131cbc4c403e88ecd8b96f83747ff2f2",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Wiedźmin 3 Edycja Kompletna Xbox za 22,50 dla posiadaczy gamepassa",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/wiedzmin-3-edycja-kompletna-za-2250-dla-posiadaczy-gamepassa-1354031",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "450386d7e4188fc9e3db63845c7e90e5b091820d1b3f82eeba0b7555d1a210e9",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Kod Xbox Game Pass Premium na miesiąc za darmo dla posiadaczy TV Samsung lub projektorów Samsung ( z aplikacji Samsung Promotion na TV)",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-na-miesiac-za-darmo-dla-ppsiadaczy-tv-samsung-1354678",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "5785c67bbcba5101267b803f2cb23a11e4d23b3e9263f127e5444a8cb5299c39",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Silikonowe nakładki, kompatybilne z kontrolerami PS4, PS5 i Xbox 20 Sztuk @ Amazon.pl",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/silikonowe-nakladki-kompatybilne-z-kontrolerami-ps4-ps5-i-xbox-20-sztuk-at-amazonpl-1354335",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "PS5"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "1baece8c493556d92890bc66cfe0474c1f4485cd1b25cfbca116ee17d00aec3e",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Kontroler Xbox – Edycja specjalna Ice Breaker Series X|S, One, PC | w opisie Heart Breaker, Storm Breaker, czarny i niebieski",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/kontroler-xbox-edycja-specjalna-ice-breaker-series-xs-one-pc-czarny-w-opisie-heart-breaker-storm-breaker-czarny-i-niebieski-1354469",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "aff0c028d1396d2b26f00cd946d62dfaf4eb2f6c79abf86b27d85bfa15c038e0",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "gra Wolfenstein The Old Blood (Xbox)",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/wolfenstein-the-old-blood-xbox-1353915",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "8b40f0a7e235fd3404bdbccb028954b8457d451fa9a62aeeb7cd4b57f00ce8ec",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Final Fantasy VII Trilogy Xbox + PC",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/final-fantasy-vii-trilogy-1353290",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Steam Deck",
-        "ROG Ally"
-      ],
-      "price": "67,01 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "6745307b1923be9893674b8ceab229d2b531b493f4a86097028c9a1b96c9b980",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Steam Deck LCD 256 GB",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "198,99 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "849ca687c4e22c78e21d9eb9cc10c911ad2204372f07418695856e42b04e57a5",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Elgato Stream Deck MK.2 za 445 zł",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "449 zł",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "6c0a8e86d6ac7e1129f88ce7a6cfed5c5b776d4dda9f63dda662e31376028bd3",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Elgato Stream Deck +",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "42dd9ce5a61cd65721f0b4859a4c229b0d32826ec5b4e5266ae860b32e3a457c",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
-      "published_at": "2026-09-24T13:32:20.417353+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
     },
     {
       "id": "4a6a3fd8b46727f2beaeb2c22c51e82f757adf1c19748bccb6715004e9511756",
@@ -892,7 +1077,7 @@
       "source_type": "youtube",
       "category": "YouTube",
       "language": "pl",
-      "title": "Ambilight niskim kosztem - no nareszcie!",
+      "title": "Rozszerzenie Ambilight niskim kosztem - no nareszcie!",
       "summary": "Oświetlenie Ambilight to jedna z najbardziej efektownych funkcji w telewizorach. Dziś przyglądamy się telewizorom Ambilight i opowiadamy o funkcji AmbiScape, dzięki której zewnętrzne oświetlenie może współgrać z telewizorem. Co więcej, teraz taki system można zbudować naprawdę tanio. ❤️ Partnerem kanału jest Neonet ❤️…",
       "url": "https://www.youtube.com/watch?v=VYKH_gyyqfc",
       "published_at": "2026-09-24T11:26:37Z",
@@ -1115,7 +1300,7 @@
       "category": "Reddit",
       "language": "en",
       "title": "I have Go 2 but want the Ally Xbox OLED Model",
-      "summary": "Please talk me out of selling my go 2 for it. I like my go 2 but it is on the bigger, heavier side. I loved my Xbox Ally X but the screen was not that great compared to OLED. submitted by /u/beipher [link] [comments]",
+      "summary": "Please talk me out of selling my go 2 for it. I like my go 2 but it is on the bigger, heavier side. I loved my Xbox Ally X but the screen was not that great compared to OLED. Edit: thanks for the honest feedback. Looks like I'm keeping the Go2! submitted by /u/beipher [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woseox/i_have_go_2_but_want_the_ally_xbox_oled_model/",
       "published_at": "2026-09-24T04:50:37+00:00",
       "matched_keywords": [],
@@ -2273,6 +2458,23 @@
       "thumbnail_url": "https://i.ytimg.com/vi/r4ZDapvpe34/mqdefault.jpg"
     },
     {
+      "id": "a7d74fb3e8011e18fd32060a3413cb99560506d2fecacb54e90c827a53ad819a",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Sony Playstation 5 PS5 Slim z napędem z Polski za $700.33 / ~2688zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-playstation-5/",
+      "published_at": "2026-09-15T12:24:45+00:00",
+      "matched_keywords": [
+        "PlayStation",
+        "PS5"
+      ],
+      "price": "688zł",
+      "active": true
+    },
+    {
       "id": "7d51b202ffcc27c0b1bed2c4b98dde47e34cd75824895675a0be319e50a8194a",
       "source": "Michał Pisarski",
       "source_type": "youtube",
@@ -2889,6 +3091,22 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
+      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
+      "published_at": "2026-07-28T20:27:02+00:00",
+      "matched_keywords": [
+        "PlayStation"
+      ],
+      "price": "099zł",
+      "active": true
+    },
+    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -3037,23 +3255,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
     },
     {
-      "id": "5f3298984a54fb684a344de7c24a1c4ac5571b8ebbf54a258c58c077dca511a3",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Karta graficzna SOYO NVIDIA GeForce RTX3070 z EU za $321.87 / ~1194zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/karta-graficzna-soyo-nvidia-geforce-rtx3070/",
-      "published_at": "2026-06-01T08:55:59+00:00",
-      "matched_keywords": [
-        "RTX",
-        "GeForce"
-      ],
-      "price": "194zł",
-      "active": true
-    },
-    {
       "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -3086,22 +3287,6 @@
       "active": true
     },
     {
-      "id": "aceac7a9dffa8a879398eb79794b4773d06a5e446713c268b496201b458e5dc7",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Karta graficzna ASUS PRIME RTX 5050 8GB OC z Polski za $322.94 / ~1230zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/karta-graficzna-asus-prime-rtx-5050-8gb-oc/",
-      "published_at": "2026-03-15T11:00:55+00:00",
-      "matched_keywords": [
-        "RTX"
-      ],
-      "price": "230zł",
-      "active": true
-    },
-    {
       "id": "b23f4643d1fffe1990366c5f7d7cefb28866b312b6e103de45d3a3676f9bb2d2",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -3128,8 +3313,8 @@
       "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
       "published_at": "2026-01-12T09:41:23+00:00",
       "matched_keywords": [
-        "Xbox",
-        "ROG Ally"
+        "ROG Ally",
+        "Xbox"
       ],
       "price": "273zł",
       "active": true
@@ -3373,9 +3558,9 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
-        "Steam Deck",
         "Legion Go",
-        "ROG Ally"
+        "ROG Ally",
+        "Steam Deck"
       ],
       "price": "189zł",
       "active": true
@@ -3391,8 +3576,8 @@
       "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
       "published_at": "2024-11-12T09:06:17+00:00",
       "matched_keywords": [
-        "Steam Deck",
-        "ROG Ally"
+        "ROG Ally",
+        "Steam Deck"
       ],
       "price": "434zł",
       "active": true
@@ -3424,9 +3609,9 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
-        "Steam Deck",
         "Legion Go",
-        "ROG Ally"
+        "ROG Ally",
+        "Steam Deck"
       ],
       "price": "205zł",
       "active": true
