@@ -12,13 +12,12 @@ a { color: inherit; }
 .app-shell {
   width: min(100%, 760px);
   margin: 0 auto;
-  padding: 10px 14px calc(88px + env(safe-area-inset-bottom));
+  padding: max(10px, env(safe-area-inset-top)) 14px calc(88px + env(safe-area-inset-bottom));
 }
 
 .app-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
