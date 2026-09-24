@@ -30,7 +30,11 @@ jobs:
       - name: Install collector dependencies
         run: pip install -r collector-requirements.txt
 
-      - name: Collect feeds
+      - name: Collect and enrich feeds
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MYHUB_SUMMARY_MODEL: gpt-5.6-luna
+          MYHUB_MAX_AI_ITEMS: "15"
         run: python collectors/rss.py
 
       - name: Commit updated feed
@@ -50,9 +54,8 @@ jobs:
           PA_TOKEN: ${{ secrets.PYTHONANYWHERE_API_TOKEN }}
         run: |
           test -n "$PA_TOKEN" || (echo "Missing PYTHONANYWHERE_API_TOKEN secret" && exit 1)
-
-          curl --fail --silent --show-error             -X POST             -H "Authorization: Token $PA_TOKEN"             -F "content=@data/feed.json"             "https://www.pythonanywhere.com/api/v0/user/MyHub/files/path/home/MyHub/MyHub/data/feed.json"
+          curl --fail --silent --show-error -X POST -H "Authorization: Token $PA_TOKEN" -F "content=@data/feed.json" "https://www.pythonanywhere.com/api/v0/user/MyHub/files/path/home/MyHub/MyHub/data/feed.json"
 
       - name: Verify PythonAnywhere web app is reachable
         run: |
-          curl --fail --silent --show-error             "https://myhub.pythonanywhere.com/health"
+          curl --fail --silent --show-error "https://myhub.pythonanywhere.com/health"
