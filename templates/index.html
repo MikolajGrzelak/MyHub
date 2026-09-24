@@ -18,27 +18,51 @@
         <p class="eyebrow">YOUR DAILY SIGNAL</p>
         <h1>MyHub</h1>
       </div>
-      <span class="badge">{{ items|length }} NEWS</span>
+      <span class="badge">{{ items|length }} / {{ total_count }}</span>
     </header>
 
-    <nav class="chips" aria-label="Kategorie">
-      {% for category in ["Wszystko", "Gaming", "Tech"] %}
-        <a
-          class="chip {% if active_category == category %}active{% endif %}"
-          href="{% if category == 'Wszystko' %}/{% else %}/?category={{ category }}{% endif %}">
-          {{ category }}
-        </a>
-      {% endfor %}
-      <span class="chip disabled">Reddit · soon</span>
-      <span class="chip disabled">Watchlist · soon</span>
-    </nav>
+    <div class="lang-tabs">
+      <a class="lang-tab {% if not language %}active{% endif %}" href="/">Wszystko</a>
+      <a class="lang-tab {% if language == 'pl' %}active{% endif %}" href="/?lang=pl">🇵🇱 PL</a>
+      <a class="lang-tab {% if language == 'en' %}active{% endif %}" href="/?lang=en">🌍 EN</a>
+    </div>
+
+    <form class="filters" method="get">
+      {% if language %}<input type="hidden" name="lang" value="{{ language }}">{% endif %}
+
+      <label>
+        <span>Kategoria</span>
+        <select name="category" onchange="this.form.submit()">
+          <option value="">Wszystkie</option>
+          <option value="Gaming" {% if category == 'Gaming' %}selected{% endif %}>Gaming</option>
+          <option value="Tech" {% if category == 'Tech' %}selected{% endif %}>Tech</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Źródło</span>
+        <select name="source" onchange="this.form.submit()">
+          <option value="">Wszystkie źródła</option>
+          {% for s in available_sources %}
+            <option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ s }}</option>
+          {% endfor %}
+        </select>
+      </label>
+
+      {% if category or source %}
+        <a class="reset" href="{% if language %}/?lang={{ language }}{% else %}/{% endif %}">Wyczyść filtry</a>
+      {% endif %}
+    </form>
 
     <section class="feed">
       {% if items %}
         {% for item in items %}
         <article class="card">
           <div class="meta">
-            <span>{{ item.category }} · {{ item.source }}</span>
+            <span>
+              <span class="lang-dot">{{ 'PL' if item.language == 'pl' else 'EN' }}</span>
+              {{ item.category }} · {{ item.source }}
+            </span>
             {% if item.published_at %}
               <time class="date" data-date="{{ item.published_at }}"></time>
             {% endif %}
@@ -46,7 +70,9 @@
 
           <h2>{{ item.title }}</h2>
 
-          {% if item.summary_pl %}
+          {% if item.language == 'pl' %}
+            {% if item.summary %}<p class="summary-pl">{{ item.summary }}</p>{% endif %}
+          {% elif item.summary_pl %}
             <p class="summary-pl">{{ item.summary_pl }}</p>
           {% elif item.summary %}
             <p>{{ item.summary }}</p>
@@ -66,8 +92,8 @@
       {% else %}
         <article class="card empty">
           <div class="meta">MYHUB</div>
-          <h2>Feed czeka na pierwsze dane</h2>
-          <p>Uruchom collector RSS, a prawdziwe newsy pojawią się tutaj.</p>
+          <h2>Brak newsów dla tych filtrów</h2>
+          <p>Spróbuj innego języka, kategorii albo źródła.</p>
         </article>
       {% endif %}
     </section>
