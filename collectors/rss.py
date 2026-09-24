@@ -561,48 +561,96 @@ def looks_inactive(text: str) -> bool:
 
 
 def extract_price_from_soup(soup: BeautifulSoup) -> str:
-    # Prefer structured current/sale price. This avoids accidentally reading
-    # Pepper's crossed-out "old price".
+    # 1) Prefer schema.org Offer data. Pepper often exposes the live price here
+    # even when the UI also shows an old crossed-out price.
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        raw = script.string or script.get_text()
+        if not raw:
+            continue
+        try:
+            payload = json.loads(raw)
+        except (json.JSONDecodeError, TypeError):
+            continue
+
+        stack = payload if isinstance(payload, list) else [payload]
+        while stack:
+            node = stack.pop()
+            if isinstance(node, list):
+                stack.extend(node)
+                continue
+            if not isinstance(node, dict):
+                continue
+
+            node_type = str(node.get("@type", "")).lower()
+            if node_type in {"offer", "aggregateoffer", "product"}:
+                candidate = node.get("price") or node.get("lowPrice")
+                if candidate is None and isinstance(node.get("offers"), dict):
+                    candidate = node["offers"].get("price") or node["offers"].get("lowPrice")
+                if candidate is not None:
+                    value = str(candidate).strip().replace(".", ",")
+                    if re.fullmatch(r"\d+(?:,\d{1,2})?", value):
+                        return f"{value} zł"
+
+            stack.extend(node.values())
+
+    # 2) Pepper's page state can contain the price in JSON even if there is no
+    # convenient visible selector.
+    raw_html = str(soup)
+    json_patterns = [
+        r'"(?:dealPrice|currentPrice|price)"\s*:\s*"?(\d+(?:[.,]\d{1,2})?)"?',
+        r'"price"\s*:\s*\{\s*"amount"\s*:\s*"?(\d+(?:[.,]\d{1,2})?)"?',
+    ]
+    for pattern in json_patterns:
+        match = re.search(pattern, raw_html, flags=re.I)
+        if match:
+            return f"{match.group(1).replace('.', ',')} zł"
+
+    # 3) Prefer a single visible current-price element and reject anything
+    # explicitly styled/marked as old, previous or crossed out.
     selectors = [
         '[itemprop="price"]',
         'meta[property="product:price:amount"]',
         'meta[property="og:price:amount"]',
-        '[data-t="deal-price"]',
-        '[class*="thread-price"]',
-        '[class*="deal-price"]',
+        '[data-t*="price"]',
         '[class*="price"]',
     ]
-
     for selector in selectors:
         for tag in soup.select(selector):
             raw = tag.get("content") or tag.get("value") or tag.get_text(" ", strip=True)
             if not raw:
                 continue
-
-            # Ignore old/RRP/list/struck-through price elements.
             classes = " ".join(tag.get("class", []))
-            attrs_text = f"{classes} {tag.get('data-t','')} {tag.get('aria-label','')}".lower()
-            if any(word in attrs_text for word in ("old", "rrp", "list", "strike", "original", "before")):
+            style = tag.get("style", "")
+            attrs_text = f"{classes} {style} {tag.get('data-t','')} {tag.get('aria-label','')}".lower()
+            if any(word in attrs_text for word in (
+                "old", "rrp", "list", "strike", "original", "before",
+                "previous", "regular", "line-through"
+            )):
                 continue
             if tag.name in {"s", "del"} or tag.find_parent(["s", "del"]):
                 continue
 
-            price = extract_price(clean_text(str(raw), 120))
-            if price:
-                return price
+            prices = re.findall(r"\d{1,5}(?:[ .]\d{3})*(?:[,.]\d{1,2})?\s*zł", clean_text(str(raw), 300), flags=re.I)
+            if prices:
+                return clean_text(prices[0], 40)
 
-            # Structured price may be numeric without a currency suffix.
             numeric = re.fullmatch(r"\s*(\d+(?:[.,]\d{1,2})?)\s*", str(raw))
             if numeric:
-                value = numeric.group(1).replace(".", ",")
-                return f"{value} zł"
+                return f"{numeric.group(1).replace('.', ',')} zł"
 
-    # Fallback: remove crossed-out prices before scanning visible page text.
-    for tag in soup.find_all(["s", "del"]):
+    # 4) Final Pepper-friendly fallback. Remove likely old-price elements and
+    # take the first remaining PLN amount; the live price is displayed first.
+    fallback = BeautifulSoup(str(soup), "html.parser")
+    for tag in fallback.find_all(["s", "del"]):
+        tag.decompose()
+    for tag in fallback.find_all(style=re.compile(r"line-through", re.I)):
+        tag.decompose()
+    for tag in fallback.find_all(class_=re.compile(r"(old|rrp|previous|original|regular).*price|price.*(old|rrp|previous|original|regular)", re.I)):
         tag.decompose()
 
-    return extract_price(clean_text(soup.get_text(" ", strip=True), 5000))
-
+    text = clean_text(fallback.get_text(" ", strip=True), 50000)
+    prices = re.findall(r"\d{1,5}(?:[ .]\d{3})*(?:[,.]\d{1,2})?\s*zł", text, flags=re.I)
+    return clean_text(prices[0], 40) if prices else ""
 
 def extract_price(text: str) -> str:
     patterns = [
