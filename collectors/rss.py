@@ -832,7 +832,7 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "url": url,
             "published_at": published_at,
             "matched_keywords": meta["keywords"],
-            "price": extract_pepper_current_price(page, title) or meta.get("search_price", ""),
+            "price": "",
             "temperature": extract_temperature(text),
             "active": True,
         })
