@@ -82,19 +82,10 @@ def is_relevant_news(item: dict) -> bool:
 
 
 def clean_cdaction_title(text: str) -> str:
-    text = clean_text(text, 320)
+    # This is only a fallback for listing-card text. The canonical title is
+    # taken from the article page below.
+    text = clean_text(text, 500)
     text = re.sub(r"^Newsy(?:\s+\d+)?\s+", "", text, flags=re.I)
-
-    # CD-Action list cards often contain the headline twice, then time/author metadata.
-    # If the beginning repeats later, keep only the first occurrence.
-    for split_at in range(28, min(len(text), 180)):
-        prefix = text[:split_at].strip()
-        if len(prefix) < 28:
-            continue
-        second = text.find(prefix, split_at)
-        if second != -1:
-            return prefix
-
     text = re.sub(
         r"\s+(?:Przed chwilą|\d+\s+minut(?:a|y)?\s+temu|\d+\s+godzin(?:a|y)?\s+temu|\d{2}\.\d{2}\.\d{4}).*$",
         "",
@@ -103,6 +94,25 @@ def clean_cdaction_title(text: str) -> str:
     )
     return text.strip()
 
+
+def extract_article_title(soup: BeautifulSoup) -> str | None:
+    # Prefer explicit article metadata, then the page H1.
+    for attrs in (
+        {"property": "og:title"},
+        {"name": "twitter:title"},
+    ):
+        tag = soup.find("meta", attrs=attrs)
+        if tag and tag.get("content"):
+            title = clean_text(tag.get("content"), 500)
+            if title:
+                return re.sub(r"\s*[|–-]\s*CD-Action.*$", "", title, flags=re.I).strip()
+
+    h1 = soup.find("h1")
+    if h1:
+        title = clean_text(h1.get_text(" ", strip=True), 500)
+        if title:
+            return title
+    return None
 
 def clean_ppe_title(text: str) -> str:
     text = clean_text(text, 360)
@@ -369,6 +379,11 @@ def collect_html(source) -> list[dict]:
         if body:
             detail_soup = BeautifulSoup(body, "html.parser")
             published_at = extract_published_from_soup(detail_soup) or meta.get("published_at")
+
+            if source["name"] == "CD-Action":
+                canonical_title = extract_article_title(detail_soup)
+                if canonical_title:
+                    title = canonical_title
 
             description = detail_soup.find("meta", attrs={"name": "description"})
             if description and description.get("content"):
