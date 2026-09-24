@@ -12,66 +12,73 @@
   <title>MyHub</title>
 </head>
 <body>
-  <main class="shell">
-    <header class="topbar">
+  <main class="app-shell">
+    <header class="app-header">
       <div>
-        <p class="eyebrow">YOUR DAILY SIGNAL</p>
-        <h1>MyHub</h1>
+        <p class="eyebrow">MY DAILY SIGNAL</p>
+        <h1>
+          {% if section == 'news' %}News
+          {% elif section == 'reddit' %}Reddit
+          {% elif section == 'youtube' %}YouTube
+          {% elif section == 'deal' %}Okazje
+          {% elif section == 'priority' %}Dla Ciebie
+          {% else %}MyHub{% endif %}
+        </h1>
       </div>
-      <span class="badge">{{ items|length }} / {{ total_count }}</span>
+      <span class="count-badge">{{ items|length }}</span>
     </header>
 
-    <div class="section-tabs">
-      <a class="section-tab {% if not section %}active{% endif %}" href="/">Wszystko</a>
-      <a class="section-tab {% if section == 'news' %}active{% endif %}" href="/?section=news">📰 News</a>
-      <a class="section-tab {% if section == 'reddit' %}active{% endif %}" href="/?section=reddit">👽 Reddit</a>
-      <a class="section-tab {% if section == 'youtube' %}active{% endif %}" href="/?section=youtube">▶️ YouTube</a>
-      <a class="section-tab {% if section == 'deal' %}active{% endif %}" href="/?section=deal">🏷️ Okazje</a>
-      <a class="section-tab {% if section == 'priority' %}active{% endif %}" href="/?section=priority">🔥 Dla Ciebie</a>
-    </div>
+    <section class="quick-controls">
+      <div class="segmented">
+        <a class="{% if not language %}active{% endif %}" href="{% if section %}/?section={{ section }}{% else %}/{% endif %}">All</a>
+        <a class="{% if language == 'pl' %}active{% endif %}" href="/?{% if section %}section={{ section }}&{% endif %}lang=pl">PL</a>
+        <a class="{% if language == 'en' %}active{% endif %}" href="/?{% if section %}section={{ section }}&{% endif %}lang=en">EN</a>
+      </div>
 
-    <div class="lang-tabs">
-      <a class="lang-tab {% if not language %}active{% endif %}" href="/">Wszystko</a>
-      <a class="lang-tab {% if language == 'pl' %}active{% endif %}" href="/?lang=pl">🇵🇱 PL</a>
-      <a class="lang-tab {% if language == 'en' %}active{% endif %}" href="/?lang=en">🌍 EN</a>
-    </div>
+      <details class="filter-panel" {% if category or source %}open{% endif %}>
+        <summary>Filtry{% if category or source %}<span class="filter-dot"></span>{% endif %}</summary>
+        <form class="filters" method="get">
+          {% if language %}<input type="hidden" name="lang" value="{{ language }}">{% endif %}
+          {% if section %}<input type="hidden" name="section" value="{{ section }}">{% endif %}
 
-    <form class="filters" method="get">
-      {% if language %}<input type="hidden" name="lang" value="{{ language }}">{% endif %}
-      {% if section %}<input type="hidden" name="section" value="{{ section }}">{% endif %}
+          <label>
+            <span>Kategoria</span>
+            <select name="category" onchange="this.form.submit()">
+              <option value="">Wszystkie</option>
+              <option value="Gaming" {% if category == 'Gaming' %}selected{% endif %}>Gaming</option>
+              <option value="Tech" {% if category == 'Tech' %}selected{% endif %}>Tech</option>
+            </select>
+          </label>
 
-      <label>
-        <span>Kategoria</span>
-        <select name="category" onchange="this.form.submit()">
-          <option value="">Wszystkie</option>
-          <option value="Gaming" {% if category == 'Gaming' %}selected{% endif %}>Gaming</option>
-          <option value="Tech" {% if category == 'Tech' %}selected{% endif %}>Tech</option>
-        </select>
-      </label>
+          <label>
+            <span>Źródło</span>
+            <select name="source" onchange="this.form.submit()">
+              <option value="">Wszystkie</option>
+              {% for s in available_sources %}
+                <option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ s }}</option>
+              {% endfor %}
+            </select>
+          </label>
 
-      <label>
-        <span>Źródło</span>
-        <select name="source" onchange="this.form.submit()">
-          <option value="">Wszystkie źródła</option>
-          {% for s in available_sources %}
-            <option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ s }}</option>
-          {% endfor %}
-        </select>
-      </label>
-
-      {% if category or source %}
-        <a class="reset" href="{% if language %}/?lang={{ language }}{% else %}/{% endif %}">Wyczyść filtry</a>
-      {% endif %}
-    </form>
+          {% if category or source %}
+            <a class="reset" href="/?{% if section %}section={{ section }}{% endif %}{% if language %}{% if section %}&{% endif %}lang={{ language }}{% endif %}">Wyczyść filtry</a>
+          {% endif %}
+        </form>
+      </details>
+    </section>
 
     <section class="feed">
       {% if items %}
         {% for item in items %}
-        <article class="card">
+        <article class="card" data-url="{{ item.url }}">
+          {% if item.thumbnail_url %}
+            <img class="thumb" src="{{ item.thumbnail_url }}" alt="" loading="lazy">
+          {% endif %}
+
           <div class="meta">
-            <span>
-              <span class="lang-dot">{{ 'PL' if item.language == 'pl' else 'EN' }}</span>
-              {{ item.category }} · {{ item.source }}
+            <span class="source-line">
+              <span class="lang-pill">{{ 'PL' if item.language == 'pl' else 'EN' }}</span>
+              {{ item.source }}
             </span>
             {% if item.published_at %}
               <time class="date" data-date="{{ item.published_at }}"></time>
@@ -81,7 +88,7 @@
           <h2>{{ item.title }}</h2>
 
           {% if item.matched_keywords %}
-            <div class="match">🔥 Match: {{ item.matched_keywords|join(', ') }}</div>
+            <div class="match">🔥 {{ item.matched_keywords|join(' · ') }}</div>
           {% endif %}
 
           {% if item.source_type == 'deal' %}
@@ -100,8 +107,6 @@
             <p>{{ item.summary }}</p>
           {% endif %}
 
-          {% if item.thumbnail_url %}<img class="thumb" src="{{ item.thumbnail_url }}" alt="">{% endif %}
-
           {% if item.tags %}
             <div class="tags">
               {% for tag in item.tags %}
@@ -110,30 +115,57 @@
             </div>
           {% endif %}
 
-          <a class="open" href="{{ item.url }}" target="_blank" rel="noopener">Czytaj →</a>
+          <div class="card-footer">
+            <span>{{ item.category }}</span>
+            <a class="open" href="{{ item.url }}" target="_blank" rel="noopener">Otwórz ↗</a>
+          </div>
         </article>
         {% endfor %}
       {% else %}
         <article class="card empty">
-          <div class="meta">MYHUB</div>
-          <h2>Brak newsów dla tych filtrów</h2>
-          <p>Spróbuj innego języka, kategorii albo źródła.</p>
+          <h2>Tu na razie pusto</h2>
+          <p>Spróbuj innego filtra albo wróć za chwilę po kolejnym odświeżeniu.</p>
         </article>
       {% endif %}
     </section>
   </main>
 
+  <nav class="bottom-nav" aria-label="Główna nawigacja">
+    <a class="{% if not section %}active{% endif %}" href="/">
+      <span class="nav-icon">⌂</span><span>Start</span>
+    </a>
+    <a class="{% if section == 'news' %}active{% endif %}" href="/?section=news">
+      <span class="nav-icon">▤</span><span>News</span>
+    </a>
+    <a class="{% if section == 'reddit' %}active{% endif %}" href="/?section=reddit">
+      <span class="nav-icon">●</span><span>Reddit</span>
+    </a>
+    <a class="{% if section == 'youtube' %}active{% endif %}" href="/?section=youtube">
+      <span class="nav-icon">▶</span><span>YouTube</span>
+    </a>
+    <a class="{% if section == 'deal' %}active{% endif %}" href="/?section=deal">
+      <span class="nav-icon">%</span><span>Okazje</span>
+    </a>
+  </nav>
+
   <script>
     document.querySelectorAll("[data-date]").forEach(el => {
       const date = new Date(el.dataset.date);
       if (!Number.isNaN(date.valueOf())) {
-        el.textContent = date.toLocaleString("pl-PL", {
-          day: "numeric",
-          month: "short",
-          hour: "2-digit",
-          minute: "2-digit"
-        });
+        const now = new Date();
+        const diff = Math.max(0, now - date);
+        const mins = Math.floor(diff / 60000);
+        if (mins < 60) el.textContent = mins < 2 ? "teraz" : mins + " min";
+        else if (mins < 1440) el.textContent = Math.floor(mins / 60) + " h";
+        else el.textContent = date.toLocaleDateString("pl-PL", {day:"numeric", month:"short"});
       }
+    });
+
+    document.querySelectorAll(".card[data-url]").forEach(card => {
+      card.addEventListener("click", event => {
+        if (event.target.closest("a, button, select, summary")) return;
+        window.open(card.dataset.url, "_blank", "noopener");
+      });
     });
 
     if ("serviceWorker" in navigator) {
