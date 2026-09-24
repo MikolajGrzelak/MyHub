@@ -29,7 +29,7 @@ def index():
         items = [i for i in items if i.get("language","en").lower() == language]
     if source:
         items = [i for i in items if i.get("source","") == source]
-    if section in {"news","reddit","youtube","priority"}:
+    if section in {"news","reddit","youtube","deal","priority"}:
         if section == "priority":
             items = [i for i in items if i.get("priority")]
         else:
