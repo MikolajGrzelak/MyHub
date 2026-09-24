@@ -116,13 +116,18 @@ def clean_ppe_title(text: str) -> str:
         flags=re.I,
     )
 
-    # Sometimes the metadata prefix is duplicated but not identical enough for one regex.
-    text = re.sub(
-        r"^(?:Gry|Filmy i seriale|Technologie|Publicystyka|Promocje)\s+\d+V?\s+\d+\s+",
-        "",
-        text,
+    # PPE also emits variants such as "Gry 532V Pilne 3 Gry 532V Pilne 3 ...".
+    # Strip repeated category + vote counter + optional label + counter blocks.
+    prefix = re.compile(
+        r"^(?:Gry|Filmy i seriale|Technologie|Publicystyka|Promocje)"
+        r"\s+\d+V?(?:\s+[A-Za-zĄĆĘŁŃÓŚŹŻąćęłńóśźż-]+)?\s+\d+\s+",
         flags=re.I,
     )
+    for _ in range(4):
+        cleaned = prefix.sub("", text, count=1)
+        if cleaned == text:
+            break
+        text = cleaned
 
     # Date/time belongs in published_at, never in the headline.
     text = re.sub(
