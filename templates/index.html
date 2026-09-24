@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#090909">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="MyHub">
   <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
   <link rel="icon" href="{{ url_for('static', filename='icon.svg') }}" type="image/svg+xml">
@@ -56,9 +56,23 @@
           <label>
             <span>Źródło</span>
             <select name="source" onchange="this.form.submit()">
-              <option value="">Wszystkie</option>
-              {% for s in available_sources %}
-                <option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ s }}</option>
+              <option value="">Wszystkie źródła</option>
+              {% set source_meta = {
+                'news': ('📰', 'Newsy'),
+                'reddit': ('👽', 'Reddit'),
+                'youtube': ('▶️', 'YouTube'),
+                'deal': ('🏷️', 'Okazje')
+              } %}
+              {% set source_order = [section] if section in ['news','reddit','youtube','deal'] else ['news','reddit','youtube','deal'] %}
+              {% for group_key in source_order %}
+                {% if available_source_groups.get(group_key) %}
+                  {% set meta = source_meta[group_key] %}
+                  <optgroup label="{{ meta[0] }} {{ meta[1] }}">
+                    {% for s in available_source_groups[group_key] %}
+                      <option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ meta[0] }} {{ s }}</option>
+                    {% endfor %}
+                  </optgroup>
+                {% endif %}
               {% endfor %}
             </select>
           </label>
@@ -170,6 +184,41 @@
         window.location.href = card.dataset.url;
       });
     });
+
+
+    // Swipe left/right between the main sections.
+    const sectionOrder = ["", "news", "reddit", "youtube", "deal"];
+    const currentSection = "{{ section }}";
+    let navStartX = null;
+    let navStartY = null;
+
+    document.addEventListener("touchstart", event => {
+      if (event.touches.length !== 1) return;
+      if (event.target.closest("select, option, details, summary, input, button")) return;
+      navStartX = event.touches[0].clientX;
+      navStartY = event.touches[0].clientY;
+    }, { passive: true });
+
+    document.addEventListener("touchend", event => {
+      if (navStartX === null || navStartY === null || !event.changedTouches.length) return;
+      const dx = event.changedTouches[0].clientX - navStartX;
+      const dy = event.changedTouches[0].clientY - navStartY;
+      navStartX = null;
+      navStartY = null;
+
+      if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 1.35) return;
+
+      const index = Math.max(0, sectionOrder.indexOf(currentSection));
+      const nextIndex = dx < 0 ? index + 1 : index - 1;
+      if (nextIndex < 0 || nextIndex >= sectionOrder.length) return;
+
+      const params = new URLSearchParams(window.location.search);
+      params.delete("source");
+      params.delete("category");
+      if (sectionOrder[nextIndex]) params.set("section", sectionOrder[nextIndex]);
+      else params.delete("section");
+      window.location.href = "/?" + params.toString();
+    }, { passive: true });
 
     // Native-feeling pull to refresh for standalone iOS PWA.
     let pullStartY = null;
