@@ -71,6 +71,7 @@ jobs:
           upload "static/css/app.css" "static/css/app.css"
           upload "static/manifest.json" "static/manifest.json"
           upload "static/service-worker.js" "static/service-worker.js"
+          upload "static/icon.svg" "static/icon.svg"
           upload "app.py" "app.py"
 
       - name: Reload PythonAnywhere web app
