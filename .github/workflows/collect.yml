@@ -37,11 +37,22 @@ jobs:
         run: |
           if git diff --quiet -- data/feed.json; then
             echo "No feed changes."
-            exit 0
+          else
+            git config user.name "myhub-bot"
+            git config user.email "myhub-bot@users.noreply.github.com"
+            git add data/feed.json
+            git commit -m "Update MyHub feed"
+            git push
           fi
 
-          git config user.name "myhub-bot"
-          git config user.email "myhub-bot@users.noreply.github.com"
-          git add data/feed.json
-          git commit -m "Update MyHub feed"
-          git push
+      - name: Upload feed directly to PythonAnywhere
+        env:
+          PA_TOKEN: ${{ secrets.PYTHONANYWHERE_API_TOKEN }}
+        run: |
+          test -n "$PA_TOKEN" || (echo "Missing PYTHONANYWHERE_API_TOKEN secret" && exit 1)
+
+          curl --fail --silent --show-error             -X POST             -H "Authorization: Token $PA_TOKEN"             -F "content=@data/feed.json"             "https://www.pythonanywhere.com/api/v0/user/MyHub/files/path/home/MyHub/MyHub/data/feed.json"
+
+      - name: Verify PythonAnywhere web app is reachable
+        run: |
+          curl --fail --silent --show-error             "https://myhub.pythonanywhere.com/health"
