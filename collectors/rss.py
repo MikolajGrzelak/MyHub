@@ -117,10 +117,31 @@ def make_id(source: str, stable: str) -> str:
     return hashlib.sha256(f"{source}|{stable}".encode("utf-8")).hexdigest()
 
 def published_iso(entry) -> str:
+    # feedparser already normalizes Atom/RSS dates when possible.
+    for field in ("published_parsed", "updated_parsed", "created_parsed"):
+        parsed = entry.get(field)
+        if parsed:
+            try:
+                dt = datetime(*parsed[:6], tzinfo=timezone.utc)
+                return dt.isoformat()
+            except (TypeError, ValueError):
+                pass
+
+    # Some Atom feeds (including Reddit) expose ISO-8601 strings rather than RFC 2822.
     for field in ("published", "updated", "created"):
         raw = entry.get(field)
         if not raw:
             continue
+
+        raw = str(raw).strip()
+        try:
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc).isoformat()
+        except ValueError:
+            pass
+
         try:
             dt = parsedate_to_datetime(raw)
             if dt.tzinfo is None:
@@ -128,6 +149,7 @@ def published_iso(entry) -> str:
             return dt.astimezone(timezone.utc).isoformat()
         except (TypeError, ValueError, OverflowError):
             pass
+
     return datetime.now(timezone.utc).isoformat()
 
 def collect_rss(source) -> list[dict]:
@@ -157,6 +179,61 @@ def collect_rss(source) -> list[dict]:
     return items
 
 
+def _parse_datetime_value(raw: str) -> str | None:
+    raw = str(raw).strip()
+    if not raw:
+        return None
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc).isoformat()
+    except ValueError:
+        return None
+
+
+def _find_json_date(value) -> str | None:
+    if isinstance(value, dict):
+        for key in ("datePublished", "dateCreated", "uploadDate", "dateModified"):
+            if value.get(key):
+                parsed = _parse_datetime_value(value[key])
+                if parsed:
+                    return parsed
+        for child in value.values():
+            parsed = _find_json_date(child)
+            if parsed:
+                return parsed
+    elif isinstance(value, list):
+        for child in value:
+            parsed = _find_json_date(child)
+            if parsed:
+                return parsed
+    return None
+
+
+def _relative_time_to_iso(text: str) -> str | None:
+    lowered = text.lower()
+    now = datetime.now(timezone.utc)
+
+    patterns = [
+        (r"(\d+)\s*min(?:ut|uty|uta)?\s*temu", 60),
+        (r"(\d+)\s*godz(?:in|iny|ina)?\s*temu", 3600),
+        (r"(\d+)\s*dni?\s*temu", 86400),
+        (r"(\d+)\s*minutes?\s*ago", 60),
+        (r"(\d+)\s*hours?\s*ago", 3600),
+        (r"(\d+)\s*days?\s*ago", 86400),
+    ]
+    for pattern, seconds in patterns:
+        match = re.search(pattern, lowered)
+        if match:
+            delta = int(match.group(1)) * seconds
+            return datetime.fromtimestamp(now.timestamp() - delta, tz=timezone.utc).isoformat()
+
+    if "przed chwilą" in lowered or "just now" in lowered:
+        return now.isoformat()
+    return None
+
+
 def extract_published_from_soup(soup: BeautifulSoup) -> str | None:
     # Common OpenGraph/article metadata.
     for attrs in (
@@ -165,32 +242,22 @@ def extract_published_from_soup(soup: BeautifulSoup) -> str | None:
         {"property": "og:published_time"},
         {"name": "date"},
         {"itemprop": "datePublished"},
+        {"name": "pubdate"},
     ):
         tag = soup.find("meta", attrs=attrs)
         if tag and tag.get("content"):
-            raw = tag.get("content", "").strip()
-            try:
-                dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
-                if dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=timezone.utc)
-                return dt.astimezone(timezone.utc).isoformat()
-            except ValueError:
-                pass
+            parsed = _parse_datetime_value(tag.get("content"))
+            if parsed:
+                return parsed
 
     # <time datetime="...">
     for tag in soup.find_all("time"):
-        raw = (tag.get("datetime") or "").strip()
-        if not raw:
-            continue
-        try:
-            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return dt.astimezone(timezone.utc).isoformat()
-        except ValueError:
-            continue
+        raw = (tag.get("datetime") or tag.get("content") or "").strip()
+        parsed = _parse_datetime_value(raw)
+        if parsed:
+            return parsed
 
-    # JSON-LD is commonly used by news/deal pages.
+    # JSON-LD / embedded structured data.
     for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
         raw = script.string or script.get_text()
         if not raw:
@@ -199,25 +266,12 @@ def extract_published_from_soup(soup: BeautifulSoup) -> str | None:
             payload = json.loads(raw)
         except (json.JSONDecodeError, TypeError):
             continue
+        parsed = _find_json_date(payload)
+        if parsed:
+            return parsed
 
-        nodes = payload if isinstance(payload, list) else [payload]
-        for node in nodes:
-            if isinstance(node, dict) and isinstance(node.get("@graph"), list):
-                nodes.extend(node["@graph"])
-            if not isinstance(node, dict):
-                continue
-            raw_date = node.get("datePublished") or node.get("dateCreated")
-            if not raw_date:
-                continue
-            try:
-                dt = datetime.fromisoformat(str(raw_date).replace("Z", "+00:00"))
-                if dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=timezone.utc)
-                return dt.astimezone(timezone.utc).isoformat()
-            except ValueError:
-                pass
-    return None
-
+    # Last resort: source-visible relative time (e.g. "9 min temu").
+    return _relative_time_to_iso(clean_text(soup.get_text(" ", strip=True), 12000))
 
 def collect_html(source) -> list[dict]:
     try:
