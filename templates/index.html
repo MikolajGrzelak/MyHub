@@ -21,6 +21,14 @@
       <span class="badge">{{ items|length }} / {{ total_count }}</span>
     </header>
 
+    <div class="section-tabs">
+      <a class="section-tab {% if not section %}active{% endif %}" href="/">Wszystko</a>
+      <a class="section-tab {% if section == 'news' %}active{% endif %}" href="/?section=news">📰 News</a>
+      <a class="section-tab {% if section == 'reddit' %}active{% endif %}" href="/?section=reddit">👽 Reddit</a>
+      <a class="section-tab {% if section == 'youtube' %}active{% endif %}" href="/?section=youtube">▶️ YouTube</a>
+      <a class="section-tab {% if section == 'priority' %}active{% endif %}" href="/?section=priority">🔥 Dla Ciebie</a>
+    </div>
+
     <div class="lang-tabs">
       <a class="lang-tab {% if not language %}active{% endif %}" href="/">Wszystko</a>
       <a class="lang-tab {% if language == 'pl' %}active{% endif %}" href="/?lang=pl">🇵🇱 PL</a>
@@ -29,6 +37,7 @@
 
     <form class="filters" method="get">
       {% if language %}<input type="hidden" name="lang" value="{{ language }}">{% endif %}
+      {% if section %}<input type="hidden" name="section" value="{{ section }}">{% endif %}
 
       <label>
         <span>Kategoria</span>
@@ -70,6 +79,10 @@
 
           <h2>{{ item.title }}</h2>
 
+          {% if item.matched_keywords %}
+            <div class="match">🔥 Match: {{ item.matched_keywords|join(', ') }}</div>
+          {% endif %}
+
           {% if item.language == 'pl' %}
             {% if item.summary %}<p class="summary-pl">{{ item.summary }}</p>{% endif %}
           {% elif item.summary_pl %}
@@ -77,6 +90,8 @@
           {% elif item.summary %}
             <p>{{ item.summary }}</p>
           {% endif %}
+
+          {% if item.thumbnail_url %}<img class="thumb" src="{{ item.thumbnail_url }}" alt="">{% endif %}
 
           {% if item.tags %}
             <div class="tags">
