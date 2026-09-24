@@ -1,18 +1,78 @@
 {
-  "updated_at": "2026-09-24T10:35:13.958622+00:00",
-  "count": 246,
+  "updated_at": "2026-09-24T12:45:49.237490+00:00",
+  "count": 254,
   "items": [
     {
-      "id": "2603332de7fb7a744340abf77a413fee906b860eaad6957cadc10daa23571430",
+      "id": "6b025ea23877130bcbedeca28dccdffba9f06c7bda25b73577df3172a62dde01",
       "source": "PPE",
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Gry 272V Pilne 30 Gry 272V Pilne 30 Narzekamy na PlayStation, a to Xbox zamyka więcej studiów. Jest pełne podsumowanie XPC PC Dzisiaj, 11:16",
-      "summary": "W sieci od miesięcy nie cichną głosy krytyki wymierzone w PlayStation Studios za zamykanie kolejnych podległych ekip, lecz to, co dzieje się u bezpośredniego rywala Sony, zakrawa na bezprecedensowy demontaż struktur deweloperskich.",
+      "title": "Gry 29V 0 Gry 29V 0 Kolejna gra drożeje na rynku wtórnym. Niektóre fizyczne kopie kosztują nawet 600 złotych Dzisiaj, 14:41",
+      "summary": "Zapowiedź Metroid Ravenous wywołała gwałtowny wzrost zainteresowania poprzednią odsłoną serii, Metroid Dread, szczególnie wśród graczy, którzy nie zdążyli kupić gry w momencie premiery.",
       "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427769/narzekamy-na-playstation-a-to-xbox-zamyka-wiecej-studiow-jest-pelne-podsumowanie.html",
-      "published_at": "2026-09-24T10:35:13.899757+00:00"
+      "url": "https://www.ppe.pl/news/427786/kolejna-gra-drozeje-na-rynku-wtornym-niektore-fizyczne-kopie-kosztuja-nawet-600-zlotych.html",
+      "published_at": "2026-09-24T12:45:49.180169+00:00"
+    },
+    {
+      "id": "f91dcfae8e4a26aae4d61f51b9fd01818c65ab2c0b988559cd4bb20d7ce06c15",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gry 156V 2 Gry 156V 2 Jeden z najpiękniejszych jRPG-ów trafi na Nintendo Switch 2. Twórcy przypominają, że warto było czekać PS5 XSX|S NS2 PC PS4 Dzisiaj, 14:21",
+      "summary": "Atlus opublikował nowy zwiastun Metaphor: ReFantazio poświęcony Gallice, sympatycznej wróżce towarzyszącej głównemu bohaterowi w trakcie jego przygody.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427784/jeden-z-najpiekniejszych-jrpg-ow-trafi-na-nintendo-switch-2-tworcy-przypominaja-ze-warto-bylo-czekac.html",
+      "published_at": "2026-09-24T12:45:49.180169+00:00"
+    },
+    {
+      "id": "ad604729bac7ac410c8a02d9e9e664b0060a7ac2bbcdc051f2fbf5e9acca17c2",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gry 424V Pilne 3 Gry 424V Pilne 3 PlayStation Portal zyska dłuższe życie. Sony przygotowało ważną aktualizację Dzisiaj, 14:11",
+      "summary": "Sony Interactive Entertainment właśnie zaskoczyło posiadaczy PlayStation Portal. Urządzenie do gry zdalnej otrzymało aktualizację, która wydłuży życie sprzętu.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427787/playstation-portal-zyska-dluzsze-zycie-sony-przygotowalo-wazna-aktualizacje.html",
+      "published_at": "2026-09-24T12:45:49.180169+00:00"
+    },
+    {
+      "id": "acfd32e74e6abfbd939d86bae1c4ea4dcf2aad360317407ffe990d396e76219d",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gry 323V 9 Gry 323V 9 Remake na taką skalę nie powtórzy się w przyszłości. To byłoby czyste szaleństwo Dzisiaj, 13:39",
+      "summary": "Naoki Hamaguchi, reżyser trylogii Final Fantasy 7 Remake, przyznał, że podział projektu na trzy oddzielne gry nie był decyzją biznesową, lecz sporym ryzykiem twórczym - a nawet szaleństwem.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427782/remake-na-taka-skale-nie-powtorzy-sie-w-przyszlosci-to-byloby-czyste-szalenstwo.html",
+      "published_at": "2026-09-24T12:45:49.180169+00:00"
+    },
+    {
+      "id": "5b3e656a3a2fa7355b18f4a2f69cc8f0ab59799a68078178878ff6a0cf880f19",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gry 164V 5 Gry 164V 5 Streszczenie fabuły i podsumowanie historii przed Modern Warfare 4. Obowiązkowy materiał dla fanów MW PS5 XSX|S NS2 PC Dzisiaj, 12:46",
+      "summary": "W sieci zadebiutował oficjalny materiał przygotowany przez Activision, będący przekrojowym podsumowaniem dotychczasowych wydarzeń z odświeżonej linii fabularnej serii.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427780/streszczenie-fabuly-i-podsumowanie-historii-przed-modern-warfare-4-obowiazkowy-material-dla-fanow-mw.html",
+      "published_at": "2026-09-24T12:45:49.180169+00:00"
+    },
+    {
+      "id": "7cb5a2c932331b38998f9c9b59073ce276b6678363d6b8083016b14cf5de93f0",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gry 1540V 36 Gry 1540V 36 Hejterzy Xbox Series S znów zdziwieni. Piękna nowość działa w 60 fps na małej bestii Xboksa PS5 XSX|S PC Dzisiaj, 12:35",
+      "summary": "Gracze konsolowi już mogą sprawdzać, czy Dune Awakening to faktycznie \"nowy król MMO\".",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427774/hejterzy-xbox-series-s-znow-zdziwieni-piekna-nowosc-dziala-w-60-fps-na-malej-bestii-xboksa.html",
+      "published_at": "2026-09-24T12:45:49.180169+00:00"
     },
     {
       "id": "add6a3ac055ed05fe78fdd605edccdd3cd8929b3bde0681e95b94561f07a5144",
@@ -23,10 +83,10 @@
       "title": "Stacja dokująca BENFEI 6w1 do Steam Deck / ROG Ally – HDMI 4K 60 Hz, LAN 1 Gb/s, PD 100 W za 67,01 zł",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/stacja-dokujaca-benfei-6w1-do-steam-deck-rog-ally-hdmi-4k-60-hz-lan-1-gbs-pd-100-w-za-6701-zl-1354491",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
-        "Steam Deck",
-        "ROG Ally"
+        "ROG Ally",
+        "Steam Deck"
       ],
       "price": "67,01 zł",
       "temperature": "",
@@ -41,7 +101,7 @@
       "title": "Steam Deck LCD 256 GB",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/steam-deck-256-gb-1238582",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Steam Deck"
       ],
@@ -58,7 +118,7 @@
       "title": "Elgato Stream Deck MK.2 za 445 zł",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/elgato-stream-deck-mk2-za-449-zl-ta-sama-cena-amazon-me-x-kom-ole-ole-1343786",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Steam Deck"
       ],
@@ -75,7 +135,7 @@
       "title": "Elgato Stream Deck +",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/elgato-stream-deck-1353557",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Steam Deck"
       ],
@@ -92,7 +152,7 @@
       "title": "Elgato Stream Deck Neo (Czarny) – 8 konfigurowalnych klawiszy, 2 x Touch Points, szybkie zadania – Word, Excel, PowerPoint, Teams | Bialy",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/elgato-stream-deck-neo-czarny-8-konfigurowalnych-klawiszy-2-x-touch-points-szybkie-zadania-word-excel-powerpoint-teams-bialy-1339501",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Steam Deck"
       ],
@@ -109,7 +169,7 @@
       "title": "FARCRY 6 – Xbox One / Series X|S",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/farcry-6-xbox-one-series-xs-1356436",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -126,7 +186,7 @@
       "title": "Gra Assassin's Creed Valhalla – Xbox One / Series X|S",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/assassins-creed-valhalla-xbox-one-series-xs-1356437",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -143,7 +203,7 @@
       "title": "Gra Assassin's Creed Mirage – edycja deluxe – Xbox One / Series X|S – 6270 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/assassins-creed-mirage-edycja-deluxe-xbox-one-series-xs-6270-huf-1356441",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -160,7 +220,7 @@
       "title": "Gra Tom Clancy's Splinter Cell: Chaos Theory – Xbox One / Series X|S – 800 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/tom-clancys-splinter-cell-chaos-theory-xbox-one-series-xs-800-huf-1356439",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -177,7 +237,7 @@
       "title": "Xbox Game Pass Premium za darmo na 1 miesiąc - Samsung Promotion (dla nowych kont Xbox)",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-za-darmo-na-1-miesiac-samsung-promotion-dla-nowych-kont-xbox-1356255",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -194,7 +254,7 @@
       "title": "Gra Enotria: The Last Song – Xbox One / Series X|S – 1649 ISK",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/enotria-the-last-song-xbox-one-series-xs-1649-isk-1355688",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -211,7 +271,7 @@
       "title": "Gra Xbox theHunter Call of the Wild: Standard Edition CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/gra-xbox-thehunter-call-of-the-wild-standard-edition-cd-key-1356184",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -228,7 +288,7 @@
       "title": "Microsoft Xbox Series X + Elite Series 2",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/microsoft-xbox-series-x-elite-series-2-1355830",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -245,7 +305,7 @@
       "title": "Gra Xbox Tom Clancy's Ghost Recon Wildlands: Standard Edition CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/gra-xbox-tom-clancys-ghost-recon-wildlands-standard-edition-1356047",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -262,7 +322,7 @@
       "title": "Pad, Kontroler bezprzewodowy Xbox – Ice Breaker Special Edition Series X|S, One, PC i urządzenia z obsługą chmury | wymagany PRIME FR |",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/pad-kontroler-bezprzewodowy-xbox-ice-breaker-special-edition-series-xs-one-pc-i-urzadzenia-z-obsluga-chmury-wymagany-prime-fr-1356285",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox",
         "pad Xbox"
@@ -280,7 +340,7 @@
       "title": "DREDGE – Xbox One / Series X|S – 939 ISK",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/dredge-xbox-one-series-xs-939-isk-1355293",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -297,7 +357,7 @@
       "title": "Gra Overcooked! 2 – Xbox One / Series X|S – 1245 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/overcooked-2-xbox-one-series-xs-1245-huf-1355295",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -314,7 +374,7 @@
       "title": "DLC Xbox/PC Halo Infinite Campaign CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/gra-xboxpc-halo-infinite-campaign-cd-key-1355178",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -331,7 +391,7 @@
       "title": "Gra Worms W.M.D Xbox One/Series",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/worms-wmd-xbox-oneseries-1354556",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -348,7 +408,7 @@
       "title": "Resident Evil 4 (2023) Gold Edition EU Xbox Series X|S CD Key",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/resident-evil-4-2023-gold-edition-eu-xbox-series-xs-cd-key-1355406",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -365,7 +425,7 @@
       "title": "Spyro Reignited Trilogy AR XBOX One / Xbox Series X|S CD Key - wymagany VPN",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/spyro-reignited-trilogy-ar-xbox-one-xbox-series-xs-cd-key-wymagany-vpn-1355023",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -382,24 +442,7 @@
       "title": "gra Samson - A Tyndalston Story Xbox, PC - Play Anywhere z Islandzkiego Ms Store - 2349 isk",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/samson-a-tyndalston-story-xbox-pc-z-islandzkiego-ms-store-2349-isk-1354808",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
-    },
-    {
-      "id": "4cfbc0d2f61b2465302366e6eac9809da253f1e6b8d534eb53b0dfe214e92c1c",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "gra Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX One / Xbox Series X|S CD Key",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-one-xbox-series-xs-cd-key-1355016",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -416,7 +459,24 @@
       "title": "Gra METAL GEAR SOLID V: THE DEFINITIVE EXPERIENCE – Xbox One / Series X|S – 5510 HUF",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/metal-gear-solid-v-the-definitive-experience-xbox-one-series-xs-5510-huf-1354677",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "",
+      "temperature": "",
+      "active": true
+    },
+    {
+      "id": "4cfbc0d2f61b2465302366e6eac9809da253f1e6b8d534eb53b0dfe214e92c1c",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "gra Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX One / Xbox Series X|S CD Key",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-one-xbox-series-xs-cd-key-1355016",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -433,7 +493,7 @@
       "title": "Worms Rumble - Digital Deluxe Edition za 12,82 zł z Islandzkiego Xbox Store @ Xbox One / XBOX Series X|S / PC",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/worms-rumble-digital-deluxe-edition-za-1282-zl-z-islandzkiego-xbox-store-at-xbox-one-xbox-series-xs-pc-1354287",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -450,7 +510,7 @@
       "title": "Laptop 2 w 1 Lenovo IdeaPad Flex 5 (Ryzen 5-7430U / 16/512 GB / Win11 Touch, podświetlanie) + 240 zł Cashbacku + pad Xbox lub słuchawki E310",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/laptop-2-w-1-lenovo-ideapad-flex-5-ryzen-5-7430u-16512-gb-win11-touch-podswietlanie-240-zl-cashbacku-pad-xbox-lub-sluchawki-e310-1355361",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox",
         "Ryzen",
@@ -469,7 +529,7 @@
       "title": "Gra Monopoly Madness, Xbox One, Xbox Series X",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/monopoly-madness-xbox-one-xbox-series-sx-1354233",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -486,7 +546,7 @@
       "title": "Gra Wiedźmin 3 Edycja Kompletna Xbox za 22,50 dla posiadaczy gamepassa",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/wiedzmin-3-edycja-kompletna-za-2250-dla-posiadaczy-gamepassa-1354031",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -503,7 +563,7 @@
       "title": "Kod Xbox Game Pass Premium na miesiąc za darmo dla posiadaczy TV Samsung lub projektorów Samsung ( z aplikacji Samsung Promotion na TV)",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/xbox-game-pass-premium-na-miesiac-za-darmo-dla-ppsiadaczy-tv-samsung-1354678",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox"
       ],
@@ -520,7 +580,7 @@
       "title": "Silikonowe nakładki, kompatybilne z kontrolerami PS4, PS5 i Xbox 20 Sztuk @ Amazon.pl",
       "summary": "",
       "url": "https://www.pepper.pl/promocje/silikonowe-nakladki-kompatybilne-z-kontrolerami-ps4-ps5-i-xbox-20-sztuk-at-amazonpl-1354335",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "published_at": "2026-09-24T12:45:24.188841+00:00",
       "matched_keywords": [
         "Xbox",
         "PS5"
@@ -530,89 +590,120 @@
       "active": true
     },
     {
-      "id": "1baece8c493556d92890bc66cfe0474c1f4485cd1b25cfbca116ee17d00aec3e",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
+      "id": "c544469fc08fb768265738a35c8da16880de668c9f962fe1341e2e8f002e2e34",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
       "language": "pl",
-      "title": "Kontroler Xbox – Edycja specjalna Ice Breaker Series X|S, One, PC | w opisie Heart Breaker, Storm Breaker, czarny i niebieski",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/kontroler-xbox-edycja-specjalna-ice-breaker-series-xs-one-pc-czarny-w-opisie-heart-breaker-storm-breaker-czarny-i-niebieski-1354469",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
+      "title": "Jonasz „Blady” Gulczyński Twórcy Enshrouded zmieniają system walki na chwilę przed wielką premierą. Szalenie popularny survival doczekał się wielu magicznych nowości Twórcy Enshrouded zmieniają system walki na chwilę przed wielką...",
+      "summary": "Premiera Enshrouded już 15 października!",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/tworcy-enshrouded-zmieniaja-system-walki-na-chwile-przed-wielka-premiera-szalenie-popularny-survival-doczekal-sie-wielu-magicznych-nowosci/",
+      "published_at": "2026-09-24T12:30:00+00:00"
     },
     {
-      "id": "aff0c028d1396d2b26f00cd946d62dfaf4eb2f6c79abf86b27d85bfa15c038e0",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
+      "id": "21791bce255b787d2c8a62ef557f27149514678fd0799d91107235733b6a1b0e",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
       "language": "pl",
-      "title": "gra Wolfenstein The Old Blood (Xbox)",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/wolfenstein-the-old-blood-xbox-1353915",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
+      "title": "Trzęsienie ziemi w Xboxie, PlayStation płaci za zakupy, powrót tanich konsol",
+      "summary": "Podeślij tip jak masz ochotę: https://tipply.pl/@pisarion3000 Moja strona z promocjami: https://pisarion3000.pl ➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwes…",
+      "url": "https://www.youtube.com/watch?v=45anPnP4H30",
+      "published_at": "2026-09-24T12:29:17Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/45anPnP4H30/mqdefault.jpg"
     },
     {
-      "id": "8b40f0a7e235fd3404bdbccb028954b8457d451fa9a62aeeb7cd4b57f00ce8ec",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Final Fantasy VII Trilogy Xbox + PC",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/final-fantasy-vii-trilogy-1353290",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "id": "baae0a304b263f36ceffbdf308212a5fed444bdc6fc0de0ad3fd0eddeef0c786",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Has anyone gotten Final Fantasy XV to run on steamOS on Legion Go 1?",
+      "summary": "It just won't launch. It crashes Steam every time I try to open it. I've tried proton experimental, proton 9, proton 6, etc. Google tells me to change GraphicsSettings.ini or whatever, but it needs to actually launch for that file to be available. submitted by /u/Bumi_Earth_King [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wp0bet/has_anyone_gotten_final_fantasy_xv_to_run_on/",
+      "published_at": "2026-09-24T12:28:45+00:00",
       "matched_keywords": [
-        "Xbox"
+        "OG"
       ],
-      "price": "",
-      "temperature": "",
-      "active": true
+      "priority": true
     },
     {
-      "id": "65928e984cfae9d24fe3343ea7f16e5218caafdb5a1ffa37a09393260cf1454c",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "BioShock: The Collection (Xbox One) - Xbox Live Key - EUROPE",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/bioshock-the-collection-xbox-one-xbox-live-key-europe-1353475",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "",
-      "temperature": "",
-      "active": true
+      "id": "97d4e4985602d22f496b474663721b5c1deadc0efb2b31ee47775a7bb442b415",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hello Every One after i installed steamOS on my legion go 1 i started getting this warning do not power off while completing system update",
+      "summary": "Hello Every One after i installed steamOS yesterday on my legion go 1 i started getting this warning do not power off while completing system update when i turn on my legion go but this thing it didn't happen when i had windows also it doesn't happen every time i trun it on since i installed the steamOS yesterday this system update warning it happened like around 2 or 3 times when i turn on the legion go so is this…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wp02kp/hello_every_one_after_i_installed_steamos_on_my/",
+      "published_at": "2026-09-24T12:17:10+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
-      "id": "58a6cc569eaecf22a9ea68ec29fe47d8a7543d95061931c21db2227db466c515",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
+      "id": "a6af1bc96a996492fa3c2965ccac8653f0e1f945a60e735a52643692e0ec726f",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
       "language": "pl",
-      "title": "Blasphemous + Blasphemous 2 - Bundle Xbox One/Series Klucz Europe",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/blasphemous-blasphemous-2-bundle-xbox-oneseries-klucz-europe-1353495",
-      "published_at": "2026-09-24T10:34:46.684709+00:00",
+      "title": "Czemu kiedyś telefony działały tydzień?",
+      "summary": "Dlaczego kiedyś Nokia 3310 mogła działać na jednym ładowaniu 2 tygodnie, a dziś smartfon ledwo wytrzymuje do wieczora? Rozbierzmy to na czynniki pierwsze, bo okazuje się, że stare Nokie nie były aż tak dobre, jak je zapamiętaliśmy. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neo…",
+      "url": "https://www.youtube.com/watch?v=tpH3vaM8Siw",
+      "published_at": "2026-09-24T11:28:48Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/tpH3vaM8Siw/mqdefault.jpg"
+    },
+    {
+      "id": "9f4baccd034236dfa3aabed070a48d11f3b673bb31813172a9e039d3b7fa3f47",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "LeGo 2 Frame Rate Weirdness",
+      "summary": "Hi all I've been handheld gaming for a while, I have the original RoG Ally (Battery and SSD upgraded) so I'm well used to the nuances and limitations of these machines. I 'upgraded' from the original Ally to the Go 2 mainly for the screen size, the 7 inch screen was starting to fatigue my eyes when playing for any length of time. I found I wasn't having this issue on the Switch 2. A refurbished deal came up and the…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woz3cb/lego_2_frame_rate_weirdness/",
+      "published_at": "2026-09-24T11:28:36+00:00",
       "matched_keywords": [
-        "Xbox"
+        "OG"
       ],
-      "price": "",
-      "temperature": "",
-      "active": true
+      "priority": true
+    },
+    {
+      "id": "066bcb73773ddc48a9eb2bba45a421fd5d0be3997890e6bc37db17ef62216552",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Ambilight niskim kosztem - no nareszcie!",
+      "summary": "Oświetlenie Ambilight to jedna z najbardziej efektownych funkcji w telewizorach. Dziś przyglądamy się telewizorom Ambilight i opowiadamy o funkcji AmbiScape, dzięki której zewnętrzne oświetlenie może współgrać z telewizorem. Co więcej, teraz taki system można zbudować naprawdę tanio. ❤️ Partnerem kanału jest Neonet ❤️…",
+      "url": "https://www.youtube.com/watch?v=VYKH_gyyqfc",
+      "published_at": "2026-09-24T11:26:37Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/VYKH_gyyqfc/mqdefault.jpg"
+    },
+    {
+      "id": "44b6ab3905f633dab8340937388c461a70d934f605090dee1a05c5b284dedf40",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Best SteamOS install guide for Legion go 2?",
+      "summary": "I have a legion go 2 , Z2 version, Could someone help me with a fool proof guide to install SteamOS on this and help me getting everything up and running as it should, it would be much appreciated I've done this before on my legion go 1 so I'm not going in blind , but hints and tips would be really good, and to use plugins with deckyloader to get everything working ok submitted by /u/Sparkybulb [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woyrvz/best_steamos_install_guide_for_legion_go_2/",
+      "published_at": "2026-09-24T11:11:36+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2603332de7fb7a744340abf77a413fee906b860eaad6957cadc10daa23571430",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gry 272V Pilne 30 Gry 272V Pilne 30 Narzekamy na PlayStation, a to Xbox zamyka więcej studiów. Jest pełne podsumowanie XPC PC Dzisiaj, 11:16",
+      "summary": "W sieci od miesięcy nie cichną głosy krytyki wymierzone w PlayStation Studios za zamykanie kolejnych podległych ekip, lecz to, co dzieje się u bezpośredniego rywala Sony, zakrawa na bezprecedensowy demontaż struktur deweloperskich.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427769/narzekamy-na-playstation-a-to-xbox-zamyka-wiecej-studiow-jest-pelne-podsumowanie.html",
+      "published_at": "2026-09-24T10:35:13.899757+00:00"
     },
     {
       "id": "61af62a1c1f936d2b03fe1958255d460bbcaff7e6b5e6bc761dd737259ce2495",
@@ -671,312 +762,6 @@
       "summary": "I know it has controller support but I just like mouse and keyboard better. Runs great! submitted by /u/ObbieWan812 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wnogyf/a_little_wow_forever_while_the_fan_watches_tv/",
       "published_at": "2026-09-24T10:34:23.304136+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "20cb49f4cfa67404330f322198dd1f9c7dc5c4dfe86732da1f1dfa567817eec0",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion Go S: 1 year review",
-      "summary": "Hey guys, I wanted to share my experience after having the Legion Go S for a year now I bought it from the UK Lenovo store for £669 and seeing how the price has been changing since then is nuts. In the early days it felt like a new toy (and it still does). I’ve been going through tons of tutorials, Decky, frame gen, emulation, setting games up from other stores on the go. It is amazing. However, mine had that common…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnop9s/legion_go_s_1_year_review/",
-      "published_at": "2026-09-24T10:34:23.304103+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "e9a36ffaa7b29284acbbd6f8a98dbe69799acc50dfd036eeacc5787a98f7fe5f",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Looking for a small, wireless gaming keyboard for Legion Go 2 - recommendations?",
-      "summary": "Preferably one of those smaller gaming keyboards with the left-side of the keyboard. submitted by /u/PossibilityDirect386 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnp4xw/looking_for_a_small_wireless_gaming_keyboard_for/",
-      "published_at": "2026-09-24T10:34:23.303958+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "9283a98fd584b6170390d0b5dd276839cba598d2636c3aba7d56637633f4e168",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Go S Steam OS Animation Changer plugin not working",
-      "summary": "I installed animation changer on Deckyloader plugin and the boot animation doesn’t work at all but the Suspend does. Anyone know how to fix? submitted by /u/SeaWing2841 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnqbuw/go_s_steam_os_animation_changer_plugin_not_working/",
-      "published_at": "2026-09-24T10:34:23.303927+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "bd3f2e58b1f03940160add41227f7013863d3bfc24c0f8d6b463086c352f2198",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Should I buy now or wait until the blackfriday sale??",
-      "summary": "do you think it is possible for the consoles to be on sale?? if yes, how much do you think they will go on for? submitted by /u/Creepy_Double6856 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnr9u9/should_i_buy_now_or_wait_until_the_blackfriday/",
-      "published_at": "2026-09-24T10:34:23.303888+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "e41e18aabe97d70622c6e9936bd30a2b946e463928204f333debb8a07451a283",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion space and well dweller",
-      "summary": "I have well dweller on gamepass. It launches but before it does...legion space opens and forces me to launch the game from there. Then the game is gray screen. Sounds work but I can't see anything. Also for the longest time controller won't work unless I launch legion space first. Anyone else? submitted by /u/ConfidentGuide3935 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnsaax/legion_space_and_well_dweller/",
-      "published_at": "2026-09-24T10:34:23.303855+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "5c7ee82a7dabbdb8b6b271fdc5587e8700b6ca37aa3d5eb682f929cfb0239864",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion Go SteamOS ISO",
-      "summary": "I’ve been trying all morning to install SteamOS on the OG legion go, and I can’t find an installer image anywhere. All the guides link to the Steam repair/installer but it doesn’t work on Legion, and I can’t find a Legion specific installer. Does anyone know where I can find a SteamOS installer image for Legion Go? Thanks! submitted by /u/Natural-Leg7488 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnu9k9/legion_go_steamos_iso/",
-      "published_at": "2026-09-24T10:34:23.303814+00:00",
-      "matched_keywords": [
-        "OG"
-      ],
-      "priority": true,
-      "summary_pl": "Użytkownik poszukuje dedykowanego instalatora obrazu SteamOS dla konsoli Lenovo Legion Go, ponieważ standardowe obrazy nie działają.",
-      "tags": [
-        "Legion Go",
-        "SteamOS",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "746f17ddf18202969b22a1c65b97f202f260812cf569e03b835a663c04024b53",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "New to PC handhelds",
-      "summary": "Hello all, Being new to pc gaming in general ,where do I go about finding emulators for retro games ? Thanks submitted by /u/birdkeeperichy [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wnzm1g/new_to_pc_handhelds/",
-      "published_at": "2026-09-24T10:34:23.303765+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "0a00b6446f1549d570c150278d22d613e33bc73c5e841bb9727bccdea3da3255",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I have no idea what’s going on with my Lenovo Legion Go :(",
-      "summary": "Not a massive computer person so please explain anything like I’m a toddler! I’m trying to use my lenovo legion go today to play dead by daylight whilst in a discord call and it keeps crashing and completely turning itself off I’ve changed nothing in settings and device is up to date etc. I had a pop up from dbd to say it is out of video memory - there is no background video recording. I made some space so have ~25g…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo24dw/i_have_no_idea_whats_going_on_with_my_lenovo/",
-      "published_at": "2026-09-24T10:34:23.303730+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "cb542075f2fe22f413d6338f8ce4b622ec0b8a2ba4d956cf749353fb03a620c6",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Should I get the legion go in 2026?",
-      "summary": "In my country the legion go 1 costs 650$ and the steam deck prices in my country has seen most damage because it used to be 620$ for the 512gb and the 1tb for 730$ but now both of them cost more than a 1000$ The only other handheld that has the same price of the og legion go is the base Xbox ally submitted by /u/idk12345671405 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo2jxh/should_i_get_the_legion_go_in_2026/",
-      "published_at": "2026-09-24T10:34:23.303640+00:00",
-      "matched_keywords": [
-        "OG"
-      ],
-      "priority": true,
-      "summary_pl": "Gracz rozważa zakup konsoli Lenovo Legion Go w 2026 roku za 650 dolarów, zauważając, że ceny Steam Decka w jego kraju drastycznie wzrosły do ponad 1000 dolarów.",
-      "tags": [
-        "Legion Go",
-        "Steam Deck",
-        "handheld",
-        "gaming"
-      ]
-    },
-    {
-      "id": "ea179be3f9c2a19648dc78e59ecd675947e2f43c91a11e5f9a59ea91456f4e31",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Invest in egpu or save for more expensive handheld?",
-      "summary": "So I recently purchased a Legion Go S SteamOS Z1e off fb marketplace for $650 and I’m loving it so far! However, it does get a little frustrating having to tinker so much with settings and playing at lower settings for more demanding games, so I have been considering either getting an egpu (preferably all-in-one setup like a onexgpu or something similar) or possibly saving up to buy a stronger handheld like a Strix…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo5d7y/invest_in_egpu_or_save_for_more_expensive_handheld/",
-      "published_at": "2026-09-24T10:34:23.303595+00:00",
-      "matched_keywords": [
-        "Z1E"
-      ],
-      "priority": true,
-      "summary_pl": "Użytkownik Legion Go zastanawia się, czy zainwestować w eGPU, czy oszczędzać na mocniejszą konsolę przenośną.",
-      "tags": [
-        "Legion Go",
-        "eGPU",
-        "handheld"
-      ]
-    },
-    {
-      "id": "8e9e294b0c1d0c3db748f5cb28b138d59c9b9fe82e14ee9b8c08bbedc2f49302",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Hello everyone i need some help with steamOS on LEGION GO",
-      "summary": "hello guys i got a OG legion go with windows installed on it i want to install steamOS but i read some people complaining about the GO overheat and shutdowns when playing demanding games cause the FANS dont ramp up properly they don't work out of the box like they do in windows also some people complains about FANS runing at full speed when the console on idle cause we know the steamOS still on Beta my question is i…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wo8igz/hello_everyone_i_need_some_help_with_steamos_on/",
-      "published_at": "2026-09-24T10:34:23.303483+00:00",
-      "matched_keywords": [
-        "OG"
-      ],
-      "priority": true,
-      "summary_pl": "Użytkownik prosi o pomoc w instalacji systemu SteamOS na konsoli Legion Go. Obawia się problemów z przegrzewaniem i nieprawidłową pracą wentylatorów.",
-      "tags": [
-        "LegionGo",
-        "SteamOS",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "2b0ce306fd1e6a923fd471a4c97749e6a81b0b3a92913f4ce17ed98d5c034528",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "New PC Handheld User Help Needed",
-      "summary": "Hi All, I recently purchased a new Legion Go 2 and as a new PC Handheld user, REAL NEW and coming from the Nintendo ecosystem, I need some real help. And I'm searching for non-judgemental and super techy help. Here are some things I'm having problems with... Figuring out buttons - Some buttons dont work or aren't working when I'm playing on Steam vs outside of steam. Is this normal? Is my device not work? Are there…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woaom4/new_pc_handheld_user_help_needed/",
-      "published_at": "2026-09-24T10:34:23.303400+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "3930fb4936b6623eadd9d9b8145523df6023137e1035cb44992433d2b1a5035a",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Bazzite installation hanging",
-      "summary": "I am trying to switch from steamos to bazzite since steamos killed my gyroscope. Installing of bazzite went smooth enough but once I go to reboot for the initial setup, the system hangs and just turns the screen on and off indefinitely. This is the second time I've tried this process. submitted by /u/thegreatredragon [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wob31v/bazzite_installation_hanging/",
-      "published_at": "2026-09-24T10:34:23.303300+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "2693ac045d255a488cd7f9fc41faa502c779b2a63564c8b181753768a288ad58",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Legion Go2 z2 extreme PCSx2 FPS issue",
-      "summary": "Like title says... dunno how fix it to submitted by /u/Akukuk [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wodf40/legion_go2_z2_extreme_pcsx2_fps_issue/",
-      "published_at": "2026-09-24T10:34:23.303261+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "159a88376047c660b243e987c06ecb0a6270e60a7ecc82fa0b55661cbcbbcf64",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Unplugged defaulting to Quiet now...",
-      "summary": "Why all of a sudden is my Legion Go S defaulting to Quiet mode every time I start it up now, unplugged? Anywhere to fix this? submitted by /u/rrankine [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woepus/unplugged_defaulting_to_quiet_now/",
-      "published_at": "2026-09-24T10:34:23.303232+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "1c42041e5f06e0dab1667505e28cb5d6801eca9fe46c7fcf711b0011cbac5c44",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "How does z2 go legion go s perform in BG3 with steamos?",
-      "summary": "I know that bg3 has a native Linux port which provides much better performance than windows but can't find any benchmarks of the game with steamos on z2 go legion go s. Can any owners chime in? Thinking of picking up one mainly for this game. submitted by /u/Helpful_Economist_59 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woh6mz/how_does_z2_go_legion_go_s_perform_in_bg3_with/",
-      "published_at": "2026-09-24T10:34:23.303197+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "2b7c1b9ffec6855cf5bdba50704146918c40b81d117846d8a4fb2ef6c38cb109",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Streaming from PC to 4K TV using Legion Go S.",
-      "summary": "I mostly stream from PC to my Legion Go S without issues using moonlight, however I've been wanting to change it up and stream to my 4K TV instead. Is it as simple as starting the stream on my Legio Go S like normal, then docking it onto a docking station (USB C connection with Legion Go) which is connected to my TV via HDMI? Is there any specific spec that I need to for the dock or the HDMI cable? My native PC is 1…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woo15m/streaming_from_pc_to_4k_tv_using_legion_go_s/",
-      "published_at": "2026-09-24T10:34:23.303154+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "b4c5100b13b90a00bb41de1ffe3188df34b791c82a9e0ad4a6285238cbbe2a88",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Just bought a legion go 2",
-      "summary": "So I just bought a legion go 2 as I found a sweet deal. I come from an Xbox but wanted to play battlefield on the go. I feel really dumb but I can’t figure out how to download battlefield 6? submitted by /u/Available_Eagle4150 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woo4r1/just_bought_a_legion_go_2/",
-      "published_at": "2026-09-24T10:34:23.303096+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "cc6c71b530fdd93d0540703d7db38537bcef8b96af05f87e26629dc03be0a46d",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "Issue with playing games on legion go",
-      "summary": "Hello so I’ve had my legion go for a bit now but as of yesterday I tried playing a steam game on it and idk weather it’s a windows update issue or something else when I click to play a game it opens game starts then goes immediately to legion space. Or when I reset the Legion and open the game first thing after it comes back the reset I open the game no problem but once I’m on the start screen my controllers don’t r…",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wopxzg/issue_with_playing_games_on_legion_go/",
-      "published_at": "2026-09-24T10:34:23.303049+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "5763d145708e6d932add2429e315207dfb54688dd7c0abe852c2af98e9e645a9",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "How could i install in steamos",
-      "summary": "I have lenovo legion go s steamos and i can't download files how can i do that submitted by /u/Sad_Zone1434 [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1wor64c/how_could_i_install_in_steamos/",
-      "published_at": "2026-09-24T10:34:23.302976+00:00",
-      "matched_keywords": [],
-      "priority": false
-    },
-    {
-      "id": "169ed1fc67dccac4922cd675abdf0afeb51530eac12c8818a155619b8148e237",
-      "source": "r/LegionGo",
-      "source_type": "reddit",
-      "category": "Reddit",
-      "language": "en",
-      "title": "I have Go 2 but want the Ally Xbox OLED Model",
-      "summary": "Please talk me out of selling my go 2 for it. I like my go 2 but it is on the bigger, heavier side. I loved my Xbox Ally X but the screen was not that great compared to OLED. submitted by /u/beipher [link] [comments]",
-      "url": "https://www.reddit.com/r/LegionGo/comments/1woseox/i_have_go_2_but_want_the_ally_xbox_oled_model/",
-      "published_at": "2026-09-24T10:34:23.302922+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -1311,7 +1096,7 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Gry 90V 1 Gry 90V 1 Średniowieczna przygoda galopuje w kierunku konsol. Duża aktualizacja z wędkowaniem już dostępna PS5 XSX|S NS2 PC Dzisiaj, 12:07",
+      "title": "Gry 349V 5 Gry 349V 5 Średniowieczna przygoda galopuje w kierunku konsol. Duża aktualizacja z wędkowaniem już dostępna PS5 XSX|S NS2 PC Dzisiaj, 12:07",
       "summary": "The Legend of Khiimori zadebiutowało w marcu, a teraz otrzymuje kolejne ważne nowości.",
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427776/sredniowieczna-przygoda-galopuje-w-kierunku-konsol-duza-aktualizacja-z-wedkowaniem-juz-dostepna.html",
@@ -1323,7 +1108,7 @@
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "1 Newsy Michał „thegoose” Gąsior Quake Champions znienacka przestało być darmowe po kilku latach od premiery. To efekt resetu w Xboksie Quake Champions znienacka przestało być darmowe po kilku latach...",
+      "title": "Quake Champions znienacka pr",
       "summary": "Okrojone id Software najwyraźniej nie jest już w stanie dalej utrzymywać Quake Champions w takim modelu, jak dotychczas.",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/quake-champions-znienacka-przestalo-byc-darmowe-po-kilku-latach-od-premiery-to-efekt-resetu-w-xboksie/",
@@ -1342,16 +1127,69 @@
       "published_at": "2026-09-24T09:58:20.637835+00:00"
     },
     {
-      "id": "21791bce255b787d2c8a62ef557f27149514678fd0799d91107235733b6a1b0e",
-      "source": "Michał Pisarski",
-      "source_type": "youtube",
-      "category": "YouTube",
-      "language": "pl",
-      "title": "Trzęsienie ziemi w Xboxie, PlayStation płaci za zakupy, powrót tanich konsol",
-      "summary": "Podeślij tip jak masz ochotę: https://tipply.pl/@pisarion3000 Moja strona z promocjami: https://pisarion3000.pl ➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwes…",
-      "url": "https://www.youtube.com/watch?v=45anPnP4H30",
-      "published_at": "2026-09-24T09:32:51Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/45anPnP4H30/mqdefault_live.jpg"
+      "id": "169ed1fc67dccac4922cd675abdf0afeb51530eac12c8818a155619b8148e237",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I have Go 2 but want the Ally Xbox OLED Model",
+      "summary": "Please talk me out of selling my go 2 for it. I like my go 2 but it is on the bigger, heavier side. I loved my Xbox Ally X but the screen was not that great compared to OLED. submitted by /u/beipher [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woseox/i_have_go_2_but_want_the_ally_xbox_oled_model/",
+      "published_at": "2026-09-24T04:50:37+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "5763d145708e6d932add2429e315207dfb54688dd7c0abe852c2af98e9e645a9",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How could i install in steamos",
+      "summary": "I have lenovo legion go s steamos and i can't download files how can i do that submitted by /u/Sad_Zone1434 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wor64c/how_could_i_install_in_steamos/",
+      "published_at": "2026-09-24T03:45:03+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "cc6c71b530fdd93d0540703d7db38537bcef8b96af05f87e26629dc03be0a46d",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Issue with playing games on legion go",
+      "summary": "Hello so I’ve had my legion go for a bit now but as of yesterday I tried playing a steam game on it and idk weather it’s a windows update issue or something else when I click to play a game it opens game starts then goes immediately to legion space. Or when I reset the Legion and open the game first thing after it comes back the reset I open the game no problem but once I’m on the start screen my controllers don’t r…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wopxzg/issue_with_playing_games_on_legion_go/",
+      "published_at": "2026-09-24T02:43:47+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "b4c5100b13b90a00bb41de1ffe3188df34b791c82a9e0ad4a6285238cbbe2a88",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Just bought a legion go 2",
+      "summary": "So I just bought a legion go 2 as I found a sweet deal. I come from an Xbox but wanted to play battlefield on the go. I feel really dumb but I can’t figure out how to download battlefield 6? submitted by /u/Available_Eagle4150 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woo4r1/just_bought_a_legion_go_2/",
+      "published_at": "2026-09-24T01:18:26+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2b7c1b9ffec6855cf5bdba50704146918c40b81d117846d8a4fb2ef6c38cb109",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Streaming from PC to 4K TV using Legion Go S.",
+      "summary": "I mostly stream from PC to my Legion Go S without issues using moonlight, however I've been wanting to change it up and stream to my 4K TV instead. Is it as simple as starting the stream on my Legio Go S like normal, then docking it onto a docking station (USB C connection with Legion Go) which is connected to my TV via HDMI? Is there any specific spec that I need to for the dock or the HDMI cable? My native PC is 1…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woo15m/streaming_from_pc_to_4k_tv_using_legion_go_s/",
+      "published_at": "2026-09-24T01:13:48+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "1251d8cdf6ea0fc7f4dc1e8ab216e325d15724efac613257c7da14e8df3545d3",
@@ -1390,6 +1228,19 @@
       ]
     },
     {
+      "id": "1c42041e5f06e0dab1667505e28cb5d6801eca9fe46c7fcf711b0011cbac5c44",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How does z2 go legion go s perform in BG3 with steamos?",
+      "summary": "I know that bg3 has a native Linux port which provides much better performance than windows but can't find any benchmarks of the game with steamos on z2 go legion go s. Can any owners chime in? Thinking of picking up one mainly for this game. submitted by /u/Helpful_Economist_59 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woh6mz/how_does_z2_go_legion_go_s_perform_in_bg3_with/",
+      "published_at": "2026-09-23T20:24:28+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "36cf8a8eede4c07321201b33ebcb214e4dae975033d61cec00215e9f7f87fa51",
       "source": "Kanał o technologii",
       "source_type": "youtube",
@@ -1400,6 +1251,32 @@
       "url": "https://www.youtube.com/watch?v=KtwhRwKwVkQ",
       "published_at": "2026-09-23T19:59:16Z",
       "thumbnail_url": "https://i.ytimg.com/vi/KtwhRwKwVkQ/mqdefault.jpg"
+    },
+    {
+      "id": "159a88376047c660b243e987c06ecb0a6270e60a7ecc82fa0b55661cbcbbcf64",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Unplugged defaulting to Quiet now...",
+      "summary": "Why all of a sudden is my Legion Go S defaulting to Quiet mode every time I start it up now, unplugged? Anywhere to fix this? submitted by /u/rrankine [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woepus/unplugged_defaulting_to_quiet_now/",
+      "published_at": "2026-09-23T18:52:34+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2693ac045d255a488cd7f9fc41faa502c779b2a63564c8b181753768a288ad58",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go2 z2 extreme PCSx2 FPS issue",
+      "summary": "Like title says... dunno how fix it to submitted by /u/Akukuk [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wodf40/legion_go2_z2_extreme_pcsx2_fps_issue/",
+      "published_at": "2026-09-23T18:04:17+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "33cf5ce3df39909afe8c4fdea282b95ce300d97e81113a140aac9d20a62f23c0",
@@ -1456,6 +1333,32 @@
       ]
     },
     {
+      "id": "3930fb4936b6623eadd9d9b8145523df6023137e1035cb44992433d2b1a5035a",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Bazzite installation hanging",
+      "summary": "I am trying to switch from steamos to bazzite since steamos killed my gyroscope. Installing of bazzite went smooth enough but once I go to reboot for the initial setup, the system hangs and just turns the screen on and off indefinitely. This is the second time I've tried this process. submitted by /u/thegreatredragon [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wob31v/bazzite_installation_hanging/",
+      "published_at": "2026-09-23T16:38:43+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2b0ce306fd1e6a923fd471a4c97749e6a81b0b3a92913f4ce17ed98d5c034528",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "New PC Handheld User Help Needed",
+      "summary": "Hi All, I recently purchased a new Legion Go 2 and as a new PC Handheld user, REAL NEW and coming from the Nintendo ecosystem, I need some real help. And I'm searching for non-judgemental and super techy help. Here are some things I'm having problems with... Figuring out buttons - Some buttons dont work or aren't working when I'm playing on Steam vs outside of steam. Is this normal? Is my device not work? Are there…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1woaom4/new_pc_handheld_user_help_needed/",
+      "published_at": "2026-09-23T16:24:42+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "a2fb31eaac92696015d9358392ec679a6e8e7be1e24ded4f027215909f52f4e8",
       "source": "PC Gamer",
       "source_type": "news",
@@ -1470,6 +1373,27 @@
         "Logitech",
         "mysz",
         "sprzęt"
+      ]
+    },
+    {
+      "id": "8e9e294b0c1d0c3db748f5cb28b138d59c9b9fe82e14ee9b8c08bbedc2f49302",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hello everyone i need some help with steamOS on LEGION GO",
+      "summary": "hello guys i got a OG legion go with windows installed on it i want to install steamOS but i read some people complaining about the GO overheat and shutdowns when playing demanding games cause the FANS dont ramp up properly they don't work out of the box like they do in windows also some people complains about FANS runing at full speed when the console on idle cause we know the steamOS still on Beta my question is i…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo8igz/hello_everyone_i_need_some_help_with_steamos_on/",
+      "published_at": "2026-09-23T15:04:39+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "summary_pl": "Użytkownik prosi o pomoc w instalacji systemu SteamOS na konsoli Legion Go. Obawia się problemów z przegrzewaniem i nieprawidłową pracą wentylatorów.",
+      "tags": [
+        "LegionGo",
+        "SteamOS",
+        "Gaming"
       ]
     },
     {
@@ -1488,6 +1412,27 @@
         "Path of Exile",
         "DLC",
         "Gaming"
+      ]
+    },
+    {
+      "id": "ea179be3f9c2a19648dc78e59ecd675947e2f43c91a11e5f9a59ea91456f4e31",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Invest in egpu or save for more expensive handheld?",
+      "summary": "So I recently purchased a Legion Go S SteamOS Z1e off fb marketplace for $650 and I’m loving it so far! However, it does get a little frustrating having to tinker so much with settings and playing at lower settings for more demanding games, so I have been considering either getting an egpu (preferably all-in-one setup like a onexgpu or something similar) or possibly saving up to buy a stronger handheld like a Strix…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo5d7y/invest_in_egpu_or_save_for_more_expensive_handheld/",
+      "published_at": "2026-09-23T13:01:21+00:00",
+      "matched_keywords": [
+        "Z1E"
+      ],
+      "priority": true,
+      "summary_pl": "Użytkownik Legion Go zastanawia się, czy zainwestować w eGPU, czy oszczędzać na mocniejszą konsolę przenośną.",
+      "tags": [
+        "Legion Go",
+        "eGPU",
+        "handheld"
       ]
     },
     {
@@ -1521,6 +1466,41 @@
       ]
     },
     {
+      "id": "cb542075f2fe22f413d6338f8ce4b622ec0b8a2ba4d956cf749353fb03a620c6",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should I get the legion go in 2026?",
+      "summary": "In my country the legion go 1 costs 650$ and the steam deck prices in my country has seen most damage because it used to be 620$ for the 512gb and the 1tb for 730$ but now both of them cost more than a 1000$ The only other handheld that has the same price of the og legion go is the base Xbox ally submitted by /u/idk12345671405 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo2jxh/should_i_get_the_legion_go_in_2026/",
+      "published_at": "2026-09-23T10:47:34+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "summary_pl": "Gracz rozważa zakup konsoli Lenovo Legion Go w 2026 roku za 650 dolarów, zauważając, że ceny Steam Decka w jego kraju drastycznie wzrosły do ponad 1000 dolarów.",
+      "tags": [
+        "Legion Go",
+        "Steam Deck",
+        "handheld",
+        "gaming"
+      ]
+    },
+    {
+      "id": "0a00b6446f1549d570c150278d22d613e33bc73c5e841bb9727bccdea3da3255",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I have no idea what’s going on with my Lenovo Legion Go :(",
+      "summary": "Not a massive computer person so please explain anything like I’m a toddler! I’m trying to use my lenovo legion go today to play dead by daylight whilst in a discord call and it keeps crashing and completely turning itself off I’ve changed nothing in settings and device is up to date etc. I had a pop up from dbd to say it is out of video memory - there is no background video recording. I made some space so have ~25g…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wo24dw/i_have_no_idea_whats_going_on_with_my_lenovo/",
+      "published_at": "2026-09-23T10:24:16+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "2d1e6f1cfe14c30da11605120b4fee7f9ac51dfad9acfb6ff724191d32851972",
       "source": "CD-Action",
       "source_type": "news",
@@ -1548,6 +1528,105 @@
         "turnieje",
         "wydarzenia"
       ]
+    },
+    {
+      "id": "746f17ddf18202969b22a1c65b97f202f260812cf569e03b835a663c04024b53",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "New to PC handhelds",
+      "summary": "Hello all, Being new to pc gaming in general ,where do I go about finding emulators for retro games ? Thanks submitted by /u/birdkeeperichy [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnzm1g/new_to_pc_handhelds/",
+      "published_at": "2026-09-23T07:55:16+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "5c7ee82a7dabbdb8b6b271fdc5587e8700b6ca37aa3d5eb682f929cfb0239864",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go SteamOS ISO",
+      "summary": "I’ve been trying all morning to install SteamOS on the OG legion go, and I can’t find an installer image anywhere. All the guides link to the Steam repair/installer but it doesn’t work on Legion, and I can’t find a Legion specific installer. Does anyone know where I can find a SteamOS installer image for Legion Go? Thanks! submitted by /u/Natural-Leg7488 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnu9k9/legion_go_steamos_iso/",
+      "published_at": "2026-09-23T03:02:18+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "summary_pl": "Użytkownik poszukuje dedykowanego instalatora obrazu SteamOS dla konsoli Lenovo Legion Go, ponieważ standardowe obrazy nie działają.",
+      "tags": [
+        "Legion Go",
+        "SteamOS",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "e41e18aabe97d70622c6e9936bd30a2b946e463928204f333debb8a07451a283",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion space and well dweller",
+      "summary": "I have well dweller on gamepass. It launches but before it does...legion space opens and forces me to launch the game from there. Then the game is gray screen. Sounds work but I can't see anything. Also for the longest time controller won't work unless I launch legion space first. Anyone else? submitted by /u/ConfidentGuide3935 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnsaax/legion_space_and_well_dweller/",
+      "published_at": "2026-09-23T01:31:18+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "bd3f2e58b1f03940160add41227f7013863d3bfc24c0f8d6b463086c352f2198",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should I buy now or wait until the blackfriday sale??",
+      "summary": "do you think it is possible for the consoles to be on sale?? if yes, how much do you think they will go on for? submitted by /u/Creepy_Double6856 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnr9u9/should_i_buy_now_or_wait_until_the_blackfriday/",
+      "published_at": "2026-09-23T00:45:15+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "9283a98fd584b6170390d0b5dd276839cba598d2636c3aba7d56637633f4e168",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Go S Steam OS Animation Changer plugin not working",
+      "summary": "I installed animation changer on Deckyloader plugin and the boot animation doesn’t work at all but the Suspend does. Anyone know how to fix? submitted by /u/SeaWing2841 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnqbuw/go_s_steam_os_animation_changer_plugin_not_working/",
+      "published_at": "2026-09-23T00:03:33+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "e9a36ffaa7b29284acbbd6f8a98dbe69799acc50dfd036eeacc5787a98f7fe5f",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Looking for a small, wireless gaming keyboard for Legion Go 2 - recommendations?",
+      "summary": "Preferably one of those smaller gaming keyboards with the left-side of the keyboard. submitted by /u/PossibilityDirect386 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnp4xw/looking_for_a_small_wireless_gaming_keyboard_for/",
+      "published_at": "2026-09-22T23:12:26+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "20cb49f4cfa67404330f322198dd1f9c7dc5c4dfe86732da1f1dfa567817eec0",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go S: 1 year review",
+      "summary": "Hey guys, I wanted to share my experience after having the Legion Go S for a year now I bought it from the UK Lenovo store for £669 and seeing how the price has been changing since then is nuts. In the early days it felt like a new toy (and it still does). I’ve been going through tons of tutorials, Decky, frame gen, emulation, setting games up from other stores on the go. It is amazing. However, mine had that common…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wnop9s/legion_go_s_1_year_review/",
+      "published_at": "2026-09-22T22:53:48+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "25e73a66bd720ef06c3b0ae7743d845c97fa43419f2807410d65e73c68f43056",
@@ -1772,6 +1851,22 @@
       "thumbnail_url": "https://i.ytimg.com/vi/hjBpcekaqcs/mqdefault.jpg"
     },
     {
+      "id": "4200a84ffc277d9e80ca00897f419c3d72a77ce91bf04813791504b4d3d09951",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Nintendo Switch 2 Standard Edition z Polski za $478.70 / ~1818zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/nintendo-switch-2-standard-edition/",
+      "published_at": "2026-09-19T10:51:43+00:00",
+      "matched_keywords": [
+        "Nintendo Switch"
+      ],
+      "price": "1818zł",
+      "active": true
+    },
+    {
       "id": "6e7298018dfa12a877c8d04b2988b6dec7a1259e5702df195de679e2cc1720c3",
       "source": "Kanał o technologii",
       "source_type": "youtube",
@@ -1854,6 +1949,22 @@
       "url": "https://www.youtube.com/watch?v=NwjktoK4Pt4",
       "published_at": "2026-09-18T10:00:38Z",
       "thumbnail_url": "https://i.ytimg.com/vi/NwjktoK4Pt4/mqdefault.jpg"
+    },
+    {
+      "id": "82c4454268808a5fd7a36cec7b26cf66327787064b67602c63abf6e69ea731ee",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Nintendo Switch 2 z EU za $433.37 / ~1649zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/nintendo-switch-2-z-aliexpresss/",
+      "published_at": "2026-09-18T08:55:51+00:00",
+      "matched_keywords": [
+        "Nintendo Switch"
+      ],
+      "price": "1649zł",
+      "active": true
     },
     {
       "id": "8412ea69b27bacd7ba4f03a38995f89c6990cd495cc19107408b675b78841063",
@@ -1950,23 +2061,6 @@
       "url": "https://www.youtube.com/watch?v=r4ZDapvpe34",
       "published_at": "2026-09-15T12:45:02Z",
       "thumbnail_url": "https://i.ytimg.com/vi/r4ZDapvpe34/mqdefault.jpg"
-    },
-    {
-      "id": "a7d74fb3e8011e18fd32060a3413cb99560506d2fecacb54e90c827a53ad819a",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola Sony Playstation 5 PS5 Slim z napędem z Polski za $700.33 / ~2688zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-playstation-5/",
-      "published_at": "2026-09-15T12:24:45+00:00",
-      "matched_keywords": [
-        "PlayStation",
-        "PS5"
-      ],
-      "price": "2688zł",
-      "active": true
     },
     {
       "id": "7d51b202ffcc27c0b1bed2c4b98dde47e34cd75824895675a0be319e50a8194a",
@@ -2585,22 +2679,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
-      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
-      "published_at": "2026-07-28T20:27:02+00:00",
-      "matched_keywords": [
-        "PlayStation"
-      ],
-      "price": "1099zł",
-      "active": true
-    },
-    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -2938,8 +3016,8 @@
       "url": "https://www.lowcychin.pl/asus-rog-ally-x-przenosna-konsola-do-gier/",
       "published_at": "2025-06-24T17:20:14+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Z1 Extreme"
+        "Z1 Extreme",
+        "ROG Ally"
       ],
       "price": "3582zł",
       "active": true
@@ -3003,8 +3081,8 @@
       "url": "https://www.lowcychin.pl/asus-rog-ally-z1-extreme/",
       "published_at": "2025-03-17T07:47:20+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Z1 Extreme"
+        "Z1 Extreme",
+        "ROG Ally"
       ],
       "price": "1666zł",
       "active": true
@@ -3053,8 +3131,8 @@
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
         "Legion Go",
-        "ROG Ally",
-        "Steam Deck"
+        "Steam Deck",
+        "ROG Ally"
       ],
       "price": "189zł",
       "active": true
@@ -3070,8 +3148,8 @@
       "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
       "published_at": "2024-11-12T09:06:17+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Steam Deck"
+        "Steam Deck",
+        "ROG Ally"
       ],
       "price": "434zł",
       "active": true
@@ -3104,8 +3182,8 @@
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
         "Legion Go",
-        "ROG Ally",
-        "Steam Deck"
+        "Steam Deck",
+        "ROG Ally"
       ],
       "price": "205zł",
       "active": true
@@ -3332,8 +3410,8 @@
       "url": "https://www.lowcychin.pl/konsola-asus-rog-ally-amd-ryzen-z1-extreme/",
       "published_at": "2024-05-06T11:54:03+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Z1 Extreme"
+        "Z1 Extreme",
+        "ROG Ally"
       ],
       "price": "2488zł",
       "active": true
