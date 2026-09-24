@@ -119,7 +119,7 @@
 
           <div class="card-footer">
             <span>{{ item.category }}</span>
-            <a class="open" href="{{ item.url }}" target="_blank" rel="noopener">Otwórz ↗</a>
+            <a class="open" href="{{ item.url }}">Otwórz ↗</a>
           </div>
         </article>
         {% endfor %}
@@ -166,7 +166,7 @@
     document.querySelectorAll(".card[data-url]").forEach(card => {
       card.addEventListener("click", event => {
         if (event.target.closest("a, button, select, summary")) return;
-        window.open(card.dataset.url, "_blank", "noopener");
+        window.location.href = card.dataset.url;
       });
     });
 
