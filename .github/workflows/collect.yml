@@ -88,4 +88,4 @@ jobs:
         run: |
           curl --fail --silent --show-error "https://myhub.pythonanywhere.com/health"
 
-# deploy-touch: disable-pepper-price
+# deploy-touch: pepper-graphql-v1
