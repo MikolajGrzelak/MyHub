@@ -7,6 +7,7 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -370,20 +371,42 @@ def extract_temperature(text: str) -> str:
     return match.group(1) if match else ""
 
 
-def collect_pepper_deals(keywords: list[str]) -> list[dict]:
-    found = {}
-    for index, keyword in enumerate(keywords):
-        if index:
-            time.sleep(1.5)
-        search_url = f"https://www.pepper.pl/search?q={quote_plus(keyword)}"
-        try:
-            response = requests.get(search_url, headers=HEADERS, timeout=20)
-            response.raise_for_status()
-        except requests.RequestException as exc:
-            print(f"[DEAL ERROR] Pepper {keyword}: {exc}")
-            continue
 
-        soup = BeautifulSoup(response.text, "html.parser")
+def _fetch_html(url: str, timeout: int = 15) -> tuple[str, str]:
+    response = requests.get(url, headers=HEADERS, timeout=timeout)
+    response.raise_for_status()
+    return url, response.text
+
+
+def _parallel_fetch(urls: list[str], workers: int = 6) -> dict[str, str]:
+    results = {}
+    unique_urls = list(dict.fromkeys(urls))
+    if not unique_urls:
+        return results
+
+    with ThreadPoolExecutor(max_workers=min(workers, len(unique_urls))) as pool:
+        futures = {pool.submit(_fetch_html, url): url for url in unique_urls}
+        for future in as_completed(futures):
+            url = futures[future]
+            try:
+                _, body = future.result()
+                results[url] = body
+            except requests.RequestException as exc:
+                print(f"[DEAL WARN] {url}: {exc}")
+    return results
+
+
+def collect_pepper_deals(keywords: list[str]) -> list[dict]:
+    search_urls = {
+        f"https://www.pepper.pl/search?q={quote_plus(keyword)}": keyword
+        for keyword in keywords
+    }
+    search_pages = _parallel_fetch(list(search_urls), workers=6)
+
+    found = {}
+    for search_url, body in search_pages.items():
+        keyword = search_urls[search_url]
+        soup = BeautifulSoup(body, "html.parser")
         for a in soup.find_all("a", href=True):
             href = a.get("href", "")
             if "/promocje/" not in href:
@@ -392,28 +415,27 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             title = clean_text(a.get_text(" ", strip=True), 220)
             if len(title) < 12:
                 continue
-            found[url] = {"title": title, "keyword": keyword}
+            meta = found.setdefault(url, {"title": title, "keywords": []})
+            if keyword not in meta["keywords"]:
+                meta["keywords"].append(keyword)
+
+    detail_urls = list(found)[:50]
+    detail_pages = _parallel_fetch(detail_urls, workers=8)
 
     items = []
-    for index, (url, meta) in enumerate(list(found.items())[:40]):
-        if index:
-            time.sleep(1)
-        try:
-            response = requests.get(url, headers=HEADERS, timeout=20)
-            response.raise_for_status()
-        except requests.RequestException as exc:
-            print(f"[DEAL ERROR] Pepper detail: {exc}")
+    now = datetime.now(timezone.utc).isoformat()
+    for url in detail_urls:
+        body = detail_pages.get(url)
+        if not body:
             continue
-
-        page = BeautifulSoup(response.text, "html.parser")
+        page = BeautifulSoup(body, "html.parser")
         text = clean_text(page.get_text(" ", strip=True), 5000)
         if looks_inactive(text):
             continue
 
-        title = clean_text(
-            (page.find("h1").get_text(" ", strip=True) if page.find("h1") else meta["title"]),
-            220,
-        )
+        meta = found[url]
+        h1 = page.find("h1")
+        title = clean_text(h1.get_text(" ", strip=True) if h1 else meta["title"], 220)
         items.append({
             "id": make_id("Pepper", url),
             "source": "Pepper",
@@ -423,32 +445,30 @@ def collect_pepper_deals(keywords: list[str]) -> list[dict]:
             "title": title,
             "summary": "",
             "url": url,
-            "published_at": datetime.now(timezone.utc).isoformat(),
-            "matched_keywords": [meta["keyword"]],
+            "published_at": now,
+            "matched_keywords": meta["keywords"],
             "price": extract_price(text),
             "temperature": extract_temperature(text),
             "active": True,
         })
 
-    print(f"[OK] Pepper: {len(items)} active deals")
+    print(f"[OK] Pepper: {len(items)} active deals from {len(found)} candidates")
     return items
 
 
 def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
+    search_urls = {
+        f"https://www.lowcychin.pl/?s={quote_plus(keyword)}": keyword
+        for keyword in keywords
+    }
+    search_pages = _parallel_fetch(list(search_urls), workers=6)
+
     found = {}
     blocked_paths = ("/category/", "/tag/", "/author/", "/page/", "/kontakt", "/regulamin")
-    for index, keyword in enumerate(keywords):
-        if index:
-            time.sleep(1)
-        search_url = f"https://www.lowcychin.pl/?s={quote_plus(keyword)}"
-        try:
-            response = requests.get(search_url, headers=HEADERS, timeout=20)
-            response.raise_for_status()
-        except requests.RequestException as exc:
-            print(f"[DEAL ERROR] LowcyChin {keyword}: {exc}")
-            continue
 
-        soup = BeautifulSoup(response.text, "html.parser")
+    for search_url, body in search_pages.items():
+        keyword = search_urls[search_url]
+        soup = BeautifulSoup(body, "html.parser")
         for heading in soup.find_all(["h2", "h3"]):
             a = heading.find("a", href=True)
             if not a:
@@ -462,23 +482,25 @@ def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
             title = clean_text(a.get_text(" ", strip=True), 220)
             if len(title) < 12:
                 continue
-            found[url] = {"title": title, "keyword": keyword}
+            meta = found.setdefault(url, {"title": title, "keywords": []})
+            if keyword not in meta["keywords"]:
+                meta["keywords"].append(keyword)
+
+    detail_urls = list(found)[:50]
+    detail_pages = _parallel_fetch(detail_urls, workers=8)
 
     items = []
-    for index, (url, meta) in enumerate(list(found.items())[:40]):
-        if index:
-            time.sleep(0.8)
-        try:
-            response = requests.get(url, headers=HEADERS, timeout=20)
-            response.raise_for_status()
-        except requests.RequestException:
+    now = datetime.now(timezone.utc).isoformat()
+    for url in detail_urls:
+        body = detail_pages.get(url)
+        if not body:
             continue
-
-        page = BeautifulSoup(response.text, "html.parser")
+        page = BeautifulSoup(body, "html.parser")
         text = clean_text(page.get_text(" ", strip=True), 5000)
         if looks_inactive(text):
             continue
 
+        meta = found[url]
         h1 = page.find("h1")
         title = clean_text(h1.get_text(" ", strip=True) if h1 else meta["title"], 220)
         items.append({
@@ -490,15 +512,14 @@ def collect_lowcychin_deals(keywords: list[str]) -> list[dict]:
             "title": title,
             "summary": "",
             "url": url,
-            "published_at": datetime.now(timezone.utc).isoformat(),
-            "matched_keywords": [meta["keyword"]],
+            "published_at": now,
+            "matched_keywords": meta["keywords"],
             "price": extract_price(text),
             "active": True,
         })
 
-    print(f"[OK] ŁowcyChin: {len(items)} active deals")
+    print(f"[OK] ŁowcyChin: {len(items)} active deals from {len(found)} candidates")
     return items
-
 
 def read_existing() -> list[dict]:
     if not FEED_PATH.exists():
