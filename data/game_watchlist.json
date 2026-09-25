@@ -24,6 +24,106 @@
       "name": "Tom Clancy's The Division 2",
       "steam_app_id": 2221490,
       "platform": "pc"
+    },
+    {
+      "name": "Death Stranding Director's Cut",
+      "steam_app_id": 1850570,
+      "platform": "pc"
+    },
+    {
+      "name": "A Plague Tale: Innocence",
+      "steam_app_id": 752590,
+      "platform": "pc"
+    },
+    {
+      "name": "A Plague Tale: Requiem",
+      "steam_app_id": 1182900,
+      "platform": "pc"
+    },
+    {
+      "name": "Hellblade: Senua's Sacrifice",
+      "steam_app_id": 414340,
+      "platform": "pc"
+    },
+    {
+      "name": "Senua's Saga: Hellblade II",
+      "steam_app_id": 2461850,
+      "platform": "pc"
+    },
+    {
+      "name": "Control Ultimate Edition",
+      "steam_app_id": 870780,
+      "platform": "pc"
+    },
+    {
+      "name": "Stray",
+      "steam_app_id": 1332010,
+      "platform": "pc"
+    },
+    {
+      "name": "Hi-Fi RUSH",
+      "steam_app_id": 1817230,
+      "platform": "pc"
+    },
+    {
+      "name": "Psychonauts 2",
+      "steam_app_id": 607080,
+      "platform": "pc"
+    },
+    {
+      "name": "Little Nightmares",
+      "steam_app_id": 424840,
+      "platform": "pc"
+    },
+    {
+      "name": "Little Nightmares II",
+      "steam_app_id": 860510,
+      "platform": "pc"
+    },
+    {
+      "name": "Prince of Persia: The Lost Crown",
+      "steam_app_id": 2751000,
+      "platform": "pc"
+    },
+    {
+      "name": "Cocoon",
+      "steam_app_id": 1497440,
+      "platform": "pc"
+    },
+    {
+      "name": "INSIDE",
+      "steam_app_id": 304430,
+      "platform": "pc"
+    },
+    {
+      "name": "LIMBO",
+      "steam_app_id": 48000,
+      "platform": "pc"
+    },
+    {
+      "name": "GRIS",
+      "steam_app_id": 683320,
+      "platform": "pc"
+    },
+    {
+      "name": "Jusant",
+      "steam_app_id": 1977170,
+      "platform": "pc"
+    },
+    {
+      "name": "The Pathless",
+      "steam_app_id": 1492680,
+      "platform": "pc"
+    },
+    {
+      "name": "Another Crab's Treasure",
+      "steam_app_id": 1887840,
+      "platform": "pc"
+    },
+    {
+      "name": "The Talos Principle 2",
+      "steam_app_id": 835960,
+      "platform": "pc"
     }
   ]
 }
