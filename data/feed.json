@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-09-25T09:03:23.209425+00:00",
-  "count": 266,
+  "updated_at": "2026-09-25T10:15:19.354046+00:00",
+  "count": 268,
   "items": [
+    {
+      "id": "e6a55486589f094c153d38d6cd713202ddc5336deccb8cddcc0bd264b7eb31fa",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "To była najsmutniejsza śmierć w Final Fantasy VII Remake. Nawet aktorka była zdruzgotana PS5 XSX|S NS2 PC PS4",
+      "summary": "Rozbudowanie wątków pobocznych członków komórki Avalanche było jednym z najbardziej chwalonych elementów Final Fantasy VII Remake, ale dla wielu odbiorców stało się też źródłem trudnych emocji.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427882/to-byla-najsmutniejsza-smierc-w-final-fantasy-vii-remake-nawet-aktorka-byla-zdruzgotana.html",
+      "published_at": "2026-09-25T11:36:00+00:00"
+    },
     {
       "id": "3f719c33214f76d36c3281848e25697625cc5edb69b0c135540d65b7f2881fc2",
       "source": "PPE",
@@ -13,6 +25,21 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427875/cicha-aktualizacja-xboxow-sprawdz-nowosci-systemowe-na-xbox-series-x-s-i-xbox-one.html",
       "published_at": "2026-09-25T10:22:00+00:00"
+    },
+    {
+      "id": "160b1c13b4e6837bd9c35a8c02dd89bd0b757c684c2d9997f81a93b8fb19df5d",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Ghost recon breakpoint on the legion go s z1e",
+      "summary": "Has anybody played ghost recon breakpoint on the legion go s z1e with steamos? I cant find any videos on YouTube submitted by /u/R3dox7214 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpshxt/ghost_recon_breakpoint_on_the_legion_go_s_z1e/",
+      "published_at": "2026-09-25T10:12:25+00:00",
+      "matched_keywords": [
+        "Z1E"
+      ],
+      "priority": true
     },
     {
       "id": "af917d8e13cac6008cbe2f1761da05c2bc001a98569aae30ed63ce53db83a5f9",
@@ -27,6 +54,18 @@
       "published_at": "2026-09-25T10:07:00+00:00"
     },
     {
+      "id": "2ba0914eba247037878ae0fd4efec3a8573ae7dcc31786a01258ee888b50a0e7",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Fani Wiedźmina 3, szykujcie miejsce na dyskach. Wiemy, o której godzinie zadebiutuje remaster gry",
+      "summary": "Remaster Wiedźmina 3 wyjdzie niestety w momencie, gdy większość osób będzie najpewniej poza domem.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/fani-wiedzmina-3-szykujcie-miejsce-na-dyskach-wiemy-o-ktorej-godzinie-zadebiutuje-remaster-gry/",
+      "published_at": "2026-09-25T09:27:37+00:00"
+    },
+    {
       "id": "3de574da9da99647e63123859ccf61e92388ad92bccb49da9f7a4ee8cbbc3dad",
       "source": "PPE",
       "source_type": "news",
@@ -39,48 +78,16 @@
       "published_at": "2026-09-25T09:26:00+00:00"
     },
     {
-      "id": "43f73d25f3dd496b061a772a0d8165f4b3b2d57118f1b7922af1a516178a516b",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
+      "id": "99fde5d854d62706e0f8d24818c41ec3ada063df91ac7610f4088b0d88ef34a5",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
       "language": "pl",
-      "title": "Lego Batman: Legacy of the Dark Knight– Nintendo Switch 2",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/lego-batman-legacy-of-the-dark-knight-nintendo-switch-2-1357039",
-      "published_at": "2026-09-25T08:45:34+00:00",
-      "matched_keywords": [
-        "Nintendo Switch"
-      ],
-      "price": "224,99 zł",
-      "old_price": "249,99 zł",
-      "temperature": "63",
-      "active": true,
-      "merchant": "PerfectBlue",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/3Qe32/1357039_1/re/600x600/qt/70/1357039_1.jpg",
-      "price_verified": true,
-      "status_verified": true
-    },
-    {
-      "id": "b376ad31cc5574e03381a0a6d8fa18ec29147d54bcac33b3cbe0082e3b87758d",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Pad PS5 SONY DualSense Kontroler Cobalt Blue II w opisie Volcanic Red II darmowa dostawa",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/pad-ps5-sony-dualsense-kontroler-cobalt-blue-ii-w-opisie-volcanic-red-ii-darmowa-dostawa-1357037",
-      "published_at": "2026-09-25T08:44:41+00:00",
-      "matched_keywords": [
-        "PS5"
-      ],
-      "price": "279 zł",
-      "old_price": "",
-      "temperature": "19",
-      "active": true,
-      "merchant": "Neonet",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/CTzjx/1357037_1/re/600x600/qt/70/1357037_1.jpg",
-      "price_verified": true,
-      "status_verified": true
+      "title": "CD Projekt Red zdradza kolejne szczegóły o Wiedźminie 4 i planach rozwoju serii. Twórcy myślą o remake’u Wiedźmina 2?",
+      "summary": "Czyżbyśmy mieli dostać odświeżenie drugiej części po remake’u pierwszego Wiedźmina?",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/cd-projekt-red-zdradza-kolejne-szczegoly-o-wiedzminie-4-i-planach-rozwoju-serii-tworcy-mysla-o-remakeu-wiedzmina-2/",
+      "published_at": "2026-09-25T09:15:19+00:00"
     },
     {
       "id": "eafcf8c704990bf800488a5ac30585cf9bb1f0fdd02fc17a833f7371c95b963f",
@@ -2929,8 +2936,8 @@
       "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
       "published_at": "2026-01-12T09:41:23+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Xbox"
+        "Xbox",
+        "ROG Ally"
       ],
       "price": "2273zł",
       "active": true
@@ -3060,8 +3067,8 @@
       "url": "https://www.lowcychin.pl/asus-rog-ally-x-przenosna-konsola-do-gier/",
       "published_at": "2025-06-24T17:20:14+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Z1 Extreme"
+        "Z1 Extreme",
+        "ROG Ally"
       ],
       "price": "3582zł",
       "active": true
@@ -3125,8 +3132,8 @@
       "url": "https://www.lowcychin.pl/asus-rog-ally-z1-extreme/",
       "published_at": "2025-03-17T07:47:20+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Z1 Extreme"
+        "Z1 Extreme",
+        "ROG Ally"
       ],
       "price": "1666zł",
       "active": true
@@ -3174,9 +3181,9 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
-        "ROG Ally",
+        "Steam Deck",
         "Legion Go",
-        "Steam Deck"
+        "ROG Ally"
       ],
       "price": "189zł",
       "active": true
@@ -3192,8 +3199,8 @@
       "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
       "published_at": "2024-11-12T09:06:17+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Steam Deck"
+        "Steam Deck",
+        "ROG Ally"
       ],
       "price": "434zł",
       "active": true
@@ -3225,9 +3232,9 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
-        "ROG Ally",
+        "Steam Deck",
         "Legion Go",
-        "Steam Deck"
+        "ROG Ally"
       ],
       "price": "205zł",
       "active": true
@@ -3454,8 +3461,8 @@
       "url": "https://www.lowcychin.pl/konsola-asus-rog-ally-amd-ryzen-z1-extreme/",
       "published_at": "2024-05-06T11:54:03+00:00",
       "matched_keywords": [
-        "ROG Ally",
-        "Z1 Extreme"
+        "Z1 Extreme",
+        "ROG Ally"
       ],
       "price": "2488zł",
       "active": true
