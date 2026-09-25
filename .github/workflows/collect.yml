@@ -89,4 +89,4 @@ jobs:
         run: |
           curl --fail --silent --show-error "https://myhub.pythonanywhere.com/health"
 
-# deploy-touch: ggdeals-watchlist-v1
+# deploy-touch: ggdeals-watchlist-v2
