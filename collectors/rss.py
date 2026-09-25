@@ -28,11 +28,13 @@ from feeds import SOURCES, REDDIT_SUBREDDITS, REDDIT_KEYWORDS, YOUTUBE_CHANNELS
 DATA_DIR = ROOT / "data"
 FEED_PATH = DATA_DIR / "feed.json"
 DEAL_KEYWORDS_PATH = DATA_DIR / "deal_keywords.json"
+GAME_WATCHLIST_PATH = DATA_DIR / "game_watchlist.json"
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.5-flash-lite")
 MAX_AI_ITEMS = int(os.environ.get("MYHUB_MAX_AI_ITEMS", "15"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
+GGDEALS_API_KEY = os.environ.get("GGDEALS_API_KEY", "")
 HEADERS = {"User-Agent":"Mozilla/5.0 (compatible; MyHub/0.5; +https://myhub.pythonanywhere.com)"}
 
 HARDWARE_TERMS = [
@@ -544,6 +546,159 @@ def read_deal_keywords() -> list[str]:
         ]
     except (OSError, json.JSONDecodeError):
         return []
+
+
+def read_game_watchlist() -> list[dict]:
+    try:
+        payload = json.loads(GAME_WATCHLIST_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+
+    games = []
+    for raw in payload.get("games", []):
+        try:
+            steam_app_id = int(raw.get("steam_app_id"))
+        except (TypeError, ValueError):
+            continue
+        platform = str(raw.get("platform") or "pc").strip().lower()
+        if platform not in {"pc", "xbox_play_anywhere"}:
+            continue
+        games.append({
+            "steam_app_id": steam_app_id,
+            "name": clean_text(str(raw.get("name") or ""), 180),
+            "platform": platform,
+            "target_price": raw.get("target_price"),
+        })
+    return games
+
+
+def _price_number(value):
+    if value in (None, ""):
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _format_money(value, currency: str = "PLN") -> str:
+    number = _price_number(value)
+    if number is None:
+        return ""
+    if currency.upper() == "PLN":
+        return f"{number:.2f}".replace(".", ",") + " zł"
+    return f"{number:.2f} {currency.upper()}"
+
+
+def collect_ggdeals(games: list[dict]) -> list[dict]:
+    if not games:
+        print("[GG] game watchlist empty; skipping GG.deals.")
+        return []
+    if not GGDEALS_API_KEY:
+        print("[GG] GGDEALS_API_KEY missing; skipping GG.deals.")
+        return []
+
+    by_id = {str(game["steam_app_id"]): game for game in games}
+    ids = list(by_id)
+    items = []
+    now = datetime.now(timezone.utc).isoformat()
+
+    for offset in range(0, len(ids), 100):
+        batch = ids[offset:offset + 100]
+        try:
+            response = requests.get(
+                "https://api.gg.deals/v1/prices/by-steam-app-id/",
+                params={
+                    "key": GGDEALS_API_KEY,
+                    "ids": ",".join(batch),
+                    "region": "pl",
+                },
+                headers=HEADERS,
+                timeout=20,
+            )
+            response.raise_for_status()
+            payload = response.json()
+        except (requests.RequestException, ValueError) as exc:
+            print(f"[GG ERROR] price request failed: {exc}")
+            continue
+
+        if not payload.get("success"):
+            print(f"[GG ERROR] API returned failure: {payload.get('data')}")
+            continue
+
+        for app_id in batch:
+            row = (payload.get("data") or {}).get(app_id)
+            if not row:
+                print(f"[GG WARN] Steam app {app_id}: no GG.deals data")
+                continue
+
+            game = by_id[app_id]
+            prices = row.get("prices") or {}
+            currency = str(prices.get("currency") or "PLN").upper()
+
+            retail = _price_number(prices.get("currentRetail"))
+            keyshop = _price_number(prices.get("currentKeyshops"))
+            hist_retail = _price_number(prices.get("historicalRetail"))
+            hist_keyshop = _price_number(prices.get("historicalKeyshops"))
+
+            current_candidates = [
+                ("oficjalny sklep", retail),
+                ("keyshop", keyshop),
+            ]
+            current_candidates = [(kind, value) for kind, value in current_candidates if value is not None]
+            if not current_candidates:
+                continue
+            price_kind, current = min(current_candidates, key=lambda pair: pair[1])
+
+            historical_values = [v for v in (hist_retail, hist_keyshop) if v is not None]
+            historical = min(historical_values) if historical_values else None
+
+            platform = game["platform"]
+            platform_label = "Xbox + PC · Play Anywhere" if platform == "xbox_play_anywhere" else "PC"
+
+            summary_parts = []
+            if retail is not None:
+                summary_parts.append(f"Oficjalne sklepy: {_format_money(retail, currency)}")
+            if keyshop is not None:
+                summary_parts.append(f"Keyshopy: {_format_money(keyshop, currency)}")
+            if historical is not None:
+                summary_parts.append(f"Historyczne minimum: {_format_money(historical, currency)}")
+
+            target = _price_number(game.get("target_price"))
+            priority = bool(
+                (target is not None and current <= target)
+                or (historical is not None and current <= historical + 0.001)
+            )
+
+            title = clean_text(row.get("title") or game.get("name") or f"Steam {app_id}", 220)
+            url = row.get("url") or f"https://gg.deals/steam/app/{app_id}/"
+
+            items.append({
+                "id": make_id("GG.deals", app_id),
+                "source": "GG.deals",
+                "source_type": "deal",
+                "category": "Okazje",
+                "language": "pl",
+                "title": title,
+                "summary": " · ".join(summary_parts),
+                "url": url,
+                "published_at": now,
+                "matched_keywords": [],
+                "price": _format_money(current, currency),
+                "price_kind": price_kind,
+                "retail_price": _format_money(retail, currency),
+                "keyshop_price": _format_money(keyshop, currency),
+                "historical_price": _format_money(historical, currency),
+                "platform": platform,
+                "platform_label": platform_label,
+                "steam_app_id": int(app_id),
+                "active": True,
+                "price_verified": True,
+                "priority": priority,
+            })
+
+    print(f"[OK] GG.deals: {len(items)} watched games with current prices")
+    return items
 
 
 def looks_inactive(text: str) -> bool:
@@ -1144,6 +1299,9 @@ def read_existing() -> list[dict]:
 
 def merge_items(existing: list[dict], fresh: list[dict]) -> list[dict]:
     # Deals are ephemeral: only active deals seen in the current run survive.
+    # Keep a lookup of the previous feed so stable GG.deals prices retain the
+    # time when that price was first observed instead of looking new every run.
+    existing_by_id = {item["id"]: item for item in existing}
     merged = {
         item["id"]: item
         for item in existing
@@ -1151,7 +1309,14 @@ def merge_items(existing: list[dict], fresh: list[dict]) -> list[dict]:
     }
     now = datetime.now(timezone.utc).isoformat()
     for item in fresh:
-        previous = merged.get(item["id"], {})
+        previous = existing_by_id.get(item["id"], {})
+        if (
+            item.get("source") == "GG.deals"
+            and previous.get("source") == "GG.deals"
+            and previous.get("price") == item.get("price")
+            and previous.get("published_at")
+        ):
+            item["published_at"] = previous["published_at"]
         preserve = {}
         for key in ("summary_pl", "tags"):
             if previous.get(key):
@@ -1252,7 +1417,7 @@ def main():
     fresh.extend(collect_youtube())
 
     deal_keywords = read_deal_keywords()
-    fresh.extend(collect_pepper_deals(deal_keywords))
+    fresh.extend(collect_ggdeals(read_game_watchlist()))
     fresh.extend(collect_lowcychin_deals(deal_keywords))
 
     items = merge_items(read_existing(), fresh)
