@@ -1,7 +1,37 @@
 {
-  "updated_at": "2026-09-24T23:55:12.588344+00:00",
-  "count": 251,
+  "updated_at": "2026-09-25T05:03:25.316401+00:00",
+  "count": 248,
   "items": [
+    {
+      "id": "3b28387f2bf865d140dbf599e6f7e8b2041f232cdf2783843aca3c8712f11add",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should I pull the trigger???",
+      "summary": "submitted by /u/caplinkku [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpj2t3/should_i_pull_the_trigger/",
+      "published_at": "2026-09-25T01:10:58+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "8ad6c5ce2053ba46f283f36c0327cefa2449d9be365bee7e9ac1ac5b475b1691",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies",
+      "summary": "I'm trying out the new farm sim with dragon-assisted cooking to see if it could be my next obsession.",
+      "url": "https://www.pcgamer.com/games/life-sim/14-days-in-dragon-shelter-a-play-by-play-of-my-first-season-in-the-stardew-style-farm-sim-where-dragons-help-bake-pies/",
+      "published_at": "2026-09-25T00:46:20+00:00",
+      "summary_pl": "Spędziłem 14 dni w nowym symulatorze farmy Dragon Shelter, w którym smoki pomagają w wypieku ciast. Sprawdzam, czy ta gra w stylu Stardew Valley stanie się moją nową obsesją.",
+      "tags": [
+        "gry",
+        "symulator farmy",
+        "pc gamer"
+      ]
+    },
     {
       "id": "a5cec9f07c5bc347b658b4717e2c4476ef5fc2b7237ae51403e8dd9334c2f8c2",
       "source": "r/Vibecoding",
@@ -68,116 +98,6 @@
       "priority": false
     },
     {
-      "id": "b4a5b38550d2d2f8278df2c1c2c2d0bc1b99c1414e641f6fbe0be1482d33c545",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Tom Clancy’s The Division – Xbox One / Series X|S",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/tom-clancys-the-division-xbox-one-series-xs-1356867",
-      "published_at": "2026-09-24T22:41:21+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "19,49 zł",
-      "old_price": "59,99 zł",
-      "temperature": "58",
-      "active": true,
-      "merchant": "Xbox",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/jazip/1356867_1/re/600x600/qt/70/1356867_1.jpg",
-      "price_verified": true,
-      "status_verified": true
-    },
-    {
-      "id": "a37ec2e849a0b7f7a4b651ada6e5bbe80bd816b29c48a1d212d6b446c8627ec7",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Assassin's Creed Odyssey – Xbox One / Series X|S – 4395 HUF",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/assassins-creed-odyssey-xbox-one-series-xs-4395-huf-1356866",
-      "published_at": "2026-09-24T22:39:51+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "52,60 zł",
-      "old_price": "89,99 zł",
-      "temperature": "49",
-      "active": true,
-      "merchant": "Xbox",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/aqrOL/1356866_1/re/600x600/qt/70/1356866_1.jpg",
-      "price_verified": true,
-      "status_verified": true
-    },
-    {
-      "id": "70b0f0a196659e1886c076f8e5d08b4a653b885daac0fdf77aa445b020c4cca4",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "The Elder Scrolls V: Skyrim Anniversary Edition – Xbox One / Series X|S – 6235 HUF",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/the-elder-scrolls-v-skyrim-anniversary-edition-xbox-one-series-xs-6235-huf-1356865",
-      "published_at": "2026-09-24T22:38:39+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "74,62 zł",
-      "old_price": "129,99 zł",
-      "temperature": "54",
-      "active": true,
-      "merchant": "Xbox",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/VnQB1/1356865_1/re/600x600/qt/70/1356865_1.jpg",
-      "price_verified": true,
-      "status_verified": true
-    },
-    {
-      "id": "3a4f46c546a7d838e70a9a7c7c3afd3309823a4d7ec7c7f7f288f920fcb2b146",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "The Witcher 2 – Xbox One / Series X|S – 895 HUF",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/the-witcher-2-xbox-one-series-xs-895-huf-1356863",
-      "published_at": "2026-09-24T22:37:48+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "10,71 zł",
-      "old_price": "39,99 zł",
-      "temperature": "60",
-      "active": true,
-      "merchant": "Xbox",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/XlPmG/1356863_1/re/600x600/qt/70/1356863_1.jpg",
-      "price_verified": true,
-      "status_verified": true
-    },
-    {
-      "id": "f04be9539f126e9d5d01198c216eba4c501309c0604c8098ac6f2d434a39f7f6",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Teenage Mutant Ninja Turtles: Mutants Unleashed- Nintendo Switch (Kartridż)",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/gra-teenage-mutant-ninja-turtles-mutants-unleashed-nintendo-switch-kartridz-1356851",
-      "published_at": "2026-09-24T22:13:13+00:00",
-      "matched_keywords": [
-        "Nintendo Switch"
-      ],
-      "price": "49 zł",
-      "old_price": "",
-      "temperature": "26",
-      "active": true,
-      "merchant": "Amazon.pl",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/67hfG/1356851_1/re/600x600/qt/70/1356851_1.jpg",
-      "price_verified": true,
-      "status_verified": true
-    },
-    {
       "id": "0cbe2f143cbc5ca99d53912269611e6a5c179463280f3713df07fc2b8ff43fb8",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -189,6 +109,18 @@
       "published_at": "2026-09-24T22:05:13+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "2e5c056233b53f48e769c2b7ee034c67b9d4daf28e00cb8bf58aefd8ac2bcffd",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "SAW: Genesis opóźnione. Twórcy biorą do serca uwagi graczy i przekładają premierę PC",
+      "summary": "SAW: Genesis jednak nie ukaże się w tym roku. Po ostatnich testach twórcy zdecydowali się przesunąć debiut produkcji we wczesnym dostępie.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427823/saw-genesis-opoznione-tworcy-biora-do-serca-uwagi-graczy-i-przekladaja-premiere.html",
+      "published_at": "2026-09-24T22:00:00+00:00"
     },
     {
       "id": "226f875484bfedc2f61ce6b5c984423dc5e4e14feecede795f805e4bc47edcd9",
@@ -466,6 +398,18 @@
       "thumbnail_url": "https://i.ytimg.com/vi/N3V_aV3HtYM/mqdefault.jpg"
     },
     {
+      "id": "fe55d0435627f331423cc570b9a971fe8936fbe0070bffd6d3f020ad6cf9ae70",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Call of Duty: Modern Warfare 4 wprowadzi wyczekiwaną opcję. Na tę funkcję fani czekali od lat PS5 XSX|S NS2 PC",
+      "summary": "Fani Call of Duty otrzymali kolejny powód, aby czekać na Modern Warfare 4. Deweloperzy zapowiedzieli, że gracze nie będą już musieli ciągle patrzeć na burzące immersję skórki.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427815/call-of-duty-modern-warfare-4-wprowadzi-wyczekiwana-opcje-na-te-funkcje-fani-czekali-od-lat.html",
+      "published_at": "2026-09-24T19:05:00+00:00"
+    },
+    {
       "id": "188c272891bf789c1fec153ac49471f537bb93dd00e61d91b9a1ea59abc12446",
       "source": "r/Vibecoding",
       "source_type": "reddit",
@@ -510,6 +454,18 @@
         "strona główna",
         "wiadomości"
       ]
+    },
+    {
+      "id": "f964461ab0b3e60ad9bbf0318a70b059ed4d6da44f43b602505629dbeb012a26",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Ace Combat 8: Wings of Theve pokazuje początek kampanii. Nowy zwiastun już dostępny PS5 XSX|S PC",
+      "summary": "Bandai Namco zaprezentowało nowy materiał z „Ace Combat 8: Wings of Theve”, pokazując tym razem początek kampanii. Zwiastun łączy sceny fabularne z fragmentami rozgrywki i pozwala bliżej poznać bohaterów ósmej odsłony serii.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427801/ace-combat-8-wings-of-theve-pokazuje-poczatek-kampanii-nowy-zwiastun-juz-dostepny.html",
+      "published_at": "2026-09-24T18:42:00+00:00"
     },
     {
       "id": "94527f3f42e3002f036f4de8d16ff933fbe1d055f6692f54f87154df1ea4cc09",
@@ -1431,18 +1387,6 @@
       ]
     },
     {
-      "id": "2e5c056233b53f48e769c2b7ee034c67b9d4daf28e00cb8bf58aefd8ac2bcffd",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "SAW: Genesis opóźnione. Twórcy biorą do serca uwagi graczy i przekładają premierę PC",
-      "summary": "SAW: Genesis jednak nie ukaże się w tym roku. Po ostatnich testach twórcy zdecydowali się przesunąć debiut produkcji we wczesnym dostępie.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427823/saw-genesis-opoznione-tworcy-biora-do-serca-uwagi-graczy-i-przekladaja-premiere.html",
-      "published_at": "2026-09-23T22:00:00+00:00"
-    },
-    {
       "id": "4072906792be7f5eebccde1f5229c66d49c5bce123968a308f78823ddc70a728",
       "source": "r/Vibecoding",
       "source_type": "reddit",
@@ -1499,18 +1443,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/KtwhRwKwVkQ/mqdefault.jpg"
     },
     {
-      "id": "fe55d0435627f331423cc570b9a971fe8936fbe0070bffd6d3f020ad6cf9ae70",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Call of Duty: Modern Warfare 4 wprowadzi wyczekiwaną opcję. Na tę funkcję fani czekali od lat PS5 XSX|S NS2 PC",
-      "summary": "Fani Call of Duty otrzymali kolejny powód, aby czekać na Modern Warfare 4. Deweloperzy zapowiedzieli, że gracze nie będą już musieli ciągle patrzeć na burzące immersję skórki.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427815/call-of-duty-modern-warfare-4-wprowadzi-wyczekiwana-opcje-na-te-funkcje-fani-czekali-od-lat.html",
-      "published_at": "2026-09-23T19:05:00+00:00"
-    },
-    {
       "id": "159a88376047c660b243e987c06ecb0a6270e60a7ecc82fa0b55661cbcbbcf64",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1522,18 +1454,6 @@
       "published_at": "2026-09-23T18:52:34+00:00",
       "matched_keywords": [],
       "priority": false
-    },
-    {
-      "id": "f964461ab0b3e60ad9bbf0318a70b059ed4d6da44f43b602505629dbeb012a26",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Ace Combat 8: Wings of Theve pokazuje początek kampanii. Nowy zwiastun już dostępny PS5 XSX|S PC",
-      "summary": "Bandai Namco zaprezentowało nowy materiał z „Ace Combat 8: Wings of Theve”, pokazując tym razem początek kampanii. Zwiastun łączy sceny fabularne z fragmentami rozgrywki i pozwala bliżej poznać bohaterów ósmej odsłony serii.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/427801/ace-combat-8-wings-of-theve-pokazuje-poczatek-kampanii-nowy-zwiastun-juz-dostepny.html",
-      "published_at": "2026-09-23T18:42:00+00:00"
     },
     {
       "id": "2693ac045d255a488cd7f9fc41faa502c779b2a63564c8b181753768a288ad58",
@@ -3009,8 +2929,8 @@
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
         "ROG Ally",
-        "Legion Go",
-        "Steam Deck"
+        "Steam Deck",
+        "Legion Go"
       ],
       "price": "189zł",
       "active": true
@@ -3060,8 +2980,8 @@
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
         "ROG Ally",
-        "Legion Go",
-        "Steam Deck"
+        "Steam Deck",
+        "Legion Go"
       ],
       "price": "205zł",
       "active": true
