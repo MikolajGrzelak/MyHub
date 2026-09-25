@@ -291,11 +291,6 @@
       "xbox_play_anywhere": false
     },
     {
-      "name": "Batman: Arkham Knight",
-      "steam_app_id": 208650,
-      "xbox_play_anywhere": false
-    },
-    {
       "name": "Mad Max",
       "steam_app_id": 234140,
       "xbox_play_anywhere": false
@@ -318,16 +313,6 @@
     {
       "name": "NieR:Automata",
       "steam_app_id": 524220,
-      "xbox_play_anywhere": false
-    },
-    {
-      "name": "The Witcher 3: Wild Hunt",
-      "steam_app_id": 292030,
-      "xbox_play_anywhere": false
-    },
-    {
-      "name": "Hogwarts Legacy",
-      "steam_app_id": 990080,
       "xbox_play_anywhere": false
     },
     {
