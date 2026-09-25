@@ -1,0 +1,29 @@
+{
+  "games": [
+    {
+      "name": "Tom Clancy's Splinter Cell: Chaos Theory",
+      "steam_app_id": 13570,
+      "platform": "pc"
+    },
+    {
+      "name": "Rise of the Tomb Raider",
+      "steam_app_id": 391220,
+      "platform": "pc"
+    },
+    {
+      "name": "Shadow of the Tomb Raider",
+      "steam_app_id": 750920,
+      "platform": "pc"
+    },
+    {
+      "name": "Tom Clancy's The Division",
+      "steam_app_id": 365590,
+      "platform": "pc"
+    },
+    {
+      "name": "Tom Clancy's The Division 2",
+      "steam_app_id": 2221490,
+      "platform": "pc"
+    }
+  ]
+}
