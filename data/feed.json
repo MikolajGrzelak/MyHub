@@ -1,7 +1,137 @@
 {
-  "updated_at": "2026-09-25T15:21:14.950605+00:00",
-  "count": 319,
+  "updated_at": "2026-09-25T19:36:32.839727+00:00",
+  "count": 300,
   "items": [
+    {
+      "id": "bc620602faa1205caccbed956b2d7bd128988dbe405153693557a55d319cf07c",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Wiedźmin 3 w ZNAKOMITEJ promocji! Idealna okazja przed premierą Wiedźmin 3 Remaster PS5 XSX|S NS2 PC",
+      "summary": "CD Projekt RED już w przeszłym tygodniu ponownie zaprosi graczy do świata Geralta za sprawą remastera Wiedźmin 3. Jeśli jednak nadal nie macie gry w swojej bibliotece, Sony przygotowało świetną okazję, by nadrobić zaległości i jednocześnie...",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427920/wiedzmin-3-w-znakomitej-promocji-idealna-okazja-przed-premiera-wiedzmin-3-remaster.html",
+      "published_at": "2026-09-25T21:14:00+00:00"
+    },
+    {
+      "id": "c7b83283562f7ec2ae13eb3aea0f6365a9d234390f660c37a5bfd7e8c57f75f3",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Football Manager 27 z wymaganiami sprzętowymi. Czy gra nadal uruchomi się na słabszych PC-tach?",
+      "summary": "Poznaliśmy oficjalne wymagania sprzętowe „Football Manager 27” na PC i Mac. Dobra wiadomość dla graczy korzystających ze starszych komputerów jest taka, że wymagania pozostają praktycznie identyczne jak w przypadku poprzedniej odsłony.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427933/football-manager-27-z-wymaganiami-sprzetowymi-czy-gra-nadal-uruchomi-sie-na-slabszych-pc-tach.html",
+      "published_at": "2026-09-25T20:22:00+00:00"
+    },
+    {
+      "id": "b2c0a56c3944e4929818f38955c639d69ce09a76a39f8279a51cbfda0f045cc7",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "PlayStation może faktycznie zmienić zdanie o odejściu od płyt? Firma pyta graczy o opinię PS5 PS6",
+      "summary": "PlayStation zapowiedziało odejście od produkcji własnych gier na płytach, co spotkało się z ogromną krytyką części społeczności. Sony najwyraźniej bardzo uważnie obserwuje reakcje na swoją decyzję, ponieważ korporacja rozpoczęła badan...",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427932/playstation-moze-faktycznie-zmienic-zdanie-o-odejsciu-od-plyt-firma-pyta-graczy-o-opinie.html",
+      "published_at": "2026-09-25T20:15:00+00:00"
+    },
+    {
+      "id": "1c277571980dd996def549a74c63d17cdb196d5673b7e0d0a0559ad500dceae8",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Sony rejestruje nowy znak towarowy związany z kultową serią gier. Fani mogą jednak poczekać na nowy tytuł",
+      "summary": "Sony złożyło nowy wniosek dotyczący marki Sly Cooper, jednak tym razem nie chodzi o zapowiedź nowej odsłony serii. Znak towarowy obejmuje szeroki zestaw produktów związanych z popularnym złodziejaszkiem.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427930/sony-rejestruje-nowy-znak-towarowy-zwiazany-z-kultowa-seria-gier-fani-moga-jednak-poczekac-na-nowy-tytul.html",
+      "published_at": "2026-09-25T20:01:00+00:00"
+    },
+    {
+      "id": "5ccec85aba8248479d359670674c45cf10df2c3646051df0928b253701b4de71",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Mario Kart 8 is boring?",
+      "summary": "I love MK, my favorite is Double Dash followed by WII and MK64, when I saw MK 8 it was being praised but I did not have a switch. I have played Crash CTR and Sonic TR before Mk8 but when I finally got a switch I played MK8 and it felt so bland. First it has so much visual pollution, a lot of stuff taking your attention. The grid is too big and random, I always had a rivalry with DK and Wario for example in the previ…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wq5154/mario_kart_8_is_boring/",
+      "published_at": "2026-09-25T19:10:20+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "495faa7e8b6b30812562024cbd4f059dc886535984cf919226e60e30681afd5c",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "I feel like I'm running a corner store in Dredd or Cyberpunk 2077",
+      "summary": "Cyberpunk shop sim Probably Stolen is coming out next month, but the demo alone could easily keep you busy until then.",
+      "url": "https://www.pcgamer.com/games/sim/i-feel-like-im-running-a-corner-store-in-dredd-or-cyberpunk-2077/",
+      "published_at": "2026-09-25T18:51:15+00:00",
+      "summary_pl": "W przyszłym miesiącu ukaże się cyberpunkowy symulator sklepu zatytułowany Probably Stolen, ale już samo demo potrafi zająć na długo.",
+      "tags": [
+        "gry",
+        "cyberpunk",
+        "symulator",
+        "demo"
+      ]
+    },
+    {
+      "id": "f61cf23e27178f5f7b01a8d7a2a45db1de8bf167217c39fa3fb23c9201959245",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Znamy wagę Wiedźmin 3: Dziki Gon – Remastered. Ile miejsca na dysku potrzebujesz? PS5 XSX|S NS2 PC",
+      "summary": "Poznaliśmy rozmiar plików „Wiedźmin 3: Dziki Gon – Remastered”. Informację przekazał Marcin Momot z CD Projekt RED. Na większości platform remaster będzie wymagał pobrania około 45 GB, natomiast wersja na Nintendo Switch 2 zajmie około ...",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427927/znamy-wage-wiedzmin-3-dziki-gon-remastered-ile-miejsca-na-dysku-potrzebujesz.html",
+      "published_at": "2026-09-25T18:33:00+00:00"
+    },
+    {
+      "id": "a644645f48ca6e14148521eb4de4e8291b84219269eea428e67e57046621cbcc",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "What game brings back the most nostalgia for you?",
+      "summary": "Mine is castlevania for the NES. Me and my grandmother would play it every time I would spend the night and bring my system to her house. I would catch her playing it without me sometimes. I miss her so much and every time I see anything about the franchise I think of her. submitted by /u/Biff_666 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wq0ss8/what_game_brings_back_the_most_nostalgia_for_you/",
+      "published_at": "2026-09-25T16:24:57+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "a8597018507c9c0e0cb3ec0d537641d171578c8f94dbe5b28b47791d282cb9ef",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Dock recommendations and wireless controllers?",
+      "summary": "Hey everyone. I have a Go S and would like to sometimes play it on the TV and maybe play with my partner. I was wondering based on your experience on what docks work best. Dunno if the thing will push 4K decently, but we do have a 4K OLED TV at home. Also was wondering if there are controllers that work well wirelessly with the Go S. Happy gaming out there. submitted by /u/sca429 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wq075l/dock_recommendations_and_wireless_controllers/",
+      "published_at": "2026-09-25T16:01:56+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2b919673738b8b2e8b3d0cf929d121dfcd12663de5713447081a0c47ec8c47a3",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "New to Legion Go S SteamOS what settings should I use?",
+      "summary": "Hi everyone, I just got a legion z2 go steamos 16 gb ram 1tb ssd version What general settings do you recommend for good performance and battery life, when it comes to wattage? Also, how do you play non-Steam games on SteamOS? Is there a recommended way to install and launch them? Any other settings or tweaks that are worth changing from the default would also be appreciated. Thanks! submitted by /u/Ill_Temperature1…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpzm9q/new_to_legion_go_s_steamos_what_settings_should_i/",
+      "published_at": "2026-09-25T15:39:46+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
     {
       "id": "0b14c5a79f99243b343ccf43e69498552e5e975067057dcee8e2c54fb44eacfa",
       "source": "PPE",
@@ -28,6 +158,19 @@
       "priority": false
     },
     {
+      "id": "c2d0577ab1b5595b011a117fd52af283a56e0a20220199ac5b154925d919bbc3",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Morning_Respawn Twitch Stream",
+      "summary": "Hey everyone. Been thinking about starting up a stream for a while now. Just had my first this morning and realized after about 30 mins my mic was muted. I am also waiting on my camera in the mail so some absolute top tier content. Looking to create a space/community for those interested to hangout. I have a wife and two kiddos, so I don’t do many late night grinds these days. Most my gaming happens at about 5:30 am…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wpyqio/morning_respawn_twitch_stream/",
+      "published_at": "2026-09-25T15:04:47+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "f2cdc394f311460a713b6cee38ac742442b13fa4b3e2ec7c8f4bbc838c06f232",
       "source": "PPE",
       "source_type": "news",
@@ -40,48 +183,17 @@
       "published_at": "2026-09-25T15:03:00+00:00"
     },
     {
-      "id": "15b6a5149a4705953e96bd34e7fb7d29892798773a1c5336851aea6c8fcbcf25",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gra Castlevania Anniversary Collection Gra Nintendo Switch [Zbiorcza - w opisie kolejne pakiety gier z serii]",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/castlevania-anniversary-collection-gra-nintendo-switch-zbiorcza-w-opisie-kolejne-pakiety-gier-z-serii-1357237",
-      "published_at": "2026-09-25T15:02:33+00:00",
-      "matched_keywords": [
-        "Nintendo Switch"
-      ],
-      "price": "16 zł",
-      "old_price": "80 zł",
-      "temperature": "67",
-      "active": true,
-      "merchant": "Nintendo eShop",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/ekij0/1357237_1/re/600x600/qt/70/1357237_1.jpg",
-      "price_verified": true,
-      "status_verified": true
-    },
-    {
-      "id": "ff59c8387c47bb5286c1155456401779a45beda5cd473083a3f3865614308746",
-      "source": "Pepper",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola Sony PlayStation 5 Pro | 899,99€ | wysyłka pośrednik",
-      "summary": "",
-      "url": "https://www.pepper.pl/promocje/konsola-sony-playstation-5-pro-89999eur-wysylka-posrednik-1357236",
-      "published_at": "2026-09-25T15:01:40+00:00",
-      "matched_keywords": [
-        "PlayStation"
-      ],
-      "price": "3938 zł",
-      "old_price": "",
-      "temperature": "99",
-      "active": true,
-      "merchant": "",
-      "thumbnail_url": "https://static.pepper.pl/threads/raw/Mj61l/1357236_1/re/600x600/qt/70/1357236_1.jpg",
-      "price_verified": true,
-      "status_verified": true
+      "id": "6dd3302d5cfb4c6ca0cc787ffe972acb056a2b1a812c69b57c9f052f14f199ef",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Gaming alone or with friends, which feels better to you nowadays?",
+      "summary": "The answer has shifted and tossed for me a lot over the years. Maybe even more than my genre preferences, and it has exclusively to do with how depressed or social or whatever I was in any stage of my life. Now, at 33 (Jesus age FTW) I think I’m finally approaching a kind of balance. But I’m also associating some genres much more with “social gaming” than I did before (stuff I always played in singleplayer before) a…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wpyipn/gaming_alone_or_with_friends_which_feels_better/",
+      "published_at": "2026-09-25T14:56:43+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "f6b1319f933834c764aad3d7c1a90ad739f1054cd7182be78c734379f92c80c5",
@@ -109,6 +221,19 @@
         "Z1E"
       ],
       "priority": true
+    },
+    {
+      "id": "ea1bfad3627a7ff93c0ae30c437887b5077e4a2ae728de5bd58b30fe89174e50",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "35M lookin to Sortie",
+      "summary": "Hey y’all, if the title makes sense to you, you’re aware of how brutal it is to find wingmen. Go ahead and skip to the bolded words and continue from there. For the rest, a brief glimpse into my struggle. “Do you like flying games” is a loaded question in the hunt for like minded video game pilots. Liking planes simply isn’t enough. When you begin to break down each plane by capability it becomes very apparent that…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wpy5cu/35m_lookin_to_sortie/",
+      "published_at": "2026-09-25T14:41:53+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "2f3aac6efcc94a64a3672143f47d7343b624fe33bf288020ddc87cc0bb7827d2",
@@ -691,6 +816,19 @@
       "published_at": "2026-09-25T09:26:00+00:00"
     },
     {
+      "id": "ce4dd13923e4bfcfdc00010863ff41cbaadf8a784629aeb8c12e4e0780ed2060",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "LFG Cozy Cottagecore Building Realm (Minecraft Bedrock)",
+      "summary": "Hey! Looking for a few people to join my 18+ Bedrock cottagecore survival realm 🌿🏡 It’s a cozy, long-term realm with a friendly community, Vanilla+ add-ons, and lots of little projects going on. Think cottages, farms, gardens, forests, and cozy builds that make the world feel lived-in. 🍄 If you’re looking for a chill realm to build, explore, and actually stick around in, feel free to DM me! 🤎 submitted by /u/Unlikel…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wprn0d/lfg_cozy_cottagecore_building_realm_minecraft/",
+      "published_at": "2026-09-25T09:20:00+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "f92afb38882ae3ec9db7325ad5bd4b839d7deb36a08694580965495690179007",
       "source": "r/Steamdeck",
       "source_type": "reddit",
@@ -767,6 +905,19 @@
       "priority": false
     },
     {
+      "id": "f94194523273ffd23015c02a723c4834e97c8cc1f13a12fc00971b396bbf3b2d",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Maaaan i love control resonant's vibe and music",
+      "summary": "This was a last minute purchase out of a whim, and im so glad i got the game. Really vibing with it. submitted by /u/emolch78 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wpqcd2/maaaan_i_love_control_resonants_vibe_and_music/",
+      "published_at": "2026-09-25T07:54:11+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "b10cb167048aa1c15dc5f309985f7869df32f2fff921538655336c97dd299a12",
       "source": "CD-Action",
       "source_type": "news",
@@ -801,6 +952,19 @@
       "summary": "I have a Lenovo Legion Go connected to a 4k 120Hz HDR TV using a docking station. It streams from my PC using Moonlight. Moja stacja dokująca to https://amzn.eu/d/08HsiSrL The problem is that the audio cuts out for a few seconds every few seconds. The picture is perfect, no artifacts or stutters.At first glance, it seems to me that there may be a problem with the maximum resolution, when I set the maximum resolution…",
       "url": "https://www.reddit.com/r/LegionGo/comments/1wpp0na/lenovo_legion_go_s_audio_problems/",
       "published_at": "2026-09-25T06:29:23+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "0e720b4f18b0a21021e385afd8ffd4e9d11ea6595ce5f4abbdb2e721a14f43a7",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "32M LF WoW Forever Players",
+      "summary": "Na server. I been playing an undead priest and hit lvl 12. having fun but would like to play with others if possible. Open to making an alliance if you prefer that faction. submitted by /u/timpleton17 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wpow1j/32m_lf_wow_forever_players/",
+      "published_at": "2026-09-25T06:21:31+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -904,6 +1068,19 @@
       "summary": "submitted by /u/Goku_Nuko [link] [comments]",
       "url": "https://www.reddit.com/r/vibecoding/comments/1wpl9vi/use_less_tokens_as_well/",
       "published_at": "2026-09-25T03:00:59+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "893709178b206807c3974746dcdc5e53fbf38a7570b2179b5008b3c023142c98",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "WoW Forever will feel as empty as Retail",
+      "summary": "Hopefully I'm wrong, but I have a feeling that within six months to a year, the game world will be just as empty as it is in Retail. Most players will end up sitting in Orgrimmar or Stormwind, logging in primarily to grind endgame dungeons, raids, and PvP. submitted by /u/RedScud39 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wpkioh/wow_forever_will_feel_as_empty_as_retail/",
+      "published_at": "2026-09-25T02:22:25+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -1081,6 +1258,19 @@
       "summary": "submitted by /u/Organic-Afternoon-50 [link] [comments]",
       "url": "https://www.reddit.com/r/vibecoding/comments/1wpe8sm/gemini_36_repeatedly_failing/",
       "published_at": "2026-09-24T21:30:48+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "c6d4e5b60596a14b519dbba65177ba621888458b247b66bf7d6a012be4501967",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "What’s everyone playing to get in the Halloween spirit?",
+      "summary": "Thought of this question while playing control resonant. Not sure if this game is considered “spooky” but for now, this and silent hill f, re9 and maybe cronos are the games I’m playing to get in the spirit. Wbu? submitted by /u/Camarochris1026 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wpdvfb/whats_everyone_playing_to_get_in_the_halloween/",
+      "published_at": "2026-09-24T21:15:57+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -1775,6 +1965,19 @@
       "priority": false
     },
     {
+      "id": "0544bc2982a4c5f087be8fac546bf3a655e3907d199fb432d5c91167fa8f9571",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "🔥Need for Speed: Underground🔥 My body is 35 but this keeps my inner child alive and well.",
+      "summary": "submitted by /u/CircaCoda [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wp106g/need_for_speed_underground_my_body_is_35_but_this/",
+      "published_at": "2026-09-24T13:00:35+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "0b02a75425182594036234f8a8de7130429fc66f8bcbde10e7ccfb357d5cdebb",
       "source": "NieAntyFan",
       "source_type": "youtube",
@@ -2145,6 +2348,19 @@
       "published_at": "2026-09-24T07:43:52+00:00"
     },
     {
+      "id": "2cd434a4e776993e35afb1bc392f920f6862753857df8c4f4ba8d3b720cd6086",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I Bought This Game For Under 3 Bucks 💵",
+      "summary": "Would u buy a game for 3 bucks that had mostly negative reviews? submitted by /u/Intelligent-Comb4878 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wovbym/i_bought_this_game_for_under_3_bucks/",
+      "published_at": "2026-09-24T07:40:35+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "7fb93dbe8090867d001fb45bb6a4232e25dc5fe7c3791d17179fc59de65a892c",
       "source": "r/Vibecoding",
       "source_type": "reddit",
@@ -2261,6 +2477,19 @@
       "priority": false
     },
     {
+      "id": "cbefadbf673a8fcb00631985835983a8367dad79f25d17a377fbcc121107d3a9",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Why Modern Gaming Got So Bitter and Angry 🎮",
+      "summary": "submitted by /u/Intelligent-Comb4878 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1womojd/why_modern_gaming_got_so_bitter_and_angry/",
+      "published_at": "2026-09-24T00:11:57+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "9f118c070d610bc5be3e0f21635f4453f5896008804aed8bd7408dbd1adc7520",
       "source": "r/Vibecoding",
       "source_type": "reddit",
@@ -2300,6 +2529,32 @@
       "priority": false
     },
     {
+      "id": "e827dd173100383805e5b915662b5d8fab47708732ee487beb873088e36fc195",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "WWF Wrestlefest is still fun in 2026.",
+      "summary": "Did you guys have a favorite team to use back in the day? submitted by /u/Cornmeal777 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wokybv/wwf_wrestlefest_is_still_fun_in_2026/",
+      "published_at": "2026-09-23T22:57:20+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "7ee1fa27dc754173093bdc44719f40e6a63659300ce7c399500ef34ae5876b6c",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "[UK] Looking for some longer term/regular gaming friends",
+      "summary": "I'm hoping to find some genuine, regular gaming friends — people I can actually get to know, regularly jump online with, have a laugh, chat nonsense, play through games together and hopefully build some proper friendships along the way. I'm on PS5, but I'm absolutely happy to play crossplay too. At the moment I'm playing Baldur's Gate 3 on and off, and I'm particularly looking for people who'd be interested in playi…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wokt8g/uk_looking_for_some_longer_termregular_gaming/",
+      "published_at": "2026-09-23T22:51:02+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "1251d8cdf6ea0fc7f4dc1e8ab216e325d15724efac613257c7da14e8df3545d3",
       "source": "PC Gamer",
       "source_type": "news",
@@ -2316,6 +2571,19 @@
         "MMO",
         "gry"
       ]
+    },
+    {
+      "id": "349b0d84c7ac9a601279b1e1e325ca60df85faaeda19614794c2bfa93129721e",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "LFG Cozy Cottagecore Building Realm (Minecraft Bedrock)",
+      "summary": "Hey! Looking for a few people to join my 18+ Bedrock cottagecore survival realm 🌿🏡 It’s a cozy, long-term realm with a friendly community, Vanilla+ add-ons, and lots of little projects going on. Think cottages, farms, gardens, forests, and cozy builds that make the world feel lived-in. 🍄 If you’re looking for a chill realm to build, explore, and actually stick around in, feel free to DM me! 🤎 submitted by /u/Unlikel…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wojhja/lfg_cozy_cottagecore_building_realm_minecraft/",
+      "published_at": "2026-09-23T21:55:04+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "4072906792be7f5eebccde1f5229c66d49c5bce123968a308f78823ddc70a728",
@@ -2349,6 +2617,19 @@
       ]
     },
     {
+      "id": "811ebe1ce4d286fa4658c17c4e30cb4a3256012d4d1874ba16c17c408bfcb797",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Packing things up for a night of BG3 with the bros",
+      "summary": "34M. Working my ass off lately and my wife insists that I have a guys night, and seeing my stuff laid out ready to pack reminds me of the old school days of LAN parties. Halo 2, Gears of War, etc., bunch of soda and snacks, no timetable, no obligations. I guess I’m just feeling a little nostalgic and wanted to share. Here’s to the good ole’ days, and the times we still are able to cherish! submitted by /u/EuphoricSc…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wohlwn/packing_things_up_for_a_night_of_bg3_with_the_bros/",
+      "published_at": "2026-09-23T20:40:50+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "1c42041e5f06e0dab1667505e28cb5d6801eca9fe46c7fcf711b0011cbac5c44",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -2358,6 +2639,19 @@
       "summary": "I know that bg3 has a native Linux port which provides much better performance than windows but can't find any benchmarks of the game with steamos on z2 go legion go s. Can any owners chime in? Thinking of picking up one mainly for this game. submitted by /u/Helpful_Economist_59 [link] [comments]",
       "url": "https://www.reddit.com/r/LegionGo/comments/1woh6mz/how_does_z2_go_legion_go_s_perform_in_bg3_with/",
       "published_at": "2026-09-23T20:24:28+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "a4a9bfc5e69f9b413874da084422c667211f2876b872fd5e19db8ba0a5e8280f",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Horror games anywhere?",
+      "summary": "Hello all!!! I'm super into horror games, and am looking for a group that wants to play things like The Outlast Trials, Phamaphobia, etc! I'm open to picking up some new stuff as well! I've been playing with the idea of getting back into streaming as well! submitted by /u/thevampireyuki [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1woh6b5/horror_games_anywhere/",
+      "published_at": "2026-09-23T20:24:08+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -2459,6 +2753,71 @@
       "priority": false
     },
     {
+      "id": "4e31d33b7fce639f9182d83287ce329a6b5ca95b68072a42ed2daddc573e9a42",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hades 2 anyone? *Death to Cronos*",
+      "summary": "Hades 2 is Supergiant doing the impossible: making a sequel that feels bigger, darker, and just as addictive as the original. Melinoë’s witchcraft combat is razor-sharp, and every run still sings thanks to that ridiculous art, score, and god-tier banter (Poseidon saving face after you pick Zeus is peak). The dual routes, new weapons, and Arcana systems give it real staying power, even if the extra resource loops can…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wo8dyc/hades_2_anyone_death_to_cronos/",
+      "published_at": "2026-09-23T15:00:12+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "0f553ba85e8ec94337db9c2eabb632ec7e68e0bc8f9ebb33dc304eca8e02089f",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "41M/PC/EST, looking for an occasional gaming buddy",
+      "summary": "So I primarily play on PC, have PS5 but don't have PS+ at the moment. Lately been into Wardogs, got back into Monster Wilds and been trying to get back into replaying the Metal Gear Solid Series (went on hiatus there after Wardogs came out :P) . Also thinking about getting in WoW Forever when it comes out Would like someone (Man or women, doesn't matter) roughly my age Generally speaking I'm free (All US EST) Monday…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wnxpc1/41mpcest_looking_for_an_occasional_gaming_buddy/",
+      "published_at": "2026-09-23T06:02:33+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "5884b1563a32bae04613528e7e6bab8bc0a91b0f4d4f0c2f46661e52b6923339",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "33 M EST, Lf some late night gamers!",
+      "summary": "Hi! Im Blue i game on PC but I get very bored very fast playing anything solo. I have tons of games that I can play that id enjoy finding someone to play with. i wouldn't say I am the best gamer but Im not horrible lol. I play anything from mmorpgs to mobas(kinda only moba I enjoyed is Smite 1/2) but I am open to trying out any games if they are free or if it is something I am interested in I may be persuaded into b…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wnt6me/33_m_est_lf_some_late_night_gamers/",
+      "published_at": "2026-09-23T02:11:58+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "8ac13f151ca85e950e1d0a2e692fec19fbbe2c7eae4284375a9a58ea97d19874",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Ranked the last 20 games I've played",
+      "summary": "submitted by /u/Overratedbeing [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wnptd7/ranked_the_last_20_games_ive_played/",
+      "published_at": "2026-09-22T23:42:08+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "dc89a16d720b9956b5d58344505c25597b260b7480bb0770f093d750c087eff9",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Looking for some gaming friends",
+      "summary": "Looking for a call of duty group , I can put together ! Black ops 7 currently, maybe Fortnite or move to a new game ! I’m 34/m based in Canada, male or female, lgbtq+ welcome , smoking friendly submitted by /u/Current-Valuable6307 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wnmths/looking_for_some_gaming_friends/",
+      "published_at": "2026-09-22T21:36:43+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "98879a87076481685272ed258e0b8f0a3296041b7e92f1618112a3d7835bce12",
       "source": "arhn.eu",
       "source_type": "youtube",
@@ -2469,6 +2828,19 @@
       "url": "https://www.youtube.com/watch?v=hkUBBoyoEq4",
       "published_at": "2026-09-22T18:18:02Z",
       "thumbnail_url": "https://i.ytimg.com/vi/hkUBBoyoEq4/mqdefault.jpg"
+    },
+    {
+      "id": "65ef908398b43152a6921fc18637ff119179f9230035a5cae4f5367e93dc0f68",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Any games where you play as an undercover cop?",
+      "summary": "I am watching Donnie Brasco, was thinking what an amazing game it could be. UPDATE: Sleeping dogs was 5.99 on Playstation and I have a Portal. You all have made me this guy very happy. Thanks! submitted by /u/BreakfastSimulator [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wngdjm/any_games_where_you_play_as_an_undercover_cop/",
+      "published_at": "2026-09-22T17:43:10+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "22102299a6c5c763252ce965b6f6c34c2a1b95971b1f755a2c23490c25fd09a8",
@@ -2493,6 +2865,19 @@
       "url": "https://www.youtube.com/watch?v=1a5gfGjqTcE",
       "published_at": "2026-09-22T14:20:24Z",
       "thumbnail_url": "https://i.ytimg.com/vi/1a5gfGjqTcE/mqdefault.jpg"
+    },
+    {
+      "id": "d38331f338704c42092344a31f7efcc2ea3e5852089923d5fb9efdcdecf6783f",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I love gaming but does anybody also feel like gaming is waste of time?",
+      "summary": "Hey! I played games since I was 8 years old. I think most of my gaming life was competitive. Now I'm, what the new gen would call me, an unc I feel like that every time I want to play games I have that \"waste of time\" feel in me and I can't enjoy gaming as much as I used to. When I was a teenager I also thought of \"wasting my time gaming\" but only because I felt bad after a loosing streak. Does anybody felt/ feel th…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wnaq5h/i_love_gaming_but_does_anybody_also_feel_like/",
+      "published_at": "2026-09-22T14:16:31+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "91340ec41a7aa2714d791376aa2c193261ddc574226c69bba754788d227b1064",
@@ -2793,23 +3178,6 @@
       "url": "https://www.youtube.com/watch?v=r4ZDapvpe34",
       "published_at": "2026-09-15T12:45:02Z",
       "thumbnail_url": "https://i.ytimg.com/vi/r4ZDapvpe34/mqdefault.jpg"
-    },
-    {
-      "id": "a7d74fb3e8011e18fd32060a3413cb99560506d2fecacb54e90c827a53ad819a",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola Sony Playstation 5 PS5 Slim z napędem z Polski za $700.33 / ~2688zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-playstation-5/",
-      "published_at": "2026-09-15T12:24:45+00:00",
-      "matched_keywords": [
-        "PS5",
-        "PlayStation"
-      ],
-      "price": "2688zł",
-      "active": true
     },
     {
       "id": "7d51b202ffcc27c0b1bed2c4b98dde47e34cd75824895675a0be319e50a8194a",
@@ -3220,22 +3588,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/KVh9KbM05EI/mqdefault.jpg"
     },
     {
-      "id": "b4c96abba496119791aaac6822c8ed73fe84b76fa382c69e002cc6ce5fd2bc1d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Inteligentne okulary Xreal One AR 3840X1080 z EU za $385.27 / ~1459zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/inteligentne-okulary-xreal-one-ar-3840x1080/",
-      "published_at": "2026-08-20T10:52:47+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "1459zł",
-      "active": true
-    },
-    {
       "id": "512fd092fb8e058279b4c5beea626f7f27f40d1f4dd17dbb0e855d65b1a2c292",
       "source": "arhn.eu",
       "source_type": "youtube",
@@ -3452,22 +3804,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/2sgQ2ZkA_XI/mqdefault.jpg"
     },
     {
-      "id": "6e7a54742d56ad68abb4ddbd3e8cc48c4dc11c3b7505357b997980ee4c9f4471",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Bakeey 6 in 1 – stacja dokująca do Steam Decka (HDMI 4K 60Hz, PD, 3xUSB 3.0, Ethernet) za $13.99 / ~54zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/bakeey-6-in-1-stacja-dokujaca-do-steam-decka-hdmi-4k-60hz-pd-3xusb-3-0-ethernet/",
-      "published_at": "2026-07-10T10:50:09+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "54zł",
-      "active": true
-    },
-    {
       "id": "721b99d33ca990d3d8889a9ec8599e10370cdc62ce2fc1164f56f9e7bfc7c1f4",
       "source": "Zmaslo",
       "source_type": "youtube",
@@ -3550,774 +3886,6 @@
       "url": "https://www.youtube.com/watch?v=o8cJS6Jj6LA",
       "published_at": "2026-06-09T15:27:02Z",
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
-    },
-    {
-      "id": "64af816214e5783d311abd3ddb3205333859075f46fd27c533bd9554e8b8b53c",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola Playstation 5 Sony PS5 Slim z Polski za $574.95 / ~2089zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-ps5-slim-ali/",
-      "published_at": "2026-05-31T13:46:30+00:00",
-      "matched_keywords": [
-        "PS5",
-        "PlayStation"
-      ],
-      "price": "2089zł",
-      "active": true
-    },
-    {
-      "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "[Certyfikowany przez Xbox] Kontroler przewodowy FLYDIGI Vader 5S za $67.99 / ~249zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/certyfikowany-przez-xbox-kontroler-przewodowy-flydigi-vader-5s/",
-      "published_at": "2026-04-08T14:11:58+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "249zł",
-      "active": true
-    },
-    {
-      "id": "6f533782f4f5bddc4831433aa1d626c33038ea97372509eb8464e8ba2db86dc5",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola Sony Playstation 5 PS5 DIGITAL SLIM 1TB bez napędu Wysyłka z Polski za $451.95 / ~1709zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/konsola-sony-playstation-5-ps5-digital-slim-1tb-bez-napedu/",
-      "published_at": "2026-03-27T13:35:34+00:00",
-      "matched_keywords": [
-        "PS5",
-        "PlayStation"
-      ],
-      "price": "1709zł",
-      "active": true
-    },
-    {
-      "id": "cb56a61cc5bd56a4373c3629ac9e403929eb14525c8220c26f3afc5dde6ef50d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Bezprzewodowy kontroler do gier GameSir G7 Pro Wuchang dla konsoli Xbox za $88.3 / ~336zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-gier-gamesir-g7-pro-wuchang-dla-konsoli-xbox/",
-      "published_at": "2026-03-19T16:37:01+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "336zł",
-      "active": true
-    },
-    {
-      "id": "5d36a79d356acec28bec475e6a0e5274a7e36c0e16dd2325ef5c5e8e2da8c567",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Obudowa do PS5 za $21.04 / ~78zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/obudowa-do-ps5-ciemna/",
-      "published_at": "2026-03-05T08:06:48+00:00",
-      "matched_keywords": [
-        "PS5"
-      ],
-      "price": "78zł",
-      "active": true
-    },
-    {
-      "id": "d3c1a23ba1664a2583ea0ce1bb01fa5193da30619db23b2ec0ccdef62d0d3e65",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Szara Obudowa do PS5 za $21.04 / ~78zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/szara-obudowa-do-ps5/",
-      "published_at": "2026-03-04T12:06:51+00:00",
-      "matched_keywords": [
-        "PS5"
-      ],
-      "price": "78zł",
-      "active": true
-    },
-    {
-      "id": "0995540847a90a62f0268df9f93681f8bfaf06c5e50dac82ef25688a2f63c1e1",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Obudowa Spider Man Do PS5 za $29.73 / ~110zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/obudowa-spider-man-do-ps5/",
-      "published_at": "2026-03-04T08:06:44+00:00",
-      "matched_keywords": [
-        "PS5"
-      ],
-      "price": "110zł",
-      "active": true
-    },
-    {
-      "id": "b23f4643d1fffe1990366c5f7d7cefb28866b312b6e103de45d3a3676f9bb2d2",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Ładowarka kontrolera do Xbox Seires X z akumulatorami z EU za $25.6 / ~95zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ladowarka-kontrolera-do-xbox-seires-x-z-akumulatorami/",
-      "published_at": "2026-01-12T11:46:01+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "95zł",
-      "active": true
-    },
-    {
-      "id": "5917fff1d7a37f0fc8ea9e6471e74402ef69fd6711801bbcc3a53b7732c6e5c1",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Przenośna konsola do gier ASUS ROG Xbox Ally z EU za $614.06 / ~2273zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
-      "published_at": "2026-01-12T09:41:23+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "ROG Ally"
-      ],
-      "price": "2273zł",
-      "active": true
-    },
-    {
-      "id": "0e628932ee952b2bde28833f6902c594ada6df88e556335c5e2f834f8a84fc14",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Przewodowy kontroler gier 8BitDo Ultimate C do konsoli Xbox za $29.61 / ~109zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/przewodowy-kontroler-gier-8bitdo-ultimate-c-do-konsoli-xbox/",
-      "published_at": "2026-01-04T12:43:14+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "109zł",
-      "active": true
-    },
-    {
-      "id": "3690f0ce7f57a5e468c3521f9a1acd22ec5f32d5ec8ff4ab44de403da1726050",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Xbox Edition 8BitDo Ultimate Mobile Gaming Controller za $35.99 / ~132zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/xbox-edition-8bitdo-ultimate-mobile-gaming-controller/",
-      "published_at": "2025-12-25T10:55:47+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "pad Xbox"
-      ],
-      "price": "132zł",
-      "active": true
-    },
-    {
-      "id": "21c32fec29d2eabed7ffc47c921b0128638b3a2850211123fac30689f3c3a5a1",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Obudowa do PS5 Pro z lepsza wentylacją za $21.97 / ~81zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/obudowa-do-ps5-pro-z-lepsza-wentylacja/",
-      "published_at": "2025-12-16T13:44:52+00:00",
-      "matched_keywords": [
-        "PS5"
-      ],
-      "price": "81zł",
-      "active": true
-    },
-    {
-      "id": "5510e2e3d83e2aefb249b4fbddca42f569979c0f0c4e2cddd4db751363c665e3",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Karta pamięci Batocera 1TB do Steam Deck / Anbernicka za $102.8 / ~384zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/karta-pamieci-batocera-1tb-do-steam-deck-anbernicka-za-102-73-382zl/",
-      "published_at": "2025-11-12T15:49:42+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "384zł",
-      "active": true
-    },
-    {
-      "id": "7e5d2ae9474eae6c6d560acd2409b944e5ce2d73ccbb880d1224468033e1faed",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gamepad 8BitDo Ultimate-3-Mode do Xboxa i PC za $73.9 / ~278zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/8bitdo-ultimate-3-mode/",
-      "published_at": "2025-11-02T13:25:36+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "pad Xbox"
-      ],
-      "price": "278zł",
-      "active": true
-    },
-    {
-      "id": "88503001dccc3de6a5e79dfea8cfc1a47e40cccf9555e5753f0f04a9e52bea51",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola do gier Lenovo Legion Go S 2025 z EU za $507.72 / ~1876zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-go-s-2025/",
-      "published_at": "2025-09-09T09:33:47+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "1876zł",
-      "active": true
-    },
-    {
-      "id": "d3df7b86ea3f660815e48b4ea137ac3d6fdcee482f2228ebff795d2f3111bf61",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "8BitDo Xbox Ultimate X Pro za $59.99 / ~221zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/8bitdo-xbox-ultimate-x-pro/",
-      "published_at": "2025-07-07T13:49:26+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "221zł",
-      "active": true
-    },
-    {
-      "id": "1afcac646491f780422491b64de324b047163a40584562b769ae3e1e542a2a76",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Lenovo Legion Go S z EU za $530.81 / ~1989zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-go-s/",
-      "published_at": "2025-06-25T12:21:49+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "1989zł",
-      "active": true
-    },
-    {
-      "id": "6a56b6e674730b4a33a215b54064b50cb36a20900818de911d3220d110c1a404",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "ASUS ROG Ally X – Przenośna konsola do gier z EU za $956.03 / ~3582zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/asus-rog-ally-x-przenosna-konsola-do-gier/",
-      "published_at": "2025-06-24T17:20:14+00:00",
-      "matched_keywords": [
-        "Z1 Extreme",
-        "ROG Ally"
-      ],
-      "price": "3582zł",
-      "active": true
-    },
-    {
-      "id": "f4c5478749507d9d2b7131c334a9121c97a2b9358fdcb68b4b5849130aca6e10",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Lenovo Legion R27fc-30 27″FHD VA 340Hz 350nits HDMI z Polski za $166.74 / ~654zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-r27fc-30-27fhd-va-340hz-350nits-hdmi/",
-      "published_at": "2025-03-18T09:51:50+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "654zł",
-      "active": true
-    },
-    {
-      "id": "a8f3fde4926738c14d47882d73e8c40f8c79ce4576f79d205a80eb228f71858e",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "ASUS ROG Ally Z1 Extreme z EU za $424.59 / ~1666zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/asus-rog-ally-z1-extreme/",
-      "published_at": "2025-03-17T07:47:20+00:00",
-      "matched_keywords": [
-        "Z1 Extreme",
-        "ROG Ally"
-      ],
-      "price": "1666zł",
-      "active": true
-    },
-    {
-      "id": "84919f6174c73487c4fe3fb58e3d7958c2867532f12cfc38493b6639b9941d42",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Projektor laserowy Formovie Cinema Edge ALPD 4K z EU za $1799.00 / ~7592zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/formovie-cinema-edge-alpd/",
-      "published_at": "2025-01-07T11:54:06+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "7592zł",
-      "active": true
-    },
-    {
-      "id": "7f055e1a1c67fe74780c521a131d109c86e33c25eea0c256f2f47f9623e150af",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $45.99 / ~189zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
-      "published_at": "2024-12-11T12:18:54+00:00",
-      "matched_keywords": [
-        "Legion Go",
-        "Steam Deck",
-        "ROG Ally"
-      ],
-      "price": "189zł",
-      "active": true
-    },
-    {
-      "id": "597fbced873fcc497b27dbaece50ed4529ef83bc0157784e92b828a37bc3c7d2",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Dysk Western Digital WD SN740 2TB M.2 SSD do Rog Ally / Steam Decka za $105.42 / ~434zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
-      "published_at": "2024-11-12T09:06:17+00:00",
-      "matched_keywords": [
-        "Steam Deck",
-        "ROG Ally"
-      ],
-      "price": "434zł",
-      "active": true
-    },
-    {
-      "id": "a87ad8ef0f9064672862ecd0d0365ca045666573d3ef2928548275c00efe61f9",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Dysk KingSpec M.2 NVMe 2230 SSD 1TB do Steam Decka za $46.99 / ~195zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/kingspec-m-2-nvme-2230-ssd/",
-      "published_at": "2024-11-08T14:16:28+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "195zł",
-      "active": true
-    },
-    {
-      "id": "98fc513a758c938bcf9df437e2e7066a1bb0c6c09deed3f0fa52bcd43de211e9",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $49.99 / ~205zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
-      "published_at": "2024-11-08T11:20:45+00:00",
-      "matched_keywords": [
-        "Legion Go",
-        "Steam Deck",
-        "ROG Ally"
-      ],
-      "price": "205zł",
-      "active": true
-    },
-    {
-      "id": "59c80892e20db515553470b09428bd2215e31efe2021c3953bc606e3a90c524b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Kontroler GameSir G7 SE Xbox za $37.99 / ~156zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/gamesir-g7-se-xbox-2/",
-      "published_at": "2024-11-06T12:51:22+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "156zł",
-      "active": true
-    },
-    {
-      "id": "7b8e12cd0e5d18f460f21d151f71ae25c243805a1e7b5dab6972a1543b1742a1",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "8BitDo Media Remote for Xbox One za $18.99 / ~76zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/8bitdo-media-remote-for-xbox-one/",
-      "published_at": "2024-10-17T08:42:22+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "76zł",
-      "active": true
-    },
-    {
-      "id": "0dcc3a404d339db93622a0c7d40598593030d1b0ddd6445dced41052c1084b61",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Ładowarka do padów do Xboxa z akumulatorami za $24.99 / ~100zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ladowarka-do-padow-do-xboxa-z-akumulatorami/",
-      "published_at": "2024-10-08T08:38:36+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "pad Xbox"
-      ],
-      "price": "100zł",
-      "active": true
-    },
-    {
-      "id": "a06a9a2c2ebaa8300bf3967fde75660eee0a37df7991f86ca0baee1bb0e5bfc7",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Stacja dokująca do Steam Decka za $9.98 / ~40zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka-alie/",
-      "published_at": "2024-10-02T11:08:26+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "40zł",
-      "active": true
-    },
-    {
-      "id": "ad9a33440de68b5b290ffdec260d83ec20ff732e7d00c3b0fdb3c77e82cb5050",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Etui ochronne na steam decka za $14.48 / ~55zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/etui-ochronne-na-steam-decka/",
-      "published_at": "2024-09-27T10:45:25+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "55zł",
-      "active": true
-    },
-    {
-      "id": "fd99734d39d74ec155028684a8c948365bdfa2931f0bc5d58878ea47e354eead",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Gamepad do telefonu GameSir X4 Xbox za $63.26 / ~250zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/gamepad-do-telefonu-gamesir-x4-xbox/",
-      "published_at": "2024-09-19T09:19:03+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "pad Xbox"
-      ],
-      "price": "250zł",
-      "active": true
-    },
-    {
-      "id": "d53fefed23b501a8c775eba0f6f7873c0c87b08acfc806315181df0be16a89b3",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Bezprzewodowy kontroler do Xbox za $21.99 / ~88zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-xbox/",
-      "published_at": "2024-08-06T15:17:15+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "88zł",
-      "active": true
-    },
-    {
-      "id": "4034e8cfa6bf20a9b31e93596f2456a12f06a92e55118e6d65e1bd8b82372b6f",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "8Bitdo for Xbox Dual Charging Dock za $47.99 / ~192zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/8bitdo-for-xbox-dual-charging-dock/",
-      "published_at": "2024-08-06T10:55:44+00:00",
-      "matched_keywords": [
-        "Xbox"
-      ],
-      "price": "192zł",
-      "active": true
-    },
-    {
-      "id": "a14acfd2c08f19132406477e7236bb16b05743579bf6bb86689499a83047689a",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Wymienna obudowa Starfield do pada od Xboxa za $6.57 / ~26zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/wymienna-obudowa-starfield-do-pada-od-xboxa/",
-      "published_at": "2024-08-03T13:08:09+00:00",
-      "matched_keywords": [
-        "Xbox",
-        "pad Xbox"
-      ],
-      "price": "26zł",
-      "active": true
-    },
-    {
-      "id": "0b9ebe86f98adce2f6bffa67dd39d9072d2d5fae20ccaeeb55cd52e02985e108",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Dobe stacja dokująca do steam decka za $13.99 / ~57zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka-bg/",
-      "published_at": "2024-07-31T08:34:38+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "57zł",
-      "active": true
-    },
-    {
-      "id": "f58cb681af495f105590f236225f0635d5994232a6aa25dc2f79382d8b6cbb60",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Baseus USB C Stacja dokująca do steam decka za $33.99 / ~139zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/baseus-usb-c/",
-      "published_at": "2024-06-15T09:08:35+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "139zł",
-      "active": true
-    },
-    {
-      "id": "51a002c525cb4e2cb7c7abbd01605364a81cb68e6e1ae3febef4716702d90d85",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Pełne etui ochronne do Steam Decka za $12.35 / ~48zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/pelne-etui-ochronne-do-steam-decka/",
-      "published_at": "2024-05-29T06:37:07+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "48zł",
-      "active": true
-    },
-    {
-      "id": "b5ef009ef6380a6d1b0cca9ead54f8613d95dd3bc350c891f3f4f1c9da997bf6",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Konsola ASUS ROG Ally AMD Ryzen Z1 Extreme za $619.00 / ~2488zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/konsola-asus-rog-ally-amd-ryzen-z1-extreme/",
-      "published_at": "2024-05-06T11:54:03+00:00",
-      "matched_keywords": [
-        "Z1 Extreme",
-        "ROG Ally"
-      ],
-      "price": "2488zł",
-      "active": true
-    },
-    {
-      "id": "a5de684a199fad1da26d140c71df1577c8349e664f9a4d4ddaef84977fe37e7d",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "2x Szkło ochronne do Steam Decka za $3.62 / ~14zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/zklo-ochronne-do-steam-decka/",
-      "published_at": "2024-03-04T15:22:17+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "14zł",
-      "active": true
-    },
-    {
-      "id": "17fa8ab7cc2322a6651f1a683d7621d2d0f61a633744e5b4931fd90de9698c7c",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "DOBE stacja dokująca do steam decka za $18.99 / ~80zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka/",
-      "published_at": "2023-10-19T09:07:59+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "80zł",
-      "active": true
-    },
-    {
-      "id": "0b5db7e008f9e47053aef3dfdee5dd3aac32915fd3ec0c7f24ba225c8eeb9df2",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Stacja dokująca do steam decka 4K60Hz z chłodzeniem za $38.99 / ~170zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka/",
-      "published_at": "2023-09-29T09:50:09+00:00",
-      "matched_keywords": [
-        "Steam Deck"
-      ],
-      "price": "170zł",
-      "active": true
-    },
-    {
-      "id": "2678442550ffa2660b2fac3e4abc2ab2aa8fdb6c7cc959cae6287278f7bc5868",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Kamera sportowa SJCAM Sj10 Pro za $159 / ~750zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sjcam-sj10-pro/",
-      "published_at": "2022-11-07T15:33:05+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "750zł",
-      "active": true
-    },
-    {
-      "id": "e0ed61824e841fc3f7bbd1323fd7d50484a552142ddcaf32c7254053eab9a5be",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Karta pamięci SanDisk Extreme 64GB z Polski za $13.32 / ~51.63zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sandisk-extreme-64-gb/",
-      "published_at": "2021-03-09T12:01:24+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "51.63zł",
-      "active": true
-    },
-    {
-      "id": "8ade97e78b6beec871dbe15689771dcd9a47eacce0c1abd53601fd8537165e7b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Grawer laserowy NEJE KZ10W 10000mW za $103.29 / ~376zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/neje-kz10w-10000mw/",
-      "published_at": "2020-12-11T14:38:21+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "376zł",
-      "active": true
-    },
-    {
-      "id": "6460727e49049ac2a42dac24ad59bd3b30cfd990957e13d1249ce30bbacf1d49",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Zdalnie sterowany samolot ZOHD Dart XL Extreme 1000mm za $129.99 / ~510zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/zohd-dart-xl-extreme-1000mm/",
-      "published_at": "2019-09-10T16:54:01+00:00",
-      "matched_keywords": [
-        "Z1 Extreme"
-      ],
-      "price": "510zł",
-      "active": true
-    },
-    {
-      "id": "1826efdb27733bb2d67c4d41932c1c5a7f665974ce076c6adc6d1b159870758b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Lenovo Legion Y7000 Gaming Laptop za $869.99 / ~3304zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-y7000-gaming-laptop/",
-      "published_at": "2019-07-18T11:22:49+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "3304zł",
-      "active": true
-    },
-    {
-      "id": "af29c3c7ba708406761ad4c2b6903a70ca18705f3fde082eee62bb4d5d549e76",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Laptop Lenovo Legion R720 za $1099.99 / ~4187zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/lenovo-legion-r720/",
-      "published_at": "2019-02-10T17:31:02+00:00",
-      "matched_keywords": [
-        "Legion Go"
-      ],
-      "price": "4187zł",
-      "active": true
     }
   ]
 }
