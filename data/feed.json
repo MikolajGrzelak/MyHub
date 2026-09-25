@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25T19:36:32.839727+00:00",
-  "count": 300,
+  "updated_at": "2026-09-25T20:25:41.382151+00:00",
+  "count": 358,
   "items": [
     {
       "id": "bc620602faa1205caccbed956b2d7bd128988dbe405153693557a55d319cf07c",
@@ -13,6 +13,121 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427920/wiedzmin-3-w-znakomitej-promocji-idealna-okazja-przed-premiera-wiedzmin-3-remaster.html",
       "published_at": "2026-09-25T21:14:00+00:00"
+    },
+    {
+      "id": "027be5b5c46dce542738cc9e2feb38fc0e4d46d0a10878c48551a8f83d5c818f",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Tom Clancy's Splinter Cell Chaos Theory",
+      "summary": "Oficjalne sklepy: 4,97 zł · Keyshopy: 11,19 zł · Historyczne minimum: 0,00 zł",
+      "url": "https://gg.deals/game/tom-clancy-s-splinter-cell-chaos-theory/",
+      "published_at": "2026-09-25T20:24:50.956502+00:00",
+      "matched_keywords": [],
+      "price": "4,97 zł",
+      "price_kind": "oficjalny sklep",
+      "retail_price": "4,97 zł",
+      "keyshop_price": "11,19 zł",
+      "historical_price": "0,00 zł",
+      "platform": "pc",
+      "platform_label": "PC",
+      "steam_app_id": 13570,
+      "active": true,
+      "price_verified": true,
+      "priority": false
+    },
+    {
+      "id": "06066332752f5bc5f3df9fb1b4ce3a257445b0661453d168b6cff95cc4ba4dde",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Rise of the Tomb Raider",
+      "summary": "Oficjalne sklepy: 19,69 zł · Keyshopy: 12,21 zł · Historyczne minimum: 0,00 zł",
+      "url": "https://gg.deals/game/rise-of-the-tomb-raider/",
+      "published_at": "2026-09-25T20:24:50.956502+00:00",
+      "matched_keywords": [],
+      "price": "12,21 zł",
+      "price_kind": "keyshop",
+      "retail_price": "19,69 zł",
+      "keyshop_price": "12,21 zł",
+      "historical_price": "0,00 zł",
+      "platform": "pc",
+      "platform_label": "PC",
+      "steam_app_id": 391220,
+      "active": true,
+      "price_verified": true,
+      "priority": false
+    },
+    {
+      "id": "0117593f69d12bf9222189d5a960732952b24faba4417342da3a9c907d771c17",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Shadow of the Tomb Raider",
+      "summary": "Oficjalne sklepy: 26,23 zł · Keyshopy: 17,77 zł · Historyczne minimum: 0,00 zł",
+      "url": "https://gg.deals/game/shadow-of-the-tomb-raider/",
+      "published_at": "2026-09-25T20:24:50.956502+00:00",
+      "matched_keywords": [],
+      "price": "17,77 zł",
+      "price_kind": "keyshop",
+      "retail_price": "26,23 zł",
+      "keyshop_price": "17,77 zł",
+      "historical_price": "0,00 zł",
+      "platform": "pc",
+      "platform_label": "PC",
+      "steam_app_id": 750920,
+      "active": true,
+      "price_verified": true,
+      "priority": false
+    },
+    {
+      "id": "e9fad5d7ef51684246f77aadaf2349b3cfd64a52f9e6972299dddafd279ee55c",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Tom Clancy's The Division",
+      "summary": "Oficjalne sklepy: 10,76 zł · Keyshopy: 12,51 zł · Historyczne minimum: 0,00 zł",
+      "url": "https://gg.deals/game/tom-clancy-s-the-division/",
+      "published_at": "2026-09-25T20:24:50.956502+00:00",
+      "matched_keywords": [],
+      "price": "10,76 zł",
+      "price_kind": "oficjalny sklep",
+      "retail_price": "10,76 zł",
+      "keyshop_price": "12,51 zł",
+      "historical_price": "0,00 zł",
+      "platform": "pc",
+      "platform_label": "PC",
+      "steam_app_id": 365590,
+      "active": true,
+      "price_verified": true,
+      "priority": false
+    },
+    {
+      "id": "0f765b8fb760d8e4975d7e9fe146a22e8f3a2fbb28e30c34af08c789f4e2dc7d",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Tom Clancy's The Division 2",
+      "summary": "Oficjalne sklepy: 9,59 zł · Keyshopy: 12,51 zł · Historyczne minimum: 5,99 zł",
+      "url": "https://gg.deals/game/tom-clancys-the-division-2/",
+      "published_at": "2026-09-25T20:24:50.956502+00:00",
+      "matched_keywords": [],
+      "price": "9,59 zł",
+      "price_kind": "oficjalny sklep",
+      "retail_price": "9,59 zł",
+      "keyshop_price": "12,51 zł",
+      "historical_price": "5,99 zł",
+      "platform": "pc",
+      "platform_label": "PC",
+      "steam_app_id": 2221490,
+      "active": true,
+      "price_verified": true,
+      "priority": false
     },
     {
       "id": "c7b83283562f7ec2ae13eb3aea0f6365a9d234390f660c37a5bfd7e8c57f75f3",
@@ -51,6 +166,60 @@
       "published_at": "2026-09-25T20:01:00+00:00"
     },
     {
+      "id": "7001e7f0a13ff8c5d1f570d6ab35173db729d1b6680925688304bacbb2a8ad3b",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created'",
+      "summary": "Blizzard devs are having to manually go through a list to flag the names that aren't allowed.",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-has-no-sympathy-for-players-kicked-from-the-beta-for-offensive-names-if-youre-genuinely-confused-remember-that-its-our-database-we-can-see-every-character-youve-created/",
+      "published_at": "2026-09-25T19:55:45+00:00",
+      "summary_pl": "Deweloperzy World of Warcraft nie mają litości dla graczy wyrzuconych z bety za obraźliwe nazwy postaci. Blizzard ręcznie weryfikuje zabronione imiona.",
+      "tags": [
+        "World of Warcraft",
+        "Blizzard",
+        "beta",
+        "gaming"
+      ]
+    },
+    {
+      "id": "647a1a56d8d6cb1c9b8d17f9478d609d418e02f230278d4a11c12fd62596a5e1",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "en",
+      "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
+      "summary": "Better thermals and battery life make this iterative update nicer to use.",
+      "url": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/",
+      "published_at": "2026-09-25T19:34:42+00:00",
+      "summary_pl": "Recenzja iPhone'a 18 Pro wskazuje, że to ewolucyjna aktualizacja oferująca lepsze chłodzenie i czas pracy na baterii, co czyni go przyjemniejszym w użyciu.",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Smartfon",
+        "Recenzja"
+      ]
+    },
+    {
+      "id": "2c76509141ddbce37c110294cb23c80c7b8938d98ea9a49223e4ca0701dfdb7e",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away'",
+      "summary": "The studio reportedly had big plans, but nothing in production.",
+      "url": "https://www.pcgamer.com/games/halo/what-insiders-say-halo-studios-was-up-to-before-losing-halo-the-next-halo-game-was-years-away/",
+      "published_at": "2026-09-25T19:33:54+00:00",
+      "summary_pl": "Wewnętrzne źródła ujawniają, że przed zmianami w Halo Studios kolejny wielki projekt z serii Halo był jeszcze daleki od ukończenia, a studio nie miało nic w produkcji.",
+      "tags": [
+        "Halo",
+        "Halo Studios",
+        "Gry",
+        "PC Gamer"
+      ]
+    },
+    {
       "id": "5ccec85aba8248479d359670674c45cf10df2c3646051df0928b253701b4de71",
       "source": "r/Age_30_plus_Gamers",
       "source_type": "reddit",
@@ -82,6 +251,24 @@
       ]
     },
     {
+      "id": "5286cddf3952e689fb8f498bcf805c365f31a293964339be2f563590fb6a19e0",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "en",
+      "title": "Paramount/WBD merger conditions give the public \"virtually nothing,\" judge is told",
+      "summary": "US judge reviews deal with California, says it must not be result of collusion.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/paramount-wbd-merger-conditions-give-the-public-virtually-nothing-judge-is-told/",
+      "published_at": "2026-09-25T18:42:57+00:00",
+      "summary_pl": "Amerykański sędzia analizuje warunki fuzji Paramount i WBD, podkreślając, że umowa nie może być wynikiem koluzji i daje publiczności niewiele.",
+      "tags": [
+        "Paramount",
+        "WBD",
+        "biznes",
+        "prawo"
+      ]
+    },
+    {
       "id": "f61cf23e27178f5f7b01a8d7a2a45db1de8bf167217c39fa3fb23c9201959245",
       "source": "PPE",
       "source_type": "news",
@@ -92,6 +279,23 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427927/znamy-wage-wiedzmin-3-dziki-gon-remastered-ile-miejsca-na-dysku-potrzebujesz.html",
       "published_at": "2026-09-25T18:33:00+00:00"
+    },
+    {
+      "id": "91d5d26e2b16d1789f47acb76ec9a055ceda5e9231495c1a420957b230649647",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "en",
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "summary": "Microsoft's new Surface laptops forgo Copilot+ PC branding.",
+      "url": "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/",
+      "published_at": "2026-09-25T17:57:37+00:00",
+      "summary_pl": "Microsoft rezygnuje z podkreślania wymogu posiadania komputera Copilot+ PC. Nowe laptopy Surface nie posiadają już tego oznaczenia.",
+      "tags": [
+        "Microsoft",
+        "Surface",
+        "Copilot"
+      ]
     },
     {
       "id": "a644645f48ca6e14148521eb4de4e8291b84219269eea428e67e57046621cbcc",
@@ -3180,6 +3384,23 @@
       "thumbnail_url": "https://i.ytimg.com/vi/r4ZDapvpe34/mqdefault.jpg"
     },
     {
+      "id": "a7d74fb3e8011e18fd32060a3413cb99560506d2fecacb54e90c827a53ad819a",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Sony Playstation 5 PS5 Slim z napędem z Polski za $700.33 / ~2688zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-playstation-5/",
+      "published_at": "2026-09-15T12:24:45+00:00",
+      "matched_keywords": [
+        "PlayStation",
+        "PS5"
+      ],
+      "price": "2688zł",
+      "active": true
+    },
+    {
       "id": "7d51b202ffcc27c0b1bed2c4b98dde47e34cd75824895675a0be319e50a8194a",
       "source": "Michał Pisarski",
       "source_type": "youtube",
@@ -3588,6 +3809,22 @@
       "thumbnail_url": "https://i.ytimg.com/vi/KVh9KbM05EI/mqdefault.jpg"
     },
     {
+      "id": "b4c96abba496119791aaac6822c8ed73fe84b76fa382c69e002cc6ce5fd2bc1d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Inteligentne okulary Xreal One AR 3840X1080 z EU za $385.27 / ~1459zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/inteligentne-okulary-xreal-one-ar-3840x1080/",
+      "published_at": "2026-08-20T10:52:47+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "1459zł",
+      "active": true
+    },
+    {
       "id": "512fd092fb8e058279b4c5beea626f7f27f40d1f4dd17dbb0e855d65b1a2c292",
       "source": "arhn.eu",
       "source_type": "youtube",
@@ -3756,6 +3993,22 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
+      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
+      "published_at": "2026-07-28T20:27:02+00:00",
+      "matched_keywords": [
+        "PlayStation"
+      ],
+      "price": "1099zł",
+      "active": true
+    },
+    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -3802,6 +4055,22 @@
       "url": "https://www.youtube.com/watch?v=2sgQ2ZkA_XI",
       "published_at": "2026-07-16T14:00:09Z",
       "thumbnail_url": "https://i.ytimg.com/vi/2sgQ2ZkA_XI/mqdefault.jpg"
+    },
+    {
+      "id": "6e7a54742d56ad68abb4ddbd3e8cc48c4dc11c3b7505357b997980ee4c9f4471",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bakeey 6 in 1 – stacja dokująca do Steam Decka (HDMI 4K 60Hz, PD, 3xUSB 3.0, Ethernet) za $13.99 / ~54zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bakeey-6-in-1-stacja-dokujaca-do-steam-decka-hdmi-4k-60hz-pd-3xusb-3-0-ethernet/",
+      "published_at": "2026-07-10T10:50:09+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "54zł",
+      "active": true
     },
     {
       "id": "721b99d33ca990d3d8889a9ec8599e10370cdc62ce2fc1164f56f9e7bfc7c1f4",
@@ -3886,6 +4155,724 @@
       "url": "https://www.youtube.com/watch?v=o8cJS6Jj6LA",
       "published_at": "2026-06-09T15:27:02Z",
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
+    },
+    {
+      "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "[Certyfikowany przez Xbox] Kontroler przewodowy FLYDIGI Vader 5S za $67.99 / ~249zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/certyfikowany-przez-xbox-kontroler-przewodowy-flydigi-vader-5s/",
+      "published_at": "2026-04-08T14:11:58+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "249zł",
+      "active": true
+    },
+    {
+      "id": "cb56a61cc5bd56a4373c3629ac9e403929eb14525c8220c26f3afc5dde6ef50d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bezprzewodowy kontroler do gier GameSir G7 Pro Wuchang dla konsoli Xbox za $88.3 / ~336zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-gier-gamesir-g7-pro-wuchang-dla-konsoli-xbox/",
+      "published_at": "2026-03-19T16:37:01+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "336zł",
+      "active": true
+    },
+    {
+      "id": "b23f4643d1fffe1990366c5f7d7cefb28866b312b6e103de45d3a3676f9bb2d2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Ładowarka kontrolera do Xbox Seires X z akumulatorami z EU za $25.6 / ~95zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ladowarka-kontrolera-do-xbox-seires-x-z-akumulatorami/",
+      "published_at": "2026-01-12T11:46:01+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "95zł",
+      "active": true
+    },
+    {
+      "id": "5917fff1d7a37f0fc8ea9e6471e74402ef69fd6711801bbcc3a53b7732c6e5c1",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Przenośna konsola do gier ASUS ROG Xbox Ally z EU za $614.06 / ~2273zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/przenosna-konsola-do-gier-asus-rog-xbox-ally/",
+      "published_at": "2026-01-12T09:41:23+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "ROG Ally"
+      ],
+      "price": "2273zł",
+      "active": true
+    },
+    {
+      "id": "0e628932ee952b2bde28833f6902c594ada6df88e556335c5e2f834f8a84fc14",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Przewodowy kontroler gier 8BitDo Ultimate C do konsoli Xbox za $29.61 / ~109zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/przewodowy-kontroler-gier-8bitdo-ultimate-c-do-konsoli-xbox/",
+      "published_at": "2026-01-04T12:43:14+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "109zł",
+      "active": true
+    },
+    {
+      "id": "3690f0ce7f57a5e468c3521f9a1acd22ec5f32d5ec8ff4ab44de403da1726050",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Xbox Edition 8BitDo Ultimate Mobile Gaming Controller za $35.99 / ~132zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/xbox-edition-8bitdo-ultimate-mobile-gaming-controller/",
+      "published_at": "2025-12-25T10:55:47+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "132zł",
+      "active": true
+    },
+    {
+      "id": "5510e2e3d83e2aefb249b4fbddca42f569979c0f0c4e2cddd4db751363c665e3",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Karta pamięci Batocera 1TB do Steam Deck / Anbernicka za $102.8 / ~384zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/karta-pamieci-batocera-1tb-do-steam-deck-anbernicka-za-102-73-382zl/",
+      "published_at": "2025-11-12T15:49:42+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "384zł",
+      "active": true
+    },
+    {
+      "id": "7e5d2ae9474eae6c6d560acd2409b944e5ce2d73ccbb880d1224468033e1faed",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gamepad 8BitDo Ultimate-3-Mode do Xboxa i PC za $73.9 / ~278zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-ultimate-3-mode/",
+      "published_at": "2025-11-02T13:25:36+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "278zł",
+      "active": true
+    },
+    {
+      "id": "88503001dccc3de6a5e79dfea8cfc1a47e40cccf9555e5753f0f04a9e52bea51",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola do gier Lenovo Legion Go S 2025 z EU za $507.72 / ~1876zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-go-s-2025/",
+      "published_at": "2025-09-09T09:33:47+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "1876zł",
+      "active": true
+    },
+    {
+      "id": "d3df7b86ea3f660815e48b4ea137ac3d6fdcee482f2228ebff795d2f3111bf61",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "8BitDo Xbox Ultimate X Pro za $59.99 / ~221zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-xbox-ultimate-x-pro/",
+      "published_at": "2025-07-07T13:49:26+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "221zł",
+      "active": true
+    },
+    {
+      "id": "1afcac646491f780422491b64de324b047163a40584562b769ae3e1e542a2a76",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion Go S z EU za $530.81 / ~1989zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-go-s/",
+      "published_at": "2025-06-25T12:21:49+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "1989zł",
+      "active": true
+    },
+    {
+      "id": "6a56b6e674730b4a33a215b54064b50cb36a20900818de911d3220d110c1a404",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "ASUS ROG Ally X – Przenośna konsola do gier z EU za $956.03 / ~3582zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/asus-rog-ally-x-przenosna-konsola-do-gier/",
+      "published_at": "2025-06-24T17:20:14+00:00",
+      "matched_keywords": [
+        "Z1 Extreme",
+        "ROG Ally"
+      ],
+      "price": "3582zł",
+      "active": true
+    },
+    {
+      "id": "d4e067b7ded335e5562d348a24b83c0bf7c0d97841bffcd1a80adcc4aa426a88",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGREEN CM800 9 in 1 USB C Docking Station za $51.99 / ~194zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-cm800-9-in-1-usb-c-docking-station/",
+      "published_at": "2025-06-23T17:27:09+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "194zł",
+      "active": true
+    },
+    {
+      "id": "665f1ef9bd65b8b1971f0d8759439219f5128bb9ac01d1ff615180d71aa29f3b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "VITURE One XR Smart Glasses za $679.99 / ~2598zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-one-xr-smart-glasses/",
+      "published_at": "2025-06-12T12:41:26+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "2598zł",
+      "active": true
+    },
+    {
+      "id": "f4c5478749507d9d2b7131c334a9121c97a2b9358fdcb68b4b5849130aca6e10",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lenovo Legion R27fc-30 27″FHD VA 340Hz 350nits HDMI z Polski za $166.74 / ~654zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/lenovo-legion-r27fc-30-27fhd-va-340hz-350nits-hdmi/",
+      "published_at": "2025-03-18T09:51:50+00:00",
+      "matched_keywords": [
+        "Legion Go"
+      ],
+      "price": "654zł",
+      "active": true
+    },
+    {
+      "id": "a8f3fde4926738c14d47882d73e8c40f8c79ce4576f79d205a80eb228f71858e",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "ASUS ROG Ally Z1 Extreme z EU za $424.59 / ~1666zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/asus-rog-ally-z1-extreme/",
+      "published_at": "2025-03-17T07:47:20+00:00",
+      "matched_keywords": [
+        "Z1 Extreme",
+        "ROG Ally"
+      ],
+      "price": "1666zł",
+      "active": true
+    },
+    {
+      "id": "84919f6174c73487c4fe3fb58e3d7958c2867532f12cfc38493b6639b9941d42",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Projektor laserowy Formovie Cinema Edge ALPD 4K z EU za $1799.00 / ~7592zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/formovie-cinema-edge-alpd/",
+      "published_at": "2025-01-07T11:54:06+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "7592zł",
+      "active": true
+    },
+    {
+      "id": "de8847c85137db5061d7d80fada4b3506af6a7f276628004ae8df0bea940f7d6",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Okulary AR VITURE Pro XR za $249.00 / ~1041zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-pro-xr/",
+      "published_at": "2024-12-27T14:30:53+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "1041zł",
+      "active": true
+    },
+    {
+      "id": "7f055e1a1c67fe74780c521a131d109c86e33c25eea0c256f2f47f9623e150af",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $45.99 / ~189zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
+      "published_at": "2024-12-11T12:18:54+00:00",
+      "matched_keywords": [
+        "Legion Go",
+        "ROG Ally",
+        "Steam Deck"
+      ],
+      "price": "189zł",
+      "active": true
+    },
+    {
+      "id": "597fbced873fcc497b27dbaece50ed4529ef83bc0157784e92b828a37bc3c7d2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dysk Western Digital WD SN740 2TB M.2 SSD do Rog Ally / Steam Decka za $105.42 / ~434zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/western-digital-wd-sn740-2tb-m-2-ssd/",
+      "published_at": "2024-11-12T09:06:17+00:00",
+      "matched_keywords": [
+        "ROG Ally",
+        "Steam Deck"
+      ],
+      "price": "434zł",
+      "active": true
+    },
+    {
+      "id": "a87ad8ef0f9064672862ecd0d0365ca045666573d3ef2928548275c00efe61f9",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dysk KingSpec M.2 NVMe 2230 SSD 1TB do Steam Decka za $46.99 / ~195zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/kingspec-m-2-nvme-2230-ssd/",
+      "published_at": "2024-11-08T14:16:28+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "195zł",
+      "active": true
+    },
+    {
+      "id": "98fc513a758c938bcf9df437e2e7066a1bb0c6c09deed3f0fa52bcd43de211e9",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "UGreen 9 in 1 Type C Steam Deck Dock za $49.99 / ~205zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
+      "published_at": "2024-11-08T11:20:45+00:00",
+      "matched_keywords": [
+        "Legion Go",
+        "ROG Ally",
+        "Steam Deck"
+      ],
+      "price": "205zł",
+      "active": true
+    },
+    {
+      "id": "59c80892e20db515553470b09428bd2215e31efe2021c3953bc606e3a90c524b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kontroler GameSir G7 SE Xbox za $37.99 / ~156zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/gamesir-g7-se-xbox-2/",
+      "published_at": "2024-11-06T12:51:22+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "156zł",
+      "active": true
+    },
+    {
+      "id": "7b8e12cd0e5d18f460f21d151f71ae25c243805a1e7b5dab6972a1543b1742a1",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "8BitDo Media Remote for Xbox One za $18.99 / ~76zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-media-remote-for-xbox-one/",
+      "published_at": "2024-10-17T08:42:22+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "76zł",
+      "active": true
+    },
+    {
+      "id": "adf97070d013311cab08b9ccece0c4d6b7798f3b01fa551224b253ae0114d11b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Okulary AR VITURE One XR za $1119.99 / ~4480zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/viture-one-xr/",
+      "published_at": "2024-10-11T08:23:31+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "4480zł",
+      "active": true
+    },
+    {
+      "id": "0dcc3a404d339db93622a0c7d40598593030d1b0ddd6445dced41052c1084b61",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Ładowarka do padów do Xboxa z akumulatorami za $24.99 / ~100zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/ladowarka-do-padow-do-xboxa-z-akumulatorami/",
+      "published_at": "2024-10-08T08:38:36+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "100zł",
+      "active": true
+    },
+    {
+      "id": "a06a9a2c2ebaa8300bf3967fde75660eee0a37df7991f86ca0baee1bb0e5bfc7",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca do Steam Decka za $9.98 / ~40zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka-alie/",
+      "published_at": "2024-10-02T11:08:26+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "40zł",
+      "active": true
+    },
+    {
+      "id": "ad9a33440de68b5b290ffdec260d83ec20ff732e7d00c3b0fdb3c77e82cb5050",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Etui ochronne na steam decka za $14.48 / ~55zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/etui-ochronne-na-steam-decka/",
+      "published_at": "2024-09-27T10:45:25+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "55zł",
+      "active": true
+    },
+    {
+      "id": "fd99734d39d74ec155028684a8c948365bdfa2931f0bc5d58878ea47e354eead",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gamepad do telefonu GameSir X4 Xbox za $63.26 / ~250zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/gamepad-do-telefonu-gamesir-x4-xbox/",
+      "published_at": "2024-09-19T09:19:03+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "250zł",
+      "active": true
+    },
+    {
+      "id": "d53fefed23b501a8c775eba0f6f7873c0c87b08acfc806315181df0be16a89b3",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Bezprzewodowy kontroler do Xbox za $21.99 / ~88zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/bezprzewodowy-kontroler-do-xbox/",
+      "published_at": "2024-08-06T15:17:15+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "88zł",
+      "active": true
+    },
+    {
+      "id": "4034e8cfa6bf20a9b31e93596f2456a12f06a92e55118e6d65e1bd8b82372b6f",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "8Bitdo for Xbox Dual Charging Dock za $47.99 / ~192zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/8bitdo-for-xbox-dual-charging-dock/",
+      "published_at": "2024-08-06T10:55:44+00:00",
+      "matched_keywords": [
+        "Xbox"
+      ],
+      "price": "192zł",
+      "active": true
+    },
+    {
+      "id": "a14acfd2c08f19132406477e7236bb16b05743579bf6bb86689499a83047689a",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Wymienna obudowa Starfield do pada od Xboxa za $6.57 / ~26zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/wymienna-obudowa-starfield-do-pada-od-xboxa/",
+      "published_at": "2024-08-03T13:08:09+00:00",
+      "matched_keywords": [
+        "Xbox",
+        "pad Xbox"
+      ],
+      "price": "26zł",
+      "active": true
+    },
+    {
+      "id": "0b9ebe86f98adce2f6bffa67dd39d9072d2d5fae20ccaeeb55cd52e02985e108",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Dobe stacja dokująca do steam decka za $13.99 / ~57zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka-bg/",
+      "published_at": "2024-07-31T08:34:38+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "57zł",
+      "active": true
+    },
+    {
+      "id": "f58cb681af495f105590f236225f0635d5994232a6aa25dc2f79382d8b6cbb60",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Baseus USB C Stacja dokująca do steam decka za $33.99 / ~139zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/baseus-usb-c/",
+      "published_at": "2024-06-15T09:08:35+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "139zł",
+      "active": true
+    },
+    {
+      "id": "51a002c525cb4e2cb7c7abbd01605364a81cb68e6e1ae3febef4716702d90d85",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Pełne etui ochronne do Steam Decka za $12.35 / ~48zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/pelne-etui-ochronne-do-steam-decka/",
+      "published_at": "2024-05-29T06:37:07+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "48zł",
+      "active": true
+    },
+    {
+      "id": "b5ef009ef6380a6d1b0cca9ead54f8613d95dd3bc350c891f3f4f1c9da997bf6",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola ASUS ROG Ally AMD Ryzen Z1 Extreme za $619.00 / ~2488zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/konsola-asus-rog-ally-amd-ryzen-z1-extreme/",
+      "published_at": "2024-05-06T11:54:03+00:00",
+      "matched_keywords": [
+        "Z1 Extreme",
+        "ROG Ally"
+      ],
+      "price": "2488zł",
+      "active": true
+    },
+    {
+      "id": "a5de684a199fad1da26d140c71df1577c8349e664f9a4d4ddaef84977fe37e7d",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "2x Szkło ochronne do Steam Decka za $3.62 / ~14zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/zklo-ochronne-do-steam-decka/",
+      "published_at": "2024-03-04T15:22:17+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "14zł",
+      "active": true
+    },
+    {
+      "id": "17fa8ab7cc2322a6651f1a683d7621d2d0f61a633744e5b4931fd90de9698c7c",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "DOBE stacja dokująca do steam decka za $18.99 / ~80zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/dobe-stacja-dokujaca-do-steam-decka/",
+      "published_at": "2023-10-19T09:07:59+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "80zł",
+      "active": true
+    },
+    {
+      "id": "0b5db7e008f9e47053aef3dfdee5dd3aac32915fd3ec0c7f24ba225c8eeb9df2",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stacja dokująca do steam decka 4K60Hz z chłodzeniem za $38.99 / ~170zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/stacja-dokujaca-do-steam-decka/",
+      "published_at": "2023-09-29T09:50:09+00:00",
+      "matched_keywords": [
+        "Steam Deck"
+      ],
+      "price": "170zł",
+      "active": true
+    },
+    {
+      "id": "2678442550ffa2660b2fac3e4abc2ab2aa8fdb6c7cc959cae6287278f7bc5868",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Kamera sportowa SJCAM Sj10 Pro za $159 / ~750zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sjcam-sj10-pro/",
+      "published_at": "2022-11-07T15:33:05+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "750zł",
+      "active": true
+    },
+    {
+      "id": "e0ed61824e841fc3f7bbd1323fd7d50484a552142ddcaf32c7254053eab9a5be",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Karta pamięci SanDisk Extreme 64GB z Polski za $13.32 / ~51.63zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sandisk-extreme-64-gb/",
+      "published_at": "2021-03-09T12:01:24+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "51.63zł",
+      "active": true
+    },
+    {
+      "id": "8ade97e78b6beec871dbe15689771dcd9a47eacce0c1abd53601fd8537165e7b",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Grawer laserowy NEJE KZ10W 10000mW za $103.29 / ~376zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/neje-kz10w-10000mw/",
+      "published_at": "2020-12-11T14:38:21+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "376zł",
+      "active": true
+    },
+    {
+      "id": "32fcf09588335a8fd524125815ce164520712b5307a6f4559a6f093ab671e836",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Mixer Blender Biolomix za $96.99 / ~361zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/mixer-blender-biolomix/",
+      "published_at": "2020-08-07T11:32:55+00:00",
+      "matched_keywords": [
+        "ROG Ally"
+      ],
+      "price": "361zł",
+      "active": true
+    },
+    {
+      "id": "6460727e49049ac2a42dac24ad59bd3b30cfd990957e13d1249ce30bbacf1d49",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Zdalnie sterowany samolot ZOHD Dart XL Extreme 1000mm za $129.99 / ~510zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/zohd-dart-xl-extreme-1000mm/",
+      "published_at": "2019-09-10T16:54:01+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "price": "510zł",
+      "active": true
     }
   ]
 }
