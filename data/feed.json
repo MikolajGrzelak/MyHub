@@ -1,7 +1,491 @@
 {
-  "updated_at": "2026-09-25T10:15:19.354046+00:00",
-  "count": 268,
+  "updated_at": "2026-09-25T15:21:14.950605+00:00",
+  "count": 319,
   "items": [
+    {
+      "id": "0b14c5a79f99243b343ccf43e69498552e5e975067057dcee8e2c54fb44eacfa",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Premiera Control Resonant to dopiero początek. Remedy szykuje ciekawe nowości PS5 XSX|S PC",
+      "summary": "Control Resonant jest już dostępny, ale gracze mogą być pewni, że tytuł będzie jeszcze rozwijany.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427915/premiera-control-resonant-to-dopiero-poczatek-remedy-szykuje-ciekawe-nowosci.html",
+      "published_at": "2026-09-25T15:38:00+00:00"
+    },
+    {
+      "id": "238c1604c72a34acb25697875c14e5ba3eab8f19a5b826783f7917d8c3c259be",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How do we think Galactic Racer will perform on Steam Deck?",
+      "summary": "I know sometimes the specs are overstated for base coverage, but seems like the target hardware is console/ gaming pc. submitted by /u/OhNoPonoGames [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpyr08/how_do_we_think_galactic_racer_will_perform_on/",
+      "published_at": "2026-09-25T15:05:19+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "f2cdc394f311460a713b6cee38ac742442b13fa4b3e2ec7c8f4bbc838c06f232",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Nowa gra wyścigowa w świecie Star Wars zajmie sporo miejsca na PS5. Premiera za pasem PS5 XSX|S PC",
+      "summary": "„Star Wars: Galactic Racer” niebawem trafi na PlayStation 5, a poznaliśmy już rozmiar plików potrzebnych do instalacji gry. Produkcja studia Fuse Games zajmie na konsoli około 36 GB.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427907/nowa-gra-wyscigowa-w-swiecie-star-wars-zajmie-sporo-miejsca-na-ps5-premiera-za-pasem.html",
+      "published_at": "2026-09-25T15:03:00+00:00"
+    },
+    {
+      "id": "15b6a5149a4705953e96bd34e7fb7d29892798773a1c5336851aea6c8fcbcf25",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Gra Castlevania Anniversary Collection Gra Nintendo Switch [Zbiorcza - w opisie kolejne pakiety gier z serii]",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/castlevania-anniversary-collection-gra-nintendo-switch-zbiorcza-w-opisie-kolejne-pakiety-gier-z-serii-1357237",
+      "published_at": "2026-09-25T15:02:33+00:00",
+      "matched_keywords": [
+        "Nintendo Switch"
+      ],
+      "price": "16 zł",
+      "old_price": "80 zł",
+      "temperature": "67",
+      "active": true,
+      "merchant": "Nintendo eShop",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/ekij0/1357237_1/re/600x600/qt/70/1357237_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "ff59c8387c47bb5286c1155456401779a45beda5cd473083a3f3865614308746",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Sony PlayStation 5 Pro | 899,99€ | wysyłka pośrednik",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/konsola-sony-playstation-5-pro-89999eur-wysylka-posrednik-1357236",
+      "published_at": "2026-09-25T15:01:40+00:00",
+      "matched_keywords": [
+        "PlayStation"
+      ],
+      "price": "3938 zł",
+      "old_price": "",
+      "temperature": "99",
+      "active": true,
+      "merchant": "",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/Mj61l/1357236_1/re/600x600/qt/70/1357236_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "f6b1319f933834c764aad3d7c1a90ad739f1054cd7182be78c734379f92c80c5",
+      "source": "Quaz",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Marvel's Wolverine - recenzja quaza",
+      "summary": "Grę do testów dostałem od wydawcy. Recenzja gry Marvel's Wolverine (Insomniac Games/Sony Interactive Entertainment) wydanej na PlayStation 5. Rozgrywka nagrana w wersji PS5, nie PS5 Pro. Montaż: Janek \"Sanity\" Kufirski (całość) i Tomek Drabik (zmiany). Muzyka w tle pochodzi z recenzowanej gry. Wstęp 0:00 Treść 1:16 Ro…",
+      "url": "https://www.youtube.com/watch?v=dh4rGoJUKqk",
+      "published_at": "2026-09-25T14:52:29Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/dh4rGoJUKqk/mqdefault.jpg"
+    },
+    {
+      "id": "c18149a53cdc37b91372280240034c47c1615a630927fdb661c7f0f62c491eb0",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hi, what pro controller plug and play for legion go s z1e steam os? tia",
+      "summary": "submitted by /u/Extreme-Knowledge-47 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpy7ze/hi_what_pro_controller_plug_and_play_for_legion/",
+      "published_at": "2026-09-25T14:44:53+00:00",
+      "matched_keywords": [
+        "Z1E"
+      ],
+      "priority": true
+    },
+    {
+      "id": "2f3aac6efcc94a64a3672143f47d7343b624fe33bf288020ddc87cc0bb7827d2",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Ale to ty dzwonisz",
+      "summary": "Targi technologii już w ten weekend w Białymstoku. Wstęp wolny. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=influencer&utm_medium=youtube&utm_campaign=Kanalotechnologii2026&utm_term=Kanalotechnologii&utm_content=Other%20public%20kot%2026 #TargiTe…",
+      "url": "https://www.youtube.com/watch?v=oQRrDOdoltk",
+      "published_at": "2026-09-25T14:41:01Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/oQRrDOdoltk/mqdefault.jpg"
+    },
+    {
+      "id": "aecbd52858ef1fd17e983db021e684e1b7e878e9e3142492d160e8871c16a929",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Do games that are not verified for deck, eventually get verified?",
+      "summary": "Was looking forward to Control resonant and seeing it's not verified was a bummer. I've also got a humble bundle that some of them weren't. submitted by /u/Bobboss75 [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpy1ns/do_games_that_are_not_verified_for_deck/",
+      "published_at": "2026-09-25T14:37:44+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "8bfb9e94a159adea962892757634f22a665ecab91731e9e387bf56473877511d",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "We May Soon Be Able To Turn Our Steam Deck Into A PS Vita",
+      "summary": "submitted by /u/DelusionalDoss [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpxy8y/we_may_soon_be_able_to_turn_our_steam_deck_into_a/",
+      "published_at": "2026-09-25T14:33:58+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "c0cf3d5c1e81af3d9aec6be6b0d981775e9289ecab01aeec9306adedf598d025",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Silent Hill Townfall Steam Deck Performance",
+      "summary": "Hey guys! So, i tested the nem Silent Hill on my Steam Deck and, while the performance is not perfect, i think its really playable! I recommend limiting it to 30 FPS. The FPS itself its okay, the problem is really these stutters, but idk if we can do much about it outside waiting for mods or official improvements. Here are my settings below if you want to try it (idk if this helps alot cause theres not much graphic…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpxwtr/silent_hill_townfall_steam_deck_performance/",
+      "published_at": "2026-09-25T14:32:25+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "a73719cfc1b25b4c7398c6c8d263ddf71d62e4d49cd13ab8724dc832e140ae42",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Control resonant",
+      "summary": "Currently really want to play this game but not sure how it runs Doesn’t seem to run well on a steam deck But seems to run great on a ally X I have a Lenovo legion go 2 Z2 version Will it be okay to play? Happy to play around 30-40FPS but don’t want that stuttering like it does on deck submitted by /u/Difficult_Dig_642 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpxsc3/control_resonant/",
+      "published_at": "2026-09-25T14:27:26+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "4454c4d1afe17d7246067590688e26661f392d2504611d69728be1fd149b5d32",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Battery Replacement Advice",
+      "summary": "Looking for advice regarding an internal bettery replacement. I WOULD get one from ifixit but the normally $80 USD battery is close to $200 CAD for me before tariffs. It's mostly due to shipping and exchange rate issues. Has anyone here had any good or bad experiences with the third-party stram deck batteries from Amazon? I can get them for a lower cost as they are already in Canada and they seem to be almost identi…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpxmfa/battery_replacement_advice/",
+      "published_at": "2026-09-25T14:20:54+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "0dd0fb09a1874dbfc4d2ff757708dec3bcc77e2d8490d5070b6c3ac9a52e740d",
+      "source": "Kacper Lipski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Spotkajmy się w Białymstoku!",
+      "summary": "Już w ten weekend (26-27.09) na stadionie Chorten Arena w Białymstoku odbędą się Targi Technologii. Ja też się na nie wybieram. Wpadajcie, będzie można zobaczyć ciekawe rzeczy, pograć, przybić piątkę i pogadać. Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVE…",
+      "url": "https://www.youtube.com/watch?v=ezGqKXBXZDM",
+      "published_at": "2026-09-25T14:13:41Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/ezGqKXBXZDM/mqdefault.jpg"
+    },
+    {
+      "id": "cb8ddc4938b22cc1b4685b0198edbc07efe46c7618e4bf846d59d4fcfdea7505",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I want to play subnautica 2 on my legion go but its not strong enough is their a way I can upgrade it or play it",
+      "summary": "submitted by /u/Vruuh_360 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpxc1v/i_want_to_play_subnautica_2_on_my_legion_go_but/",
+      "published_at": "2026-09-25T14:08:59+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "d96930056728ce4fa13d7cb1bd915e223463e892c510d4e2cfab9bf92ec87321",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Deep Pause (Quick Resume)",
+      "summary": "Hallo Steam deck gamers 😃 I want to share something with you all that i have working on for quite a while now. I’ve been building a project called DeepPause, it expands on the existing pause games plugin for the decky loader, with the goal to keep the original game session alive and suspend it while reclaiming most of its RAM/GPU-backed (VRAM) memory and moving what needs preserving to NVMe. Current real-game testin…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpx4iv/deep_pause_quick_resume/",
+      "published_at": "2026-09-25T14:00:46+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "3ea569b1fac2106474d8c088abf98b8c73b7ca6a5f71dd867aef623c4df21168",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "New legion go 2 owner, IGPU memory share conflict",
+      "summary": "Okay so i’m waiting for some games to download in the meantime, i got the legion go 2 32gb ram so the issue i’m having is that on legion space and bios it shows that the UMA is 8gb but when i go to amd software it goes back to 0.5gb and i’ve changed it like 5 times now, i’m not sure. what could be the issue even on task manager it shows the Dedicated gpu memory is 512mb please help someone submitted by /u/itzthecobr…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpwvac/new_legion_go_2_owner_igpu_memory_share_conflict/",
+      "published_at": "2026-09-25T13:50:15+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "16460a2de9acebffbdd6753aa6720eca98422fda7ba30126b10347b0163a4c09",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Browsers log my accounts out when changing from Gaming to Desktop mode and viceversa. How can I prevent this?",
+      "summary": "I am able to reproduce the same problem with Firefox, Vivaldi, Brave and Opera, but Edge and Chrome keep them. But I began avoiding these two since they seem bloated on Linux. I wonder how I can fix that, especially on Brave since I don't need to install extension on that one. Thanks in advance. submitted by /u/claudiocorona93 [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpwi96/browsers_log_my_accounts_out_when_changing_from/",
+      "published_at": "2026-09-25T13:34:35+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "afb7de01065e3cbc9594debd48b1bf66540dad98a4100e3600640c1f29578b48",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Those that have a Switch 2 and a Legion Go",
+      "summary": "Have you thought about getting rid of one of them? I rarely use my Switch 2 but I do have 60-70% of the same games in my backlog for both devices. Only reason to keep is exclusives like the new OoT. But I also get into that spiral of \"which device do I play it on\". I almost feel bad for buying the Switch 2 because I never use it. With Go prices on the used market still relatively high, I thought about selling it and…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpwhsx/those_that_have_a_switch_2_and_a_legion_go/",
+      "published_at": "2026-09-25T13:34:04+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true
+    },
+    {
+      "id": "dc114a1534204c5111ea13cf723c434cb34be15b3421aa59657c080ce1425b07",
+      "source": "Kacper Lipski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Cyberpunk 2077 na... smartfonie?! 😮",
+      "summary": "Pewien użytkownik reddita zdołał uruchomić Cyberpunka 2077 na iPhonie 17 Pro Max. Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVEL-KacperLipski ➡️ Obecnie trwa też promocja, w ramach której z kodem \"WIECEJMOCY\" dostaniesz aż 7% rabatu na 5 wybranych modeli.…",
+      "url": "https://www.youtube.com/watch?v=vEtxI6cy2ng",
+      "published_at": "2026-09-25T13:28:12Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/vEtxI6cy2ng/mqdefault.jpg"
+    },
+    {
+      "id": "890a6632e14509c151661ef5dbeb14f0e65497c8e4849d02798c99f5b54ce2f7",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Xbox zmienia wszystko... Teraz już serio.",
+      "summary": "➡️ Sponsorem materiału jest platforma samochodowa. Sprawdź i wymień stary na nowy!: https://vehis.pl/zobacz/michalpisarskiwsnn Film jest fragmentem transmisji na żywo, którą prowadziłem na kanale. Wbijajcie na mojego Twitcha lub oglądajcie tutaj! --------- 💵 Oszczędzaj i kupuj gry i sprzęt taniej z moją stroną https:/…",
+      "url": "https://www.youtube.com/watch?v=2SunozMBZ0Y",
+      "published_at": "2026-09-25T13:18:48Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/2SunozMBZ0Y/mqdefault.jpg"
+    },
+    {
+      "id": "08c626179fc2a154a91470caac5ae1cbe626a97a8603bb080a811301d64a91a4",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hellraiser Revival demo works awesome - excited for full game",
+      "summary": "With Low graphics & FSR enabled this game runs super well !! Excited to see how the full game plays out, I haven’t seen anyone posting about it much on here submitted by /u/esxfnrlclb [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpw0l4/hellraiser_revival_demo_works_awesome_excited_for/",
+      "published_at": "2026-09-25T13:13:03+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "15600c7fca5cbe457ed8d2f39db5c3cfe0efc112cab62d26222b945aa4447706",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "You can properly test talents in the WoW: Forever beta, now",
+      "summary": "You can properly test talents in the WoW: Forever beta, now",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/you-can-properly-test-talents-in-the-wow-forever-beta-now/",
+      "published_at": "2026-09-25T13:12:48+00:00",
+      "summary_pl": "W becie WoW: Forever udostępniono możliwość poprawnego testowania talentów.",
+      "tags": [
+        "WoW",
+        "Gaming",
+        "Beta"
+      ]
+    },
+    {
+      "id": "8bbb713d0e7e75e2e00243baabd9b0e276de261f126499bc6a3d7f22322f9c76",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Hibernado 1.43 with Steamdeck",
+      "summary": "Not sure if anyone is using it, but just installed it from Decky Loader and set it up. Sleep+hibernate is not working with latest SteamOS out of the box, only direct hibernation. To fix this: Go into desktop mode and create the override file in the konsole by pasting: sudo mkdir -p /etc/systemd/sleep.conf.d sudo nano /etc/systemd/sleep.conf.d/steamos-suspend-then-hibernate.conf Then set up sleep by pasting the below…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpvwy6/hibernado_143_with_steamdeck/",
+      "published_at": "2026-09-25T13:08:36+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "2d5fcd00ed90bcad70ffc359bd854077f36f7358e57329fbfa4226f6b2138058",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Does anyone know if Ghost Recon Breakpoint will work fine on steamdeck and with proton makes its work better.",
+      "summary": "I’m trying to download ghost recon breakpoint but it’s show unsupported, but I want to know if I downloaded and lunch it, will the game work or I’m just wasting my time? submitted by /u/Capable-Tooth1605 [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpvs1j/does_anyone_know_if_ghost_recon_breakpoint_will/",
+      "published_at": "2026-09-25T13:02:38+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "5dc0d16c2705f0cc983338018d5a26069a530ccccaeafc17b1436d871789e3c3",
+      "source": "arhn.eu",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Gruniożerca Trilogy fizycznie na PS5 + steelcase! #autopromocja",
+      "summary": "AUTOPROMOCJA fizycznego wydania Gruniożerca Trilogy! Kup w Empiku: https://www.empik.com/gruniozerca-trilogy-take-it-studio,p1795382971,multimedia-p?mpShopId=0 Kup w Kramiku: https://sklep.ar.hn/products/gruniozerca-trilogy-ps5 Materiał przygotował: Arkadiusz \"Archon\" Kamiński 🐸🐸🐸 ᴀʀʜɴ.ᴇᴜ istnieje dzięki Waszemu wspar…",
+      "url": "https://www.youtube.com/watch?v=YyuvlB41jT0",
+      "published_at": "2026-09-25T12:49:01Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/YyuvlB41jT0/mqdefault.jpg"
+    },
+    {
+      "id": "09ac9f07321c4145b6ced02ce5f23b1b5d1ad8b51c7cda766a20b4db6127673d",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion space opens when I start certain games?",
+      "summary": "I’ve already disabled the setting to have it automatically start up in settings, and I can’t find the task to disable it in task scheduler. What else can I do to fix this? submitted by /u/Joseph_Keen_116 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpvg7f/legion_space_opens_when_i_start_certain_games/",
+      "published_at": "2026-09-25T12:47:58+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "162ae28d01c8ffa44ddb8e21d1e4e8959dadc5f65a01a080b219855051a34944",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "What do you currently have installed on your Deck?",
+      "summary": "And what are you actually playing? I have all of these installed, but stuck in a StS2 loop lol. I know there’s a “what are you playing” megathread, but I figured this was a different enough discussion. What games do you have installed vs what are you actually playing? For me, I’ve gotten a ton of these in bundles or discounted in some way, which means I don’t feel the obligation to play right away. But I keep them i…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpvegx/what_do_you_currently_have_installed_on_your_deck/",
+      "published_at": "2026-09-25T12:45:43+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "7011194b314cb4e466367f78fe76048148b575c5cca16297c7a1ec0e77994f06",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Which do you prefer go or go s",
+      "summary": "I found a decent deal for a legion go s 16gb with jaux hub for £200 i just couldnt let that go and so i glad i did , even though i love the sheer performance of the legion go i also love the comfort that that go s has so i kept both. Whats everone elses opinion on there legion devices go or go s ? submitted by /u/SugarDry621 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpv64j/which_do_you_prefer_go_or_go_s/",
+      "published_at": "2026-09-25T12:34:48+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "ca7e5944145a36d8a8d2bd7906d98a8997f420260b984ee7c722d88de4c41b4e",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Anyone know how get Mass Effect Andromeda to play on Steam deck?",
+      "summary": "I've tried a few different protons but it just won't launch for me frustratingly. submitted by /u/Beethovengenius [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpuvte/anyone_know_how_get_mass_effect_andromeda_to_play/",
+      "published_at": "2026-09-25T12:21:10+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "4647607f995f7e95baadea552fdabdcfbb927b402c846768418c699a643f0699",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Cooler Magnético no Legion GO",
+      "summary": "Moro numa região quente no Brasil, e jogando BF6 com 25W, cooler limpo, na TV ele fica nos 85°C, é impossível subir para 30W sem ele desligar por temperatura e ou ele perder muita performance (over-throttling). Gostaria de saber se alguém já usou esses cooler magnético que usam placa de peltier para resfriar ou algum outro tipo de cooler... Não tenho impressora 3D, então ainda uso a placa traseira original. https://…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpumfm/cooler_magnético_no_legion_go/",
+      "published_at": "2026-09-25T12:08:16+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true
+    },
+    {
+      "id": "39fecaf69f36cafe3ad4f9dbba14d16e565fab03d6a12934d31983b54bb9abee",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "War Thunder's Sky Odyssey update brings overhauled Bombers, a new map, and a whistle-stop tour of new military machines.",
+      "summary": "Rain hell from above in the latest free update to the hit combined arms war shooter.",
+      "url": "https://www.pcgamer.com/games/war-thunders-sky-odyssey-update-brings-overhauled-bombers-a-new-map-and-a-whistle-stop-tour-of-new-military-machines/",
+      "published_at": "2026-09-25T12:03:29+00:00",
+      "summary_pl": "Aktualizacja Sky Odyssey do gry War Thunder wprowadza przebudowane bombowce, nową mapę oraz liczne maszyny wojskowe.",
+      "tags": [
+        "War Thunder",
+        "gry",
+        "aktualizacja",
+        "PC Gamer"
+      ]
+    },
+    {
+      "id": "8d9a33b12ca91630e04afff2128f41457ef6cc7384deb36ba2a5b29542fee002",
+      "source": "PC Gamer",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "en",
+      "title": "The PC Gaming Show: Most Wanted returns December 3 with 20 of The Council's most hotly anticipated games",
+      "summary": "We'll have more trailers, world premieres, interviews, and reveals than you can shake a stick at",
+      "url": "https://www.pcgamer.com/gaming-industry/events-conferences/the-pc-gaming-show-most-wanted-returns-december-3-with-20-of-the-councils-most-hotly-anticipated-games/",
+      "published_at": "2026-09-25T12:00:00+00:00",
+      "summary_pl": "Plebiscyt PC Gaming Show: Most Wanted powróci 3 grudnia, prezentując 20 najbardziej wyczekiwanych gier oraz nowe zwiastuny i zapowiedzi.",
+      "tags": [
+        "PC Gaming Show",
+        "gry",
+        "zapowiedzi",
+        "wydarzenia"
+      ]
+    },
+    {
+      "id": "166e2a086ea7eb94065eac60412097923b35a5be0957a2e7a7f452100facbf9a",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "ARC Raiders być może doczeka się trybu PvE. Testy ruszą już niedługo",
+      "summary": "Twórcy ARC Raiders wprowadzą na tydzień tryb PvE, by ocenić, czy może on pojawić się na stałe.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/arc-raiders-byc-moze-doczeka-sie-trybu-pve-testy-rusza-juz-niedlugo/",
+      "published_at": "2026-09-25T12:00:00+00:00"
+    },
+    {
+      "id": "1899ff86d9c14481862883d9a9086df679268f5696c0f3cc4ead3bbc5a2d15b5",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Wow Forever Update",
+      "summary": "So I’ve been playing Beta since launch last week using the betas gamepad option and it’s worked great until today. After it applied the update from yesterday the game will not recognize the steam decks controls. I’ve checked the Steamdeck button layout, clicked on and off on wow gamepad options, restarted everything several times. I launch from battle.net in game mode. Any ideas? submitted by /u/Markusmugen [link] […",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpuegd/wow_forever_update/",
+      "published_at": "2026-09-25T11:57:58+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
     {
       "id": "e6a55486589f094c153d38d6cd713202ddc5336deccb8cddcc0bd264b7eb31fa",
       "source": "PPE",
@@ -13,6 +497,83 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427882/to-byla-najsmutniejsza-smierc-w-final-fantasy-vii-remake-nawet-aktorka-byla-zdruzgotana.html",
       "published_at": "2026-09-25T11:36:00+00:00"
+    },
+    {
+      "id": "f13b1f14b316728fac297a12addbe44bb96d735aa27fc9222c889e98aa13ac27",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Has anyone successfully fixed a torn Power Adapter?",
+      "summary": "My 2nd power adapter finally met the same fate as my first one and isnt under warranty. Both cords were torn at the end as you can see in the picture. I have a soldering kit along with some heat shrink wraps I could use to try to repair it, but I want to seek out a good guide to learn. I know its easier just to buy a new one, but im poor, have the tools, the time, and two broken cords to practice on so it seems sill…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wptmwz/has_anyone_successfully_fixed_a_torn_power_adapter/",
+      "published_at": "2026-09-25T11:17:14+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "9768c87008ddaa6d78a237bcd14cf3e4f3500186d8eaee7946f94d08178e3b07",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Games on ssd won't load",
+      "summary": "Hi guys, so all of a sudden not a single game that is downloaded direct to my deck will load / boot up just takes me back to the game page after a few seconds everytime. I have 1 game saved to a micro sd card and that loads fine, no idea what to do or what changed. Any help is appreciated 👏 thank you submitted by /u/rubbish1107 [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wptj0m/games_on_ssd_wont_load/",
+      "published_at": "2026-09-25T11:11:23+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "062fde9e33306bc1ac21f6b256219213e3709c12a3c1a521dc4ed5c0193010f0",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Jsaux dock broke after 9 months",
+      "summary": "for some reason mouse and keyboard only work if I connect the charger to the USB-C port of the dock, but now that I made the video it doesn't work anymore, HDMI doesn't work anymore and of course USB-C port is broken and is not charging the Steamdeck submitted by /u/Key-Concept-7986 [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wptcpe/jsaux_dock_broke_after_9_months/",
+      "published_at": "2026-09-25T11:01:49+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "5641f608bfb141560035832932e403e465dce761e3983f52a399ed4451a039a9",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "A bug in GTA 3 Definitive Edition Project Mod - Transparent Cars",
+      "summary": "GTA Vice City and San Andreas work well, but somehow GTA 3 has this issue. See, Claude and 8 Ball, and everyone around drives invinsible cars like in SpongeBob. Any solution? submitted by /u/Yang_Tercela [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpsz8l/a_bug_in_gta_3_definitive_edition_project_mod/",
+      "published_at": "2026-09-25T10:41:04+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "7de575a2ad298133e0a4ac4d1a4c6bbd654be546329ce38f5e4160f01694a571",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Kultowy shooter z lat 90. właśnie powrócił. Nightdive Studios prezentuje SiN: Reloaded",
+      "summary": "Na SiN: Reloaded musieliśmy czekać aż trzy lata z powodu opóźnień projektu.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/kultowy-shooter-z-lat-90-wlasnie-powrocil-nightdive-studios-prezentuje-sin-reloaded/",
+      "published_at": "2026-09-25T10:30:00+00:00"
+    },
+    {
+      "id": "0caabe82a47188585782bcfb61ded45f0e61d8b0a892269de451a458d323c6b5",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Traded in base z1 ally for LeGo2",
+      "summary": "So i had a base z1 ally non extreme and i was. originally looking to get the xbox ally x and due to the unavailability of the xbox ally x, the shop i contacted had the legion go 2 32gb ram and z2 extreme chip Once i had arrived at the shop there was a shop right across that had the xbox ally x and man it was super conflicting because i couldn’t decide which is better for me. I ended up going with the legion go 2 bec…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpsq3v/traded_in_base_z1_ally_for_lego2/",
+      "published_at": "2026-09-25T10:25:53+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "3f719c33214f76d36c3281848e25697625cc5edb69b0c135540d65b7f2881fc2",
@@ -42,6 +603,32 @@
       "priority": true
     },
     {
+      "id": "ff1a8d59c55599c7f037b90bf35b8d2234c4c031f07653466b9f423c88aade42",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Wardogs via USB Windows Boot",
+      "summary": "Hey, someone in here booted Windows on USB Stick and played Wardogs on Deck ? I play LoL via Windsows USB Stick but im curios if Wardogs is running on Deck wirh this solution. All i could find was GFN Tests. Thanks submitted by /u/Koeschi666 [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpshky/wardogs_via_usb_windows_boot/",
+      "published_at": "2026-09-25T10:11:52+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "6dc5ed9d4552063613c560d21fa202d9fc70ce25e8ea5b2fa588a83a76a618ad",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Need help! Searching replacement daughter boards for OLED",
+      "summary": "I have a Steam Deck OLED whose daughter boards got water damaged. A technician told me that he repaired the short circuits but the right daughter board is not delivering power to the left one anymore. The current part numbers are: Right board: MODEL: F7G DAF7GTH26DO REV: D Left board: MODEL: F7G DAF7GTH36DO REV: D So i started to search for a replacement daughter board set. All listings on ebay are hella expensive,…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpshhu/need_help_searching_replacement_daughter_boards/",
+      "published_at": "2026-09-25T10:11:42+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "af917d8e13cac6008cbe2f1761da05c2bc001a98569aae30ed63ce53db83a5f9",
       "source": "PPE",
       "source_type": "news",
@@ -52,6 +639,32 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/427879/nowy-silent-hill-przegrywa-z-symulacja-wydana-10-lat-temu-narzekania-graczy-i-slabe-wyniki.html",
       "published_at": "2026-09-25T10:07:00+00:00"
+    },
+    {
+      "id": "7e56331094ce0f87f6b928ead6a2e3814c32e6f85df8e702dcde940f98d87b63",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Is anyone else using a 65W Lenovo charger for their Steam Deck?",
+      "summary": "Hey everyone, I’ve been using my Lenovo 65W Type-C laptop charger to play my Steam Deck while it’s plugged into the wall, but I wanted to check if this is actually safe long-term. I want to make sure: • Is it okay for the battery health to actively game while plugged into a 65W brick? • Does the Deck handle pass-through power properly so it doesn't overheat the battery? Would appreciate any insight from people who u…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpsem7/is_anyone_else_using_a_65w_lenovo_charger_for/",
+      "published_at": "2026-09-25T10:06:59+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "39549ebdf0e2238eb98c65436ce090db1b914c4cbe2e33a073a9096d9084fb7e",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Frustrating \"key stuck\" issue?",
+      "summary": "Hello! I need some help. I'm sure I'm missing some basic key word but searching has gotten me nowhere I'm having an issue where I'm playing a game (Satisfactory) with a controller, and the character well randomly jump, then the game acts like either the up or down key (not sure which) is being clicked repeatedly (but nothing is stuck down). This happens at random times, with two different PS controllers, and two dif…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wps35a/frustrating_key_stuck_issue/",
+      "published_at": "2026-09-25T09:47:49+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "2ba0914eba247037878ae0fd4efec3a8573ae7dcc31786a01258ee888b50a0e7",
@@ -78,6 +691,19 @@
       "published_at": "2026-09-25T09:26:00+00:00"
     },
     {
+      "id": "f92afb38882ae3ec9db7325ad5bd4b839d7deb36a08694580965495690179007",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Fifa + Sunshine and Moonlight",
+      "summary": "Guys, I know its impossible to play EA FC on steam deck directly, so I tested using SteamLink (Remote Play) but its kind of difficult, the connection isnt that good to play. I saw that maybe is possible to play some games using Sunshine and Moonlight to get a better connection, have someone tested this combination to play Fifa? or someone knows any way where is possible to play it using Steam Deck? Thank you!! submi…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wprm0k/fifa_sunshine_and_moonlight/",
+      "published_at": "2026-09-25T09:18:12+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "99fde5d854d62706e0f8d24818c41ec3ada063df91ac7610f4088b0d88ef34a5",
       "source": "CD-Action",
       "source_type": "news",
@@ -88,6 +714,19 @@
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/cd-projekt-red-zdradza-kolejne-szczegoly-o-wiedzminie-4-i-planach-rozwoju-serii-tworcy-mysla-o-remakeu-wiedzmina-2/",
       "published_at": "2026-09-25T09:15:19+00:00"
+    },
+    {
+      "id": "dd59e1b4614fe193dec0ede039feb6b794f5299816b14f2a9f8417817cec3375",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Haptics connector broke while trying to disconnect",
+      "summary": "Hey, recently my Deck fell on the ground, as a result the front shell has been damaged. I bought a new shell, and followed the ifixit instructions, everything went rather smoothly, but the haptics connectors on both the button boards broke. Does anyone know where I can buy these connectors to get them soldered on, or someone has some spare button boards I could buy cheaply? Steam support said it costs 250 euro to fi…",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpr7bt/haptics_connector_broke_while_trying_to_disconnect/",
+      "published_at": "2026-09-25T08:51:44+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "eafcf8c704990bf800488a5ac30585cf9bb1f0fdd02fc17a833f7371c95b963f",
@@ -102,12 +741,38 @@
       "published_at": "2026-09-25T08:30:00+00:00"
     },
     {
+      "id": "b45bf6b24bef8e6f322eac158e19c4346c8dc1a2667fecd0ab6a0b6f40c833ca",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Anyone else a little clumsy with their deck?",
+      "summary": "I've dropped my deck a few times, and though I tend to be so careful, it just happens sometimes. Anyone know what to look out for in terms of typical hardware malfunctions due to drops? I start to attribute every stutter and fps drop to my clumsy handling, and it's been stressing me out a bit. submitted by /u/Minor_Heaven [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpqqc8/anyone_else_a_little_clumsy_with_their_deck/",
+      "published_at": "2026-09-25T08:19:41+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "fe1617398e7319cc0b38403234090d35ef6dedd7729b8b69e1706516d1b845e8",
+      "source": "r/Steamdeck",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Path Of Exile 2: Steam Deck Verified! (But Is It Good?)",
+      "summary": "Path of Exile 2 has officially been confirmed for Steam Deck support! I put together a short video showing exactly how it looks and runs in action. submitted by /u/LX-M [link] [comments]",
+      "url": "https://www.reddit.com/r/SteamDeck/comments/1wpqpqn/path_of_exile_2_steam_deck_verified_but_is_it_good/",
+      "published_at": "2026-09-25T08:18:24+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
       "id": "b10cb167048aa1c15dc5f309985f7869df32f2fff921538655336c97dd299a12",
       "source": "CD-Action",
       "source_type": "news",
       "category": "Gaming",
       "language": "pl",
-      "title": "Gothic trafił na iPhone’a i iPada. Wersji na Androida niestety została olana",
+      "title": "Gothic trafił na iPhone’a i iPada. Wersja na Androida niestety została olana",
       "summary": "Zapowiedziany jakiś czas temu port Gothic 1 Classic pojawił się właśnie w sklepie AppStore.",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/gothic-trafil-na-iphonea-i-ipada-wersji-na-androida-niestety-zostala-olana/",
@@ -123,6 +788,19 @@
       "summary": "I saw few posts like this where deepseek is saying it is claude and today i also saw the same. So is it true they are distilling ? https://preview.redd.it/cnvtfie92mrh1.png?width=1228&format=png&auto=webp&s=073029fd7bc7da4fbec2e5e005cef7b0e4bad195 submitted by /u/EconomyDate [link] [comments]",
       "url": "https://www.reddit.com/r/vibecoding/comments/1wpp35k/why_it_is_happening/",
       "published_at": "2026-09-25T06:33:43+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "0237c78028c09991e90487bd05c9b88b1007e26eea79e3c3b9d9df0376244222",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Lenovo Legion Go S - audio problems",
+      "summary": "I have a Lenovo Legion Go connected to a 4k 120Hz HDR TV using a docking station. It streams from my PC using Moonlight. Moja stacja dokująca to https://amzn.eu/d/08HsiSrL The problem is that the audio cuts out for a few seconds every few seconds. The picture is perfect, no artifacts or stutters.At first glance, it seems to me that there may be a problem with the maximum resolution, when I set the maximum resolution…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wpp0na/lenovo_legion_go_s_audio_problems/",
+      "published_at": "2026-09-25T06:29:23+00:00",
       "matched_keywords": [],
       "priority": false
     },
@@ -1985,6 +2663,18 @@
       "thumbnail_url": "https://i.ytimg.com/vi/JYNCdyELuRE/mqdefault.jpg"
     },
     {
+      "id": "570714a1ef879e8f822f45cc50ffcd8a971d20b2d45874818f3f7676be79138c",
+      "source": "Komputer Świat",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "pl",
+      "title": "Darmowa alternatywa dla Windowsa 11... która zajmuje 1 megabajt. Tak działa MenuetOS",
+      "summary": "Wciąż aktualizowany i rozbudowywany, a do tego ma rozmiar niewiele ponad 1 MB. Choć w teorii nie powinno być to możliwe, twórca MenuetOS udowodnił, że przy",
+      "summary_pl": "",
+      "url": "https://www.komputerswiat.pl/programy-i-aplikacje/systemy-operacyjne/darmowa-alternatywa-dla-windowsa-11-ktora-zajmuje-1-megabajt-tak-dziala-menuetos/dl17g47",
+      "published_at": "2026-09-19T06:00:00+00:00"
+    },
+    {
       "id": "ee5a537eca86440152d644eaf61bfd2b4d16ce8598aa619e8139f75256a9559a",
       "source": "NieAntyFan",
       "source_type": "youtube",
@@ -2015,7 +2705,7 @@
       "category": "YouTube",
       "language": "pl",
       "title": "Co się dzieje z Blizzard Entertainment?",
-      "summary": "Jako fan dokonań Blizzarda czuję, że to już nie to samo. Też tak macie? :| Streamujemy na: https://twitch.tv/cdaction Discord: https://discord.com/invite/TwFpFKumNy Prowadzenie i scenariusz: Krzysztof „Bastian” Freudenberger (http://twitter.com/BastianCDA) Montaż: Mateusz Pietrasiak Montaż: Piotr Rycąbel Montaż: Kacpe…",
+      "summary": "Jako fan dokonań Blizzarda czuję, że to już nie to samo. Też tak macie? :| Streamujemy na: https://twitch.tv/cdaction Discord: https://discord.com/invite/TwFpFKumNy Prowadzenie i scenariusz: Krzysztof „Bastian” Freudenberger (http://twitter.com/BastianCDA) Montaż: Mateusz Pietrasiak",
       "url": "https://www.youtube.com/watch?v=2ayBke7pO7w",
       "published_at": "2026-09-17T20:08:35Z",
       "thumbnail_url": "https://i.ytimg.com/vi/2ayBke7pO7w/mqdefault.jpg"
@@ -2115,8 +2805,8 @@
       "url": "https://www.lowcychin.pl/sony-playstation-5/",
       "published_at": "2026-09-15T12:24:45+00:00",
       "matched_keywords": [
-        "PlayStation",
-        "PS5"
+        "PS5",
+        "PlayStation"
       ],
       "price": "2688zł",
       "active": true
@@ -2714,22 +3404,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/5k-oVli85H4/mqdefault.jpg"
     },
     {
-      "id": "23ef02bf2d32f37780114fd6685e88830d0a6d620553911f0453f27dcd890c47",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Sony PSVITA 2000 PlayStation PSV2000 Slim za $283.39 / ~1099zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/sony-psvita-2000-playstation-psv2000-slim/",
-      "published_at": "2026-07-28T20:27:02+00:00",
-      "matched_keywords": [
-        "PlayStation"
-      ],
-      "price": "1099zł",
-      "active": true
-    },
-    {
       "id": "8f354be95c01095ed0e0f0ac9d620564c668444be4493dd78c06f2595ec2cd94",
       "source": "Ultrox",
       "source_type": "youtube",
@@ -2878,6 +3552,23 @@
       "thumbnail_url": "https://i.ytimg.com/vi/o8cJS6Jj6LA/mqdefault.jpg"
     },
     {
+      "id": "64af816214e5783d311abd3ddb3205333859075f46fd27c533bd9554e8b8b53c",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Playstation 5 Sony PS5 Slim z Polski za $574.95 / ~2089zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-ps5-slim-ali/",
+      "published_at": "2026-05-31T13:46:30+00:00",
+      "matched_keywords": [
+        "PS5",
+        "PlayStation"
+      ],
+      "price": "2089zł",
+      "active": true
+    },
+    {
       "id": "8dfb8f23f206294e7eb89c02d25b236753896d5beab622cd3bd1989d59d0a70d",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -2894,6 +3585,23 @@
       "active": true
     },
     {
+      "id": "6f533782f4f5bddc4831433aa1d626c33038ea97372509eb8464e8ba2db86dc5",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Sony Playstation 5 PS5 DIGITAL SLIM 1TB bez napędu Wysyłka z Polski za $451.95 / ~1709zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/konsola-sony-playstation-5-ps5-digital-slim-1tb-bez-napedu/",
+      "published_at": "2026-03-27T13:35:34+00:00",
+      "matched_keywords": [
+        "PS5",
+        "PlayStation"
+      ],
+      "price": "1709zł",
+      "active": true
+    },
+    {
       "id": "cb56a61cc5bd56a4373c3629ac9e403929eb14525c8220c26f3afc5dde6ef50d",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -2907,6 +3615,54 @@
         "Xbox"
       ],
       "price": "336zł",
+      "active": true
+    },
+    {
+      "id": "5d36a79d356acec28bec475e6a0e5274a7e36c0e16dd2325ef5c5e8e2da8c567",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Obudowa do PS5 za $21.04 / ~78zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/obudowa-do-ps5-ciemna/",
+      "published_at": "2026-03-05T08:06:48+00:00",
+      "matched_keywords": [
+        "PS5"
+      ],
+      "price": "78zł",
+      "active": true
+    },
+    {
+      "id": "d3c1a23ba1664a2583ea0ce1bb01fa5193da30619db23b2ec0ccdef62d0d3e65",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Szara Obudowa do PS5 za $21.04 / ~78zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/szara-obudowa-do-ps5/",
+      "published_at": "2026-03-04T12:06:51+00:00",
+      "matched_keywords": [
+        "PS5"
+      ],
+      "price": "78zł",
+      "active": true
+    },
+    {
+      "id": "0995540847a90a62f0268df9f93681f8bfaf06c5e50dac82ef25688a2f63c1e1",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Obudowa Spider Man Do PS5 za $29.73 / ~110zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/obudowa-spider-man-do-ps5/",
+      "published_at": "2026-03-04T08:06:44+00:00",
+      "matched_keywords": [
+        "PS5"
+      ],
+      "price": "110zł",
       "active": true
     },
     {
@@ -2973,6 +3729,22 @@
         "pad Xbox"
       ],
       "price": "132zł",
+      "active": true
+    },
+    {
+      "id": "21c32fec29d2eabed7ffc47c921b0128638b3a2850211123fac30689f3c3a5a1",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Obudowa do PS5 Pro z lepsza wentylacją za $21.97 / ~81zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/obudowa-do-ps5-pro-z-lepsza-wentylacja/",
+      "published_at": "2025-12-16T13:44:52+00:00",
+      "matched_keywords": [
+        "PS5"
+      ],
+      "price": "81zł",
       "active": true
     },
     {
@@ -3074,38 +3846,6 @@
       "active": true
     },
     {
-      "id": "d4e067b7ded335e5562d348a24b83c0bf7c0d97841bffcd1a80adcc4aa426a88",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "UGREEN CM800 9 in 1 USB C Docking Station za $51.99 / ~194zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/ugreen-cm800-9-in-1-usb-c-docking-station/",
-      "published_at": "2025-06-23T17:27:09+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "194zł",
-      "active": true
-    },
-    {
-      "id": "665f1ef9bd65b8b1971f0d8759439219f5128bb9ac01d1ff615180d71aa29f3b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "VITURE One XR Smart Glasses za $679.99 / ~2598zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/viture-one-xr-smart-glasses/",
-      "published_at": "2025-06-12T12:41:26+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "2598zł",
-      "active": true
-    },
-    {
       "id": "f4c5478749507d9d2b7131c334a9121c97a2b9358fdcb68b4b5849130aca6e10",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -3155,22 +3895,6 @@
       "active": true
     },
     {
-      "id": "de8847c85137db5061d7d80fada4b3506af6a7f276628004ae8df0bea940f7d6",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Okulary AR VITURE Pro XR za $249.00 / ~1041zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/viture-pro-xr/",
-      "published_at": "2024-12-27T14:30:53+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "1041zł",
-      "active": true
-    },
-    {
       "id": "7f055e1a1c67fe74780c521a131d109c86e33c25eea0c256f2f47f9623e150af",
       "source": "ŁowcyChin",
       "source_type": "deal",
@@ -3181,8 +3905,8 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock-2/",
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
-        "Steam Deck",
         "Legion Go",
+        "Steam Deck",
         "ROG Ally"
       ],
       "price": "189zł",
@@ -3232,8 +3956,8 @@
       "url": "https://www.lowcychin.pl/ugreen-9-in-1-type-c-steam-deck-dock/",
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
-        "Steam Deck",
         "Legion Go",
+        "Steam Deck",
         "ROG Ally"
       ],
       "price": "205zł",
@@ -3269,22 +3993,6 @@
         "Xbox"
       ],
       "price": "76zł",
-      "active": true
-    },
-    {
-      "id": "adf97070d013311cab08b9ccece0c4d6b7798f3b01fa551224b253ae0114d11b",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Okulary AR VITURE One XR za $1119.99 / ~4480zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/viture-one-xr/",
-      "published_at": "2024-10-11T08:23:31+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "4480zł",
       "active": true
     },
     {
@@ -3561,22 +4269,6 @@
         "Z1 Extreme"
       ],
       "price": "376zł",
-      "active": true
-    },
-    {
-      "id": "32fcf09588335a8fd524125815ce164520712b5307a6f4559a6f093ab671e836",
-      "source": "ŁowcyChin",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Mixer Blender Biolomix za $96.99 / ~361zł",
-      "summary": "",
-      "url": "https://www.lowcychin.pl/mixer-blender-biolomix/",
-      "published_at": "2020-08-07T11:32:55+00:00",
-      "matched_keywords": [
-        "ROG Ally"
-      ],
-      "price": "361zł",
       "active": true
     },
     {
