@@ -1,31 +1,6 @@
 {
   "games": [
     {
-      "name": "Tom Clancy's Splinter Cell: Chaos Theory",
-      "steam_app_id": 13570,
-      "xbox_play_anywhere": false
-    },
-    {
-      "name": "Rise of the Tomb Raider",
-      "steam_app_id": 391220,
-      "xbox_play_anywhere": false
-    },
-    {
-      "name": "Shadow of the Tomb Raider",
-      "steam_app_id": 750920,
-      "xbox_play_anywhere": false
-    },
-    {
-      "name": "Tom Clancy's The Division",
-      "steam_app_id": 365590,
-      "xbox_play_anywhere": false
-    },
-    {
-      "name": "Tom Clancy's The Division 2",
-      "steam_app_id": 2221490,
-      "xbox_play_anywhere": false
-    },
-    {
       "name": "Death Stranding Director's Cut",
       "steam_app_id": 1850570,
       "xbox_play_anywhere": false
