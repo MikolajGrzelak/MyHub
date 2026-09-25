@@ -3,127 +3,337 @@
     {
       "name": "Tom Clancy's Splinter Cell: Chaos Theory",
       "steam_app_id": 13570,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Rise of the Tomb Raider",
       "steam_app_id": 391220,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Shadow of the Tomb Raider",
       "steam_app_id": 750920,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Tom Clancy's The Division",
       "steam_app_id": 365590,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Tom Clancy's The Division 2",
       "steam_app_id": 2221490,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Death Stranding Director's Cut",
       "steam_app_id": 1850570,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "A Plague Tale: Innocence",
       "steam_app_id": 752590,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "A Plague Tale: Requiem",
       "steam_app_id": 1182900,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Hellblade: Senua's Sacrifice",
       "steam_app_id": 414340,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Senua's Saga: Hellblade II",
       "steam_app_id": 2461850,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Control Ultimate Edition",
       "steam_app_id": 870780,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Stray",
       "steam_app_id": 1332010,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Hi-Fi RUSH",
       "steam_app_id": 1817230,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Psychonauts 2",
       "steam_app_id": 607080,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Little Nightmares",
       "steam_app_id": 424840,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Little Nightmares II",
       "steam_app_id": 860510,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Prince of Persia: The Lost Crown",
       "steam_app_id": 2751000,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Cocoon",
       "steam_app_id": 1497440,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "INSIDE",
       "steam_app_id": 304430,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "LIMBO",
       "steam_app_id": 48000,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "GRIS",
       "steam_app_id": 683320,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Jusant",
       "steam_app_id": 1977170,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "The Pathless",
       "steam_app_id": 1492680,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "Another Crab's Treasure",
       "steam_app_id": 1887840,
-      "platform": "pc"
+      "xbox_play_anywhere": false
     },
     {
       "name": "The Talos Principle 2",
       "steam_app_id": 835960,
-      "platform": "pc"
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Marvel's Spider-Man Remastered",
+      "steam_app_id": 1817070,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Marvel's Spider-Man: Miles Morales",
+      "steam_app_id": 1817190,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Marvel's Spider-Man 2",
+      "steam_app_id": 2651280,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Ghost of Tsushima DIRECTOR'S CUT",
+      "steam_app_id": 2215430,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "God of War",
+      "steam_app_id": 1593500,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "God of War Ragnarök",
+      "steam_app_id": 2322010,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Days Gone",
+      "steam_app_id": 1259420,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Horizon Zero Dawn Remastered",
+      "steam_app_id": 2561580,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Horizon Forbidden West Complete Edition",
+      "steam_app_id": 2420110,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "UNCHARTED: Legacy of Thieves Collection",
+      "steam_app_id": 1659420,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "The Last of Us Part I",
+      "steam_app_id": 1888930,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "The Last of Us Part II Remastered",
+      "steam_app_id": 2531310,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Ratchet & Clank: Rift Apart",
+      "steam_app_id": 1895880,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Sackboy: A Big Adventure",
+      "steam_app_id": 1599660,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "DAVE THE DIVER",
+      "steam_app_id": 1868140,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "DREDGE",
+      "steam_app_id": 1562430,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Hades",
+      "steam_app_id": 1145360,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Hades II",
+      "steam_app_id": 1145350,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Cult of the Lamb",
+      "steam_app_id": 1313140,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "TUNIC",
+      "steam_app_id": 553420,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Death's Door",
+      "steam_app_id": 894020,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Ori and the Will of the Wisps",
+      "steam_app_id": 1057090,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Hollow Knight",
+      "steam_app_id": 367520,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Dead Cells",
+      "steam_app_id": 588650,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Kena: Bridge of Spirits",
+      "steam_app_id": 1954200,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Ori and the Blind Forest: Definitive Edition",
+      "steam_app_id": 387290,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Cuphead",
+      "steam_app_id": 268910,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Crash Bandicoot N. Sane Trilogy",
+      "steam_app_id": 731490,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Spyro Reignited Trilogy",
+      "steam_app_id": 996580,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Crash Bandicoot 4: It's About Time",
+      "steam_app_id": 1378990,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Yakuza 0",
+      "steam_app_id": 638970,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Yakuza: Like a Dragon",
+      "steam_app_id": 1235140,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Like a Dragon: Infinite Wealth",
+      "steam_app_id": 2072450,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Batman: Arkham Knight",
+      "steam_app_id": 208650,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Mad Max",
+      "steam_app_id": 234140,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Middle-earth: Shadow of War",
+      "steam_app_id": 356190,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "STAR WARS Jedi: Fallen Order",
+      "steam_app_id": 1172380,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "STAR WARS Jedi: Survivor",
+      "steam_app_id": 1774580,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "NieR:Automata",
+      "steam_app_id": 524220,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "steam_app_id": 292030,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "Hogwarts Legacy",
+      "steam_app_id": 990080,
+      "xbox_play_anywhere": false
+    },
+    {
+      "name": "It Takes Two",
+      "steam_app_id": 1426210,
+      "xbox_play_anywhere": false
     }
   ]
 }
