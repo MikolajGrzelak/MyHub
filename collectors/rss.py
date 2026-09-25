@@ -560,13 +560,10 @@ def read_game_watchlist() -> list[dict]:
             steam_app_id = int(raw.get("steam_app_id"))
         except (TypeError, ValueError):
             continue
-        platform = str(raw.get("platform") or "pc").strip().lower()
-        if platform not in {"pc", "xbox_play_anywhere"}:
-            continue
         games.append({
             "steam_app_id": steam_app_id,
             "name": clean_text(str(raw.get("name") or ""), 180),
-            "platform": platform,
+            "xbox_play_anywhere": bool(raw.get("xbox_play_anywhere", False)),
             "target_price": raw.get("target_price"),
         })
     return games
@@ -653,8 +650,9 @@ def collect_ggdeals(games: list[dict]) -> list[dict]:
             historical_values = [v for v in (hist_retail, hist_keyshop) if v is not None]
             historical = min(historical_values) if historical_values else None
 
-            platform = game["platform"]
-            platform_label = "Xbox + PC · Play Anywhere" if platform == "xbox_play_anywhere" else "PC"
+            xbox_play_anywhere = game.get("xbox_play_anywhere", False)
+            platform = "xbox_play_anywhere" if xbox_play_anywhere else "pc"
+            platform_label = "Xbox + PC · Play Anywhere" if xbox_play_anywhere else "PC · Legion Go"
 
             summary_parts = []
             if retail is not None:
