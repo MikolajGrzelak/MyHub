@@ -112,8 +112,15 @@
             <div class="deal-info">
               {% if item.price %}<span class="deal-price">{{ item.price }}</span>{% endif %}
               {% if item.temperature %}<span class="deal-temp">{{ item.temperature }}°</span>{% endif %}
-              <span class="deal-active">aktywna</span>
+              {% if item.platform_label %}<span class="deal-active">{{ item.platform_label }}</span>{% else %}<span class="deal-active">aktywna</span>{% endif %}
             </div>
+            {% if item.source == 'GG.deals' %}
+              <div class="match">
+                {% if item.retail_price %}Oficjalne: {{ item.retail_price }}{% endif %}
+                {% if item.keyshop_price %}{% if item.retail_price %} · {% endif %}Keyshop: {{ item.keyshop_price }}{% endif %}
+                {% if item.historical_price %} · Min.: {{ item.historical_price }}{% endif %}
+              </div>
+            {% endif %}
           {% endif %}
 
           {% if item.language == 'pl' %}
