@@ -38,6 +38,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GGDEALS_API_KEY: ${{ secrets.GGDEALS_API_KEY }}
           MYHUB_SUMMARY_MODEL: gemini-3.5-flash-lite
           MYHUB_MAX_AI_ITEMS: "15"
         run: python collectors/rss.py
@@ -88,4 +89,4 @@ jobs:
         run: |
           curl --fail --silent --show-error "https://myhub.pythonanywhere.com/health"
 
-# deploy-touch: pepper-active-verification-v2
+# deploy-touch: ggdeals-watchlist-v1
