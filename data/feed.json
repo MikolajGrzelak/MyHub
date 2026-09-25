@@ -1,7 +1,240 @@
 {
-  "updated_at": "2026-09-25T05:03:25.316401+00:00",
-  "count": 248,
+  "updated_at": "2026-09-25T09:03:23.209425+00:00",
+  "count": 266,
   "items": [
+    {
+      "id": "3f719c33214f76d36c3281848e25697625cc5edb69b0c135540d65b7f2881fc2",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Cicha aktualizacja Xboxów. Sprawdź nowości systemowe na Xbox Series X|S i Xbox One XSX|S PC XONE",
+      "summary": "Microsoft bez zbędnego rozgłosu udostępnił najnowszą, ogólnodostępną wersję systemu operacyjnego dla swoich konsol. Wrześniowa aktualizacja trafiła zarówno na urządzenia obecnej generacji - Xbox Series X oraz Series S - jak i na wysłużon�...",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427875/cicha-aktualizacja-xboxow-sprawdz-nowosci-systemowe-na-xbox-series-x-s-i-xbox-one.html",
+      "published_at": "2026-09-25T10:22:00+00:00"
+    },
+    {
+      "id": "af917d8e13cac6008cbe2f1761da05c2bc001a98569aae30ed63ce53db83a5f9",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Nowy Silent Hill przegrywa z symulacją wydaną 10 lat temu. Narzekania graczy i słabe wyniki PS5 PC",
+      "summary": "Silent Hill: Townfall : Townfall trafiło już, po okresie wczesnego dostępu, do szerokiej dystrybucji. Czas zatem przyjrzeć się, jak idzie temu survival horrorowi.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427879/nowy-silent-hill-przegrywa-z-symulacja-wydana-10-lat-temu-narzekania-graczy-i-slabe-wyniki.html",
+      "published_at": "2026-09-25T10:07:00+00:00"
+    },
+    {
+      "id": "3de574da9da99647e63123859ccf61e92388ad92bccb49da9f7a4ee8cbbc3dad",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gry (plotka) 1807V 100 Gry (plotka) 1807V 100 PS6 dwa razy mocniejsze od PS5. Premiera nowej generacji w listopadzie 2027 roku PS5 XSX|S PS6",
+      "summary": "W kuluarach branży sprzętowej zawrzało po najnowszych doniesieniach znanego i cenionego informatora KeplerL2. Zgodnie z jego ustaleniami, układ napędzający PlayStation 6 osiągnął już kluczowy etap projektowy określany jako „tape-out”.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427877/przenosne-ps6-dwa-razy-mocniejsze-od-ps5-premiera-nowej-generacji-w-listopadzie-2027-roku.html",
+      "published_at": "2026-09-25T09:26:00+00:00"
+    },
+    {
+      "id": "43f73d25f3dd496b061a772a0d8165f4b3b2d57118f1b7922af1a516178a516b",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Lego Batman: Legacy of the Dark Knight– Nintendo Switch 2",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/lego-batman-legacy-of-the-dark-knight-nintendo-switch-2-1357039",
+      "published_at": "2026-09-25T08:45:34+00:00",
+      "matched_keywords": [
+        "Nintendo Switch"
+      ],
+      "price": "224,99 zł",
+      "old_price": "249,99 zł",
+      "temperature": "63",
+      "active": true,
+      "merchant": "PerfectBlue",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/3Qe32/1357039_1/re/600x600/qt/70/1357039_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "b376ad31cc5574e03381a0a6d8fa18ec29147d54bcac33b3cbe0082e3b87758d",
+      "source": "Pepper",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Pad PS5 SONY DualSense Kontroler Cobalt Blue II w opisie Volcanic Red II darmowa dostawa",
+      "summary": "",
+      "url": "https://www.pepper.pl/promocje/pad-ps5-sony-dualsense-kontroler-cobalt-blue-ii-w-opisie-volcanic-red-ii-darmowa-dostawa-1357037",
+      "published_at": "2026-09-25T08:44:41+00:00",
+      "matched_keywords": [
+        "PS5"
+      ],
+      "price": "279 zł",
+      "old_price": "",
+      "temperature": "19",
+      "active": true,
+      "merchant": "Neonet",
+      "thumbnail_url": "https://static.pepper.pl/threads/raw/CTzjx/1357037_1/re/600x600/qt/70/1357037_1.jpg",
+      "price_verified": true,
+      "status_verified": true
+    },
+    {
+      "id": "eafcf8c704990bf800488a5ac30585cf9bb1f0fdd02fc17a833f7371c95b963f",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Call of Duty w Xbox Game Pass! Gracze mogą sprawdzić jedną z najlepiej ocenianych odsłon ostatnich lat XSX|S PC",
+      "summary": "Tegoroczne Call of Duty: Modern Warfare 4 nie zadebiutuje w Xbox Game Pass, ale Microsoft nie zapomina o fanach strzelania. Abonenci mogą od dzisiaj sprawdzić starszą i bardzo dobrze przyjętą odsłonę serii.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/427832/call-of-duty-w-xbox-game-pass-gracze-moga-sprawdzic-jedna-z-najlepiej-ocenianych-odslon-ostatnich-lat.html",
+      "published_at": "2026-09-25T08:30:00+00:00"
+    },
+    {
+      "id": "b10cb167048aa1c15dc5f309985f7869df32f2fff921538655336c97dd299a12",
+      "source": "CD-Action",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Gothic trafił na iPhone’a i iPada. Wersji na Androida niestety została olana",
+      "summary": "Zapowiedziany jakiś czas temu port Gothic 1 Classic pojawił się właśnie w sklepie AppStore.",
+      "summary_pl": "",
+      "url": "https://cdaction.pl/newsy/gothic-trafil-na-iphonea-i-ipada-wersji-na-androida-niestety-zostala-olana/",
+      "published_at": "2026-09-25T07:43:43+00:00"
+    },
+    {
+      "id": "9d70bc2fb9b932c70e2db0276d3c78d372cfb0099ae4da892d78f4a016d4bd1a",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "why it is happening ?",
+      "summary": "I saw few posts like this where deepseek is saying it is claude and today i also saw the same. So is it true they are distilling ? https://preview.redd.it/cnvtfie92mrh1.png?width=1228&format=png&auto=webp&s=073029fd7bc7da4fbec2e5e005cef7b0e4bad195 submitted by /u/EconomyDate [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpp35k/why_it_is_happening/",
+      "published_at": "2026-09-25T06:33:43+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "3a2a433717e539f3bfd7c4211d27aa19df1319bb4e2777ea5ba6df718922ea35",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Vibe coding made software incredibly fast to create. Perslis is about making that software understand and enforce what must be true.",
+      "summary": "Models like Claude, GPT, and Gemini are great at generating code, reasoning through problems, and rapidly assembling applications. But generated software still needs structure underneath it—state, rules, constraints, verification, and deterministic behavior where guessing isn't acceptable. That's where Perslis incorporates symbolic AI . Instead of asking a language model to make every decision, Perslis can represent…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpojod/vibe_coding_made_software_incredibly_fast_to/",
+      "published_at": "2026-09-25T06:01:15+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "6f84dcd02bdab75cb2d2449f6bfc8311a29cc0b0278ef4ff8002bf4f81524e20",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Ten smartwatch ma prawdziwy ciśnieniomierz",
+      "summary": "Huawei Watch D3 to smartwatch wyposażony w ciśnieniomierz z certyfikatem medycznym. Poza tym wygląda i działa jak nowoczesny inteligentny zegarek Huaweia. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=influencer&utm_medium=youtube&utm_campaign=Kana…",
+      "url": "https://www.youtube.com/watch?v=YnReMv_Fr08",
+      "published_at": "2026-09-25T05:27:51Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/YnReMv_Fr08/mqdefault.jpg"
+    },
+    {
+      "id": "882e6761545ea0212944726f27616400eeaa80378e94c2247e7a4f382783bdc2",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "This is horrible!!AI is awesome",
+      "summary": "submitted by /u/a113rick [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpnzkh/this_is_horribleai_is_awesome/",
+      "published_at": "2026-09-25T05:27:28+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "aac039848f222a2792981f651a575c6210bac2b8499f5bb284cf3c3789e7a61d",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Request: Show us all what you've been building with . (Most upvoted project gets a week of free promotion on the sub).",
+      "summary": "/Codex has it. Better than the random people on this sub asking \"show what you've built\" when they are quite obviously advertising a site or service. Mods could decide winner! submitted by /u/jayseattle [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpnknf/request_show_us_all_what_youve_been_building_with/",
+      "published_at": "2026-09-25T05:03:30+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "7e7df2ab195b7295c1db0ba50e98ac5c3124b82970ac282563d2cabf52044490",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Why aren’t more vibe coders building their own self-hosted platform instead of depending on Base44/Lovable/etc?",
+      "summary": "I’ve been thinking about this a lot lately. A lot of us in the vibe coding / AI app builder space are using platforms like Base44, Lovable, and others because they make it insanely fast to build. And to be clear, I get the appeal. Speed matters. But the more I’ve worked with these platforms, the more I keep coming back to the same issues: I don't have full control I don't own the infastructure I can't export and go…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpn6e0/why_arent_more_vibe_coders_building_their_own/",
+      "published_at": "2026-09-25T04:41:28+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "a5dfa556ce17f4d2d4b82060b4ca14a0d312326959b2c82aec74d924ba50195c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Fable + Three.js + 3D AI — It Works and Saves a Ton of Time",
+      "summary": "I’m already a few days into building my own dice-based roguelike and right now I’m mostly focused on the overall feel — the core gameplay loop, micro-interactions, atmosphere, and all those small details that make an indie project start to feel alive. What’s honestly surprising me the most is how strong this workflow already feels. I’m pretty sure I’m still using maybe 1% of what this whole AI-assisted setup can rea…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpmg57/fable_threejs_3d_ai_it_works_and_saves_a_ton_of/",
+      "published_at": "2026-09-25T04:01:51+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "cbac5c5df82ada2581e904052e9901b85940e31ff278146d7ece09d26701c73c",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "vibe server admin",
+      "summary": "anyone else use their coding agents to manage something like a game server? a while back i set up a solo wow server with 1 prompt. then it was a 2004 runescape server. all the downloads, config, database work, startup and shutdown, and even development of the server can be done through the language interface as an all in one package have you done something similar? how'd it go? submitted by /u/Boring-Leadership687 […",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wplmt8/vibe_server_admin/",
+      "published_at": "2026-09-25T03:19:37+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "ce9c30ad3d16a2f5a31fced3859e29bd08fe3ce6590c3a4e5ae053e8571f5402",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Use less tokens as well",
+      "summary": "submitted by /u/Goku_Nuko [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpl9vi/use_less_tokens_as_well/",
+      "published_at": "2026-09-25T03:00:59+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
+    {
+      "id": "0838d1d73a8812da35597930c621c5c8606dff95109d37f8f7960d1330b7736e",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "GrokBot is lovely but hate how it’s only paid",
+      "summary": "So I loved the concept for GrokBot, even got a free trial in and tried it out. Loved how the bots could delegate tasks to each other, surge the web, etc…. But one thing I hated was how you HAD to pay, just like cursor is basically. Great harness gated behind a paywall. So I decided to make something truly free! I started off building a similar system to GrokBot with delegations, identités by name, and even those coo…",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wpjmxi/grokbot_is_lovely_but_hate_how_its_only_paid/",
+      "published_at": "2026-09-25T01:38:55+00:00",
+      "matched_keywords": [],
+      "priority": false
+    },
     {
       "id": "3b28387f2bf865d140dbf599e6f7e8b2041f232cdf2783843aca3c8712f11add",
       "source": "r/LegionGo",
@@ -31,6 +264,19 @@
         "symulator farmy",
         "pc gamer"
       ]
+    },
+    {
+      "id": "6ce7f8170b9eb5e468213354caee044ef0fb7274e565434952e242eeecd5f234",
+      "source": "r/Vibecoding",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Deadass this is how i feel creating everything i want with claude",
+      "summary": "submitted by /u/sussexxxx [link] [comments]",
+      "url": "https://www.reddit.com/r/vibecoding/comments/1wphn8p/deadass_this_is_how_i_feel_creating_everything_i/",
+      "published_at": "2026-09-25T00:01:17+00:00",
+      "matched_keywords": [],
+      "priority": false
     },
     {
       "id": "a5cec9f07c5bc347b658b4717e2c4476ef5fc2b7237ae51403e8dd9334c2f8c2",
@@ -849,7 +1095,7 @@
       "source_type": "youtube",
       "category": "YouTube",
       "language": "pl",
-      "title": "AirPods 5: po prostu B-R-A-W-O! | RECENZJA",
+      "title": "AirPods 5: Z-A-S-K-O-C-Z-E-N-I-E roku | RECENZJA",
       "summary": "➡️ Etui Native Union dostępne tutaj: https://pancernik.eu/native-union ➡️ AirPods 5: https://ktr.fan/airpods5_nieantyfan ➡️ AirPods Pro 3: https://ktr.fan/airpodspro3_nieantyfan ➡️ 20% zniżki na produkty u Cyrulików: https://cyrulicy.pl/ ➡️ 20% zniżki na produkty Soppo: https://soppocosmetics.com/ ✅ KOD ZNIŻKOWY: niea…",
       "url": "https://www.youtube.com/watch?v=g1ZAvR2woFQ",
       "published_at": "2026-09-24T13:00:02Z",
@@ -2929,8 +3175,8 @@
       "published_at": "2024-12-11T12:18:54+00:00",
       "matched_keywords": [
         "ROG Ally",
-        "Steam Deck",
-        "Legion Go"
+        "Legion Go",
+        "Steam Deck"
       ],
       "price": "189zł",
       "active": true
@@ -2980,8 +3226,8 @@
       "published_at": "2024-11-08T11:20:45+00:00",
       "matched_keywords": [
         "ROG Ally",
-        "Steam Deck",
-        "Legion Go"
+        "Legion Go",
+        "Steam Deck"
       ],
       "price": "205zł",
       "active": true
