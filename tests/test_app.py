@@ -115,6 +115,25 @@ class AppTests(unittest.TestCase):
         self.assertEqual(result["items"], [])
         self.assertFalse(result["has_more"])
 
+    def test_deals_only_include_verified_current_targets_or_historical_lows(self):
+        self.write([
+            item(1, source_type="deal", active=True, price_verified=True, price="10,00 zł", historical_price="10,00 zł"),
+            item(2, source_type="deal", active=True, price_verified=True, current_price=20, target_price=25),
+            item(3, source_type="deal", active=True, price_verified=True, price="30 zł", historical_price="10 zł", matched_keywords=["Legion"]),
+            item(4, source_type="deal", active=True, price="10 zł", priority=True),
+            item(5, source_type="deal", active=False, price_verified=True, current_price=0, historical_low=0),
+            item(6, source_type="deal", active=True, price_verified=True, price="0,00 zł", historical_price="0,00 zł"),
+        ])
+        result = self.client.get('/api/feed?section=deal').json
+        self.assertEqual({i['id'] for i in result['items']}, {'1', '2', '6'})
+        self.assertEqual(self.client.get('/api/feed').json['count'], 5)
+
+    def test_invalid_prices_never_qualify_and_minimum_is_rechecked(self):
+        for price in ['nan', 'inf', -1, True, '20 zł zamiast 10 zł']:
+            self.assertIsNone(web.price_number(price))
+        self.assertFalse(web.deal_signals({'active': True, 'price_verified': True,
+                         'current_price': 15, 'historical_low': 10, 'is_historical_low': True})['deal_qualified'])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -60,6 +60,8 @@ test("mobile layout, search, filters and progressively loading the whole feed", 
   ).toBe(true);
   await page.getByRole("button", { name: "Pokaż więcej", exact: true }).click();
   await expect(page.locator(".card")).toHaveCount(72);
+  await expect(page.getByRole("searchbox")).toBeHidden();
+  await page.locator(".search-panel summary").click();
   await page.getByRole("searchbox").fill("Legion Go");
   await page.getByRole("button", { name: "Wyszukaj", exact: true }).click();
   await expect(page.locator(".active-filters")).toContainText("Legion Go");

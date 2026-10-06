@@ -1,6 +1,8 @@
 """Read-only web app; collection runs separately in GitHub Actions."""
 import hashlib
 import json
+import math
+import re
 import threading
 import unicodedata
 from datetime import datetime, timezone
@@ -12,7 +14,7 @@ from flask import Flask, jsonify, render_template, request, send_from_directory,
 app = Flask(__name__)
 BASE_DIR = Path(__file__).resolve().parent
 FEED_PATH = BASE_DIR / "data" / "feed.json"
-APP_VERSION = "2026.10.06.1"
+APP_VERSION = "2026.10.06.2"
 PAGE_SIZE = 36
 SECTIONS = {"news": "News", "reddit": "Reddit", "youtube": "YouTube", "deal": "Okazje"}
 _feed_lock = threading.Lock()
@@ -37,6 +39,35 @@ def timestamp(value):
         return 0
 
 
+def price_number(value):
+    """Accept numbers or our exact PLN display format, never an arbitrary text price."""
+    if isinstance(value, bool) or value is None:
+        return None
+    if isinstance(value, str):
+        value = value.strip()
+        if not re.fullmatch(r"\d+(?:[.,]\d{1,2})?(?: zł)?", value):
+            return None
+        value = value.removesuffix(" zł").replace(",", ".")
+    try:
+        number = float(value)
+        return number if math.isfinite(number) and number >= 0 else None
+    except (TypeError, ValueError):
+        return None
+
+
+def deal_signals(item):
+    current = price_number(item.get("current_price", item.get("price")))
+    historical = price_number(item.get("historical_low", item.get("historical_price")))
+    target = price_number(item.get("target_price"))
+    verified = item.get("active") is True and item.get("price_verified") is True and current is not None
+    low = bool(verified and historical is not None and current <= historical + 0.001)
+    # Legacy GG entries used priority for both the target and the historical low.
+    budget = bool(verified and ((target is not None and current <= target) or
+                  (target is None and item.get("priority") is True and not low)))
+    return {"current_price": current, "historical_low": historical,
+            "within_target": budget, "is_historical_low": low, "deal_qualified": low or budget}
+
+
 def normalize_item(raw):
     if not isinstance(raw, dict) or not raw.get("title") or not safe_url(raw.get("url")):
         return None
@@ -54,6 +85,8 @@ def normalize_item(raw):
         item[key] = [str(v) for v in values[:8]] if isinstance(values, list) else []
     if item["source_type"] == "reddit":
         item["summary_pl"] = ""
+    if item["source_type"] == "deal":
+        item.update(deal_signals(item))
     return item
 
 
@@ -107,6 +140,8 @@ def query_context():
         items = [i for i in items if i.get("priority") or i["matched_keywords"]]
     elif section:
         items = [i for i in items if i["source_type"] == section]
+    if section == "deal":
+        items = [i for i in items if i.get("deal_qualified")]
     if category:
         items = [i for i in items if i["category"].casefold() == category.casefold()]
     if language:

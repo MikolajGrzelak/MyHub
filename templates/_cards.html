@@ -7,7 +7,9 @@
   <div class="card-content">
     <div class="meta"><span class="source-line"><span class="source-icon">{{ icon(item.source_type) }}</span><span class="source-name">{{ item.source }}</span></span><span class="lang-pill">{{ 'PL' if item.language == 'pl' else 'EN' }}</span></div>
     <h2><a class="card-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h2>
-    {% if item.matched_keywords %}<div class="match">{{ icon('spark') }} {{ item.matched_keywords|join(' · ') }}</div>{% elif item.priority %}<div class="match">{{ icon('spark') }} Cena w Twoim zasięgu</div>{% endif %}
+    {% if item.matched_keywords %}<div class="match">{{ icon('spark') }} {{ item.matched_keywords|join(' · ') }}</div>{% endif %}
+    {% if item.within_target %}<div class="match">{{ icon('spark') }} Cena w Twoim zasięgu</div>{% endif %}
+    {% if item.is_historical_low %}<div class="match">{{ icon('check') }} Historyczne minimum · dostępne teraz</div>{% endif %}
     {% if item.source_type == 'deal' %}
     <div class="deal-info">
       {% if item.price %}<strong class="deal-price">{{ item.price }}</strong>{% endif %}

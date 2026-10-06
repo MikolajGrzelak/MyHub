@@ -292,6 +292,18 @@ h1 {
 .quick-controls {
   margin-bottom: 24px;
 }
+.search-panel > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  min-height: 44px;
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+}
+.search-panel > summary::-webkit-details-marker { display: none; }
+.search-panel[open] { margin-bottom: 12px; }
 .search-form {
   display: flex;
   align-items: center;

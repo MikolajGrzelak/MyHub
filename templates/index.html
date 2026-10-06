@@ -32,7 +32,7 @@
       <section class="intro" aria-labelledby="pageTitle">
         <p class="eyebrow">TECH. GAMING. TWOJE TEMATY.</p>
         <h1 id="pageTitle">{{ 'Zapisane na później' if view == 'saved' else section_title }}<span class="title-dot">.</span></h1>
-        <p class="intro-description">{% if view == 'saved' %}Dobre treści zasługują na drugą chwilę.{% elif section == 'reddit' %}Rozmowy z Twoich społeczności. W oryginale.{% elif section == 'youtube' %}Nowe materiały z kanałów, które obserwujesz.{% elif section == 'deal' %}Obserwowane gry i sprzęt. Ceny z konkretnych źródeł.{% elif section == 'priority' %}Treści dopasowane do Twoich słów kluczowych i cen docelowych.{% else %}Mniej szumu. Więcej rzeczy, które Cię interesują.{% endif %}</p>
+        <p class="intro-description">{% if view == 'saved' %}Dobre treści zasługują na drugą chwilę.{% elif section == 'reddit' %}Rozmowy z Twoich społeczności. W oryginale.{% elif section == 'youtube' %}Nowe materiały z kanałów, które obserwujesz.{% elif section == 'deal' %}Tylko ceny w Twoim zasięgu i historyczne minima dostępne teraz.{% elif section == 'priority' %}Treści dopasowane do Twoich słów kluczowych i cen docelowych.{% else %}Mniej szumu. Więcej rzeczy, które Cię interesują.{% endif %}</p>
         <div class="feed-status"><span class="status-dot{% if feed_error %} warning{% endif %}" id="statusDot"></span><span id="connectionStatus">{{ 'Ostatnia poprawna kopia danych' if feed_error else 'Ostatnie zebranie' }}</span>{% if updated_at %}<time id="updatedAt" data-date="{{ updated_at }}" datetime="{{ updated_at }}"></time>{% endif %}<button class="refresh-button" id="refreshButton" type="button" aria-label="Odśwież feed">{{ icon('refresh') }}</button></div>
       </section>
 
@@ -44,10 +44,13 @@
       {% endif %}
 
       <section class="quick-controls" aria-label="Wyszukiwanie i filtry">
+        <details class="search-panel"{% if query %} open{% endif %}>
+        <summary>{{ icon('search') }} Szukaj{% if query %}<span class="filter-dot"></span>{% endif %}</summary>
         <form class="search-form" method="get" role="search">
           {% for key, value in [('section',section),('lang',language),('source',source),('category',category),('view',view if view == 'saved' else ''),('sort',sort)] %}{% if value %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
           {{ icon('search') }}<input type="search" name="q" value="{{ query }}" maxlength="200" placeholder="Szukaj tematu, gry, źródła…" aria-label="Szukaj w feedzie" autocomplete="off"><button type="submit" aria-label="Wyszukaj">{{ icon('chevron') }}</button>
         </form>
+        </details>
         <div class="control-row">
           <div class="segmented" aria-label="Język treści">{% for code, label in [('', 'Wszystkie'), ('pl','PL'), ('en','EN')] %}<a class="{% if language == code %}active{% endif %}" href="{{ filter_url(lang=code) }}"{% if language == code %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}</div>
           <details class="filter-panel" {% if category or source or sort != 'newest' %}open{% endif %}>
