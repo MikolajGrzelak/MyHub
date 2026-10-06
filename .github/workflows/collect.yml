@@ -32,7 +32,10 @@ jobs:
           cache-dependency-path: collector-requirements.txt
 
       - name: Install collector dependencies
-        run: pip install -r collector-requirements.txt
+        run: pip install -r requirements.txt -r collector-requirements.txt
+
+      - name: Test application and collector contracts
+        run: python -m unittest discover -s tests -v
 
       - name: Collect and enrich feeds
         env:
@@ -72,11 +75,9 @@ jobs:
             curl --fail --silent --show-error --retry 4 --retry-delay 5 --retry-all-errors               -X POST               -H "Authorization: Token $PA_TOKEN"               -F "content=@$src"               "https://www.pythonanywhere.com/api/v0/user/MyHub/files/path/home/MyHub/MyHub/$dst"
           }
 
-          upload "templates/index.html" "templates/index.html"
-          upload "static/css/app.css" "static/css/app.css"
-          upload "static/manifest.json" "static/manifest.json"
-          upload "static/service-worker.js" "static/service-worker.js"
-          upload "static/icon.svg" "static/icon.svg"
+          while IFS= read -r -d '' path; do
+            upload "$path" "$path"
+          done < <(find templates static -type f -print0)
           upload "app.py" "app.py"
 
       - name: Reload PythonAnywhere web app
@@ -88,5 +89,7 @@ jobs:
       - name: Verify PythonAnywhere web app is reachable
         run: |
           curl --fail --silent --show-error --retry 4 --retry-delay 5 --retry-all-errors "https://myhub.pythonanywhere.com/health"
+          curl --fail --silent --show-error --retry 4 --retry-delay 5 --retry-all-errors "https://myhub.pythonanywhere.com/service-worker.js" -o /dev/null
+          curl --fail --silent --show-error --retry 4 --retry-delay 5 --retry-all-errors "https://myhub.pythonanywhere.com/static/js/app.js" -o /dev/null
 
 # deploy-touch: ggdeals-watchlist-v2

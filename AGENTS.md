@@ -29,7 +29,11 @@ Ten plik jest stałym kontekstem dla kolejnych sesji pracy nad MyHub. Przed wpro
 
 - Flask: `app.py`.
 - UI: `templates/index.html`, `static/css/app.css`.
+- Karty: `templates/_cards.html`; ikony UI: `templates/_icons.html`; interakcje: `static/js/app.js`; preferencje: `static/js/preferences.js`.
 - PWA: `static/manifest.json`, `static/service-worker.js`.
+- Service worker jest serwowany przez Flask jako `/service-worker.js` ze scope `/`. Podbijaj zgodnie `APP_VERSION` w `app.py` i `VERSION` w workerze. Nie wracaj do rejestracji pod `/static/`.
+- Zakładki i przeczytane wpisy są lokalne na urządzeniu; zapisane ceny są kopią z momentu zapisu. `/api/feed` służy do doładowania stronicowanych wyników.
+- Testy: `python -m unittest discover -s tests -v` oraz `npm test` (po `npm ci` i instalacji przeglądarek Playwright). Workflow `check.yml` sprawdza PR; collector także uruchamia testy Python przed deployem.
 - Collector: przede wszystkim `collectors/rss.py`.
 - Źródła/konfiguracja feedów: `feeds.py`.
 - Dane: `data/feed.json`.
