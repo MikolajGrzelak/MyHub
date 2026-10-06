@@ -1,19 +1,7 @@
 {
-  "updated_at": "2026-10-06T07:37:19.049790+00:00",
-  "count": 361,
+  "updated_at": "2026-10-06T09:21:35.844573+00:00",
+  "count": 450,
   "items": [
-    {
-      "id": "6bae31c3103c7355213465a2313f829b34cf87e1b2e57c2f6f1fb56b06f9840e",
-      "source": "PPE",
-      "source_type": "news",
-      "category": "Gaming",
-      "language": "pl",
-      "title": "Nowa gra Marvela wyciekła! Poznajcie COMET - zapowiedź już za moment PS5 XSX|S PC",
-      "summary": "Miłośnicy superbohaterskich produkcji doczekali się kolejnego głośnego przecieku, który rzuca zupełnie nowe światło na nadchodzące plany komiksowego giganta.",
-      "summary_pl": "",
-      "url": "https://www.ppe.pl/news/429092/nowa-gra-marvela-wyciekla-poznajcie-comet-zapowiedz-juz-za-moment.html",
-      "published_at": "2026-10-06T08:55:00+00:00"
-    },
     {
       "id": "dda5505cb4c15faa416b119aeca561612a9ae8c4295f742cdc2f577ed9e758b8",
       "source": "GG.deals",
@@ -21,21 +9,317 @@
       "category": "Okazje",
       "language": "pl",
       "title": "DEATH STRANDING DIRECTOR'S CUT",
-      "summary": "Oficjalne sklepy: 33,01 zł · Keyshopy: 27,30 zł · Historyczne minimum: 0,00 zł",
+      "summary": "Oficjalne sklepy: 33,01 zł · Keyshopy: 26,16 zł · Historyczne minimum: 0,00 zł",
       "url": "https://gg.deals/game/death-stranding-directors-cut/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
       "matched_keywords": [],
-      "price": "27,30 zł",
+      "price": "26,16 zł",
       "price_kind": "keyshop",
       "retail_price": "33,01 zł",
-      "keyshop_price": "27,30 zł",
+      "keyshop_price": "26,16 zł",
       "historical_price": "0,00 zł",
       "platform": "pc",
       "platform_label": "PC · Legion Go",
       "steam_app_id": 1850570,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "f1f80863da7e5a81060dfbc007fd0f63172b9a8b8af30fcac7fd0fa8221efd00",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "A Plague Tale: Innocence",
+      "summary": "Oficjalne sklepy: 11,99 zł · Keyshopy: 14,16 zł · Historyczne minimum: 0,00 zł",
+      "url": "https://gg.deals/game/a-plague-tale-innocence/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "11,99 zł",
+      "price_kind": "oficjalny sklep",
+      "retail_price": "11,99 zł",
+      "keyshop_price": "14,16 zł",
+      "historical_price": "0,00 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 752590,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "caca3f5d484a8549c5e186630d2535e842f95f985b8aff93c10b548c91dcb641",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Stray",
+      "summary": "Oficjalne sklepy: 44,99 zł · Keyshopy: 42,23 zł · Historyczne minimum: 38,33 zł",
+      "url": "https://gg.deals/game/stray/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "42,23 zł",
+      "price_kind": "keyshop",
+      "retail_price": "44,99 zł",
+      "keyshop_price": "42,23 zł",
+      "historical_price": "38,33 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 1332010,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "2b39916a1419e2dc9d461e76554387120829dff48eb8afd8253f950ee8fa2d0f",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "COCOON",
+      "summary": "Oficjalne sklepy: 33,01 zł · Keyshopy: 27,78 zł · Historyczne minimum: 27,41 zł",
+      "url": "https://gg.deals/game/cocoon/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "27,78 zł",
+      "price_kind": "keyshop",
+      "retail_price": "33,01 zł",
+      "keyshop_price": "27,78 zł",
+      "historical_price": "27,41 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 1497440,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "88a0c50d584de6d58f5c231f85ad4a37fe43b4b89c5bf099e31719388edab2f3",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "summary": "Oficjalne sklepy: 71,84 zł · Keyshopy: 56,74 zł · Historyczne minimum: 53,85 zł",
+      "url": "https://gg.deals/game/marvels-spider-man-miles-morales/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "56,74 zł",
+      "price_kind": "keyshop",
+      "retail_price": "71,84 zł",
+      "keyshop_price": "56,74 zł",
+      "historical_price": "53,85 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 1817190,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "38631eb261728bb9729a0797f266505ada4646ddb3046af20f7f21fdf50fa8ea",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Ghost of Tsushima DIRECTOR'S CUT",
+      "summary": "Oficjalne sklepy: 128,10 zł · Keyshopy: 103,14 zł · Historyczne minimum: 98,42 zł",
+      "url": "https://gg.deals/game/ghost-of-tsushima-directors-cut/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "103,14 zł",
+      "price_kind": "keyshop",
+      "retail_price": "128,10 zł",
+      "keyshop_price": "103,14 zł",
+      "historical_price": "98,42 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 2215430,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "d2b79c406652d971df01473d5f60f487b7398dbb7fadd8b2a623c79c3ab4e51c",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "God of War",
+      "summary": "Oficjalne sklepy: 72,23 zł · Keyshopy: 55,51 zł · Historyczne minimum: 53,99 zł",
+      "url": "https://gg.deals/game/god-of-war/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "55,51 zł",
+      "price_kind": "keyshop",
+      "retail_price": "72,23 zł",
+      "keyshop_price": "55,51 zł",
+      "historical_price": "53,99 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 1593500,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "e189fd84eda67c3dae086a67e957e869dfff644ddfd788bc2038c2d0f6831a56",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Days Gone",
+      "summary": "Oficjalne sklepy: 58,56 zł · Keyshopy: 45,92 zł · Historyczne minimum: 35,06 zł",
+      "url": "https://gg.deals/game/days-gone/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "45,92 zł",
+      "price_kind": "keyshop",
+      "retail_price": "58,56 zł",
+      "keyshop_price": "45,92 zł",
+      "historical_price": "35,06 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 1259420,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "3a6ba983abeff03925687a88b7d27c949b77961034cd5d10fd862bbab9f5ba68",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Horizon Forbidden West Complete Edition",
+      "summary": "Oficjalne sklepy: 107,39 zł · Keyshopy: 94,98 zł · Historyczne minimum: 85,76 zł",
+      "url": "https://gg.deals/game/horizon-forbidden-west/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "94,98 zł",
+      "price_kind": "keyshop",
+      "retail_price": "107,39 zł",
+      "keyshop_price": "94,98 zł",
+      "historical_price": "85,76 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 2420110,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "8586cbb013f4027a349aecc6f178f6ac98a4e4aecbc942ae7124e6d3ec5dec97",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "The Last of Us Part II Remastered",
+      "summary": "Oficjalne sklepy: 119,50 zł · Keyshopy: 103,31 zł · Historyczne minimum: 101,33 zł",
+      "url": "https://gg.deals/game/the-last-of-us-part-ii-remastered/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "103,31 zł",
+      "price_kind": "keyshop",
+      "retail_price": "119,50 zł",
+      "keyshop_price": "103,31 zł",
+      "historical_price": "101,33 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 2531310,
+      "active": true,
+      "price_verified": true,
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "9079f1e7ae4a04625aa4dbdfd508f970e4bc1feb77dbeff8faf81d1125181e8e",
+      "source": "GG.deals",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Hades II",
+      "summary": "Oficjalne sklepy: 81,90 zł · Keyshopy: 69,09 zł · Historyczne minimum: 69,09 zł",
+      "url": "https://gg.deals/game/hades-ii/",
+      "published_at": "2026-10-06T09:21:16.048502+00:00",
+      "matched_keywords": [],
+      "price": "69,09 zł",
+      "price_kind": "keyshop",
+      "retail_price": "81,90 zł",
+      "keyshop_price": "69,09 zł",
+      "historical_price": "69,09 zł",
+      "platform": "pc",
+      "platform_label": "PC · Legion Go",
+      "steam_app_id": 1145350,
+      "active": true,
+      "price_verified": true,
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "559c629a33eca8b0596939ff7588c4deec31f369b534a141c1689e4cbec7d768",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Birthday gamer's postcard",
+      "summary": "I felt ancient today trying to explain to a 3yo what a postcard is... the paper one..or a digital one.. she got excited though haha I am adding this poscard to send myself to the future me. Attach a postcard to the future yourself in a meme way. Maybe We should make a trend 🤔 30+ gamers poscards 😅😗 Cheers Ai allowed, we are okay submitted by /u/ladyofragnar [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wyy135/birthday_gamers_postcard/",
+      "published_at": "2026-10-06T09:19:52+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "8cf0fb98d9d4b3c4efaa6d4c6ecad5b55f6edd172b64a489b6e70b802a20a1c7",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Heres my 9 games",
+      "summary": "Makes me feel old. submitted by /u/zzdupS [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wyxukt/heres_my_9_games/",
+      "published_at": "2026-10-06T09:07:52+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "dee99459ef02f082a750dc347a572b81d542a183e35ae97fdc4f45b7b7352be1",
+      "source": "Komputer Świat",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "pl",
+      "title": "Błąd w oprogramowaniu doprowadził do katastrofy. \"Zginęły setki osób\"",
+      "summary": "Błąd w kodzie był, jest i będzie nieodłącznym elementem programowania, bez względu na to, czy odbywa się ono ze wsparciem AI, czy też bez niego. Historia",
+      "summary_pl": "",
+      "url": "https://www.komputerswiat.pl/programy-i-aplikacje/programy-komputerowe/blad-w-oprogramowaniu-doprowadzil-do-katastrofy-zginely-setki-osob/k1ykpzg",
+      "published_at": "2026-10-06T08:55:00+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "837d64a7c95121eadc9f2d2524cab5af917ab14c60cd08981e42aa35fdeb2200",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Here are the 9 games that formed me. I think I love story heavy games.",
+      "summary": "submitted by /u/bubenius [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wyx99b/here_are_the_9_games_that_formed_me_i_think_i/",
+      "published_at": "2026-10-06T08:27:08+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "053894baabed97c3eee829132f4d4d153c5db5f557808ea0b8ded2a2496baabf",
@@ -58,7 +342,8 @@
       "steam_app_id": 414340,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "af98f66c7d403aff9c0b6612c3a6c1a7cd1db799f193376ba2e6ede316a0fe80",
@@ -81,30 +366,8 @@
       "steam_app_id": 2461850,
       "active": true,
       "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "caca3f5d484a8549c5e186630d2535e842f95f985b8aff93c10b548c91dcb641",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Stray",
-      "summary": "Oficjalne sklepy: 44,99 zł · Keyshopy: 42,31 zł · Historyczne minimum: 38,33 zł",
-      "url": "https://gg.deals/game/stray/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "42,31 zł",
-      "price_kind": "keyshop",
-      "retail_price": "44,99 zł",
-      "keyshop_price": "42,31 zł",
-      "historical_price": "38,33 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 1332010,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "af63c1d646542643066e2e9aacf4dead0fab559600211ad2e4e755a7e744ab26",
@@ -127,7 +390,8 @@
       "steam_app_id": 607080,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "79d8d841cc570a25116a6ec6883f2e1e8cecba75c0b3fb7be4513f41c503ae03",
@@ -150,7 +414,8 @@
       "steam_app_id": 424840,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "8019548e86625f0ce9f1e14316158b7bd5a2663a86ba7fd13eb93b321b100e45",
@@ -173,30 +438,8 @@
       "steam_app_id": 2751000,
       "active": true,
       "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "2b39916a1419e2dc9d461e76554387120829dff48eb8afd8253f950ee8fa2d0f",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "COCOON",
-      "summary": "Oficjalne sklepy: 33,01 zł · Keyshopy: 27,83 zł · Historyczne minimum: 27,41 zł",
-      "url": "https://gg.deals/game/cocoon/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "27,83 zł",
-      "price_kind": "keyshop",
-      "retail_price": "33,01 zł",
-      "keyshop_price": "27,83 zł",
-      "historical_price": "27,41 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 1497440,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "516f912e825f630f874354df62b6d8c39828c658be862aeb4d131a64a4424d06",
@@ -219,7 +462,8 @@
       "steam_app_id": 304430,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "e1c9fc573e354dac22f6c72f2eb61bf4390bfddf2716d0d035b6b99cc4054232",
@@ -242,7 +486,8 @@
       "steam_app_id": 1492680,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "daa4aa84b8d77441ca62ec1000cf934a7ed774f698a100cd9a256977e5164252",
@@ -265,7 +510,8 @@
       "steam_app_id": 1887840,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "15f8109603d167bc08a9bcd24df839630ee60b617f87587ddeb7050353fa965a",
@@ -288,7 +534,8 @@
       "steam_app_id": 835960,
       "active": true,
       "price_verified": true,
-      "priority": true
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "cbcdb252f6b4460ac8e522c8f1183a8c40f1838555ab7289d4faadf21e7dd28f",
@@ -311,30 +558,8 @@
       "steam_app_id": 1817070,
       "active": true,
       "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "88a0c50d584de6d58f5c231f85ad4a37fe43b4b89c5bf099e31719388edab2f3",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Marvel's Spider-Man: Miles Morales",
-      "summary": "Oficjalne sklepy: 71,84 zł · Keyshopy: 59,15 zł · Historyczne minimum: 53,85 zł",
-      "url": "https://gg.deals/game/marvels-spider-man-miles-morales/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "59,15 zł",
-      "price_kind": "keyshop",
-      "retail_price": "71,84 zł",
-      "keyshop_price": "59,15 zł",
-      "historical_price": "53,85 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 1817190,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "0b32324d3b01dddd46ebf2255ae960d2f90cc3ce2a07354be942e8c8ca4d30a7",
@@ -357,53 +582,8 @@
       "steam_app_id": 2651280,
       "active": true,
       "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "38631eb261728bb9729a0797f266505ada4646ddb3046af20f7f21fdf50fa8ea",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Ghost of Tsushima DIRECTOR'S CUT",
-      "summary": "Oficjalne sklepy: 128,10 zł · Keyshopy: 108,62 zł · Historyczne minimum: 98,42 zł",
-      "url": "https://gg.deals/game/ghost-of-tsushima-directors-cut/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "108,62 zł",
-      "price_kind": "keyshop",
-      "retail_price": "128,10 zł",
-      "keyshop_price": "108,62 zł",
-      "historical_price": "98,42 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 2215430,
-      "active": true,
-      "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "d2b79c406652d971df01473d5f60f487b7398dbb7fadd8b2a623c79c3ab4e51c",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "God of War",
-      "summary": "Oficjalne sklepy: 72,23 zł · Keyshopy: 57,74 zł · Historyczne minimum: 53,99 zł",
-      "url": "https://gg.deals/game/god-of-war/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "57,74 zł",
-      "price_kind": "keyshop",
-      "retail_price": "72,23 zł",
-      "keyshop_price": "57,74 zł",
-      "historical_price": "53,99 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 1593500,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "056a48f70864e29a95ea23b3ed8c15ded7fb5d5022b6bf85cc243bdf1d3c06f1",
@@ -426,30 +606,8 @@
       "steam_app_id": 2322010,
       "active": true,
       "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "e189fd84eda67c3dae086a67e957e869dfff644ddfd788bc2038c2d0f6831a56",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Days Gone",
-      "summary": "Oficjalne sklepy: 58,56 zł · Keyshopy: 47,63 zł · Historyczne minimum: 35,06 zł",
-      "url": "https://gg.deals/game/days-gone/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "47,63 zł",
-      "price_kind": "keyshop",
-      "retail_price": "58,56 zł",
-      "keyshop_price": "47,63 zł",
-      "historical_price": "35,06 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 1259420,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d4114f3c3c62f69c394b27f7f4785eec4aeccbb1c6b487908c6de7acc5688516",
@@ -472,30 +630,8 @@
       "steam_app_id": 2561580,
       "active": true,
       "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "3a6ba983abeff03925687a88b7d27c949b77961034cd5d10fd862bbab9f5ba68",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Horizon Forbidden West Complete Edition",
-      "summary": "Oficjalne sklepy: 107,39 zł · Keyshopy: 95,41 zł · Historyczne minimum: 85,76 zł",
-      "url": "https://gg.deals/game/horizon-forbidden-west/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "95,41 zł",
-      "price_kind": "keyshop",
-      "retail_price": "107,39 zł",
-      "keyshop_price": "95,41 zł",
-      "historical_price": "85,76 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 2420110,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "92e4624d888298506c148b6a0ea10c01e237ac6c9c1ff78c7980d6baa2f97b34",
@@ -518,7 +654,8 @@
       "steam_app_id": 1659420,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "6423e107846360a4294bfbb84e2baaa5e5aab0e2296010093f724586be0d68ff",
@@ -541,30 +678,8 @@
       "steam_app_id": 1888930,
       "active": true,
       "price_verified": true,
-      "priority": false
-    },
-    {
-      "id": "8586cbb013f4027a349aecc6f178f6ac98a4e4aecbc942ae7124e6d3ec5dec97",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "The Last of Us Part II Remastered",
-      "summary": "Oficjalne sklepy: 119,50 zł · Keyshopy: 103,74 zł · Historyczne minimum: 101,33 zł",
-      "url": "https://gg.deals/game/the-last-of-us-part-ii-remastered/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "103,74 zł",
-      "price_kind": "keyshop",
-      "retail_price": "119,50 zł",
-      "keyshop_price": "103,74 zł",
-      "historical_price": "101,33 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 2531310,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "50c3b8d0be197afb411de888725dbea5b9cb6943795d182e52e3d097c1bca351",
@@ -587,7 +702,8 @@
       "steam_app_id": 1895880,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "226eae5f32ef83196008fa648ff321636d1193335bc6f55123397f471ee001cd",
@@ -610,7 +726,8 @@
       "steam_app_id": 1599660,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "099e43a9ec7d9b25dff3e3919f47a24ff58cdfa1697cb756ee2e9bcd8cf2735e",
@@ -633,7 +750,8 @@
       "steam_app_id": 1868140,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "6d54baed23b22e919e34503149eb1824eb5734d2a5bd54c3e4a1404e7b61f0e0",
@@ -656,7 +774,8 @@
       "steam_app_id": 1562430,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d9a76af04b708822c978d2e0ce16bb95895a31c49c9aa58777aa10786d2cf7ee",
@@ -679,30 +798,8 @@
       "steam_app_id": 1145360,
       "active": true,
       "price_verified": true,
-      "priority": true
-    },
-    {
-      "id": "9079f1e7ae4a04625aa4dbdfd508f970e4bc1feb77dbeff8faf81d1125181e8e",
-      "source": "GG.deals",
-      "source_type": "deal",
-      "category": "Okazje",
-      "language": "pl",
-      "title": "Hades II",
-      "summary": "Oficjalne sklepy: 81,90 zł · Keyshopy: 70,21 zł · Historyczne minimum: 70,19 zł",
-      "url": "https://gg.deals/game/hades-ii/",
-      "published_at": "2026-10-06T07:36:58.941812+00:00",
-      "matched_keywords": [],
-      "price": "70,21 zł",
-      "price_kind": "keyshop",
-      "retail_price": "81,90 zł",
-      "keyshop_price": "70,21 zł",
-      "historical_price": "70,19 zł",
-      "platform": "pc",
-      "platform_label": "PC · Legion Go",
-      "steam_app_id": 1145350,
-      "active": true,
-      "price_verified": true,
-      "priority": false
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "3a88d7d32a4d8b103d1d0d24c8789280dcdc270b4ebf4594b6c7310d9bb58e7e",
@@ -725,7 +822,8 @@
       "steam_app_id": 1313140,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "41a0839ef4d4594fbe6e0c97be455c19a39565b5647defa28ab30d9f8c87a30e",
@@ -748,7 +846,8 @@
       "steam_app_id": 1057090,
       "active": true,
       "price_verified": true,
-      "priority": true
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "6d62fa21654c1793972d9719537b76c9e7df56f66f9628ad1c1f7aeb8929a866",
@@ -771,7 +870,8 @@
       "steam_app_id": 387290,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "c466ce5c12752a8f63bc8ef2385a3586d2e1172690884c14e7ebdddb4c344a0e",
@@ -794,7 +894,8 @@
       "steam_app_id": 268910,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "bca43e196159e2a4d81d09c84602f8c9ba99589421078e582911ead331a1b915",
@@ -817,7 +918,8 @@
       "steam_app_id": 731490,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "fa61daab0acb3dc3fa88a44297158e3370c08eb9d932d6844e5f3f8f087743c2",
@@ -840,7 +942,8 @@
       "steam_app_id": 1378990,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d09ed045b4f5293c162b17f018b2f17655b883d1d3de3a915034225bb5082f1d",
@@ -863,7 +966,8 @@
       "steam_app_id": 2072450,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "ce43de3131b646f2bd1b847946ef1f96808c3c7f45ed93e7e9a522f70b891302",
@@ -886,7 +990,8 @@
       "steam_app_id": 1172380,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "60947ab85754df582aee86ffc3bc296687eba2a06a426034c8691d3851101716",
@@ -909,7 +1014,8 @@
       "steam_app_id": 524220,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a01244a2c89fd92ed88d82e2b529e0aa8ce152870ca1c2a9a8db7be97ba2228e",
@@ -932,7 +1038,8 @@
       "steam_app_id": 1426210,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "1bf98bce9f49dc02a16ca972ffb4758bb175f027a6770500e0d0906f9de6fd66",
@@ -959,6 +1066,19 @@
       "published_at": "2026-10-06T07:05:00+00:00"
     },
     {
+      "id": "6bae31c3103c7355213465a2313f829b34cf87e1b2e57c2f6f1fb56b06f9840e",
+      "source": "PPE",
+      "source_type": "news",
+      "category": "Gaming",
+      "language": "pl",
+      "title": "Nowa gra Marvela wyciekła! Poznajcie COMET - zapowiedź już za moment",
+      "summary": "Miłośnicy superbohaterskich produkcji doczekali się kolejnego głośnego przecieku, który rzuca zupełnie nowe światło na nadchodzące plany komiksowego giganta.",
+      "summary_pl": "",
+      "url": "https://www.ppe.pl/news/429092/nowa-gra-marvela-wyciekla-poznajcie-comet-zapowiedz-juz-za-moment.html",
+      "published_at": "2026-10-06T06:55:00+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "83fb6de0930c255d9f890b9f30b5e4565a832d99b328284c54a419925713e792",
       "source": "Komputer Świat",
       "source_type": "news",
@@ -968,7 +1088,8 @@
       "summary": "Użytkownicy iPhone'ów mieszkający na terenie Unii Europejskiej będą musieli uzbroić się w cierpliwość. Choć z nowej wersji Siri korzysta już praktycznie cały",
       "summary_pl": "",
       "url": "https://www.komputerswiat.pl/programy-i-aplikacje/uslugi/na-ulepszona-siri-jeszcze-poczekamy-w-europie-dopiero-za-jakis-czas/4mn96lm",
-      "published_at": "2026-10-06T06:45:00+00:00"
+      "published_at": "2026-10-06T06:45:00+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "3ac1faab56c7384d10cf9a3e552ee91687aec182452db91d0c6cb35a9e1acafc",
@@ -986,6 +1107,22 @@
       "priority": true
     },
     {
+      "id": "822d1087b0b983a0fc98fbee0bd880509361bdcc812d1bdb1647e27fb819c7ba",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should I get this legion go 2 for $850 or get the Xbox ally x20?",
+      "summary": "This will be my first handheld PC and for my birthday this week I couldn’t decide on if I should take this sweet deal (verified legit seller with videos etc) or just get a brand new ROG XBOX ALLY X20. I’ve done my research and I know that they have much of the same specs other than ram and tht beautiful display on the Go 2. submitted by /u/snakeboi999 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyuy9b/should_i_get_this_legion_go_2_for_850_or_get_the/",
+      "published_at": "2026-10-06T05:55:51+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "5f84457392bcadea3d95822526467758ad23500cdb78e8b679d367b07c492d3d",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1001,6 +1138,22 @@
       "priority": true
     },
     {
+      "id": "41f08191a109f3823ace44e9c11d10188614337d603038e356f60e2e14f7293c",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Missing RB option in LenovoSpace? Legion Go 1",
+      "summary": "My RB buttton does not work and I have resort to mapping the other back keys to press RB Even mapping M1 to RB does not work' Legion Go 1 Z1 Extreme submitted by /u/knittybagkittyboost [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyuvbo/missing_rb_option_in_lenovospace_legion_go_1/",
+      "published_at": "2026-10-06T05:50:49+00:00",
+      "matched_keywords": [
+        "Z1 Extreme"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "a2851e75a636fe87621e5a386b69b10fcd568a5df3ccbd6b7f2a3db98bb1187d",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1014,6 +1167,34 @@
       "priority": false
     },
     {
+      "id": "e99375df3c768a0c40cb03a09dbd1fd8d2d4af9c85102b3b58eac71ffe15a457",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion go Gundum Skin",
+      "summary": "Been thinking to install that, got the skin couple months back didn’t had time to install. Installed it today while watching Netflix movie “The devil All the Time”. Ok movie but finished the skin install. Let me know how is it. Do you like gundum? submitted by /u/Captain_panda96 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyug6q/legion_go_gundum_skin/",
+      "published_at": "2026-10-06T05:24:52+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "2b948c114d93a4bb74145b7bec2651fb861e31ef7b59df1a8c86dc6d9c29448e",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "33 M EST, Looking for them night owls",
+      "summary": "Hi! Im Blue i game on PC but I get very bored very fast playing anything solo. I have tons of games that I can play that id enjoy finding someone to play with. i wouldn't say I am the best gamer but Im not horrible lol. I play anything from mmorpgs to mobas(kinda only moba I enjoyed is Smite 1/2) but I am open to trying out any games if they are free or if it is something I am interested in I may be persuaded into b…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wyubth/33_m_est_looking_for_them_night_owls/",
+      "published_at": "2026-10-06T05:17:37+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "940090081a5ae7a4ab7eddeb3bcc7d728efcbb0a448671a954e658312703af0a",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1025,6 +1206,20 @@
       "published_at": "2026-10-06T03:45:52+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "094db28be147ec3d3075fe4e98a7509b75e2eb600cc6e2bb458485ca45c7a472",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Left Controller Issue",
+      "summary": "Has anyone experienced this? I noticed when playing gears of war Eday that my left controller d-pad stops working. I can’t choose weapons and I can only get it to work by tapping the “mouse pad”. Is this user error? submitted by /u/cablecobra [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wysptb/left_controller_issue/",
+      "published_at": "2026-10-06T03:45:52+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "3718567ef45fb2efe1fb541f06841cebde50435aedb676766970a69c8ec4329c",
@@ -1042,6 +1237,22 @@
       "priority": true
     },
     {
+      "id": "5bd0465ff91e08a7fa06212dc68ac2dd9cab636d1ed97acb9648278e87155fc4",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "CEMU doesn't detect my controls on Legion GO with steam OS",
+      "summary": "I have Steam OS installed on my legion GO and Cemu. No matter what I do I cannot get Cemu to recognize my legion go controller in Wind Waker HD. It used to work but I had to send my legion go in for repair and when I got it back they formatted and put windows on it. I had a copy of my drive so I flashed it back and did a Steam OS update. The legion go works completely fine with all steam games. In desktop mode the c…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wysih1/cemu_doesnt_detect_my_controls_on_legion_go_with/",
+      "published_at": "2026-10-06T03:34:30+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "dcec4060d4468981e2ab35cc8fe0bde8fd3b345725b986fac2afbec15866e099",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1053,6 +1264,20 @@
       "published_at": "2026-10-06T03:23:55+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "0f8cc7b50e582511e174968637bef9ec9dcb5d829e5b9fb9805809af5ce2ae5f",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Does renaming the legionspace.exe not disable legionspace for anyone else?",
+      "summary": "I went to where legionspace is located and renamed the executable and legionspace still opens. I honesty have no idea why. submitted by /u/Joseph_Keen_116 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wysbd6/does_renaming_the_legionspaceexe_not_disable/",
+      "published_at": "2026-10-06T03:23:55+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "21d62c4659633b4d84ae3884f52a7341751f27687285a001ddf1950cc5e926ed",
@@ -1068,6 +1293,22 @@
         "Z1E"
       ],
       "priority": true
+    },
+    {
+      "id": "7caa95623e9dce13c8905044b22be5ed9c0e3a34ec42c792b0ce5a082e5b722c",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "From the LegionGo community on Reddit: Forza Horizon 6 Settings for Legion Go S (UPDATED)",
+      "summary": "There was a post here with FH6 settings for the Legion Go S Z1E. I used those settings before and the game ran great. I just redownloaded the game, but the post and the account are both deleted now. Here's the old link: https://www.reddit.com/r/LegionGo/comments/1tf89ay/forza_horizon_6_settings_for_legion_go_s_updated/ Does anyone have a screenshot or a copy of the settings? Or if you're running FH6 on the Legion Go…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyrsj1/from_the_legiongo_community_on_reddit_forza/",
+      "published_at": "2026-10-06T02:56:23+00:00",
+      "matched_keywords": [
+        "Z1E"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "36e4ec3fa98f59a5a8ff9a2a047406d97a39d299f559b15c4ef70405f2ae75e4",
@@ -1086,6 +1327,23 @@
       "priority": true
     },
     {
+      "id": "a7a43ec62df021c81f470f0e43ba1e6a520ce0a1bb55e220bad52ab2c55361fb",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Thinking of SteamOS on OG LeGo. How easy is it to revert back to Windows?",
+      "summary": "I think I'm gonna install SteamOS on my LeGo I just bought, but I'm wondering how easy it is to revert back to Windows, in case I don't like it or I wanna play Game Pass or something that requires Windows. submitted by /u/Chrisac84 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyqgcd/thinking_of_steamos_on_og_lego_how_easy_is_it_to/",
+      "published_at": "2026-10-06T01:47:23+00:00",
+      "matched_keywords": [
+        "OG Lego",
+        "OG"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "96156d46d4c0fda1019385ebdd52e86ba7842816e26ecdc5760969f399be1449",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1099,6 +1357,20 @@
       "priority": false
     },
     {
+      "id": "324a20c0b02a95cb398ef1833ae439e00030a9ef0b1c90514265f6ba66e78b7a",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Best way to watch classic cartoons <GBA video running on a legion go running retrobat at like 36p",
+      "summary": "submitted by /u/SuccotashTasty [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyq71d/best_way_to_watch_classic_cartoons_gba_video/",
+      "published_at": "2026-10-06T01:34:32+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "b8992e87d97e605f8296fc6c7de9c28a68d9bc8ea78e7857cb6c9f0299201373",
       "source": "PC Gamer",
       "source_type": "news",
@@ -1108,6 +1380,7 @@
       "summary": "Divine Frequency launches in early access on October 27 with \"70%\" of the final game ready to play.",
       "url": "https://www.pcgamer.com/games/fps/despite-the-tragic-death-of-its-lead-writer-one-of-the-scariest-games-i-have-ever-played-will-finally-come-out-later-this-month/",
       "published_at": "2026-10-06T01:29:16+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Gra Divine Frequency, pomimo tragicznej śmierci głównego scenarzysty, zadebiutuje we wczesnym dostępie 27 października z 70% zawartości.",
       "tags": [
         "Divine Frequency",
@@ -1137,7 +1410,8 @@
       "steam_app_id": 1977170,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a98ebcb624188f1fe5b769801de85bdcd81a29c72a0c1beab59be9e8aee67772",
@@ -1160,7 +1434,8 @@
       "steam_app_id": 367520,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d97f1b66ab902e21b73b66e59d37230522ae85889e7a4d81626dbabd31a6a995",
@@ -1183,7 +1458,8 @@
       "steam_app_id": 638970,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a90cbe00928e68cd2087e20280bf8e17a3ccef59cb2d6fee66518137291385a8",
@@ -1206,7 +1482,8 @@
       "steam_app_id": 1235140,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "3e231fb64477298d8370f7fde292f099a7158fe3313e2651b75ca7897894fa02",
@@ -1229,7 +1506,8 @@
       "steam_app_id": 356190,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "01707fb0274457c8f4697e294e2466d9775388a87f1fe6e60c2d05c223764564",
@@ -1245,6 +1523,20 @@
       "priority": false
     },
     {
+      "id": "9fcc6b1afde651ede7a8dcea252a77ed222696f200cd33fe95be8ebd56ff5614",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Olá, pessoal! Comprei um Legion Go e coloquei o Steam OS oficial. Recomendam alguma configuração espeficia ou plugins?",
+      "summary": "Aliás, comprei ele por 480 euros, veio com 2 tb de SSD, duas capas, uma case de transporte, carregador de 100w e o carregador original, duas películas de vidro e o suporte para utilizar os controles destacados, bateria com 98% de saúde e SSD com 100% de saúde. Foi uma boa compra? Vocês preferem o bazzite com Steam OS ou o Steam OS Puro? Muitas perguntas, desculpa. submitted by /u/CricketExpensive2112 [link] [comment…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyonf9/olá_pessoal_comprei_um_legion_go_e_coloquei_o/",
+      "published_at": "2026-10-06T00:18:41+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "e8f692b81170b41cc41f7acfc34a3d1393c83256031096c24676661b9af43dd2",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1256,6 +1548,20 @@
       "published_at": "2026-10-05T23:41:53+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "24fce69ceac900c935f5f9202312b5e011ba4de06c8dea7e71f581f3f12bbd24",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Does anyone play Minecraft Dungeons 2 on the Legion Go. What settings do you use to not crash?",
+      "summary": "submitted by /u/honestabe15 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wynul2/does_anyone_play_minecraft_dungeons_2_on_the/",
+      "published_at": "2026-10-05T23:41:53+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "f53419d97d6af332aee37201475c52c7c9499763790e9caf16c40f2cac3b5132",
@@ -1271,6 +1577,20 @@
       "priority": false
     },
     {
+      "id": "2c12beab4153c8c89e33e5ba330a14a8e3b34e959eaa8fb35347651b9bf3f143",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Anyone use an EGPU? What’s your setup?",
+      "summary": "submitted by /u/cdzs123 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyndu1/anyone_use_an_egpu_whats_your_setup/",
+      "published_at": "2026-10-05T23:19:29+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "2008245e88681120c7122d253032bcbf08f63bccd6ce30201316bad513b69ff3",
       "source": "PC Gamer",
       "source_type": "news",
@@ -1280,6 +1600,7 @@
       "summary": "No layoffs have been announced for The Coalition, but some Gears of War: E-Day developers are worried they'll be next, even if the game succeeds.",
       "url": "https://www.pcgamer.com/gaming-industry/industry-layoff-watch-supermassive-ninja-theory-the-coalition-and-a-warning-from-warhorse/",
       "published_at": "2026-10-05T22:36:39+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Pracownicy studia The Coalition obawiają się zwolnień mimo trwających prac nad grą Gears of War: E-Day. To część szerszego trendu niepokoju w branży gier.",
       "tags": [
         "zwolnienia",
@@ -1301,6 +1622,20 @@
       "published_at": "2026-10-05T22:20:00+00:00"
     },
     {
+      "id": "a3e4a793934e2363b84943facae6fff2d8086fb94f4f1ac36cfd7d47c9b3300a",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Yeah, yeah. We get it. You don’t like: RDR2, Elden Ring, Call of Duty, or Expedition 33. Can we move on now?",
+      "summary": "Seriously, every single one of these posts just gets met with the SAME EXACT ANSWERS EVERY SINGLE TIME. Can we stop the circle jerk and move on already? 😒 submitted by /u/SoSadStayMad [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wylljf/yeah_yeah_we_get_it_you_dont_like_rdr2_elden_ring/",
+      "published_at": "2026-10-05T21:59:57+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "c791b8fd7a1b832c4fba1989bb5329386bac0ba3053a084265177a484635661a",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1312,6 +1647,20 @@
       "published_at": "2026-10-05T21:48:07+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "7d1e5053353fd847f7db74635cff1989187ca4ac4d2928087404425e2b5cb5e2",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Which game comes to mind?",
+      "summary": "submitted by /u/Goober1889 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wykdg9/which_game_comes_to_mind/",
+      "published_at": "2026-10-05T21:08:38+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d445789c873cb4e9929c5916fcb5908401d22fce768566976b1df960226c9f51",
@@ -1327,6 +1676,20 @@
       "priority": false
     },
     {
+      "id": "d5df810f893592c937c64014ecab1652b033294a8452714c3ca70b63b1bb130f",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go S crashes every time I play a game online.",
+      "summary": "Works great when I am playing games offline or single player. Downloads things fine, crashes every time I play multiplayer online. submitted by /u/bts268 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyjmwe/legion_go_s_crashes_every_time_i_play_a_game/",
+      "published_at": "2026-10-05T20:39:47+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "3ecffa04c2415e85af1fc53c9adc1ae33e14a73e8d20ac8d84bcd2db7029e15f",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1340,6 +1703,20 @@
       "priority": false
     },
     {
+      "id": "6a8458cde062f66345a43de429182bf3e6d567b962bf7c5e3a4da1ad8cf22b75",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "WOW Forever.",
+      "summary": "Now with native controller support this is the combo I had been hopeful for submitted by /u/xMoshx [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyjfzq/wow_forever/",
+      "published_at": "2026-10-05T20:31:56+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "9a99b92b348c7693560c65a67b4f93d1ad51a456545eec6efda476008ea00bbf",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1351,6 +1728,20 @@
       "published_at": "2026-10-05T20:20:38+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "23af69528ae0b4c6e61d53b1aa14bc5d5374710be66c812e1f2365f3b77c04c7",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Change button mapping on games to playstation buttons",
+      "summary": "Playing the witcher 3 and i wanted to use my ps5 controller. I tried disabling steam input but didn't work. Does it work on a handheld at all? submitted by /u/Tzengzy [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyj5q3/change_button_mapping_on_games_to_playstation/",
+      "published_at": "2026-10-05T20:20:38+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "6495c9f43bc2696bd043527ccf0ad9e06a55867bdc4a40192b41d71611cc4c1e",
@@ -1378,6 +1769,20 @@
       "priority": false
     },
     {
+      "id": "60d11a7f328b3f4341cbced6aa9b3f92c3a76c82322f398fd59b5b65bd468121",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "My Legion Go 1 keeps shutting down after 10-15min of playtime on linux",
+      "summary": "Hi, i got my legion over a year ago, and ive been cleaning out my fans regularly, and recently installed linux (specificly cachyOS handheld) and for some reason it keeps overheating and shutting down after 10-15min, i have no idea how to fix it or what the cause is, im not even playing intensive games, im playing Gekshin Squadra and it still crashes on the lowest settings. submitted by /u/aydanill [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyi5io/my_legion_go_1_keeps_shutting_down_after_1015min/",
+      "published_at": "2026-10-05T19:41:50+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "3ddb95769f53df1bd4cb3b09d6308d3291570f963bd262a536714cc77b48d7c7",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1391,6 +1796,20 @@
       "priority": false
     },
     {
+      "id": "6b9612cdc36883b493f7ae7813b9bc97ebb2bdc33fd57b187504edfb87faf61d",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "I bit the bullet!",
+      "summary": "I have ordered legion go 2, upgrading from legion go s (steam OS). I am excited by the bigger screen and more powerful specs. Any essentials - software or hardware - that you would recommend? Optimal graphics settings etc? submitted by /u/Horsefacegrace [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyhsxa/i_bit_the_bullet/",
+      "published_at": "2026-10-05T19:28:17+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "971d97e8ee01b6d5d95758627013d1660ea8e61b7b81c6737f25ceab1162bcf4",
       "source": "Ars Technica",
       "source_type": "news",
@@ -1400,6 +1819,7 @@
       "summary": "The tool can free up over 12GB of storage.",
       "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
       "published_at": "2026-10-05T19:14:44+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Nowe narzędzie wiersza poleceń pozwala szybko usunąć funkcje Apple Intelligence z systemu macOS 27. Dzięki temu można zwolnić ponad 12 GB miejsca na dysku.",
       "tags": [
         "Apple",
@@ -1429,7 +1849,8 @@
       "steam_app_id": 683320,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d094b5ff732df6eecdf8828ff06b2c39d1d3ae2941893e11ba85f34d1e0f3218",
@@ -1452,7 +1873,8 @@
       "steam_app_id": 553420,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d6ff70376b58891735ee9db8c1097a62cc9f56a28ae071727fb48218feb59e7f",
@@ -1475,7 +1897,8 @@
       "steam_app_id": 234140,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "248b2b5572b1ca216ad9788a17c944bb4cf9b4d30a48c6e066382d08237626f1",
@@ -1493,6 +1916,22 @@
       "priority": true
     },
     {
+      "id": "b67a8c0eb84e57e01cd929581c282ca97f3828567aeb5d7a13f6ef60814194a1",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Power Button Not Suspending Device",
+      "summary": "Running a Legion Go S Z1E SteamOS version. I'm having issues with the power button not suspending the device. I've tried power cycling, BIOS reset, and reinstalling SteamOS. Still giving me the same issue after I've tried all these things. Has anyone experienced this? Solutions? Thanks! submitted by /u/rolnellek [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wygc6b/power_button_not_suspending_device/",
+      "published_at": "2026-10-05T18:32:44+00:00",
+      "matched_keywords": [
+        "Z1E"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "5ead6b333acd7fab119703a8b52471f06e89db31e0061e07955be279d3d0f10c",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1504,6 +1943,20 @@
       "published_at": "2026-10-05T18:31:05+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "3274282df2fe090ecef06ccaf088f918a9e537f92a69d9bb24ef309ac8fa5c21",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Just joined the party",
+      "summary": "submitted by /u/donegownriee [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wygamp/just_joined_the_party/",
+      "published_at": "2026-10-05T18:31:05+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "41c07ae6147fcd4d6c62d79ecd952deb6579926abdc64adae468e3d2e0a573f2",
@@ -1519,6 +1972,22 @@
         "OG"
       ],
       "priority": true
+    },
+    {
+      "id": "f41a56a507376475018a2ed0f9d450d28e2f99023c2fa0f13fd587a1899ab69a",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "AMD Control panel AFMF 2.1 toggle not working",
+      "summary": "Hopefully someone can help. I downloaded the amd control panel widget for game bar. The AFMF toggle does work. If I set AFMF to on globally in adrenaline, then the toggle will toggle off when pressed, then flip back on. And vise versa, if off in adrenaline, it'll flick on then back to off. I assume there's a setting I've got set wrong somewhere? Any help? Thanks! Edit: if I change to desktop mode and open the radeon…",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyg2s2/amd_control_panel_afmf_21_toggle_not_working/",
+      "published_at": "2026-10-05T18:22:52+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "28b48a3bb29048b9e9573bab67d2af25121810a1df4db0f283da38acb039a076",
@@ -1548,6 +2017,22 @@
       "priority": true
     },
     {
+      "id": "1e74677f7f8bee0f7f87919e38edbe19e5ef761c390ae7ed4c3673cf52b1d573",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "LegionGo Symbol",
+      "summary": "I knew I recognized the Legion Go symbol somewhere.. submitted by /u/drsmith69 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyfrwq/legiongo_symbol/",
+      "published_at": "2026-10-05T18:11:18+00:00",
+      "matched_keywords": [
+        "OG"
+      ],
+      "priority": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "5ad1c4724632490dbb115a568ab7cae313617c513ee2391a7f2fbddea5938a2f",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1561,6 +2046,20 @@
       "priority": false
     },
     {
+      "id": "a5c7bab73e956ea0d6582d8ddff5c15eb4fbc27b2e699c91394b4baea74b76ae",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "What are you playing today?",
+      "summary": "Today, I’m playing Control Resonant on my Legion Go S. Sadly not in native res. 900p with FSR on quality, low to med settings. Capped to 30 fps + LSFG 2.0 x2 Really stable and enjoyable experience. Latest LSFG works for me better than FSR FG available in game submitted by /u/Illustrious_Lab959 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyfqot/what_are_you_playing_today/",
+      "published_at": "2026-10-05T18:10:01+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "38ac3375bb639ca61fdd437e3cb25dc8ef74b1f8eb6eee6e6b1ab0d3c5ad7617",
       "source": "Michał Pisarski",
       "source_type": "youtube",
@@ -1570,7 +2069,64 @@
       "summary": "➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwestora: https://link-pso.xtb.com/pso/jTdYG Inwestowanie jest ryzykowne. Inwestuj odpowiedzialnie. 🌐 🎮 Sponsorem ka…",
       "url": "https://www.youtube.com/watch?v=-dr2ATyYIXs",
       "published_at": "2026-10-05T17:13:44Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/-dr2ATyYIXs/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/-dr2ATyYIXs/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "4aa10606f299e2f420b799f6c1424f288c4a012423df5315e743631065800ce3",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Fix xbox one x hdmi retainer or sell ps5 for a new series x",
+      "summary": "Think it would be better just to sell the ps5 that hardly gets used anymore for a new Xbox for the wife and i ( i use the switch 2 more just more of a handheld gamer now) or just fix the hdmi on her old one x plus she not much of a gamer and hates playstation controller Stuff are more expensive than they were on release, so it makes it hard to figure out what to do lol submitted by /u/Prudent-Jaguar6845 [link] [comm…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wyds8b/fix_xbox_one_x_hdmi_retainer_or_sell_ps5_for_a/",
+      "published_at": "2026-10-05T16:55:47+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "d60ea9ab9ebb212bf11a630363790cee3e51c5430ab33ebe8af9d15864d928ae",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "My 9 cents",
+      "summary": "submitted by /u/cheesemaster-63 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wydchd/my_9_cents/",
+      "published_at": "2026-10-05T16:38:58+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "0d66890d645bc5e8610a732e4c22cafa07634aecdb0b8a031600e2187ae90ca9",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Best Website to organize my Now Playing / Games Collection / Finished Games lists?",
+      "summary": "I'm wondering if someone can help me find the best game collection/progress tracking website to use. I've been using a combination of Google Drive spreadsheets and Infinite Backlog so far but updating both gets tedious and I can't organize InBa's Now Playing list. So here's what I'm looking for, let me know if this exists: I want the ability to keep a list of Currently Playing games, which I can manually categorize…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wyctkq/best_website_to_organize_my_now_playing_games/",
+      "published_at": "2026-10-05T16:18:47+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "76c2f83cfb3b44e41652ad308cf277395667fc9ad0cdf2154288aeb1bc5bb177",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "The shape of me?",
+      "summary": "I included from my childhood to as far as this year honestly. Souls games have helped me try harder irl and helped me out of depression (along with my now wife) submitted by /u/MidRanchWest [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wycq77/the_shape_of_me/",
+      "published_at": "2026-10-05T16:15:12+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a2671e5b0c325eeaa528c81e57cc96df0f133c4f4ebc8bf7af32f36bbc4d3a8a",
@@ -1582,6 +2138,7 @@
       "summary": "Celeste's voice actor will now also be the face of the unofficial leader of Speranza.",
       "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-looking-for-more-ways-to-integrate-real-human-performances-starting-with-celestes-visual-overhaul-for-frozen-trail/",
       "published_at": "2026-10-05T16:02:55+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Gra Arc Raiders wprowadza wizualną przebudowę postaci Celeste w aktualizacji Frozen Trail, aby lepiej zintegrować prawdziwe występy ludzkie z grą.",
       "tags": [
         "Arc Raiders",
@@ -1604,6 +2161,34 @@
       "priority": false
     },
     {
+      "id": "4feaa252a6a4b100c1f435b5fb0daa3d3a02851934b874026f96ccbc08b0c636",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go S Z2 and WoW Forever",
+      "summary": "Just bought a Legion Go S Z2 go chip. Still had no chance to switch on and setup. Main goal would be to play WoW Forever and Dragonwilds. Any tips on what is needed and how to setup ? submitted by /u/Big_Week_4790 [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wybm1c/legion_go_s_z2_and_wow_forever/",
+      "published_at": "2026-10-05T15:33:08+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "72da57bb6660cae09f4d02e0de42666f38b6748731648ce4fbddda73784e404b",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legend of Sherwood anyone? *On guard!*",
+      "summary": "Robin Hood: Legend of Sherwood was the game where every “no kill” mission had the same answer: Little John, the staff, one quiet crack, and a body dragged into the shade before the patrol came back. Robin got the legend. John got me through the level. That small, patient kind of tactics barely gets made anymore, and I still catch myself wishing for another afternoon just like those. This genre has been severely unde…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wyblr6/legend_of_sherwood_anyone_on_guard/",
+      "published_at": "2026-10-05T15:32:48+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "9c52d64844e9f7585e951c74005e66b9ff2bbd1105422dde5abad0f99c2c2079",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -1615,6 +2200,20 @@
       "published_at": "2026-10-05T15:28:12+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "0bb0681c954b61f26b31035de12f6af43007e75236ff79493fd2bd7361f2ccbc",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion Go S 32/1TB if you're interested",
+      "summary": "Seen the Costco deal and just got this email today. submitted by /u/Godzlittlehand [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wybhid/legion_go_s_321tb_if_youre_interested/",
+      "published_at": "2026-10-05T15:28:12+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "067075ff50874c358c12f3375a09464bb72d80d7dd46cdf3f0a58fca76f1db27",
@@ -1630,6 +2229,20 @@
       "priority": false
     },
     {
+      "id": "6f159c569fcaaf3613e0967c36d85ff0837ff964525d2685f8bbd28812fab26e",
+      "source": "r/LegionGo",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Legion go 2 Costco member appreciation deal $1k",
+      "summary": "On sale https://www.costco.com/.product.4000372320.html submitted by /u/Krometheous [link] [comments]",
+      "url": "https://www.reddit.com/r/LegionGo/comments/1wyaixr/legion_go_2_costco_member_appreciation_deal_1k/",
+      "published_at": "2026-10-05T14:50:24+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "de39fe3529fffc2de5b2cc5db0542f8a2161dc4197fc34433d790f0b75bf90c6",
       "source": "Kanał o technologii",
       "source_type": "youtube",
@@ -1639,7 +2252,8 @@
       "summary": "Amazfit T-Rex Dual Solar to zegarek, który zawstydza czasem pracy nawet topowe Garminy. Producent twierdzi, że wytrzyma 51 dni ciągłej pracy, mimo że jest wyposażony w pełnoprawny ekran AMOLED, a nie ekran MIP. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&ut…",
       "url": "https://www.youtube.com/watch?v=E6Se6TqoesQ",
       "published_at": "2026-10-05T14:44:40Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/E6Se6TqoesQ/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/E6Se6TqoesQ/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "680da962f8503b0ba02041e0b776ad3ca568064c0e3da1fcaffb74be642b7e8a",
@@ -1651,7 +2265,8 @@
       "summary": "Horror był tworzony przez Hideo Kojimę i Guillermo del Toro, lecz koniec końców Konami wyrzuciło go do kosza.",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/grywalny-teaser-anulowanego-silent-hills-bedzie-niebawem-dostepny-na-pecetach-fanowski-port-p-t-jest-niemal-gotowy/",
-      "published_at": "2026-10-05T14:15:21+00:00"
+      "published_at": "2026-10-05T14:15:21+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "397d56bb08f0243fdf2e7119cbc4a132abd2cc8c79eb691074cf0bb4b33fc7a5",
@@ -1663,7 +2278,8 @@
       "summary": "➡️ Sprawdź urodzinowe okazje w Komputronik: https://ktr.fan/30latkomputronik_kacperlipski ➡️ Konkurs, w którym można wygrać jeden z trzech smartfonów: https://ktr.fan/konkurs_kacperlipski Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVEL-KacperLipski ➡️ Znajd…",
       "url": "https://www.youtube.com/watch?v=UD2JLRRs4e0",
       "published_at": "2026-10-05T14:00:24Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/UD2JLRRs4e0/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/UD2JLRRs4e0/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "570b97686828be05eda0e14b2b2ac95bc774a9c3917fab98ebc92aa640407c4d",
@@ -1701,6 +2317,7 @@
       "summary": "Some things are better left alone, although I'm happy to be proven wrong.",
       "url": "https://www.pcgamer.com/games/resident-evil/capcoms-remake-machine-is-ticking-away-only-problem-is-that-means-revisiting-resident-evil-5-and-6/",
       "published_at": "2026-10-05T13:04:54+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Maszyna do remakes w Capcomie działa, co oznacza, że wkrótce mogą pojawić się odświeżone wersje kontrowersyjnych gier Resident Evil 5 i 6.",
       "tags": [
         "Capcom",
@@ -1719,7 +2336,8 @@
       "summary": "Już w listopadzie rusza nowa edycja plebiscytu Tech Awards, w ramach którego wybierzemy najlepsze produkty i usługi technologiczne mijającego roku. Nim jednak",
       "summary_pl": "",
       "url": "https://www.komputerswiat.pl/nauka-i-technika/te-sprzety-zachwycily-polakow-najlepsze-z-najlepszych/dcdw8rw",
-      "published_at": "2026-10-05T13:00:32+00:00"
+      "published_at": "2026-10-05T13:00:32+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "c670064108ff30c5188a75df3c4727684eae6490b77bfa82c4205d43030aba7a",
@@ -1770,7 +2388,8 @@
       "steam_app_id": 588650,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "f49417e6bfaa2d6fe868995fa184704d0dfe7462e78ab3150797373e4d1537a0",
@@ -1834,7 +2453,8 @@
       "summary": "Wielki krok w stronę pożegnania cheaterów.",
       "summary_pl": "",
       "url": "https://cdaction.pl/newsy/call-of-duty-modern-warfare-4-raz-na-zawsze-zlikwiduje-znienawidzone-oszustwa-tworcy-prezentuja-rewolucyjny-system-a-gracze-sa-zachwyceni/",
-      "published_at": "2026-10-05T08:30:00+00:00"
+      "published_at": "2026-10-05T08:30:00+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a9232f3a393b6f048fea67492bdc5f381e78ce387e7f26cca360c2fbe9097762",
@@ -1859,6 +2479,7 @@
       "summary": "An exclusive early look at the upcoming playtest for Blood Bowl's next iteration.",
       "url": "https://www.pcgamer.com/games/strategy/warhammer-blood-bowl-is-blood-bowl-3-5-rather-than-a-whole-new-game-but-based-on-the-beta-its-definitely-an-upgrade/",
       "published_at": "2026-10-05T08:00:00+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Przedpremierowy pokaz nowej odsłony Warhammer: Blood Bowl pokazuje, że gra przypomina raczej wersję 3.5 niż zupełnie nowy tytuł, ale jest zauważalnym ulepszeniem.",
       "tags": [
         "Warhammer",
@@ -1982,7 +2603,8 @@
       "summary": "A takiego docka do Nintendo Switch widzieliście? ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=influencer&utm_medium=youtube&utm_campaign=Kanalotechnologii2026&utm_term=Kanalotechnologii&utm_content=Other%20public%20kot%2026 #Nintendo #Switch #Swit…",
       "url": "https://www.youtube.com/watch?v=XhpQBtfTc_Y",
       "published_at": "2026-10-05T05:04:28Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/XhpQBtfTc_Y/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/XhpQBtfTc_Y/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "00af4ed97d7d023766d769c3fca2eccbcf84198dc2b81e57c5788b03c9d42d80",
@@ -2020,7 +2642,8 @@
       "summary": "Bill Gates ostrzega przed sztuczną inteligencją i twierdzi, że może ona doprowadzić do zagłady miliardów ludzi. Co więcej, stwierdził, że mityczne stworzenie",
       "summary_pl": "",
       "url": "https://www.komputerswiat.pl/nauka-i-technika/sztuczna-inteligencja/to-najgrozniejsza-bron-w-historii-bill-gates-ostrzega-przed-tym-co-wszyscy-widzimy/tt6l1t0",
-      "published_at": "2026-10-05T04:00:00+00:00"
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "3b82f50eec8b3ad5c2cbadf8cb7fab7b2d769697ab732362675440df97f3d2b5",
@@ -2084,6 +2707,7 @@
       "summary": "Bethesda wasn't always a name associated with open world RPGs.",
       "url": "https://www.pcgamer.com/games/the-elder-scrolls/its-easy-to-forget-now-but-the-first-elder-scrolls-game-had-a-rough-launch-back-in-the-day-it-was-a-disaster-in-a-lot-of-ways-and-somehow-built-a-billion-dollar-franchise/",
       "published_at": "2026-10-05T02:49:24+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Pierwsza odsłona serii The Elder Scrolls miała trudny start i była w wielu aspektach katastrofą, zanim dała początek miliardowej franczyzie.",
       "tags": [
         "Elder Scrolls",
@@ -2277,6 +2901,20 @@
       "priority": false
     },
     {
+      "id": "465d108a849d5499e1cca5b8d7dec7a852ea7b3f88efa1d92799f9ac01a92330",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "LFG For Some Group Games (Preferably Who Also Haven't Played Something Before)",
+      "summary": "So I've never played any of big walk, content warning, moving out, underward, overcooked, phasmophobia, any backrooms game, human fall flat, or any of those little group/friendslop/collaborative type games. I haven't played any of them and am just looking for a group and game/games that can be good for some laughs and a good time. I never really had people to play any of them with, so i just never tried them Prefera…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wxp63i/lfg_for_some_group_games_preferably_who_also/",
+      "published_at": "2026-10-04T20:05:35+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "19291b14a54e87a6dcb59b607525298add7fb86e0afe2d07e285510d81f10570",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -2344,6 +2982,20 @@
       "priority": false
     },
     {
+      "id": "a1ebce2deb0fadda94e63ed39e858aa8b792ca5282607baf57a8abcbdb11210a",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Games to wind down?",
+      "summary": "Mosty I play some epic journeys, games with rich stories and diverse characters. Games where you have to follow the plot and choose your way. But there are days when I just want to kick back and relax. Where the story is entertaining but not overcomplicated or someties - nonexisting. Sometimes its just a sports game, a shooter or beat em up. Looking for your recommendations, any console z any generations, retro or n…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wxmfst/games_to_wind_down/",
+      "published_at": "2026-10-04T18:14:42+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "5e59f5f6559c567265d9ae2ca46660bea97a848fc7986887e1afd70b49d607cb",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -2357,6 +3009,20 @@
       "priority": false
     },
     {
+      "id": "70e97ec2e12a87fe96e692c37a9c5492169c123867278a553e660b19c6b51cfd",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "My 9",
+      "summary": "submitted by /u/BenadrylPaprikapatch [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wxm7eh/my_9/",
+      "published_at": "2026-10-04T18:05:06+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "b66354ecdb7138ba406c5ba67620db7cc216db74e38099eaa9d62d878bcc057f",
       "source": "Kuba Klawiter",
       "source_type": "youtube",
@@ -2366,7 +3032,8 @@
       "summary": "W dzisiejszym odcinku wracamy po dwóch latach do Andrzeja i jego deski. Czy nadal pływa i czy wciąż uważa, że było warto? Link do mojej deski: https://bit.ly/4rIuhEY Link do deski Andrzeja się pojawi jak będzie chciał ją sprzedać, bo to nie jest już aktualny model ;) 00:00 Dziś w odcinku…wspomnienie lata 01:01 Deska A…",
       "url": "https://www.youtube.com/watch?v=qWatoVunGRU",
       "published_at": "2026-10-04T17:47:41Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/qWatoVunGRU/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/qWatoVunGRU/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "549a4063144f23dfdbcc78519c1d6909830a5ad8826d5b8af91674e5a2ce68cf",
@@ -2535,7 +3202,8 @@
       "summary": "Książka i magazyn ᴀʀʜɴ.ᴇᴜ już w sprzedaży! https://ar.hn/w-druku/ [autopromocja] Silent Hill: Townfall oferuje fanom serii zupełnie nowe doświadczenie, zmieniając perspektywę na pierwszoosobową i czyniąc bohatera odsłony znacznie bardziej bezbronnym od swoich poprzedników. Czy wyszło to grze na dobre? Przekonać się o…",
       "url": "https://www.youtube.com/watch?v=TQMAg9LrBXk",
       "published_at": "2026-10-04T15:00:05Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/TQMAg9LrBXk/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/TQMAg9LrBXk/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "8f1381fb3fdb28a4a7730c48bf5163173ea2082c9baa0870da881fc6a66ed84f",
@@ -2612,7 +3280,8 @@
       "summary": "➡️ AirPods 5: https://ktr.fan/airpods5_nieantyfan ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 📱 Smartfony: https://ktr.fan/telefony_nieantyfan 💻 Laptopy i tablety: https://ktr.fan/laptopy_nieantyfan 🖥 Komputery stacjonarne: https://ktr.fan/pc_nieantyfan Partnerami kanału jest Komputronik.",
       "url": "https://www.youtube.com/watch?v=P5wTChXaopE",
       "published_at": "2026-10-04T14:00:18Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/P5wTChXaopE/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/P5wTChXaopE/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a153d02b22c29aaf0ee953e6b2ab9d1a3447ea55065f982d6e4cc99b008827bc",
@@ -2628,6 +3297,20 @@
       "priority": false
     },
     {
+      "id": "15a6cb36ada14c98a4437e13cbbd49648f68f2c2f9db2fb90a93cf3445886637",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "TV or monitor",
+      "summary": "Hi all I'm looking at tv or monitor for ps5 I currently have 32 inch TV and sit eye to TV 4-5 foot away Its a old TV 50hz and I find people far away more blended in back round. So I was thinking get bigger 43 TV at 120hz Or just get the same size gaming monitor 32 inch and hope the picture is sharper on the gaming monitor? submitted by /u/Just-Nobody-4406 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wxg09l/tv_or_monitor/",
+      "published_at": "2026-10-04T13:42:28+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "b89f49b26dce0d03917eea02ed52e5e71424597498221f39e9ee59be2d5b0fc8",
       "source": "PPE",
       "source_type": "news",
@@ -2638,6 +3321,20 @@
       "summary_pl": "",
       "url": "https://www.ppe.pl/news/428877/jedna-z-najlepszych-gier-akcji-ostatnich-lat-zmierza-na-telefony-premiera-juz-za-kilka-dni.html",
       "published_at": "2026-10-04T13:30:00+00:00"
+    },
+    {
+      "id": "3122c8f51e9e0d56721eace53f43ced2ca0d902d76a671c39131735cf01317e0",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "What game/games will you choose?",
+      "summary": "submitted by /u/Admirable-Low-261 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wxfovt/what_gamegames_will_you_choose/",
+      "published_at": "2026-10-04T13:27:38+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "2fb2a3d2d57255e113a6c2395f839688573b81c1d70adaca898ff7c7635d692e",
@@ -2792,6 +3489,7 @@
       "summary": "GPT-6 Astra tried to get a leg-up in Blizzard's RTS by pilfering a human-created bot.",
       "url": "https://www.pcgamer.com/software/ai/an-openai-model-was-caught-trying-to-cheat-at-starcraft-and-of-course-it-did-it-by-stealing-a-humans-work/",
       "published_at": "2026-10-04T10:49:26+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Model OpenAI nazwany GPT-6 Astra próbował oszukać w grze StarCraft, kradnąc stworzonego przez człowieka bota.",
       "tags": [
         "OpenAI",
@@ -2874,7 +3572,8 @@
       "summary": "➡️ AirPods 5: https://ktr.fan/airpods5_nieantyfan ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 📱 Smartfony: https://ktr.fan/telefony_nieantyfan 💻 Laptopy i tablety: https://ktr.fan/laptopy_nieantyfan 🖥 Komputery stacjonarne: https://ktr.fan/pc_nieantyfan Partnerami kanału jest Komputronik.",
       "url": "https://www.youtube.com/watch?v=27ivMGgj9es",
       "published_at": "2026-10-04T07:00:27Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/27ivMGgj9es/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/27ivMGgj9es/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "b3e57cc73b5a0e5d89bb05fe8e4ac04d1575ac9e86c50f19618c47dfa57b5ed4",
@@ -2899,7 +3598,8 @@
       "summary": "Do czego mi rozkładany smartfon? Do Heroes 3, no a do czego innego? ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=influencer&utm_medium=youtube&utm_campaign=Kanalotechnologii2026&utm_term=Kanalotechnologii&utm_content=Other%20public%20kot%2026 #Her…",
       "url": "https://www.youtube.com/watch?v=npr1B3SX2qM",
       "published_at": "2026-10-04T06:21:04Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/npr1B3SX2qM/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/npr1B3SX2qM/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "580de0a52f5aa1c695a9b9d4e19b958c3e2b2a41d21112c8ba3748c082c47d79",
@@ -2915,6 +3615,20 @@
       "priority": false
     },
     {
+      "id": "8ef19d774d999028bdee420aecdb3e7eedce76767d6dbcabd33544f00b8f4f0b",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "35M | Germany/EU | PS5 | Gaming dad looking for chill evening co-op buddies",
+      "summary": "Hey everyone, I’m 35M, from Germany, and a dad looking for a few people to regularly play with on PS5. Ideally you’re somewhere around the same time zone, since I’m usually online between 7 PM and 11 PM CET/CEST, once the baby is asleep and I’ve reclaimed a few hours of freedom. 😄 It would be especially cool to meet some other dads or moms who understand that gaming sessions can occasionally be interrupted by real l…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wx7936/35m_germanyeu_ps5_gaming_dad_looking_for_chill/",
+      "published_at": "2026-10-04T05:04:53+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
       "id": "4e50e9b2d5440e08c5c7332f2b7e971e50cfd48c65970b25747fd4b22d4e6099",
       "source": "r/LegionGo",
       "source_type": "reddit",
@@ -2926,6 +3640,20 @@
       "published_at": "2026-10-04T03:39:25+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "16e93dc1847711ed2aacfb913f901c87f81e5ceebd63325ec9eab66d17d73c09",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Ps5 Dune Awakening",
+      "summary": "Hey all, 34m looking for a small group of friends to play the game with. Got into it a week ago and enjoying it. Would love to enjoy it in party chat with some friends! submitted by /u/IAmBatmanOO [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wx3hqw/ps5_dune_awakening/",
+      "published_at": "2026-10-04T01:36:05+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a7cbf4ed39d38193930f346eaf8d35fda75d51df34868e184a5d0a92beb64053",
@@ -2963,6 +3691,7 @@
       "summary": "Even a man forged from steel falters sometimes.",
       "url": "https://www.pcgamer.com/games/rpg/crimson-desert-dlc-delayed-by-2-weeks-please-join-me-in-wishing-the-devs-a-fond-take-your-time-please-drink-some-water/",
       "published_at": "2026-10-03T23:19:41+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Premiera dodatku do gry Crimson Desert została opóźniona o dwa tygodnie. Twórcy potrzebują więcej czasu na dokończenie prac.",
       "tags": [
         "CrimsonDesert",
@@ -3007,6 +3736,7 @@
       "summary": "An unstoppable juggernaut.",
       "url": "https://www.pcgamer.com/games/mmo/runescape-4-announced-at-runefest-full-mmo-sequel-started-as-expansion-to-survival-game-dragonwilds/",
       "published_at": "2026-10-03T21:44:49+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Podczas RuneFest zapowiedziano RuneScape 4, które zaczynało jako dodatek do gry Dragonwilds.",
       "tags": [
         "RuneScape",
@@ -3014,6 +3744,20 @@
         "Zapowiedź",
         "Gry"
       ]
+    },
+    {
+      "id": "ab95d5226eaf0e933278bb653e294dca44e9fd9a2c7a1c5fa5b236758597aebd",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Penumbra is nearly 20 years old, Overture is still great",
+      "summary": "Horror classic that kinda kickstarted modern horror games! Fans here? it holds up submitted by /u/Fun-Maintenance1217 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wwxbce/penumbra_is_nearly_20_years_old_overture_is_still/",
+      "published_at": "2026-10-03T20:35:35+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "367df4d84312330442af53420db51eef73df5dd039e1e3e430a45e425a823cff",
@@ -3027,6 +3771,48 @@
       "published_at": "2026-10-03T20:34:58+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "cb96defd6e6e1a75344eb182c9bfd7f57f15a4510a656d1b8b6a53600dea73b0",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Should i try the fallout games?",
+      "summary": "So I have made posts in the past about getting into gaming. I've been playing some slower games. Satisfactory and snowrunner. I also played disco Elysium earlier. Loved all of it, i have heard good things about fallout. I understand people recommend either new Vegas or 4. I got interested because people say it got politics and history, and this girl loves both. (To the point where i work in politics heh) So yeah sho…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wwx6ii/should_i_try_the_fallout_games/",
+      "published_at": "2026-10-03T20:29:38+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "35cd6a7fd87dbb3eaba1815df8950a875495919a350574b88d0c51caa1ebc16c",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Which game broke you emotionally?",
+      "summary": "submitted by /u/Goober1889 [link] [comments]",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wwwgix/which_game_broke_you_emotionally/",
+      "published_at": "2026-10-03T19:59:22+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "c02721560650bb51f84aa80cf46e1ec5d7babef7014a460e6b1bd194c7a5b0e0",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "How has your approach to gaming changed over the years?",
+      "summary": "Lately I’ve been trying to play games the way I did back in the 90s. After too much scrolling and watching short videos, I felt like my attention span was getting worse. For the past couple of months, gaming has been my way of healing form I’ve stopped looking up guides and builds then I try to solve puzzles myself. If an optional puzzle has been unsolvable, I move on. If it blocks the main story, I take a break or…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wwtcf5/how_has_your_approach_to_gaming_changed_over_the/",
+      "published_at": "2026-10-03T17:49:37+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "564fd97fac19bc11404bc6208b89cc7a61566d86948f11fbfcb8af64b4606740",
@@ -3063,6 +3849,7 @@
       "summary": "Toss a coin—oh, it's a free upgrade.",
       "url": "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-remaster-just-brought-it-to-a-new-all-time-concurrent-player-count-peak/",
       "published_at": "2026-10-03T16:40:35+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Dzięki darmowej aktualizacji do wersji zremasterowanej, Wiedźmin 3 ustanowił nowy rekord wszech czasów pod względem liczby jednocześnie grających osób.",
       "tags": [
         "Wiedźmin 3",
@@ -3070,6 +3857,48 @@
         "PC Gamer",
         "rekord"
       ]
+    },
+    {
+      "id": "7fe01b1a5da14499a33055dd39241482829bf8edb179968e487e2ae43b89b1a7",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "What is everyone playing this October",
+      "summary": "Happy Halloween everyone this is easily my favorite month of the year as someone who loves Halloween , horror movies and games and Halloween Oreos lol. What is everyone currently playing or looking forward to the rest of this month. I just finished wrapping up Control Resonant which I enjoyed A lot! Great soundtrack also. I am mostly looking forward to Phantom Blade 0 as my most anticipated game this month, with val…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wwrh53/what_is_everyone_playing_this_october/",
+      "published_at": "2026-10-03T16:30:34+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "721ebf944b53caa5477b5a2dfd5f39de27d87f578ddaae554c631b7635860ccf",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "10 months ago i made a post about KCD2...",
+      "summary": "In short, I just couldn't get in to it. Despite playing about 70 hours on it, it was just a bit 'slow' and although certain aspects were fun, it just never really clicked with me and I was just forcing myself to play it. So, I took a long break from it, playing countless other games like Resident evil 4 remake, Cyberpunk-2077, GTA 5, Returnal, Ratchet and Clank, Crimson Desert, detroit becomes human, and most recent…",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wwqvxv/10_months_ago_i_made_a_post_about_kcd2/",
+      "published_at": "2026-10-03T16:05:26+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "cc0c30488bc2dfd4444ebc56230f26d0bbc207ac0c702eb5fc7edd01760c8b1c",
+      "source": "r/Age_30_plus_Gamers",
+      "source_type": "reddit",
+      "category": "Reddit",
+      "language": "en",
+      "title": "Good game, but a couple hours in, feeling repetitive. Anything similar?",
+      "summary": "This is my 2nd time trying to get into this. I love the team dynamic, open world, strategy of multiple ways to take down a base. But after a few days of playing, it starts to feel really repetitive and struggle to get back to it. Any other similiar recommendations? Love division 1 and 2 (not sure if ppl are still playing in) Farcry gives me the same vibes as this as well submitted by /u/Available_Clock_1796 [link] […",
+      "url": "https://www.reddit.com/r/Age_30_plus_Gamers/comments/1wwqs4z/good_game_but_a_couple_hours_in_feeling/",
+      "published_at": "2026-10-03T16:01:07+00:00",
+      "matched_keywords": [],
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "69bb34c23494ff0293c6fc7ebd7d4ab03583f28ed75edfb4bf153967244efb47",
@@ -3133,7 +3962,8 @@
       "steam_app_id": 860510,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "ab41a772d70004c9978e61bc2e519e32b8bd00a5246a9038577769a3a49d1195",
@@ -3145,7 +3975,8 @@
       "summary": "➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwestora: https://link-pso.xtb.com/pso/jTdYG Inwestowanie jest ryzykowne. Inwestuj odpowiedzialnie. 🌐 🎮 Sponsorem ka…",
       "url": "https://www.youtube.com/watch?v=stkps_J_PxA",
       "published_at": "2026-10-03T14:42:52Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/stkps_J_PxA/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/stkps_J_PxA/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "26d41606b2c4219e3710cd882dc43cb7e50abca0923ecd4a7b8b1369b34e993e",
@@ -3183,7 +4014,8 @@
       "summary": "➡️ AirPods 5: https://ktr.fan/airpods5_nieantyfan ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 📱 Smartfony: https://ktr.fan/telefony_nieantyfan 💻 Laptopy i tablety: https://ktr.fan/laptopy_nieantyfan 🖥 Komputery stacjonarne: https://ktr.fan/pc_nieantyfan Partnerami kanału jest Komputronik.",
       "url": "https://www.youtube.com/watch?v=7w40D8JcmUM",
       "published_at": "2026-10-03T14:00:30Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/7w40D8JcmUM/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/7w40D8JcmUM/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "ac8a0ad72d45c9a5be3c99cf3a0ba32d5e374fb3f70849a37fea2ab3ba1d003a",
@@ -3207,7 +4039,8 @@
       "summary": "00:04 Control Resonant 00:16 GTA 6 00:43 Ace Combat 8 01:47 RetroSpace 02:51 Gears of War: E-Day 04:16 Star Wars Galactic Racer 05:32 Clive Barker's Hellraiser: Revival 06:46 Silver Pines 07:49 Planet Zoo 2 08:59 Valor Mortis 10:15 Boltgun 2 11:18 Castlevania: Belmont's Curse 12:23 Enshrouded 13:16 Beyond These Stars…",
       "url": "https://www.youtube.com/watch?v=mmH0HbXt1I4",
       "published_at": "2026-10-03T12:33:51Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/mmH0HbXt1I4/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/mmH0HbXt1I4/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "e9b5aa9011f082069b8d91fad8458848e585abea599e6fdccc19d4fd0a9f33f5",
@@ -3219,6 +4052,7 @@
       "summary": "Extended Operations adds two TacSim missions, new game plus, and a photo mode.",
       "url": "https://www.pcgamer.com/games/action/007-first-light-gets-free-dlc-that-will-finally-let-you-drive-james-bonds-aston-martin-properly/",
       "published_at": "2026-10-03T12:24:15+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Gra 007 First Light otrzymała darmowe DLC Extended Operations, które dodaje m.in. misje TacSim, nową grę plus oraz tryb foto.",
       "tags": [
         "gaming",
@@ -3420,7 +4254,8 @@
       "summary": "➡️ AirPods 5: https://ktr.fan/airpods5_nieantyfan ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo ➡️ 20% zniżki na produkty u Cyrulików: https://cyrulicy.pl/ ➡️ 20% zniżki na produkty Soppo: https://soppocosmetics.com/ ✅ KOD ZNIŻKOWY: nieantyfan26 ➡️ Świetne fotele do pracy/ grania/ odpoczynku:…",
       "url": "https://www.youtube.com/watch?v=EUFoO-d7BYQ",
       "published_at": "2026-10-03T07:00:21Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/EUFoO-d7BYQ/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/EUFoO-d7BYQ/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "839b67206040d7a9e5e31b111e7f0c657f6f071ccc14b6d54bd95552b5f6ff33",
@@ -3458,7 +4293,8 @@
       "summary": "➡️ AirPods 5: https://ktr.fan/airpods5_nieantyfan ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 📱 Smartfony: https://ktr.fan/telefony_nieantyfan 💻 Laptopy i tablety: https://ktr.fan/laptopy_nieantyfan 🖥 Komputery stacjonarne: https://ktr.fan/pc_nieantyfan Partnerami kanału jest Komputronik.",
       "url": "https://www.youtube.com/watch?v=ybdbLZkWg5Q",
       "published_at": "2026-10-03T05:55:21Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/ybdbLZkWg5Q/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/ybdbLZkWg5Q/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "52029763898228eac42bbfa386aa2bb8f2505f238fb581d7af055afcf343bb84",
@@ -3704,6 +4540,7 @@
       "summary": "The king of patch notes reclaims its throne.",
       "url": "https://www.pcgamer.com/gaming-industry/game-development/valves-patch-note-supremacy/",
       "published_at": "2026-10-02T22:07:36+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Valve odzyskuje tron króla informacji o aktualizacjach dzięki swoim nowym notatkom do łatek.",
       "tags": [
         "Valve",
@@ -3733,6 +4570,7 @@
       "summary": "It's a compelling argument.",
       "url": "https://www.pcgamer.com/games/action/ive-been-skeptical-about-bandai-namcos-upcoming-gundam-game-but-then-i-saw-this-model-kits-chainsaw-macuahuitl/",
       "published_at": "2026-10-02T20:55:33+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Autor był sceptyczny wobec nadchodzącej gry Bandai Namco z uniwersum Gundam, dopóki nie zobaczył piły łańcuchowej macuahuitl w nowym modelu do składania.",
       "tags": [
         "Gundam",
@@ -3805,6 +4643,7 @@
       "summary": "Critics say workers are still owed far more.",
       "url": "https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/",
       "published_at": "2026-10-02T19:09:49+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Firma Lyft zawarła ugodę w głośnej sprawie dotyczącej nieprawidłowego klasyfikowania kierowców na kwotę 272,5 miliona dolarów. Krytycy twierdzą jednak, że pracownikom należy się znacznie więcej.",
       "tags": [
         "Lyft",
@@ -3861,6 +4700,7 @@
       "summary": "It may or may not have contributed to the Steelers' years of postseason woes—but at least it's walkable.",
       "url": "https://www.pcgamer.com/games/survival-crafting/dear-former-nfl-head-coach-mike-tomlin-your-12-year-minecraft-city-is-beautiful/",
       "published_at": "2026-10-02T18:11:22+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00",
       "summary_pl": "Były trener futbolu amerykańskiego Mike Tomlin spędził dwanaście lat na budowie imponującego miasta w grze Minecraft.",
       "tags": [
         "Minecraft",
@@ -3946,7 +4786,8 @@
       "summary": "[współpraca reklamowa] ➡️ Sprawdź słuchawki Huawei FreeBuds Neo: https://consumer.huawei.com/pl/headphones/freebuds-neo/buy/?utm_source=kacperlipskitech&utm_medium=press_release&utm_campaign=mkt_FreeBudsNeo_poland_launch&utm_content=Video-V&utm_term=YTShorts Wreszcie słuchawki dokanałowe, które nie wypadają mi z uszu:…",
       "url": "https://www.youtube.com/watch?v=AvLet0q2Hnk",
       "published_at": "2026-10-02T17:00:21Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/AvLet0q2Hnk/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/AvLet0q2Hnk/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "f322c80f6f6beb30e85a9bd22275c986bba8564e32c19d1afc19bb70d7f9a452",
@@ -3984,7 +4825,8 @@
       "steam_app_id": 870780,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "684859e609e2ea5bc60c385950930c3a767b7327c10f983612f40b32fc434d09",
@@ -4009,7 +4851,8 @@
       "summary": "Kup Fajne Rzeczy: https://sklep.ar.hn [autopromocja] Star Wars: Racer powraca w moim zdaniem, najlepszej odsłonie tej serii. \"Galactic Racer\" spełnił wszystkie moje oczekiwania, a nawet w wielu kwestiach je przerósł. Zakochałem się w tej grze. Materiał przygotował: Arkadiusz \"Archon\" Kamiński 🐸🐸🐸 ᴀʀʜɴ.ᴇᴜ istnieje dzię…",
       "url": "https://www.youtube.com/watch?v=SbqcMHbHxBs",
       "published_at": "2026-10-02T15:28:06Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/SbqcMHbHxBs/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/SbqcMHbHxBs/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "b64f06032ed0fc2ac9a23e5f5cb5726e16c570b34bd45be390e38eeeadaac2b6",
@@ -4021,7 +4864,8 @@
       "summary": "Wszystkie gry w najniższych cenach jakie znalazłem: https://pisarion3000.pl/deal/21wf89q3qvayhd9 ➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwestora: https://l…",
       "url": "https://www.youtube.com/watch?v=8OuesnusjFs",
       "published_at": "2026-10-02T15:23:23Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/8OuesnusjFs/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/8OuesnusjFs/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "b28fed7133acb5acf89e5055f9667ad5c86a0294713434dfce5b66d998ce66d1",
@@ -4194,7 +5038,8 @@
         "Xbox"
       ],
       "price": "249zł",
-      "active": true
+      "active": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "2702c874d5d24b4e1d35ef0b8e3e6165b4b24de71c60d012f51639933b24dff2",
@@ -4311,7 +5156,8 @@
       "summary": "➡️ Akcesoria Razer w Komputronik: https://ktr.fan/razer_kacperlipski Przez ostatnie dwa miesiące używałem ergonomicznej klawiatury Razer Ergo Type i pionowej myszki Razer Pro Click V2 Vertical. Oto wrażenia. Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVEL-K…",
       "url": "https://www.youtube.com/watch?v=OHXe34FjlkI",
       "published_at": "2026-10-02T09:00:26Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/OHXe34FjlkI/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/OHXe34FjlkI/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "95c43a48fe36b25145067cf4377cf7540b5dd745a4946212e82959127761fe5f",
@@ -4505,7 +5351,8 @@
       "steam_app_id": 996580,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "3ecbe0b7aad88e8082e9608aa113572f9b9a3fe487457e7f9c9389fe14dc948c",
@@ -4667,21 +5514,22 @@
       "category": "Okazje",
       "language": "pl",
       "title": "A Plague Tale: Requiem",
-      "summary": "Oficjalne sklepy: 38,99 zł · Keyshopy: 54,29 zł · Historyczne minimum: 19,80 zł",
+      "summary": "Oficjalne sklepy: 38,99 zł · Keyshopy: 53,51 zł · Historyczne minimum: 19,80 zł",
       "url": "https://gg.deals/game/a-plague-tale-requiem/",
       "published_at": "2026-10-01T19:34:49.762720+00:00",
       "matched_keywords": [],
       "price": "38,99 zł",
       "price_kind": "oficjalny sklep",
       "retail_price": "38,99 zł",
-      "keyshop_price": "54,29 zł",
+      "keyshop_price": "53,51 zł",
       "historical_price": "19,80 zł",
       "platform": "pc",
       "platform_label": "PC · Legion Go",
       "steam_app_id": 1182900,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "6ca1e90841d7efefb1c1d298901cbf57d48a535c5d94012d0f00f2631b46e6d8",
@@ -4704,7 +5552,8 @@
       "steam_app_id": 1817230,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "23f00b4335c8244504391d4ff7f1998ca06696f7f4583ddd141814b3df0c3c35",
@@ -4727,7 +5576,8 @@
       "steam_app_id": 48000,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "0e16d46aeab23e00c8b7dbfe4f6bac42aaa3d7e26c5e60ca7c2631412295b396",
@@ -4736,21 +5586,22 @@
       "category": "Okazje",
       "language": "pl",
       "title": "Kena: Bridge of Spirits",
-      "summary": "Oficjalne sklepy: 71,49 zł · Keyshopy: 73,05 zł · Historyczne minimum: 42,89 zł",
+      "summary": "Oficjalne sklepy: 71,49 zł · Keyshopy: 71,67 zł · Historyczne minimum: 42,89 zł",
       "url": "https://gg.deals/game/kena-bridge-of-spirits/",
       "published_at": "2026-10-01T19:34:49.762720+00:00",
       "matched_keywords": [],
       "price": "71,49 zł",
       "price_kind": "oficjalny sklep",
       "retail_price": "71,49 zł",
-      "keyshop_price": "73,05 zł",
+      "keyshop_price": "71,67 zł",
       "historical_price": "42,89 zł",
       "platform": "pc",
       "platform_label": "PC · Legion Go",
       "steam_app_id": 1954200,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "d7a382697fbb200e23b0907bc138eb7e2779d30d27640d310be597d31016ab3d",
@@ -4773,7 +5624,8 @@
       "steam_app_id": 1774580,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "0f4e8c1b1358ef0b3d3c8812bbcce21b6096835c0ab149cb6ea2115e7fe68094",
@@ -4815,7 +5667,8 @@
       "summary": "https://www.lg.com/pl/monitory/ultragear-gaming/25g590b-b/ Streamujemy na: https://twitch.tv/cdaction Discord: https://discord.com/invite/TwFpFKumNy Prowadzenie i scenariusz: Krzysztof „Bastian” Freudenberger (http://twitter.com/BastianCDA) Montaż: Mateusz Pietrasiak Animacje: Ten sam Krzysiu co prowadzi i napisał sce…",
       "url": "https://www.youtube.com/watch?v=vPnOqJIaL1w",
       "published_at": "2026-10-01T18:24:53Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/vPnOqJIaL1w/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/vPnOqJIaL1w/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "8b5847b0cc7bad48b945b0caa745e0f8891a777d7fc609ac45a2326b5a0d203e",
@@ -4923,7 +5776,8 @@
       "summary": "Kupiłem i przetestowałem 5 gadżetów z Aliexpress, które na stałe zostały u mnie na biurku i w plecaku — działają zarówno ze Steam Deckiem, jak i z laptopem czy pecetem stacjonarnym. Tanie, małe, przenośne i żaden nie robi dziury w portfelu. ⏱ TIMESTAMPY 0:00 Intro 1:14 Ładowarka GaN 45W z wyświetlaczem 2:28 Obudowa na…",
       "url": "https://www.youtube.com/watch?v=-rYDKHMZ2U0",
       "published_at": "2026-10-01T16:21:53Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/-rYDKHMZ2U0/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/-rYDKHMZ2U0/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "4a0c22a91a0a05c065b4b231a6986894a3e469542994bce464439da188b8fd49",
@@ -5096,7 +5950,8 @@
       "steam_app_id": 894020,
       "active": true,
       "price_verified": true,
-      "priority": false
+      "priority": false,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "a078695f51a20ab2f8bdbefcab739b0d64b791fd31f770b30d0c76a0321386de",
@@ -5120,7 +5975,8 @@
       "summary": "Wszystkie gry w najniższych cenach jakie znalazłem: https://pisarion3000.pl/deal/21wf89q3qvayhd9 ➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwestora: https://l…",
       "url": "https://www.youtube.com/watch?v=G0nvPKlF13Q",
       "published_at": "2026-10-01T13:17:31Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/G0nvPKlF13Q/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/G0nvPKlF13Q/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "93b0c968efdd72d4dff57e61006233271fad29fbdcd12f60b225141932f0c8c0",
@@ -5144,7 +6000,8 @@
       "summary": "Targi technologii - relacja. Pierwsza edycja naszych targów już za nami. Stadion Chorten Arena w Białymstoku w dniach 26-27 września 2026 r. po raz pierwszy zamienił się w przestrzeń wypełnioną nowymi technologiami. Stoiska wystawców były dopiero początkiem, bo obok nich na naszej scenie można było posłuchać ciekawych…",
       "url": "https://www.youtube.com/watch?v=gsrlOZ3Z-Lk",
       "published_at": "2026-10-01T12:38:30Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/gsrlOZ3Z-Lk/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/gsrlOZ3Z-Lk/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "ba5b0960fb79584e0c51dcd1bfa649bba95e6721474fba4a7da9f8375ca0fecd",
@@ -5156,7 +6013,8 @@
       "summary": "Targi technologii - relacja. Pierwsza edycja naszych targów już za nami. Stadion Chorten Arena w Białymstoku w dniach 26-27 września 2026 r. po raz pierwszy zamienił się w przestrzeń wypełnioną nowymi technologiami. Stoiska wystawców były dopiero początkiem, bo obok nich na naszej scenie można było posłuchać ciekawych…",
       "url": "https://www.youtube.com/watch?v=hHeTRYx-e3w",
       "published_at": "2026-10-01T11:57:02Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/hHeTRYx-e3w/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/hHeTRYx-e3w/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "9f3bb79b71b6c1b7443c37b43c32352e432750600dcabd62b98f52fa2da65d17",
@@ -5268,7 +6126,8 @@
       "summary": "➡️ Huawei Watch D3 w Komputronik: https://ktr.fan/huaweiwatchd3_kacperlipski Huawei Watch D3, czyli smartwatch z wbudowanym ciśnieniomierzem Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVEL-KacperLipski ➡️ Znajdź najlepszy sprzęt w niższych cenach: https://k…",
       "url": "https://www.youtube.com/watch?v=yn2H4-ReMj4",
       "published_at": "2026-10-01T09:00:27Z",
-      "thumbnail_url": "https://i.ytimg.com/vi/yn2H4-ReMj4/mqdefault.jpg"
+      "thumbnail_url": "https://i.ytimg.com/vi/yn2H4-ReMj4/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     },
     {
       "id": "b31222364ecb90af413d7d65eedc933466d54bce4eba35408a89a45ccdda48d1",
@@ -5436,6 +6295,496 @@
       "published_at": "2026-09-30T22:18:15+00:00",
       "matched_keywords": [],
       "priority": false
+    },
+    {
+      "id": "3bd4b32dd8f4058ab54a16bb39fa9377bb5cb0a39395ce25ba5329b9c18b23f8",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Wielkie nowe gierki, DualSense z terminalem płatniczym i nowości z GTA VI",
+      "summary": "Podeślij tip jak masz ochotę: https://tipply.pl/@pisarion3000 Moja strona z promocjami: https://pisarion3000.pl ➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwes…",
+      "url": "https://www.youtube.com/watch?v=R8bmgzWYVAE",
+      "published_at": "2026-09-30T18:53:07Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/R8bmgzWYVAE/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "b74b7ac75ed7f61cdfc02f92857b6f592e578018e848a07c5b2100dcb1832d88",
+      "source": "Zmaslo",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Próbuję grać na FreeBSD...",
+      "summary": "Omawiana Szafa 10\": https://bit.ly/lanberg-open-rack-or10 W dzisiejszym filmie będę próbował grać na systemie FreeBSD. Będzie to też fajny pretekst żeby ogólnie o systemach z rodziny BSD opowiedzieć. Jakie wyzwania na mnie czekają i jaki producent GPU oficjalnie wspiera ten system - tego dowiecie się z filmu. Oficjaln…",
+      "url": "https://www.youtube.com/watch?v=kXHafxT9UOI",
+      "published_at": "2026-09-30T14:00:07Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/kXHafxT9UOI/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "1611c14ff0e4288466dd9fcf970375acc53e5e03defd567444643d0012bab3c8",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Im więcej wiem o GTA VI, tym mniej rozumiem ten cyrk",
+      "summary": "➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwestora: https://link-pso.xtb.com/pso/jTdYG Inwestowanie jest ryzykowne. Inwestuj odpowiedzialnie. Film jest fragme…",
+      "url": "https://www.youtube.com/watch?v=Z2GNQeWO_mk",
+      "published_at": "2026-09-30T13:03:07Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/Z2GNQeWO_mk/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "63053eb51efd2dbf96a192a5d9f84ae9c5a9a48e08fc814f8342a6ab5fc1dabf",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Co zmienia RGB w telewizorze?",
+      "summary": "Namnożyło się nam technologii wyświetlania obrazu w telewizorach, więc w tym materiale tłumaczymy, czym one w zasadzie się od siebie różnią, a przede wszystkim, czym różni się Mini LED od RGB Mini LED. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=…",
+      "url": "https://www.youtube.com/watch?v=N0X1lnyMxY4",
+      "published_at": "2026-09-30T12:34:47Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/N0X1lnyMxY4/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "01f5263d3aceaac5bf0c39bddf4c3618436fa06bf6ead28aaa990a7e0cbf2f74",
+      "source": "NieAntyFan",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Galaxy S27 Ultra nadchodzi, Xiaomi 18 Pro i Apple Watch nas podsłuchuje",
+      "summary": "➡️ Akcesoria ZAGG dostępne tutaj: https://pancernik.eu/zagg ➡️ iPhone 17 Pro w świetnej cenie: https://ktr.fan/iphone17pronieanty ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo ➡️ 20% zniżki na produkty u Cyrulików: https://cyrulicy.pl/ ➡️ 20% zniżki na produkty Soppo: https://soppocosmetics.co…",
+      "url": "https://www.youtube.com/watch?v=N4gZYWFZN20",
+      "published_at": "2026-09-29T16:03:58Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/N4gZYWFZN20/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "38ea3c5464f574dd4e16635c20e47b7a298a05bfcf5c8fceaa84a7f95dfe62f8",
+      "source": "CD-Action",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Katolicka gra zrobiona na odp**rdol",
+      "summary": "Streamujemy na: https://twitch.tv/cdaction Zapisy streamów: @cdactionklipy Discord: https://discord.com/invite/TwFpFKumNy Prowadzenie i scenariusz: Dawid „spikain\" Bojarski (http://dawid.omg.lol) Montaż: Piotr Rycąbel",
+      "url": "https://www.youtube.com/watch?v=dxUYILQl9yU",
+      "published_at": "2026-09-29T14:20:55Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/dxUYILQl9yU/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "ba6933e57ede1c74697f8b2f92644a927434f9254bed745c8d55b563558da461",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Jak kupić laptop w 2026 r. i NIE ŻAŁOWAĆ?",
+      "summary": "W dobie rosnących cen elektroniki każdy zakup to wyzwanie. Podpowiadamy, jak wybrać laptopa w 2026 r., żeby nie żałować i żeby nadawał się do wszystkiego - zarówno na powrót do szkoły, na studia, do gier jak i do pracy. ⭐️ Partner odcinka: ASUS ⭐️ 👉 ASUS ROG Zephyrus G14: https://rog.asus.com/pl/laptops/rog-zephyrus/r…",
+      "url": "https://www.youtube.com/watch?v=5n1jDC3pywc",
+      "published_at": "2026-09-29T12:54:41Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/5n1jDC3pywc/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "6d4aab63dbcdf4ac32030d68bdd147bd62a424645cb45157712c78e6a9f781a8",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Wiedźmin 3 Remaster na Switcha 2 jest super, ale nie kupuj",
+      "summary": "Sprawdziłem jak działa Wiedźmin 3 w wersji remaster na Nintendo Switch 2. ➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwestora: https://link-pso.xtb.com/pso/jTd…",
+      "url": "https://www.youtube.com/watch?v=VsJctUdG0rA",
+      "published_at": "2026-09-29T11:58:16Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/VsJctUdG0rA/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "40b3e9f8e898c6b94aab191264265d8f2b8ccac03f3c6ec8c9b66a59f0424baf",
+      "source": "Komputer Świat",
+      "source_type": "news",
+      "category": "Tech",
+      "language": "pl",
+      "title": "Aplikacja WhatsApp doczeka się zmian. Są pierwsze informacje",
+      "summary": "W najbliższych tygodniach aplikacja WhatsApp w wersji na Androida powinna doczekać się zmian w kwestii interfejsu. Nowości doczeka się przede wszystkim pasek",
+      "summary_pl": "",
+      "url": "https://www.komputerswiat.pl/programy-i-aplikacje/aplikacje-na-telefon/aplikacja-whatsapp-doczeka-sie-zmian-sa-pierwsze-informacje/exgv3yv",
+      "published_at": "2026-09-29T06:10:00+00:00",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "c00c911744eef128b9558b43677e7efc2fc03f90b22104c5e0975576a9f47cd1",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Czy można być graczem po 30stce?",
+      "summary": "Czy można być graczem po 30stce? Można, nikt tego nie sprawdza. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=influencer&utm_medium=youtube&utm_campaign=Kanalotechnologii2026&utm_term=Kanalotechnologii&utm_content=Other%20public%20kot%2026 #Asus #G…",
+      "url": "https://www.youtube.com/watch?v=VyAGUGHp_Ek",
+      "published_at": "2026-09-28T15:58:46Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/VyAGUGHp_Ek/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "a71eebd88ac76428d1d0ecd30c2809b8e2f09dd58976d356871760a74a14b467",
+      "source": "Kuba Klawiter",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Nowa rozrywka - robot go bije | Tech Week",
+      "summary": "O Hostingerze więcej możecie dowiedzieć się tu: http://hostinger.com/klawiaturaibuilder Znośne newsy (pisane przez człowieka, nie żadne AI!): https://znosnenewsy.pl Znośna kawa: https://znosne.pl W odcinku: 00:00 Wstęp 00:05 Dobry wieczór! 00:09 AirPods 5 i iPhone 18 Pro - uzupełnienie recenzji 01:01 Donald Trump zmie…",
+      "url": "https://www.youtube.com/watch?v=0TfmQVVP-W8",
+      "published_at": "2026-09-27T18:06:43Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/0TfmQVVP-W8/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "d2c1525b2b71575958c043527ffdbc761bc1b136f83bccad0549c9bffe44167c",
+      "source": "NieAntyFan",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "AirPods 5: jedyny produkt, który potaniał!",
+      "summary": "➡️ iPhone 17 Pro w świetnej cenie: https://ktr.fan/iphone17pronieanty ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 📱 Smartfony: https://ktr.fan/telefony_nieantyfan 💻 Laptopy i tablety: https://ktr.fan/laptopy_nieantyfan 🖥 Komputery stacjonarne: https://ktr.fan/pc_nieantyfan Partnerami kanału…",
+      "url": "https://www.youtube.com/watch?v=Stygw9me1Kg",
+      "published_at": "2026-09-27T14:00:35Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/Stygw9me1Kg/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "bfbc10ce61cf0cc10ab936c8f13c02bc276373a0cd706af5f7635a8a023fa5ea",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Obudowa z motywem GTA do kontrolera PS5 za $57.05 / ~219zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/obudowa-z-motywem-gta-do-kontrolera-ps5/",
+      "published_at": "2026-09-27T11:01:53+00:00",
+      "matched_keywords": [
+        "PS5"
+      ],
+      "price": "219zł",
+      "active": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "ef2471452cb5cc66f87e21c7b340732f5aa6f86825959885254e4046f271693d",
+      "source": "NieAntyFan",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "iPhone 18 Pro vs 17 Pro: wrzuć tu mem o spidermanie",
+      "summary": "➡️ iPhone 17 Pro w świetnej cenie: https://ktr.fan/iphone17pronieanty ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 📱 Smartfony: https://ktr.fan/telefony_nieantyfan 💻 Laptopy i tablety: https://ktr.fan/laptopy_nieantyfan 🖥 Komputery stacjonarne: https://ktr.fan/pc_nieantyfan Partnerami kanału…",
+      "url": "https://www.youtube.com/watch?v=lwkxNf9MkMg",
+      "published_at": "2026-09-27T07:00:06Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/lwkxNf9MkMg/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "7af6cf257d5de1d680aabae2c652dd2d6aea13e5d08eff61dd61516efaa2ff62",
+      "source": "NieAntyFan",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "PlayStation 4 za 2000 zł xd xd xd",
+      "summary": "➡️ iPhone 17 Pro w świetnej cenie: https://ktr.fan/iphone17pronieanty ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 📱 Smartfony: https://ktr.fan/telefony_nieantyfan 💻 Laptopy i tablety: https://ktr.fan/laptopy_nieantyfan 🖥 Komputery stacjonarne: https://ktr.fan/pc_nieantyfan Partnerami kanału…",
+      "url": "https://www.youtube.com/watch?v=VjPA5V32E0o",
+      "published_at": "2026-09-26T14:00:33Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/VjPA5V32E0o/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "876cd43e8a6eccb65403b6581806f18ab52e0ed45efb62c9884634acfecc48a0",
+      "source": "NieAntyFan",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "iPhone 18 Pro: kupiłem, zobaczyłem, sprzedam | RECENZJA",
+      "summary": "➡️ iPhone 17 Pro w świetnej cenie: https://ktr.fan/iphone17pronieanty ➡️ iPhone 18 Pro/ Duo w przedsprzedaży: https://ktr.fan/iphone18produo 🚗 Inter Cars: https://intercars.pl ➡️ 20% zniżki na produkty u Cyrulików: https://cyrulicy.pl/ ➡️ 20% zniżki na produkty Soppo: https://soppocosmetics.com/ ✅ KOD ZNIŻKOWY: nieant…",
+      "url": "https://www.youtube.com/watch?v=DpdOtdQEb0A",
+      "published_at": "2026-09-26T07:00:37Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/DpdOtdQEb0A/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "f6b1319f933834c764aad3d7c1a90ad739f1054cd7182be78c734379f92c80c5",
+      "source": "Quaz",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Marvel's Wolverine - recenzja quaza",
+      "summary": "Grę do testów dostałem od wydawcy. Recenzja gry Marvel's Wolverine (Insomniac Games/Sony Interactive Entertainment) wydanej na PlayStation 5. Rozgrywka nagrana w wersji PS5, nie PS5 Pro. Montaż: Janek \"Sanity\" Kufirski (całość) i Tomek Drabik (zmiany). Muzyka w tle pochodzi z recenzowanej gry. Wstęp 0:00 Treść 1:16 Ro…",
+      "url": "https://www.youtube.com/watch?v=dh4rGoJUKqk",
+      "published_at": "2026-09-25T14:52:29Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/dh4rGoJUKqk/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "2f3aac6efcc94a64a3672143f47d7343b624fe33bf288020ddc87cc0bb7827d2",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Ale to ty dzwonisz",
+      "summary": "Targi technologii już w ten weekend w Białymstoku. Wstęp wolny. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=influencer&utm_medium=youtube&utm_campaign=Kanalotechnologii2026&utm_term=Kanalotechnologii&utm_content=Other%20public%20kot%2026 #TargiTe…",
+      "url": "https://www.youtube.com/watch?v=oQRrDOdoltk",
+      "published_at": "2026-09-25T14:41:01Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/oQRrDOdoltk/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "0dd0fb09a1874dbfc4d2ff757708dec3bcc77e2d8490d5070b6c3ac9a52e740d",
+      "source": "Kacper Lipski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Spotkajmy się w Białymstoku!",
+      "summary": "Już w ten weekend (26-27.09) na stadionie Chorten Arena w Białymstoku odbędą się Targi Technologii. Ja też się na nie wybieram. Wpadajcie, będzie można zobaczyć ciekawe rzeczy, pograć, przybić piątkę i pogadać. Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVE…",
+      "url": "https://www.youtube.com/watch?v=ezGqKXBXZDM",
+      "published_at": "2026-09-25T14:13:41Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/ezGqKXBXZDM/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "dc114a1534204c5111ea13cf723c434cb34be15b3421aa59657c080ce1425b07",
+      "source": "Kacper Lipski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Cyberpunk 2077 na... smartfonie?! 😮",
+      "summary": "Pewien użytkownik reddita zdołał uruchomić Cyberpunka 2077 na iPhonie 17 Pro Max. Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVEL-KacperLipski ➡️ Obecnie trwa też promocja, w ramach której z kodem \"WIECEJMOCY\" dostaniesz aż 7% rabatu na 5 wybranych modeli.…",
+      "url": "https://www.youtube.com/watch?v=vEtxI6cy2ng",
+      "published_at": "2026-09-25T13:28:12Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/vEtxI6cy2ng/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "890a6632e14509c151661ef5dbeb14f0e65497c8e4849d02798c99f5b54ce2f7",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Xbox zmienia wszystko... Teraz już serio.",
+      "summary": "➡️ Sponsorem materiału jest platforma samochodowa. Sprawdź i wymień stary na nowy!: https://vehis.pl/zobacz/michalpisarskiwsnn Film jest fragmentem transmisji na żywo, którą prowadziłem na kanale. Wbijajcie na mojego Twitcha lub oglądajcie tutaj! --------- 💵 Oszczędzaj i kupuj gry i sprzęt taniej z moją stroną https:/…",
+      "url": "https://www.youtube.com/watch?v=2SunozMBZ0Y",
+      "published_at": "2026-09-25T13:18:48Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/2SunozMBZ0Y/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "5dc0d16c2705f0cc983338018d5a26069a530ccccaeafc17b1436d871789e3c3",
+      "source": "arhn.eu",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Gruniożerca Trilogy fizycznie na PS5 + steelcase! #autopromocja",
+      "summary": "AUTOPROMOCJA fizycznego wydania Gruniożerca Trilogy! Kup w Empiku: https://www.empik.com/gruniozerca-trilogy-take-it-studio,p1795382971,multimedia-p?mpShopId=0 Kup w Kramiku: https://sklep.ar.hn/products/gruniozerca-trilogy-ps5 Materiał przygotował: Arkadiusz \"Archon\" Kamiński 🐸🐸🐸 ᴀʀʜɴ.ᴇᴜ istnieje dzięki Waszemu wspar…",
+      "url": "https://www.youtube.com/watch?v=YyuvlB41jT0",
+      "published_at": "2026-09-25T12:49:01Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/YyuvlB41jT0/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "6f84dcd02bdab75cb2d2449f6bfc8311a29cc0b0278ef4ff8002bf4f81524e20",
+      "source": "Kanał o technologii",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Ten smartwatch ma prawdziwy ciśnieniomierz",
+      "summary": "Huawei Watch D3 to smartwatch wyposażony w ciśnieniomierz z certyfikatem medycznym. Poza tym wygląda i działa jak nowoczesny inteligentny zegarek Huaweia. ❤️ Partnerem kanału jest Neonet ❤️ 🔗 Kliknij i sprawdź aktualną ofertę: https://www.neonet.pl?sm=newmedia&utm_source=influencer&utm_medium=youtube&utm_campaign=Kana…",
+      "url": "https://www.youtube.com/watch?v=YnReMv_Fr08",
+      "published_at": "2026-09-25T05:27:51Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/YnReMv_Fr08/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "faad3f677ff5b984ce8342e13247213555a0e66b144838817ece1bce188cf6c6",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Historia się powtarza: nie stać nas na nowe konsole",
+      "summary": "Film jest fragmentem transmisji na żywo, którą prowadziłem na kanale. Wbijajcie na mojego Twitcha lub oglądajcie tutaj! --------- 💵 Oszczędzaj i kupuj gry i sprzęt taniej z moją stroną https://pisarion3000.pl ➡️ Wpadaj na Patronite: https://patronite.pl/pisarion3000 ➡️ Twitch: https://twitch.tv/pisarion3000 ---------…",
+      "url": "https://www.youtube.com/watch?v=N3V_aV3HtYM",
+      "published_at": "2026-09-24T19:09:52Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/N3V_aV3HtYM/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "21791bce255b787d2c8a62ef557f27149514678fd0799d91107235733b6a1b0e",
+      "source": "Michał Pisarski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Trzęsienie ziemi w Xboxie, PlayStation płaci za zakupy, powrót tanich konsol",
+      "summary": "Podeślij tip jak masz ochotę: https://tipply.pl/@pisarion3000 Moja strona z promocjami: https://pisarion3000.pl ➡️ Inwestuj w XTB - polskiej aplikacji inwestycyjnej, w której możesz inwestować w spółki i akcje z sektora gamingowego. Przy rejestracji wpisz kod “PISARION3000” i odbierz materiały dla początkującego inwes…",
+      "url": "https://www.youtube.com/watch?v=45anPnP4H30",
+      "published_at": "2026-09-24T12:29:17Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/45anPnP4H30/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "98879a87076481685272ed258e0b8f0a3296041b7e92f1618112a3d7835bce12",
+      "source": "arhn.eu",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Marvel's Wolverine [PS5] | recenzja arhn.eu",
+      "summary": "Ostatni dzwonek na krążek z pełniakami: https://sklep.ar.hn/collections/preorder [autopromocja] Marvel's Wolverine miał być kolejną głośną grą na wyłączność dla PlayStation 5. Czymś, czego sprzęt ten bardzo w tym momencie potrzebuje. Insomniac dowiózł jednak tym razem produkt, który stoi gdzieś w rozkroku. Choć na pew…",
+      "url": "https://www.youtube.com/watch?v=hkUBBoyoEq4",
+      "published_at": "2026-09-22T18:18:02Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/hkUBBoyoEq4/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "38f61397905fee9a09838b568b79d3fa3d5a906e40bc77c0c495afd36828c403",
+      "source": "Quaz",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "The Blood of Dawnwalker - recenzja quaza",
+      "summary": "Grę do testów dostałem od wydawcy. Recenzja gry The Blood of Dawnwalker (Rebel Wolves/Bandai Namco Entertainment) w wersji na PC (Win). Gra wyszła też na PlayStation 5 i Xbox Series X/S. Montaż: Janek \"Sanity\" Kufirski (całość) i Tomek Drabik (zmiany). Muzyka w tle pochodzi z recenzowanej gry. Wstęp 0:00 Fabuła 1:41 S…",
+      "url": "https://www.youtube.com/watch?v=1a5gfGjqTcE",
+      "published_at": "2026-09-22T14:20:24Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/1a5gfGjqTcE/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "cbea04e390ed85d619c9d64e0a301eabcca3ec65cc498c6e7e137debd74603f5",
+      "source": "Kuba Klawiter",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Sprawdzam nowe produkty Apple i zamówiłem te głupie okulary | Tech Week",
+      "summary": "Dzisiejszy odcinek zawiera lokowanie dystrybutora Alstor. Znośne newsy (pisane przez człowieka, nie żadne AI!) poczytacie tu: https://znosnenewsy.pl A kawkę możecie kupić tu: https://znosne.pl 00:00 Dziś w odcinku… 00:45 Dobry wieczór! 00:49 AirPods 5 vs AirPods Pro 3 - porównanie ANC 04:12 Apple Watch 12 vs Apple Wat…",
+      "url": "https://www.youtube.com/watch?v=8HmNetxqIZ4",
+      "published_at": "2026-09-20T18:04:17Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/8HmNetxqIZ4/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "fa64cf1c5ecb8b349783093a8124897a89b21de61a0c1273bcdee9ee9d04e4dd",
+      "source": "arhn.eu",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Pokémon Moja Dupa",
+      "summary": "Ostatni dzwonek na krążek z pełniakami: https://sklep.ar.hn/collections/preorder [autopromocja] Pokaż dupę. Materiał przygotował: Arkadiusz \"Archon\" Kamiński 🐸🐸🐸 ᴀʀʜɴ.ᴇᴜ istnieje dzięki Waszemu wsparciu: https://ar.hn/wsparcie/ Mamy sklepik: https://sklep.ar.hn WWW: https://ar.hn ​ Discord: https://discord.gg/arhneu ​…",
+      "url": "https://www.youtube.com/watch?v=hjBpcekaqcs",
+      "published_at": "2026-09-19T11:57:42Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/hjBpcekaqcs/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "ff8824c462cedbb9377f71c8c5c994553d31dcd8aee277fedf01933ff56a8094",
+      "source": "Kacper Lipski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Rockstar udaje, że ta gra NIE ISTNIEJE. Max Payne 3 po 14 latach",
+      "summary": "Partnerem filmu jest ASUS. ➡️ Sprawdź monitor ROG Swift OLED PG32UCWM: https://pl.rog.gg/z51dnv Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVEL-KacperLipski ➡️ Obecnie trwa też promocja, w ramach której z kodem \"WIECEJMOCY\" dostaniesz aż 7% rabatu na 5 wybr…",
+      "url": "https://www.youtube.com/watch?v=JYNCdyELuRE",
+      "published_at": "2026-09-19T09:00:11Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/JYNCdyELuRE/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "8412ea69b27bacd7ba4f03a38995f89c6990cd495cc19107408b675b78841063",
+      "source": "CD-Action",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Co się dzieje z Blizzard Entertainment?",
+      "summary": "Jako fan dokonań Blizzarda czuję, że to już nie to samo. Też tak macie? :| Streamujemy na: https://twitch.tv/cdaction Discord: https://discord.com/invite/TwFpFKumNy Prowadzenie i scenariusz: Krzysztof „Bastian” Freudenberger (http://twitter.com/BastianCDA) Montaż: Mateusz Pietrasiak",
+      "url": "https://www.youtube.com/watch?v=2ayBke7pO7w",
+      "published_at": "2026-09-17T20:08:35Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/2ayBke7pO7w/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "86327bc1907e6dac578db5d860b9ae7f7fc768f4b9cc0e86be9df9da35eaa4a3",
+      "source": "Kacper Lipski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Wreszcie smartwatch dla normalnego chłopa po trzydziestce",
+      "summary": "➡️ Huawei Watch D3 w Komputronik: https://ktr.fan/huaweiwatchd3_kacperlipski Wreszcie smartwatch dla normalnego chłopa po trzydziestce. Zaczynam testy Huawei Watch D3, jak macie jakieś pytania, to piszcie śmiało. Postaram się odpowiedzieć. ➡️ Znajdź najlepszy sprzęt w niższych cenach: https://ktr.fan/hity_miesiaca_kac…",
+      "url": "https://www.youtube.com/watch?v=9SIogRstfl0",
+      "published_at": "2026-09-17T19:11:08Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/9SIogRstfl0/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "c47b9fa8942d47ce5baf1e52f525a8d0fce63f5f5e996ae3bb0d5112aff7e2c4",
+      "source": "Zmaslo",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "PSX czyli to DZIWNE PlayStation",
+      "summary": "Promocja Genesis: https://go.genesis-zone.com/wr2zmaslo Dziś zajmiemy się chyba najdziwniejszym PlayStation jakie powstało czyli PSX DVR. Był to multimedialny kombajn który łączył PlayStation 2 ze sprzętem do nagrywania telewizji i VHS. W filmie postaramy się przygotować sprzęt do działania na 230V oraz wykonamy kilka…",
+      "url": "https://www.youtube.com/watch?v=eaUfUI2Mfmg",
+      "published_at": "2026-09-15T14:00:04Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/eaUfUI2Mfmg/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "a7d74fb3e8011e18fd32060a3413cb99560506d2fecacb54e90c827a53ad819a",
+      "source": "ŁowcyChin",
+      "source_type": "deal",
+      "category": "Okazje",
+      "language": "pl",
+      "title": "Konsola Sony Playstation 5 PS5 Slim z napędem z Polski za $700.33 / ~2688zł",
+      "summary": "",
+      "url": "https://www.lowcychin.pl/sony-playstation-5/",
+      "published_at": "2026-09-15T12:24:45+00:00",
+      "matched_keywords": [
+        "PS5",
+        "PlayStation"
+      ],
+      "price": "2688zł",
+      "active": true,
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "feec1ab9a7bcd8a0388e08936c2c044c570332d6f34ba7ceaf300c44f1556f51",
+      "source": "arhn.eu",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Orbitals [Switch 2] | recenzja arhn.eu",
+      "summary": "Ostatni dzwonek na krążek z pełniakami: https://sklep.ar.hn/collections/preorder [autopromocja] Orbitals to kooperacyjna gra przygodowa autorstwa japońskiego studia Shapefarm. Inspirowana kultowymi anime początku lat 80 wrzuca nas w wir kosmicznej przygody. Nas, czyli dwóch graczy, bo jest to przygoda skrojona specjal…",
+      "url": "https://www.youtube.com/watch?v=ZsJozHZXy-U",
+      "published_at": "2026-09-14T15:09:16Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/ZsJozHZXy-U/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "1c5588095cd6f3ae38fc80b302931d0366e96458acf89c539008f1e25eee7c73",
+      "source": "Kuba Klawiter",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Którego iPhone'a wybrać i czy żałuję wydania 2 tysięcy na szczoteczkę Dysona? Tech Week",
+      "summary": "Mycie zębów nigdy nie było tak angażujące. Za to kupowanie iPhone'ów jak najbardziej. Film zawiera fragment sponsorowany Media Expert - szczegóły akcji, takie jak odkup starego smartfona, dostępne są w regulaminie sklepu, a najnowszą ofertę znajdziecie tutaj: https://bit.ly/4ysOqRA Dziś w odcinku: 00:00 Wstęp 00:30 Do…",
+      "url": "https://www.youtube.com/watch?v=_uH1jpZKZBc",
+      "published_at": "2026-09-13T17:59:07Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/_uH1jpZKZBc/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
+    },
+    {
+      "id": "b0815e88cd233cd4d6b960126a1f353df41b03b93a0e6f41a29ae03654317666",
+      "source": "Kacper Lipski",
+      "source_type": "youtube",
+      "category": "YouTube",
+      "language": "pl",
+      "title": "Ta rzecz w tablecie naprawdę ROBI RÓŻNICĘ",
+      "summary": "➡️ Huawei MatePad Pro Max w Komputronik: https://ktr.fan/huaweimatepadpromax_kacperlipski Głównym partnerem kanału jest Komputronik. ➡️ Sprawdź komputery Level w Komputronik: https://ktr.fan/PC-LEVEL-KacperLipski ➡️ Obecnie trwa też promocja, w ramach której z kodem \"WIECEJMOCY\" dostaniesz aż 7% rabatu na 5 wybranych…",
+      "url": "https://www.youtube.com/watch?v=dbCjyoDyDxg",
+      "published_at": "2026-09-13T15:21:25Z",
+      "thumbnail_url": "https://i.ytimg.com/vi/dbCjyoDyDxg/mqdefault.jpg",
+      "first_seen_at": "2026-10-06T09:21:35.800299+00:00"
     }
   ]
 }
