@@ -3,15 +3,18 @@ from __future__ import annotations
 import hashlib
 import html
 import json
+import math
 import os
 import re
 import sys
 import time
+import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote_plus, urljoin, urlparse
+from zoneinfo import ZoneInfo
 
 import feedparser
 import requests
@@ -169,7 +172,7 @@ def clean_text(value: str | None, max_length: int = 320) -> str:
 def make_id(source: str, stable: str) -> str:
     return hashlib.sha256(f"{source}|{stable}".encode("utf-8")).hexdigest()
 
-def published_iso(entry) -> str:
+def published_iso(entry) -> str | None:
     # feedparser already normalizes Atom/RSS dates when possible.
     for field in ("published_parsed", "updated_parsed", "created_parsed"):
         parsed = entry.get(field)
@@ -203,12 +206,30 @@ def published_iso(entry) -> str:
         except (TypeError, ValueError, OverflowError):
             pass
 
-    return datetime.now(timezone.utc).isoformat()
+    return None
+
+
+def fetch_rss(url: str, name: str, attempts: int = 1):
+    """Bound requests and treat empty/blocked feeds as unavailable, not successful."""
+    for attempt in range(attempts):
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=20)
+            response.raise_for_status()
+            parsed = feedparser.parse(response.content)
+            if parsed.entries:
+                return parsed
+            print(f"[WARN] {name}: empty or invalid feed (HTTP {response.status_code})")
+        except requests.RequestException as exc:
+            status = exc.response.status_code if exc.response is not None else "network"
+            print(f"[WARN] {name}: feed unavailable ({status})")
+        if attempt + 1 < attempts:
+            time.sleep(8)
+    print(f"[ERROR] {name}: no entries; keeping previous items")
+    return None
 
 def collect_rss(source) -> list[dict]:
-    parsed = feedparser.parse(source["url"], request_headers=HEADERS)
-    if parsed.bozo and not parsed.entries:
-        print(f"[ERROR] {source['name']}: {parsed.bozo_exception}")
+    parsed = fetch_rss(source["url"], source["name"])
+    if parsed is None:
         return []
     items = []
     for entry in parsed.entries[:50]:
@@ -232,33 +253,33 @@ def collect_rss(source) -> list[dict]:
     return items
 
 
-def _parse_datetime_value(raw: str) -> str | None:
+def _parse_datetime_value(raw: str, default_tz=timezone.utc) -> str | None:
     raw = str(raw).strip()
     if not raw:
         return None
     try:
         dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+            dt = dt.replace(tzinfo=default_tz)
         return dt.astimezone(timezone.utc).isoformat()
     except ValueError:
         return None
 
 
-def _find_json_date(value) -> str | None:
+def _find_json_date(value, default_tz=timezone.utc) -> str | None:
     if isinstance(value, dict):
         for key in ("datePublished", "dateCreated", "uploadDate", "dateModified"):
             if value.get(key):
-                parsed = _parse_datetime_value(value[key])
+                parsed = _parse_datetime_value(value[key], default_tz)
                 if parsed:
                     return parsed
         for child in value.values():
-            parsed = _find_json_date(child)
+            parsed = _find_json_date(child, default_tz)
             if parsed:
                 return parsed
     elif isinstance(value, list):
         for child in value:
-            parsed = _find_json_date(child)
+            parsed = _find_json_date(child, default_tz)
             if parsed:
                 return parsed
     return None
@@ -287,7 +308,7 @@ def _relative_time_to_iso(text: str) -> str | None:
     return None
 
 
-def extract_published_from_soup(soup: BeautifulSoup) -> str | None:
+def extract_published_from_soup(soup: BeautifulSoup, default_tz=timezone.utc) -> str | None:
     # Common OpenGraph/article metadata.
     for attrs in (
         {"property": "article:published_time"},
@@ -299,14 +320,14 @@ def extract_published_from_soup(soup: BeautifulSoup) -> str | None:
     ):
         tag = soup.find("meta", attrs=attrs)
         if tag and tag.get("content"):
-            parsed = _parse_datetime_value(tag.get("content"))
+            parsed = _parse_datetime_value(tag.get("content"), default_tz)
             if parsed:
                 return parsed
 
     # <time datetime="...">
     for tag in soup.find_all("time"):
         raw = (tag.get("datetime") or tag.get("content") or "").strip()
-        parsed = _parse_datetime_value(raw)
+        parsed = _parse_datetime_value(raw, default_tz)
         if parsed:
             return parsed
 
@@ -319,7 +340,7 @@ def extract_published_from_soup(soup: BeautifulSoup) -> str | None:
             payload = json.loads(raw)
         except (json.JSONDecodeError, TypeError):
             continue
-        parsed = _find_json_date(payload)
+        parsed = _find_json_date(payload, default_tz)
         if parsed:
             return parsed
 
@@ -351,10 +372,10 @@ def collect_html(source) -> list[dict]:
             yesterday_match = re.search(r"Wczoraj\s*,?\s*(\d{1,2}):(\d{2})", raw_title, flags=re.I)
             if today_match or yesterday_match:
                 m = today_match or yesterday_match
-                local_now = datetime.now().astimezone()
+                local_now = datetime.now(ZoneInfo("Europe/Warsaw"))
                 local_date = local_now.date()
                 if yesterday_match:
-                    local_date = datetime.fromtimestamp(local_now.timestamp() - 86400).date()
+                    local_date -= timedelta(days=1)
                 local_dt = datetime.combine(local_date, datetime.min.time(), tzinfo=local_now.tzinfo).replace(
                     hour=int(m.group(1)), minute=int(m.group(2))
                 )
@@ -380,9 +401,10 @@ def collect_html(source) -> list[dict]:
         summary = ""
         if body:
             detail_soup = BeautifulSoup(body, "html.parser")
-            published_at = extract_published_from_soup(detail_soup) or meta.get("published_at")
+            source_tz = ZoneInfo("Europe/Warsaw") if source["language"] == "pl" else timezone.utc
+            published_at = extract_published_from_soup(detail_soup, source_tz) or meta.get("published_at")
 
-            if source["name"] == "CD-Action":
+            if source["name"] in {"CD-Action", "PPE"}:
                 canonical_title = extract_article_title(detail_soup)
                 if canonical_title:
                     title = canonical_title
@@ -415,13 +437,8 @@ def collect_reddit() -> list[dict]:
             # Reddit potrafi zwracać 429/403 przy kilku feedach odpytywanych seryjnie.
             time.sleep(3)
         url = f"https://www.reddit.com/r/{subreddit}/new/.rss"
-        parsed = feedparser.parse(url, request_headers=HEADERS)
-        if parsed.bozo and not parsed.entries:
-            print(f"[WARN] Reddit r/{subreddit}: first attempt failed: {parsed.bozo_exception}; retrying")
-            time.sleep(8)
-            parsed = feedparser.parse(url, request_headers=HEADERS)
-        if parsed.bozo and not parsed.entries:
-            print(f"[ERROR] Reddit r/{subreddit}: {parsed.bozo_exception}")
+        parsed = fetch_rss(url, f"Reddit r/{subreddit}", attempts=2)
+        if parsed is None:
             continue
 
         for entry in parsed.entries[:25]:
@@ -563,7 +580,7 @@ def read_game_watchlist() -> list[dict]:
         games.append({
             "steam_app_id": steam_app_id,
             "name": clean_text(str(raw.get("name") or ""), 180),
-            "xbox_play_anywhere": bool(raw.get("xbox_play_anywhere", False)),
+            "xbox_play_anywhere": bool(raw.get("xbox_play_anywhere", False) or raw.get("platform") == "xbox_play_anywhere"),
             "target_price": raw.get("target_price"),
         })
     return games
@@ -573,7 +590,8 @@ def _price_number(value):
     if value in (None, ""):
         return None
     try:
-        return float(value)
+        number = float(value)
+        return number if math.isfinite(number) and number >= 0 else None
     except (TypeError, ValueError):
         return None
 
@@ -616,7 +634,7 @@ def collect_ggdeals(games: list[dict]) -> list[dict]:
             response.raise_for_status()
             payload = response.json()
         except (requests.RequestException, ValueError) as exc:
-            print(f"[GG ERROR] price request failed: {exc}")
+            print(f"[GG ERROR] price request failed: {type(exc).__name__}")
             continue
 
         if not payload.get("success"):
@@ -1322,9 +1340,10 @@ def merge_items(existing: list[dict], fresh: list[dict]) -> list[dict]:
 
         # Always prefer the publication date from the source.
         # If a scraper could not read it this run, keep the previous source date;
-        # only brand-new undated items fall back to first-seen time.
+        # Keep first-seen separate: it is not a source publication date.
+        item["first_seen_at"] = previous.get("first_seen_at") or now
         if not item.get("published_at"):
-            item["published_at"] = previous.get("published_at") or now
+            item["published_at"] = previous.get("published_at")
 
         merged[item["id"]] = {**item, **preserve}
 
@@ -1332,7 +1351,7 @@ def merge_items(existing: list[dict], fresh: list[dict]) -> list[dict]:
         merged.values(),
         key=lambda item: item.get("published_at") or "",
         reverse=True,
-    )[:450]
+    )
 
 def enrich_with_ai(items: list[dict]) -> int:
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -1400,8 +1419,17 @@ def write_feed(items: list[dict]):
         "count": len(items),
         "items": items,
     }
-    with FEED_PATH.open("w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+    # A reader must see either the old complete feed or the new complete feed.
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=DATA_DIR,
+                                         suffix=".json.tmp", delete=False) as f:
+            temp_path = Path(f.name)
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        os.replace(temp_path, FEED_PATH)
+    finally:
+        if temp_path is not None and temp_path.exists():
+            temp_path.unlink()
     print(f"[SAVE] {len(items)} items -> {FEED_PATH}")
 
 def main():
@@ -1420,7 +1448,7 @@ def main():
 
     items = merge_items(read_existing(), fresh)
     before_filter = len(items)
-    items = [item for item in items if is_relevant_news(item)]
+    items = [item for item in items if is_relevant_news(item)][:450]
     print(f"[FILTER] kept {len(items)}/{before_filter} items after relevance filtering")
     enrich_with_ai(items)
     write_feed(items)
