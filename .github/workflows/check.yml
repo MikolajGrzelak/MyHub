@@ -1,0 +1,33 @@
+name: Check MyHub
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore: ['data/feed.json']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: collector-requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: pip install -r requirements.txt -r collector-requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium webkit
+      - run: npm test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: myhub-browser-results
+          path: test-results/
+          retention-days: 7

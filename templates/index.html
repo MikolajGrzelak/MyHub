@@ -1,269 +1,81 @@
+{% from '_icons.html' import icon %}
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#090909">
+  <meta name="theme-color" content="#0c0d12">
+  <meta name="description" content="Twój osobisty feed technologii, gamingu i okazji. News, Reddit, YouTube i ceny obserwowanych gier w jednym miejscu.">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="MyHub">
   <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
   <link rel="icon" href="{{ url_for('static', filename='icon.svg') }}" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="{{ url_for('static', filename='icon.svg') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
-  <title>MyHub</title>
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='icons/apple-touch-icon.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css', v=app_version) }}">
+  <script src="{{ url_for('static', filename='js/preferences.js', v=app_version) }}"></script>
+  <script src="{{ url_for('static', filename='js/app.js', v=app_version) }}" defer></script>
+  <title>{{ 'Zapisane' if view == 'saved' else section_title }} · MyHub</title>
 </head>
-<body>
-  <div class="pull-refresh" id="pullRefresh">Pociągnij, aby odświeżyć</div>
-  <main class="app-shell">
+<body data-section="{{ section }}" data-view="{{ view }}">
+  <a class="skip-link" href="#feed">Przejdź do treści</a>
+  <div class="pull-refresh" id="pullRefresh" role="status">Pociągnij, aby odświeżyć</div>
+  <div class="app-shell">
     <header class="app-header">
-      <div>
-        <p class="eyebrow">MY DAILY SIGNAL</p>
-        <h1>
-          {% if section == 'news' %}News
-          {% elif section == 'reddit' %}Reddit
-          {% elif section == 'youtube' %}YouTube
-          {% elif section == 'deal' %}Okazje
-          {% elif section == 'priority' %}Dla Ciebie
-          {% else %}MyHub{% endif %}
-        </h1>
+      <a class="brand" href="/" aria-label="MyHub — Start"><span class="brand-mark">m<span>h</span></span><span>myhub<span class="brand-dot">.</span></span></a>
+      <div class="header-actions">
+        <a class="icon-button saved-shortcut" href="{{ filter_url(view='saved', section=None, q=None, source=None, category=None, lang=None) }}" aria-label="Zapisane na później">{{ icon('bookmark') }}<span class="saved-count" id="savedCount" hidden>0</span></a>
+        <button class="icon-button" id="preferencesButton" type="button" aria-label="Ustawienia widoku">{{ icon('settings') }}</button>
       </div>
-      <span class="count-badge">{{ items|length }}</span>
     </header>
+    <main>
+      <section class="intro" aria-labelledby="pageTitle">
+        <p class="eyebrow">TECH. GAMING. TWOJE TEMATY.</p>
+        <h1 id="pageTitle">{{ 'Zapisane na później' if view == 'saved' else section_title }}<span class="title-dot">.</span></h1>
+        <p class="intro-description">{% if view == 'saved' %}Dobre treści zasługują na drugą chwilę.{% elif section == 'reddit' %}Rozmowy z Twoich społeczności. W oryginale.{% elif section == 'youtube' %}Nowe materiały z kanałów, które obserwujesz.{% elif section == 'deal' %}Obserwowane gry i sprzęt. Ceny z konkretnych źródeł.{% elif section == 'priority' %}Treści dopasowane do Twoich słów kluczowych i cen docelowych.{% else %}Mniej szumu. Więcej rzeczy, które Cię interesują.{% endif %}</p>
+        <div class="feed-status"><span class="status-dot{% if feed_error %} warning{% endif %}" id="statusDot"></span><span id="connectionStatus">{{ 'Ostatnia poprawna kopia danych' if feed_error else 'Ostatnie zebranie' }}</span>{% if updated_at %}<time id="updatedAt" data-date="{{ updated_at }}" datetime="{{ updated_at }}"></time>{% endif %}<button class="refresh-button" id="refreshButton" type="button" aria-label="Odśwież feed">{{ icon('refresh') }}</button></div>
+      </section>
 
-    <section class="quick-controls">
-      <div class="segmented">
-        <a class="{% if not language %}active{% endif %}" href="{% if section %}/?section={{ section }}{% else %}/{% endif %}">All</a>
-        <a class="{% if language == 'pl' %}active{% endif %}" href="/?{% if section %}section={{ section }}&{% endif %}lang=pl">PL</a>
-        <a class="{% if language == 'en' %}active{% endif %}" href="/?{% if section %}section={{ section }}&{% endif %}lang=en">EN</a>
-      </div>
-
-      <details class="filter-panel" {% if category or source %}open{% endif %}>
-        <summary>Filtry{% if category or source %}<span class="filter-dot"></span>{% endif %}</summary>
-        <form class="filters" method="get">
-          {% if language %}<input type="hidden" name="lang" value="{{ language }}">{% endif %}
-          {% if section %}<input type="hidden" name="section" value="{{ section }}">{% endif %}
-
-          <label>
-            <span>Kategoria</span>
-            <select name="category" onchange="this.form.submit()">
-              <option value="">Wszystkie</option>
-              <option value="Gaming" {% if category == 'Gaming' %}selected{% endif %}>Gaming</option>
-              <option value="Tech" {% if category == 'Tech' %}selected{% endif %}>Tech</option>
-            </select>
-          </label>
-
-          <label>
-            <span>Źródło</span>
-            <select name="source" onchange="this.form.submit()">
-              <option value="">Wszystkie źródła</option>
-              {% set source_meta = {
-                'news': ('📰', 'Newsy'),
-                'reddit': ('👽', 'Reddit'),
-                'youtube': ('▶️', 'YouTube'),
-                'deal': ('🏷️', 'Okazje')
-              } %}
-              {% set source_order = [section] if section in ['news','reddit','youtube','deal'] else ['news','reddit','youtube','deal'] %}
-              {% for group_key in source_order %}
-                {% if available_source_groups.get(group_key) %}
-                  {% set meta = source_meta[group_key] %}
-                  <optgroup label="{{ meta[0] }} {{ meta[1] }}">
-                    {% for s in available_source_groups[group_key] %}
-                      <option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ meta[0] }} {{ s }}</option>
-                    {% endfor %}
-                  </optgroup>
-                {% endif %}
-              {% endfor %}
-            </select>
-          </label>
-
-          {% if category or source %}
-            <a class="reset" href="/?{% if section %}section={{ section }}{% endif %}{% if language %}{% if section %}&{% endif %}lang={{ language }}{% endif %}">Wyczyść filtry</a>
-          {% endif %}
-        </form>
-      </details>
-    </section>
-
-    <section class="feed">
-      {% if items %}
-        {% for item in items %}
-        <article class="card" data-url="{{ item.url }}">
-          {% if item.thumbnail_url %}
-            <img class="thumb" src="{{ item.thumbnail_url }}" alt="" loading="lazy">
-          {% endif %}
-
-          <div class="meta">
-            <span class="source-line">
-              <span class="lang-pill">{{ 'PL' if item.language == 'pl' else 'EN' }}</span>
-              {{ item.source }}
-            </span>
-            {% if item.published_at %}
-              <time class="date" data-date="{{ item.published_at }}"></time>
-            {% endif %}
-          </div>
-
-          <h2>{{ item.title }}</h2>
-
-          {% if item.matched_keywords %}
-            <div class="match">🔥 {{ item.matched_keywords|join(' · ') }}</div>
-          {% endif %}
-
-          {% if item.source_type == 'deal' %}
-            <div class="deal-info">
-              {% if item.price %}<span class="deal-price">{{ item.price }}</span>{% endif %}
-              {% if item.temperature %}<span class="deal-temp">{{ item.temperature }}°</span>{% endif %}
-              {% if item.platform_label %}<span class="deal-active">{{ item.platform_label }}</span>{% else %}<span class="deal-active">aktywna</span>{% endif %}
-            </div>
-            {% if item.source == 'GG.deals' %}
-              <div class="match">
-                {% if item.retail_price %}Oficjalne: {{ item.retail_price }}{% endif %}
-                {% if item.keyshop_price %}{% if item.retail_price %} · {% endif %}Keyshop: {{ item.keyshop_price }}{% endif %}
-                {% if item.historical_price %} · Min.: {{ item.historical_price }}{% endif %}
-              </div>
-            {% endif %}
-          {% endif %}
-
-          {% if item.language == 'pl' %}
-            {% if item.summary %}<p class="summary-pl">{{ item.summary }}</p>{% endif %}
-          {% elif item.summary_pl %}
-            <p class="summary-pl">{{ item.summary_pl }}</p>
-          {% elif item.summary %}
-            <p>{{ item.summary }}</p>
-          {% endif %}
-
-          {% if item.tags %}
-            <div class="tags">
-              {% for tag in item.tags %}
-                <span class="tag">{{ tag }}</span>
-              {% endfor %}
-            </div>
-          {% endif %}
-
-          <div class="card-footer">
-            <span>{{ item.category }}</span>
-            <a class="open" href="{{ item.url }}">Otwórz ↗</a>
-          </div>
-        </article>
-        {% endfor %}
-      {% else %}
-        <article class="card empty">
-          <h2>Tu na razie pusto</h2>
-          <p>Spróbuj innego filtra albo wróć za chwilę po kolejnym odświeżeniu.</p>
-        </article>
+      {% if not section and view != 'saved' %}
+      <section class="discovery" aria-label="Odkrywaj swoje tematy">
+        <a class="discovery-feature" href="{{ filter_url(section='priority', source=None, category=None, view=None) }}"><span class="feature-icon">{{ icon('spark') }}</span><div><strong>Dla Ciebie</strong><span>{{ priority_count }} dopasowanych wpisów</span></div>{{ icon('chevron') }}</a>
+        <div class="topic-chips" aria-label="Szybkie wyszukiwanie"><a href="{{ filter_url(q='Legion Go') }}">Legion Go</a><a href="{{ filter_url(q='Steam Deck') }}">Steam Deck</a><a href="{{ filter_url(q='Xbox') }}">Xbox</a><a href="{{ filter_url(q='vibecoding') }}">Vibecoding</a></div>
+      </section>
       {% endif %}
-    </section>
-  </main>
 
-  <nav class="bottom-nav" aria-label="Główna nawigacja">
-    <a class="{% if not section %}active{% endif %}" href="/">
-      <span class="nav-icon">⌂</span><span>Start</span>
-    </a>
-    <a class="{% if section == 'news' %}active{% endif %}" href="/?section=news">
-      <span class="nav-icon">▤</span><span>News</span>
-    </a>
-    <a class="{% if section == 'reddit' %}active{% endif %}" href="/?section=reddit">
-      <span class="nav-icon">●</span><span>Reddit</span>
-    </a>
-    <a class="{% if section == 'youtube' %}active{% endif %}" href="/?section=youtube">
-      <span class="nav-icon">▶</span><span>YouTube</span>
-    </a>
-    <a class="{% if section == 'deal' %}active{% endif %}" href="/?section=deal">
-      <span class="nav-icon">%</span><span>Okazje</span>
-    </a>
-  </nav>
+      <section class="quick-controls" aria-label="Wyszukiwanie i filtry">
+        <form class="search-form" method="get" role="search">
+          {% for key, value in [('section',section),('lang',language),('source',source),('category',category),('view',view if view == 'saved' else ''),('sort',sort)] %}{% if value %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
+          {{ icon('search') }}<input type="search" name="q" value="{{ query }}" maxlength="200" placeholder="Szukaj tematu, gry, źródła…" aria-label="Szukaj w feedzie" autocomplete="off"><button type="submit" aria-label="Wyszukaj">{{ icon('chevron') }}</button>
+        </form>
+        <div class="control-row">
+          <div class="segmented" aria-label="Język treści">{% for code, label in [('', 'Wszystkie'), ('pl','PL'), ('en','EN')] %}<a class="{% if language == code %}active{% endif %}" href="{{ filter_url(lang=code) }}"{% if language == code %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}</div>
+          <details class="filter-panel" {% if category or source or sort != 'newest' %}open{% endif %}>
+            <summary>{{ icon('settings') }} Filtry{% if category or source or sort != 'newest' %}<span class="filter-dot"></span>{% endif %}</summary>
+            <form class="filters" method="get">
+              {% for key, value in [('section',section),('lang',language),('q',query),('view',view if view == 'saved' else '')] %}{% if value %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
+              <label><span>Kategoria</span><select name="category"><option value="">Wszystkie kategorie</option>{% for c in categories %}<option value="{{ c }}" {% if category|lower == c|lower %}selected{% endif %}>{{ c }}</option>{% endfor %}</select></label>
+              <label><span>Źródło</span><select name="source"><option value="">Wszystkie źródła</option>{% for group_key in ([section] if section in ['news','reddit','youtube','deal'] else ['news','reddit','youtube','deal']) %}{% if available_source_groups.get(group_key) %}<optgroup label="{{ {'news':'News','reddit':'Reddit','youtube':'YouTube','deal':'Okazje'}[group_key] }}">{% for s in available_source_groups[group_key] %}<option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ s }}</option>{% endfor %}</optgroup>{% endif %}{% endfor %}</select></label>
+              <label><span>Kolejność</span><select name="sort"><option value="newest" {% if sort == 'newest' %}selected{% endif %}>Najnowsze</option><option value="priority" {% if sort == 'priority' %}selected{% endif %}>Dopasowane najpierw</option></select></label>
+              <button class="button secondary" type="submit">Zastosuj</button>
+            </form>
+          </details>
+        </div>
+        {% if category or source or query or language %}<div class="active-filters">{% if query %}<span>„{{ query }}”</span>{% endif %}{% if category %}<span>{{ category }}</span>{% endif %}{% if source %}<span>{{ source }}</span>{% endif %}<a href="{{ filter_url(q=None, category=None, source=None, lang=None, sort=None) }}">Wyczyść</a></div>{% endif %}
+      </section>
+      <div class="feed-heading"><h2>{{ 'Twoja kolekcja' if view == 'saved' else ('Wyniki wyszukiwania' if query else 'Najnowsze sygnały') }} <span id="resultCount">{{ filtered_count if view != 'saved' else 0 }}</span></h2><button class="text-button" id="densityButton" type="button" aria-pressed="false">Widok kompaktowy</button></div>
+      <section class="feed" id="feed" aria-label="Wpisy" tabindex="-1">{% include '_cards.html' %}</section>
+      <section class="empty-state" id="emptyState" {% if items or view == 'saved' %}hidden{% endif %}>{{ icon('search') }}<h2>Jeszcze nie ma tu sygnału</h2><p>Spróbuj szerszego wyszukiwania lub wyczyść filtry.</p><a class="button secondary" href="{{ filter_url(q=None, source=None, category=None, lang=None) }}">Wyczyść filtry</a></section>
+      <div class="pagination" id="pagination" {% if not has_more %}hidden{% endif %}><button class="button secondary" id="loadMore" type="button" data-page="{{ page }}">Pokaż więcej</button><noscript><a class="button secondary" href="{{ filter_url(page=page+1) }}">Następna strona</a></noscript><p id="shownCount">{{ items|length }} z {{ filtered_count }} wpisów</p></div>
+      <p class="end-note">Twój internet. W jednym miejscu.</p>
+      <noscript><p class="notice">Włącz JavaScript, aby zapisywać treści na później i korzystać z trybu offline.</p></noscript>
+    </main>
+  </div>
+  <nav class="bottom-nav" aria-label="Główna nawigacja">{% for key, label, symbol in [('', 'Start','home'),('news','News','news'),('reddit','Reddit','reddit'),('youtube','YouTube','youtube'),('deal','Okazje','deal')] %}<a class="{% if section == key and view != 'saved' %}active{% endif %}" href="{{ filter_url(section=key, source=None, category=None, view=None) }}"{% if section == key and view != 'saved' %} aria-current="page"{% endif %}>{{ icon(symbol, 'nav-icon') }}<span>{{ label }}</span></a>{% endfor %}</nav>
 
-  <script>
-    document.querySelectorAll("[data-date]").forEach(el => {
-      const date = new Date(el.dataset.date);
-      if (!Number.isNaN(date.valueOf())) {
-        el.textContent = date.toLocaleString("pl-PL", {
-          day: "2-digit",
-          month: "2-digit",
-          hour: "2-digit",
-          minute: "2-digit"
-        });
-      }
-    });
-
-    document.querySelectorAll(".card[data-url]").forEach(card => {
-      card.addEventListener("click", event => {
-        if (event.target.closest("a, button, select, summary")) return;
-        window.location.href = card.dataset.url;
-      });
-    });
-
-
-    // Swipe left/right between the main sections.
-    const sectionOrder = ["", "news", "reddit", "youtube", "deal"];
-    const currentSection = "{{ section }}";
-    let navStartX = null;
-    let navStartY = null;
-
-    document.addEventListener("touchstart", event => {
-      if (event.touches.length !== 1) return;
-      if (event.target.closest("select, option, details, summary, input, button")) return;
-      navStartX = event.touches[0].clientX;
-      navStartY = event.touches[0].clientY;
-    }, { passive: true });
-
-    document.addEventListener("touchend", event => {
-      if (navStartX === null || navStartY === null || !event.changedTouches.length) return;
-      const dx = event.changedTouches[0].clientX - navStartX;
-      const dy = event.changedTouches[0].clientY - navStartY;
-      navStartX = null;
-      navStartY = null;
-
-      if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 1.35) return;
-
-      const index = Math.max(0, sectionOrder.indexOf(currentSection));
-      const nextIndex = dx < 0 ? index + 1 : index - 1;
-      if (nextIndex < 0 || nextIndex >= sectionOrder.length) return;
-
-      const params = new URLSearchParams(window.location.search);
-      params.delete("source");
-      params.delete("category");
-      if (sectionOrder[nextIndex]) params.set("section", sectionOrder[nextIndex]);
-      else params.delete("section");
-      window.location.href = "/?" + params.toString();
-    }, { passive: true });
-
-    // Native-feeling pull to refresh for standalone iOS PWA.
-    let pullStartY = null;
-    let pullTriggered = false;
-    const pullRefresh = document.getElementById("pullRefresh");
-
-    document.addEventListener("touchstart", event => {
-      if (window.scrollY <= 0 && event.touches.length === 1) {
-        pullStartY = event.touches[0].clientY;
-        pullTriggered = false;
-      }
-    }, { passive: true });
-
-    document.addEventListener("touchmove", event => {
-      if (pullStartY === null || window.scrollY > 0) return;
-      const distance = event.touches[0].clientY - pullStartY;
-      if (distance > 35) {
-        pullRefresh.classList.add("visible");
-        pullRefresh.textContent = distance >= 85 ? "Puść, aby odświeżyć" : "Pociągnij, aby odświeżyć";
-        pullTriggered = distance >= 85;
-      }
-    }, { passive: true });
-
-    document.addEventListener("touchend", () => {
-      if (pullStartY === null) return;
-      if (pullTriggered) {
-        pullRefresh.textContent = "Odświeżam…";
-        window.location.reload();
-      } else {
-        pullRefresh.classList.remove("visible");
-      }
-      pullStartY = null;
-      pullTriggered = false;
-    }, { passive: true });
-
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => navigator.serviceWorker.register("/static/service-worker.js"));
-    }
-  </script>
+  <dialog id="preferencesDialog" class="preferences-dialog" aria-labelledby="preferencesTitle"><div class="dialog-heading"><h2 id="preferencesTitle">Po Twojemu</h2><button class="icon-button" type="button" id="closePreferences" aria-label="Zamknij ustawienia">×</button></div><p>Dostosuj MyHub do swojego rytmu.</p><div class="preference-row"><label for="themeSelect">Motyw</label><select id="themeSelect"><option value="dark">Ciemny</option><option value="light">Jasny</option><option value="system">Jak w urządzeniu</option></select></div><div class="preference-row"><label for="compactToggle">Kompaktowe karty</label><input id="compactToggle" type="checkbox"></div><div class="install-help"><strong>MyHub na ekranie głównym</strong><p>Na iPhonie otwórz MyHub w Safari, wybierz Udostępnij, a następnie „Dodaj do ekranu początkowego”.</p><button class="button secondary" id="installButton" type="button" hidden>Zainstaluj MyHub</button></div><p class="privacy-note">Zapisane treści i historia przeczytania pozostają w tej przeglądarce. Nie są synchronizowane między urządzeniami.</p></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <div class="update-banner" id="updateBanner" hidden><span>Nowa wersja MyHub jest gotowa.</span><button type="button" id="updateButton">Odśwież</button></div>
+  <script id="pageItems" type="application/json">{{ items|tojson }}</script>
 </body>
 </html>

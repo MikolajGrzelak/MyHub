@@ -1,0 +1,38 @@
+{% from '_icons.html' import icon %}
+{% for item in items %}
+<article class="card type-{{ item.source_type }}{% if item.priority or item.matched_keywords %} is-priority{% endif %}" data-id="{{ item.id }}">
+  {% if item.thumbnail_url %}
+  <div class="thumbnail-wrap"><img class="thumb" src="{{ item.thumbnail_url }}" alt="" loading="lazy" decoding="async" width="640" height="360" referrerpolicy="no-referrer">{% if item.source_type == 'youtube' %}<span class="play-mark">{{ icon('youtube') }}</span>{% endif %}</div>
+  {% endif %}
+  <div class="card-content">
+    <div class="meta"><span class="source-line"><span class="source-icon">{{ icon(item.source_type) }}</span><span class="source-name">{{ item.source }}</span></span><span class="lang-pill">{{ 'PL' if item.language == 'pl' else 'EN' }}</span></div>
+    <h2><a class="card-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h2>
+    {% if item.matched_keywords %}<div class="match">{{ icon('spark') }} {{ item.matched_keywords|join(' · ') }}</div>{% elif item.priority %}<div class="match">{{ icon('spark') }} Cena w Twoim zasięgu</div>{% endif %}
+    {% if item.source_type == 'deal' %}
+    <div class="deal-info">
+      {% if item.price %}<strong class="deal-price">{{ item.price }}</strong>{% endif %}
+      {% if item.price_kind %}<span class="price-kind">{{ item.price_kind }}</span>{% endif %}
+      {% if item.temperature %}<span class="deal-temp">{{ item.temperature }}°</span>{% endif %}
+      {% if item.platform_label %}<span class="platform-label">{{ item.platform_label }}</span>{% endif %}
+    </div>
+    {% if item.source == 'GG.deals' %}
+    <dl class="price-breakdown">
+      {% if item.retail_price %}<div><dt>Oficjalne sklepy</dt><dd>{{ item.retail_price }}</dd></div>{% endif %}
+      {% if item.keyshop_price %}<div><dt>Keyshopy</dt><dd>{{ item.keyshop_price }}</dd></div>{% endif %}
+      {% if item.historical_price %}<div><dt>Minimum historyczne</dt><dd>{{ item.historical_price }}</dd></div>{% endif %}
+    </dl>
+    {% endif %}
+    {% endif %}
+    {% if item.source != 'GG.deals' %}
+      {% set summary = item.summary if item.source_type == 'reddit' or item.language == 'pl' else (item.summary_pl or item.summary) %}
+      {% if summary %}<p class="card-summary">{{ summary }}</p>{% endif %}
+      {% if item.summary_pl and item.source_type == 'news' and item.language != 'pl' %}<span class="translation-label">Streszczenie po polsku · AI</span>{% endif %}
+    {% endif %}
+    {% if item.tags %}<div class="tags">{% for tag in item.tags %}<a class="tag" href="{{ filter_url(q=tag, view=None) }}">{{ tag }}</a>{% endfor %}</div>{% endif %}
+    <footer class="card-footer">
+      <div class="card-date">{% if item.published_at %}<time datetime="{{ item.published_at }}" data-date="{{ item.published_at }}">{{ item.published_at[:10] }}</time>{% else %}<span>Brak daty źródła</span>{% endif %}<span class="read-label" hidden>Przeczytane</span></div>
+      <div class="card-actions"><span class="category-label">{{ item.category }}</span><button class="bookmark-button icon-button" type="button" data-bookmark="{{ item.id }}" aria-label="Zapisz na później: {{ item.title }}" aria-pressed="false">{{ icon('bookmark') }}</button><span class="open-mark">{{ icon('arrow') }}</span></div>
+    </footer>
+  </div>
+</article>
+{% endfor %}

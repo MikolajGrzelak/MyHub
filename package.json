@@ -1,0 +1,13 @@
+{
+  "name": "myhub-checks",
+  "private": true,
+  "scripts": {
+    "icons": "node scripts/build-icons.mjs",
+    "test": "playwright test",
+    "test:ui": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "sharp": "^0.35.5"
+  }
+}
