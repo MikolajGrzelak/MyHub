@@ -1432,6 +1432,15 @@ def write_feed(items: list[dict]):
             temp_path.unlink()
     print(f"[SAVE] {len(items)} items -> {FEED_PATH}")
 
+def retain_feed_items(items: list[dict], limit: int = 450) -> list[dict]:
+    """Stable watched prices and active deals must not age out behind new posts."""
+    relevant = [item for item in items if is_relevant_news(item)]
+    deals = [item for item in relevant if item.get("source_type") == "deal" and item.get("active") is not False]
+    other = [item for item in relevant if item.get("source_type") != "deal"]
+    retained = deals + other[:max(0, limit - len(deals))]
+    return sorted(retained, key=lambda item: item.get("published_at") or "", reverse=True)
+
+
 def main():
     fresh = []
     for source in SOURCES:
@@ -1448,7 +1457,7 @@ def main():
 
     items = merge_items(read_existing(), fresh)
     before_filter = len(items)
-    items = [item for item in items if is_relevant_news(item)][:450]
+    items = retain_feed_items(items)
     print(f"[FILTER] kept {len(items)}/{before_filter} items after relevance filtering")
     enrich_with_ai(items)
     write_feed(items)

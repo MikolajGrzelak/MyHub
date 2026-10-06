@@ -5,6 +5,15 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/collect.yml"
+      - "app.py"
+      - "feeds.py"
+      - "collectors/**"
+      - "templates/**"
+      - "static/**"
+      - "requirements.txt"
+      - "collector-requirements.txt"
+      - "data/game_watchlist.json"
+      - "data/deal_keywords.json"
   schedule:
     - cron: "17,47 * * * *"
   workflow_dispatch:

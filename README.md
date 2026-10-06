@@ -42,7 +42,9 @@ Backend to `app.py`, szablony kart to `templates/_cards.html`, a interakcje i us
 
 `/health` podaje liczbę wpisów, czas zebrania i wersję aplikacji. Jeśli feed jest nieprawidłowy, zwraca HTTP 503, a aplikacja korzysta z ostatniej poprawnej kopii dostępnej w procesie. Plik jest odczytywany ponownie tylko po zmianie jego sygnatury.
 
-`.github/workflows/check.yml` uruchamia testy przy pull requestach. `.github/workflows/collect.yml` sprawdza kontrakty, zbiera dane, wysyła cały katalog szablonów i zasobów do PythonAnywhere, przeładowuje aplikację i sprawdza dostępność. Zmiany na osobnej gałęzi nie wdrażają się na produkcję. Po scaleniu zmiany workflow uruchamiają istniejący deploy; kolejne wdrożenia wykonuje także harmonogram.
+`.github/workflows/check.yml` uruchamia testy przy pull requestach. `.github/workflows/collect.yml` sprawdza kontrakty, zbiera dane, wysyła cały katalog szablonów i zasobów do PythonAnywhere, przeładowuje aplikację i sprawdza dostępność. Zmiany na osobnej gałęzi nie wdrażają się na produkcję. Po scaleniu zmian kodu, zasobów lub konfiguracji źródeł na `main` uruchamia się deploy; kolejne wdrożenia wykonuje także harmonogram. Sam commit `data/feed.json` nie uruchamia ponownie kolektora.
+
+Przy ograniczaniu wielkości feedu wszystkie świeżo zweryfikowane, aktywne okazje i ceny obserwowanych gier zachowują swoje miejsce, także przy starej dacie publikacji albo niezmienionej cenie. Pozostałe miejsca do celu 450 wpisów zajmują najnowsze trafne treści. Jeśli aktywnych okazji jest więcej niż 450, zachowywane są wszystkie.
 
 Ikony PNG dla Androida i iOS są zapisane w repozytorium. Po zmianie `static/icon.svg` odtwórz je przez `npm run icons`.
 
