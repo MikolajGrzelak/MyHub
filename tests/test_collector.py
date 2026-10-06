@@ -46,6 +46,19 @@ class CollectorTests(unittest.TestCase):
     def test_merge_does_not_truncate_before_relevance_filter(self):
         self.assertEqual(len(rss.merge_items([{"id": str(i)} for i in range(500)], [])), 500)
 
+    def test_active_deals_and_unchanged_watched_prices_survive_newer_posts(self):
+        posts = [{"id": str(i), "source_type": "reddit", "published_at": "2026-10-06T09:00:00Z"} for i in range(500)]
+        deals = [{"id": f"deal-{i}", "source_type": "deal", "active": True, "published_at": "2026-09-24T09:00:00Z"} for i in range(109)]
+        result = rss.retain_feed_items(posts + deals)
+        self.assertEqual(len(result), 450)
+        self.assertEqual(sum(item['source_type'] == 'deal' for item in result), 109)
+        self.assertEqual(result[-1]['published_at'], '2026-09-24T09:00:00Z')
+
+    def test_retention_removes_expired_deals_and_reserves_slots_after_relevance(self):
+        items = [{"id": str(i), "source_type": "news", "category": "Gaming", "title": "Cosplay streamer", "summary": ""} for i in range(500)]
+        items += [{"id": "active", "source_type": "deal", "active": True}, {"id": "expired", "source_type": "deal", "active": False}]
+        self.assertEqual([item['id'] for item in rss.retain_feed_items(items)], ['active'])
+
     def test_negative_and_nonfinite_prices_are_not_presented_as_offers(self):
         for value in [-1, 'nan', 'inf', None, 'bad']:
             self.assertIsNone(rss._price_number(value))
