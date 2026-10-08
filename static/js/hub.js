@@ -125,7 +125,8 @@
       if (!price.within_target) card.querySelector(".card-content").append(node("div", "Cena w Twoim zasięgu · Twój próg", "match"));
     });
     if (additional.length) {
-      $("#resultCount").textContent = Number($("#resultCount").textContent) + additional.length;
+      window.myhubExtraDeals = additional.filter((price) => !price.deal_qualified).length;
+      $("#resultCount").textContent = Number($("#resultCount").textContent) + window.myhubExtraDeals;
       $("#emptyState").hidden = true;
       document.dispatchEvent(new CustomEvent("myhub:items", {detail: {items: additional}}));
     }

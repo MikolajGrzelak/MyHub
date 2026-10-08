@@ -49,6 +49,15 @@ test('deals include current lows and a personal budget, with functional bookmark
   await expect(page.locator('#feed')).toContainText('A Plague Tale: Innocence');
 });
 
+test('a qualified deal surfaced by a personal target on a later page is not counted twice', async ({page}) => {
+  await page.goto('/?view=games&game=1850570');
+  await page.getByLabel('Cena docelowa (PLN)').fill('100');
+  await page.getByRole('button', {name: 'Zapisz preferencje'}).click();
+  await page.goto('/?section=deal&page=2');
+  await expect(page.locator('#feed .card')).toHaveCount(1);
+  await expect(page.locator('#resultCount')).toHaveText('25');
+});
+
 test('hardware journal supports edit, undo, export and safe backup import', async ({page}) => {
   const errors = []; page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/?view=hardware');

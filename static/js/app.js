@@ -289,9 +289,10 @@
       data.items.forEach((item) => items.set(item.id, item));
       button.dataset.page = data.page;
       $("#pagination").hidden = !data.has_more;
+      const count = data.count + (window.myhubExtraDeals || 0);
       $("#shownCount").textContent =
-        `${feed.querySelectorAll(".card").length} z ${data.count} wpisów`;
-      $("#resultCount").textContent = data.count;
+        `${feed.querySelectorAll(".card").length} z ${count} wpisów`;
+      $("#resultCount").textContent = count;
       hydrate();
       if (response.headers.get("X-MyHub-Offline"))
         toast("Pokazuję zapisaną kopię offline");

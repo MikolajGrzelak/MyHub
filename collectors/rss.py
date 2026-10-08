@@ -1521,11 +1521,24 @@ def collect_steam_news(games: list[dict]) -> list[dict]:
     return items
 
 def retain_feed_items(items: list[dict], limit: int = 450) -> list[dict]:
-    """Stable watched prices and active deals must not age out behind new posts."""
+    """Watched games retain their prices and recent creator announcements."""
     relevant = [item for item in items if is_relevant_news(item)]
     deals = [item for item in relevant if item.get("source_type") == "deal" and item.get("active") is not False]
-    other = [item for item in relevant if item.get("source_type") != "deal"]
-    retained = deals + other[:max(0, limit - len(deals))]
+    cutoff = datetime.now(timezone.utc) - timedelta(days=60)
+    announcements = []
+    for item in relevant:
+        if not item.get("is_game_update") or item.get("source_type") != "news":
+            continue
+        try:
+            published = datetime.fromisoformat(str(item.get("published_at") or "").replace("Z", "+00:00"))
+            published = published.replace(tzinfo=published.tzinfo or timezone.utc)
+        except ValueError:
+            continue
+        if published >= cutoff:
+            announcements.append(item)
+    other = [item for item in relevant if item.get("source_type") != "deal" and not item.get("is_game_update")]
+    reserved = deals + announcements
+    retained = reserved + other[:max(0, limit - len(reserved))]
     return sorted(retained, key=lambda item: item.get("published_at") or "", reverse=True)
 
 

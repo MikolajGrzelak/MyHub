@@ -121,6 +121,20 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(items[0]['summary'], 'Fixes')
         self.assertTrue(items[0]['is_game_update'])
 
+    def test_recent_watched_announcements_survive_new_posts_but_expire_after_60_days(self):
+        from datetime import datetime, timedelta, timezone
+        now = datetime.now(timezone.utc)
+        posts = [{"id": str(i), "source_type": "reddit", "published_at": now.isoformat()} for i in range(500)]
+        recent = {"id": "patch", "source_type": "news", "is_game_update": True,
+                  "title": "Version 1.2", "published_at": (now - timedelta(days=30)).isoformat()}
+        expired = {**recent, "id": "old", "published_at": (now - timedelta(days=61)).isoformat()}
+        invalid = {**recent, "id": "invalid", "published_at": "bad"}
+        result = rss.retain_feed_items(posts + [recent, expired, invalid])
+        self.assertEqual(len(result), 450)
+        self.assertIn('patch', [i['id'] for i in result])
+        self.assertNotIn('old', [i['id'] for i in result])
+        self.assertNotIn('invalid', [i['id'] for i in result])
+
 
 if __name__ == '__main__':
     unittest.main()
