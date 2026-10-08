@@ -924,7 +924,8 @@ h1 {
 body[data-section="deal"][data-view="feed"] .control-row {display:none;}
 .offer-controls .active {border-color:var(--accent); color:var(--accent);}
 .tracking-add {display:grid; gap:12px; margin:20px 0;}
-.tracking-add input, .tracking-search input {width:100%; min-width:0;}
+.tracking-add input, .tracking-search input {width:100%; min-width:0; min-height:44px; padding:12px 14px; color:var(--text); background:var(--bg); border:1px solid var(--border); border-radius:12px;}
+.tracking-steam-link {display:inline-flex; align-items:center; gap:8px; color:var(--accent); min-height:44px;}
 .tracking-list {display:grid; gap:8px; margin:20px 0;}
 .tracking-row {display:flex; align-items:center; gap:12px; justify-content:space-between; border-bottom:1px solid var(--border); padding:12px 0;}
 .tracking-row > div {min-width:0; display:grid; gap:6px; overflow-wrap:anywhere;}
