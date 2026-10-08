@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T13:36:50.144455+00:00",
+  "updated_at": "2026-10-08T19:31:03.928326+00:00",
   "games": {
     "1850570": [
       {
@@ -10,6 +10,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 26.14,
+        "retail": 42.25,
+        "keyshop": 26.14,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "752590": [
@@ -30,6 +39,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 11.99,
+        "retail": 11.99,
+        "keyshop": 21.01,
+        "currency": "PLN",
+        "kind": "oficjalny sklep",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1182900": [
@@ -59,6 +77,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 49.38,
+        "retail": 49.38,
+        "keyshop": 52.02,
+        "currency": "PLN",
+        "kind": "oficjalny sklep",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "414340": [
@@ -88,6 +115,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 25.34,
+        "retail": 33.96,
+        "keyshop": 25.34,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2461850": [
@@ -99,6 +135,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 44.7,
+        "retail": 186.02,
+        "keyshop": 44.7,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "870780": [
@@ -119,6 +164,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 18.88,
+        "retail": 22.49,
+        "keyshop": 18.88,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1332010": [
@@ -148,6 +202,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 42.29,
+        "retail": 44.99,
+        "keyshop": 42.29,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1817230": [
@@ -159,6 +222,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 115.49,
+        "retail": 129.0,
+        "keyshop": 115.49,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "607080": [
@@ -188,6 +260,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 9.85,
+        "retail": 55.4,
+        "keyshop": 9.85,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "424840": [
@@ -199,6 +280,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 13.92,
+        "retail": 19.66,
+        "keyshop": 13.92,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "860510": [
@@ -219,6 +309,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 21.94,
+        "retail": 39.36,
+        "keyshop": 21.94,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2751000": [
@@ -248,6 +347,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 18.17,
+        "retail": 28.78,
+        "keyshop": 18.17,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1497440": [
@@ -277,6 +385,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 27.81,
+        "retail": 33.03,
+        "keyshop": 27.81,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "304430": [
@@ -297,6 +414,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 14.83,
+        "retail": 14.83,
+        "keyshop": 16.61,
+        "currency": "PLN",
+        "kind": "oficjalny sklep",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "48000": [
@@ -326,6 +452,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 15.98,
+        "retail": 53.99,
+        "keyshop": 15.98,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "683320": [
@@ -336,7 +471,7 @@
         "keyshop": 9.29,
         "currency": "PLN",
         "kind": "keyshop",
-        "checked_at": "2026-10-08T13:36:49.678530+00:00"
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1977170": [
@@ -357,6 +492,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 6.24,
+        "retail": 52.52,
+        "keyshop": 6.24,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1492680": [
@@ -377,6 +521,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 16.43,
+        "retail": 25.87,
+        "keyshop": 16.43,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1887840": [
@@ -388,6 +541,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 19.61,
+        "retail": 38.86,
+        "keyshop": 19.61,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "835960": [
@@ -407,7 +569,7 @@
         "keyshop": 14.46,
         "currency": "PLN",
         "kind": "oficjalny sklep",
-        "checked_at": "2026-10-08T13:36:49.678530+00:00"
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1817070": [
@@ -419,6 +581,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 71.18,
+        "retail": 103.52,
+        "keyshop": 71.18,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1817190": [
@@ -430,6 +601,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 56.7,
+        "retail": 86.27,
+        "keyshop": 56.7,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2651280": [
@@ -459,6 +639,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 126.55,
+        "retail": 173.36,
+        "keyshop": 126.55,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2215430": [
@@ -470,6 +659,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 108.05,
+        "retail": 155.24,
+        "keyshop": 108.05,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1593500": [
@@ -481,6 +679,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 55.51,
+        "retail": 87.6,
+        "keyshop": 55.51,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2322010": [
@@ -501,6 +708,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 121.23,
+        "retail": 173.36,
+        "keyshop": 121.23,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1259420": [
@@ -512,6 +728,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 45.58,
+        "retail": 67.6,
+        "keyshop": 45.58,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2561580": [
@@ -523,6 +748,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 95.27,
+        "retail": 129.36,
+        "keyshop": 95.27,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2420110": [
@@ -543,6 +777,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 95.36,
+        "retail": 129.41,
+        "keyshop": 95.36,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1659420": [
@@ -554,6 +797,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 49.03,
+        "retail": 71.17,
+        "keyshop": 49.03,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1888930": [
@@ -565,6 +817,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 85.42,
+        "retail": 129.41,
+        "keyshop": 85.42,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2531310": [
@@ -594,6 +855,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 103.68,
+        "retail": 144.46,
+        "keyshop": 103.68,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1895880": [
@@ -623,6 +893,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 75.09,
+        "retail": 103.52,
+        "keyshop": 75.09,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1599660": [
@@ -652,6 +931,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 60.71,
+        "retail": 85.41,
+        "keyshop": 60.71,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1868140": [
@@ -671,7 +959,7 @@
         "keyshop": 25.95,
         "currency": "PLN",
         "kind": "keyshop",
-        "checked_at": "2026-10-08T13:36:49.678530+00:00"
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1562430": [
@@ -701,6 +989,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 21.39,
+        "retail": 38.83,
+        "keyshop": 21.39,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1145360": [
@@ -721,6 +1018,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 98.09,
+        "retail": 99.99,
+        "keyshop": 98.09,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1145350": [
@@ -741,6 +1047,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 108.13,
+        "retail": 117.0,
+        "keyshop": 108.13,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1313140": [
@@ -770,6 +1085,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 35.5,
+        "retail": 48.82,
+        "keyshop": 35.5,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "553420": [
@@ -790,6 +1114,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 15.24,
+        "retail": 61.25,
+        "keyshop": 15.24,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "894020": [
@@ -810,6 +1143,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 7.47,
+        "retail": 15.59,
+        "keyshop": 7.47,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1057090": [
@@ -830,6 +1172,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 10.79,
+        "retail": 10.79,
+        "keyshop": 23.42,
+        "currency": "PLN",
+        "kind": "oficjalny sklep",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "367520": [
@@ -859,6 +1210,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 31.19,
+        "retail": 65.63,
+        "keyshop": 31.19,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "588650": [
@@ -878,7 +1238,7 @@
         "keyshop": 14.04,
         "currency": "PLN",
         "kind": "keyshop",
-        "checked_at": "2026-10-08T13:36:49.678530+00:00"
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1954200": [
@@ -899,6 +1259,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 88.77,
+        "retail": 89.35,
+        "keyshop": 88.77,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "387290": [
@@ -910,6 +1279,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 12.48,
+        "retail": 29.73,
+        "keyshop": 12.48,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "268910": [
@@ -939,6 +1317,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 35.17,
+        "retail": 64.74,
+        "keyshop": 35.17,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "731490": [
@@ -959,6 +1346,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 115.54,
+        "retail": 169.0,
+        "keyshop": 115.54,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "996580": [
@@ -970,6 +1366,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 62.4,
+        "retail": 169.0,
+        "keyshop": 62.4,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1378990": [
@@ -981,6 +1386,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 130.14,
+        "retail": 172.5,
+        "keyshop": 130.14,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "638970": [
@@ -991,7 +1405,7 @@
         "keyshop": 165.53,
         "currency": "PLN",
         "kind": "oficjalny sklep",
-        "checked_at": "2026-10-08T13:36:49.678530+00:00"
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1235140": [
@@ -1003,6 +1417,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 24.08,
+        "retail": 35.6,
+        "keyshop": 24.08,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2072450": [
@@ -1023,6 +1446,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 20.08,
+        "retail": 74.75,
+        "keyshop": 20.08,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "234140": [
@@ -1043,6 +1475,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 5.61,
+        "retail": 10.28,
+        "keyshop": 5.61,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "356190": [
@@ -1062,7 +1503,7 @@
         "keyshop": 7.26,
         "currency": "PLN",
         "kind": "keyshop",
-        "checked_at": "2026-10-08T13:36:49.678530+00:00"
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1172380": [
@@ -1083,6 +1524,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 20.97,
+        "retail": 72.86,
+        "keyshop": 20.97,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1774580": [
@@ -1094,6 +1544,15 @@
         "currency": "PLN",
         "kind": "oficjalny sklep",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 65.36,
+        "retail": 299.0,
+        "keyshop": 65.36,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "524220": [
@@ -1105,6 +1564,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 50.04,
+        "retail": 132.77,
+        "keyshop": 50.04,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "1426210": [
@@ -1125,6 +1593,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 50.52,
+        "retail": 88.98,
+        "keyshop": 50.52,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "2638890": [
@@ -1136,6 +1613,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 183.49,
+        "retail": 251.26,
+        "keyshop": 183.49,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ],
     "3751260": [
@@ -1147,6 +1633,15 @@
         "currency": "PLN",
         "kind": "keyshop",
         "checked_at": "2026-10-08T13:36:49.678530+00:00"
+      },
+      {
+        "at": "2026-10-08T19:31:03.308867+00:00",
+        "current": 185.66,
+        "retail": 250.34,
+        "keyshop": 185.66,
+        "currency": "PLN",
+        "kind": "keyshop",
+        "checked_at": "2026-10-08T19:31:03.308867+00:00"
       }
     ]
   }
