@@ -1,4 +1,4 @@
-const VERSION = "2026.10.08.2";
+const VERSION = "2026.10.08.3";
 const PREFIX = "myhub-";
 const SHELL = `${PREFIX}shell-${VERSION}`;
 const PAGES = `${PREFIX}pages-${VERSION}`;
