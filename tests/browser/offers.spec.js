@@ -1,0 +1,57 @@
+const {test, expect} = require('@playwright/test');
+
+test('News opens first; all tracked PC prices are shown and lows are optional', async ({page}) => {
+  const errors = []; page.on('pageerror', e => errors.push(e.message));
+  await page.goto('/');
+  await expect(page.locator('body')).toHaveAttribute('data-section', 'news');
+  await expect(page.locator('.bottom-nav a')).toHaveCount(4);
+  await expect(page.getByRole('link', {name:'Start', exact:true})).toHaveCount(0);
+  await page.getByRole('link', {name:'Okazje', exact:true}).click();
+  await expect(page.locator('#feed .card:visible')).toHaveCount(59);
+  const card = page.locator('#feed .card[data-steam-id="752590"]');
+  await expect(card).toBeVisible();
+  await expect(card.locator('.price-breakdown')).toContainText('Oficjalne sklepy');
+  await expect(card.locator('.price-breakdown')).toContainText('Klucze / keyshopy');
+  await expect(card.locator('.price-breakdown')).toContainText('Minimum historyczne');
+  await page.locator('#lowFilter').click();
+  await expect(page.locator('#feed .card:visible')).toHaveCount(25);
+  await expect(card).toHaveCount(0);
+  await page.locator('#lowFilter').click();
+  await expect(page.locator('#feed .card:visible')).toHaveCount(59);
+  await page.setViewportSize({width:320, height:700});
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(errors).toEqual([]);
+});
+
+test('editing offers removes and restores games, persists, and registers a new Steam URL', async ({page}) => {
+  const errors = []; page.on('pageerror', e => errors.push(e.message));
+  await page.goto('/?section=deal');
+  await page.getByRole('link', {name:'Edytuj listę gier', exact:true}).click();
+  await page.getByRole('button', {name:'Usuń: A Plague Tale: Innocence', exact:true}).click();
+  await expect(page.locator('#trackingCount')).toHaveText('58 gier');
+  await page.getByRole('link', {name:'Wróć do cen', exact:false}).click();
+  await expect(page.locator('#feed .card[data-steam-id="752590"]')).toBeHidden();
+  await expect(page.locator('#feed .card:visible')).toHaveCount(58);
+  await page.reload();
+  await expect(page.locator('#feed .card[data-steam-id="752590"]')).toBeHidden();
+  await page.getByRole('link', {name:'Edytuj listę gier', exact:true}).click();
+  await page.locator('.removed-games summary').click();
+  await page.getByRole('button', {name:'Przywróć: A Plague Tale: Innocence', exact:true}).click();
+  await expect(page.locator('#trackingCount')).toHaveText('59 gier');
+  await page.getByLabel('Link Steam / App ID').fill('https://evil.com/app/620/');
+  await page.getByRole('button', {name:'Dodaj do śledzonych', exact:true}).click();
+  await expect(page.locator('#trackingMessage')).toContainText('poprawny Steam');
+  await page.getByLabel('Link Steam / App ID').fill('https://store.steampowered.com/app/620/Portal_2/');
+  await page.getByRole('button', {name:'Dodaj do śledzonych', exact:true}).click();
+  await expect(page.locator('#trackingMessage')).toContainText('najbliższym');
+  await expect(page.locator('#trackingCount')).toHaveText('60 gier');
+  await page.reload();
+  await expect(page.locator('#trackingCount')).toHaveText('60 gier');
+  await page.getByRole('link', {name:'Wróć do cen', exact:false}).click();
+  await expect(page.locator('#feed .card[data-steam-id="620"]')).toContainText('Oczekuje na weryfikację');
+  await page.goto('/?section=deal&view=tracking');
+  await page.getByRole('button', {name:'Usuń: Steam 620', exact:true}).click();
+  await page.setViewportSize({width:320, height:700});
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(errors).toEqual([]);
+});

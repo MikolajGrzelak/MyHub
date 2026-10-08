@@ -10,6 +10,29 @@ from collectors import rss
 
 
 class CollectorTests(unittest.TestCase):
+    def test_requested_games_are_verified_on_steam_before_price_collection(self):
+        queue = Mock()
+        queue.json.return_value = {'games': [{'steam_app_id': i} for i in [620, 621, 622, 623, 624]]}
+        def lookup(url, **kwargs):
+            if url.endswith('/api/tracking'):
+                return queue
+            app_id = kwargs['params']['appids']
+            if app_id == '624':
+                raise rss.requests.Timeout()
+            response = Mock()
+            response.json.return_value = {app_id: {'success': app_id != '623', 'data': {
+                'steam_appid': int(app_id), 'name': 'Portal 2', 'type': 'dlc' if app_id == '621' else 'game',
+                'platforms': {'windows': app_id != '622'}}}}
+            return response
+        with tempfile.TemporaryDirectory() as folder, patch.object(rss, 'TRACKED_GAMES_PATH', Path(folder) / 'tracked.json'), patch.object(rss.requests, 'get', side_effect=lookup) as get:
+            result = rss.collect_requested_games()
+            self.assertEqual([g['steam_app_id'] for g in result], [620])
+            saved = json.loads(rss.TRACKED_GAMES_PATH.read_text(encoding='utf-8'))['games']
+            self.assertEqual({g['steam_app_id']: g['status'] for g in saved}, {620: 'ready', 621: 'rejected', 622: 'rejected', 623: 'rejected'})
+            result = rss.collect_requested_games()
+            self.assertEqual([g['steam_app_id'] for g in result], [620])
+            self.assertEqual(sum(call.kwargs.get('params', {}).get('appids') == '620' for call in get.call_args_list), 1)
+
     def test_ppe_uses_article_title_without_listing_platform_badges(self):
         source = {"name": "PPE", "url": "https://www.ppe.pl/news.html", "base_url": "https://www.ppe.pl",
                   "link_pattern": r"^/news/\d+/.+\.html$", "language": "pl", "category": "Gaming"}

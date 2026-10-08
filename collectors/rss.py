@@ -33,6 +33,7 @@ FEED_PATH = DATA_DIR / "feed.json"
 DEAL_KEYWORDS_PATH = DATA_DIR / "deal_keywords.json"
 GAME_WATCHLIST_PATH = DATA_DIR / "game_watchlist.json"
 PRICE_HISTORY_PATH = DATA_DIR / "price_history.json"
+TRACKED_GAMES_PATH = DATA_DIR / "tracked_games.json"
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.5-flash-lite")
@@ -587,6 +588,44 @@ def read_game_watchlist() -> list[dict]:
             "target_price": raw.get("target_price"),
         })
     return games
+
+
+def collect_requested_games():
+    """Resolve queued Steam IDs in Actions, where Steam requests are permitted."""
+    try:
+        saved = json.loads(TRACKED_GAMES_PATH.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        saved = {}
+    records = {str(g["steam_app_id"]): g for g in saved.get("games", []) if isinstance(g, dict) and g.get("steam_app_id")}
+    try:
+        response = requests.get("https://myhub.pythonanywhere.com/api/tracking", headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        queued = response.json().get("games", [])
+    except (requests.RequestException, ValueError, AttributeError):
+        print("[WATCH] Queue unavailable; using previously verified games.")
+        queued = []
+    pending = [g for g in queued if isinstance(g, dict) and str(g.get("steam_app_id", "")).isdigit() and str(g["steam_app_id"]) not in records][:20]
+    for game in pending:
+        app_id = str(game["steam_app_id"])
+        if not 0 < int(app_id) <= 4294967295 or len(records) >= 100:
+            continue
+        try:
+            response = requests.get("https://store.steampowered.com/api/appdetails",
+                                    params={"appids": app_id, "l": "polish", "cc": "pl"}, headers=HEADERS, timeout=15)
+            response.raise_for_status()
+            result = response.json().get(app_id)
+            if not isinstance(result, dict) or not isinstance(result.get("success"), bool):
+                continue
+            details = result.get("data") or {}
+            valid = result["success"] and details.get("steam_appid") == int(app_id) and details.get("type") == "game" and (details.get("platforms") or {}).get("windows") is True
+            records[app_id] = {"steam_app_id": int(app_id), "name": clean_text(details.get("name") or f"Steam {app_id}", 180),
+                               "status": "ready" if valid else "rejected"}
+        except (requests.RequestException, ValueError, AttributeError, TypeError):
+            # Transient failures stay pending; never fabricate a name or a price.
+            continue
+    write_json_atomic(TRACKED_GAMES_PATH, {"games": list(records.values())})
+    print(f"[WATCH] {sum(g['status'] == 'ready' for g in records.values())} verified extra PC games")
+    return [g for g in records.values() if g.get("status") == "ready"]
 
 
 def _price_number(value):
@@ -1553,7 +1592,7 @@ def main():
     fresh.extend(collect_youtube())
 
     deal_keywords = read_deal_keywords()
-    games = read_game_watchlist()
+    games = list({str(g["steam_app_id"]): g for g in [*read_game_watchlist(), *collect_requested_games()]}.values())
     fresh.extend(collect_steam_news(games))
     prices = collect_ggdeals(games)
     fresh.extend(prices)

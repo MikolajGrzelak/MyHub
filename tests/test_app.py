@@ -23,7 +23,8 @@ class AppTests(unittest.TestCase):
         self.addCleanup(self.path_patch.stop)
         self.watchlist_path = Path(self.temp.name) / 'games.json'
         self.watchlist_path.write_text(json.dumps({'games': [{'name': 'Jusant', 'steam_app_id': 1977170}]}), encoding='utf-8')
-        for attribute, path in [('WATCHLIST_PATH', self.watchlist_path), ('HISTORY_PATH', Path(self.temp.name) / 'history.json')]:
+        for attribute, path in [('WATCHLIST_PATH', self.watchlist_path), ('HISTORY_PATH', Path(self.temp.name) / 'history.json'),
+                                ('TRACKING_DB', Path(self.temp.name) / 'tracking.db'), ('TRACKED_PATH', Path(self.temp.name) / 'tracked.json')]:
             replacement = patch.object(web, attribute, path)
             replacement.start()
             self.addCleanup(replacement.stop)
@@ -65,7 +66,7 @@ class AppTests(unittest.TestCase):
 
     def test_reddit_does_not_show_legacy_translation(self):
         self.write([item(source_type="reddit", language="en", summary="Author's words", summary_pl="Legacy translation")])
-        html = self.client.get('/').get_data(as_text=True)
+        html = self.client.get('/?section=reddit').get_data(as_text=True)
         self.assertIn("Author&#39;s words", html)
         self.assertNotIn("Legacy translation", html)
 
@@ -121,18 +122,22 @@ class AppTests(unittest.TestCase):
         self.assertEqual(result["items"], [])
         self.assertFalse(result["has_more"])
 
-    def test_deals_only_include_verified_current_targets_or_historical_lows(self):
+    def test_offers_include_all_watched_games_and_low_filter_matches_either_current_price(self):
+        self.watchlist_path.write_text(json.dumps({'games': [{'name': f'Game {i}', 'steam_app_id': i} for i in range(1, 6)]}), encoding='utf-8')
         self.write([
-            item(1, source_type="deal", active=True, price_verified=True, price="10,00 zł", historical_price="10,00 zł"),
-            item(2, source_type="deal", active=True, price_verified=True, current_price=20, target_price=25),
-            item(3, source_type="deal", active=True, price_verified=True, price="30 zł", historical_price="10 zł", matched_keywords=["Legion"]),
-            item(4, source_type="deal", active=True, price="10 zł", priority=True),
-            item(5, source_type="deal", active=False, price_verified=True, current_price=0, historical_low=0),
-            item(6, source_type="deal", active=True, price_verified=True, price="0,00 zł", historical_price="0,00 zł"),
+            item(1, source='GG.deals', steam_app_id=1, source_type='deal', active=True, price_verified=True, current_price=10, retail_price_value=15, keyshop_price_value=10, historical_low=10),
+            item(2, source='GG.deals', steam_app_id=2, source_type='deal', active=True, price_verified=True, current_price=20, retail_price_value=20, historical_low=10),
+            item(3, source='GG.deals', steam_app_id=3, source_type='deal', active=True, price_verified=True, current_price=0, retail_price_value=0, historical_low=0),
+            item(4, source='GG.deals', steam_app_id=4, source_type='deal', active=False, price_verified=True, current_price=5, historical_low=5),
+            item(5, source='GG.deals', steam_app_id=5, source_type='deal', active=True, current_price=10, historical_low=10),
         ])
         result = self.client.get('/api/feed?section=deal').json
-        self.assertEqual({i['id'] for i in result['items']}, {'1', '2', '6'})
-        self.assertEqual(self.client.get('/api/feed').json['count'], 3)
+        self.assertEqual(result['count'], 5)
+        self.assertFalse(result['has_more'])
+        self.assertEqual({str(i['steam_app_id']) for i in self.client.get('/api/feed?section=deal&low=1').json['items']}, {'1', '3'})
+        self.assertIn('—', result['html'])
+        self.assertFalse(web.deal_signals({'active': True, 'price_verified': True, 'current_price': 8, 'historical_low': 10})['is_historical_low'])
+        self.assertTrue(web.deal_signals({'active': True, 'price_verified': True, 'current_price': 8, 'retail_price_value': 10, 'keyshop_price_value': 8, 'historical_low': 10})['is_historical_low'])
 
     def test_invalid_prices_never_qualify_and_minimum_is_rechecked(self):
         for price in ['nan', 'inf', -1, True, '20 zł zamiast 10 zł']:
@@ -140,20 +145,15 @@ class AppTests(unittest.TestCase):
         self.assertFalse(web.deal_signals({'active': True, 'price_verified': True,
                          'current_price': 15, 'historical_low': 10, 'is_historical_low': True})['deal_qualified'])
 
-    def test_start_balances_sources_and_groups_identical_titles_without_mutating_cache(self):
-        self.write([item(i, title=f'News {i}') for i in range(40)] +
-                   [item(41, title='News 0', source='Other'), item(42, title='Video', source_type='youtube'),
-                    item(43, title='Discussion', source_type='reddit')])
-        result = self.client.get('/api/feed').json
-        self.assertEqual([i['source_type'] for i in result['items'][:3]], ['news', 'reddit', 'youtube'])
-        self.assertEqual(result['items'][0]['also_from'][0]['source'], 'Other')
-        self.assertEqual(result['count'], 42)
-        flat = self.client.get('/api/feed?section=news').json
-        self.assertEqual(flat['count'], 41)
-        self.assertNotIn('also_from', flat['items'][0])
+    def test_news_is_default_and_start_is_removed(self):
+        self.write([item(), item(1, source_type='reddit'), item(2, source_type='youtube')])
+        self.assertEqual([i['id'] for i in self.client.get('/api/feed').json['items']], ['0'])
+        html = self.client.get('/').get_data(as_text=True)
+        self.assertNotIn('<span>Start</span>', html)
+        self.assertIn('data-section="news"', html)
 
     def test_game_page_joins_exact_prices_and_announcements_and_paginates(self):
-        self.write([item(0, steam_app_id=1977170, source_type='deal', active=True, price_verified=True, current_price=20)] +
+        self.write([item(0, source='GG.deals', steam_app_id=1977170, source_type='deal', active=True, price_verified=True, current_price=20)] +
                    [item(i, steam_app_id=1977170, title=f'Update {i}', is_game_update=True) for i in range(1, 45)] +
                    [item(99, title='Unrelated')])
         result = self.client.get('/api/feed?view=games&game=1977170').json
@@ -173,6 +173,25 @@ class AppTests(unittest.TestCase):
     def test_same_patch_title_for_different_games_is_not_grouped(self):
         self.write([item(1, title='Patch 1.1', steam_app_id=123), item(2, title='Patch 1.1', steam_app_id=456)])
         self.assertEqual(self.client.get('/api/feed').json['count'], 2)
+
+    def test_steam_tracking_validates_links_origin_duplicates_and_limits(self):
+        headers = {'Origin': 'http://localhost'}
+        for value in ['https://evil.com/app/620/', 'https://store.steampowered.com/bundle/620/', 'https://store.steampowered.com/app/0/', 'javascript:alert(1)', '999999999999999999999', 'https://store.steampowered.com:8080/app/620/']:
+            self.assertEqual(self.client.post('/api/tracking', json={'steam': value}, headers=headers).status_code, 400)
+        self.assertEqual(self.client.post('/api/tracking', json={'steam': '620'}, headers={'Origin': 'https://evil.com'}).status_code, 403)
+        result = self.client.post('/api/tracking', json={'steam': 'https://store.steampowered.com/app/620/Portal_2/?x=y'}, headers=headers)
+        self.assertEqual(result.status_code, 202)
+        self.assertEqual(result.json['steam_app_id'], '620')
+        self.assertEqual(self.client.post('/api/tracking', json={'steam': '620'}, headers=headers).json['status'], 'pending')
+        self.assertEqual(len(self.client.get('/api/tracking').json['games']), 1)
+        catalog = web.TRACKED_PATH
+        catalog.write_text(json.dumps({'games': [{'steam_app_id': 620, 'name': 'Portal 2', 'status': 'ready'}]}), encoding='utf-8')
+        html = self.client.get('/?section=deal&view=tracking').get_data(as_text=True)
+        self.assertIn('Portal 2', html)
+        self.assertEqual(self.client.post('/api/tracking', json={'steam': '620'}, headers=headers).json['status'], 'ready')
+        catalog.write_text(json.dumps({'games': [{'steam_app_id': i, 'name': 'Not a game', 'status': 'rejected'} for i in range(1, 101)]}), encoding='utf-8')
+        self.assertEqual(self.client.post('/api/tracking', json={'steam': '3'}, headers=headers).status_code, 400)
+        self.assertEqual(self.client.post('/api/tracking', json={'steam': '621'}, headers=headers).status_code, 429)
 
 
 if __name__ == '__main__':

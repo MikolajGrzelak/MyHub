@@ -35,6 +35,8 @@ def run():
     with tempfile.TemporaryDirectory(prefix='myhub-browser-') as folder:
         web.FEED_PATH = Path(folder) / 'feed.json'
         web.HISTORY_PATH = Path(folder) / 'history.json'
+        web.TRACKING_DB = Path(folder) / 'tracking.db'
+        web.TRACKED_PATH = Path(folder) / 'tracked.json'
         web.FEED_PATH.write_text(json.dumps({'updated_at': '2026-10-07T09:00:00Z', 'items': items}), encoding='utf-8')
         web.HISTORY_PATH.write_text(json.dumps({'games': {'1977170': [
             {'at': '2026-10-06T08:00:00Z', 'current': 50, 'retail': 55, 'keyshop': 50, 'currency': 'PLN'},

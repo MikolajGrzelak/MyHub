@@ -1,6 +1,6 @@
 {% from '_icons.html' import icon %}
 {% for item in items %}
-<article class="card type-{{ item.source_type }}{% if item.priority or item.matched_keywords %} is-priority{% endif %}" data-id="{{ item.id }}">
+<article class="card type-{{ item.source_type }}{% if item.priority or item.matched_keywords %} is-priority{% endif %}" data-id="{{ item.id }}"{% if item.steam_app_id %} data-steam-id="{{ item.steam_app_id }}"{% endif %}>
   {% if item.thumbnail_url %}
   <div class="thumbnail-wrap"><img class="thumb" src="{{ item.thumbnail_url }}" alt="" loading="lazy" decoding="async" width="640" height="360" referrerpolicy="no-referrer">{% if item.source_type == 'youtube' %}<span class="play-mark">{{ icon('youtube') }}</span>{% endif %}</div>
   {% endif %}
@@ -20,10 +20,11 @@
     </div>
     {% if item.source == 'GG.deals' %}
     <dl class="price-breakdown">
-      {% if item.retail_price %}<div><dt>Oficjalne sklepy</dt><dd>{{ item.retail_price }}</dd></div>{% endif %}
-      {% if item.keyshop_price %}<div><dt>Keyshopy</dt><dd>{{ item.keyshop_price }}</dd></div>{% endif %}
-      {% if item.historical_price %}<div><dt>Minimum historyczne</dt><dd>{{ item.historical_price }}</dd></div>{% endif %}
+      <div><dt>Oficjalne sklepy</dt><dd>{{ item.retail_price or '—' }}</dd></div>
+      <div><dt>Klucze / keyshopy</dt><dd>{{ item.keyshop_price or '—' }}</dd></div>
+      <div><dt>Minimum historyczne</dt><dd>{{ item.historical_price or '—' }}</dd></div>
     </dl>
+    {% if not item.price_verified %}<p class="privacy-note">{{ 'Oczekuje na weryfikację gry PC i pobranie cen.' if item.watch_status == 'pending' else 'Brak zweryfikowanych cen. Sprawdzimy przy kolejnym pobraniu.' }}</p>{% endif %}
     {% endif %}
     {% endif %}
     {% if item.source != 'GG.deals' %}

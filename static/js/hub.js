@@ -26,6 +26,72 @@
     if (className) el.className = className;
     return el;
   };
+  const cleanTracking = (value) => ({
+    added: Array.isArray(value?.added) ? [...new Set(value.added.filter((id) => typeof id === "string" && /^[1-9]\d{0,9}$/.test(id)))].slice(0, 160) : [],
+    excluded: Array.isArray(value?.excluded) ? [...new Set(value.excluded.filter((id) => typeof id === "string" && /^[1-9]\d{0,9}$/.test(id)))].slice(0, 160) : []
+  });
+  let tracking = cleanTracking(read("myhub.tracking", {}));
+  const tracked = (game) => !tracking.excluded.includes(game.id) && (game.default || tracking.added.includes(game.id));
+  function trackingView() {
+    if (!$("#trackingList")) return;
+    const search = fold($("#trackingSearch").value);
+    $("#trackingList").replaceChildren(); $("#removedList").replaceChildren();
+    let active = 0, removed = 0;
+    games.forEach((game) => {
+      const selected = tracked(game);
+      if (!selected && !tracking.excluded.includes(game.id) && !tracking.added.includes(game.id)) return;
+      selected ? active++ : removed++;
+      if (!fold(game.name).includes(search) && !game.id.includes(search)) return;
+      const row = node("div", null, "tracking-row"), text = node("div");
+      text.append(node("strong", game.name), node("span", `PC · Steam ${game.id}${game.watch_status === "pending" ? " · oczekuje na weryfikację" : game.watch_status === "rejected" ? " · odrzucono: nie jest grą PC (Windows)" : ""}`, "privacy-note"));
+      const button = node("button", selected ? "Usuń" : "Przywróć", "text-button"); button.type = "button";
+      button.setAttribute("aria-label", `${selected ? "Usuń" : "Przywróć"}: ${game.name}`);
+      button.disabled = !selected && game.watch_status === "rejected";
+      button.addEventListener("click", () => {
+        const next = cleanTracking({added: selected ? tracking.added : [...tracking.added, game.id],
+          excluded: selected ? [...tracking.excluded, game.id] : tracking.excluded.filter((id) => id !== game.id)});
+        if (write("myhub.tracking", next)) {tracking = next; trackingView();}
+      });
+      row.append(text, button); $(selected ? "#trackingList" : "#removedList").append(row);
+    });
+    $("#trackingCount").textContent = `${active} gier`;
+    $("#removedCount").textContent = `(${removed})`;
+    if (!$("#trackingList").children.length) $("#trackingList").append(node("p", "Brak gier pasujących do wyszukiwania.", "privacy-note"));
+  }
+  $("#trackingSearch")?.addEventListener("input", trackingView);
+  $("#addTrackedGame")?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const button = event.currentTarget.querySelector("button"), message = $("#trackingMessage");
+    if (!navigator.onLine) {message.textContent = "Dodawanie nowych gier wymaga połączenia. Spróbuj po odzyskaniu internetu."; return;}
+    button.disabled = true; message.textContent = "Dodaję grę…";
+    try {
+      const response = await fetch("/api/tracking", {method: "POST", headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({steam: $("#steamInput").value.trim()}), signal: AbortSignal.timeout(15000)});
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || "Nie udało się dodać gry.");
+      const id = String(result.steam_app_id);
+      const next = cleanTracking({added: [...tracking.added, id], excluded: tracking.excluded.filter((value) => value !== id)});
+      if (!write("myhub.tracking", next)) throw new Error("Nie udało się zapisać listy na urządzeniu.");
+      tracking = next;
+      if (!games.some((g) => g.id === id)) games.push({id, name: `Steam ${id}`, default: false, watch_status: result.status});
+      trackingView(); $("#steamInput").value = "";
+      message.textContent = result.status === "pending" ? "Dodano. Tytuł i ceny sprawdzimy przy najbliższym pobieraniu danych." : "Gra jest na Twojej liście.";
+    } catch (error) {message.textContent = error.message || "Nie udało się połączyć. Spróbuj ponownie.";}
+    finally {button.disabled = false;}
+  });
+  if (document.body.dataset.section === "deal" && document.body.dataset.view === "feed") {
+    let count = 0;
+    $("#feed").querySelectorAll(".card").forEach((card) => {
+      const game = games.find((g) => g.id === card.dataset.steamId);
+      card.hidden = !game || !tracked(game);
+      if (!card.hidden) {
+        count++;
+        if (["owned", "playing", "paused", "completed"].includes(pref(game.id).status)) card.querySelector(".card-content").append(node("p", "Masz już tę grę na swojej półce", "owned-label match"));
+      }
+    });
+    $("#resultCount").textContent = count; $("#emptyState").hidden = count > 0;
+  }
+  trackingView();
   function library() {
     if (!$("#gameGrid")) return;
     const search = fold($("#gameSearch").value), filter = $("#libraryFilter").value;
@@ -86,16 +152,6 @@
     });
     if (!candidates.length) $("#gamePicks").append(node("p", "Brak pasujących oznaczeń. Na karcie gry ustaw posiadanie, długość sesji i nastrój albo poszerz wybór.", "privacy-note"));
   });
-  if (data.home) {
-    const last = read("myhub.lastVisit", null);
-    const cutoff = Date.parse(last);
-    if (Number.isFinite(cutoff)) {
-      const newItems = (data.visits || []).filter((i) => Date.parse(i.date) > cutoff);
-      $("#visitNote").textContent = newItems.length ? `${newItems.length} nowych wpisów od Twojej ostatniej wizyty.` : "Jesteś na bieżąco ze swoim przeglądem.";
-      $("#visitNote").hidden = false;
-    }
-    write("myhub.lastVisit", new Date().toISOString());
-  }
   if ($("#returnSignals")) {
     games.filter((g) => pref(g.id).status === "paused").forEach((game) => {
       const paused = Date.parse(pref(game.id).paused_at);
@@ -104,40 +160,6 @@
       link.href = `/?view=games&game=${game.id}`; $("#returnList").append(link);
     });
     $("#returnSignals").hidden = !$("#returnList").children.length;
-  }
-  if ($("#watchedDeals")) {
-    const fragment = $("#watchedDeals").content;
-    const additional = [];
-    const params = new URLSearchParams(location.search);
-    games.filter(priceInRange).forEach((game) => {
-      const price = game.price;
-      if (params.get("source") && params.get("source") !== price.source) return;
-      if (params.get("lang") && params.get("lang") !== price.language) return;
-      if (params.get("category") && fold(params.get("category")) !== fold(price.category)) return;
-      const text = fold([price.title, price.source, price.summary].join(" "));
-      if (fold(params.get("q") || "").split(/\s+/).some((word) => !text.includes(word))) return;
-      let card = [...$("#feed").querySelectorAll(".card")].find((c) => c.dataset.id === price.id);
-      if (!card) {
-        card = [...fragment.querySelectorAll(".card")].find((c) => c.dataset.id === price.id)?.cloneNode(true);
-        if (!card) return;
-        $("#feed").prepend(card); additional.push(price);
-      }
-      if (!price.within_target) card.querySelector(".card-content").append(node("div", "Cena w Twoim zasięgu · Twój próg", "match"));
-    });
-    if (additional.length) {
-      window.myhubExtraDeals = additional.filter((price) => !price.deal_qualified).length;
-      $("#resultCount").textContent = Number($("#resultCount").textContent) + window.myhubExtraDeals;
-      $("#emptyState").hidden = true;
-      document.dispatchEvent(new CustomEvent("myhub:items", {detail: {items: additional}}));
-    }
-    const flagOwned = () => {
-      games.filter((game) => ["owned", "playing", "paused", "completed"].includes(pref(game.id).status)).forEach((game) => {
-        const card = [...$("#feed").querySelectorAll(".card")].find((c) => c.dataset.id === game.price?.id);
-        if (card && !card.querySelector(".owned-label")) card.querySelector(".card-content").append(node("p", "Masz już tę grę na swojej półce", "owned-label match"));
-      });
-    };
-    flagOwned();
-    new MutationObserver(flagOwned).observe($("#feed"), {childList: true});
   }
   function chart() {
     if (!$("#priceChart")) return;
@@ -263,7 +285,7 @@
     $("#journalFilter").addEventListener("change", journalView);
     $("#exportPersonal").addEventListener("click", () => {
       const payload = {schema: 1, exported_at: new Date().toISOString(), games: read("myhub.games", {}),
-        device: read("myhub.device", {}), tests: read("myhub.tests", []), saved: read("myhub.saved", [])};
+        device: read("myhub.device", {}), tests: read("myhub.tests", []), saved: read("myhub.saved", []), tracking};
       const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], {type: "application/json"}));
       const link = node("a"); link.href = url; link.download = `myhub-backup-${new Date().toISOString().slice(0, 10)}.json`;
       document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
@@ -312,6 +334,7 @@
           nextDevice = Object.keys(device).length ? newer(device, clean) : clean;
         }
         const entries = [["myhub.games", mergedGames], ["myhub.device", nextDevice], ["myhub.tests", [...mergedTests.values()]], ["myhub.saved", [...mergedSaved.values()]]];
+        if (incoming.tracking && typeof incoming.tracking === "object") entries.push(["myhub.tracking", cleanTracking(incoming.tracking)]);
         const before = entries.map(([key]) => [key, localStorage.getItem(key)]);
         try { entries.forEach(([key, value]) => localStorage.setItem(key, JSON.stringify(value))); }
         catch (error) { before.forEach(([key, value]) => { try { value === null ? localStorage.removeItem(key) : localStorage.setItem(key, value); } catch {} }); throw error; }

@@ -23,7 +23,7 @@
   <div class="pull-refresh" id="pullRefresh" role="status">Pociągnij, aby odświeżyć</div>
   <div class="app-shell">
     <header class="app-header">
-      <a class="brand" href="/" aria-label="MyHub — Start"><span class="brand-mark">m<span>h</span></span><span>myhub<span class="brand-dot">.</span></span></a>
+      <a class="brand" href="/" aria-label="MyHub — News"><span class="brand-mark">m<span>h</span></span><span>myhub<span class="brand-dot">.</span></span></a>
       <div class="header-actions">
         <a class="icon-button" href="/?view=games" aria-label="Twoje gry">{{ icon('game') }}</a>
         <a class="icon-button" href="/?view=hardware" aria-label="Twój sprzęt">{{ icon('hardware') }}</a>
@@ -32,29 +32,22 @@
       </div>
     </header>
     <main id="main" tabindex="-1">
-      <section class="intro" aria-labelledby="pageTitle">
+      <section class="intro{% if offers %} offers-intro{% endif %}" aria-labelledby="pageTitle">
         <p class="eyebrow">TECH. GAMING. TWOJE TEMATY.</p>
         <h1 id="pageTitle">{{ 'Zapisane na później' if view == 'saved' else section_title }}<span class="title-dot">.</span></h1>
-        <p class="intro-description">{% if view == 'saved' %}Dobre treści zasługują na drugą chwilę.{% elif section == 'reddit' %}Rozmowy z Twoich społeczności. W oryginale.{% elif section == 'youtube' %}Nowe materiały z kanałów, które obserwujesz.{% elif section == 'deal' %}Tylko ceny w Twoim zasięgu i historyczne minima dostępne teraz.{% elif section == 'priority' %}Treści dopasowane do Twoich słów kluczowych i cen docelowych.{% else %}Mniej szumu. Więcej rzeczy, które Cię interesują.{% endif %}</p>
+        <p class="intro-description">{% if view == 'saved' %}Dobre treści zasługują na drugą chwilę.{% elif section == 'reddit' %}Rozmowy z Twoich społeczności. W oryginale.{% elif section == 'youtube' %}Nowe materiały z kanałów, które obserwujesz.{% elif section == 'deal' %}Śledzone gry PC: oficjalne sklepy, klucze i historyczne minimum.{% elif section == 'priority' %}Treści dopasowane do Twoich słów kluczowych i cen docelowych.{% else %}Mniej szumu. Więcej rzeczy, które Cię interesują.{% endif %}</p>
         <div class="feed-status"><span class="status-dot{% if feed_error %} warning{% endif %}" id="statusDot"></span><span id="connectionStatus">{{ 'Ostatnia poprawna kopia danych' if feed_error else 'Ostatnie zebranie' }}</span>{% if updated_at %}<time id="updatedAt" data-date="{{ updated_at }}" datetime="{{ updated_at }}"></time>{% endif %}<button class="refresh-button" id="refreshButton" type="button" aria-label="Odśwież feed">{{ icon('refresh') }}</button></div>
       </section>
 
-      {% if home %}
-      <section class="discovery" aria-label="Odkrywaj swoje tematy">
-        <a class="discovery-feature" href="{{ filter_url(section='priority', source=None, category=None, view=None) }}"><span class="feature-icon">{{ icon('spark') }}</span><div><strong>Dla Ciebie</strong><span>{{ priority_count }} dopasowanych wpisów</span></div>{{ icon('chevron') }}</a>
-        <div class="topic-chips" aria-label="Szybkie wyszukiwanie"><a href="{{ filter_url(q='Legion Go') }}">Legion Go</a><a href="{{ filter_url(q='Steam Deck') }}">Steam Deck</a><a href="{{ filter_url(q='Xbox') }}">Xbox</a><a href="{{ filter_url(q='vibecoding') }}">Vibecoding</a></div>
-      </section>
-      <div class="hub-shortcuts home-shortcuts"><a href="/?view=games">{{ icon('game') }} Twoje gry <span>{{ games|length }}</span></a><a href="/?view=hardware">{{ icon('hardware') }} Twój sprzęt {{ icon('chevron') }}</a></div>
-      <p class="visit-note" id="visitNote" hidden role="status"></p>
-      {% endif %}
-
       {% if view == 'games' %}{% include '_games.html' %}{% endif %}
       {% if view == 'hardware' %}{% include '_hardware.html' %}{% endif %}
-      <section class="quick-controls" aria-label="Wyszukiwanie i filtry"{% if view in ['games','hardware'] %} hidden{% endif %}>
+      {% if view == 'tracking' %}{% include '_tracking.html' %}{% endif %}
+      {% if offers %}<div class="offer-controls"><a class="button secondary{% if low_only %} active{% endif %}" id="lowFilter" href="{{ filter_url(low=None if low_only else '1') }}" aria-pressed="{{ 'true' if low_only else 'false' }}" title="Gry, w których obecna cena oficjalna lub klucza jest równa historycznemu minimum">{{ icon('deal') }} {{ 'Wszystkie ceny' if low_only else 'Aktualne minima' }}</a><a class="button secondary" href="/?section=deal&amp;view=tracking">{{ icon('settings') }} Edytuj listę gier</a></div>{% endif %}
+      <section class="quick-controls" aria-label="Wyszukiwanie i filtry"{% if view in ['games','hardware','tracking'] %} hidden{% endif %}>
         <details class="search-panel"{% if query %} open{% endif %}>
         <summary>{{ icon('search') }} Szukaj{% if query %}<span class="filter-dot"></span>{% endif %}</summary>
         <form class="search-form" method="get" role="search">
-          {% for key, value in [('section',section),('lang',language),('source',source),('category',category),('view',view if view == 'saved' else ''),('sort',sort)] %}{% if value %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
+          {% for key, value in [('section',section),('lang',language),('source',source),('category',category),('view',view if view == 'saved' else ''),('sort',sort),('low','1' if low_only else '')] %}{% if value %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
           {{ icon('search') }}<input type="search" name="q" value="{{ query }}" maxlength="200" placeholder="Szukaj tematu, gry, źródła…" aria-label="Szukaj w feedzie" autocomplete="off"><button type="submit" aria-label="Wyszukaj">{{ icon('chevron') }}</button>
         </form>
         </details>
@@ -63,7 +56,7 @@
           <details class="filter-panel" {% if category or source or sort != 'newest' %}open{% endif %}>
             <summary>{{ icon('settings') }} Filtry{% if category or source or sort != 'newest' %}<span class="filter-dot"></span>{% endif %}</summary>
             <form class="filters" method="get">
-              {% for key, value in [('section',section),('lang',language),('q',query),('view',view if view == 'saved' else '')] %}{% if value %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
+              {% for key, value in [('section',section),('lang',language),('q',query),('view',view if view == 'saved' else ''),('low','1' if low_only else '')] %}{% if value %}<input type="hidden" name="{{ key }}" value="{{ value }}">{% endif %}{% endfor %}
               <label><span>Kategoria</span><select name="category"><option value="">Wszystkie kategorie</option>{% for c in categories %}<option value="{{ c }}" {% if category|lower == c|lower %}selected{% endif %}>{{ c }}</option>{% endfor %}</select></label>
               <label><span>Źródło</span><select name="source"><option value="">Wszystkie źródła</option>{% for group_key in ([section] if section in ['news','reddit','youtube','deal'] else ['news','reddit','youtube','deal']) %}{% if available_source_groups.get(group_key) %}<optgroup label="{{ {'news':'News','reddit':'Reddit','youtube':'YouTube','deal':'Okazje'}[group_key] }}">{% for s in available_source_groups[group_key] %}<option value="{{ s }}" {% if source == s %}selected{% endif %}>{{ s }}</option>{% endfor %}</optgroup>{% endif %}{% endfor %}</select></label>
               <label><span>Kolejność</span><select name="sort"><option value="newest" {% if sort == 'newest' %}selected{% endif %}>Najnowsze</option><option value="priority" {% if sort == 'priority' %}selected{% endif %}>Dopasowane najpierw</option></select></label>
@@ -73,21 +66,21 @@
         </div>
         {% if category or source or query or language %}<div class="active-filters">{% if query %}<span>„{{ query }}”</span>{% endif %}{% if category %}<span>{{ category }}</span>{% endif %}{% if source %}<span>{{ source }}</span>{% endif %}<a href="{{ filter_url(q=None, category=None, source=None, lang=None, sort=None) }}">Wyczyść</a></div>{% endif %}
       </section>
-      <div class="feed-heading"{% if view in ['games','hardware'] and not selected_game %} hidden{% endif %}><h2>{{ 'Twoja kolekcja' if view == 'saved' else 'Wzmianki i komunikaty' if selected_game else ('Wyniki wyszukiwania' if query else 'Twój przegląd' if home else 'Najnowsze sygnały') }} <span id="resultCount">{{ filtered_count if view != 'saved' else 0 }}</span></h2><button class="text-button" id="densityButton" type="button" aria-pressed="false">Widok kompaktowy</button></div>
-      <section class="feed" id="feed" aria-label="Wpisy" tabindex="-1"{% if view in ['games','hardware'] and not selected_game %} hidden{% endif %}>{% include '_cards.html' %}</section>
-      <section class="empty-state" id="emptyState" {% if items or view in ['saved','games','hardware'] %}hidden{% endif %}>{{ icon('search') }}<h2>Jeszcze nie ma tu sygnału</h2><p>{% if section == 'deal' %}Obecnie żadne zweryfikowane ceny nie spełniają warunków. Wszystkie obserwowane ceny znajdziesz w „Twoje gry”.{% else %}Spróbuj szerszego wyszukiwania lub wyczyść filtry.{% endif %}</p><a class="button secondary" href="/?view=games">Twoje gry</a></section>
+      <div class="feed-heading"{% if view in ['games','hardware','tracking'] and not selected_game %} hidden{% endif %}><h2>{{ 'Twoja kolekcja' if view == 'saved' else 'Wzmianki i komunikaty' if selected_game else ('Śledzone ceny' if offers else 'Wyniki wyszukiwania' if query else 'Najnowsze sygnały') }} <span id="resultCount">{{ filtered_count if view != 'saved' else 0 }}</span></h2><button class="text-button" id="densityButton" type="button" aria-pressed="false">Widok kompaktowy</button></div>
+      <section class="feed" id="feed" aria-label="Wpisy" tabindex="-1"{% if view in ['games','hardware','tracking'] and not selected_game %} hidden{% endif %}>{% include '_cards.html' %}</section>
+      <section class="empty-state" id="emptyState" {% if items or view in ['saved','games','hardware','tracking'] %}hidden{% endif %}>{{ icon('search') }}<h2>Jeszcze nie ma tu sygnału</h2><p>{% if section == 'deal' %}Żadna ze śledzonych gier nie spełnia tego filtra. Możesz pokazać wszystkie ceny albo edytować listę gier.{% else %}Spróbuj szerszego wyszukiwania lub wyczyść filtry.{% endif %}</p><a class="button secondary" href="/?view=games">Twoje gry</a></section>
       <div class="pagination" id="pagination" {% if not has_more %}hidden{% endif %}><button class="button secondary" id="loadMore" type="button" data-page="{{ page }}">Pokaż więcej</button><noscript><a class="button secondary" href="{{ filter_url(page=page+1) }}">Następna strona</a></noscript><p id="shownCount">{{ items|length }} z {{ filtered_count }} wpisów</p></div>
       <p class="end-note">Twój internet. W jednym miejscu.</p>
       <noscript><p class="notice">Włącz JavaScript, aby zapisywać treści na później i korzystać z trybu offline.</p></noscript>
     </main>
   </div>
-  <nav class="bottom-nav" aria-label="Główna nawigacja">{% for key, label, symbol in [('', 'Start','home'),('news','News','news'),('reddit','Reddit','reddit'),('youtube','YouTube','youtube'),('deal','Okazje','deal')] %}<a class="{% if section == key and view == 'feed' %}active{% endif %}" href="{{ filter_url(section=key, source=None, category=None, view=None, game=None) }}"{% if section == key and view == 'feed' %} aria-current="page"{% endif %}>{{ icon(symbol, 'nav-icon') }}<span>{{ label }}</span></a>{% endfor %}</nav>
+  <nav class="bottom-nav" aria-label="Główna nawigacja">{% for key, label, symbol in [('news','News','news'),('reddit','Reddit','reddit'),('youtube','YouTube','youtube'),('deal','Okazje','deal')] %}<a class="{% if section == key and view == 'feed' %}active{% endif %}" href="{{ filter_url(section=key, source=None, category=None, view=None, game=None, low=None) }}"{% if section == key and view == 'feed' %} aria-current="page"{% endif %}>{{ icon(symbol, 'nav-icon') }}<span>{{ label }}</span></a>{% endfor %}</nav>
 
   <dialog id="preferencesDialog" class="preferences-dialog" aria-labelledby="preferencesTitle"><div class="dialog-heading"><h2 id="preferencesTitle">Po Twojemu</h2><button class="icon-button" type="button" id="closePreferences" aria-label="Zamknij ustawienia">×</button></div><p>Dostosuj MyHub do swojego rytmu.</p><div class="preference-row"><label for="themeSelect">Motyw</label><select id="themeSelect"><option value="dark">Ciemny</option><option value="light">Jasny</option><option value="system">Jak w urządzeniu</option></select></div><div class="preference-row"><label for="compactToggle">Kompaktowe karty</label><input id="compactToggle" type="checkbox"></div><div class="install-help"><strong>MyHub na ekranie głównym</strong><p>Na iPhonie otwórz MyHub w Safari, wybierz Udostępnij, a następnie „Dodaj do ekranu początkowego”.</p><button class="button secondary" id="installButton" type="button" hidden>Zainstaluj MyHub</button></div><p class="privacy-note">Półka gier, ceny docelowe, pomiary i zapisane treści pozostają w tej przeglądarce. Kopię do przeniesienia na inne urządzenie pobierzesz w „Twój sprzęt”.</p></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
   <div class="update-banner" id="updateBanner" hidden><span>Nowa wersja MyHub jest gotowa.</span><button type="button" id="updateButton">Odśwież</button></div>
   <script id="pageItems" type="application/json">{{ (hardware_items if view == 'hardware' else items)|tojson }}</script>
-  <script id="hubData" type="application/json">{{ {'games': hub_games, 'selected': selected_game.id if selected_game else none, 'history': selected_game.history if selected_game else [], 'home': home, 'visits': visit_items}|tojson }}</script>
-  {% if section == 'deal' and view == 'feed' %}<template id="watchedDeals">{% with items=games|map(attribute='price')|select|list %}{% include '_cards.html' %}{% endwith %}</template>{% endif %}
+  <script id="hubData" type="application/json">{{ {'games': hub_games, 'selected': selected_game.id if selected_game else none, 'history': selected_game.history if selected_game else [], 'home': false, 'visits': []}|tojson }}</script>
+
 </body>
 </html>
