@@ -86,6 +86,41 @@ class CollectorTests(unittest.TestCase):
                 self.assertEqual(json.loads(path.read_text())['count'], 1)
                 self.assertEqual(len(list(Path(tmp).iterdir())), 1)
 
+    def test_price_history_records_changes_preserves_gaps_and_separates_store_types(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'history.json'
+            offer = {"source": "GG.deals", "steam_app_id": 123, "active": True,
+                     "price_verified": True, "current_price": 10, "retail_price_value": 15,
+                     "keyshop_price_value": 10, "currency": "PLN", "price_kind": "keyshop",
+                     "price_checked_at": "2026-10-06T08:00:00Z"}
+            with patch.object(rss, 'PRICE_HISTORY_PATH', path):
+                rss.record_price_history([offer])
+                rss.record_price_history([{**offer, "price_checked_at": "2026-10-06T09:00:00Z"}])
+                points = json.loads(path.read_text())['games']['123']
+                self.assertEqual(len(points), 1)
+                self.assertEqual(points[0]['at'], offer['price_checked_at'])
+                self.assertEqual(points[0]['checked_at'], '2026-10-06T09:00:00Z')
+                rss.record_price_history([{**offer, "retail_price_value": 12}])
+                self.assertEqual(len(json.loads(path.read_text())['games']['123']), 2)
+                rss.record_price_history([{**offer, "active": False}])
+                self.assertEqual(len(json.loads(path.read_text())['games']['123']), 2)
+
+    def test_steam_announcements_keep_source_date_and_link_to_exact_game(self):
+        from datetime import datetime, timezone
+        now = int(datetime.now(timezone.utc).timestamp())
+        response = Mock()
+        response.json.return_value = {"appnews": {"newsitems": [
+            {"gid": "42", "date": now, "title": "Performance update", "url": "https://store.steampowered.com/news/42", "contents": "<b>Fixes</b>"},
+            {"gid": "old", "date": 1, "title": "Old", "url": "https://example.com"},
+            {"gid": "bad", "date": now, "title": "Bad", "url": "javascript:alert(1)"},
+        ]}}
+        with patch.object(rss.requests, 'get', return_value=response):
+            items = rss.collect_steam_news([{"steam_app_id": 123, "name": "Test game"}])
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]['steam_app_id'], 123)
+        self.assertEqual(items[0]['summary'], 'Fixes')
+        self.assertTrue(items[0]['is_game_update'])
+
 
 if __name__ == '__main__':
     unittest.main()

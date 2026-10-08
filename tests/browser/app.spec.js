@@ -6,8 +6,9 @@ test("section swipes preserve search, cancel safely and keep pull refresh separa
 }) => {
   test.skip(!isMobile, "Touch navigation is a mobile feature.");
   await page.goto("/?section=news&lang=pl&q=Legion");
-  const touch = async (type, x, y) =>
-    page.evaluate(
+  const touch = async (type, x, y) => {
+    await page.waitForLoadState("domcontentloaded");
+    return page.evaluate(
       ({ type, x, y }) => {
         const event = new Event(type, { bubbles: true });
         Object.defineProperty(event, "touches", {
@@ -20,6 +21,7 @@ test("section swipes preserve search, cancel safely and keep pull refresh separa
       },
       { type, x, y },
     );
+  };
   await touch("touchstart", 190, 300);
   await touch("touchend", 70, 300);
   await expect(page).toHaveURL(/section=reddit/);

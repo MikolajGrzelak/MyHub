@@ -3,5 +3,6 @@ __pycache__/
 *.py[cod]
 node_modules/
 test-results/
+test-results-latest.log
 .env
 *.db

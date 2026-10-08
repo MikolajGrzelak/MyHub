@@ -86,3 +86,12 @@ Ten plik jest stałym kontekstem dla kolejnych sesji pracy nad MyHub. Przed wpro
 - Konkretne działanie jest lepsze niż długa instrukcja ręcznej edycji.
 - Użytkownik dobrze radzi sobie technicznie, ale oczekuje, że przy dostępie do repo asystent sam sprawdzi kod, logi i wdroży poprawkę.
 - Krótkie podsumowanie po zmianie jest wystarczające; szczegóły techniczne podawaj wtedy, gdy pomagają zrozumieć problem lub podjąć decyzję.
+
+## Centrum gier i sprzętu (2026-10-08)
+
+- Wyszukiwarka domyślnie schowana. Okazje: wyłącznie ceny docelowe lub historyczne minima obowiązujące teraz; wymagają `active` i `price_verified`. Pozostałe ceny są w katalogu gier.
+- Nowe widoki: `/?view=games`, `/?view=games&game=STEAM_ID`, `/?view=hardware`; UI w `_games.html`, `_hardware.html`, `static/js/hub.js`.
+- Progi i półka (`myhub.games`), sprzęt (`myhub.device`), pomiary (`myhub.tests`) oraz bookmarki są lokalne. Eksport/import JSON umożliwia przeniesienie; nie opisuj go jako synchronizacji.
+- Dane wdrażane: `data/game_watchlist.json`, `data/price_history.json` oraz feed. Historia zbierana dopiero od uruchomienia funkcji; nie wolno dopisywać domniemanych wcześniejszych cen. Nie łącz walut ani cen keyshopów z oficjalnymi przy porównaniach.
+- Steam komunikaty zbierane po dokładnym App ID w Actions. Przypomnienie o odłożonej grze informuje o komunikacie, nie potwierdza usunięcia błędów. Ofert Steam nie oznaczaj jako Xbox Play Anywhere na podstawie samego tytułu.
+- Testy Playwright używają `tests/serve.py` i tymczasowych danych. Nie uzależniaj ich od obecności promocji w bieżącym feedzie. Po deployu zweryfikuj prawdziwe dane oddzielnie.

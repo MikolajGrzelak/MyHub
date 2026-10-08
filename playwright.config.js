@@ -27,9 +27,9 @@ module.exports = defineConfig({
     command:
       process.env.MYHUB_TEST_SERVER ||
       (process.platform === "win32"
-        ? ".venv\\Scripts\\python.exe -m flask --app app run --port 5056"
-        : "python -m flask --app app run --port 5056"),
+        ? ".venv\\Scripts\\python.exe tests/serve.py"
+        : "python tests/serve.py"),
     url: "http://127.0.0.1:5056/health",
-    reuseExistingServer: !process.env.CI,
+    reuseExistingServer: false,
   },
 });

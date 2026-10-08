@@ -21,6 +21,12 @@ class AppTests(unittest.TestCase):
         self.path_patch = patch.object(web, "FEED_PATH", self.path)
         self.path_patch.start()
         self.addCleanup(self.path_patch.stop)
+        self.watchlist_path = Path(self.temp.name) / 'games.json'
+        self.watchlist_path.write_text(json.dumps({'games': [{'name': 'Jusant', 'steam_app_id': 1977170}]}), encoding='utf-8')
+        for attribute, path in [('WATCHLIST_PATH', self.watchlist_path), ('HISTORY_PATH', Path(self.temp.name) / 'history.json')]:
+            replacement = patch.object(web, attribute, path)
+            replacement.start()
+            self.addCleanup(replacement.stop)
         web._feed_cache.update(signature=None, items=[], updated_at=None, error=None)
         self.client = web.app.test_client()
         self.write([item()])
@@ -126,13 +132,43 @@ class AppTests(unittest.TestCase):
         ])
         result = self.client.get('/api/feed?section=deal').json
         self.assertEqual({i['id'] for i in result['items']}, {'1', '2', '6'})
-        self.assertEqual(self.client.get('/api/feed').json['count'], 5)
+        self.assertEqual(self.client.get('/api/feed').json['count'], 3)
 
     def test_invalid_prices_never_qualify_and_minimum_is_rechecked(self):
         for price in ['nan', 'inf', -1, True, '20 zł zamiast 10 zł']:
             self.assertIsNone(web.price_number(price))
         self.assertFalse(web.deal_signals({'active': True, 'price_verified': True,
                          'current_price': 15, 'historical_low': 10, 'is_historical_low': True})['deal_qualified'])
+
+    def test_start_balances_sources_and_groups_identical_titles_without_mutating_cache(self):
+        self.write([item(i, title=f'News {i}') for i in range(40)] +
+                   [item(41, title='News 0', source='Other'), item(42, title='Video', source_type='youtube'),
+                    item(43, title='Discussion', source_type='reddit')])
+        result = self.client.get('/api/feed').json
+        self.assertEqual([i['source_type'] for i in result['items'][:3]], ['news', 'reddit', 'youtube'])
+        self.assertEqual(result['items'][0]['also_from'][0]['source'], 'Other')
+        self.assertEqual(result['count'], 42)
+        flat = self.client.get('/api/feed?section=news').json
+        self.assertEqual(flat['count'], 41)
+        self.assertNotIn('also_from', flat['items'][0])
+
+    def test_game_page_joins_exact_prices_and_announcements_and_paginates(self):
+        self.write([item(0, steam_app_id=1977170, source_type='deal', active=True, price_verified=True, current_price=20)] +
+                   [item(i, steam_app_id=1977170, title=f'Update {i}', is_game_update=True) for i in range(1, 45)] +
+                   [item(99, title='Unrelated')])
+        result = self.client.get('/api/feed?view=games&game=1977170').json
+        self.assertEqual(result['count'], 44)
+        self.assertEqual(len(result['items']), 36)
+        self.assertTrue(result['has_more'])
+        self.assertEqual(len(self.client.get('/api/feed?view=games&game=1977170&page=2').json['items']), 8)
+        html = self.client.get('/?view=games&game=1977170').get_data(as_text=True)
+        self.assertIn('Jusant', html)
+        self.assertNotIn('Unrelated', html)
+
+    def test_invalid_catalog_and_history_do_not_break_new_views(self):
+        self.watchlist_path.write_text('[]', encoding='utf-8')
+        for url in ['/?view=games', '/?view=hardware', '/?view=games&game=bad']:
+            self.assertEqual(self.client.get(url).status_code, 200)
 
 
 if __name__ == '__main__':
