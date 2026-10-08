@@ -1,0 +1,34 @@
+{% from '_icons.html' import icon %}
+<section class="hub-panel">
+  <div class="panel-heading"><h2>Twój zestaw</h2>{{ icon('hardware') }}</div>
+  <div class="game-preferences"><label>Urządzenie<select id="deviceModel" aria-label="Urządzenie"><option value="legion">Legion Go · Z1 Extreme</option><option value="deck">Steam Deck</option><option value="ally">ROG Ally</option><option value="other">Inne urządzenie</option></select></label><label>Własna nazwa / wariant<input id="deviceName" maxlength="80" placeholder="np. Legion Go 1 TB"></label><label class="wide">Akcesoria i uwagi<textarea id="deviceNote" maxlength="1000" rows="2" placeholder="Dock, ładowarka, SSD, wersja BIOS…"></textarea></label></div>
+  <button class="button secondary" id="saveDevice" type="button">Zapisz sprzęt</button>
+  <div class="hub-shortcuts"><a id="deviceNews" href="/?q=Legion+Go">Treści o urządzeniu {{ icon('chevron') }}</a><a id="deviceSupport" href="https://pcsupport.lenovo.com/" target="_blank" rel="noopener noreferrer">Wsparcie producenta {{ icon('arrow') }}</a></div>
+  <p class="privacy-note">Sprawdzaj zgodność akcesoriów i aktualizacji z dokładnym modelem u producenta. Własne pomiary i konfiguracje zapiszesz poniżej.</p>
+</section>
+<section class="hub-panel">
+  <div class="panel-heading"><h2>Dziennik testów</h2><span class="privacy-note" id="journalCount"></span><button id="undoTest" class="text-button" type="button" hidden>Cofnij usunięcie</button></div>
+  <p>Porównaj tę samą grę po zmianie ustawień, sterownika lub BIOS.</p>
+  <form id="testForm">
+    <div class="game-preferences">
+      <label>Gra<select id="testGame" required aria-label="Gra">{% for game in games %}<option value="{{ game.id }}">{{ game.name }}</option>{% endfor %}<option value="other">Inna gra / test</option></select></label>
+      <label>Profil<select id="testProfile" aria-label="Profil"><option value="balanced">Zbalansowany</option><option value="battery">Bateria</option><option value="performance">Płynność</option><option value="quality">Jakość obrazu</option></select></label>
+      <label>Średni FPS<input id="testFps" type="number" min="0" max="1000" step="0.1" placeholder="Własny pomiar"></label>
+      <label>Limit mocy APU (W)<input id="testWatts" type="number" min="0" max="300" step="0.1" placeholder="Opcjonalnie"></label>
+      <label>Rozdzielczość<input id="testResolution" maxlength="40" placeholder="np. 1280 × 800"></label>
+      <label>Wersja gry / sterownika<input id="testVersion" maxlength="100" placeholder="Dla porównania po aktualizacji"></label>
+      <label class="wide">Ustawienia, scena testowa i uwagi<textarea id="testNote" maxlength="1000" rows="3" placeholder="Ten sam fragment gry, preset, FSR, hałas, czas pracy na baterii…"></textarea></label>
+    </div>
+    <button class="button secondary" type="submit">Zapisz pomiar</button><button class="text-button" id="cancelEdit" type="button" hidden>Anuluj edycję</button>
+  </form>
+  <div class="journal-controls"><label>Porównaj grę<select id="journalFilter" aria-label="Porównaj grę"><option value="all">Wszystkie pomiary</option>{% for game in games %}<option value="{{ game.id }}">{{ game.name }}</option>{% endfor %}<option value="other">Inne testy</option></select></label></div>
+  <div id="journalList" class="journal-list" aria-live="polite"></div>
+  <p class="privacy-note">FPS i limit mocy to Twoje wpisy. Limit APU nie jest pomiarem poboru energii całego urządzenia. Zapisane ustawienia porównuj przy tej samej scenie i wersji gry.</p>
+</section>
+<section class="hub-panel">
+  <h2>Kopia Twoich danych</h2><p>Przenieś półkę, ceny docelowe, zapisane treści i dziennik na inne urządzenie.</p>
+  <button class="button secondary" id="exportPersonal" type="button">Pobierz kopię JSON</button>
+  <label class="import-label">Wczytaj kopię<input id="importPersonal" type="file" accept="application/json,.json"></label>
+  <p class="privacy-note">Import łączy dane z istniejącymi wpisami. Przy tych samych identyfikatorach zachowuje nowsze oznaczenia. Dane pozostają w przeglądarce; przechowuj kopię w bezpiecznym miejscu.</p>
+</section>
+<section class="hardware-radar"><div class="panel-heading"><h2>Radar handheldów</h2><a href="/?q=handheld">Więcej {{ icon('chevron') }}</a></div><div class="radar-cards">{% with items=hardware_items %}{% include '_cards.html' %}{% endwith %}</div>{% if not hardware_items %}<p class="notice">Brak nowych wpisów o handheldach w aktualnym feedzie.</p>{% endif %}</section>
