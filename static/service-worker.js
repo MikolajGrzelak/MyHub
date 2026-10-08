@@ -1,4 +1,4 @@
-const VERSION = "2026.10.06.1";
+const VERSION = "2026.10.08.1";
 const PREFIX = "myhub-";
 const SHELL = `${PREFIX}shell-${VERSION}`;
 const PAGES = `${PREFIX}pages-${VERSION}`;
@@ -9,6 +9,7 @@ const ASSETS = [
   `/static/css/app.css?v=${VERSION}`,
   `/static/js/preferences.js?v=${VERSION}`,
   `/static/js/app.js?v=${VERSION}`,
+  `/static/js/hub.js?v=${VERSION}`,
   "/static/manifest.json",
   "/static/icon.svg",
   "/static/icons/icon-192.png",

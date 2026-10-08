@@ -57,12 +57,12 @@ jobs:
 
       - name: Commit updated feed
         run: |
-          if git diff --quiet -- data/feed.json; then
+          if git diff --quiet -- data/feed.json && test -z "$(git ls-files --others --exclude-standard data/price_history.json)" && git diff --quiet -- data/price_history.json; then
             echo "No feed changes."
           else
             git config user.name "myhub-bot"
             git config user.email "myhub-bot@users.noreply.github.com"
-            git add data/feed.json
+            git add data/feed.json data/price_history.json
             git commit -m "Update MyHub feed"
             git push
           fi
@@ -88,6 +88,8 @@ jobs:
             upload "$path" "$path"
           done < <(find templates static -type f -print0)
           upload "app.py" "app.py"
+          upload "data/game_watchlist.json" "data/game_watchlist.json"
+          upload "data/price_history.json" "data/price_history.json"
 
       - name: Reload PythonAnywhere web app
         env:

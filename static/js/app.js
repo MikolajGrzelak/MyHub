@@ -46,6 +46,11 @@
       $("#toast").hidden = true;
     }, 3300);
   }
+  window.myhubToast = toast;
+  document.addEventListener("myhub:items", (event) => {
+    (event.detail?.items || []).forEach((item) => items.set(item.id, item));
+    hydrate();
+  });
   function persist(key, value) {
     try {
       localStorage.setItem(key, JSON.stringify(value));
@@ -73,8 +78,8 @@
     });
   }
   function hydrate() {
-    dates(feed);
-    feed.querySelectorAll(".card").forEach((card) => {
+    dates();
+    document.querySelectorAll(".card").forEach((card) => {
       const button = card.querySelector("[data-bookmark]");
       if (button) {
         const isSaved = saved.has(card.dataset.id);
@@ -212,7 +217,7 @@
       : "Dotknij zakładki na karcie. Treść będzie czekać tutaj, także offline po otwarciu tego widoku.";
     hydrate();
   }
-  feed.addEventListener("click", (event) => {
+  document.addEventListener("click", (event) => {
     const bookmark = event.target.closest("[data-bookmark]");
     if (bookmark) {
       const id = bookmark.dataset.bookmark;
@@ -446,7 +451,7 @@
         return;
       }
       if (
-        savedView ||
+        savedView || document.body.dataset.view !== "feed" ||
         state.edge ||
         Math.abs(dx) < 90 ||
         Math.abs(dx) < Math.abs(dy) * 1.6

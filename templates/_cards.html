@@ -7,7 +7,10 @@
   <div class="card-content">
     <div class="meta"><span class="source-line"><span class="source-icon">{{ icon(item.source_type) }}</span><span class="source-name">{{ item.source }}</span></span><span class="lang-pill">{{ 'PL' if item.language == 'pl' else 'EN' }}</span></div>
     <h2><a class="card-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h2>
-    {% if item.matched_keywords %}<div class="match">{{ icon('spark') }} {{ item.matched_keywords|join(' · ') }}</div>{% elif item.priority %}<div class="match">{{ icon('spark') }} Cena w Twoim zasięgu</div>{% endif %}
+    {% if item.steam_app_id %}<a class="game-reference" href="/?view=games&amp;game={{ item.steam_app_id }}">{{ icon('game') }} {{ item.game_name or 'Karta gry' }} {{ icon('chevron') }}</a>{% endif %}
+    {% if item.matched_keywords %}<div class="match">{{ icon('spark') }} {{ item.matched_keywords|join(' · ') }}</div>{% endif %}
+    {% if item.within_target %}<div class="match">{{ icon('spark') }} Cena w Twoim zasięgu</div>{% endif %}
+    {% if item.is_historical_low %}<div class="match">{{ icon('check') }} Historyczne minimum · dostępne teraz</div>{% endif %}
     {% if item.source_type == 'deal' %}
     <div class="deal-info">
       {% if item.price %}<strong class="deal-price">{{ item.price }}</strong>{% endif %}
@@ -28,9 +31,10 @@
       {% if summary %}<p class="card-summary">{{ summary }}</p>{% endif %}
       {% if item.summary_pl and item.source_type == 'news' and item.language != 'pl' %}<span class="translation-label">Streszczenie po polsku · AI</span>{% endif %}
     {% endif %}
-    {% if item.tags %}<div class="tags">{% for tag in item.tags %}<a class="tag" href="{{ filter_url(q=tag, view=None) }}">{{ tag }}</a>{% endfor %}</div>{% endif %}
+    {% if item.tags %}<div class="tags">{% for tag in item.tags %}<a class="tag" href="{{ filter_url(q=tag, view=None, game=None) }}">{{ tag }}</a>{% endfor %}</div>{% endif %}
+    {% if item.also_from %}<details class="other-sources"><summary>Także w {{ item.also_from|length }} innych źródłach</summary>{% for alternative in item.also_from %}<a href="{{ alternative.url }}" target="_blank" rel="noopener noreferrer">{{ alternative.source }} {{ icon('arrow') }}</a>{% endfor %}</details>{% endif %}
     <footer class="card-footer">
-      <div class="card-date">{% if item.published_at %}<time datetime="{{ item.published_at }}" data-date="{{ item.published_at }}">{{ item.published_at[:10] }}</time>{% else %}<span>Brak daty źródła</span>{% endif %}<span class="read-label" hidden>Przeczytane</span></div>
+      <div class="card-date">{% if item.source == 'GG.deals' %}<span>Cena od</span>{% endif %}{% if item.published_at %}<time datetime="{{ item.published_at }}" data-date="{{ item.published_at }}">{{ item.published_at[:10] }}</time>{% else %}<span>Brak daty źródła</span>{% endif %}<span class="read-label" hidden>Przeczytane</span></div>
       <div class="card-actions"><span class="category-label">{{ item.category }}</span><button class="bookmark-button icon-button" type="button" data-bookmark="{{ item.id }}" aria-label="Zapisz na później: {{ item.title }}" aria-pressed="false">{{ icon('bookmark') }}</button><span class="open-mark">{{ icon('arrow') }}</span></div>
     </footer>
   </div>

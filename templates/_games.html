@@ -1,0 +1,48 @@
+{% from '_icons.html' import icon %}
+{% if selected_game %}
+<section class="game-detail" data-game-id="{{ selected_game.id }}">
+  <a class="text-button" href="/?view=games">← Wszystkie gry</a>
+  <div class="hub-panel">
+    <div class="panel-heading"><h2>Twoja półka</h2><a href="{{ selected_game.url }}" target="_blank" rel="noopener noreferrer">Steam {{ icon('arrow') }}</a></div>
+    <div class="game-preferences">
+      <label>Status<select id="gameStatus" aria-label="Status"><option value="watching">Obserwuję</option><option value="owned">Mam</option><option value="playing">Gram teraz</option><option value="paused">Odłożona</option><option value="completed">Ukończona</option></select></label>
+      <label>Cena docelowa (PLN)<input id="gameTarget" type="number" min="0" max="10000" step="0.01" placeholder="np. 60"></label>
+      <label>Krótka sesja<select id="gameSession" aria-label="Krótka sesja"><option value="unknown">Jeszcze nie wiem</option><option value="short">Dobra na 30 minut</option><option value="long">Dłuższa sesja</option></select></label>
+      <label>Nastrój<select id="gameMood" aria-label="Nastrój"><option value="any">Dowolny</option><option value="story">Historia</option><option value="relax">Relaks</option><option value="challenge">Wyzwanie</option></select></label>
+      <label class="wide">Powód odłożenia / własna notatka<textarea id="gameNote" maxlength="500" rows="2" placeholder="Np. wrócę po poprawkach wydajności"></textarea></label>
+    </div>
+    <button class="button secondary" id="saveGame" type="button">Zapisz preferencje</button>
+    <p class="privacy-note">Twoje oznaczenia i ceny docelowe są zapisane na tym urządzeniu.</p>
+  </div>
+  {% if selected_game.price %}{% set p = selected_game.price %}
+  <div class="hub-panel">
+    <div class="panel-heading"><h2>Aktualna cena</h2><a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">GG.deals {{ icon('arrow') }}</a></div>
+    <strong class="game-current-price">{{ p.price }}</strong><span class="price-kind">{{ p.price_kind }}</span>
+    {% if p.is_historical_low %}<p class="match">{{ icon('check') }} Historyczne minimum dostępne teraz</p>{% endif %}
+    <p class="match" id="personalPriceSignal" hidden></p>
+    <dl class="price-breakdown"><div><dt>Oficjalne sklepy</dt><dd>{{ p.retail_price or 'Brak danych' }}</dd></div><div><dt>Keyshopy</dt><dd>{{ p.keyshop_price or 'Brak danych' }}</dd></div><div><dt>Minimum wg GG.deals</dt><dd>{{ p.historical_price or 'Brak danych' }}</dd></div></dl>
+    <p class="privacy-note">{% if p.price_checked_at %}Sprawdzono <time data-date="{{ p.price_checked_at }}"></time>{% else %}Cena z ostatniego poprawnego zebrania danych.{% endif %} · Oferta PC. Uprawnienia innych sklepów sprawdź oddzielnie.</p>
+  </div>
+  {% else %}<p class="notice">Brak zweryfikowanej aktualnej ceny. Ostatnie obserwacje w historii mogą być nieaktualne.</p>{% endif %}
+  <div class="hub-panel">
+    <div class="panel-heading"><h2>Historia obserwacji</h2><select id="historyKind" aria-label="Rodzaj ceny na wykresie"><option value="current">Najniższa dostępna</option><option value="retail">Oficjalne sklepy</option><option value="keyshop">Keyshopy</option></select></div>
+    <div id="priceChart" class="price-chart" role="img" aria-label="Historia cen obserwowanych przez MyHub"></div>
+    <p class="privacy-note">Zapisujemy zmiany od uruchomienia tej funkcji, maksymalnie 120 ostatnich obserwacji. Minimum GG.deals powyżej pochodzi z osobnej historii źródła.</p>
+    <details><summary class="text-button">Pokaż zapisane obserwacje ({{ selected_game.history|length }})</summary><div class="history-table-wrap"><table class="history-table"><thead><tr><th>Od</th><th>Oficjalne</th><th>Keyshopy</th></tr></thead><tbody>{% for point in selected_game.history|reverse %}<tr><td><time data-date="{{ point.at }}"></time></td><td>{{ '%.2f'|format(point.retail)|replace('.', ',') if point.retail is number else '—' }}</td><td>{{ '%.2f'|format(point.keyshop)|replace('.', ',') if point.keyshop is number else '—' }}</td></tr>{% endfor %}</tbody></table></div></details>
+  </div>
+</section>
+{% else %}
+<section aria-label="Biblioteka obserwowanych gier">
+  <details class="hub-panel play-picker">
+    <summary class="panel-heading">{{ icon('game') }} <strong>W co dziś zagrać?</strong>{{ icon('chevron') }}</summary>
+    <p>Wybierz spośród gier oznaczonych „Mam”, „Gram teraz” lub „Odłożona”.</p>
+    <div class="game-preferences"><label>Czas<select id="pickTime" aria-label="Czas"><option value="any">Dowolny</option><option value="short">30 minut</option><option value="long">Dłuższa sesja</option></select></label><label>Nastrój<select id="pickMood" aria-label="Nastrój"><option value="any">Dowolny</option><option value="story">Historia</option><option value="relax">Relaks</option><option value="challenge">Wyzwanie</option></select></label></div>
+    <button class="button secondary" id="pickGame" type="button">Zaproponuj gry</button><div id="gamePicks" class="game-picks" aria-live="polite"></div>
+  </details>
+  <div id="returnSignals" class="hub-panel" hidden><h2>Nowe komunikaty do odłożonych gier</h2><p>Sprawdź, czy twórcy rozwiązali powód odłożenia gry.</p><div id="returnList"></div></div>
+  <div class="library-controls"><details class="search-panel"><summary>{{ icon('search') }} Szukaj gry</summary><input type="search" id="gameSearch" placeholder="Nazwa gry" aria-label="Szukaj gry"></details><label>Półka<select id="libraryFilter" aria-label="Półka"><option value="all">Wszystkie</option><option value="watching">Obserwowane</option><option value="owned">Mam</option><option value="playing">Gram teraz</option><option value="paused">Odłożone</option><option value="completed">Ukończone</option><option value="deals">W moim zasięgu</option></select></label></div>
+  <p class="privacy-note" id="libraryCount">{{ games|length }} obserwowanych gier</p>
+  <div class="game-grid" id="gameGrid">{% for game in games %}<article class="game-tile" data-game-id="{{ game.id }}"><a href="/?view=games&amp;game={{ game.id }}"><span class="game-monogram" aria-hidden="true">{{ game.name[:1] }}</span><h2>{{ game.name }}</h2><span class="game-status" data-game-status>Obserwuję</span>{% if game.price %}<strong class="tile-price">{{ game.price.price }}</strong><span class="privacy-note">{{ game.price.price_kind }}</span>{% if game.price.is_historical_low %}<span class="match">Historyczne minimum</span>{% endif %}{% else %}<span class="privacy-note">Brak aktualnej ceny</span>{% endif %}<span class="personal-deal match" hidden>Cena w Twoim zasięgu</span><span class="tile-count">{{ game.related_count }} powiązanych wpisów {{ icon('chevron') }}</span></a></article>{% endfor %}</div>
+  <p class="notice" id="libraryEmpty" hidden>Brak gier na tej półce. Zmień filtr lub oznacz gry na ich kartach.</p>
+</section>
+{% endif %}

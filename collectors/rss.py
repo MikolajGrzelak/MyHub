@@ -32,6 +32,7 @@ DATA_DIR = ROOT / "data"
 FEED_PATH = DATA_DIR / "feed.json"
 DEAL_KEYWORDS_PATH = DATA_DIR / "deal_keywords.json"
 GAME_WATCHLIST_PATH = DATA_DIR / "game_watchlist.json"
+PRICE_HISTORY_PATH = DATA_DIR / "price_history.json"
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 MODEL = os.environ.get("MYHUB_SUMMARY_MODEL", "gemini-3.5-flash-lite")
@@ -70,6 +71,8 @@ OFFTOPIC_TERMS = [
 
 def is_relevant_news(item: dict) -> bool:
     if item.get("source_type", "news") != "news":
+        return True
+    if item.get("is_game_update"):
         return True
 
     text = f"{item.get('title','')} {item.get('summary','')}".lower()
@@ -587,7 +590,7 @@ def read_game_watchlist() -> list[dict]:
 
 
 def _price_number(value):
-    if value in (None, ""):
+    if value in (None, "") or isinstance(value, bool):
         return None
     try:
         number = float(value)
@@ -668,9 +671,9 @@ def collect_ggdeals(games: list[dict]) -> list[dict]:
             historical_values = [v for v in (hist_retail, hist_keyshop) if v is not None]
             historical = min(historical_values) if historical_values else None
 
-            xbox_play_anywhere = game.get("xbox_play_anywhere", False)
-            platform = "xbox_play_anywhere" if xbox_play_anywhere else "pc"
-            platform_label = "Xbox + PC · Play Anywhere" if xbox_play_anywhere else "PC · Legion Go"
+            # GG's Steam AppID prices do not confer Xbox/Windows-store cross-buy rights.
+            platform = "pc"
+            platform_label = "PC · Steam"
 
             summary_parts = []
             if retail is not None:
@@ -705,6 +708,17 @@ def collect_ggdeals(games: list[dict]) -> list[dict]:
                 "retail_price": _format_money(retail, currency),
                 "keyshop_price": _format_money(keyshop, currency),
                 "historical_price": _format_money(historical, currency),
+                "currency": currency,
+                "current_price": current,
+                "retail_price_value": retail,
+                "keyshop_price_value": keyshop,
+                "historical_low": historical,
+                "historical_retail_value": hist_retail,
+                "historical_keyshop_value": hist_keyshop,
+                "target_price": target,
+                "within_target": target is not None and current <= target,
+                "is_historical_low": historical is not None and current <= historical + 0.001,
+                "price_checked_at": now,
                 "platform": platform,
                 "platform_label": platform_label,
                 "steam_app_id": int(app_id),
@@ -1412,25 +1426,99 @@ Opis: {source_text}"""
     print(f"[AI] Enriched {processed} EN items with {MODEL}")
     return processed
 
-def write_feed(items: list[dict]):
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "count": len(items),
-        "items": items,
-    }
+def write_json_atomic(path: Path, payload):
+    path.parent.mkdir(parents=True, exist_ok=True)
     # A reader must see either the old complete feed or the new complete feed.
     temp_path = None
     try:
-        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=DATA_DIR,
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=path.parent,
                                          suffix=".json.tmp", delete=False) as f:
             temp_path = Path(f.name)
             json.dump(payload, f, ensure_ascii=False, indent=2)
-        os.replace(temp_path, FEED_PATH)
+        os.replace(temp_path, path)
     finally:
         if temp_path is not None and temp_path.exists():
             temp_path.unlink()
+
+
+def write_feed(items: list[dict]):
+    write_json_atomic(FEED_PATH, {"updated_at": datetime.now(timezone.utc).isoformat(),
+                                "count": len(items), "items": items})
     print(f"[SAVE] {len(items)} items -> {FEED_PATH}")
+
+
+def record_price_history(items: list[dict]):
+    """Record verified observations, not an invented historical price curve."""
+    try:
+        history = json.loads(PRICE_HISTORY_PATH.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        history = {}
+    games = history.get("games", {}) if isinstance(history, dict) else {}
+    if not isinstance(games, dict):
+        games = {}
+    now = datetime.now(timezone.utc).isoformat()
+    observed = 0
+    for item in items:
+        if item.get("source") != "GG.deals" or item.get("active") is not True or item.get("price_verified") is not True:
+            continue
+        current = _price_number(item.get("current_price"))
+        if current is None or not item.get("steam_app_id"):
+            continue
+        game_id = str(item["steam_app_id"])
+        points = games.get(game_id, [])
+        points = [p for p in points if isinstance(p, dict)] if isinstance(points, list) else []
+        point = {"at": item.get("price_checked_at") or now, "current": current,
+                 "retail": _price_number(item.get("retail_price_value")),
+                 "keyshop": _price_number(item.get("keyshop_price_value")),
+                 "currency": item.get("currency") or "PLN", "kind": item.get("price_kind") or ""}
+        if not points or any(points[-1].get(k) != point[k] for k in ("current", "retail", "keyshop", "currency", "kind")):
+            points.append(point)
+        points[-1]["checked_at"] = point["at"]
+        games[game_id] = points[-120:]
+        observed += 1
+    write_json_atomic(PRICE_HISTORY_PATH, {"updated_at": now, "games": games})
+    print(f"[HISTORY] {observed} verified game prices; {sum(len(p) for p in games.values())} observations")
+
+
+def collect_steam_news(games: list[dict]) -> list[dict]:
+    def fetch(game):
+        app_id = game["steam_app_id"]
+        try:
+            response = requests.get("https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+                params={"appid": app_id, "count": 2, "maxlength": 1000,
+                        "feeds": "steam_community_announcements"}, headers=HEADERS, timeout=15)
+            response.raise_for_status()
+            posts = response.json().get("appnews", {}).get("newsitems", [])
+            result = []
+            for post in posts:
+                published = _pepper_timestamp(post.get("date"))
+                if not published or datetime.fromisoformat(published) < datetime.now(timezone.utc) - timedelta(days=60):
+                    continue
+                url = str(post.get("url") or "")
+                if urlparse(url).scheme not in {"http", "https"}:
+                    continue
+                title = clean_text(str(post.get("title") or ""), 220)
+                if not title or not post.get("gid"):
+                    continue
+                contents = str(post.get("contents") or "")
+                contents = re.sub(r"\[img\].*?\[/img\]", " ", contents, flags=re.S | re.I)
+                contents = re.sub(r"\[/?(?:h[1-6]|b|i|u|strike|list|olist|\*|quote|code|url)(?:=[^\]]*)?\]", " ", contents, flags=re.I)
+                result.append({"id": make_id("Steam", post["gid"]), "source": f"Steam · {game['name']}",
+                    "source_type": "news", "category": "Gaming", "language": "en",
+                    "title": title, "summary": clean_text(contents, 420),
+                    "url": url, "published_at": published, "steam_app_id": app_id,
+                    "game_name": game["name"], "is_game_update": True, "tags": ["Od twórców"],
+                    "matched_keywords": []})
+            return result
+        except (requests.RequestException, ValueError, TypeError, AttributeError) as exc:
+            print(f"[STEAM WARN] {app_id}: {type(exc).__name__}")
+            return []
+    items = []
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for result in pool.map(fetch, games):
+            items.extend(result)
+    print(f"[OK] Steam: {len(items)} recent announcements for {len(games)} watched games")
+    return items
 
 def retain_feed_items(items: list[dict], limit: int = 450) -> list[dict]:
     """Stable watched prices and active deals must not age out behind new posts."""
@@ -1452,7 +1540,11 @@ def main():
     fresh.extend(collect_youtube())
 
     deal_keywords = read_deal_keywords()
-    fresh.extend(collect_ggdeals(read_game_watchlist()))
+    games = read_game_watchlist()
+    fresh.extend(collect_steam_news(games))
+    prices = collect_ggdeals(games)
+    fresh.extend(prices)
+    record_price_history(prices)
     fresh.extend(collect_lowcychin_deals(deal_keywords))
 
     items = merge_items(read_existing(), fresh)

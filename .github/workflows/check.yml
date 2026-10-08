@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches: [main]
-    paths-ignore: ['data/feed.json']
+    paths-ignore: ['data/feed.json', 'data/price_history.json']
 permissions:
   contents: read
 jobs:
