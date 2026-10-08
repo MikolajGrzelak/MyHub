@@ -225,7 +225,8 @@
           $("#testFps").value = r.fps ?? ""; $("#testWatts").value = r.watts ?? "";
           $("#testResolution").value = r.resolution || ""; $("#testVersion").value = r.version || ""; $("#testNote").value = r.note || "";
           $("#testForm button[type=submit]").textContent = "Zapisz zmiany pomiaru"; $("#cancelEdit").hidden = false;
-          $("#testForm").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth", block: "start"});
+          // Keep the form still while the user changes fields and submits it.
+          $("#testForm").scrollIntoView({behavior: "instant", block: "start"});
         });
         remove.addEventListener("click", () => {
           const next = journal.filter((i) => i.id !== r.id);
