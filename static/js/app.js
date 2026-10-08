@@ -390,7 +390,7 @@
     $("#installButton").hidden = true;
     toast("MyHub jest na Twoim ekranie głównym");
   });
-  const sections = ["", "news", "reddit", "youtube", "deal"];
+  const sections = ["news", "reddit", "youtube", "deal"];
   let gesture;
   function resetGesture() {
     gesture = null;
@@ -462,7 +462,7 @@
       const next = current + (dx < 0 ? 1 : -1);
       if (current < 0 || next < 0 || next >= sections.length) return;
       const search = new URLSearchParams(params);
-      ["source", "category", "page", "view"].forEach((key) =>
+      ["source", "category", "page", "view", "low"].forEach((key) =>
         search.delete(key),
       );
       if (sections[next]) search.set("section", sections[next]);

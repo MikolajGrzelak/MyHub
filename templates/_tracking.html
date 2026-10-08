@@ -1,0 +1,21 @@
+{% from '_icons.html' import icon %}
+<section class="hub-panel">
+  <a class="back-link" href="/?section=deal">← Wróć do cen</a>
+  <h2>Dodaj grę PC</h2>
+  <p>Wklej link do gry ze sklepu Steam albo Steam App ID. Nazwę odczytamy automatycznie.</p>
+  <form id="addTrackedGame" class="tracking-add">
+    <label for="steamInput">Link Steam / App ID</label>
+    <input id="steamInput" required maxlength="500" placeholder="https://store.steampowered.com/app/1977170/" autocomplete="off">
+    <button class="button secondary" type="submit">Dodaj do śledzonych</button>
+  </form>
+  <p id="trackingMessage" role="status" aria-live="polite"></p>
+  <a href="https://store.steampowered.com/search/?category1=998" target="_blank" rel="noopener noreferrer">Znajdź grę w Steam {{ icon('arrow') }}</a>
+  <p class="privacy-note">Nowy tytuł i obsługa PC (Windows) zostaną sprawdzone podczas najbliższego pobierania danych. Ceny pojawią się po weryfikacji. Nie dodajemy konsol, DLC, dem ani programów.</p>
+</section>
+<section class="hub-panel">
+  <div class="panel-heading"><h2>Twoja lista</h2><span id="trackingCount" class="privacy-note"></span></div>
+  <label class="tracking-search">Szukaj na liście<input id="trackingSearch" type="search" placeholder="Nazwa gry…"></label>
+  <div id="trackingList" class="tracking-list"></div>
+  <details class="removed-games"><summary>Usunięte z listy <span id="removedCount"></span></summary><div id="removedList" class="tracking-list"></div></details>
+  <p class="privacy-note">Wybór śledzonych gier jest zapisany na tym urządzeniu. Usunięte tytuły znikają z Okazji; możesz je przywrócić poniżej.</p>
+</section>

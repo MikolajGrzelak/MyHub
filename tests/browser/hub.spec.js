@@ -31,33 +31,6 @@ test('game shelf, personal target, session picker and real price observations', 
   expect(errors).toEqual([]);
 });
 
-test('deals include current lows and a personal budget, with functional bookmarks', async ({page}) => {
-  await page.goto('/?section=deal');
-  const baseline = await page.locator('#feed .card').count();
-  expect(baseline).toBe(25);
-  await expect(page.locator('#feed')).not.toContainText('A Plague Tale: Innocence');
-  await page.goto('/?view=games&game=752590');
-  await page.getByLabel('Cena docelowa (PLN)').fill('25');
-  await page.getByRole('button', {name: 'Zapisz preferencje'}).click();
-  await page.getByRole('link', {name: 'Okazje', exact: true}).click();
-  await expect(page.locator('#feed .card')).toHaveCount(26);
-  const card = page.locator('#feed .card').filter({hasText: 'A Plague Tale: Innocence'});
-  await expect(card).toContainText('Cena w Twoim zasięgu');
-  await card.locator('[data-bookmark]').click();
-  await expect(card.locator('[data-bookmark]')).toHaveAttribute('aria-pressed', 'true');
-  await page.getByRole('link', {name: 'Zapisane na później', exact: true}).click();
-  await expect(page.locator('#feed')).toContainText('A Plague Tale: Innocence');
-});
-
-test('a qualified deal surfaced by a personal target on a later page is not counted twice', async ({page}) => {
-  await page.goto('/?view=games&game=1850570');
-  await page.getByLabel('Cena docelowa (PLN)').fill('100');
-  await page.getByRole('button', {name: 'Zapisz preferencje'}).click();
-  await page.goto('/?section=deal&page=2');
-  await expect(page.locator('#feed .card')).toHaveCount(1);
-  await expect(page.locator('#resultCount')).toHaveText('25');
-});
-
 test('hardware journal supports edit, undo, export and safe backup import', async ({page}) => {
   const errors = []; page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/?view=hardware');
@@ -101,14 +74,12 @@ test('hardware journal supports edit, undo, export and safe backup import', asyn
   expect(errors).toEqual([]);
 });
 
-test('paused-game announcements and the last-visit digest use real dates', async ({page}) => {
+test('paused-game announcements use real dates', async ({page}) => {
   await page.goto('/');
   await page.evaluate(() => {
-    localStorage.setItem('myhub.lastVisit', JSON.stringify('2026-10-06T08:00:00Z'));
     localStorage.setItem('myhub.games', JSON.stringify({'1977170': {status: 'paused', paused_at: '2026-10-06T08:00:00Z'}}));
   });
   await page.reload();
-  await expect(page.locator('#visitNote')).toContainText('nowych wpisów');
   await page.goto('/?view=games');
   await expect(page.locator('#returnSignals')).toBeVisible();
   await expect(page.locator('#returnList')).toContainText('Jusant');

@@ -44,7 +44,7 @@ Ten plik jest stałym kontekstem dla kolejnych sesji pracy nad MyHub. Przed wpro
 ## UI / UX
 
 - Aplikacja jest mobile-first i głównym urządzeniem jest iPhone jako PWA.
-- Dolna nawigacja: Start, News, Reddit, YouTube, Okazje.
+- Dolna nawigacja: News, Reddit, YouTube, Okazje. Root otwiera News; ekran Start usunięty na prośbę użytkownika.
 - Użytkownik chce możliwie natywne, „aplikacyjne” zachowanie.
 - Obsługujemy swipe lewo/prawo między głównymi sekcjami oraz pull-to-refresh.
 - Zwracaj szczególną uwagę na iOS safe area, Dynamic Island/status bar i dolny home indicator.
@@ -89,9 +89,16 @@ Ten plik jest stałym kontekstem dla kolejnych sesji pracy nad MyHub. Przed wpro
 
 ## Centrum gier i sprzętu (2026-10-08)
 
-- Wyszukiwarka domyślnie schowana. Okazje: wyłącznie ceny docelowe lub historyczne minima obowiązujące teraz; wymagają `active` i `price_verified`. Pozostałe ceny są w katalogu gier.
+- Wyszukiwarka domyślnie schowana. Okazje pokazują wszystkie śledzone gry PC z ceną oficjalną, ceną klucza i minimum historycznym. Przycisk `low=1` filtruje gry, gdzie którakolwiek zweryfikowana obecna cena jest równa minimum (tolerancja poniżej pół grosza). Braki cen to kreska, nigdy 0 zł.
 - Nowe widoki: `/?view=games`, `/?view=games&game=STEAM_ID`, `/?view=hardware`; UI w `_games.html`, `_hardware.html`, `static/js/hub.js`.
 - Progi i półka (`myhub.games`), sprzęt (`myhub.device`), pomiary (`myhub.tests`) oraz bookmarki są lokalne. Eksport/import JSON umożliwia przeniesienie; nie opisuj go jako synchronizacji.
 - Dane wdrażane: `data/game_watchlist.json`, `data/price_history.json` oraz feed. Historia zbierana dopiero od uruchomienia funkcji; nie wolno dopisywać domniemanych wcześniejszych cen. Nie łącz walut ani cen keyshopów z oficjalnymi przy porównaniach.
 - Steam komunikaty zbierane po dokładnym App ID w Actions. Przypomnienie o odłożonej grze informuje o komunikacie, nie potwierdza usunięcia błędów. Ofert Steam nie oznaczaj jako Xbox Play Anywhere na podstawie samego tytułu.
 - Testy Playwright używają `tests/serve.py` i tymczasowych danych. Nie uzależniaj ich od obecności promocji w bieżącym feedzie. Po deployu zweryfikuj prawdziwe dane oddzielnie.
+
+## Edycja śledzonych gier PC
+
+- `/?section=deal&view=tracking`: dodawanie przez link Steam HTTPS `/app/ID/` lub App ID, usuwanie i przywracanie. Wybór jest lokalny (`myhub.tracking`, listy `added` i `excluded`) i objęty eksportem JSON. Usunięcie z osobistej listy nie wyłącza globalnego zbierania: collector obsługuje bazowy katalog oraz wspólną pulę nowych gier.
+- `/api/tracking` GET udostępnia dodatkowe publiczne Steam ID i stan weryfikacji. POST (JSON, ten sam Origin, maks. 2 KB) kolejkuje ID w `data/tracking.db`. Baza jest trwałym stanem PythonAnywhere; nie commituj jej ani nie zastępuj przy deployu. Limit wynosi 100 dodatkowych ID.
+- `collect_requested_games()` w Actions pobiera kolejkę i weryfikuje tytuł, typ `game` oraz `platforms.windows` na Steam. DLC, dema, programy i brak PC trafiają do `rejected`; błędy sieci pozostają pending. Weryfikujemy do 20 nowych ID na przebieg.
+- `data/tracked_games.json` przechowuje nazwy i wyniki weryfikacji; collector commituje i wdraża go wraz z feedem. Gry `ready` trafiają do GG.deals i historii. Gry innych urządzeń nie są automatycznie dodawane do osobistej listy.

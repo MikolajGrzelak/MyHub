@@ -52,7 +52,15 @@ Ikony PNG dla Androida i iOS są zapisane w repozytorium. Po zmianie `static/ico
 
 Lista cen GG.deals jest w pliku `data/game_watchlist.json`.
 
-## Jak dodać grę
+## Edycja listy w PWA
+
+W **Okazjach → Edytuj listę gier** wklej link do gry w sklepie Steam (np. `https://store.steampowered.com/app/1977170/Jusant/`) albo sam App ID. Nie trzeba podawać nazwy. Nowy identyfikator czeka na najbliższy collector w Actions; Steam potwierdza nazwę, typ gry i PC (Windows), potem GG.deals dostarcza ceny. DLC, dema i programy są odrzucane; błąd sieci zostawia stan oczekiwania.
+
+Przy tytule wybierz **Usuń**, aby schować go z osobistych Okazji; lista usuniętych umożliwia przywrócenie. Wybór jest lokalny (`myhub.tracking`) i wchodzi do kopii JSON. Collector nadal pobiera wspólną pulę cen, więc usunięcie osobiste nie wyłącza globalnego zbierania.
+
+Publiczna kolejka `/api/tracking` przechowuje do 100 dodatkowych Steam ID w runtime `data/tracking.db` na PythonAnywhere. Prywatne preferencje pozostają na urządzeniu. Nie uploaduj bazy podczas wdrożenia. Actions weryfikuje do 20 nowych identyfikatorów na przebieg i zapisuje wyniki w `data/tracked_games.json`.
+
+## Jak dodać grę do bazowego katalogu w repozytorium
 
 1. Otwórz stronę gry na Steam.
 2. W adresie znajdź liczbę po `/app/`. Przykład: `store.steampowered.com/app/1868140/DAVE_THE_DIVER/` → Steam App ID to `1868140`.
@@ -95,19 +103,19 @@ Usuń cały obiekt gry z `game_watchlist.json`, pilnując poprawnych przecinków
 
 ## Zasady naszej listy
 
-Preferujemy gry PC i Xbox Play Anywhere, szczególnie dobrze pasujące do handheldów. Nie dodajemy FPS-ów ani RTS-ów. Dla GG.deals kluczowym identyfikatorem jest `steam_app_id`, dlatego nie zmieniaj go na Xbox Store ID.
+Śledzimy gry PC, szczególnie dobrze pasujące do handheldów. Bazowy katalog nie zawiera FPS-ów ani RTS-ów; własne tytuły wybiera użytkownik. Dla GG.deals kluczowym identyfikatorem jest `steam_app_id`, dlatego nie zmieniaj go na Xbox Store ID.
 
 ## Osobiste centrum gier i sprzętu
 
-- Start przeplata News, Reddit, YouTube i kwalifikujące się okazje. Identyczne tytuły są grupowane z linkami do innych źródeł; pełne listy pozostają w sekcjach. Licznik od ostatniej wizyty korzysta z `first_seen_at`, a data na karcie nadal jest datą źródła.
+- News jest ekranem wejściowym. Dolna nawigacja ma cztery zakładki: News, Reddit, YouTube i Okazje.
 - Wyszukiwanie jest domyślnie zwinięte; aktywne zapytanie otwiera pole automatycznie.
-- Okazje pokazują tylko aktywne, zweryfikowane ceny osiągające próg lub minimum historyczne dostępne teraz. Samo dopasowanie keyworda nie kwalifikuje oferty. Własne progi są lokalne i dodają pasujące oferty na urządzeniu, bez wysyłania preferencji do serwera.
+- Okazje pokazują wszystkie śledzone gry PC i trzy ceny: oficjalne sklepy, klucze oraz minimum historyczne. Przycisk na górze (`low=1`) wybiera gry, gdzie jedna z obecnych, zweryfikowanych cen jest równa minimum. Brak ceny jest pokazany jako kreska. Progi cenowe pozostają informacją na kartach gier.
 - `/?view=games` pokazuje katalog z `data/game_watchlist.json`; `&game=STEAM_ID` otwiera cenę, historię i wzmianki. Półka, notatki, nastrój i długość sesji są zapisane lokalnie w `myhub.games`. Wybór gry na 30 minut opiera się na oznaczeniach użytkownika, bez automatycznego zgadywania posiadania lub wydajności.
 - Steam `GetNewsForApp/v2` zbiera do dwóch komunikatów twórców z ostatnich 60 dni na grę, przez collector w Actions. Brak komunikatów lub błąd źródła nie jest potwierdzeniem braku aktualizacji. Nowy komunikat po odłożeniu gry pojawia się w bibliotece; nie oznacza automatycznie naprawienia problemu.
   Komunikaty z ostatnich 60 dni zachowują miejsce w feedzie obok aktywnych ofert; pozostały limit 450 wypełniają ogólne newsy. Starsze komunikaty wygasają z tej listy. Źródłowa data nie jest podmieniana na datę zbierania.
 - `data/price_history.json` zapisuje wyłącznie rzeczywiste, zweryfikowane obserwacje GG.deals, oddzielnie oficjalne sklepy i keyshopy. Niezmienione ceny aktualizują czas ostatniej weryfikacji; zmiany tworzą punkt. Zachowujemy 120 punktów na grę. To nie jest kompletna historia rynku; minimum GG.deals pozostaje osobnym polem. Workflow commituje i wdraża feed, historię oraz katalog gier.
 - `/?view=hardware` zawiera własny profil urządzenia, radar handheldów i dziennik do 200 pomiarów (`myhub.device`, `myhub.tests`). FPS i limit APU wpisuje użytkownik; nie są automatycznymi benchmarkami. Edycja zachowuje pierwotne urządzenie pomiaru; usunięcie można cofnąć.
-- Eksport JSON (schema 1) obejmuje półkę, progi, sprzęt, pomiary i zapisane treści. Import do 2 MB łączy nowsze oznaczenia i waliduje identyfikatory, limity oraz URL-e. Przekroczenie limitu kończy import bez zmian; nie są usuwane starsze dane, aby zmieścić kopię.
+- Eksport JSON (schema 1) obejmuje półkę, progi, sprzęt, pomiary, zapisane treści i wybór śledzonych gier. Import do 2 MB łączy nowsze oznaczenia i waliduje identyfikatory, limity oraz URL-e; wybór śledzonych gier odtwarza z kopii. Przekroczenie limitu kończy import bez zmian; nie są usuwane starsze dane, aby zmieścić kopię.
 - Odwiedzone karty gier i centrum sprzętu działają z dokładnej kopii offline. Lokalne dane nie są automatycznie synchronizowane. Po wyczyszczeniu danych przeglądarki odtwórz je z eksportu.
 
 Testy przeglądarkowe uruchamiają `tests/serve.py` z tymczasowym, powtarzalnym feedem i historią. Nie zmieniają produkcyjnych plików danych i nie zależą od aktualnych promocji. Przegląd produkcji należy wykonać dodatkowo po wdrożeniu.

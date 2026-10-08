@@ -1,11 +1,12 @@
-"""Read-only web app; collection runs separately in GitHub Actions."""
+"""Web app and Steam-ID queue; price collection runs in GitHub Actions."""
 import hashlib
 import json
 import math
 import re
+import sqlite3
 import threading
 import unicodedata
-from collections import deque
+from contextlib import closing
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -17,7 +18,9 @@ BASE_DIR = Path(__file__).resolve().parent
 FEED_PATH = BASE_DIR / "data" / "feed.json"
 WATCHLIST_PATH = BASE_DIR / "data" / "game_watchlist.json"
 HISTORY_PATH = BASE_DIR / "data" / "price_history.json"
-APP_VERSION = "2026.10.08.3"
+TRACKED_PATH = BASE_DIR / "data" / "tracked_games.json"
+TRACKING_DB = BASE_DIR / "data" / "tracking.db"
+APP_VERSION = "2026.10.08.4"
 PAGE_SIZE = 36
 SECTIONS = {"news": "News", "reddit": "Reddit", "youtube": "YouTube", "deal": "Okazje"}
 _feed_lock = threading.Lock()
@@ -63,7 +66,9 @@ def deal_signals(item):
     historical = price_number(item.get("historical_low", item.get("historical_price")))
     target = price_number(item.get("target_price"))
     verified = item.get("active") is True and item.get("price_verified") is True and current is not None
-    low = bool(verified and historical is not None and current <= historical + 0.001)
+    candidates = [price_number(item.get(key)) for key in ("retail_price_value", "keyshop_price_value", "retail_price", "keyshop_price")]
+    candidates = [v for v in candidates if v is not None] or [current]
+    low = bool(verified and historical is not None and any(v is not None and abs(v - historical) < 0.005 for v in candidates))
     # Legacy GG entries used priority for both the target and the historical low.
     budget = bool(verified and str(item.get("currency") or "PLN").upper() == "PLN" and ((target is not None and current <= target) or
                   (target is None and item.get("priority") is True and not low)))
@@ -131,6 +136,66 @@ def read_json(path, fallback):
         return fallback
 
 
+def tracking_catalog():
+    """Public Steam IDs only; personal selections never leave the browser."""
+    metadata = read_json(TRACKED_PATH, {})
+    metadata = metadata.get("games", []) if isinstance(metadata, dict) else []
+    metadata = metadata if isinstance(metadata, list) else []
+    known = {str(g.get("steam_app_id")): g for g in metadata if isinstance(g, dict)}
+    # SQLite is runtime state and must never be replaced by a deployment upload.
+    TRACKING_DB.parent.mkdir(parents=True, exist_ok=True)
+    with closing(sqlite3.connect(TRACKING_DB, timeout=10)) as conn, conn:
+        conn.execute("CREATE TABLE IF NOT EXISTS requests (app_id TEXT PRIMARY KEY)")
+        ids = [r[0] for r in conn.execute("SELECT app_id FROM requests ORDER BY rowid LIMIT 100")]
+    return [known.get(app_id, {"steam_app_id": int(app_id), "name": f"Steam {app_id}", "status": "pending"}) for app_id in dict.fromkeys([*known, *ids])][:100]
+
+
+def steam_id(value):
+    if not isinstance(value, str) or len(value) > 500:
+        return None
+    value = value.strip()
+    if value.isascii() and value.isdigit() and 0 < int(value) <= 4294967295:
+        return str(int(value))
+    try:
+        url = urlsplit(value)
+        match = re.match(r"^/app/(\d+)(?:/|$)", url.path)
+        if url.scheme == "https" and url.hostname == "store.steampowered.com" and not url.username and not url.password and url.port in (None, 443) and match:
+            return steam_id(match[1])
+    except ValueError:
+        pass
+    return None
+
+
+@app.route("/api/tracking", methods=["GET", "POST"])
+def tracking():
+    if request.method == "GET":
+        return jsonify(games=tracking_catalog())
+    if request.headers.get("Origin") not in {request.host_url.rstrip("/"), f"https://{request.host}"} or not request.is_json:
+        return jsonify(error="Nieprawidłowe żądanie."), 403
+    if request.content_length is None or request.content_length > 2048:
+        return jsonify(error="Żądanie jest za duże."), 413
+    payload = request.get_json(silent=True)
+    app_id = steam_id(payload.get("steam") if isinstance(payload, dict) else None)
+    if not app_id:
+        return jsonify(error="Wklej link https://store.steampowered.com/app/… albo poprawny Steam App ID."), 400
+    defaults = read_json(WATCHLIST_PATH, {})
+    defaults = defaults.get("games", []) if isinstance(defaults, dict) else []
+    defaults = [g for g in defaults if isinstance(g, dict)] if isinstance(defaults, list) else []
+    known = next((g for g in [*defaults, *tracking_catalog()] if str(g.get("steam_app_id")) == app_id), None)
+    if known:
+        if known.get("status") == "rejected":
+            return jsonify(error="To nie jest samodzielna gra na PC (Windows) albo identyfikator nie istnieje."), 400
+        return jsonify(steam_app_id=app_id, status=known.get("status", "ready"))
+    if len(tracking_catalog()) >= 100:
+        return jsonify(error="Limit nowych gier został osiągnięty."), 429
+    with closing(sqlite3.connect(TRACKING_DB, timeout=10)) as conn, conn:
+        conn.execute("BEGIN IMMEDIATE")
+        if conn.execute("SELECT COUNT(*) FROM requests").fetchone()[0] >= 100:
+            return jsonify(error="Limit nowych gier został osiągnięty."), 429
+        conn.execute("INSERT OR IGNORE INTO requests VALUES (?)", (app_id,))
+    return jsonify(steam_app_id=app_id, status="pending"), 202
+
+
 def game_matches(item, game):
     if str(item.get("steam_app_id") or "") == game["id"]:
         return True
@@ -143,9 +208,13 @@ def game_matches(item, game):
 def game_catalog(all_items):
     payload = read_json(WATCHLIST_PATH, {})
     raw_games = payload.get("games", []) if isinstance(payload, dict) else []
+    raw_games = [dict(g, default=True) for g in raw_games if isinstance(g, dict)] if isinstance(raw_games, list) else []
+    extra = tracking_catalog()
+    raw_games += [dict(g, default=False) for g in extra]
     history = read_json(HISTORY_PATH, {})
     history = history.get("games", {}) if isinstance(history, dict) else {}
-    prices = {str(i.get("steam_app_id")): i for i in all_items if i["source_type"] == "deal"}
+    prices = {str(i.get("steam_app_id")): i for i in all_items if i["source_type"] == "deal" and
+              i["source"] == "GG.deals" and i.get("active") is True and i.get("price_verified") is True}
     games = []
     seen = set()
     posts = [(i, fold(i["title"])) for i in all_items if i["source_type"] != "deal"]
@@ -160,6 +229,7 @@ def game_catalog(all_items):
             continue
         seen.add(app_id)
         game = {"id": app_id, "name": str(raw.get("name") or f"Steam {app_id}"),
+                "default": raw.get("default", False), "watch_status": raw.get("status", "ready"),
                 "price": prices.get(app_id), "history": history.get(app_id, []) if isinstance(history, dict) else [],
                 "url": f"https://store.steampowered.com/app/{app_id}/"}
         game["history"] = [p for p in game["history"][-120:] if isinstance(p, dict) and
@@ -173,36 +243,11 @@ def game_catalog(all_items):
     return games
 
 
-def balanced_start(items):
-    """Interleave sources without letting frequent price checks bury other topics."""
-    queues = {kind: deque() for kind in SECTIONS}
-    seen = {}
-    for item in items:
-        if item["source_type"] == "deal" and not item.get("deal_qualified"):
-            continue
-        # Generic patch titles can be identical across entirely different games.
-        key = (fold(item["title"]), str(item.get("steam_app_id") or ""))
-        if key in seen:
-            primary = seen[key]
-            if item["url"] != primary["url"] and not any(a["url"] == item["url"] for a in primary.get("also_from", [])):
-                primary.setdefault("also_from", []).append({"source": item["source"], "url": item["url"]})
-            continue
-        copy = dict(item)
-        seen[key] = copy
-        queues[item["source_type"]].append(copy)
-    result = []
-    while any(queues.values()):
-        for kind in ("news", "reddit", "youtube", "news", "deal"):
-            if queues[kind]:
-                result.append(queues[kind].popleft())
-    return result
-
-
 def query_context():
     feed = load_feed()
     all_items = feed["items"]
-    section = request.args.get("section", "").strip().lower()
-    section = section if section in {*SECTIONS, "priority"} else ""
+    section = request.args.get("section", "news").strip().lower()
+    section = section if section in {*SECTIONS, "priority"} else "news"
     language = request.args.get("lang", "").strip().lower()
     language = language if language in {"pl", "en"} else ""
     category = request.args.get("category", "").strip()[:80]
@@ -211,8 +256,8 @@ def query_context():
     sort = request.args.get("sort", "newest")
     sort = sort if sort in {"newest", "priority"} else "newest"
     view = request.args.get("view", "feed")
-    view = view if view in {"saved", "games", "hardware"} else "feed"
-    games = game_catalog(all_items) if request.path != "/api/feed" or view == "games" else []
+    view = view if view in {"saved", "games", "hardware", "tracking"} else "feed"
+    games = game_catalog(all_items) if request.path != "/api/feed" or view == "games" or section == "deal" else []
     game_id = request.args.get("game", "")
     selected_game = next((g for g in games if g["id"] == game_id), None) if view == "games" else None
     page = max(1, min(request.args.get("page", 1, type=int) or 1, 1000))
@@ -222,7 +267,12 @@ def query_context():
     elif section:
         items = [i for i in items if i["source_type"] == section]
     if section == "deal":
-        items = [i for i in items if i.get("deal_qualified")]
+        items = [g["price"] or normalize_item({"id": f"steam-price-{g['id']}", "title": g["name"],
+                 "url": g["url"], "source": "GG.deals", "source_type": "deal", "language": "pl",
+                 "steam_app_id": g["id"], "watch_status": g["watch_status"], "platform_label": "PC · Steam"})
+                 for g in games if g["watch_status"] != "rejected"]
+        if request.args.get("low") == "1":
+            items = [i for i in items if i.get("is_historical_low")]
     if category:
         items = [i for i in items if i["category"].casefold() == category.casefold()]
     if language:
@@ -236,9 +286,7 @@ def query_context():
              *i["tags"], *i["matched_keywords"]])) for word in words)]
     if sort == "priority":
         items = sorted(items, key=lambda i: bool(i.get("priority") or i["matched_keywords"]), reverse=True)
-    home = view == "feed" and not any((section, category, source, query, language)) and sort == "newest"
-    if home:
-        items = balanced_start(items)
+    home = False
     if selected_game:
         items = [i for i in all_items if i["source_type"] != "deal" and game_matches(i, selected_game)]
     groups = {key: sorted({i["source"] for i in all_items if i["source_type"] == key}, key=str.casefold)
@@ -246,10 +294,12 @@ def query_context():
     filtered_count = len(items)
     offset = (page - 1) * PAGE_SIZE
     show_items = view == "feed" or selected_game is not None
-    return dict(items=items[offset:offset + PAGE_SIZE] if show_items else [],
+    offers = section == "deal" and view == "feed"
+    return dict(items=(items if offers else items[offset:offset + PAGE_SIZE]) if show_items else [],
                 total_count=len(all_items), filtered_count=filtered_count,
-                has_more=offset + PAGE_SIZE < filtered_count and show_items, page=page,
-                section=section, section_title=(selected_game["name"] if selected_game else "Twoje gry" if view == "games" else "Twój sprzęt" if view == "hardware" else SECTIONS.get(section, "Dla Ciebie" if section == "priority" else "Twój daily feed")),
+                has_more=offset + PAGE_SIZE < filtered_count and show_items and not offers, page=page,
+                low_only=request.args.get("low") == "1", offers=offers,
+                section=section, section_title=(selected_game["name"] if selected_game else "Edytuj śledzone gry" if view == "tracking" else "Twoje gry" if view == "games" else "Twój sprzęt" if view == "hardware" else SECTIONS.get(section, "Dla Ciebie")),
                 language=language, category=category, source=source, query=query, sort=sort, view=view,
                 available_source_groups=groups,
                 categories=sorted({i["category"] for i in all_items if i["category"]}),
@@ -265,7 +315,7 @@ def query_context():
 @app.template_global()
 def filter_url(**changes):
     params = {k: v for k, v in request.args.items()
-              if k in {"section", "lang", "category", "source", "q", "sort", "view", "game"}}
+              if k in {"section", "lang", "category", "source", "q", "sort", "view", "game", "low"}}
     for key, value in changes.items():
         if value:
             params[key] = value
@@ -314,7 +364,7 @@ def health():
 def response_headers(response):
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
-    if request.path in {"/", "/api/feed", "/health"}:
+    if request.path in {"/", "/api/feed", "/api/tracking", "/health"}:
         response.headers["Cache-Control"] = "no-cache"
     return response
 
