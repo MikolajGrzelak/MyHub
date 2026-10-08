@@ -180,7 +180,8 @@ def balanced_start(items):
     for item in items:
         if item["source_type"] == "deal" and not item.get("deal_qualified"):
             continue
-        key = fold(item["title"])
+        # Generic patch titles can be identical across entirely different games.
+        key = (fold(item["title"]), str(item.get("steam_app_id") or ""))
         if key in seen:
             primary = seen[key]
             if item["url"] != primary["url"] and not any(a["url"] == item["url"] for a in primary.get("also_from", [])):

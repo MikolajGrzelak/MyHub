@@ -170,6 +170,10 @@ class AppTests(unittest.TestCase):
         for url in ['/?view=games', '/?view=hardware', '/?view=games&game=bad']:
             self.assertEqual(self.client.get(url).status_code, 200)
 
+    def test_same_patch_title_for_different_games_is_not_grouped(self):
+        self.write([item(1, title='Patch 1.1', steam_app_id=123), item(2, title='Patch 1.1', steam_app_id=456)])
+        self.assertEqual(self.client.get('/api/feed').json['count'], 2)
+
 
 if __name__ == '__main__':
     unittest.main()
