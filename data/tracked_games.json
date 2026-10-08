@@ -1,3 +1,14 @@
 {
-  "games": []
+  "games": [
+    {
+      "steam_app_id": 2638890,
+      "name": "Onimusha: Way of the Sword",
+      "status": "ready"
+    },
+    {
+      "steam_app_id": 3751260,
+      "name": "The Blood of Dawnwalker",
+      "status": "ready"
+    }
+  ]
 }
