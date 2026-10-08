@@ -1,5 +1,23 @@
 const {test, expect} = require('@playwright/test');
 
+test('tracking form waits for its script before accepting a submission', async ({page}) => {
+  let release;
+  const gate = new Promise(resolve => {release = resolve;});
+  await page.route('**/static/js/hub.js?*', async route => {await gate; await route.continue();});
+  try {
+    await page.goto('/?section=deal&view=tracking', {waitUntil:'commit'});
+    const button = page.getByRole('button', {name:'Dodaj do śledzonych', exact:true});
+    await expect(button).toBeVisible();
+    await expect(button).toBeDisabled();
+    release();
+    await expect(button).toBeEnabled();
+    await page.getByLabel('Link Steam / App ID').fill('1850570');
+    await button.click();
+    await expect(page.locator('#trackingMessage')).toContainText('na Twojej liście');
+    await expect(page).toHaveURL(/view=tracking/);
+  } finally {release();}
+});
+
 test('News opens first; all tracked PC prices are shown and lows are optional', async ({page}) => {
   const errors = []; page.on('pageerror', e => errors.push(e.message));
   await page.goto('/');

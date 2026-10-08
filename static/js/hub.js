@@ -79,6 +79,8 @@
     } catch (error) {message.textContent = error.message || "Nie udało się połączyć. Spróbuj ponownie.";}
     finally {button.disabled = false;}
   });
+  // Keep native GET submission from navigating away while the deferred script loads.
+  if ($("#addTrackedGame")) $("#addTrackedGame button").disabled = false;
   if (document.body.dataset.section === "deal" && document.body.dataset.view === "feed") {
     let count = 0;
     $("#feed").querySelectorAll(".card").forEach((card) => {
